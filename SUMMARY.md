@@ -1793,6 +1793,7 @@
     - Managing Repository Settings
       * [About Email Notifications For Pushes To Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/about-email-notifications-for-pushes-to-your-repository.md)
       * [Configuring Autolinks To Reference External Resources](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/configuring-autolinks-to-reference-external-resources.md)
+      * [Configuring Tag Protection Rules](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/configuring-tag-protection-rules.md)
       * [Enabling Anonymous Git Read Access For A Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/enabling-anonymous-git-read-access-for-a-repository.md)
       * [Managing Repository Settings](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/index.md)
       * [Managing Git LFS Objects In Archives Of Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-git-lfs-objects-in-archives-of-your-repository.md)
