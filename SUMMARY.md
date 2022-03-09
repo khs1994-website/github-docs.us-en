@@ -772,7 +772,6 @@
       * [Listing Dependencies Configured For Version Updates](code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/listing-dependencies-configured-for-version-updates.md)
       * [Managing Encrypted Secrets For Dependabot](code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/managing-encrypted-secrets-for-dependabot.md)
       * [Managing Pull Requests For Dependency Updates](code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/managing-pull-requests-for-dependency-updates.md)
-      * [Upgrading from Dependabot.com to GitHub-native Dependabot](code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/upgrading-from-dependabotcom-to-github-native-dependabot.md)
     - Managing Vulnerabilities In Your Projects Dependencies
       * [About Alerts For Vulnerable Dependencies](code-security/supply-chain-security/managing-vulnerabilities-in-your-projects-dependencies/about-alerts-for-vulnerable-dependencies.md)
       * [About Dependabot Security Updates](code-security/supply-chain-security/managing-vulnerabilities-in-your-projects-dependencies/about-dependabot-security-updates.md)
