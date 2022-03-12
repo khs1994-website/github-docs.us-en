@@ -1426,10 +1426,13 @@
     * [Best Practices For Managing Projects Beta](issues/trying-out-the-new-projects-experience/best-practices-for-managing-projects.md)
     * [Creating A Project Beta](issues/trying-out-the-new-projects-experience/creating-a-project.md)
     * [Customizing Your Project Beta Views](issues/trying-out-the-new-projects-experience/customizing-your-project-views.md)
+    * [Filtering Projects Beta](issues/trying-out-the-new-projects-experience/filtering-projects.md)
     * [Trying Out The New Projects Experience](issues/trying-out-the-new-projects-experience/index.md)
     * [Managing Access To Projects Beta](issues/trying-out-the-new-projects-experience/managing-access-to-projects.md)
+    * [Managing Iterations In Projects Beta](issues/trying-out-the-new-projects-experience/managing-iterations.md)
     * [Managing The Visibility Of Your Projects Beta](issues/trying-out-the-new-projects-experience/managing-the-visibility-of-your-projects.md)
     * [Quickstart For Projects Beta](issues/trying-out-the-new-projects-experience/quickstart.md)
+    * [Using Insights With Projects Beta](issues/trying-out-the-new-projects-experience/using-insights-with-projects.md)
     * [Using The API To Manage Projects Beta](issues/trying-out-the-new-projects-experience/using-the-api-to-manage-projects.md)
   - Using Labels And Milestones To Track Work
     * [About Milestones](issues/using-labels-and-milestones-to-track-work/about-milestones.md)
