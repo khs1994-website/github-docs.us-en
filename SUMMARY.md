@@ -1179,7 +1179,7 @@
   - Importing Your Projects To Github
     - Importing Source Code To Github
       * [About Git Hub Importer](get-started/importing-your-projects-to-github/importing-source-code-to-github/about-github-importer.md)
-      * [Adding An Existing Project To Git Hub Using The Command Line](get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line.md)
+      * [Adding Locally Hosted Code To Git Hub](get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github.md)
       * [Importing A Git Repository Using The Command Line](get-started/importing-your-projects-to-github/importing-source-code-to-github/importing-a-git-repository-using-the-command-line.md)
       * [Importing A Repository With Git Hub Importer](get-started/importing-your-projects-to-github/importing-source-code-to-github/importing-a-repository-with-github-importer.md)
       * [Importing Source Code To Git Hub](get-started/importing-your-projects-to-github/importing-source-code-to-github/index.md)
