@@ -304,6 +304,7 @@
       * [Configuring Rate Limits](admin/configuration/configuring-your-enterprise/configuring-rate-limits.md)
       * [Configuring The Referrer Policy For Your Enterprise](admin/configuration/configuring-your-enterprise/configuring-the-referrer-policy-for-your-enterprise.md)
       * [Configuring Time Synchronization](admin/configuration/configuring-your-enterprise/configuring-time-synchronization.md)
+      * [Deploying Git Hub AE](admin/configuration/configuring-your-enterprise/deploying-github-ae.md)
       * [Enabling And Scheduling Maintenance Mode](admin/configuration/configuring-your-enterprise/enabling-and-scheduling-maintenance-mode.md)
       * [Enabling Private Mode](admin/configuration/configuring-your-enterprise/enabling-private-mode.md)
       * [Configuring Your Enterprise](admin/configuration/configuring-your-enterprise/index.md)
@@ -1234,7 +1235,6 @@
     * [Set Up Git](get-started/quickstart/set-up-git.md)
   - Signing Up For Github
     * [Signing Up For Git Hub](get-started/signing-up-for-github/index.md)
-    * [Setting Up A Trial Of Git Hub AE](get-started/signing-up-for-github/setting-up-a-trial-of-github-ae.md)
     * [Setting Up A Trial Of Git Hub Enterprise Cloud](get-started/signing-up-for-github/setting-up-a-trial-of-github-enterprise-cloud.md)
     * [Setting Up A Trial Of Git Hub Enterprise Server](get-started/signing-up-for-github/setting-up-a-trial-of-github-enterprise-server.md)
     * [Signing Up For A New Git Hub Account](get-started/signing-up-for-github/signing-up-for-a-new-github-account.md)
