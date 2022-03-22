@@ -1175,6 +1175,7 @@
     * [Customizing Your Git Hub Workflow](get-started/customizing-your-github-workflow/index.md)
   - Exploring Projects On Github
     * [Finding Ways To Contribute To Open Source On Git Hub](get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github.md)
+    * [Following Organizations](get-started/exploring-projects-on-github/following-organizations.md)
     * [Following People](get-started/exploring-projects-on-github/following-people.md)
     * [Exploring Projects On Git Hub](get-started/exploring-projects-on-github/index.md)
     * [Saving Repositories With Stars](get-started/exploring-projects-on-github/saving-repositories-with-stars.md)
