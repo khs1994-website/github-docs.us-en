@@ -154,6 +154,7 @@
     * [Managing Access To Self Hosted Runners Using Groups](actions/hosting-your-own-runners/managing-access-to-self-hosted-runners-using-groups.md)
     * [Monitoring And Troubleshooting Self Hosted Runners](actions/hosting-your-own-runners/monitoring-and-troubleshooting-self-hosted-runners.md)
     * [Removing Self Hosted Runners](actions/hosting-your-own-runners/removing-self-hosted-runners.md)
+    * [Running Scripts Before Or After A Job](actions/hosting-your-own-runners/running-scripts-before-or-after-a-job.md)
     * [Using A Proxy Server With Self Hosted Runners](actions/hosting-your-own-runners/using-a-proxy-server-with-self-hosted-runners.md)
     * [Using Labels With Self Hosted Runners](actions/hosting-your-own-runners/using-labels-with-self-hosted-runners.md)
     * [Using Self Hosted Runners In A Workflow](actions/hosting-your-own-runners/using-self-hosted-runners-in-a-workflow.md)
