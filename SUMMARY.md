@@ -1645,10 +1645,10 @@
       * [Getting Started](pull-requests/collaborating-with-pull-requests/getting-started/index.md)
     - Incorporating Changes From A Pull Request
       * [About Pull Request Merges](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges.md)
-      * [Adding A Pull Request To The Merge Queue](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/adding-a-pull-request-to-the-merge-queue.md)
       * [Automatically Merging A Pull Request](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/automatically-merging-a-pull-request.md)
       * [Closing A Pull Request](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/closing-a-pull-request.md)
       * [Incorporating Changes From A Pull Request](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/index.md)
+      * [Merging A Pull Request With A Merge Queue](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request-with-a-merge-queue.md)
       * [Merging A Pull Request](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request.md)
       * [Reverting A Pull Request](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/reverting-a-pull-request.md)
     - Proposing Changes To Your Work With Pull Requests
@@ -1717,10 +1717,10 @@
       * [Configuring Commit Rebasing For Pull Requests](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/configuring-commit-rebasing-for-pull-requests.md)
       * [Configuring Commit Squashing For Pull Requests](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/configuring-commit-squashing-for-pull-requests.md)
       * [Configuring Pull Request Merges](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/index.md)
+      * [Managing A Merge Queue](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue.md)
       * [Managing Auto Merge For Pull Requests In Your Repository](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-auto-merge-for-pull-requests-in-your-repository.md)
       * [Managing Suggestions To Update Pull Request Branches](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-suggestions-to-update-pull-request-branches.md)
       * [Managing The Automatic Deletion Of Branches](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-the-automatic-deletion-of-branches.md)
-      * [Using A Merge Queue](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/using-a-merge-queue.md)
     - Defining The Mergeability Of Pull Requests
       * [About Protected Branches](repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches.md)
       * [Defining The Mergeability Of Pull Requests](repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/index.md)
