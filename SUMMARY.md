@@ -784,6 +784,7 @@
     * [Defining Custom Patterns For Secret Scanning](code-security/secret-scanning/defining-custom-patterns-for-secret-scanning.md)
     * [Keeping Secrets Secure With Secret Scanning](code-security/secret-scanning/index.md)
     * [Managing Alerts From Secret Scanning](code-security/secret-scanning/managing-alerts-from-secret-scanning.md)
+    * [Protecting Pushes With Secret Scanning](code-security/secret-scanning/protecting-pushes-with-secret-scanning.md)
     * [Secret Scanning Patterns](code-security/secret-scanning/secret-scanning-patterns.md)
   - Security Overview
     * [About The Security Overview](code-security/security-overview/about-the-security-overview.md)
@@ -846,6 +847,7 @@
     * [Managing Encrypted Secrets For Your Repository And Organization For Codespaces](codespaces/managing-codespaces-for-your-organization/managing-encrypted-secrets-for-your-repository-and-organization-for-codespaces.md)
     * [Managing Repository Access For Your Organization S Codespaces](codespaces/managing-codespaces-for-your-organization/managing-repository-access-for-your-organizations-codespaces.md)
     * [Restricting Access To Machine Types](codespaces/managing-codespaces-for-your-organization/restricting-access-to-machine-types.md)
+    * [Restricting The Visibility Of Forwarded Ports](codespaces/managing-codespaces-for-your-organization/restricting-the-visibility-of-forwarded-ports.md)
     * [Reviewing Your Organization S Audit Logs For Codespaces](codespaces/managing-codespaces-for-your-organization/reviewing-your-organizations-audit-logs-for-codespaces.md)
   - Managing Your Codespaces
     * [Managing Your Codespaces](codespaces/managing-your-codespaces/index.md)
