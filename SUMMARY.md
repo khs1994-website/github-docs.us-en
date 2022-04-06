@@ -1526,6 +1526,7 @@
     * [Managing People S Access To Your Organization With Roles](organizations/managing-peoples-access-to-your-organization-with-roles/index.md)
     * [Maintaining Ownership Continuity For Your Organization](organizations/managing-peoples-access-to-your-organization-with-roles/maintaining-ownership-continuity-for-your-organization.md)
     * [Managing Custom Repository Roles For An Organization](organizations/managing-peoples-access-to-your-organization-with-roles/managing-custom-repository-roles-for-an-organization.md)
+    * [Managing Moderators In Your Organization](organizations/managing-peoples-access-to-your-organization-with-roles/managing-moderators-in-your-organization.md)
     * [Managing Security Managers In Your Organization](organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization.md)
     * [Removing A Billing Manager From Your Organization](organizations/managing-peoples-access-to-your-organization-with-roles/removing-a-billing-manager-from-your-organization.md)
     * [Roles In An Organization](organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization.md)
