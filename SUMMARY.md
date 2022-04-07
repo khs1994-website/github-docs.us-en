@@ -343,6 +343,7 @@
       * [Recovering A High Availability Configuration](admin/enterprise-management/configuring-high-availability/recovering-a-high-availability-configuration.md)
       * [Removing A High Availability Replica](admin/enterprise-management/configuring-high-availability/removing-a-high-availability-replica.md)
     - Monitoring Your Appliance
+      * [About System Logs](admin/enterprise-management/monitoring-your-appliance/about-system-logs.md)
       * [Accessing The Monitor Dashboard](admin/enterprise-management/monitoring-your-appliance/accessing-the-monitor-dashboard.md)
       * [Configuring Collectd](admin/enterprise-management/monitoring-your-appliance/configuring-collectd.md)
       * [Generating A Health Check For Your Enterprise](admin/enterprise-management/monitoring-your-appliance/generating-a-health-check-for-your-enterprise.md)
@@ -417,7 +418,6 @@
       * [Switching Your SAML Configuration From An Organization To An Enterprise Account](admin/identity-and-access-management/managing-iam-for-your-enterprise/switching-your-saml-configuration-from-an-organization-to-an-enterprise-account.md)
     - Managing Iam With Enterprise Managed Users
       * [About Enterprise Managed Users](admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users.md)
-      * [Auditing Activity In Your Enterprise](admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/auditing-activity-in-your-enterprise.md)
       * [Configuring SAML Single Sign On For Enterprise Managed Users](admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/configuring-saml-single-sign-on-for-enterprise-managed-users.md)
       * [Configuring SCIM Provisioning For Enterprise Managed Users With Okta](admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/configuring-scim-provisioning-for-enterprise-managed-users-with-okta.md)
       * [Configuring SCIM Provisioning For Enterprise Managed Users](admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/configuring-scim-provisioning-for-enterprise-managed-users.md)
@@ -440,6 +440,23 @@
       * [Installing Git Hub Enterprise Server On Xen Server](admin/installation/setting-up-a-github-enterprise-server-instance/installing-github-enterprise-server-on-xenserver.md)
       * [Setting Up A Staging Instance](admin/installation/setting-up-a-github-enterprise-server-instance/setting-up-a-staging-instance.md)
     * [Installing {% data variables.product.prodname_enterprise %}](admin/installation/index.md)
+  - Monitoring Activity In Your Enterprise
+    - Exploring User Activity
+      * [Activity Dashboard](admin/monitoring-activity-in-your-enterprise/exploring-user-activity/activity-dashboard.md)
+      * [Exploring User Activity In Your Enterprise](admin/monitoring-activity-in-your-enterprise/exploring-user-activity/index.md)
+      * [Log Forwarding](admin/monitoring-activity-in-your-enterprise/exploring-user-activity/log-forwarding.md)
+      * [Managing Global Webhooks](admin/monitoring-activity-in-your-enterprise/exploring-user-activity/managing-global-webhooks.md)
+      * [Viewing Push Logs](admin/monitoring-activity-in-your-enterprise/exploring-user-activity/viewing-push-logs.md)
+    - Reviewing Audit Logs For Your Enterprise
+      * [About The Audit Log For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/about-the-audit-log-for-your-enterprise.md)
+      * [Accessing The Audit Log For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/accessing-the-audit-log-for-your-enterprise.md)
+      * [Audit Log Events For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/audit-log-events-for-your-enterprise.md)
+      * [Exporting Audit Log Activity For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/exporting-audit-log-activity-for-your-enterprise.md)
+      * [Reviewing Audit Logs For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/index.md)
+      * [Searching The Audit Log For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/searching-the-audit-log-for-your-enterprise.md)
+      * [Streaming The Audit Log For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/streaming-the-audit-log-for-your-enterprise.md)
+      * [Using The Audit Log API For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/using-the-audit-log-api-for-your-enterprise.md)
+    * [Monitoring Activity In Your Enterprise](admin/monitoring-activity-in-your-enterprise/index.md)
   - Overview
     * [About Data Residency](admin/overview/about-data-residency.md)
     * [About Enterprise Accounts](admin/overview/about-enterprise-accounts.md)
@@ -492,8 +509,6 @@
       * [Removing Users From Teams And Organizations](admin/user-management/managing-organizations-in-your-enterprise/removing-users-from-teams-and-organizations.md)
       * [Requiring Two Factor Authentication For An Organization](admin/user-management/managing-organizations-in-your-enterprise/requiring-two-factor-authentication-for-an-organization.md)
       * [Restoring A Deleted Organization](admin/user-management/managing-organizations-in-your-enterprise/restoring-a-deleted-organization.md)
-      * [Streaming The Audit Logs For Organizations In Your Enterprise Account](admin/user-management/managing-organizations-in-your-enterprise/streaming-the-audit-logs-for-organizations-in-your-enterprise-account.md)
-      * [Viewing The Audit Logs For Organizations In Your Enterprise](admin/user-management/managing-organizations-in-your-enterprise/viewing-the-audit-logs-for-organizations-in-your-enterprise.md)
     - Managing Repositories In Your Enterprise
       * [Configuring Git Large File Storage For Your Enterprise](admin/user-management/managing-repositories-in-your-enterprise/configuring-git-large-file-storage-for-your-enterprise.md)
       * [Disabling Git SSH Access On Your Enterprise](admin/user-management/managing-repositories-in-your-enterprise/disabling-git-ssh-access-on-your-enterprise.md)
@@ -527,15 +542,6 @@
       * [Migrating Data To And From Your Enterprise](admin/user-management/migrating-data-to-and-from-your-enterprise/index.md)
       * [Migrating Data To Your Enterprise](admin/user-management/migrating-data-to-and-from-your-enterprise/migrating-data-to-your-enterprise.md)
       * [Preparing To Migrate Data To Your Enterprise](admin/user-management/migrating-data-to-and-from-your-enterprise/preparing-to-migrate-data-to-your-enterprise.md)
-    - Monitoring Activity In Your Enterprise
-      * [Activity Dashboard](admin/user-management/monitoring-activity-in-your-enterprise/activity-dashboard.md)
-      * [Audit Logging](admin/user-management/monitoring-activity-in-your-enterprise/audit-logging.md)
-      * [Audited Actions](admin/user-management/monitoring-activity-in-your-enterprise/audited-actions.md)
-      * [Monitoring Activity In Your Enterprise](admin/user-management/monitoring-activity-in-your-enterprise/index.md)
-      * [Log Forwarding](admin/user-management/monitoring-activity-in-your-enterprise/log-forwarding.md)
-      * [Managing Global Webhooks](admin/user-management/monitoring-activity-in-your-enterprise/managing-global-webhooks.md)
-      * [Searching The Audit Log](admin/user-management/monitoring-activity-in-your-enterprise/searching-the-audit-log.md)
-      * [Viewing Push Logs](admin/user-management/monitoring-activity-in-your-enterprise/viewing-push-logs.md)
     * [Managing Users Organizations And Repositories](admin/user-management/index.md)
   * [Git Hub Enterprise Server Releases](admin/all-releases.md)
   * [Git Hub Enterprise Guides](admin/guides.md)
@@ -1866,6 +1872,7 @@
     * [Collaborators](rest/reference/collaborators.md)
     * [Commits](rest/reference/commits.md)
     * [Dependabot](rest/reference/dependabot.md)
+    * [Dependency Graph](rest/reference/dependency-graph.md)
     * [Deploy Keys](rest/reference/deploy_keys.md)
     * [Deployments](rest/reference/deployments.md)
     * [Emojis](rest/reference/emojis.md)
