@@ -2013,7 +2013,6 @@
     * [Managing Your Sponsorship Tiers](sponsors/receiving-sponsorships-through-github-sponsors/managing-your-sponsorship-tiers.md)
     * [Setting Up Git Hub Sponsors For Your Organization](sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-organization.md)
     * [Setting Up Git Hub Sponsors For Your User Account](sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-user-account.md)
-    * [Receiving Payments From Sponsors For Companies](sponsors/receiving-sponsorships-through-github-sponsors/sponsors-for-companies.md)
     * [Tax Information For Git Hub Sponsors](sponsors/receiving-sponsorships-through-github-sponsors/tax-information-for-github-sponsors.md)
     * [Unpublishing Your Git Hub Sponsors Profile](sponsors/receiving-sponsorships-through-github-sponsors/unpublishing-your-github-sponsors-profile.md)
     * [Viewing Your Sponsors And Sponsorships](sponsors/receiving-sponsorships-through-github-sponsors/viewing-your-sponsors-and-sponsorships.md)
