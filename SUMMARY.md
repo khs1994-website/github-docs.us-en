@@ -1221,7 +1221,7 @@
     * [Access Permissions On Git Hub](get-started/learning-about-github/access-permissions-on-github.md)
     * [FAQ about changes to GitHub’s plans](get-started/learning-about-github/faq-about-changes-to-githubs-plans.md)
     * [Git Hub Language Support](get-started/learning-about-github/github-language-support.md)
-    * [Git Hub S Products](get-started/learning-about-github/githubs-products.md)
+    * [GitHub’s products](get-started/learning-about-github/githubs-products.md)
     * [Learning About Git Hub](get-started/learning-about-github/index.md)
     * [Types Of Git Hub Accounts](get-started/learning-about-github/types-of-github-accounts.md)
   - Onboarding
