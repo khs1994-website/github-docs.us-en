@@ -859,7 +859,7 @@
     * [Managing Your Codespaces](codespaces/managing-your-codespaces/index.md)
     * [Managing Encrypted Secrets For Your Codespaces](codespaces/managing-your-codespaces/managing-encrypted-secrets-for-your-codespaces.md)
     * [Managing GPG Verification For Codespaces](codespaces/managing-your-codespaces/managing-gpg-verification-for-codespaces.md)
-    * [Managing Repository Access For Your Codespaces](codespaces/managing-your-codespaces/managing-repository-access-for-your-codespaces.md)
+    * [Managing Access To Other Repositories Within Your Codespace](codespaces/managing-your-codespaces/managing-repository-access-for-your-codespaces.md)
     * [Reviewing Your Security Logs For Codespaces](codespaces/managing-your-codespaces/reviewing-your-security-logs-for-codespaces.md)
   - Prebuilding Your Codespaces
     * [About Codespaces Prebuilds](codespaces/prebuilding-your-codespaces/about-codespaces-prebuilds.md)
@@ -868,8 +868,8 @@
     * [Managing Prebuilds](codespaces/prebuilding-your-codespaces/managing-prebuilds.md)
     * [Testing Dev Container Configuration Changes On A Prebuild Enabled Branch](codespaces/prebuilding-your-codespaces/testing-dev-container-changes.md)
   - Setting Up Your Project For Codespaces
-    * [Introduction To Dev Containers](codespaces/setting-up-your-project-for-codespaces/configuring-codespaces-for-your-project.md)
     * [Setting up your repository for {% data variables.product.prodname_codespaces %}](codespaces/setting-up-your-project-for-codespaces/index.md)
+    * [Introduction To Dev Containers](codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers.md)
     * [Setting A Minimum Specification For Codespace Machines](codespaces/setting-up-your-project-for-codespaces/setting-a-minimum-specification-for-codespace-machines.md)
     * [Setting up your C# (.NET) project for Codespaces](codespaces/setting-up-your-project-for-codespaces/setting-up-your-dotnet-project-for-codespaces.md)
     * [Setting Up Your Java Project For Codespaces](codespaces/setting-up-your-project-for-codespaces/setting-up-your-java-project-for-codespaces.md)
