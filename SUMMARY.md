@@ -742,6 +742,7 @@
     - Dependabot Alerts
       * [About Dependabot Alerts](code-security/dependabot/dependabot-alerts/about-dependabot-alerts.md)
       * [Browsing Security Vulnerabilities In The Git Hub Advisory Database](code-security/dependabot/dependabot-alerts/browsing-security-vulnerabilities-in-the-github-advisory-database.md)
+      * [Configuring Dependabot Alerts](code-security/dependabot/dependabot-alerts/configuring-dependabot-alerts.md)
       * [Configuring Notifications For Dependabot Alerts](code-security/dependabot/dependabot-alerts/configuring-notifications-for-dependabot-alerts.md)
       * [Editing Security Advisories In The Git Hub Advisory Database](code-security/dependabot/dependabot-alerts/editing-security-advisories-in-the-github-advisory-database.md)
       * [Identifying Vulnerabilities In Your Project S Dependencies With Dependabot Alerts](code-security/dependabot/dependabot-alerts/index.md)
@@ -808,6 +809,8 @@
       * [About Dependency Review](code-security/supply-chain-security/understanding-your-software-supply-chain/about-dependency-review.md)
       * [About Supply Chain Security](code-security/supply-chain-security/understanding-your-software-supply-chain/about-supply-chain-security.md)
       * [About The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph.md)
+      * [Configuring Dependency Review](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-dependency-review.md)
+      * [Configuring The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-the-dependency-graph.md)
       * [Exploring The Dependencies Of A Repository](code-security/supply-chain-security/understanding-your-software-supply-chain/exploring-the-dependencies-of-a-repository.md)
       * [Understanding Your Software Supply Chain](code-security/supply-chain-security/understanding-your-software-supply-chain/index.md)
       * [Troubleshooting The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/troubleshooting-the-dependency-graph.md)
