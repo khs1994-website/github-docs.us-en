@@ -24,6 +24,7 @@
       * [Managing Your Profile README](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme.md)
       * [Personalizing Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile.md)
       * [Pinning Items To Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/pinning-items-to-your-profile.md)
+      * [Setting Your Profile To Private](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/setting-your-profile-to-private.md)
     - Managing Contribution Graphs On Your Profile
       * [Managing Contribution Graphs On Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/index.md)
       * [Publicizing Or Hiding Your Private Contributions On Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/publicizing-or-hiding-your-private-contributions-on-your-profile.md)
