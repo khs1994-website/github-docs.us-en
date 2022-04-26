@@ -867,6 +867,7 @@
     * [Managing Encrypted Secrets For Your Repository And Organization For Codespaces](codespaces/managing-codespaces-for-your-organization/managing-encrypted-secrets-for-your-repository-and-organization-for-codespaces.md)
     * [Managing Repository Access For Your Organization S Codespaces](codespaces/managing-codespaces-for-your-organization/managing-repository-access-for-your-organizations-codespaces.md)
     * [Restricting Access To Machine Types](codespaces/managing-codespaces-for-your-organization/restricting-access-to-machine-types.md)
+    * [Restricting The Idle Timeout Period](codespaces/managing-codespaces-for-your-organization/restricting-the-idle-timeout-period.md)
     * [Restricting The Visibility Of Forwarded Ports](codespaces/managing-codespaces-for-your-organization/restricting-the-visibility-of-forwarded-ports.md)
     * [Reviewing Your Organization S Audit Logs For Codespaces](codespaces/managing-codespaces-for-your-organization/reviewing-your-organizations-audit-logs-for-codespaces.md)
   - Managing Your Codespaces
