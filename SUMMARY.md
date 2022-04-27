@@ -235,7 +235,7 @@
     * [Using Jobs](actions/using-jobs/index.md)
     * [Running Jobs In A Container](actions/using-jobs/running-jobs-in-a-container.md)
     * [Setting Default Values For Jobs](actions/using-jobs/setting-default-values-for-jobs.md)
-    * [Using A Build Matrix For Your Jobs](actions/using-jobs/using-a-build-matrix-for-your-jobs.md)
+    * [Using A Matrix For Your Jobs](actions/using-jobs/using-a-matrix-for-your-jobs.md)
     * [Using Concurrency](actions/using-jobs/using-concurrency.md)
     * [Using Conditions To Control Job Execution](actions/using-jobs/using-conditions-to-control-job-execution.md)
     * [Using Environments For Jobs](actions/using-jobs/using-environments-for-jobs.md)
@@ -984,9 +984,11 @@
       * [Squashing Commits](desktop/contributing-and-collaborating-using-github-desktop/managing-commits/squashing-commits.md)
     - Working With Your Remote Repository On Github Or Github Enterprise
       * [Changing A Remote S URL From Git Hub Desktop](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/changing-a-remotes-url-from-github-desktop.md)
+      * [Configuring Notifications In Git Hub Desktop](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/configuring-notifications-in-github-desktop.md)
       * [Creating An Issue Or Pull Request](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request.md)
       * [Working With Your Remote Repository On Git Hub Or Git Hub Enterprise](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/index.md)
       * [Viewing A Pull Request In Git Hub Desktop](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/viewing-a-pull-request-in-github-desktop.md)
+      * [Viewing And Re Running Checks In Git Hub Desktop](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/viewing-and-re-running-checks-in-github-desktop.md)
     * [Contributing And Collaborating Using Git Hub Desktop](desktop/contributing-and-collaborating-using-github-desktop/index.md)
   - Installing And Configuring Github Desktop
     - Configuring And Customizing Github Desktop
