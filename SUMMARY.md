@@ -1855,11 +1855,11 @@
   * [Repositories](repositories/index.md)
 - [Rest](rest/README.md)
   - Actions
-    * [Artifacts](rest/actions/artifacts.md)
-    * [Cache](rest/actions/cache.md)
+    * [Git Hub Actions Artifacts](rest/actions/artifacts.md)
+    * [Git Hub Actions Cache](rest/actions/cache.md)
     * [Actions](rest/actions/index.md)
-    * [Permissions](rest/actions/permissions.md)
-    * [Secrets](rest/actions/secrets.md)
+    * [Git Hub Actions Permissions](rest/actions/permissions.md)
+    * [Git Hub Actions Secrets](rest/actions/secrets.md)
     * [Self Hosted Runner Groups](rest/actions/self-hosted-runner-groups.md)
     * [Self Hosted Runners](rest/actions/self-hosted-runners.md)
     * [Workflow Jobs](rest/actions/workflow-jobs.md)
@@ -1925,7 +1925,7 @@
     * [SCIM](rest/enterprise-admin/scim.md)
     * [Users](rest/enterprise-admin/users.md)
   - Gists
-    * [Comments](rest/gists/comments.md)
+    * [Gist Comments](rest/gists/comments.md)
     * [Gists](rest/gists/index.md)
   - Git
     * [Blobs](rest/git/blobs.md)
