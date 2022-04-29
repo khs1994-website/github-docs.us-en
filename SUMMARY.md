@@ -1892,14 +1892,14 @@
     * [User Secrets](rest/codespaces/secrets.md)
   - Collaborators
     * [Collaborators](rest/collaborators/index.md)
-    * [Invitations](rest/collaborators/invitations.md)
+    * [Repository Invitations](rest/collaborators/invitations.md)
   - Commits
     * [Commit Comments](rest/commits/comments.md)
     * [Commits](rest/commits/index.md)
     * [Commit Statuses](rest/commits/statuses.md)
   - Dependabot
     * [Dependabot](rest/dependabot/index.md)
-    * [Secrets](rest/dependabot/secrets.md)
+    * [Dependabot Secrets](rest/dependabot/secrets.md)
   - Dependency Graph
     * [Dependency Review](rest/dependency-graph/dependency-review.md)
     * [Dependency Graph](rest/dependency-graph/index.md)
@@ -1928,12 +1928,12 @@
     * [Gist Comments](rest/gists/comments.md)
     * [Gists](rest/gists/index.md)
   - Git
-    * [Blobs](rest/git/blobs.md)
-    * [Commits](rest/git/commits.md)
+    * [Git Blobs](rest/git/blobs.md)
+    * [Git Commits](rest/git/commits.md)
     * [Git Database](rest/git/index.md)
-    * [References](rest/git/refs.md)
-    * [Tags](rest/git/tags.md)
-    * [Trees](rest/git/trees.md)
+    * [Git References](rest/git/refs.md)
+    * [Git Tags](rest/git/tags.md)
+    * [Git Trees](rest/git/trees.md)
   - Guides
     * [Basics Of Authentication](rest/guides/basics-of-authentication.md)
     * [Best Practices For Integrators](rest/guides/best-practices-for-integrators.md)
@@ -1961,10 +1961,10 @@
     * [Milestones](rest/issues/milestones.md)
     * [Timeline](rest/issues/timeline.md)
   - Metrics
-    * [Community](rest/metrics/community.md)
+    * [Community Metrics](rest/metrics/community.md)
     * [Metrics](rest/metrics/index.md)
-    * [Statistics](rest/metrics/statistics.md)
-    * [Traffic](rest/metrics/traffic.md)
+    * [Repository Statistics](rest/metrics/statistics.md)
+    * [Repository Traffic](rest/metrics/traffic.md)
   - Migrations
     * [Migrations](rest/migrations/index.md)
     * [Organization](rest/migrations/orgs.md)
