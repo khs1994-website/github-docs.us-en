@@ -1169,6 +1169,7 @@
       * [Integrate Git Hub Classroom With An IDE](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/integrate-github-classroom-with-an-ide.md)
       * [Repl.it with GitHub Classroom](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/replit-with-github-classroom.md)
       * [Run Student Code In An IDE](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/run-student-code-in-an-ide.md)
+      * [Using Git Hub Codespaces With Git Hub Classroom](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/using-github-codespaces-with-github-classroom.md)
     - Learn With Github Classroom
       * [Learn With Git Hub Classroom](education/manage-coursework-with-github-classroom/learn-with-github-classroom/index.md)
       * [View Autograding Results](education/manage-coursework-with-github-classroom/learn-with-github-classroom/view-autograding-results.md)
