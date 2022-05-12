@@ -277,6 +277,7 @@
       * [About Git Hub Connect](admin/configuration/configuring-github-connect/about-github-connect.md)
       * [Enabling Automatic User License Sync For Your Enterprise](admin/configuration/configuring-github-connect/enabling-automatic-user-license-sync-for-your-enterprise.md)
       * [Enabling Dependabot For Your Enterprise](admin/configuration/configuring-github-connect/enabling-dependabot-for-your-enterprise.md)
+      * [Enabling Server Statistics For Your Enterprise](admin/configuration/configuring-github-connect/enabling-server-statistics-for-your-enterprise.md)
       * [Enabling Unified Contributions For Your Enterprise](admin/configuration/configuring-github-connect/enabling-unified-contributions-for-your-enterprise.md)
       * [Enabling Unified Search For Your Enterprise](admin/configuration/configuring-github-connect/enabling-unified-search-for-your-enterprise.md)
       * [Configuring Git Hub Connect](admin/configuration/configuring-github-connect/index.md)
@@ -306,6 +307,7 @@
       * [Configuring Rate Limits](admin/configuration/configuring-your-enterprise/configuring-rate-limits.md)
       * [Configuring The Referrer Policy For Your Enterprise](admin/configuration/configuring-your-enterprise/configuring-the-referrer-policy-for-your-enterprise.md)
       * [Configuring Time Synchronization](admin/configuration/configuring-your-enterprise/configuring-time-synchronization.md)
+      * [Configuring Web Commit Signing](admin/configuration/configuring-your-enterprise/configuring-web-commit-signing.md)
       * [Deploying Git Hub AE](admin/configuration/configuring-your-enterprise/deploying-github-ae.md)
       * [Enabling And Scheduling Maintenance Mode](admin/configuration/configuring-your-enterprise/enabling-and-scheduling-maintenance-mode.md)
       * [Enabling Private Mode](admin/configuration/configuring-your-enterprise/enabling-private-mode.md)
@@ -452,6 +454,11 @@
       * [Setting Up A Staging Instance](admin/installation/setting-up-a-github-enterprise-server-instance/setting-up-a-staging-instance.md)
     * [Installing {% data variables.product.prodname_enterprise %}](admin/installation/index.md)
   - Monitoring Activity In Your Enterprise
+    - Analyzing How Your Team Works With Server Statistics
+      * [About Server Statistics](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/about-server-statistics.md)
+      * [Exporting Server Statistics](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/exporting-server-statistics.md)
+      * [Analyzing How Your Team Works With Server Statistics](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/index.md)
+      * [Requesting Server Statistics Using The REST API](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/requesting-server-statistics-using-the-rest-api.md)
     - Exploring User Activity
       * [Activity Dashboard](admin/monitoring-activity-in-your-enterprise/exploring-user-activity/activity-dashboard.md)
       * [Exploring User Activity In Your Enterprise](admin/monitoring-activity-in-your-enterprise/exploring-user-activity/index.md)
