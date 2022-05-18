@@ -87,7 +87,6 @@
     * [Building And Testing Java With Gradle](actions/automating-builds-and-tests/building-and-testing-java-with-gradle.md)
     * [Building And Testing Java With Maven](actions/automating-builds-and-tests/building-and-testing-java-with-maven.md)
     * [Building and testing .NET](actions/automating-builds-and-tests/building-and-testing-net.md)
-    * [Building and testing Node.js or Python](actions/automating-builds-and-tests/building-and-testing-nodejs-or-python.md)
     * [Building and testing Node.js](actions/automating-builds-and-tests/building-and-testing-nodejs.md)
     * [Building And Testing Power Shell](actions/automating-builds-and-tests/building-and-testing-powershell.md)
     * [Building And Testing Python](actions/automating-builds-and-tests/building-and-testing-python.md)
