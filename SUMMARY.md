@@ -1322,6 +1322,7 @@
       * [Organizing Information With Collapsed Sections](get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections.md)
       * [Organizing Information With Tables](get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables.md)
       * [Using Keywords In Issues And Pull Requests](get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests.md)
+      * [Writing Mathematical Expressions](get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions.md)
     - Working With Saved Replies
       * [About Saved Replies](get-started/writing-on-github/working-with-saved-replies/about-saved-replies.md)
       * [Creating A Saved Reply](get-started/writing-on-github/working-with-saved-replies/creating-a-saved-reply.md)
