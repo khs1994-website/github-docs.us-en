@@ -494,6 +494,7 @@
     * [Quickstart For Configuring Your Min IO Storage Bucket For Git Hub Packages](admin/packages/quickstart-for-configuring-your-minio-storage-bucket-for-github-packages.md)
   - Policies
     - Enforcing Policies For Your Enterprise
+      * [About Enterprise Policies](admin/policies/enforcing-policies-for-your-enterprise/about-enterprise-policies.md)
       * [Enforcing Policies For Advanced Security In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-advanced-security-in-your-enterprise.md)
       * [Enforcing Policies For Dependency Insights In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-dependency-insights-in-your-enterprise.md)
       * [Enforcing Policies For Git Hub Actions In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise.md)
