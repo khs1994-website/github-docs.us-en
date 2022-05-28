@@ -224,6 +224,7 @@
     * [Using Containerized Services](actions/using-containerized-services/index.md)
   - Using Github Hosted Runners
     * [About Git Hub Hosted Runners](actions/using-github-hosted-runners/about-github-hosted-runners.md)
+    * [Connecting To A Private Network](actions/using-github-hosted-runners/connecting-to-a-private-network.md)
     * [Customizing Git Hub Hosted Runners](actions/using-github-hosted-runners/customizing-github-hosted-runners.md)
     * [Using Git Hub Hosted Runners](actions/using-github-hosted-runners/index.md)
     * [Monitoring Your Current Jobs](actions/using-github-hosted-runners/monitoring-your-current-jobs.md)
@@ -715,6 +716,7 @@
     * [Downloading Your License For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/downloading-your-license-for-github-enterprise.md)
     * [Managing Your License For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/index.md)
     * [Syncing License Usage Between Git Hub Enterprise Server And Git Hub Enterprise Cloud](billing/managing-your-license-for-github-enterprise/syncing-license-usage-between-github-enterprise-server-and-github-enterprise-cloud.md)
+    * [Troubleshooting License Usage For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/troubleshooting-license-usage-for-github-enterprise.md)
     * [Uploading A New License To Git Hub Enterprise Server](billing/managing-your-license-for-github-enterprise/uploading-a-new-license-to-github-enterprise-server.md)
     * [Viewing License Usage For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/viewing-license-usage-for-github-enterprise.md)
   - Setting Up Paid Organizations For Procurement Companies
@@ -1338,7 +1340,6 @@
     * [About Git Hub Copilot Telemetry](github/copilot/about-github-copilot-telemetry.md)
     * [Git Hub Copilot Telemetry Terms](github/copilot/github-copilot-telemetry-terms.md)
     * [Git Hub Copilot](github/copilot/index.md)
-    * [Research Recitation](github/copilot/research-recitation.md)
   - Site Policy Deprecated
     * [Amendment to GitHub Terms of Service Applicable to U.S. Federal Government Users](github/site-policy-deprecated/amendment-to-github-terms-of-service-applicable-to-us-federal-government-users.md)
     * [Git Hub AE Data Protection Agreement](github/site-policy-deprecated/github-ae-data-protection-agreement.md)
