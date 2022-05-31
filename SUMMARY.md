@@ -145,6 +145,11 @@
       * [Targeting Different Environments](actions/deployment/targeting-different-environments/index.md)
       * [Using Environments For Deployment](actions/deployment/targeting-different-environments/using-environments-for-deployment.md)
     * [Deployment](actions/deployment/index.md)
+  - Examples
+    * [Examples](actions/examples/index.md)
+    * [Using Concurrency Expressions And A Test Matrix](actions/examples/using-concurrency-expressions-and-a-test-matrix.md)
+    * [Using Scripts To Test Your Code On A Runner](actions/examples/using-scripts-to-test-your-code-on-a-runner.md)
+    * [Using The Git Hub CLI On A Runner](actions/examples/using-the-github-cli-on-a-runner.md)
   - Hosting Your Own Runners
     * [About Self Hosted Runners](actions/hosting-your-own-runners/about-self-hosted-runners.md)
     * [Adding Self Hosted Runners](actions/hosting-your-own-runners/adding-self-hosted-runners.md)
