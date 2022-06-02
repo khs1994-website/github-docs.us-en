@@ -2145,7 +2145,6 @@
     * [Git Hub Data Protection Agreement](site-policy/privacy-policies/github-data-protection-agreement.md)
     * [Git Hub Privacy Statement](site-policy/privacy-policies/github-privacy-statement.md)
     * [Git Hub Subprocessors And Cookies](site-policy/privacy-policies/github-subprocessors-and-cookies.md)
-    * [Git Hub S Notice About The California Consumer Privacy Act](site-policy/privacy-policies/githubs-notice-about-the-california-consumer-privacy-act.md)
     * [Global Privacy Practices](site-policy/privacy-policies/global-privacy-practices.md)
     * [Privacy Policies](site-policy/privacy-policies/index.md)
   - Security Policies
