@@ -1166,6 +1166,7 @@
       * [About Git Hub Campus Program](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/about-github-campus-program.md)
       * [Use Git Hub At Your Educational Institution](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/index.md)
     - Use Github For Your Schoolwork
+      * [About Git Hub Community Exchange](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/about-github-community-exchange.md)
       * [About Git Hub Education For Students](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/about-github-education-for-students.md)
       * [Apply For A Student Developer Pack](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/apply-for-a-student-developer-pack.md)
       * [Use Git Hub For Your Schoolwork](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/index.md)
