@@ -25,14 +25,14 @@
       * [Personalizing Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile.md)
       * [Pinning Items To Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/pinning-items-to-your-profile.md)
       * [Setting Your Profile To Private](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/setting-your-profile-to-private.md)
-    - Managing Contribution Graphs On Your Profile
-      * [Managing Contribution Graphs On Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/index.md)
-      * [Publicizing Or Hiding Your Private Contributions On Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/publicizing-or-hiding-your-private-contributions-on-your-profile.md)
-      * [Sending enterprise contributions to your GitHub.com profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/sending-enterprise-contributions-to-your-githubcom-profile.md)
-      * [Showing An Overview Of Your Activity On Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/showing-an-overview-of-your-activity-on-your-profile.md)
-      * [Troubleshooting Commits On Your Timeline](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/troubleshooting-commits-on-your-timeline.md)
-      * [Viewing Contributions On Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/viewing-contributions-on-your-profile.md)
-      * [Why Are My Contributions Not Showing Up On My Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/why-are-my-contributions-not-showing-up-on-my-profile.md)
+    - Managing Contribution Settings On Your Profile
+      * [Managing Contribution Settings On Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/index.md)
+      * [Sending enterprise contributions to your GitHub.com profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/sending-enterprise-contributions-to-your-githubcom-profile.md)
+      * [Showing An Overview Of Your Activity On Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/showing-an-overview-of-your-activity-on-your-profile.md)
+      * [Showing Your Private Contributions And Achievements On Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/showing-your-private-contributions-and-achievements-on-your-profile.md)
+      * [Troubleshooting Commits On Your Timeline](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/troubleshooting-commits-on-your-timeline.md)
+      * [Viewing Contributions On Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/viewing-contributions-on-your-profile.md)
+      * [Why Are My Contributions Not Showing Up On My Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/why-are-my-contributions-not-showing-up-on-my-profile.md)
     * [Setting Up And Managing Your Git Hub Profile](account-and-profile/setting-up-and-managing-your-github-profile/index.md)
   - Setting Up And Managing Your Personal Account On Github
     - Managing Access To Your Personal Repositories
@@ -1032,7 +1032,7 @@
       * [Launching Git Hub Desktop From The Command Line](desktop/installing-and-configuring-github-desktop/overview/launching-github-desktop-from-the-command-line.md)
       * [Supported Operating Systems](desktop/installing-and-configuring-github-desktop/overview/supported-operating-systems.md)
     * [Installing And Configuring Git Hub Desktop](desktop/installing-and-configuring-github-desktop/index.md)
-  * [Git Hub Desktop Documentation](desktop/index.md)
+  * [Git Hub Desktop](desktop/index.md)
 - Developers
   - Apps
     - Building Github Apps
