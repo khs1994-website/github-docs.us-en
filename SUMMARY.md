@@ -155,6 +155,7 @@
     * [Adding Self Hosted Runners](actions/hosting-your-own-runners/adding-self-hosted-runners.md)
     * [Autoscaling With Self Hosted Runners](actions/hosting-your-own-runners/autoscaling-with-self-hosted-runners.md)
     * [Configuring The Self Hosted Runner Application As A Service](actions/hosting-your-own-runners/configuring-the-self-hosted-runner-application-as-a-service.md)
+    * [Customizing The Containers Used By Jobs](actions/hosting-your-own-runners/customizing-the-containers-used-by-jobs.md)
     * [Hosting Your Own Runners](actions/hosting-your-own-runners/index.md)
     * [Managing Access To Self Hosted Runners Using Groups](actions/hosting-your-own-runners/managing-access-to-self-hosted-runners-using-groups.md)
     * [Monitoring And Troubleshooting Self Hosted Runners](actions/hosting-your-own-runners/monitoring-and-troubleshooting-self-hosted-runners.md)
