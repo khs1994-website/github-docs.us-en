@@ -1453,6 +1453,7 @@
     * [Managing Iterations In Projects Beta](issues/trying-out-the-new-projects-experience/managing-iterations.md)
     * [Managing Projects Beta](issues/trying-out-the-new-projects-experience/managing-projects.md)
     * [Managing The Visibility Of Your Projects Beta](issues/trying-out-the-new-projects-experience/managing-the-visibility-of-your-projects.md)
+    * [Migrating Your Project To Projects Beta](issues/trying-out-the-new-projects-experience/migrating-your-project.md)
     * [Quickstart For Projects Beta](issues/trying-out-the-new-projects-experience/quickstart.md)
     * [Using Insights With Projects Beta](issues/trying-out-the-new-projects-experience/using-insights-with-projects.md)
     * [Using The API To Manage Projects Beta](issues/trying-out-the-new-projects-experience/using-the-api-to-manage-projects.md)
