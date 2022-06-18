@@ -489,6 +489,7 @@
     * [About Data Residency](admin/overview/about-data-residency.md)
     * [About Enterprise Accounts](admin/overview/about-enterprise-accounts.md)
     * [About Git Hub AE](admin/overview/about-github-ae.md)
+    * [About Git Hub Enterprise Server](admin/overview/about-github-enterprise-server.md)
     * [About The Git Hub Enterprise API](admin/overview/about-the-github-enterprise-api.md)
     * [About Upgrades To New Releases](admin/overview/about-upgrades-to-new-releases.md)
     * [Accessing Compliance Reports For Your Enterprise](admin/overview/accessing-compliance-reports-for-your-enterprise.md)
@@ -771,7 +772,7 @@
   - Dependabot
     - Dependabot Alerts
       * [About Dependabot Alerts](code-security/dependabot/dependabot-alerts/about-dependabot-alerts.md)
-      * [Browsing Security Vulnerabilities In The Git Hub Advisory Database](code-security/dependabot/dependabot-alerts/browsing-security-vulnerabilities-in-the-github-advisory-database.md)
+      * [Browsing Security Advisories In The Git Hub Advisory Database](code-security/dependabot/dependabot-alerts/browsing-security-advisories-in-the-github-advisory-database.md)
       * [Configuring Dependabot Alerts](code-security/dependabot/dependabot-alerts/configuring-dependabot-alerts.md)
       * [Configuring Notifications For Dependabot Alerts](code-security/dependabot/dependabot-alerts/configuring-notifications-for-dependabot-alerts.md)
       * [Editing Security Advisories In The Git Hub Advisory Database](code-security/dependabot/dependabot-alerts/editing-security-advisories-in-the-github-advisory-database.md)
@@ -844,6 +845,7 @@
       * [Exploring The Dependencies Of A Repository](code-security/supply-chain-security/understanding-your-software-supply-chain/exploring-the-dependencies-of-a-repository.md)
       * [Understanding Your Software Supply Chain](code-security/supply-chain-security/understanding-your-software-supply-chain/index.md)
       * [Troubleshooting The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/troubleshooting-the-dependency-graph.md)
+      * [Using The Dependency Submission API](code-security/supply-chain-security/understanding-your-software-supply-chain/using-the-dependency-submission-api.md)
     * [Securing Your Software Supply Chain](code-security/supply-chain-security/index.md)
   * [Guides For Code Security](code-security/guides.md)
   * [Code Security](code-security/index.md)
@@ -1927,6 +1929,7 @@
     * [Dependabot Secrets](rest/dependabot/secrets.md)
   - Dependency Graph
     * [Dependency Review](rest/dependency-graph/dependency-review.md)
+    * [Dependency Submission](rest/dependency-graph/dependency-submission.md)
     * [Dependency Graph](rest/dependency-graph/index.md)
   - Deployments
     * [Deployments](rest/deployments/index.md)
