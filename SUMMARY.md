@@ -676,6 +676,10 @@
     * [Managing Billing For Git Hub Codespaces](billing/managing-billing-for-github-codespaces/index.md)
     * [Managing Spending Limits For Codespaces](billing/managing-billing-for-github-codespaces/managing-spending-limits-for-codespaces.md)
     * [Viewing Your Codespaces Usage](billing/managing-billing-for-github-codespaces/viewing-your-codespaces-usage.md)
+  - Managing Billing For Github Copilot
+    * [About Billing For Git Hub Copilot](billing/managing-billing-for-github-copilot/about-billing-for-github-copilot.md)
+    * [Managing Billing For Git Hub Copilot](billing/managing-billing-for-github-copilot/index.md)
+    * [Managing Your Git Hub Copilot Subscription](billing/managing-billing-for-github-copilot/managing-your-github-copilot-subscription.md)
   - Managing Billing For Github Marketplace Apps
     * [About Billing For Git Hub Marketplace](billing/managing-billing-for-github-marketplace-apps/about-billing-for-github-marketplace.md)
     * [Canceling A Git Hub Marketplace App](billing/managing-billing-for-github-marketplace-apps/canceling-a-github-marketplace-app.md)
@@ -736,7 +740,7 @@
     * [Setting Up Paid Organizations For Procurement Companies](billing/setting-up-paid-organizations-for-procurement-companies/index.md)
     * [Renewing Your Client S Paid Organization](billing/setting-up-paid-organizations-for-procurement-companies/renewing-your-clients-paid-organization.md)
     * [Upgrading Or Downgrading Your Client S Paid Organization](billing/setting-up-paid-organizations-for-procurement-companies/upgrading-or-downgrading-your-clients-paid-organization.md)
-  * [Billing And Payments On Git Hub](billing/index.md)
+  * [Index](billing/index.md)
 - Code Security
   - Code Scanning
     - Automatically Scanning Your Code For Vulnerabilities And Errors
@@ -977,6 +981,24 @@
     * [Syntax For Git Hub S Form Schema](communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema.md)
     * [Syntax For Issue Forms](communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms.md)
   * [Building Communities](communities/index.md)
+- Copilot
+  - Configuring Github Copilot
+    * [Configuring Git Hub Copilot In A Jet Brains IDE](copilot/configuring-github-copilot/configuring-github-copilot-in-a-jetbrains-ide.md)
+    * [Configuring Git Hub Copilot In Neovim](copilot/configuring-github-copilot/configuring-github-copilot-in-neovim.md)
+    * [Configuring Git Hub Copilot In Visual Studio Code](copilot/configuring-github-copilot/configuring-github-copilot-in-visual-studio-code.md)
+    * [Configuring Git Hub Copilot In Visual Studio](copilot/configuring-github-copilot/configuring-github-copilot-in-visual-studio.md)
+    * [Configuring Git Hub Copilot](copilot/configuring-github-copilot/index.md)
+  - Getting Started With Github Copilot
+    * [Getting Started With Git Hub Copilot In A Jet Brains IDE](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-a-jetbrains-ide.md)
+    * [Getting Started With Git Hub Copilot In Neovim](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-neovim.md)
+    * [Getting Started With Git Hub Copilot In Visual Studio Code](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio-code.md)
+    * [Getting Started With Git Hub Copilot In Visual Studio](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio.md)
+    * [Getting Started With Git Hub Copilot](copilot/getting-started-with-github-copilot/index.md)
+  - Overview Of Github Copilot
+    * [About Git Hub Copilot](copilot/overview-of-github-copilot/about-github-copilot.md)
+    * [Overview Of Git Hub Copilot](copilot/overview-of-github-copilot/index.md)
+  * [Git Hub Copilot](copilot/index.md)
+  * [Quickstart For Git Hub Copilot](copilot/quickstart.md)
 - Desktop
   - Contributing And Collaborating Using Github Desktop
     - Adding And Cloning Repositories
@@ -1348,22 +1370,6 @@
       * [Using Saved Replies](get-started/writing-on-github/working-with-saved-replies/using-saved-replies.md)
     * [Writing On Git Hub](get-started/writing-on-github/index.md)
   * [Getting Started With Git Hub](get-started/index.md)
-- Github
-  - Copilot
-    * [About Git Hub Copilot Telemetry](github/copilot/about-github-copilot-telemetry.md)
-    * [Git Hub Copilot Telemetry Terms](github/copilot/github-copilot-telemetry-terms.md)
-    * [Git Hub Copilot](github/copilot/index.md)
-  - Site Policy Deprecated
-    * [Amendment to GitHub Terms of Service Applicable to U.S. Federal Government Users](github/site-policy-deprecated/amendment-to-github-terms-of-service-applicable-to-us-federal-government-users.md)
-    * [Git Hub AE Data Protection Agreement](github/site-policy-deprecated/github-ae-data-protection-agreement.md)
-    * [Git Hub AE Product Specific Terms](github/site-policy-deprecated/github-ae-product-specific-terms.md)
-    * [Git Hub Enterprise Cloud Evaluation Agreement](github/site-policy-deprecated/github-enterprise-cloud-evaluation-agreement.md)
-    * [Git Hub Enterprise Server License Agreement](github/site-policy-deprecated/github-enterprise-server-license-agreement.md)
-    * [Git Hub Enterprise Service Level Agreement](github/site-policy-deprecated/github-enterprise-service-level-agreement.md)
-    * [Git Hub Enterprise Subscription Agreement](github/site-policy-deprecated/github-enterprise-subscription-agreement.md)
-    * [Git Hub Supplemental Terms For Microsoft Volume Licensing](github/site-policy-deprecated/github-supplemental-terms-for-microsoft-volume-licensing.md)
-    * [Deprecated Site Policy Articles](github/site-policy-deprecated/index.md)
-  * [Git Hub](github/index.md)
 - Github Cli
   - Github Cli
     * [About Git Hub CLI](github-cli/github-cli/about-github-cli.md)
@@ -1737,7 +1743,6 @@
       * [Allowing Changes To A Pull Request Branch Created From A Fork](pull-requests/collaborating-with-pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork.md)
       * [Configuring A Remote For A Fork](pull-requests/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-for-a-fork.md)
       * [Working With Forks](pull-requests/collaborating-with-pull-requests/working-with-forks/index.md)
-      * [Merging An Upstream Repository Into Your Fork](pull-requests/collaborating-with-pull-requests/working-with-forks/merging-an-upstream-repository-into-your-fork.md)
       * [Syncing A Fork](pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork.md)
       * [What Happens To Forks When A Repository Is Deleted Or Changes Visibility](pull-requests/collaborating-with-pull-requests/working-with-forks/what-happens-to-forks-when-a-repository-is-deleted-or-changes-visibility.md)
     * [Collaborating With Pull Requests](pull-requests/collaborating-with-pull-requests/index.md)
@@ -2160,6 +2165,16 @@
     * [Coordinated Disclosure Of Security Vulnerabilities](site-policy/security-policies/coordinated-disclosure-of-security-vulnerabilities.md)
     * [Git Hub Bug Bounty Program Legal Safe Harbor](site-policy/security-policies/github-bug-bounty-program-legal-safe-harbor.md)
     * [Security Policies](site-policy/security-policies/index.md)
+  - Site Policy Deprecated
+    * [Amendment to GitHub Terms of Service Applicable to U.S. Federal Government Users](site-policy/site-policy-deprecated/amendment-to-github-terms-of-service-applicable-to-us-federal-government-users.md)
+    * [Git Hub AE Data Protection Agreement](site-policy/site-policy-deprecated/github-ae-data-protection-agreement.md)
+    * [Git Hub AE Product Specific Terms](site-policy/site-policy-deprecated/github-ae-product-specific-terms.md)
+    * [Git Hub Enterprise Cloud Evaluation Agreement](site-policy/site-policy-deprecated/github-enterprise-cloud-evaluation-agreement.md)
+    * [Git Hub Enterprise Server License Agreement](site-policy/site-policy-deprecated/github-enterprise-server-license-agreement.md)
+    * [Git Hub Enterprise Service Level Agreement](site-policy/site-policy-deprecated/github-enterprise-service-level-agreement.md)
+    * [Git Hub Enterprise Subscription Agreement](site-policy/site-policy-deprecated/github-enterprise-subscription-agreement.md)
+    * [Git Hub Supplemental Terms For Microsoft Volume Licensing](site-policy/site-policy-deprecated/github-supplemental-terms-for-microsoft-volume-licensing.md)
+    * [Deprecated Site Policy Articles](site-policy/site-policy-deprecated/index.md)
   * [Site Policy](site-policy/index.md)
 - Sponsors
   - Getting Started With Github Sponsors
