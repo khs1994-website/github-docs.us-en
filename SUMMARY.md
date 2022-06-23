@@ -83,6 +83,7 @@
 - Actions
   - Automating Builds And Tests
     * [About Continuous Integration](actions/automating-builds-and-tests/about-continuous-integration.md)
+    * [Building And Testing Go](actions/automating-builds-and-tests/building-and-testing-go.md)
     * [Building And Testing Java With Ant](actions/automating-builds-and-tests/building-and-testing-java-with-ant.md)
     * [Building And Testing Java With Gradle](actions/automating-builds-and-tests/building-and-testing-java-with-gradle.md)
     * [Building And Testing Java With Maven](actions/automating-builds-and-tests/building-and-testing-java-with-maven.md)
@@ -864,6 +865,7 @@
     * [Using The Visual Studio Code Command Palette In Codespaces](codespaces/codespaces-reference/using-the-vs-code-command-palette-in-codespaces.md)
   - Customizing Your Codespace
     * [Changing The Machine Type For Your Codespace](codespaces/customizing-your-codespace/changing-the-machine-type-for-your-codespace.md)
+    * [Configuring Automatic Deletion Of Your Codespaces](codespaces/customizing-your-codespace/configuring-automatic-deletion-of-your-codespaces.md)
     * [Customizing Your Codespace](codespaces/customizing-your-codespace/index.md)
     * [Personalizing Codespaces For Your Account](codespaces/customizing-your-codespace/personalizing-codespaces-for-your-account.md)
     * [Setting Your Default Editor For Codespaces](codespaces/customizing-your-codespace/setting-your-default-editor-for-codespaces.md)
@@ -893,6 +895,7 @@
     * [Managing Repository Access For Your Organization S Codespaces](codespaces/managing-codespaces-for-your-organization/managing-repository-access-for-your-organizations-codespaces.md)
     * [Restricting Access To Machine Types](codespaces/managing-codespaces-for-your-organization/restricting-access-to-machine-types.md)
     * [Restricting The Idle Timeout Period](codespaces/managing-codespaces-for-your-organization/restricting-the-idle-timeout-period.md)
+    * [Restricting The Retention Period For Codespaces](codespaces/managing-codespaces-for-your-organization/restricting-the-retention-period-for-codespaces.md)
     * [Restricting The Visibility Of Forwarded Ports](codespaces/managing-codespaces-for-your-organization/restricting-the-visibility-of-forwarded-ports.md)
     * [Reviewing Your Organization S Audit Logs For Codespaces](codespaces/managing-codespaces-for-your-organization/reviewing-your-organizations-audit-logs-for-codespaces.md)
   - Managing Your Codespaces
@@ -1889,6 +1892,7 @@
     * [Git Hub Actions Artifacts](rest/actions/artifacts.md)
     * [Git Hub Actions Cache](rest/actions/cache.md)
     * [Actions](rest/actions/index.md)
+    * [Git Hub Actions OIDC](rest/actions/oidc.md)
     * [Git Hub Actions Permissions](rest/actions/permissions.md)
     * [Git Hub Actions Secrets](rest/actions/secrets.md)
     * [Self Hosted Runner Groups](rest/actions/self-hosted-runner-groups.md)
@@ -1920,6 +1924,7 @@
   - Codespaces
     * [Codespaces](rest/codespaces/index.md)
     * [Codespaces Machines](rest/codespaces/machines.md)
+    * [Codespaces Organizations](rest/codespaces/organizations.md)
     * [Codespaces Repository Secrets](rest/codespaces/repository-secrets.md)
     * [Codespaces User Secrets](rest/codespaces/secrets.md)
   - Collaborators
