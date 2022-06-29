@@ -741,7 +741,7 @@
     * [Setting Up Paid Organizations For Procurement Companies](billing/setting-up-paid-organizations-for-procurement-companies/index.md)
     * [Renewing Your Client S Paid Organization](billing/setting-up-paid-organizations-for-procurement-companies/renewing-your-clients-paid-organization.md)
     * [Upgrading Or Downgrading Your Client S Paid Organization](billing/setting-up-paid-organizations-for-procurement-companies/upgrading-or-downgrading-your-clients-paid-organization.md)
-  * [Index](billing/index.md)
+  * [Billing And Payments On Git Hub](billing/index.md)
 - Code Security
   - Code Scanning
     - Automatically Scanning Your Code For Vulnerabilities And Errors
