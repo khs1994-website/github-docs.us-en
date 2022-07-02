@@ -990,6 +990,7 @@
     * [Configuring Git Hub Copilot In Neovim](copilot/configuring-github-copilot/configuring-github-copilot-in-neovim.md)
     * [Configuring Git Hub Copilot In Visual Studio Code](copilot/configuring-github-copilot/configuring-github-copilot-in-visual-studio-code.md)
     * [Configuring Git Hub Copilot In Visual Studio](copilot/configuring-github-copilot/configuring-github-copilot-in-visual-studio.md)
+    * [Configuring GitHub Copilot settings on GitHub.com](copilot/configuring-github-copilot/configuring-github-copilot-settings-on-githubcom.md)
     * [Configuring Git Hub Copilot](copilot/configuring-github-copilot/index.md)
   - Getting Started With Github Copilot
     * [Getting Started With Git Hub Copilot In A Jet Brains IDE](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-a-jetbrains-ide.md)
