@@ -409,6 +409,7 @@
       * [Allowing Built In Authentication For Users Outside Your Provider](admin/identity-and-access-management/managing-iam-for-your-enterprise/allowing-built-in-authentication-for-users-outside-your-provider.md)
       * [Changing Authentication Methods](admin/identity-and-access-management/managing-iam-for-your-enterprise/changing-authentication-methods.md)
       * [Managing IAM For Your Enterprise](admin/identity-and-access-management/managing-iam-for-your-enterprise/index.md)
+      * [Troubleshooting Identity And Access Management For Your Enterprise](admin/identity-and-access-management/managing-iam-for-your-enterprise/troubleshooting-identity-and-access-management-for-your-enterprise.md)
       * [Username Considerations For External Authentication](admin/identity-and-access-management/managing-iam-for-your-enterprise/username-considerations-for-external-authentication.md)
     - Managing Recovery Codes For Your Enterprise
       * [Accessing Your Enterprise Account If Your Identity Provider Is Unavailable](admin/identity-and-access-management/managing-recovery-codes-for-your-enterprise/accessing-your-enterprise-account-if-your-identity-provider-is-unavailable.md)
@@ -533,7 +534,6 @@
       * [Creating Teams](admin/user-management/managing-organizations-in-your-enterprise/creating-teams.md)
       * [Managing Organizations In Your Enterprise](admin/user-management/managing-organizations-in-your-enterprise/index.md)
       * [Managing Projects Using Jira](admin/user-management/managing-organizations-in-your-enterprise/managing-projects-using-jira.md)
-      * [Managing Unowned Organizations In Your Enterprise](admin/user-management/managing-organizations-in-your-enterprise/managing-unowned-organizations-in-your-enterprise.md)
       * [Managing Your Role In An Organization Owned By Your Enterprise](admin/user-management/managing-organizations-in-your-enterprise/managing-your-role-in-an-organization-owned-by-your-enterprise.md)
       * [Preventing Users From Creating Organizations](admin/user-management/managing-organizations-in-your-enterprise/preventing-users-from-creating-organizations.md)
       * [Removing Organizations From Your Enterprise](admin/user-management/managing-organizations-in-your-enterprise/removing-organizations-from-your-enterprise.md)
@@ -1603,7 +1603,7 @@
     * [Managing SAML Single Sign On For Your Organization](organizations/managing-saml-single-sign-on-for-your-organization/index.md)
     * [Managing Team Synchronization For Your Organization](organizations/managing-saml-single-sign-on-for-your-organization/managing-team-synchronization-for-your-organization.md)
     * [Preparing To Enforce SAML Single Sign On In Your Organization](organizations/managing-saml-single-sign-on-for-your-organization/preparing-to-enforce-saml-single-sign-on-in-your-organization.md)
-    * [Troubleshooting Identity And Access Management](organizations/managing-saml-single-sign-on-for-your-organization/troubleshooting-identity-and-access-management.md)
+    * [Troubleshooting Identity And Access Management For Your Organization](organizations/managing-saml-single-sign-on-for-your-organization/troubleshooting-identity-and-access-management-for-your-organization.md)
   - Migrating To Improved Organization Permissions
     * [Converting An Admin Team To Improved Organization Permissions](organizations/migrating-to-improved-organization-permissions/converting-an-admin-team-to-improved-organization-permissions.md)
     * [Converting An Owners Team To Improved Organization Permissions](organizations/migrating-to-improved-organization-permissions/converting-an-owners-team-to-improved-organization-permissions.md)
