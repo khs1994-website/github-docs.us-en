@@ -269,10 +269,8 @@
     - Managing Github Advanced Security For Your Enterprise
       * [Configuring Code Scanning For Your Appliance](admin/code-security/managing-github-advanced-security-for-your-enterprise/configuring-code-scanning-for-your-appliance.md)
       * [Configuring Secret Scanning For Your Appliance](admin/code-security/managing-github-advanced-security-for-your-enterprise/configuring-secret-scanning-for-your-appliance.md)
-      * [Deploying Git Hub Advanced Security In Your Enterprise](admin/code-security/managing-github-advanced-security-for-your-enterprise/deploying-github-advanced-security-in-your-enterprise.md)
       * [Enabling Git Hub Advanced Security For Your Enterprise](admin/code-security/managing-github-advanced-security-for-your-enterprise/enabling-github-advanced-security-for-your-enterprise.md)
       * [Managing Git Hub Advanced Security For Your Enterprise](admin/code-security/managing-github-advanced-security-for-your-enterprise/index.md)
-      * [Overview Of Git Hub Advanced Security Deployment](admin/code-security/managing-github-advanced-security-for-your-enterprise/overview-of-github-advanced-security-deployment.md)
     - Managing Supply Chain Security For Your Enterprise
       * [About Supply Chain Security For Your Enterprise](admin/code-security/managing-supply-chain-security-for-your-enterprise/about-supply-chain-security-for-your-enterprise.md)
       * [Enabling The Dependency Graph For Your Enterprise](admin/code-security/managing-supply-chain-security-for-your-enterprise/enabling-the-dependency-graph-for-your-enterprise.md)
@@ -743,6 +741,15 @@
     * [Upgrading Or Downgrading Your Client S Paid Organization](billing/setting-up-paid-organizations-for-procurement-companies/upgrading-or-downgrading-your-clients-paid-organization.md)
   * [Billing And Payments On Git Hub](billing/index.md)
 - Code Security
+  - Adopting Github Advanced Security At Scale
+    * [Adopting Git Hub Advanced Security At Scale](code-security/adopting-github-advanced-security-at-scale/index.md)
+    * [Introduction To Adopting Git Hub Advanced Security At Scale](code-security/adopting-github-advanced-security-at-scale/introduction-to-adopting-github-advanced-security-at-scale.md)
+    * [Phase 1 Align On Your Rollout Strategy And Goals](code-security/adopting-github-advanced-security-at-scale/phase-1-align-on-your-rollout-strategy-and-goals.md)
+    * [Phase 2 Preparing To Enable At Scale](code-security/adopting-github-advanced-security-at-scale/phase-2-preparing-to-enable-at-scale.md)
+    * [Phase 3 Pilot Programs](code-security/adopting-github-advanced-security-at-scale/phase-3-pilot-programs.md)
+    * [Phase 4 Create Internal Documentation](code-security/adopting-github-advanced-security-at-scale/phase-4-create-internal-documentation.md)
+    * [Phase 5 Rollout And Scale Code Scanning](code-security/adopting-github-advanced-security-at-scale/phase-5-rollout-and-scale-code-scanning.md)
+    * [Phase 6 Rollout And Scale Secret Scanning](code-security/adopting-github-advanced-security-at-scale/phase-6-rollout-and-scale-secret-scanning.md)
   - Code Scanning
     - Automatically Scanning Your Code For Vulnerabilities And Errors
       * [About Code Scanning Alerts](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning-alerts.md)
@@ -884,9 +891,9 @@
     * [Using Git Hub Codespaces With Git Hub CLI](codespaces/developing-in-codespaces/using-github-codespaces-with-github-cli.md)
     * [Using Source Control In Your Codespace](codespaces/developing-in-codespaces/using-source-control-in-your-codespace.md)
   - Getting Started
-    * [Deep Dive Into Git Hub Codespaces](codespaces/getting-started/deep-dive.md)
-    * [Getting Started with {% data variables.product.prodname_github_codespaces %}](codespaces/getting-started/index.md)
-    * [Quickstart For Git Hub Codespaces](codespaces/getting-started/quickstart.md)
+    * [Deep dive into {% data variables.product.prodname_github_codespaces %}](codespaces/getting-started/deep-dive.md)
+    * [Getting started with {% data variables.product.prodname_github_codespaces %}](codespaces/getting-started/index.md)
+    * [Quickstart for {% data variables.product.prodname_github_codespaces %}](codespaces/getting-started/quickstart.md)
   - Managing Codespaces For Your Organization
     * [Enabling Git Hub Codespaces For Your Organization](codespaces/managing-codespaces-for-your-organization/enabling-github-codespaces-for-your-organization.md)
     * [Managing Codespaces For Your Organization](codespaces/managing-codespaces-for-your-organization/index.md)
