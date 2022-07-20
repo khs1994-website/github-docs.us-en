@@ -321,7 +321,7 @@
       * [Managing Git Hub Mobile For Your Enterprise](admin/configuration/configuring-your-enterprise/managing-github-mobile-for-your-enterprise.md)
       * [Restricting Network Traffic To Your Enterprise](admin/configuration/configuring-your-enterprise/restricting-network-traffic-to-your-enterprise.md)
       * [Site Admin Dashboard](admin/configuration/configuring-your-enterprise/site-admin-dashboard.md)
-      * [Troubleshooting SSL Errors](admin/configuration/configuring-your-enterprise/troubleshooting-ssl-errors.md)
+      * [Troubleshooting TLS Errors](admin/configuration/configuring-your-enterprise/troubleshooting-tls-errors.md)
       * [Verifying Or Approving A Domain For Your Enterprise](admin/configuration/configuring-your-enterprise/verifying-or-approving-a-domain-for-your-enterprise.md)
     * [Configuring Git Hub Enterprise](admin/configuration/index.md)
   - Enterprise Management
@@ -614,7 +614,7 @@
     * [Updating Your Git Hub Access Credentials](authentication/keeping-your-account-and-data-secure/updating-your-github-access-credentials.md)
   - Managing Commit Signature Verification
     * [About Commit Signature Verification](authentication/managing-commit-signature-verification/about-commit-signature-verification.md)
-    * [Adding A New GPG Key To Your Git Hub Account](authentication/managing-commit-signature-verification/adding-a-new-gpg-key-to-your-github-account.md)
+    * [Adding A GPG Key To Your Git Hub Account](authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account.md)
     * [Associating An Email With Your GPG Key](authentication/managing-commit-signature-verification/associating-an-email-with-your-gpg-key.md)
     * [Checking For Existing GPG Keys](authentication/managing-commit-signature-verification/checking-for-existing-gpg-keys.md)
     * [Displaying Verification Statuses For All Of Your Commits](authentication/managing-commit-signature-verification/displaying-verification-statuses-for-all-of-your-commits.md)
@@ -636,7 +636,6 @@
   - Troubleshooting Commit Signature Verification
     * [Checking Your Commit And Tag Signature Verification Status](authentication/troubleshooting-commit-signature-verification/checking-your-commit-and-tag-signature-verification-status.md)
     * [Troubleshooting Commit Signature Verification](authentication/troubleshooting-commit-signature-verification/index.md)
-    * [Updating An Expired GPG Key](authentication/troubleshooting-commit-signature-verification/updating-an-expired-gpg-key.md)
     * [Using A Verified Email Address In Your GPG Key](authentication/troubleshooting-commit-signature-verification/using-a-verified-email-address-in-your-gpg-key.md)
   - Troubleshooting Ssh
     * [Deleted Or Missing SSH Keys](authentication/troubleshooting-ssh/deleted-or-missing-ssh-keys.md)
