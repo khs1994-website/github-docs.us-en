@@ -490,6 +490,7 @@
     * [About Enterprise Accounts](admin/overview/about-enterprise-accounts.md)
     * [About Git Hub AE](admin/overview/about-github-ae.md)
     * [About Git Hub Enterprise Server](admin/overview/about-github-enterprise-server.md)
+    * [About Git Hub For Enterprises](admin/overview/about-github-for-enterprises.md)
     * [About The Git Hub Enterprise API](admin/overview/about-the-github-enterprise-api.md)
     * [About Upgrades To New Releases](admin/overview/about-upgrades-to-new-releases.md)
     * [Accessing Compliance Reports For Your Enterprise](admin/overview/accessing-compliance-reports-for-your-enterprise.md)
