@@ -309,7 +309,9 @@
       * [Configuring Custom Footers](admin/configuration/configuring-your-enterprise/configuring-custom-footers.md)
       * [Configuring Email For Notifications](admin/configuration/configuring-your-enterprise/configuring-email-for-notifications.md)
       * [Configuring Git Hub Pages For Your Enterprise](admin/configuration/configuring-your-enterprise/configuring-github-pages-for-your-enterprise.md)
+      * [Configuring Host Keys For Your Instance](admin/configuration/configuring-your-enterprise/configuring-host-keys-for-your-instance.md)
       * [Configuring Rate Limits](admin/configuration/configuring-your-enterprise/configuring-rate-limits.md)
+      * [Configuring SSH Connections To Your Instance](admin/configuration/configuring-your-enterprise/configuring-ssh-connections-to-your-instance.md)
       * [Configuring The Referrer Policy For Your Enterprise](admin/configuration/configuring-your-enterprise/configuring-the-referrer-policy-for-your-enterprise.md)
       * [Configuring Time Synchronization](admin/configuration/configuring-your-enterprise/configuring-time-synchronization.md)
       * [Configuring Web Commit Signing](admin/configuration/configuring-your-enterprise/configuring-web-commit-signing.md)
@@ -504,6 +506,7 @@
     * [Enabling Git Hub Packages With Min IO](admin/packages/enabling-github-packages-with-minio.md)
     * [Getting Started With Git Hub Packages For Your Enterprise](admin/packages/getting-started-with-github-packages-for-your-enterprise.md)
     * [Managing Git Hub Packages For Your Enterprise](admin/packages/index.md)
+    * [Migrating Your Enterprise To The Container Registry From The Docker Registry](admin/packages/migrating-your-enterprise-to-the-container-registry-from-the-docker-registry.md)
     * [Quickstart For Configuring Your Min IO Storage Bucket For Git Hub Packages](admin/packages/quickstart-for-configuring-your-minio-storage-bucket-for-github-packages.md)
   - Policies
     - Enforcing Policies For Your Enterprise
@@ -1195,6 +1198,11 @@
   * [Git Hub Discussions Documentation](discussions/index.md)
   * [Quickstart For Git Hub Discussions](discussions/quickstart.md)
 - Education
+  - Contribute With Github Community Exchange
+    * [Getting Started With Git Hub Community Exchange](education/contribute-with-github-community-exchange/getting-started-with-github-community-exchange.md)
+    * [Contribute With Git Hub Community Exchange](education/contribute-with-github-community-exchange/index.md)
+    * [Managing Your Submissions To Git Hub Community Exchange](education/contribute-with-github-community-exchange/managing-your-submissions-to-github-community-exchange.md)
+    * [Submitting Your Repository To Git Hub Community Exchange](education/contribute-with-github-community-exchange/submitting-your-repository-to-github-community-exchange.md)
   - Explore The Benefits Of Teaching And Learning With Github Education
     - Use Github At Your Educational Institution
       * [About Campus Advisors](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/about-campus-advisors.md)
@@ -1575,6 +1583,7 @@
     * [Managing Discussion Creation For Repositories In Your Organization](organizations/managing-organization-settings/managing-discussion-creation-for-repositories-in-your-organization.md)
     * [Managing Pull Request Reviews In Your Organization](organizations/managing-organization-settings/managing-pull-request-reviews-in-your-organization.md)
     * [Managing Scheduled Reminders For Your Organization](organizations/managing-organization-settings/managing-scheduled-reminders-for-your-organization.md)
+    * [Managing The Commit Signoff Policy For Your Organization](organizations/managing-organization-settings/managing-the-commit-signoff-policy-for-your-organization.md)
     * [Managing The Default Branch Name For Repositories In Your Organization](organizations/managing-organization-settings/managing-the-default-branch-name-for-repositories-in-your-organization.md)
     * [Managing The Display Of Member Names In Your Organization](organizations/managing-organization-settings/managing-the-display-of-member-names-in-your-organization.md)
     * [Managing The Forking Policy For Your Organization](organizations/managing-organization-settings/managing-the-forking-policy-for-your-organization.md)
@@ -1844,6 +1853,7 @@
       * [Managing Git LFS Objects In Archives Of Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-git-lfs-objects-in-archives-of-your-repository.md)
       * [Managing Pull Request Reviews In Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-pull-request-reviews-in-your-repository.md)
       * [Managing Teams And People With Access To Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository.md)
+      * [Managing The Commit Signoff Policy For Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-the-commit-signoff-policy-for-your-repository.md)
       * [Managing The Forking Policy For Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-the-forking-policy-for-your-repository.md)
       * [Setting Repository Visibility](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility.md)
     * [Managing your repository’s settings and features](repositories/managing-your-repositorys-settings-and-features/index.md)
