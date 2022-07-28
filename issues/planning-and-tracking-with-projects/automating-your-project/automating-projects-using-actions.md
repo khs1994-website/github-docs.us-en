@@ -1,33 +1,18 @@
 ---
-title: Automating projects (beta)
-intro: 'You can use built-in workflows or the API and {% data variables.product.prodname_actions %} to manage your projects.'
-allowTitleToDifferFromFilename: true
+title: 'Automating {% data variables.product.prodname_projects_v2 %} using Actions'
+shortTitle: 'Automating with Actions'
+intro: 'You can use {% data variables.product.prodname_actions %} to automate your projects.'
 miniTocMaxHeadingLevel: 3
 versions:
-  fpt: '*'
-  ghec: '*'
+  feature: "projects-v2"
+redirect_from:
+  - /issues/trying-out-the-new-projects-experience/automating-projects
 type: tutorial
 topics:
   - Projects
-  - Workflows
-  - Project management
+allowTitleToDifferFromFilename: true
 ---
 
-{% data reusables.projects.projects-beta %}
-
-{% data reusables.projects.graphql-deprecation %}
-
-## Introduction
-
-You can add automation to help manage your project. Projects (beta) includes built-in workflows that you can configure through the UI. Additionally, you can write custom workflows with the GraphQL API and {% data variables.product.prodname_actions %}.
-
-## Built-in workflows
-
-{% data reusables.projects.about-workflows %}
-
-You can enable or disable the built-in workflows for your project.
-
-{% data reusables.projects.enable-basic-workflow %}
 
 ## {% data variables.product.prodname_actions %} workflows
 
@@ -39,11 +24,13 @@ A project can span multiple repositories, but a workflow is specific to a reposi
 
 This article assumes that you have a basic understanding of {% data variables.product.prodname_actions %}. For more information about {% data variables.product.prodname_actions %}, see "[{% data variables.product.prodname_actions %}](/actions)."
 
-For more information about other changes you can make to your project through the API, see "[Using the API to manage projects](/issues/trying-out-the-new-projects-experience/using-the-api-to-manage-projects)."
+For more information about other changes you can make to your project through the API, see "[Using the API to manage projects](/issues/planning-and-tracking-with-projects/automating-your-project/using-the-api-to-manage-projects)."
+
+You may also want to use the **actions/add-to-project** workflow, which is maintained by {% data variables.product.company_short %} and will add the current issue or pull request to the project specified. For more information, see the [actions/add-to-project](https://github.com/actions/add-to-project) repository and README.
 
 {% note %}
 
-**Note:** `GITHUB_TOKEN` is scoped to the repository level and cannot access projects (beta). To access projects (beta) you can either create a {% data variables.product.prodname_github_app %} (recommended for organization projects) or a personal access token (recommended for user projects). Workflow examples for both approaches are shown below.
+**Note:** `GITHUB_TOKEN` is scoped to the repository level and cannot access {% data variables.projects.projects_v2 %}. To access {% data variables.projects.projects_v2 %} you can either create a {% data variables.product.prodname_github_app %} (recommended for organization projects) or a personal access token (recommended for user projects). Workflow examples for both approaches are shown below.
 
 {% endnote %}
 

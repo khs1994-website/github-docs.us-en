@@ -1,17 +1,18 @@
 ---
-title: Managing access to projects (beta)
-intro: 'You can control who can view, edit, or manage your projects.'
-allowTitleToDifferFromFilename: true
-miniTocMaxHeadingLevel: 2
+title: 'Managing access to your {% data variables.projects.projects_v2 %}'
+shortTitle: 'Managing {% data variables.projects.project_v2 %} access'
+intro: 'Learn how to manage team and individual access to your {% data variables.projects.project_v2 %}.'
+miniTocMaxHeadingLevel: 3
 versions:
-  fpt: '*'
-  ghec: '*'
+  feature: "projects-v2"
+redirect_from:
+  - /issues/trying-out-the-new-projects-experience/managing-access-to-projects
+type: tutorial
 topics:
   - Projects
-  - Organizations
+allowTitleToDifferFromFilename: true
 ---
 
-{% data reusables.projects.projects-beta %}
 
 ## About project access
 
@@ -29,7 +30,9 @@ The default base role is `write`, meaning that everyone in the organization can 
 
 {% data reusables.projects.project-settings %}
 1. Click **Manage access**.
+   ![Screenshot showing the "Manage access" item](/assets/images/help/projects-v2/manage-access.png)
 2. Under **Base role**, select the default role.
+   ![Screenshot showing the base role menu](/assets/images/help/projects-v2/base-role.png)
    - **No access**: Only organization owners and users granted individual access can see the project. Organization owners are also admins for the project.
    - **Read**: Everyone in the organization can see the project. Organization owners are also admins for the project.
    - **Write**: Everyone in the organization can see and edit the project. Organization owners are also admins for the project.
@@ -43,22 +46,31 @@ You can only invite an individual user to collaborate on your organization-level
 
 {% data reusables.projects.project-settings %}
 1. Click **Manage access**.
+   ![Screenshot showing the "Manage access" item](/assets/images/help/projects-v2/manage-access.png)
 2. Under **Invite collaborators**, search for the team or individual user that you want to invite.
+   ![Screenshot showing searching for a collaborator](/assets/images/help/projects-v2/access-search.png)
 3. Select the role for the collaborator.
+   ![Screenshot showing selecting a role](/assets/images/help/projects-v2/access-role.png)
    - **Read**: The team or individual can view the project.
    - **Write**: The team or individual can view and edit the project.
    - **Admin**: The team or individual can view, edit, and add new collaborators to the project.
 4. Click **Invite**.
+   ![Screenshot showing the invite button](/assets/images/help/projects-v2/access-invite.png)
 
 ### Managing access of an existing collaborator on your project
 
 {% data reusables.projects.project-settings %}
 1. Click **Manage access**.
+   ![Screenshot showing the "Manage access" item](/assets/images/help/projects-v2/manage-access.png)
 1. Under **Manage access**, find the collaborator(s) whose permissions you want to modify.
 
    You can use the **Type** and **Role** drop-down menus to filter the access list.
+   ![Screenshot showing a collaborator](/assets/images/help/projects-v2/access-find-member.png)
 
-1. Edit the role for the collaborator(s) or click {% octicon "trash" aria-label="the trash icon" %} to remove the collaborator(s).
+1. Edit the role for the collaborator(s).
+   ![Screenshot showing changing a collaborator's role](/assets/images/help/projects-v2/access-change-role.png)
+1. Optionally, click **Remove** to remove the collaborator(s).
+   ![Screenshot showing removing a collaborator](/assets/images/help/projects-v2/access-remove-member.png)
 
 ## Managing access for user-level projects
 
@@ -72,19 +84,28 @@ This only affects collaborators for your project, not for repositories in your p
 
 {% data reusables.projects.project-settings %}
 1. Click **Manage access**.
+   ![Screenshot showing the "Manage access" item](/assets/images/help/projects-v2/manage-access.png)
 2. Under **Invite collaborators**, search for the user that you want to invite.
+   ![Screenshot showing searching for a collaborator](/assets/images/help/projects-v2/access-search.png)
 3. Select the role for the collaborator.
+   ![Screenshot showing selecting a role](/assets/images/help/projects-v2/access-role.png)
    - **Read**: The individual can view the project.
    - **Write**: The individual can view and edit the project.
    - **Admin**: The individual can view, edit, and add new collaborators to the project.
 4. Click **Invite**.
+   ![Screenshot showing the invite button](/assets/images/help/projects-v2/access-invite.png)
 
 ### Managing access of an existing collaborator on your project
 
 {% data reusables.projects.project-settings %}
 1. Click **Manage access**.
+   ![Screenshot showing the "Manage access" item](/assets/images/help/projects-v2/manage-access.png)
 1. Under **Manage access**, find the collaborator(s) whose permissions you want to modify.
 
-   You can use the **Role** drop-down menu to filter the access list.
+   You can use the **Type** and **Role** drop-down menus to filter the access list.
+   ![Screenshot showing a collaborator](/assets/images/help/projects-v2/access-find-member.png)
 
-1. Edit the role for the collaborator(s) or click {% octicon "trash" aria-label="the trash icon" %} to remove the collaborator(s).
+1. Edit the role for the collaborator(s).
+   ![Screenshot showing changing a collaborator's role](/assets/images/help/projects-v2/access-change-role.png)
+1. Optionally, click **Remove** to remove the collaborator(s).
+   ![Screenshot showing removing a collaborator](/assets/images/help/projects-v2/access-remove-member.png)

@@ -1,21 +1,21 @@
 ---
-title: Using the API to manage projects (beta)
-intro: You can use the GraphQL API to find information about projects and to update projects.
-versions:
-  fpt: '*'
-  ghec: '*'
+title: 'Using the API to manage {% data variables.product.prodname_projects_v2 %}'
+shortTitle: 'Automating with the API'
+intro: 'You can use the GraphQL API to automate your projects.'
 miniTocMaxHeadingLevel: 3
-allowTitleToDifferFromFilename: true
-type: how_to
+versions:
+  feature: "projects-v2"
+redirect_from:
+  - /issues/trying-out-the-new-projects-experience/using-the-api-to-manage-projects
+type: tutorial
 topics:
   - Projects
+allowTitleToDifferFromFilename: true
 ---
 
+This article demonstrates how to use the GraphQL API to manage a project. For more information about how to use the API in a {% data variables.product.prodname_actions %} workflow, see "[Automating {% data variables.product.prodname_projects_v2 %} using Actions](/issues/planning-and-tracking-with-projects/automating-your-project/automating-projects-using-actions)." For a full list of the available data types, see "[Reference](/graphql/reference)."
+
 {% data reusables.projects.graphql-deprecation %}
-
-This article demonstrates how to use the GraphQL API to manage a project. For more information about how to use the API in a {% data variables.product.prodname_actions %} workflow, see "[Automating projects (beta)](/issues/trying-out-the-new-projects-experience/automating-projects)." For a full list of the available data types, see "[Reference](/graphql/reference)."
-
-{% data reusables.projects.projects-beta %}
 
 ## Authentication
 
@@ -714,3 +714,7 @@ gh api graphql -f query='
   }'
 ```
 {% endcli %}
+
+## Using webhooks
+
+You can use webhooks to subscribe to events taking place in your project. For example, when an item is edited, {% data variables.product.product_name %} can send a HTTP POST payload to the webhook's configured URL which can trigger automation on your server. For more information about webhooks, see "[About webhooks](/developers/webhooks-and-events/webhooks/about-webhooks)." To learn more about the `projects_v2_item` webhook event, see "[Webhook events and payloads](/developers/webhooks-and-events/webhooks/webhook-events-and-payloads#projects_v2_item)."
