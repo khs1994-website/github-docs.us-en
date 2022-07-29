@@ -917,6 +917,7 @@
     * [Reviewing Your Security Logs For Git Hub Codespaces](codespaces/managing-your-codespaces/reviewing-your-security-logs-for-github-codespaces.md)
   - Prebuilding Your Codespaces
     * [About Git Hub Codespaces Prebuilds](codespaces/prebuilding-your-codespaces/about-github-codespaces-prebuilds.md)
+    * [Allowing A Prebuild To Access Other Repositories](codespaces/prebuilding-your-codespaces/allowing-a-prebuild-to-access-other-repositories.md)
     * [Configuring Prebuilds](codespaces/prebuilding-your-codespaces/configuring-prebuilds.md)
     * [Prebuilding Your Codespaces](codespaces/prebuilding-your-codespaces/index.md)
     * [Managing Prebuilds](codespaces/prebuilding-your-codespaces/managing-prebuilds.md)
@@ -2186,7 +2187,7 @@
     * [Git Hub Statement Against Modern Slavery And Child Labor](site-policy/github-company-policies/github-statement-against-modern-slavery-and-child-labor.md)
     * [Git Hub Company Policies](site-policy/github-company-policies/index.md)
   - Github Terms
-    * [Git Hub Community Forum Code Of Conduct](site-policy/github-terms/github-community-forum-code-of-conduct.md)
+    * [Git Hub Community Code Of Conduct](site-policy/github-terms/github-community-code-of-conduct.md)
     * [Git Hub Community Guidelines](site-policy/github-terms/github-community-guidelines.md)
     * [Git Hub Corporate Terms Of Service](site-policy/github-terms/github-corporate-terms-of-service.md)
     * [Git Hub Event Code Of Conduct](site-policy/github-terms/github-event-code-of-conduct.md)
