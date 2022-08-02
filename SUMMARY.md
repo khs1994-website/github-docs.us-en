@@ -2066,6 +2066,7 @@
     * [Organizations](rest/orgs/orgs.md)
     * [Organization Members](rest/orgs/members.md)
     * [Outside Collaborators](rest/orgs/outside-collaborators.md)
+    * [Security Managers](rest/orgs/security-managers.md)
     * [Organization Webhooks](rest/orgs/webhooks.md)
   - Overview
     * [API Previews](rest/overview/api-previews.md)
