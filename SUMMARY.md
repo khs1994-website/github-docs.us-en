@@ -1994,6 +1994,7 @@
     * [Dependency Submission](rest/dependency-graph/dependency-submission.md)
     * [Dependency Graph](rest/dependency-graph/index.md)
   - Deployments
+    * [Deployment Branch Policies](rest/deployments/branch-policies.md)
     * [Deployments](rest/deployments/index.md)
     * [Deployment Environments](rest/deployments/environments.md)
     * [Deployment Statuses](rest/deployments/statuses.md)
