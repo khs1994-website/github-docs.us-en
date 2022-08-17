@@ -839,6 +839,7 @@
     * [Keeping Secrets Secure With Secret Scanning](code-security/secret-scanning/index.md)
     * [Managing Alerts From Secret Scanning](code-security/secret-scanning/managing-alerts-from-secret-scanning.md)
     * [Protecting Pushes With Secret Scanning](code-security/secret-scanning/protecting-pushes-with-secret-scanning.md)
+    * [Pushing A Branch Blocked By Push Protection](code-security/secret-scanning/pushing-a-branch-blocked-by-push-protection.md)
     * [Secret Scanning Patterns](code-security/secret-scanning/secret-scanning-patterns.md)
   - Security Overview
     * [About The Security Overview](code-security/security-overview/about-the-security-overview.md)
@@ -1826,6 +1827,7 @@
   - Configuring Branches And Merges In Your Repository
     - Configuring Pull Request Merges
       * [About Merge Methods On Git Hub](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/about-merge-methods-on-github.md)
+      * [Configuring Commit Merging For Pull Requests](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/configuring-commit-merging-for-pull-requests.md)
       * [Configuring Commit Rebasing For Pull Requests](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/configuring-commit-rebasing-for-pull-requests.md)
       * [Configuring Commit Squashing For Pull Requests](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/configuring-commit-squashing-for-pull-requests.md)
       * [Configuring Pull Request Merges](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/index.md)
