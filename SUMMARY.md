@@ -891,6 +891,7 @@
     * [Deleting A Codespace](codespaces/developing-in-codespaces/deleting-a-codespace.md)
     * [Developing In A Codespace](codespaces/developing-in-codespaces/index.md)
     * [Forwarding Ports In Your Codespace](codespaces/developing-in-codespaces/forwarding-ports-in-your-codespace.md)
+    * [Renaming A Codespace](codespaces/developing-in-codespaces/renaming-a-codespace.md)
     * [Using Git Hub Codespaces For Pull Requests](codespaces/developing-in-codespaces/using-github-codespaces-for-pull-requests.md)
     * [Using Git Hub Codespaces In Visual Studio Code](codespaces/developing-in-codespaces/using-github-codespaces-in-visual-studio-code.md)
     * [Using Git Hub Codespaces With Git Hub CLI](codespaces/developing-in-codespaces/using-github-codespaces-with-github-cli.md)
