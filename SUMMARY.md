@@ -2139,6 +2139,8 @@
   * [SCIM](rest/scim.md)
   * [Search](rest/search.md)
   * [Secret Scanning](rest/secret-scanning.md)
+- Search
+  * [Search](search/index.md)
 - Search Github
   - Getting Started With Searching On Github
     * [About Searching On Git Hub](search-github/getting-started-with-searching-on-github/about-searching-on-github.md)
