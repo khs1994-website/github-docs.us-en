@@ -1723,7 +1723,6 @@
     * [Verifying Your Custom Domain For Git Hub Pages](pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages.md)
   - Getting Started With Github Pages
     * [About Git Hub Pages](pages/getting-started-with-github-pages/about-github-pages.md)
-    * [Adding A Theme To Your Git Hub Pages Site With The Theme Chooser](pages/getting-started-with-github-pages/adding-a-theme-to-your-github-pages-site-with-the-theme-chooser.md)
     * [Changing The Visibility Of Your Git Hub Pages Site](pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site.md)
     * [Configuring A Publishing Source For Your Git Hub Pages Site](pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site.md)
     * [Creating A Custom 404 Page For Your Git Hub Pages Site](pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site.md)
@@ -2134,6 +2133,7 @@
   * [O Auth Authorizations](rest/oauth-authorizations.md)
   * [Packages](rest/packages.md)
   * [Pages](rest/pages.md)
+  * [Quickstart For Git Hub REST API](rest/quickstart.md)
   * [Rate Limit](rest/rate-limit.md)
   * [Reactions](rest/reactions.md)
   * [SCIM](rest/scim.md)
