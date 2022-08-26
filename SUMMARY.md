@@ -53,10 +53,7 @@
       * [Types Of Emails Git Hub Sends](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/types-of-emails-github-sends.md)
     - Managing Personal Account Settings
       * [About Your Personal Dashboard](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/about-your-personal-dashboard.md)
-      * [Best Practices For Leaving Your Company](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/best-practices-for-leaving-your-company.md)
       * [Changing Your Git Hub Username](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/changing-your-github-username.md)
-      * [Converting A User Into An Organization](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/converting-a-user-into-an-organization.md)
-      * [Deleting Your Personal Account](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/deleting-your-personal-account.md)
       * [Managing User Account Settings](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/index.md)
       * [Integrating Jira With Your Personal Projects](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/integrating-jira-with-your-personal-projects.md)
       * [Managing Access To Your Personal Account S Project Boards](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-access-to-your-personal-accounts-project-boards.md)
@@ -65,7 +62,6 @@
       * [Managing The Default Branch Name For Your Repositories](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-the-default-branch-name-for-your-repositories.md)
       * [Managing Your Tab Size Rendering Preference](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-your-tab-size-rendering-preference.md)
       * [Managing Your Theme Settings](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-your-theme-settings.md)
-      * [Merging Multiple Personal Accounts](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/merging-multiple-personal-accounts.md)
       * [Permission Levels For A Personal Account Repository](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/permission-levels-for-a-personal-account-repository.md)
       * [Permission Levels For A Project Board Owned By A Personal Account](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/permission-levels-for-a-project-board-owned-by-a-personal-account.md)
       * [What Does The Available For Hire Checkbox Do](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/what-does-the-available-for-hire-checkbox-do.md)
@@ -78,6 +74,13 @@
       * [Removing Yourself From An Organization](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/removing-yourself-from-an-organization.md)
       * [Requesting Organization Approval For O Auth Apps](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/requesting-organization-approval-for-oauth-apps.md)
       * [Viewing People S Roles In An Organization](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/viewing-peoples-roles-in-an-organization.md)
+    - Managing Your Personal Account
+      * [Best Practices For Leaving Your Company](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-personal-account/best-practices-for-leaving-your-company.md)
+      * [Converting A User Into An Organization](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-personal-account/converting-a-user-into-an-organization.md)
+      * [Deleting Your Personal Account](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-personal-account/deleting-your-personal-account.md)
+      * [Managing Your Personal Account](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-personal-account/index.md)
+      * [Managing Multiple Accounts](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-personal-account/managing-multiple-accounts.md)
+      * [Merging Multiple Personal Accounts](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-personal-account/merging-multiple-personal-accounts.md)
     * [Setting Up And Managing Your Personal Account On Git Hub](account-and-profile/setting-up-and-managing-your-personal-account-on-github/index.md)
   * [Your Account And Profile On Git Hub](account-and-profile/index.md)
 - Actions
