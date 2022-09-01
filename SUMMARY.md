@@ -2118,6 +2118,7 @@
     * [GPG Keys](rest/users/gpg-keys.md)
     * [Users](rest/users/users.md)
     * [Git SSH Keys](rest/users/keys.md)
+    * [SSH Signing Keys](rest/users/ssh-signing-keys.md)
   - Webhooks
     * [Webhooks](rest/webhooks/index.md)
     * [Repository Webhook Configuration](rest/webhooks/repo-config.md)
