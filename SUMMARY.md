@@ -60,6 +60,7 @@
       * [Managing Accessibility Settings](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-accessibility-settings.md)
       * [Managing Security And Analysis Settings For Your Personal Account](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-security-and-analysis-settings-for-your-personal-account.md)
       * [Managing The Default Branch Name For Your Repositories](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-the-default-branch-name-for-your-repositories.md)
+      * [Managing Your Cookie Preferences For Git Hub S Enterprise Marketing Pages](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-your-cookie-preferences-for-githubs-enterprise-marketing-pages.md)
       * [Managing Your Tab Size Rendering Preference](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-your-tab-size-rendering-preference.md)
       * [Managing Your Theme Settings](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-your-theme-settings.md)
       * [Permission Levels For A Personal Account Repository](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/permission-levels-for-a-personal-account-repository.md)
@@ -235,9 +236,11 @@
   - Using Github Hosted Runners
     * [About Git Hub Hosted Runners](actions/using-github-hosted-runners/about-github-hosted-runners.md)
     * [Connecting To A Private Network](actions/using-github-hosted-runners/connecting-to-a-private-network.md)
+    * [Controlling Access To Larger Runners](actions/using-github-hosted-runners/controlling-access-to-larger-runners.md)
     * [Customizing Git Hub Hosted Runners](actions/using-github-hosted-runners/customizing-github-hosted-runners.md)
     * [Using Git Hub Hosted Runners](actions/using-github-hosted-runners/index.md)
     * [Monitoring Your Current Jobs](actions/using-github-hosted-runners/monitoring-your-current-jobs.md)
+    * [Using Larger Runners](actions/using-github-hosted-runners/using-larger-runners.md)
   - Using Jobs
     * [Assigning Permissions To Jobs](actions/using-jobs/assigning-permissions-to-jobs.md)
     * [Choosing The Runner For A Job](actions/using-jobs/choosing-the-runner-for-a-job.md)
@@ -894,6 +897,7 @@
     * [Deleting A Codespace](codespaces/developing-in-codespaces/deleting-a-codespace.md)
     * [Developing In A Codespace](codespaces/developing-in-codespaces/index.md)
     * [Forwarding Ports In Your Codespace](codespaces/developing-in-codespaces/forwarding-ports-in-your-codespace.md)
+    * [Getting Started With Git Hub Codespaces For Machine Learning](codespaces/developing-in-codespaces/getting-started-with-github-codespaces-for-machine-learning.md)
     * [Renaming A Codespace](codespaces/developing-in-codespaces/renaming-a-codespace.md)
     * [Using Git Hub Codespaces For Pull Requests](codespaces/developing-in-codespaces/using-github-codespaces-for-pull-requests.md)
     * [Using Git Hub Codespaces In Visual Studio Code](codespaces/developing-in-codespaces/using-github-codespaces-in-visual-studio-code.md)
