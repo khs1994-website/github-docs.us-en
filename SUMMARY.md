@@ -274,6 +274,7 @@
   - Code Security
     - Managing Github Advanced Security For Your Enterprise
       * [Configuring Code Scanning For Your Appliance](admin/code-security/managing-github-advanced-security-for-your-enterprise/configuring-code-scanning-for-your-appliance.md)
+      * [Configuring Dependency Review For Your Appliance](admin/code-security/managing-github-advanced-security-for-your-enterprise/configuring-dependency-review-for-your-appliance.md)
       * [Configuring Secret Scanning For Your Appliance](admin/code-security/managing-github-advanced-security-for-your-enterprise/configuring-secret-scanning-for-your-appliance.md)
       * [Enabling Git Hub Advanced Security For Your Enterprise](admin/code-security/managing-github-advanced-security-for-your-enterprise/enabling-github-advanced-security-for-your-enterprise.md)
       * [Managing Git Hub Advanced Security For Your Enterprise](admin/code-security/managing-github-advanced-security-for-your-enterprise/index.md)
