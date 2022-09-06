@@ -933,6 +933,7 @@
     * [Managing Prebuilds](codespaces/prebuilding-your-codespaces/managing-prebuilds.md)
     * [Testing Dev Container Configuration Changes On A Prebuild Enabled Branch](codespaces/prebuilding-your-codespaces/testing-dev-container-changes.md)
   - Setting Up Your Project For Codespaces
+    * [Adding An Open In Git Hub Codespaces Badge](codespaces/setting-up-your-project-for-codespaces/adding-a-codespaces-badge.md)
     * [Setting up your repository for {% data variables.product.prodname_github_codespaces %}](codespaces/setting-up-your-project-for-codespaces/index.md)
     * [Introduction To Dev Containers](codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers.md)
     * [Setting A Minimum Specification For Codespace Machines](codespaces/setting-up-your-project-for-codespaces/setting-a-minimum-specification-for-codespace-machines.md)
