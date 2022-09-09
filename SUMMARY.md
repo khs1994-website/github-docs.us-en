@@ -911,6 +911,7 @@
   - Managing Codespaces For Your Organization
     * [Enabling Git Hub Codespaces For Your Organization](codespaces/managing-codespaces-for-your-organization/enabling-github-codespaces-for-your-organization.md)
     * [Managing Codespaces For Your Organization](codespaces/managing-codespaces-for-your-organization/index.md)
+    * [Listing The Codespaces In Your Organization](codespaces/managing-codespaces-for-your-organization/listing-the-codespaces-in-your-organization.md)
     * [Managing Billing For Git Hub Codespaces In Your Organization](codespaces/managing-codespaces-for-your-organization/managing-billing-for-github-codespaces-in-your-organization.md)
     * [Managing Encrypted Secrets For Your Repository And Organization For Git Hub Codespaces](codespaces/managing-codespaces-for-your-organization/managing-encrypted-secrets-for-your-repository-and-organization-for-github-codespaces.md)
     * [Managing Repository Access For Your Organization S Codespaces](codespaces/managing-codespaces-for-your-organization/managing-repository-access-for-your-organizations-codespaces.md)
