@@ -899,6 +899,7 @@
     * [Developing In A Codespace](codespaces/developing-in-codespaces/index.md)
     * [Forwarding Ports In Your Codespace](codespaces/developing-in-codespaces/forwarding-ports-in-your-codespace.md)
     * [Getting Started With Git Hub Codespaces For Machine Learning](codespaces/developing-in-codespaces/getting-started-with-github-codespaces-for-machine-learning.md)
+    * [Opening An Existing Codespace](codespaces/developing-in-codespaces/opening-an-existing-codespace.md)
     * [Renaming A Codespace](codespaces/developing-in-codespaces/renaming-a-codespace.md)
     * [Stopping And Starting A Codespace](codespaces/developing-in-codespaces/stopping-and-starting-a-codespace.md)
     * [Using Git Hub Codespaces For Pull Requests](codespaces/developing-in-codespaces/using-github-codespaces-for-pull-requests.md)
