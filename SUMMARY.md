@@ -2274,6 +2274,7 @@
     * [Setting Up Git Hub Sponsors For Your Personal Account](sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-personal-account.md)
     * [Tax Information For Git Hub Sponsors](sponsors/receiving-sponsorships-through-github-sponsors/tax-information-for-github-sponsors.md)
     * [Unpublishing Your Git Hub Sponsors Profile](sponsors/receiving-sponsorships-through-github-sponsors/unpublishing-your-github-sponsors-profile.md)
+    * [Using A Fiscal Host To Receive Git Hub Sponsors Payouts](sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts.md)
     * [Viewing Your Sponsors And Sponsorships](sponsors/receiving-sponsorships-through-github-sponsors/viewing-your-sponsors-and-sponsorships.md)
   - Sponsoring Open Source Contributors
     * [Attributing Sponsorships To Your Organization](sponsors/sponsoring-open-source-contributors/attributing-sponsorships-to-your-organization.md)
