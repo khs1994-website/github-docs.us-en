@@ -2001,6 +2001,7 @@
     * [Commits](rest/commits/index.md)
     * [Commit Statuses](rest/commits/statuses.md)
   - Dependabot
+    * [{% data variables.product.prodname_dependabot_alerts %}](rest/dependabot/alerts.md)
     * [Dependabot](rest/dependabot/index.md)
     * [Dependabot Secrets](rest/dependabot/secrets.md)
   - Dependency Graph
