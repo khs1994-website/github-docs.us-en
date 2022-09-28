@@ -1494,6 +1494,7 @@
       * [Managing items in your {% data variables.projects.project_v2 %}](issues/planning-and-tracking-with-projects/managing-items-in-your-project/index.md)
     - Managing Your Project
       * [Adding your {% data variables.projects.project_v2 %} to a repository](issues/planning-and-tracking-with-projects/managing-your-project/adding-your-project-to-a-repository.md)
+      * [Adding your {% data variables.projects.project_v2 %} to a team](issues/planning-and-tracking-with-projects/managing-your-project/adding-your-project-to-a-team.md)
       * [Closing and deleting your {% data variables.projects.projects_v2 %}](issues/planning-and-tracking-with-projects/managing-your-project/closing-and-deleting-your-projects.md)
       * [Managing your {% data variables.projects.project_v2 %}](issues/planning-and-tracking-with-projects/managing-your-project/index.md)
       * [Managing access to your {% data variables.projects.projects_v2 %}](issues/planning-and-tracking-with-projects/managing-your-project/managing-access-to-your-projects.md)
