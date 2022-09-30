@@ -562,6 +562,7 @@
       * [Auditing Users Across Your Enterprise](admin/user-management/managing-users-in-your-enterprise/auditing-users-across-your-enterprise.md)
       * [Best Practices For User Security](admin/user-management/managing-users-in-your-enterprise/best-practices-for-user-security.md)
       * [Customizing User Messages For Your Enterprise](admin/user-management/managing-users-in-your-enterprise/customizing-user-messages-for-your-enterprise.md)
+      * [Exporting Membership Information For Your Enterprise](admin/user-management/managing-users-in-your-enterprise/exporting-membership-information-for-your-enterprise.md)
       * [Impersonating A User](admin/user-management/managing-users-in-your-enterprise/impersonating-a-user.md)
       * [Managing Users In Your Enterprise](admin/user-management/managing-users-in-your-enterprise/index.md)
       * [Inviting People To Manage Your Enterprise](admin/user-management/managing-users-in-your-enterprise/inviting-people-to-manage-your-enterprise.md)
