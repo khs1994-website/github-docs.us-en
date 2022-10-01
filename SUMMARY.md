@@ -1628,6 +1628,7 @@
     * [Enabling Or Disabling Git Hub Discussions For An Organization](organizations/managing-organization-settings/enabling-or-disabling-github-discussions-for-an-organization.md)
     * [Managing Organization Settings](organizations/managing-organization-settings/index.md)
     * [Integrating Jira With Your Organization Project Board](organizations/managing-organization-settings/integrating-jira-with-your-organization-project-board.md)
+    * [Limiting O Auth App And Git Hub App Access Requests](organizations/managing-organization-settings/limiting-oauth-app-and-github-app-access-requests.md)
     * [Managing Default Labels For Repositories In Your Organization](organizations/managing-organization-settings/managing-default-labels-for-repositories-in-your-organization.md)
     * [Managing Discussion Creation For Repositories In Your Organization](organizations/managing-organization-settings/managing-discussion-creation-for-repositories-in-your-organization.md)
     * [Managing Pull Request Reviews In Your Organization](organizations/managing-organization-settings/managing-pull-request-reviews-in-your-organization.md)
