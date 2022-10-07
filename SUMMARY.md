@@ -278,6 +278,7 @@
       * [Configuring Secret Scanning For Your Appliance](admin/code-security/managing-github-advanced-security-for-your-enterprise/configuring-secret-scanning-for-your-appliance.md)
       * [Enabling Git Hub Advanced Security For Your Enterprise](admin/code-security/managing-github-advanced-security-for-your-enterprise/enabling-github-advanced-security-for-your-enterprise.md)
       * [Managing Git Hub Advanced Security For Your Enterprise](admin/code-security/managing-github-advanced-security-for-your-enterprise/index.md)
+      * [Managing Git Hub Advanced Security Features For Your Enterprise](admin/code-security/managing-github-advanced-security-for-your-enterprise/managing-github-advanced-security-features-for-your-enterprise.md)
     - Managing Supply Chain Security For Your Enterprise
       * [About Supply Chain Security For Your Enterprise](admin/code-security/managing-supply-chain-security-for-your-enterprise/about-supply-chain-security-for-your-enterprise.md)
       * [Enabling The Dependency Graph For Your Enterprise](admin/code-security/managing-supply-chain-security-for-your-enterprise/enabling-the-dependency-graph-for-your-enterprise.md)
