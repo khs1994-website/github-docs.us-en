@@ -520,7 +520,7 @@
   - Policies
     - Enforcing Policies For Your Enterprise
       * [About Enterprise Policies](admin/policies/enforcing-policies-for-your-enterprise/about-enterprise-policies.md)
-      * [Enforcing Policies For Advanced Security In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-advanced-security-in-your-enterprise.md)
+      * [Enforcing Policies For Code Security And Analysis For Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-code-security-and-analysis-for-your-enterprise.md)
       * [Enforcing Policies For Dependency Insights In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-dependency-insights-in-your-enterprise.md)
       * [Enforcing Policies For Git Hub Actions In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise.md)
       * [Enforcing Policies For Projects In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-projects-in-your-enterprise.md)
