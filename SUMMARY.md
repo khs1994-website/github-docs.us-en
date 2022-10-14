@@ -881,7 +881,6 @@
     * [Disaster Recovery For Git Hub Codespaces](codespaces/codespaces-reference/disaster-recovery-for-github-codespaces.md)
     * [Reference](codespaces/codespaces-reference/index.md)
     * [Security In Git Hub Codespaces](codespaces/codespaces-reference/security-in-github-codespaces.md)
-    * [Understanding Billing For Git Hub Codespaces](codespaces/codespaces-reference/understanding-billing-for-github-codespaces.md)
     * [Using Git Hub Copilot In Git Hub Codespaces](codespaces/codespaces-reference/using-github-copilot-in-github-codespaces.md)
     * [Using The Visual Studio Code Command Palette In Git Hub Codespaces](codespaces/codespaces-reference/using-the-vs-code-command-palette-in-codespaces.md)
   - Customizing Your Codespace
@@ -916,9 +915,9 @@
     * [Enabling Git Hub Codespaces For Your Organization](codespaces/managing-codespaces-for-your-organization/enabling-github-codespaces-for-your-organization.md)
     * [Managing Git Hub Codespaces For Your Organization](codespaces/managing-codespaces-for-your-organization/index.md)
     * [Listing The Codespaces In Your Organization](codespaces/managing-codespaces-for-your-organization/listing-the-codespaces-in-your-organization.md)
-    * [Managing Billing For Git Hub Codespaces In Your Organization](codespaces/managing-codespaces-for-your-organization/managing-billing-for-github-codespaces-in-your-organization.md)
     * [Managing Encrypted Secrets For Your Repository And Organization For Git Hub Codespaces](codespaces/managing-codespaces-for-your-organization/managing-encrypted-secrets-for-your-repository-and-organization-for-github-codespaces.md)
     * [Managing Repository Access For Your Organization S Codespaces](codespaces/managing-codespaces-for-your-organization/managing-repository-access-for-your-organizations-codespaces.md)
+    * [Managing The Cost Of Git Hub Codespaces In Your Organization](codespaces/managing-codespaces-for-your-organization/managing-the-cost-of-github-codespaces-in-your-organization.md)
     * [Restricting Access To Machine Types](codespaces/managing-codespaces-for-your-organization/restricting-access-to-machine-types.md)
     * [Restricting The Idle Timeout Period](codespaces/managing-codespaces-for-your-organization/restricting-the-idle-timeout-period.md)
     * [Restricting The Retention Period For Codespaces](codespaces/managing-codespaces-for-your-organization/restricting-the-retention-period-for-codespaces.md)
@@ -2238,7 +2237,6 @@
   - Privacy Policies
     * [Git Hub Candidate Privacy Policy](site-policy/privacy-policies/github-candidate-privacy-policy.md)
     * [Git Hub Codespaces Privacy Statement](site-policy/privacy-policies/github-codespaces-privacy-statement.md)
-    * [Git Hub Data Protection Agreement](site-policy/privacy-policies/github-data-protection-agreement.md)
     * [Git Hub Privacy Statement](site-policy/privacy-policies/github-privacy-statement.md)
     * [Git Hub Subprocessors And Cookies](site-policy/privacy-policies/github-subprocessors-and-cookies.md)
     * [Global Privacy Practices](site-policy/privacy-policies/global-privacy-practices.md)
