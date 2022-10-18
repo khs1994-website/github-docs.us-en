@@ -1473,6 +1473,7 @@
     * [Organizing your work with {% data variables.product.prodname_projects_v1 %}](issues/organizing-your-work-with-project-boards/index.md)
   - Planning And Tracking With Projects
     - Automating Your Project
+      * [Archiving Items Automatically](issues/planning-and-tracking-with-projects/automating-your-project/archiving-items-automatically.md)
       * [Automating {% data variables.product.prodname_projects_v2 %} using Actions](issues/planning-and-tracking-with-projects/automating-your-project/automating-projects-using-actions.md)
       * [Automating your {% data variables.projects.project_v2 %}](issues/planning-and-tracking-with-projects/automating-your-project/index.md)
       * [Using the API to manage {% data variables.product.prodname_projects_v2 %}](issues/planning-and-tracking-with-projects/automating-your-project/using-the-api-to-manage-projects.md)
