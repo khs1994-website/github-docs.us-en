@@ -4,6 +4,7 @@ intro: 'Organization owners can grant users the ability to manage some or all {%
 redirect_from:
   - /articles/adding-github-app-managers-in-your-organization
   - /github/setting-up-and-managing-organizations-and-teams/adding-github-app-managers-in-your-organization
+  - /organizations/managing-access-to-your-organizations-apps/adding-github-app-managers-in-your-organization
 versions:
   fpt: '*'
   ghes: '*'

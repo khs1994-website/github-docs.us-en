@@ -5,6 +5,7 @@ redirect_from:
   - /articles/approving-third-party-applications-for-your-organization
   - /articles/approving-oauth-apps-for-your-organization
   - /github/setting-up-and-managing-organizations-and-teams/approving-oauth-apps-for-your-organization
+  - /organizations/restricting-access-to-your-organizations-data/approving-oauth-apps-for-your-organization
 versions:
   fpt: '*'
   ghec: '*'

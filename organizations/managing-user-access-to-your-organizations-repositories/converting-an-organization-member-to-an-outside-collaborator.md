@@ -1,10 +1,11 @@
 ---
 title: Converting an organization member to an outside collaborator
 intro: 'If a current member of your organization only needs access to certain repositories, such as consultants or temporary employees, you can convert them to an outside collaborator.'
-permissions: 'Organization owners can convert an organization member to an outside collaborator.'
+permissions: Organization owners can convert an organization member to an outside collaborator.
 redirect_from:
   - /articles/converting-an-organization-member-to-an-outside-collaborator
   - /github/setting-up-and-managing-organizations-and-teams/converting-an-organization-member-to-an-outside-collaborator
+  - /organizations/managing-access-to-your-organizations-repositories/converting-an-organization-member-to-an-outside-collaborator
 versions:
   fpt: '*'
   ghes: '*'

@@ -5,6 +5,7 @@ redirect_from:
   - /articles/enabling-third-party-application-restrictions-for-your-organization
   - /articles/enabling-oauth-app-access-restrictions-for-your-organization
   - /github/setting-up-and-managing-organizations-and-teams/enabling-oauth-app-access-restrictions-for-your-organization
+  - /organizations/restricting-access-to-your-organizations-data/enabling-oauth-app-access-restrictions-for-your-organization
 versions:
   fpt: '*'
   ghec: '*'

@@ -6,6 +6,7 @@ redirect_from:
   - /articles/reviewing-your-organizations-installed-integrations
   - /github/setting-up-and-managing-organizations-and-teams/reviewing-your-organizations-installed-integrations
   - /organizations/keeping-your-organization-secure/reviewing-your-organizations-installed-integrations
+  - /organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-your-organizations-installed-integrations
 versions:
   fpt: '*'
   ghes: '*'

@@ -5,6 +5,7 @@ redirect_from:
   - /articles/denying-access-to-a-previously-approved-application-for-your-organization
   - /articles/denying-access-to-a-previously-approved-oauth-app-for-your-organization
   - /github/setting-up-and-managing-organizations-and-teams/denying-access-to-a-previously-approved-oauth-app-for-your-organization
+  - /organizations/restricting-access-to-your-organizations-data/denying-access-to-a-previously-approved-oauth-app-for-your-organization
 versions:
   fpt: '*'
   ghec: '*'

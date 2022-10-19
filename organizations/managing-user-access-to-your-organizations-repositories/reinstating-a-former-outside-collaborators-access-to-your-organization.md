@@ -5,6 +5,7 @@ redirect_from:
   - /articles/reinstating-a-former-outside-collaborator-s-access-to-your-organization
   - /articles/reinstating-a-former-outside-collaborators-access-to-your-organization
   - /github/setting-up-and-managing-organizations-and-teams/reinstating-a-former-outside-collaborators-access-to-your-organization
+  - /organizations/managing-access-to-your-organizations-repositories/reinstating-a-former-outside-collaborators-access-to-your-organization
 versions:
   fpt: '*'
   ghes: '*'

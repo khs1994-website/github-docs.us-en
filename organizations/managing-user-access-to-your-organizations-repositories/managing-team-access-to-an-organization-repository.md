@@ -5,6 +5,7 @@ redirect_from:
   - /articles/managing-team-access-to-an-organization-repository-early-access-program
   - /articles/managing-team-access-to-an-organization-repository
   - /github/setting-up-and-managing-organizations-and-teams/managing-team-access-to-an-organization-repository
+  - /organizations/managing-access-to-your-organizations-repositories/managing-team-access-to-an-organization-repository
 versions:
   fpt: '*'
   ghes: '*'

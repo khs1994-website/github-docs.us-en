@@ -4,6 +4,7 @@ intro: 'Organization owners can revoke {% data variables.product.prodname_github
 redirect_from:
   - /articles/removing-github-app-managers-from-your-organization
   - /github/setting-up-and-managing-organizations-and-teams/removing-github-app-managers-from-your-organization
+  - /organizations/managing-access-to-your-organizations-apps/removing-github-app-managers-from-your-organization
 versions:
   fpt: '*'
   ghes: '*'

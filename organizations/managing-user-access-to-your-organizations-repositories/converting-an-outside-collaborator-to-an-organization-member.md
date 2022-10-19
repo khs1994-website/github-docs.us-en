@@ -4,6 +4,7 @@ intro: 'If you would like to give an outside collaborator on your organization''
 redirect_from:
   - /articles/converting-an-outside-collaborator-to-an-organization-member
   - /github/setting-up-and-managing-organizations-and-teams/converting-an-outside-collaborator-to-an-organization-member
+  - /organizations/managing-access-to-your-organizations-repositories/converting-an-outside-collaborator-to-an-organization-member
 versions:
   fpt: '*'
   ghes: '*'

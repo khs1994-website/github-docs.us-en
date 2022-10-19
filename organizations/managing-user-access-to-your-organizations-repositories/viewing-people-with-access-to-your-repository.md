@@ -4,6 +4,7 @@ intro: 'You can view{% ifversion ghec or ghes or ghae %} and export{% endif %} a
 redirect_from:
   - /articles/viewing-people-with-access-to-your-repository
   - /github/setting-up-and-managing-organizations-and-teams/viewing-people-with-access-to-your-repository
+  - /organizations/managing-access-to-your-organizations-repositories/viewing-people-with-access-to-your-repository
 versions:
   fpt: '*'
   ghes: '*'

@@ -6,6 +6,7 @@ redirect_from:
   - /articles/managing-an-individual-s-access-to-an-organization-repository
   - /articles/managing-an-individuals-access-to-an-organization-repository
   - /github/setting-up-and-managing-organizations-and-teams/managing-an-individuals-access-to-an-organization-repository
+  - /organizations/managing-access-to-your-organizations-repositories/managing-an-individuals-access-to-an-organization-repository
 versions:
   fpt: '*'
   ghes: '*'

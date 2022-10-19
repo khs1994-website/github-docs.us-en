@@ -4,6 +4,7 @@ intro: You can set base permissions for the repositories that an organization ow
 permissions: Organization owners can set base permissions for an organization.
 redirect_from:
   - /github/setting-up-and-managing-organizations-and-teams/setting-base-permissions-for-an-organization
+  - /organizations/managing-access-to-your-organizations-repositories/setting-base-permissions-for-an-organization
 versions:
   fpt: '*'
   ghes: '*'

@@ -7,6 +7,7 @@ redirect_from:
   - /articles/repository-permission-levels-for-an-organization
   - /github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization
   - /organizations/managing-access-to-your-organizations-repositories/repository-permission-levels-for-an-organization
+  - /organizations/managing-access-to-your-organizations-repositories/repository-roles-for-an-organization
 versions:
   fpt: '*'
   ghes: '*'
