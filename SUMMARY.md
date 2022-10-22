@@ -441,6 +441,7 @@
       * [Using Enterprise Managed Users For IAM](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/index.md)
       * [Managing Team Memberships With Identity Provider Groups](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/managing-team-memberships-with-identity-provider-groups.md)
       * [Migrating From SAML To OIDC](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/migrating-from-saml-to-oidc.md)
+      * [Migrating Your Enterprise To A New Identity Provider Or Tenant](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/migrating-your-enterprise-to-a-new-identity-provider-or-tenant.md)
     - Using Ldap For Enterprise Iam
       * [Using LDAP For Enterprise IAM](admin/identity-and-access-management/using-ldap-for-enterprise-iam/index.md)
       * [Using LDAP](admin/identity-and-access-management/using-ldap-for-enterprise-iam/using-ldap.md)
@@ -1914,6 +1915,7 @@
       * [Managing Teams And People With Access To Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository.md)
       * [Managing The Commit Signoff Policy For Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-the-commit-signoff-policy-for-your-repository.md)
       * [Managing The Forking Policy For Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-the-forking-policy-for-your-repository.md)
+      * [Managing The Push Policy For Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-the-push-policy-for-your-repository.md)
       * [Setting Repository Visibility](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility.md)
     * [Managing your repository’s settings and features](repositories/managing-your-repositorys-settings-and-features/index.md)
   - Releasing Projects On Github
