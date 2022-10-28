@@ -799,10 +799,8 @@
   - Dependabot
     - Dependabot Alerts
       * [About Dependabot Alerts](code-security/dependabot/dependabot-alerts/about-dependabot-alerts.md)
-      * [Browsing Security Advisories In The Git Hub Advisory Database](code-security/dependabot/dependabot-alerts/browsing-security-advisories-in-the-github-advisory-database.md)
       * [Configuring Dependabot Alerts](code-security/dependabot/dependabot-alerts/configuring-dependabot-alerts.md)
       * [Configuring Notifications For Dependabot Alerts](code-security/dependabot/dependabot-alerts/configuring-notifications-for-dependabot-alerts.md)
-      * [Editing Security Advisories In The Git Hub Advisory Database](code-security/dependabot/dependabot-alerts/editing-security-advisories-in-the-github-advisory-database.md)
       * [Identifying Vulnerabilities In Your Project S Dependencies With Dependabot Alerts](code-security/dependabot/dependabot-alerts/index.md)
       * [Viewing And Updating Dependabot Alerts](code-security/dependabot/dependabot-alerts/viewing-and-updating-dependabot-alerts.md)
     - Dependabot Security Updates
@@ -831,19 +829,6 @@
     * [Getting Started With Code Security](code-security/getting-started/index.md)
     * [Securing Your Organization](code-security/getting-started/securing-your-organization.md)
     * [Securing Your Repository](code-security/getting-started/securing-your-repository.md)
-  - Repository Security Advisories
-    * [About Coordinated Disclosure Of Security Vulnerabilities](code-security/repository-security-advisories/about-coordinated-disclosure-of-security-vulnerabilities.md)
-    * [About Git Hub Security Advisories For Repositories](code-security/repository-security-advisories/about-github-security-advisories-for-repositories.md)
-    * [Adding A Collaborator To A Repository Security Advisory](code-security/repository-security-advisories/adding-a-collaborator-to-a-repository-security-advisory.md)
-    * [Best Practices For Writing Repository Security Advisories](code-security/repository-security-advisories/best-practices-for-writing-repository-security-advisories.md)
-    * [Collaborating In A Temporary Private Fork To Resolve A Repository Security Vulnerability](code-security/repository-security-advisories/collaborating-in-a-temporary-private-fork-to-resolve-a-repository-security-vulnerability.md)
-    * [Creating A Repository Security Advisory](code-security/repository-security-advisories/creating-a-repository-security-advisory.md)
-    * [Editing A Repository Security Advisory](code-security/repository-security-advisories/editing-a-repository-security-advisory.md)
-    * [Managing Repository Security Advisories For Vulnerabilities In Your Project](code-security/repository-security-advisories/index.md)
-    * [Permission Levels For Repository Security Advisories](code-security/repository-security-advisories/permission-levels-for-repository-security-advisories.md)
-    * [Publishing A Repository Security Advisory](code-security/repository-security-advisories/publishing-a-repository-security-advisory.md)
-    * [Removing A Collaborator From A Repository Security Advisory](code-security/repository-security-advisories/removing-a-collaborator-from-a-repository-security-advisory.md)
-    * [Withdrawing A Repository Security Advisory](code-security/repository-security-advisories/withdrawing-a-repository-security-advisory.md)
   - Secret Scanning
     * [About Secret Scanning](code-security/secret-scanning/about-secret-scanning.md)
     * [Configuring Secret Scanning For Your Repositories](code-security/secret-scanning/configuring-secret-scanning-for-your-repositories.md)
@@ -853,6 +838,29 @@
     * [Protecting Pushes With Secret Scanning](code-security/secret-scanning/protecting-pushes-with-secret-scanning.md)
     * [Pushing A Branch Blocked By Push Protection](code-security/secret-scanning/pushing-a-branch-blocked-by-push-protection.md)
     * [Secret Scanning Patterns](code-security/secret-scanning/secret-scanning-patterns.md)
+  - Security Advisories
+    - Global Security Advisories
+      * [About Global Security Advisories](code-security/security-advisories/global-security-advisories/about-global-security-advisories.md)
+      * [About The Git Hub Advisory Database](code-security/security-advisories/global-security-advisories/about-the-github-advisory-database.md)
+      * [Browsing Security Advisories In The Git Hub Advisory Database](code-security/security-advisories/global-security-advisories/browsing-security-advisories-in-the-github-advisory-database.md)
+      * [Editing Security Advisories In The Git Hub Advisory Database](code-security/security-advisories/global-security-advisories/editing-security-advisories-in-the-github-advisory-database.md)
+      * [Working With Global Security Advisories From The Git Hub Advisory Database](code-security/security-advisories/global-security-advisories/index.md)
+    - Guidance On Reporting And Writing
+      * [Best Practices For Writing Repository Security Advisories](code-security/security-advisories/guidance-on-reporting-and-writing/best-practices-for-writing-repository-security-advisories.md)
+      * [Guidance On Reporting And Writing Information About Vulnerabilities](code-security/security-advisories/guidance-on-reporting-and-writing/index.md)
+    - Repository Security Advisories
+      * [About Coordinated Disclosure Of Security Vulnerabilities](code-security/security-advisories/repository-security-advisories/about-coordinated-disclosure-of-security-vulnerabilities.md)
+      * [About Repository Security Advisories](code-security/security-advisories/repository-security-advisories/about-repository-security-advisories.md)
+      * [Adding A Collaborator To A Repository Security Advisory](code-security/security-advisories/repository-security-advisories/adding-a-collaborator-to-a-repository-security-advisory.md)
+      * [Collaborating In A Temporary Private Fork To Resolve A Repository Security Vulnerability](code-security/security-advisories/repository-security-advisories/collaborating-in-a-temporary-private-fork-to-resolve-a-repository-security-vulnerability.md)
+      * [Creating A Repository Security Advisory](code-security/security-advisories/repository-security-advisories/creating-a-repository-security-advisory.md)
+      * [Editing A Repository Security Advisory](code-security/security-advisories/repository-security-advisories/editing-a-repository-security-advisory.md)
+      * [Working With Repository Security Advisories](code-security/security-advisories/repository-security-advisories/index.md)
+      * [Permission Levels For Repository Security Advisories](code-security/security-advisories/repository-security-advisories/permission-levels-for-repository-security-advisories.md)
+      * [Publishing A Repository Security Advisory](code-security/security-advisories/repository-security-advisories/publishing-a-repository-security-advisory.md)
+      * [Removing A Collaborator From A Repository Security Advisory](code-security/security-advisories/repository-security-advisories/removing-a-collaborator-from-a-repository-security-advisory.md)
+      * [Withdrawing A Repository Security Advisory](code-security/security-advisories/repository-security-advisories/withdrawing-a-repository-security-advisory.md)
+    * [Working With Security Advisories](code-security/security-advisories/index.md)
   - Security Overview
     * [About The Security Overview](code-security/security-overview/about-the-security-overview.md)
     * [Filtering Alerts In The Security Overview](code-security/security-overview/filtering-alerts-in-the-security-overview.md)
@@ -942,6 +950,7 @@
     * [Testing Dev Container Configuration Changes On A Prebuild Enabled Branch](codespaces/prebuilding-your-codespaces/testing-dev-container-changes.md)
   - Setting Up Your Project For Codespaces
     * [Adding An Open In Git Hub Codespaces Badge](codespaces/setting-up-your-project-for-codespaces/adding-a-codespaces-badge.md)
+    * [Automatically Opening Files In The Codespaces For A Repository](codespaces/setting-up-your-project-for-codespaces/automatically-opening-files-in-the-codespaces-for-a-repository.md)
     * [Setting up your repository for {% data variables.product.prodname_github_codespaces %}](codespaces/setting-up-your-project-for-codespaces/index.md)
     * [Introduction To Dev Containers](codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers.md)
     * [Setting A Minimum Specification For Codespace Machines](codespaces/setting-up-your-project-for-codespaces/setting-a-minimum-specification-for-codespace-machines.md)
