@@ -1654,6 +1654,7 @@
     * [Upgrading To The Corporate Terms Of Service](organizations/managing-organization-settings/upgrading-to-the-corporate-terms-of-service.md)
     * [Verifying Or Approving A Domain For Your Organization](organizations/managing-organization-settings/verifying-or-approving-a-domain-for-your-organization.md)
   - Managing Peoples Access To Your Organization With Roles
+    * [About Custom Repository Roles](organizations/managing-peoples-access-to-your-organization-with-roles/about-custom-repository-roles.md)
     * [Adding A Billing Manager To Your Organization](organizations/managing-peoples-access-to-your-organization-with-roles/adding-a-billing-manager-to-your-organization.md)
     * [Managing People S Access To Your Organization With Roles](organizations/managing-peoples-access-to-your-organization-with-roles/index.md)
     * [Maintaining Ownership Continuity For Your Organization](organizations/managing-peoples-access-to-your-organization-with-roles/maintaining-ownership-continuity-for-your-organization.md)
