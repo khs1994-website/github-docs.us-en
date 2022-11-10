@@ -200,6 +200,7 @@
     * [Reviewing Deployments](actions/managing-workflow-runs/reviewing-deployments.md)
     * [Skipping Workflow Runs](actions/managing-workflow-runs/skipping-workflow-runs.md)
   - Migrating To Github Actions
+    * [Automating Migration With Git Hub Actions Importer](actions/migrating-to-github-actions/automating-migration-with-github-actions-importer.md)
     * [Migrating To Git Hub Actions](actions/migrating-to-github-actions/index.md)
     * [Migrating From Azure Pipelines To Git Hub Actions](actions/migrating-to-github-actions/migrating-from-azure-pipelines-to-github-actions.md)
     * [Migrating From Circle CI To Git Hub Actions](actions/migrating-to-github-actions/migrating-from-circleci-to-github-actions.md)
@@ -492,6 +493,7 @@
       * [Configuring The Audit Log For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/configuring-the-audit-log-for-your-enterprise.md)
       * [Displaying IP Addresses In The Audit Log For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/displaying-ip-addresses-in-the-audit-log-for-your-enterprise.md)
       * [Exporting Audit Log Activity For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/exporting-audit-log-activity-for-your-enterprise.md)
+      * [Identifying Audit Log Events Performed By An Access Token](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/identifying-audit-log-events-performed-by-an-access-token.md)
       * [Reviewing Audit Logs For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/index.md)
       * [Searching The Audit Log For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/searching-the-audit-log-for-your-enterprise.md)
       * [Streaming The Audit Log For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/streaming-the-audit-log-for-your-enterprise.md)
@@ -688,7 +690,7 @@
   - Managing Billing For Github Codespaces
     * [About Billing For Git Hub Codespaces](billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces.md)
     * [Managing Billing For Git Hub Codespaces](billing/managing-billing-for-github-codespaces/index.md)
-    * [Managing Spending Limits For Git Hub Codespaces](billing/managing-billing-for-github-codespaces/managing-spending-limits-for-github-codespaces.md)
+    * [Managing The Spending Limit For Git Hub Codespaces](billing/managing-billing-for-github-codespaces/managing-the-spending-limit-for-github-codespaces.md)
     * [Viewing Your Git Hub Codespaces Usage](billing/managing-billing-for-github-codespaces/viewing-your-github-codespaces-usage.md)
   - Managing Billing For Github Copilot
     * [About Billing For Git Hub Copilot](billing/managing-billing-for-github-copilot/about-billing-for-github-copilot.md)
@@ -846,13 +848,16 @@
       * [Editing Security Advisories In The Git Hub Advisory Database](code-security/security-advisories/global-security-advisories/editing-security-advisories-in-the-github-advisory-database.md)
       * [Working With Global Security Advisories From The Git Hub Advisory Database](code-security/security-advisories/global-security-advisories/index.md)
     - Guidance On Reporting And Writing
+      * [About Coordinated Disclosure Of Security Vulnerabilities](code-security/security-advisories/guidance-on-reporting-and-writing/about-coordinated-disclosure-of-security-vulnerabilities.md)
       * [Best Practices For Writing Repository Security Advisories](code-security/security-advisories/guidance-on-reporting-and-writing/best-practices-for-writing-repository-security-advisories.md)
       * [Guidance On Reporting And Writing Information About Vulnerabilities](code-security/security-advisories/guidance-on-reporting-and-writing/index.md)
+      * [Managing Privately Reported Security Vulnerabilities](code-security/security-advisories/guidance-on-reporting-and-writing/managing-privately-reported-security-vulnerabilities.md)
+      * [Privately Reporting A Security Vulnerability](code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability.md)
     - Repository Security Advisories
-      * [About Coordinated Disclosure Of Security Vulnerabilities](code-security/security-advisories/repository-security-advisories/about-coordinated-disclosure-of-security-vulnerabilities.md)
       * [About Repository Security Advisories](code-security/security-advisories/repository-security-advisories/about-repository-security-advisories.md)
       * [Adding A Collaborator To A Repository Security Advisory](code-security/security-advisories/repository-security-advisories/adding-a-collaborator-to-a-repository-security-advisory.md)
       * [Collaborating In A Temporary Private Fork To Resolve A Repository Security Vulnerability](code-security/security-advisories/repository-security-advisories/collaborating-in-a-temporary-private-fork-to-resolve-a-repository-security-vulnerability.md)
+      * [Configuring Private Vulnerability Reporting For A Repository](code-security/security-advisories/repository-security-advisories/configuring-private-vulnerability-reporting-for-a-repository.md)
       * [Creating A Repository Security Advisory](code-security/security-advisories/repository-security-advisories/creating-a-repository-security-advisory.md)
       * [Editing A Repository Security Advisory](code-security/security-advisories/repository-security-advisories/editing-a-repository-security-advisory.md)
       * [Working With Repository Security Advisories](code-security/security-advisories/repository-security-advisories/index.md)
@@ -862,10 +867,10 @@
       * [Withdrawing A Repository Security Advisory](code-security/security-advisories/repository-security-advisories/withdrawing-a-repository-security-advisory.md)
     * [Working With Security Advisories](code-security/security-advisories/index.md)
   - Security Overview
-    * [About The Security Overview](code-security/security-overview/about-the-security-overview.md)
-    * [Filtering Alerts In The Security Overview](code-security/security-overview/filtering-alerts-in-the-security-overview.md)
+    * [About Security Overviews](code-security/security-overview/about-the-security-overview.md)
+    * [Filtering Alerts In Security Overviews](code-security/security-overview/filtering-alerts-in-the-security-overview.md)
     * [Viewing Security Alerts For Repositories In Your Organization](code-security/security-overview/index.md)
-    * [Viewing The Security Overview](code-security/security-overview/viewing-the-security-overview.md)
+    * [Viewing Security Overviews](code-security/security-overview/viewing-the-security-overview.md)
   - Supply Chain Security
     - End To End Supply Chain
       * [Securing Your End To End Supply Chain](code-security/supply-chain-security/end-to-end-supply-chain/end-to-end-supply-chain-overview.md)
@@ -893,6 +898,7 @@
     * [Reference](codespaces/codespaces-reference/index.md)
     * [Security In Git Hub Codespaces](codespaces/codespaces-reference/security-in-github-codespaces.md)
     * [Using Git Hub Copilot In Git Hub Codespaces](codespaces/codespaces-reference/using-github-copilot-in-github-codespaces.md)
+    * [Using The Git Hub Codespaces Plugin For Jet Brains](codespaces/codespaces-reference/using-the-github-codespaces-plugin-for-jetbrains.md)
     * [Using The Visual Studio Code Command Palette In Git Hub Codespaces](codespaces/codespaces-reference/using-the-vs-code-command-palette-in-codespaces.md)
   - Customizing Your Codespace
     * [Changing The Machine Type For Your Codespace](codespaces/customizing-your-codespace/changing-the-machine-type-for-your-codespace.md)
@@ -904,9 +910,9 @@
     * [Setting Your Default Region For Git Hub Codespaces](codespaces/customizing-your-codespace/setting-your-default-region-for-github-codespaces.md)
     * [Setting Your Timeout Period For Git Hub Codespaces](codespaces/customizing-your-codespace/setting-your-timeout-period-for-github-codespaces.md)
   - Developing In Codespaces
-    * [Codespaces Lifecycle](codespaces/developing-in-codespaces/codespaces-lifecycle.md)
     * [Connecting To A Private Network](codespaces/developing-in-codespaces/connecting-to-a-private-network.md)
-    * [Creating A Codespace](codespaces/developing-in-codespaces/creating-a-codespace.md)
+    * [Creating A Codespace For A Repository](codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository.md)
+    * [Creating A Codespace From A Template](codespaces/developing-in-codespaces/creating-a-codespace-from-a-template.md)
     * [Default Environment Variables For Your Codespace](codespaces/developing-in-codespaces/default-environment-variables-for-your-codespace.md)
     * [Deleting A Codespace](codespaces/developing-in-codespaces/deleting-a-codespace.md)
     * [Developing In A Codespace](codespaces/developing-in-codespaces/index.md)
@@ -914,8 +920,10 @@
     * [Getting Started With Git Hub Codespaces For Machine Learning](codespaces/developing-in-codespaces/getting-started-with-github-codespaces-for-machine-learning.md)
     * [Opening An Existing Codespace](codespaces/developing-in-codespaces/opening-an-existing-codespace.md)
     * [Stopping And Starting A Codespace](codespaces/developing-in-codespaces/stopping-and-starting-a-codespace.md)
+    * [The Codespace Lifecycle](codespaces/developing-in-codespaces/the-codespace-lifecycle.md)
     * [Using Git Hub Codespaces For Pull Requests](codespaces/developing-in-codespaces/using-github-codespaces-for-pull-requests.md)
     * [Using Git Hub Codespaces In Visual Studio Code](codespaces/developing-in-codespaces/using-github-codespaces-in-visual-studio-code.md)
+    * [Using Git Hub Codespaces In Your Jet Brains IDE](codespaces/developing-in-codespaces/using-github-codespaces-in-your-jetbrains-ide.md)
     * [Using Git Hub Codespaces With Git Hub CLI](codespaces/developing-in-codespaces/using-github-codespaces-with-github-cli.md)
     * [Using Source Control In Your Codespace](codespaces/developing-in-codespaces/using-source-control-in-your-codespace.md)
   - Getting Started
@@ -950,10 +958,12 @@
     * [Testing Dev Container Configuration Changes On A Prebuild Enabled Branch](codespaces/prebuilding-your-codespaces/testing-dev-container-changes.md)
   - Setting Up Your Project For Codespaces
     * [Adding An Open In Git Hub Codespaces Badge](codespaces/setting-up-your-project-for-codespaces/adding-a-codespaces-badge.md)
+    * [Adding features to a devcontainer.json file](codespaces/setting-up-your-project-for-codespaces/adding-features-to-a-devcontainer-file.md)
     * [Automatically Opening Files In The Codespaces For A Repository](codespaces/setting-up-your-project-for-codespaces/automatically-opening-files-in-the-codespaces-for-a-repository.md)
     * [Setting up your repository for {% data variables.product.prodname_github_codespaces %}](codespaces/setting-up-your-project-for-codespaces/index.md)
     * [Introduction To Dev Containers](codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers.md)
     * [Setting A Minimum Specification For Codespace Machines](codespaces/setting-up-your-project-for-codespaces/setting-a-minimum-specification-for-codespace-machines.md)
+    * [Setting Up A Template Repository For Git Hub Codespaces](codespaces/setting-up-your-project-for-codespaces/setting-up-a-template-repository-for-github-codespaces.md)
     * [Setting up your C# (.NET) project for GitHub Codespaces](codespaces/setting-up-your-project-for-codespaces/setting-up-your-dotnet-project-for-codespaces.md)
     * [Setting Up Your Java Project For Git Hub Codespaces](codespaces/setting-up-your-project-for-codespaces/setting-up-your-java-project-for-codespaces.md)
     * [Setting up your Node.js project for GitHub Codespaces](codespaces/setting-up-your-project-for-codespaces/setting-up-your-nodejs-project-for-codespaces.md)
@@ -963,9 +973,9 @@
     * [Exporting Changes To A Branch](codespaces/troubleshooting/exporting-changes-to-a-branch.md)
     * [Git Hub Codespaces Logs](codespaces/troubleshooting/github-codespaces-logs.md)
     * [Troubleshooting Git Hub Codespaces](codespaces/troubleshooting/index.md)
-    * [Troubleshooting Git Hub Codespaces Clients](codespaces/troubleshooting/troubleshooting-codespaces-clients.md)
     * [Troubleshooting Creation And Deletion Of Codespaces](codespaces/troubleshooting/troubleshooting-creation-and-deletion-of-codespaces.md)
     * [Troubleshooting Dotfiles For Git Hub Codespaces](codespaces/troubleshooting/troubleshooting-dotfiles-for-codespaces.md)
+    * [Troubleshooting Git Hub Codespaces Clients](codespaces/troubleshooting/troubleshooting-github-codespaces-clients.md)
     * [Troubleshooting Port Forwarding For Git Hub Codespaces](codespaces/troubleshooting/troubleshooting-port-forwarding-for-github-codespaces.md)
     * [Troubleshooting Prebuilds](codespaces/troubleshooting/troubleshooting-prebuilds.md)
     * [Troubleshooting Your Connection To Git Hub Codespaces](codespaces/troubleshooting/troubleshooting-your-connection-to-github-codespaces.md)
@@ -1402,6 +1412,7 @@
       * [Getting Started With Writing And Formatting On Git Hub](get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/index.md)
       * [Quickstart For Writing On Git Hub](get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github.md)
     - Working With Advanced Formatting
+      * [About Task Lists](get-started/writing-on-github/working-with-advanced-formatting/about-task-lists.md)
       * [Attaching Files](get-started/writing-on-github/working-with-advanced-formatting/attaching-files.md)
       * [Autolinked References And UR Ls](get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls.md)
       * [Creating A Permanent Link To A Code Snippet](get-started/writing-on-github/working-with-advanced-formatting/creating-a-permanent-link-to-a-code-snippet.md)
@@ -1517,14 +1528,15 @@
       * [Managing your {% data variables.projects.project_v2 %}](issues/planning-and-tracking-with-projects/managing-your-project/index.md)
       * [Managing access to your {% data variables.projects.projects_v2 %}](issues/planning-and-tracking-with-projects/managing-your-project/managing-access-to-your-projects.md)
       * [Managing visibility of your {% data variables.projects.projects_v2 %}](issues/planning-and-tracking-with-projects/managing-your-project/managing-visibility-of-your-projects.md)
-    - Understanding Field Types
-      * [About Date Fields](issues/planning-and-tracking-with-projects/understanding-field-types/about-date-fields.md)
-      * [About Iteration Fields](issues/planning-and-tracking-with-projects/understanding-field-types/about-iteration-fields.md)
-      * [About Single Select Fields](issues/planning-and-tracking-with-projects/understanding-field-types/about-single-select-fields.md)
-      * [About Text And Number Fields](issues/planning-and-tracking-with-projects/understanding-field-types/about-text-and-number-fields.md)
-      * [Deleting Fields](issues/planning-and-tracking-with-projects/understanding-field-types/deleting-fields.md)
-      * [Understanding Field Types](issues/planning-and-tracking-with-projects/understanding-field-types/index.md)
-      * [Renaming Fields](issues/planning-and-tracking-with-projects/understanding-field-types/renaming-fields.md)
+    - Understanding Fields
+      * [About Date Fields](issues/planning-and-tracking-with-projects/understanding-fields/about-date-fields.md)
+      * [About Iteration Fields](issues/planning-and-tracking-with-projects/understanding-fields/about-iteration-fields.md)
+      * [About Single Select Fields](issues/planning-and-tracking-with-projects/understanding-fields/about-single-select-fields.md)
+      * [About Text And Number Fields](issues/planning-and-tracking-with-projects/understanding-fields/about-text-and-number-fields.md)
+      * [About Tracks And Tracked By Fields](issues/planning-and-tracking-with-projects/understanding-fields/about-tracks-and-tracked-by-fields.md)
+      * [Deleting Custom Fields](issues/planning-and-tracking-with-projects/understanding-fields/deleting-custom-fields.md)
+      * [Understanding Fields](issues/planning-and-tracking-with-projects/understanding-fields/index.md)
+      * [Renaming Custom Fields](issues/planning-and-tracking-with-projects/understanding-fields/renaming-custom-fields.md)
     - Viewing Insights From Your Project
       * [About insights for {% data variables.product.prodname_projects_v2 %}](issues/planning-and-tracking-with-projects/viewing-insights-from-your-project/about-insights-for-projects.md)
       * [Configuring Charts](issues/planning-and-tracking-with-projects/viewing-insights-from-your-project/configuring-charts.md)
@@ -1533,7 +1545,7 @@
     * [Planning and tracking with {% data variables.product.prodname_projects_v2 %}](issues/planning-and-tracking-with-projects/index.md)
   - Tracking Your Work With Issues
     * [About Issues](issues/tracking-your-work-with-issues/about-issues.md)
-    * [About Task Lists](issues/tracking-your-work-with-issues/about-task-lists.md)
+    * [About Tasklists](issues/tracking-your-work-with-issues/about-tasklists.md)
     * [Assigning Issues And Pull Requests To Other Git Hub Users](issues/tracking-your-work-with-issues/assigning-issues-and-pull-requests-to-other-github-users.md)
     * [Closing An Issue](issues/tracking-your-work-with-issues/closing-an-issue.md)
     * [Creating A Branch To Work On An Issue](issues/tracking-your-work-with-issues/creating-a-branch-for-an-issue.md)
@@ -1957,6 +1969,7 @@
       * [Editing Files](repositories/working-with-files/managing-files/editing-files.md)
       * [Managing Files](repositories/working-with-files/managing-files/index.md)
       * [Moving A File To A New Location](repositories/working-with-files/managing-files/moving-a-file-to-a-new-location.md)
+      * [Navigating Files With The New Code View Beta](repositories/working-with-files/managing-files/navigating-files-with-the-new-code-view.md)
       * [Renaming A File](repositories/working-with-files/managing-files/renaming-a-file.md)
     - Managing Large Files
       * [About Git Large File Storage](repositories/working-with-files/managing-large-files/about-git-large-file-storage.md)
@@ -2191,6 +2204,11 @@
     * [Sorting Search Results](search-github/getting-started-with-searching-on-github/sorting-search-results.md)
     * [Troubleshooting Search Queries](search-github/getting-started-with-searching-on-github/troubleshooting-search-queries.md)
     * [Understanding The Search Syntax](search-github/getting-started-with-searching-on-github/understanding-the-search-syntax.md)
+  - Github Code Search
+    * [About Git Hub Code Search Beta](search-github/github-code-search/about-github-code-search.md)
+    * [Git Hub Code Search Beta](search-github/github-code-search/index.md)
+    * [Understanding Git Hub Code Search Beta Syntax](search-github/github-code-search/understanding-github-code-search-syntax.md)
+    * [Using Git Hub Code Search Beta](search-github/github-code-search/using-github-code-search.md)
   - Searching On Github
     * [Finding Files On Git Hub](search-github/searching-on-github/finding-files-on-github.md)
     * [Searching On Git Hub](search-github/searching-on-github/index.md)
