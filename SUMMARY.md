@@ -867,10 +867,10 @@
       * [Withdrawing A Repository Security Advisory](code-security/security-advisories/repository-security-advisories/withdrawing-a-repository-security-advisory.md)
     * [Working With Security Advisories](code-security/security-advisories/index.md)
   - Security Overview
-    * [About Security Overviews](code-security/security-overview/about-the-security-overview.md)
-    * [Filtering Alerts In Security Overviews](code-security/security-overview/filtering-alerts-in-the-security-overview.md)
+    * [About The Security Overview](code-security/security-overview/about-the-security-overview.md)
+    * [Filtering Alerts In The Security Overview](code-security/security-overview/filtering-alerts-in-the-security-overview.md)
     * [Viewing Security Alerts For Repositories In Your Organization](code-security/security-overview/index.md)
-    * [Viewing Security Overviews](code-security/security-overview/viewing-the-security-overview.md)
+    * [Viewing The Security Overview](code-security/security-overview/viewing-the-security-overview.md)
   - Supply Chain Security
     - End To End Supply Chain
       * [Securing Your End To End Supply Chain](code-security/supply-chain-security/end-to-end-supply-chain/end-to-end-supply-chain-overview.md)
