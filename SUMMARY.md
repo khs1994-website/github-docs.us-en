@@ -188,6 +188,7 @@
     * [Scheduling Issue Creation](actions/managing-issues-and-pull-requests/scheduling-issue-creation.md)
     * [Using Git Hub Actions For Project Management](actions/managing-issues-and-pull-requests/using-github-actions-for-project-management.md)
   - Managing Workflow Runs
+    * [Approving Workflow Runs From Private Forks](actions/managing-workflow-runs/approving-workflow-runs-from-private-forks.md)
     * [Approving Workflow Runs From Public Forks](actions/managing-workflow-runs/approving-workflow-runs-from-public-forks.md)
     * [Canceling A Workflow](actions/managing-workflow-runs/canceling-a-workflow.md)
     * [Deleting A Workflow Run](actions/managing-workflow-runs/deleting-a-workflow-run.md)
@@ -508,6 +509,7 @@
     * [About The Git Hub Enterprise API](admin/overview/about-the-github-enterprise-api.md)
     * [About Upgrades To New Releases](admin/overview/about-upgrades-to-new-releases.md)
     * [Accessing Compliance Reports For Your Enterprise](admin/overview/accessing-compliance-reports-for-your-enterprise.md)
+    * [Best Practices For Enterprises](admin/overview/best-practices-for-enterprises.md)
     * [Creating An Enterprise Account](admin/overview/creating-an-enterprise-account.md)
     * [Overview](admin/overview/index.md)
     * [System Overview](admin/overview/system-overview.md)
@@ -1576,6 +1578,7 @@
     * [About Your Organization Dashboard](organizations/collaborating-with-groups-in-organizations/about-your-organization-dashboard.md)
     * [About your organization’s news feed](organizations/collaborating-with-groups-in-organizations/about-your-organizations-news-feed.md)
     * [Accessing Your Organization S Settings](organizations/collaborating-with-groups-in-organizations/accessing-your-organizations-settings.md)
+    * [Best Practices For Organizations](organizations/collaborating-with-groups-in-organizations/best-practices-for-organizations.md)
     * [Creating A New Organization From Scratch](organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch.md)
     * [Customizing Your Organization S Profile](organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile.md)
     * [Collaborating With Groups In Organizations](organizations/collaborating-with-groups-in-organizations/index.md)
@@ -1897,6 +1900,7 @@
     * [Configuring Branches And Merges In Your Repository](repositories/configuring-branches-and-merges-in-your-repository/index.md)
   - Creating And Managing Repositories
     * [About Repositories](repositories/creating-and-managing-repositories/about-repositories.md)
+    * [Best Practices For Repositories](repositories/creating-and-managing-repositories/best-practices-for-repositories.md)
     * [Cloning A Repository](repositories/creating-and-managing-repositories/cloning-a-repository.md)
     * [Creating A New Repository](repositories/creating-and-managing-repositories/creating-a-new-repository.md)
     * [Creating A Repository From A Template](repositories/creating-and-managing-repositories/creating-a-repository-from-a-template.md)
