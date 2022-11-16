@@ -632,6 +632,7 @@
     * [Sudo Mode](authentication/keeping-your-account-and-data-secure/sudo-mode.md)
     * [Token Expiration And Revocation](authentication/keeping-your-account-and-data-secure/token-expiration-and-revocation.md)
     * [Updating Your Git Hub Access Credentials](authentication/keeping-your-account-and-data-secure/updating-your-github-access-credentials.md)
+    * [Viewing And Managing Your Sessions](authentication/keeping-your-account-and-data-secure/viewing-and-managing-your-sessions.md)
   - Managing Commit Signature Verification
     * [About Commit Signature Verification](authentication/managing-commit-signature-verification/about-commit-signature-verification.md)
     * [Adding A GPG Key To Your Git Hub Account](authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account.md)
