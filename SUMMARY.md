@@ -391,7 +391,7 @@
       * [Enabling Git Hub Actions With Amazon S 3 Storage](admin/github-actions/enabling-github-actions-for-github-enterprise-server/enabling-github-actions-with-amazon-s3-storage.md)
       * [Enabling Git Hub Actions With Azure Blob Storage](admin/github-actions/enabling-github-actions-for-github-enterprise-server/enabling-github-actions-with-azure-blob-storage.md)
       * [Enabling Git Hub Actions With Google Cloud Storage](admin/github-actions/enabling-github-actions-for-github-enterprise-server/enabling-github-actions-with-google-cloud-storage.md)
-      * [Enabling Git Hub Actions With Min IO Gateway For NAS Storage](admin/github-actions/enabling-github-actions-for-github-enterprise-server/enabling-github-actions-with-minio-gateway-for-nas-storage.md)
+      * [Enabling Git Hub Actions With Min IO Storage](admin/github-actions/enabling-github-actions-for-github-enterprise-server/enabling-github-actions-with-minio-storage.md)
       * [Enabling Git Hub Actions For Git Hub Enterprise Server](admin/github-actions/enabling-github-actions-for-github-enterprise-server/index.md)
       * [Managing Self Hosted Runners For Dependabot Updates On Your Enterprise](admin/github-actions/enabling-github-actions-for-github-enterprise-server/managing-self-hosted-runners-for-dependabot-updates.md)
     - Getting Started With Github Actions For Your Enterprise
@@ -979,6 +979,7 @@
     * [Troubleshooting Creation And Deletion Of Codespaces](codespaces/troubleshooting/troubleshooting-creation-and-deletion-of-codespaces.md)
     * [Troubleshooting Dotfiles For Git Hub Codespaces](codespaces/troubleshooting/troubleshooting-dotfiles-for-codespaces.md)
     * [Troubleshooting Git Hub Codespaces Clients](codespaces/troubleshooting/troubleshooting-github-codespaces-clients.md)
+    * [Troubleshooting GPG Verification For Git Hub Codespaces](codespaces/troubleshooting/troubleshooting-gpg-verification-for-github-codespaces.md)
     * [Troubleshooting Port Forwarding For Git Hub Codespaces](codespaces/troubleshooting/troubleshooting-port-forwarding-for-github-codespaces.md)
     * [Troubleshooting Prebuilds](codespaces/troubleshooting/troubleshooting-prebuilds.md)
     * [Troubleshooting Your Connection To Git Hub Codespaces](codespaces/troubleshooting/troubleshooting-your-connection-to-github-codespaces.md)
