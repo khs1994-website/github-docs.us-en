@@ -899,6 +899,7 @@
     * [Allowing Your Codespace To Access A Private Image Registry](codespaces/codespaces-reference/allowing-your-codespace-to-access-a-private-image-registry.md)
     * [Disaster Recovery For Git Hub Codespaces](codespaces/codespaces-reference/disaster-recovery-for-github-codespaces.md)
     * [Reference](codespaces/codespaces-reference/index.md)
+    * [Performing A Full Rebuild Of A Container](codespaces/codespaces-reference/performing-a-full-rebuild-of-a-container.md)
     * [Security In Git Hub Codespaces](codespaces/codespaces-reference/security-in-github-codespaces.md)
     * [Using Git Hub Copilot In Git Hub Codespaces](codespaces/codespaces-reference/using-github-copilot-in-github-codespaces.md)
     * [Using The Git Hub Codespaces Plugin For Jet Brains](codespaces/codespaces-reference/using-the-github-codespaces-plugin-for-jetbrains.md)
