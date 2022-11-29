@@ -2132,6 +2132,8 @@
     * [Organization Webhooks](rest/orgs/webhooks.md)
   - Overview
     * [API Previews](rest/overview/api-previews.md)
+    * [API Versions](rest/overview/api-versions.md)
+    * [Breaking Changes](rest/overview/breaking-changes.md)
     * [Endpoints Available For Fine Grained Personal Access Tokens](rest/overview/endpoints-available-for-fine-grained-personal-access-tokens.md)
     * [Endpoints Available For Git Hub Apps](rest/overview/endpoints-available-for-github-apps.md)
     * [REST API Overview](rest/overview/index.md)
