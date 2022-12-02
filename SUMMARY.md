@@ -924,7 +924,6 @@
     * [Getting Started With Git Hub Codespaces For Machine Learning](codespaces/developing-in-codespaces/getting-started-with-github-codespaces-for-machine-learning.md)
     * [Opening An Existing Codespace](codespaces/developing-in-codespaces/opening-an-existing-codespace.md)
     * [Stopping And Starting A Codespace](codespaces/developing-in-codespaces/stopping-and-starting-a-codespace.md)
-    * [The Codespace Lifecycle](codespaces/developing-in-codespaces/the-codespace-lifecycle.md)
     * [Using Git Hub Codespaces For Pull Requests](codespaces/developing-in-codespaces/using-github-codespaces-for-pull-requests.md)
     * [Using Git Hub Codespaces In Visual Studio Code](codespaces/developing-in-codespaces/using-github-codespaces-in-visual-studio-code.md)
     * [Using Git Hub Codespaces In Your Jet Brains IDE](codespaces/developing-in-codespaces/using-github-codespaces-in-your-jetbrains-ide.md)
@@ -934,6 +933,7 @@
     * [Deep dive into {% data variables.product.prodname_github_codespaces %}](codespaces/getting-started/deep-dive.md)
     * [Getting started with {% data variables.product.prodname_github_codespaces %}](codespaces/getting-started/index.md)
     * [Quickstart for {% data variables.product.prodname_github_codespaces %}](codespaces/getting-started/quickstart.md)
+    * [The Codespace Lifecycle](codespaces/getting-started/the-codespace-lifecycle.md)
   - Managing Codespaces For Your Organization
     * [Enabling Git Hub Codespaces For Your Organization](codespaces/managing-codespaces-for-your-organization/enabling-github-codespaces-for-your-organization.md)
     * [Managing Git Hub Codespaces For Your Organization](codespaces/managing-codespaces-for-your-organization/index.md)
@@ -1085,7 +1085,7 @@
       * [Reverting A Commit](desktop/contributing-and-collaborating-using-github-desktop/managing-commits/reverting-a-commit.md)
       * [Squashing Commits](desktop/contributing-and-collaborating-using-github-desktop/managing-commits/squashing-commits.md)
     - Working With Your Remote Repository On Github Or Github Enterprise
-      * [Changing A Remote S URL From Git Hub Desktop](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/changing-a-remotes-url-from-github-desktop.md)
+      * [Changing The Remote URL For A Repository From Git Hub Desktop](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/changing-the-remote-url-for-a-repository-from-github-desktop.md)
       * [Configuring Notifications In Git Hub Desktop](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/configuring-notifications-in-github-desktop.md)
       * [Creating An Issue Or Pull Request](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request.md)
       * [Working With Your Remote Repository On Git Hub Or Git Hub Enterprise](desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/index.md)
@@ -1850,7 +1850,7 @@
     - Working With Forks
       * [About Forks](pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks.md)
       * [Allowing Changes To A Pull Request Branch Created From A Fork](pull-requests/collaborating-with-pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork.md)
-      * [Configuring A Remote For A Fork](pull-requests/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-for-a-fork.md)
+      * [Configuring A Remote Repository For A Fork](pull-requests/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-repository-for-a-fork.md)
       * [Working With Forks](pull-requests/collaborating-with-pull-requests/working-with-forks/index.md)
       * [Syncing A Fork](pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork.md)
       * [What Happens To Forks When A Repository Is Deleted Or Changes Visibility](pull-requests/collaborating-with-pull-requests/working-with-forks/what-happens-to-forks-when-a-repository-is-deleted-or-changes-visibility.md)
