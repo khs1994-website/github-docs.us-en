@@ -111,7 +111,9 @@
     * [Publishing Actions In Git Hub Marketplace](actions/creating-actions/publishing-actions-in-github-marketplace.md)
     * [Releasing And Maintaining Actions](actions/creating-actions/releasing-and-maintaining-actions.md)
     * [Setting Exit Codes For Actions](actions/creating-actions/setting-exit-codes-for-actions.md)
+    * [Sharing Actions And Workflows From Your Private Repository](actions/creating-actions/sharing-actions-and-workflows-from-your-private-repository.md)
     * [Sharing Actions And Workflows With Your Enterprise](actions/creating-actions/sharing-actions-and-workflows-with-your-enterprise.md)
+    * [Sharing Actions And Workflows With Your Organization](actions/creating-actions/sharing-actions-and-workflows-with-your-organization.md)
   - Deployment
     - About Deployments
       * [About Continuous Deployment](actions/deployment/about-deployments/about-continuous-deployment.md)
@@ -504,6 +506,7 @@
     * [About Data Residency](admin/overview/about-data-residency.md)
     * [About Enterprise Accounts](admin/overview/about-enterprise-accounts.md)
     * [About Git Hub AE](admin/overview/about-github-ae.md)
+    * [About Git Hub Enterprise Cloud](admin/overview/about-github-enterprise-cloud.md)
     * [About Git Hub Enterprise Server](admin/overview/about-github-enterprise-server.md)
     * [About Git Hub For Enterprises](admin/overview/about-github-for-enterprises.md)
     * [About The Git Hub Enterprise API](admin/overview/about-the-github-enterprise-api.md)
@@ -528,6 +531,7 @@
       * [Enforcing Policies For Code Security And Analysis For Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-code-security-and-analysis-for-your-enterprise.md)
       * [Enforcing Policies For Dependency Insights In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-dependency-insights-in-your-enterprise.md)
       * [Enforcing Policies For Git Hub Actions In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise.md)
+      * [Enforcing Policies For Git Hub Copilot In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-copilot-in-your-enterprise.md)
       * [Enforcing Policies For Personal Access Tokens In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-personal-access-tokens-in-your-enterprise.md)
       * [Enforcing Policies For Projects In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-projects-in-your-enterprise.md)
       * [Enforcing Policies For Security Settings In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-security-settings-in-your-enterprise.md)
@@ -698,7 +702,8 @@
   - Managing Billing For Github Copilot
     * [About Billing For Git Hub Copilot](billing/managing-billing-for-github-copilot/about-billing-for-github-copilot.md)
     * [Managing Billing For Git Hub Copilot](billing/managing-billing-for-github-copilot/index.md)
-    * [Managing Your Git Hub Copilot Subscription](billing/managing-billing-for-github-copilot/managing-your-github-copilot-subscription.md)
+    * [Managing Your Git Hub Copilot For Individuals Subscription](billing/managing-billing-for-github-copilot/managing-your-github-copilot-for-individuals-subscription.md)
+    * [Viewing Your Git Hub Copilot Usage](billing/managing-billing-for-github-copilot/viewing-your-github-copilot-usage.md)
   - Managing Billing For Github Marketplace Apps
     * [About Billing For Git Hub Marketplace](billing/managing-billing-for-github-marketplace-apps/about-billing-for-github-marketplace.md)
     * [Canceling A Git Hub Marketplace App](billing/managing-billing-for-github-marketplace-apps/canceling-a-github-marketplace-app.md)
@@ -821,6 +826,7 @@
       * [Listing Dependencies Configured For Version Updates](code-security/dependabot/dependabot-version-updates/listing-dependencies-configured-for-version-updates.md)
     - Working With Dependabot
       * [Automating Dependabot With Git Hub Actions](code-security/dependabot/working-with-dependabot/automating-dependabot-with-github-actions.md)
+      * [Configuring Dependabot To Only Access Private Registries](code-security/dependabot/working-with-dependabot/configuring-dependabot-to-only-access-private-registries.md)
       * [Working With Dependabot](code-security/dependabot/working-with-dependabot/index.md)
       * [Keeping Your Actions Up To Date With Dependabot](code-security/dependabot/working-with-dependabot/keeping-your-actions-up-to-date-with-dependabot.md)
       * [Managing Encrypted Secrets For Dependabot](code-security/dependabot/working-with-dependabot/managing-encrypted-secrets-for-dependabot.md)
@@ -896,7 +902,7 @@
   * [Code Security](code-security/index.md)
 - Codespaces
   - Codespaces Reference
-    * [Allowing Your Codespace To Access A Private Image Registry](codespaces/codespaces-reference/allowing-your-codespace-to-access-a-private-image-registry.md)
+    * [Allowing Your Codespace To Access A Private Registry](codespaces/codespaces-reference/allowing-your-codespace-to-access-a-private-registry.md)
     * [Disaster Recovery For Git Hub Codespaces](codespaces/codespaces-reference/disaster-recovery-for-github-codespaces.md)
     * [Reference](codespaces/codespaces-reference/index.md)
     * [Performing A Full Rebuild Of A Container](codespaces/codespaces-reference/performing-a-full-rebuild-of-a-container.md)
@@ -1045,6 +1051,7 @@
     * [Configuring Git Hub Copilot In Neovim](copilot/configuring-github-copilot/configuring-github-copilot-in-neovim.md)
     * [Configuring Git Hub Copilot In Visual Studio Code](copilot/configuring-github-copilot/configuring-github-copilot-in-visual-studio-code.md)
     * [Configuring Git Hub Copilot In Visual Studio](copilot/configuring-github-copilot/configuring-github-copilot-in-visual-studio.md)
+    * [Configuring Git Hub Copilot Settings In Your Organization](copilot/configuring-github-copilot/configuring-github-copilot-settings-in-your-organization.md)
     * [Configuring GitHub Copilot settings on GitHub.com](copilot/configuring-github-copilot/configuring-github-copilot-settings-on-githubcom.md)
     * [Configuring Git Hub Copilot](copilot/configuring-github-copilot/index.md)
   - Getting Started With Github Copilot
@@ -1054,8 +1061,16 @@
     * [Getting Started With Git Hub Copilot In Visual Studio](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio.md)
     * [Getting Started With Git Hub Copilot](copilot/getting-started-with-github-copilot/index.md)
   - Overview Of Github Copilot
+    * [About Git Hub Copilot For Business](copilot/overview-of-github-copilot/about-github-copilot-for-business.md)
     * [About Git Hub Copilot](copilot/overview-of-github-copilot/about-github-copilot.md)
     * [Overview Of Git Hub Copilot](copilot/overview-of-github-copilot/index.md)
+  - Troubleshooting Github Copilot
+    * [Troubleshooting Git Hub Copilot](copilot/troubleshooting-github-copilot/index.md)
+    * [Troubleshooting Certificate Errors For Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-certificate-errors-for-github-copilot.md)
+    * [Troubleshooting Git Hub Copilot In A Jet Brains IDE](copilot/troubleshooting-github-copilot/troubleshooting-github-copilot-in-a-jetbrains-ide.md)
+    * [Troubleshooting Git Hub Copilot In Neovim](copilot/troubleshooting-github-copilot/troubleshooting-github-copilot-in-neovim.md)
+    * [Troubleshooting Git Hub Copilot In Visual Studio Code](copilot/troubleshooting-github-copilot/troubleshooting-github-copilot-in-visual-studio-code.md)
+    * [Troubleshooting Git Hub Copilot In Visual Studio](copilot/troubleshooting-github-copilot/troubleshooting-github-copilot-in-visual-studio.md)
   * [Git Hub Copilot](copilot/index.md)
   * [Quickstart For Git Hub Copilot](copilot/quickstart.md)
 - Desktop
@@ -1236,10 +1251,12 @@
     * [Granting Higher Permissions To Top Contributors](discussions/guides/granting-higher-permissions-to-top-contributors.md)
     * [Discussions Guides](discussions/guides/index.md)
   - Managing Discussions For Your Community
+    * [Creating Discussion Category Forms](discussions/managing-discussions-for-your-community/creating-discussion-category-forms.md)
     * [Managing Discussions For Your Community](discussions/managing-discussions-for-your-community/index.md)
     * [Managing Categories For Discussions](discussions/managing-discussions-for-your-community/managing-categories-for-discussions.md)
     * [Managing Discussions](discussions/managing-discussions-for-your-community/managing-discussions.md)
     * [Moderating Discussions](discussions/managing-discussions-for-your-community/moderating-discussions.md)
+    * [Syntax For Discussion Category Forms](discussions/managing-discussions-for-your-community/syntax-for-discussion-category-forms.md)
     * [Viewing Insights For Your Discussions](discussions/managing-discussions-for-your-community/viewing-insights-for-your-discussions.md)
   * [Git Hub Discussions Documentation](discussions/index.md)
   * [Quickstart For Git Hub Discussions](discussions/quickstart.md)
@@ -1513,7 +1530,10 @@
       * [Creating {% data variables.projects.projects_v2 %}](issues/planning-and-tracking-with-projects/creating-projects/index.md)
       * [Migrating from {% data variables.product.prodname_projects_v1 %}](issues/planning-and-tracking-with-projects/creating-projects/migrating-from-projects-classic.md)
     - Customizing Views In Your Project
-      * [Customizing A View](issues/planning-and-tracking-with-projects/customizing-views-in-your-project/customizing-a-view.md)
+      * [Changing The Layout Of A View](issues/planning-and-tracking-with-projects/customizing-views-in-your-project/changing-the-layout-of-a-view.md)
+      * [Customizing The Board Layout](issues/planning-and-tracking-with-projects/customizing-views-in-your-project/customizing-the-board-layout.md)
+      * [Customizing The Roadmap Layout](issues/planning-and-tracking-with-projects/customizing-views-in-your-project/customizing-the-roadmap-layout.md)
+      * [Customizing The Table Layout](issues/planning-and-tracking-with-projects/customizing-views-in-your-project/customizing-the-table-layout.md)
       * [Filtering {% data variables.projects.projects_v2 %}](issues/planning-and-tracking-with-projects/customizing-views-in-your-project/filtering-projects.md)
       * [Customizing views in your {% data variables.projects.project_v2 %}](issues/planning-and-tracking-with-projects/customizing-views-in-your-project/index.md)
       * [Managing Your Views](issues/planning-and-tracking-with-projects/customizing-views-in-your-project/managing-your-views.md)
@@ -2064,6 +2084,7 @@
     * [Announcement](rest/enterprise-admin/announcement.md)
     * [Audit Log](rest/enterprise-admin/audit-log.md)
     * [Billing](rest/enterprise-admin/billing.md)
+    * [Code Security And Analysis](rest/enterprise-admin/code-security-and-analysis.md)
     * [Global Webhooks](rest/enterprise-admin/global-webhooks.md)
     * [Git Hub Enterprise Administration](rest/enterprise-admin/index.md)
     * [LDAP](rest/enterprise-admin/ldap.md)
@@ -2097,7 +2118,7 @@
     * [Getting Started With The REST API](rest/guides/getting-started-with-the-rest-api.md)
     * [Guides](rest/guides/index.md)
     * [Rendering Data As Graphs](rest/guides/rendering-data-as-graphs.md)
-    * [Traversing With Pagination](rest/guides/traversing-with-pagination.md)
+    * [Using Pagination In The REST API](rest/guides/using-pagination-in-the-rest-api.md)
     * [Working With Comments](rest/guides/working-with-comments.md)
   - Interactions
     * [Interactions](rest/interactions/index.md)
@@ -2181,7 +2202,7 @@
     * [Git SSH Keys](rest/users/keys.md)
     * [SSH Signing Keys](rest/users/ssh-signing-keys.md)
   - Webhooks
-    * [Webhooks](rest/webhooks/index.md)
+    * [Repository Webhooks](rest/webhooks/index.md)
     * [Repository Webhook Configuration](rest/webhooks/repo-config.md)
     * [Repository Webhook Deliveries](rest/webhooks/repo-deliveries.md)
     * [Repository Webhooks](rest/webhooks/repos.md)
@@ -2288,9 +2309,9 @@
   - Privacy Policies
     * [Git Hub Candidate Privacy Policy](site-policy/privacy-policies/github-candidate-privacy-policy.md)
     * [Git Hub Codespaces Privacy Statement](site-policy/privacy-policies/github-codespaces-privacy-statement.md)
+    * [Git Hub Copilot For Business Privacy Statement](site-policy/privacy-policies/github-copilot-for-business-privacy-statement.md)
     * [Git Hub Privacy Statement](site-policy/privacy-policies/github-privacy-statement.md)
     * [Git Hub Subprocessors And Cookies](site-policy/privacy-policies/github-subprocessors-and-cookies.md)
-    * [Global Privacy Practices](site-policy/privacy-policies/global-privacy-practices.md)
     * [Privacy Policies](site-policy/privacy-policies/index.md)
   - Security Policies
     * [Coordinated Disclosure Of Security Vulnerabilities](site-policy/security-policies/coordinated-disclosure-of-security-vulnerabilities.md)
