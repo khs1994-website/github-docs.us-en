@@ -1666,6 +1666,7 @@
     * [Changing The Visibility Of Your Organization S Dependency Insights](organizations/managing-organization-settings/changing-the-visibility-of-your-organizations-dependency-insights.md)
     * [Configuring The Retention Period For Git Hub Actions Artifacts And Logs In Your Organization](organizations/managing-organization-settings/configuring-the-retention-period-for-github-actions-artifacts-and-logs-in-your-organization.md)
     * [Converting An Organization Into A User](organizations/managing-organization-settings/converting-an-organization-into-a-user.md)
+    * [Creating An Announcement Banner For Your Organization](organizations/managing-organization-settings/creating-an-announcement-banner-for-your-organization.md)
     * [Deleting An Organization Account](organizations/managing-organization-settings/deleting-an-organization-account.md)
     * [Disabling insights for {% data variables.projects.projects_v2 %} in your organization](organizations/managing-organization-settings/disabling-insights-for-projects-in-your-organization.md)
     * [Disabling Or Limiting Git Hub Actions For Your Organization](organizations/managing-organization-settings/disabling-or-limiting-github-actions-for-your-organization.md)
@@ -2038,6 +2039,10 @@
     * [Notifications](rest/activity/notifications.md)
     * [Starring](rest/activity/starring.md)
     * [Watching](rest/activity/watching.md)
+  - Announcement Banners
+    * [Enterprise Announcement Banners](rest/announcement-banners/enterprises.md)
+    * [Announcement Banners](rest/announcement-banners/index.md)
+    * [Organization Announcement Banners](rest/announcement-banners/organizations.md)
   - Apps
     * [Git Hub Apps](rest/apps/apps.md)
     * [Apps](rest/apps/index.md)
@@ -2113,12 +2118,12 @@
     * [Building A CI Server](rest/guides/building-a-ci-server.md)
     * [Delivering Deployments](rest/guides/delivering-deployments.md)
     * [Discovering Resources For A User](rest/guides/discovering-resources-for-a-user.md)
-    * [Getting Started With The Checks API](rest/guides/getting-started-with-the-checks-api.md)
-    * [Getting Started With The Git Database API](rest/guides/getting-started-with-the-git-database-api.md)
     * [Getting Started With The REST API](rest/guides/getting-started-with-the-rest-api.md)
     * [Guides](rest/guides/index.md)
     * [Rendering Data As Graphs](rest/guides/rendering-data-as-graphs.md)
     * [Using Pagination In The REST API](rest/guides/using-pagination-in-the-rest-api.md)
+    * [Using The REST API To Interact With Checks](rest/guides/using-the-rest-api-to-interact-with-checks.md)
+    * [Using The REST API To Interact With Your Git Database](rest/guides/using-the-rest-api-to-interact-with-your-git-database.md)
     * [Working With Comments](rest/guides/working-with-comments.md)
   - Interactions
     * [Interactions](rest/interactions/index.md)
