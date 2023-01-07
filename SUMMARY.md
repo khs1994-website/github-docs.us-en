@@ -2029,6 +2029,7 @@
     * [Git Hub Actions Secrets](rest/actions/secrets.md)
     * [Self Hosted Runner Groups](rest/actions/self-hosted-runner-groups.md)
     * [Self Hosted Runners](rest/actions/self-hosted-runners.md)
+    * [Git Hub Actions Variables](rest/actions/variables.md)
     * [Workflow Jobs](rest/actions/workflow-jobs.md)
     * [Workflow Runs](rest/actions/workflow-runs.md)
     * [Workflows](rest/actions/workflows.md)
