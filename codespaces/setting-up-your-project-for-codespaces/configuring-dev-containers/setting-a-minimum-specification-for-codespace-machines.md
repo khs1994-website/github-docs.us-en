@@ -10,6 +10,8 @@ type: how_to
 topics:
   - Codespaces
   - Set up
+redirect_from:
+  - /codespaces/setting-up-your-project-for-codespaces/setting-a-minimum-specification-for-codespace-machines
 ---
 
 ## Overview
@@ -35,14 +37,14 @@ If your project needs a certain level of compute power, you can configure {% dat
    "hostRequirements": {
       "cpus": 8,
       "memory": "8gb",
-      "storage": "32gb" 
+      "storage": "32gb"
    }
    ```
 
    You can specify any or all of the options: `cpus`, `memory`, and `storage`.
-   
+
    To check the specifications of the {% data variables.product.prodname_github_codespaces %} machine types that are currently available for your repository, step through the process of creating a codespace until you see the choice of machine types. For more information, see "[Creating a codespace for a repository](/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository)."
-   
+
 1. Save the file and commit your changes to the required branch of the repository.
 
    Now when you create a codespace for that branch of the repository, and you go to the creation configuration options, you will only be able to select machine types that match or exceed the resources you've specified.
@@ -51,4 +53,4 @@ If your project needs a certain level of compute power, you can configure {% dat
 
 ## Further reading
 
-- "[Introduction to dev containers](/codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers)"
+- "[Introduction to dev containers](/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers)"

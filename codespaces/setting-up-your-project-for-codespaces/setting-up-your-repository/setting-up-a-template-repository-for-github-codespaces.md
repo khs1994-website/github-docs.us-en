@@ -9,6 +9,8 @@ type: how_to
 topics:
   - Codespaces
   - Set up
+redirect_from:
+  - /codespaces/setting-up-your-project-for-codespaces/setting-up-a-template-repository-for-github-codespaces
 ---
 
 ## Introduction
@@ -47,7 +49,7 @@ For guidance on the kinds of files to include, you can look at the starter files
 
 ## Configure the container image
 
-You can add dev container configuration files to your template repository to customize the development environment for people using your template with {% data variables.product.prodname_github_codespaces %}. You can choose from a list of predefined configuration settings in {% data variables.product.prodname_vscode %}, or you can create a custom configuration by writing your own `devcontainer.json` file. If you don't add configuration files, the default container image will be used. For more information, see "[Introduction to dev containers](/codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers)" and "[Add a dev container configuration to your repository](/codespaces/setting-up-your-project-for-codespaces/setting-up-your-project-for-codespaces)."
+You can add dev container configuration files to your template repository to customize the development environment for people using your template with {% data variables.product.prodname_github_codespaces %}. You can choose from a list of predefined configuration settings in {% data variables.product.prodname_vscode %}, or you can create a custom configuration by writing your own `devcontainer.json` file. If you don't add configuration files, the default container image will be used. For more information, see "[Introduction to dev containers](/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers)" and "[Adding a dev container configuration to your repository](/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration)."
 
 {% note %}
 
@@ -55,7 +57,7 @@ You can add dev container configuration files to your template repository to cus
 
 {% endnote %}
 
-You should configure your dev container with the tools and customization to give users the best experience with your template. For example, in your `devcontainer.json` file: 
+You should configure your dev container with the tools and customization to give users the best experience with your template. For example, in your `devcontainer.json` file:
 - You can use the `openFiles` property to define a list of files to be opened automatically in the {% data variables.product.prodname_vscode_shortname %} web client when a codespace is created from your template.
 - If your template contains files for a web application, you can make the application run automatically in the user's codespace. You can do this by using the `postAttachCommand` property to run a script that starts the application on a local server as soon as the {% data variables.product.prodname_vscode_shortname %} web client connects to the codespace, and by setting the `onAutoForward` property of a port to `openPreview` to display the application running on that port in a simple browser embedded in the {% data variables.product.prodname_vscode_shortname %} web client.
 
@@ -81,4 +83,4 @@ The following configuration settings for a React template will open the `app.js`
     }
 }
 ```
-For more information, see "[Automatically opening files in the codespaces for a repository](/codespaces/setting-up-your-project-for-codespaces/automatically-opening-files-in-the-codespaces-for-a-repository)" and the [dev containers specification](https://containers.dev/implementors/json_reference/#general-properties) on containers.dev.
+For more information, see "[Automatically opening files in the codespaces for a repository](/codespaces/setting-up-your-project-for-codespaces/configuring-dev-containers/automatically-opening-files-in-the-codespaces-for-a-repository)" and the [dev containers specification](https://containers.dev/implementors/json_reference/#general-properties) on the Development Containers website.

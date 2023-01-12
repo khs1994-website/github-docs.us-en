@@ -10,11 +10,13 @@ type: how_to
 topics:
   - Codespaces
   - Set up
+redirect_from:
+  - /codespaces/setting-up-your-project-for-codespaces/automatically-opening-files-in-the-codespaces-for-a-repository
 ---
 
 ## Overview
 
-If there's a particular file that's useful for people to see when they create a codespace for your repository, you can set this file to be opened automatically in the {% data variables.product.prodname_vscode_shortname %} web client. You set this up in the dev container configuration file for your repository. 
+If there's a particular file that's useful for people to see when they create a codespace for your repository, you can set this file to be opened automatically in the {% data variables.product.prodname_vscode_shortname %} web client. You set this up in the dev container configuration file for your repository.
 
 The file, or files, you specify are only opened the first time a codespace is opened in the web client. If the person closes the specified files, those files are not automatically reopened the next time that person opens or restarts the codespace.
 
@@ -42,9 +44,9 @@ The file, or files, you specify are only opened the first time a codespace is op
    ```
 
    The value of the `openFiles` property is an array of one or more files in your repository. The paths are relative to the root of the repository (absolute paths are not supported). The files are opened in the web client in the order specified, with the first file in the array displayed in the editor.
-   
+
 1. Save the file and commit your changes to the required branch of the repository.
 
 ## Further reading
 
-- "[Introduction to dev containers](/codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers)"
+- "[Introduction to dev containers](/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers)"
