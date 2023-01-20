@@ -580,6 +580,8 @@
       * [Managing Users In Your Enterprise](admin/user-management/managing-users-in-your-enterprise/index.md)
       * [Inviting People To Manage Your Enterprise](admin/user-management/managing-users-in-your-enterprise/inviting-people-to-manage-your-enterprise.md)
       * [Managing Dormant Users](admin/user-management/managing-users-in-your-enterprise/managing-dormant-users.md)
+      * [Managing Invitations To Organizations Within Your Enterprise](admin/user-management/managing-users-in-your-enterprise/managing-invitations-to-organizations-within-your-enterprise.md)
+      * [Managing Organization Members In Your Enterprise](admin/user-management/managing-users-in-your-enterprise/managing-organization-members-in-your-enterprise.md)
       * [Managing Support Entitlements For Your Enterprise](admin/user-management/managing-users-in-your-enterprise/managing-support-entitlements-for-your-enterprise.md)
       * [Placing A Legal Hold On A User Or Organization](admin/user-management/managing-users-in-your-enterprise/placing-a-legal-hold-on-a-user-or-organization.md)
       * [Promoting Or Demoting A Site Administrator](admin/user-management/managing-users-in-your-enterprise/promoting-or-demoting-a-site-administrator.md)
@@ -1528,12 +1530,14 @@
     * [Organizing your work with {% data variables.product.prodname_projects_v1 %}](issues/organizing-your-work-with-project-boards/index.md)
   - Planning And Tracking With Projects
     - Automating Your Project
+      * [Adding Items Automatically](issues/planning-and-tracking-with-projects/automating-your-project/adding-items-automatically.md)
       * [Archiving Items Automatically](issues/planning-and-tracking-with-projects/automating-your-project/archiving-items-automatically.md)
       * [Automating {% data variables.product.prodname_projects_v2 %} using Actions](issues/planning-and-tracking-with-projects/automating-your-project/automating-projects-using-actions.md)
       * [Automating your {% data variables.projects.project_v2 %}](issues/planning-and-tracking-with-projects/automating-your-project/index.md)
       * [Using the API to manage {% data variables.product.prodname_projects_v2 %}](issues/planning-and-tracking-with-projects/automating-your-project/using-the-api-to-manage-projects.md)
       * [Using The Built In Automations](issues/planning-and-tracking-with-projects/automating-your-project/using-the-built-in-automations.md)
     - Creating Projects
+      * [Copying an existing {% data variables.projects.project_v2 %}](issues/planning-and-tracking-with-projects/creating-projects/copying-an-existing-project.md)
       * [Creating a {% data variables.projects.project_v2 %}](issues/planning-and-tracking-with-projects/creating-projects/creating-a-project.md)
       * [Creating {% data variables.projects.projects_v2 %}](issues/planning-and-tracking-with-projects/creating-projects/index.md)
       * [Migrating from {% data variables.product.prodname_projects_v1 %}](issues/planning-and-tracking-with-projects/creating-projects/migrating-from-projects-classic.md)
