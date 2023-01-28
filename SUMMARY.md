@@ -1016,6 +1016,7 @@
     * [Troubleshooting Creation And Deletion Of Codespaces](codespaces/troubleshooting/troubleshooting-creation-and-deletion-of-codespaces.md)
     * [Troubleshooting Git Hub Codespaces Clients](codespaces/troubleshooting/troubleshooting-github-codespaces-clients.md)
     * [Troubleshooting GPG Verification For Git Hub Codespaces](codespaces/troubleshooting/troubleshooting-gpg-verification-for-github-codespaces.md)
+    * [Getting The Most Out Of Your Included Usage](codespaces/troubleshooting/troubleshooting-included-usage.md)
     * [Troubleshooting Personalization Options For Git Hub Codespaces](codespaces/troubleshooting/troubleshooting-personalization-for-codespaces.md)
     * [Troubleshooting Port Forwarding For Git Hub Codespaces](codespaces/troubleshooting/troubleshooting-port-forwarding-for-github-codespaces.md)
     * [Troubleshooting Prebuilds](codespaces/troubleshooting/troubleshooting-prebuilds.md)
@@ -1093,6 +1094,7 @@
   - Overview Of Github Copilot
     * [About Git Hub Copilot For Business](copilot/overview-of-github-copilot/about-github-copilot-for-business.md)
     * [About Git Hub Copilot](copilot/overview-of-github-copilot/about-github-copilot.md)
+    * [Enabling And Setting Up Git Hub Copilot For Business](copilot/overview-of-github-copilot/enabling-and-setting-up-github-copilot-for-business.md)
     * [Overview Of Git Hub Copilot](copilot/overview-of-github-copilot/index.md)
   - Troubleshooting Github Copilot
     * [Troubleshooting Git Hub Copilot](copilot/troubleshooting-github-copilot/index.md)
