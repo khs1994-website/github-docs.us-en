@@ -653,7 +653,7 @@
   - Securing Your Account With Two Factor Authentication 2 Fa
     * [About Two Factor Authentication](authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication.md)
     * [Accessing Git Hub Using Two Factor Authentication](authentication/securing-your-account-with-two-factor-authentication-2fa/accessing-github-using-two-factor-authentication.md)
-    * [Changing Two Factor Authentication Delivery Methods For Your Mobile Device](authentication/securing-your-account-with-two-factor-authentication-2fa/changing-two-factor-authentication-delivery-methods-for-your-mobile-device.md)
+    * [Changing Your Preferred Two Factor Authentication Method](authentication/securing-your-account-with-two-factor-authentication-2fa/changing-your-preferred-two-factor-authentication-method.md)
     * [Configuring Two Factor Authentication Recovery Methods](authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication-recovery-methods.md)
     * [Configuring Two Factor Authentication](authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication.md)
     * [Countries Where SMS Authentication Is Supported](authentication/securing-your-account-with-two-factor-authentication-2fa/countries-where-sms-authentication-is-supported.md)
