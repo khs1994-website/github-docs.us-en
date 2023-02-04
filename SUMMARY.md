@@ -695,6 +695,8 @@
   - Managing Billing For Github Advanced Security
     * [About Billing For Git Hub Advanced Security](billing/managing-billing-for-github-advanced-security/about-billing-for-github-advanced-security.md)
     * [Managing Billing For Git Hub Advanced Security](billing/managing-billing-for-github-advanced-security/index.md)
+    * [Managing Your Git Hub Advanced Security Licensing](billing/managing-billing-for-github-advanced-security/managing-your-github-advanced-security-licensing.md)
+    * [Signing Up For Git Hub Advanced Security](billing/managing-billing-for-github-advanced-security/signing-up-for-github-advanced-security.md)
     * [Viewing Your Git Hub Advanced Security Usage](billing/managing-billing-for-github-advanced-security/viewing-your-github-advanced-security-usage.md)
   - Managing Billing For Github Codespaces
     * [About Billing For Git Hub Codespaces](billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces.md)
@@ -802,12 +804,10 @@
     - Using Codeql Code Scanning With Your Existing Ci System
       * [About Code QL Code Scanning In Your CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/about-codeql-code-scanning-in-your-ci-system.md)
       * [Configuring Code QL CLI In Your CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/configuring-codeql-cli-in-your-ci-system.md)
-      * [Configuring Code QL Runner In Your CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/configuring-codeql-runner-in-your-ci-system.md)
       * [Using Code QL Code Scanning With Your Existing CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/index.md)
       * [Installing Code QL CLI In Your CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/installing-codeql-cli-in-your-ci-system.md)
       * [Migrating From The Code QL Runner To Code QL CLI](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/migrating-from-the-codeql-runner-to-codeql-cli.md)
       * [Running Code QL Runner In Your CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/running-codeql-runner-in-your-ci-system.md)
-      * [Troubleshooting Code QL Runner In Your CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/troubleshooting-codeql-runner-in-your-ci-system.md)
     * [Finding Security Vulnerabilities And Errors In Your Code With Code Scanning](code-security/code-scanning/index.md)
   - Codeql Cli
     - Codeql Cli Reference
@@ -1196,7 +1196,6 @@
     - Guides
       * [Creating CI Tests With The Checks API](developers/apps/guides/creating-ci-tests-with-the-checks-api.md)
       * [Guides](developers/apps/guides/index.md)
-      * [Using Content Attachments](developers/apps/guides/using-content-attachments.md)
       * [Using The Git Hub API In Your App](developers/apps/guides/using-the-github-api-in-your-app.md)
     - Managing Github Apps
       * [Deleting A Git Hub App](developers/apps/managing-github-apps/deleting-a-github-app.md)
@@ -2196,7 +2195,6 @@
     * [Security Managers](rest/orgs/security-managers.md)
     * [Organization Webhooks](rest/orgs/webhooks.md)
   - Overview
-    * [API Previews](rest/overview/api-previews.md)
     * [API Versions](rest/overview/api-versions.md)
     * [Breaking Changes](rest/overview/breaking-changes.md)
     * [Endpoints Available For Fine Grained Personal Access Tokens](rest/overview/endpoints-available-for-fine-grained-personal-access-tokens.md)
