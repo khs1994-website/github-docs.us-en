@@ -875,6 +875,7 @@
     * [Protecting Pushes With Secret Scanning](code-security/secret-scanning/protecting-pushes-with-secret-scanning.md)
     * [Pushing A Branch Blocked By Push Protection](code-security/secret-scanning/pushing-a-branch-blocked-by-push-protection.md)
     * [Secret Scanning Patterns](code-security/secret-scanning/secret-scanning-patterns.md)
+    * [Troubleshooting Secret Scanning](code-security/secret-scanning/troubleshooting-secret-scanning.md)
   - Security Advisories
     - Global Security Advisories
       * [About Global Security Advisories](code-security/security-advisories/global-security-advisories/about-global-security-advisories.md)
@@ -1312,8 +1313,9 @@
       * [Git Hub Global Campus For Teachers](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-teachers/index.md)
       * [Why Wasn T My Application To Global Campus For Teachers Approved](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-teachers/why-wasnt-my-application-to-global-campus-for-teachers-approved.md)
     - Use Github At Your Educational Institution
-      * [About Campus Experts](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/about-campus-experts.md)
+      * [About Git Hub Campus Experts](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/about-github-campus-experts.md)
       * [About Git Hub Campus Program](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/about-github-campus-program.md)
+      * [Applying To Be A Git Hub Campus Expert](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/applying-to-be-a-github-campus-expert.md)
       * [Use Git Hub At Your Educational Institution](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/index.md)
     * [Explore The Benefits Of Teaching And Learning With Git Hub Education](education/explore-the-benefits-of-teaching-and-learning-with-github-education/index.md)
   - Manage Coursework With Github Classroom
