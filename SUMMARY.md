@@ -292,6 +292,12 @@
       * [Viewing The Vulnerability Data For Your Enterprise](admin/code-security/managing-supply-chain-security-for-your-enterprise/viewing-the-vulnerability-data-for-your-enterprise.md)
     * [Managing Code Security For Your Enterprise](admin/code-security/index.md)
   - Configuration
+    - Administering Your Instance From The Management Console
+      * [About The Management Console](admin/configuration/administering-your-instance-from-the-management-console/about-the-management-console.md)
+      * [Accessing The Management Console](admin/configuration/administering-your-instance-from-the-management-console/accessing-the-management-console.md)
+      * [Administering Your Instance From The Management Console](admin/configuration/administering-your-instance-from-the-management-console/index.md)
+      * [Managing Access To The Management Console](admin/configuration/administering-your-instance-from-the-management-console/managing-access-to-the-management-console.md)
+      * [Troubleshooting Access To The Management Console](admin/configuration/administering-your-instance-from-the-management-console/troubleshooting-access-to-the-management-console.md)
     - Configuring Github Connect
       * [About Git Hub Connect](admin/configuration/configuring-github-connect/about-github-connect.md)
       * [Enabling Automatic User License Sync For Your Enterprise](admin/configuration/configuring-github-connect/enabling-automatic-user-license-sync-for-your-enterprise.md)
@@ -316,7 +322,6 @@
     - Configuring Your Enterprise
       * [About Enterprise Configuration](admin/configuration/configuring-your-enterprise/about-enterprise-configuration.md)
       * [Accessing The Administrative Shell SSH](admin/configuration/configuring-your-enterprise/accessing-the-administrative-shell-ssh.md)
-      * [Accessing The Management Console](admin/configuration/configuring-your-enterprise/accessing-the-management-console.md)
       * [Command Line Utilities](admin/configuration/configuring-your-enterprise/command-line-utilities.md)
       * [Configuring Applications](admin/configuration/configuring-your-enterprise/configuring-applications.md)
       * [Configuring Backups On Your Appliance](admin/configuration/configuring-your-enterprise/configuring-backups-on-your-appliance.md)
@@ -852,11 +857,11 @@
       * [Listing Dependencies Configured For Version Updates](code-security/dependabot/dependabot-version-updates/listing-dependencies-configured-for-version-updates.md)
     - Working With Dependabot
       * [Automating Dependabot With Git Hub Actions](code-security/dependabot/working-with-dependabot/automating-dependabot-with-github-actions.md)
-      * [Configuring Dependabot To Only Access Private Registries](code-security/dependabot/working-with-dependabot/configuring-dependabot-to-only-access-private-registries.md)
+      * [Configuring Access To Private Registries For Dependabot](code-security/dependabot/working-with-dependabot/configuring-access-to-private-registries-for-dependabot.md)
       * [Working With Dependabot](code-security/dependabot/working-with-dependabot/index.md)
       * [Keeping Your Actions Up To Date With Dependabot](code-security/dependabot/working-with-dependabot/keeping-your-actions-up-to-date-with-dependabot.md)
-      * [Managing Encrypted Secrets For Dependabot](code-security/dependabot/working-with-dependabot/managing-encrypted-secrets-for-dependabot.md)
       * [Managing Pull Requests For Dependency Updates](code-security/dependabot/working-with-dependabot/managing-pull-requests-for-dependency-updates.md)
+      * [Removing Dependabot Access To Public Registries](code-security/dependabot/working-with-dependabot/removing-dependabot-access-to-public-registries.md)
       * [Troubleshooting Dependabot Errors](code-security/dependabot/working-with-dependabot/troubleshooting-dependabot-errors.md)
       * [Troubleshooting The Detection Of Vulnerable Dependencies](code-security/dependabot/working-with-dependabot/troubleshooting-the-detection-of-vulnerable-dependencies.md)
     * [Keeping Your Supply Chain Secure With Dependabot](code-security/dependabot/index.md)
