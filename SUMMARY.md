@@ -812,7 +812,6 @@
       * [Using Code QL Code Scanning With Your Existing CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/index.md)
       * [Installing Code QL CLI In Your CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/installing-codeql-cli-in-your-ci-system.md)
       * [Migrating From The Code QL Runner To Code QL CLI](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/migrating-from-the-codeql-runner-to-codeql-cli.md)
-      * [Running Code QL Runner In Your CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/running-codeql-runner-in-your-ci-system.md)
     * [Finding Security Vulnerabilities And Errors In Your Code With Code Scanning](code-security/code-scanning/index.md)
   - Codeql Cli
     - Codeql Cli Reference
