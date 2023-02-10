@@ -898,6 +898,7 @@
       * [Adding A Collaborator To A Repository Security Advisory](code-security/security-advisories/repository-security-advisories/adding-a-collaborator-to-a-repository-security-advisory.md)
       * [Collaborating In A Temporary Private Fork To Resolve A Repository Security Vulnerability](code-security/security-advisories/repository-security-advisories/collaborating-in-a-temporary-private-fork-to-resolve-a-repository-security-vulnerability.md)
       * [Configuring Private Vulnerability Reporting For A Repository](code-security/security-advisories/repository-security-advisories/configuring-private-vulnerability-reporting-for-a-repository.md)
+      * [Configuring Private Vulnerability Reporting For An Organization](code-security/security-advisories/repository-security-advisories/configuring-private-vulnerability-reporting-for-an-organization.md)
       * [Creating A Repository Security Advisory](code-security/security-advisories/repository-security-advisories/creating-a-repository-security-advisory.md)
       * [Editing A Repository Security Advisory](code-security/security-advisories/repository-security-advisories/editing-a-repository-security-advisory.md)
       * [Working With Repository Security Advisories](code-security/security-advisories/repository-security-advisories/index.md)
