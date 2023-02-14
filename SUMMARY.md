@@ -1107,6 +1107,7 @@
   - Troubleshooting Github Copilot
     * [Troubleshooting Git Hub Copilot](copilot/troubleshooting-github-copilot/index.md)
     * [Troubleshooting Certificate Errors For Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-certificate-errors-for-github-copilot.md)
+    * [Troubleshooting Common Issues With Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-common-issues-with-github-copilot.md)
     * [Troubleshooting Git Hub Copilot In A Jet Brains IDE](copilot/troubleshooting-github-copilot/troubleshooting-github-copilot-in-a-jetbrains-ide.md)
     * [Troubleshooting Git Hub Copilot In Neovim](copilot/troubleshooting-github-copilot/troubleshooting-github-copilot-in-neovim.md)
     * [Troubleshooting Git Hub Copilot In Visual Studio Code](copilot/troubleshooting-github-copilot/troubleshooting-github-copilot-in-visual-studio-code.md)
@@ -1390,8 +1391,8 @@
     - Importing Source Code To Github
       * [About Git Hub Importer](get-started/importing-your-projects-to-github/importing-source-code-to-github/about-github-importer.md)
       * [Adding Locally Hosted Code To Git Hub](get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github.md)
-      * [Importing A Git Repository Using The Command Line](get-started/importing-your-projects-to-github/importing-source-code-to-github/importing-a-git-repository-using-the-command-line.md)
       * [Importing A Repository With Git Hub Importer](get-started/importing-your-projects-to-github/importing-source-code-to-github/importing-a-repository-with-github-importer.md)
+      * [Importing An External Git Repository Using The Command Line](get-started/importing-your-projects-to-github/importing-source-code-to-github/importing-an-external-git-repository-using-the-command-line.md)
       * [Importing Source Code To Git Hub](get-started/importing-your-projects-to-github/importing-source-code-to-github/index.md)
       * [Source Code Migration Tools](get-started/importing-your-projects-to-github/importing-source-code-to-github/source-code-migration-tools.md)
       * [Updating Commit Author Attribution With Git Hub Importer](get-started/importing-your-projects-to-github/importing-source-code-to-github/updating-commit-author-attribution-with-github-importer.md)
