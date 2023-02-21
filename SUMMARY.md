@@ -1897,6 +1897,7 @@
       * [Viewing A Pull Request Review](pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/viewing-a-pull-request-review.md)
     - Working With Forks
       * [About Forks](pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks.md)
+      * [About Permissions And Visibility Of Forks](pull-requests/collaborating-with-pull-requests/working-with-forks/about-permissions-and-visibility-of-forks.md)
       * [Allowing Changes To A Pull Request Branch Created From A Fork](pull-requests/collaborating-with-pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork.md)
       * [Configuring A Remote Repository For A Fork](pull-requests/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-repository-for-a-fork.md)
       * [Working With Forks](pull-requests/collaborating-with-pull-requests/working-with-forks/index.md)
