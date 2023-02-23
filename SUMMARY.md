@@ -555,6 +555,7 @@
     - Managing Organizations In Your Enterprise
       * [Adding Organizations To Your Enterprise](admin/user-management/managing-organizations-in-your-enterprise/adding-organizations-to-your-enterprise.md)
       * [Adding People To Teams](admin/user-management/managing-organizations-in-your-enterprise/adding-people-to-teams.md)
+      * [Best Practices For Structuring Organizations In Your Enterprise](admin/user-management/managing-organizations-in-your-enterprise/best-practices-for-structuring-organizations-in-your-enterprise.md)
       * [Configuring Visibility For Organization Membership](admin/user-management/managing-organizations-in-your-enterprise/configuring-visibility-for-organization-membership.md)
       * [Continuous Integration Using Jenkins](admin/user-management/managing-organizations-in-your-enterprise/continuous-integration-using-jenkins.md)
       * [Creating Teams](admin/user-management/managing-organizations-in-your-enterprise/creating-teams.md)
@@ -1056,6 +1057,7 @@
     * [Forwarding Ports In Your Codespace](codespaces/developing-in-codespaces/forwarding-ports-in-your-codespace.md)
     * [Getting Started With Git Hub Codespaces For Machine Learning](codespaces/developing-in-codespaces/getting-started-with-github-codespaces-for-machine-learning.md)
     * [Opening An Existing Codespace](codespaces/developing-in-codespaces/opening-an-existing-codespace.md)
+    * [Persisting Environment Variables And Temporary Files](codespaces/developing-in-codespaces/persisting-environment-variables-and-temporary-files.md)
     * [Stopping And Starting A Codespace](codespaces/developing-in-codespaces/stopping-and-starting-a-codespace.md)
     * [Using Git Hub Codespaces For Pull Requests](codespaces/developing-in-codespaces/using-github-codespaces-for-pull-requests.md)
     * [Using Git Hub Codespaces In Visual Studio Code](codespaces/developing-in-codespaces/using-github-codespaces-in-visual-studio-code.md)
