@@ -123,7 +123,7 @@ The following rules apply to configuration variable names:
 {% data reusables.repositories.sidebar-settings %}
 {% data reusables.actions.sidebar-secrets-and-variables %}
 {% data reusables.actions.actions-variables-tab %}
-   ![Repository variables tab](/assets/images/help/repository/actions-variables-tab.png)
+   ![Screenshot of the "Actions secrets and variables" page. The "Variables" tab is highlighted with a dark orange outline.](/assets/images/help/repository/actions-variables-tab.png)
 1. Click **New repository variable**.
 {% data reusables.actions.variable-fields %}
 1. Click **Add variable**.
@@ -259,11 +259,9 @@ We strongly recommend that actions use variables to access the filesystem rather
 | `GITHUB_JOB` | The [job_id](/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_id) of the current job. For example, `greeting_job`. |
 | `GITHUB_PATH` | The path on the runner to the file that sets system `PATH` variables from workflow commands. This file is unique to the current step and changes for each step in a job.  For example, `/home/runner/work/_temp/_runner_file_commands/add_path_899b9445-ad4a-400c-aa89-249f18632cf5`. For more information, see "[AUTOTITLE](/actions/using-workflows/workflow-commands-for-github-actions#adding-a-system-path)." |
 | `GITHUB_REF` | {% data reusables.actions.ref-description %} |
-{%- ifversion fpt or ghec or ghes or ghae > 3.3 %}
 | `GITHUB_REF_NAME` | {% data reusables.actions.ref_name-description %} |
 | `GITHUB_REF_PROTECTED` | {% data reusables.actions.ref_protected-description %} |
 | `GITHUB_REF_TYPE` | {% data reusables.actions.ref_type-description %} |
-{%- endif %}
 | `GITHUB_REPOSITORY` | The owner and repository name. For example, `octocat/Hello-World`. |
 {%- ifversion actions-oidc-custom-claims %}
 | `GITHUB_REPOSITORY_ID` | {% data reusables.actions.repository_id-description %} |
