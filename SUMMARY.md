@@ -617,6 +617,7 @@
       * [Refreshing User To Server Access Tokens](apps/creating-github-apps/authenticating-with-a-github-app/refreshing-user-to-server-access-tokens.md)
     - Creating Github Apps
       * [About Apps](apps/creating-github-apps/creating-github-apps/about-apps.md)
+      * [About The User Authorization Callback URL](apps/creating-github-apps/creating-github-apps/about-the-user-authorization-callback-url.md)
       * [Creating A Custom Badge For Your Git Hub App](apps/creating-github-apps/creating-github-apps/creating-a-custom-badge-for-your-github-app.md)
       * [Creating A Git Hub App From A Manifest](apps/creating-github-apps/creating-github-apps/creating-a-github-app-from-a-manifest.md)
       * [Creating A Git Hub App Using URL Parameters](apps/creating-github-apps/creating-github-apps/creating-a-github-app-using-url-parameters.md)
@@ -862,12 +863,19 @@
     * [Troubleshooting License Usage For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/troubleshooting-license-usage-for-github-enterprise.md)
     * [Uploading A New License To Git Hub Enterprise Server](billing/managing-your-license-for-github-enterprise/uploading-a-new-license-to-github-enterprise-server.md)
     * [Viewing License Usage For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/viewing-license-usage-for-github-enterprise.md)
-  - Setting Up Paid Organizations For Procurement Companies
-    * [About Organizations For Procurement Companies](billing/setting-up-paid-organizations-for-procurement-companies/about-organizations-for-procurement-companies.md)
-    * [Creating And Paying For An Organization On Behalf Of A Client](billing/setting-up-paid-organizations-for-procurement-companies/creating-and-paying-for-an-organization-on-behalf-of-a-client.md)
-    * [Setting Up Paid Organizations For Procurement Companies](billing/setting-up-paid-organizations-for-procurement-companies/index.md)
-    * [Renewing Your Client S Paid Organization](billing/setting-up-paid-organizations-for-procurement-companies/renewing-your-clients-paid-organization.md)
-    * [Upgrading Or Downgrading Your Client S Paid Organization](billing/setting-up-paid-organizations-for-procurement-companies/upgrading-or-downgrading-your-clients-paid-organization.md)
+  - Setting Up Paid Accounts For Procurement Companies
+    - Setting Up Enterprise Accounts For Procurement Companies
+      * [About Enterprise Accounts For Procurement Companies](billing/setting-up-paid-accounts-for-procurement-companies/setting-up-enterprise-accounts-for-procurement-companies/about-enterprise-accounts-for-procurement-companies.md)
+      * [Creating And Paying For An Enterprise Account On Behalf Of A Client](billing/setting-up-paid-accounts-for-procurement-companies/setting-up-enterprise-accounts-for-procurement-companies/creating-and-paying-for-an-enterprise-account-on-behalf-of-a-client.md)
+      * [Setting Up Enterprise Accounts For Procurement Companies](billing/setting-up-paid-accounts-for-procurement-companies/setting-up-enterprise-accounts-for-procurement-companies/index.md)
+      * [Renewing Your Client S Enterprise Account](billing/setting-up-paid-accounts-for-procurement-companies/setting-up-enterprise-accounts-for-procurement-companies/renewing-your-clients-enterprise-account.md)
+    - Setting Up Paid Organizations For Procurement Companies
+      * [About Organizations For Procurement Companies](billing/setting-up-paid-accounts-for-procurement-companies/setting-up-paid-organizations-for-procurement-companies/about-organizations-for-procurement-companies.md)
+      * [Creating And Paying For An Organization On Behalf Of A Client](billing/setting-up-paid-accounts-for-procurement-companies/setting-up-paid-organizations-for-procurement-companies/creating-and-paying-for-an-organization-on-behalf-of-a-client.md)
+      * [Setting Up Paid Organizations For Procurement Companies](billing/setting-up-paid-accounts-for-procurement-companies/setting-up-paid-organizations-for-procurement-companies/index.md)
+      * [Renewing Your Client S Paid Organization](billing/setting-up-paid-accounts-for-procurement-companies/setting-up-paid-organizations-for-procurement-companies/renewing-your-clients-paid-organization.md)
+      * [Upgrading Or Downgrading Your Client S Paid Organization](billing/setting-up-paid-accounts-for-procurement-companies/setting-up-paid-organizations-for-procurement-companies/upgrading-or-downgrading-your-clients-paid-organization.md)
+    * [Setting Up Paid Accounts For Procurement Companies](billing/setting-up-paid-accounts-for-procurement-companies/index.md)
   * [Billing And Payments On Git Hub](billing/index.md)
 - Code Security
   - Adopting Github Advanced Security At Scale
