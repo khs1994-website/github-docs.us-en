@@ -612,8 +612,10 @@
   - Creating Github Apps
     - Authenticating With A Github App
       * [Authenticating With Git Hub Apps](apps/creating-github-apps/authenticating-with-a-github-app/authenticating-with-github-apps.md)
+      * [Generating A JSON Web Token JWT For A Git Hub App](apps/creating-github-apps/authenticating-with-a-github-app/generating-a-json-web-token-jwt-for-a-github-app.md)
       * [Identifying And Authorizing Users For Git Hub Apps](apps/creating-github-apps/authenticating-with-a-github-app/identifying-and-authorizing-users-for-github-apps.md)
       * [Authenticating with a {% data variables.product.prodname_github_app %}](apps/creating-github-apps/authenticating-with-a-github-app/index.md)
+      * [Managing Private Keys For Git Hub Apps](apps/creating-github-apps/authenticating-with-a-github-app/managing-private-keys-for-github-apps.md)
       * [Refreshing User To Server Access Tokens](apps/creating-github-apps/authenticating-with-a-github-app/refreshing-user-to-server-access-tokens.md)
     - Creating Github Apps
       * [About Apps](apps/creating-github-apps/creating-github-apps/about-apps.md)
@@ -2420,6 +2422,9 @@
     * [Git Hub Marketplace Support](support/learning-about-github-support/github-marketplace-support.md)
     * [Learning About Git Hub Support](support/learning-about-github-support/index.md)
   * [Working With Git Hub Support](support/index.md)
+- Video Transcripts
+  * [Video Transcripts](video-transcripts/index.md)
+  * [Transcript Codespaces Your Instant Dev Box In The Cloud](video-transcripts/transcript-codespaces-your-instant-dev-box-in-the-cloud.md)
 - Webhooks And Events
   - Events
     * [Git Hub Event Types](webhooks-and-events/events/github-event-types.md)
