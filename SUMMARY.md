@@ -204,13 +204,19 @@
     * [Reviewing Deployments](actions/managing-workflow-runs/reviewing-deployments.md)
     * [Skipping Workflow Runs](actions/managing-workflow-runs/skipping-workflow-runs.md)
   - Migrating To Github Actions
-    * [Automating Migration With Git Hub Actions Importer](actions/migrating-to-github-actions/automating-migration-with-github-actions-importer.md)
+    - Automated Migrations
+      * [Automating Migration With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/automating-migration-with-github-actions-importer.md)
+      * [Extending Git Hub Actions Importer With Custom Transformers](actions/migrating-to-github-actions/automated-migrations/extending-github-actions-importer-with-custom-transformers.md)
+      * [Using {% data variables.product.prodname_actions_importer %} to automate migrations](actions/migrating-to-github-actions/automated-migrations/index.md)
+      * [Supplemental Arguments And Settings](actions/migrating-to-github-actions/automated-migrations/supplemental-arguments-and-settings.md)
+    - Manual Migrations
+      * [Manually Migrating To Git Hub Actions](actions/migrating-to-github-actions/manual-migrations/index.md)
+      * [Migrating From Azure Pipelines To Git Hub Actions](actions/migrating-to-github-actions/manual-migrations/migrating-from-azure-pipelines-to-github-actions.md)
+      * [Migrating From Circle CI To Git Hub Actions](actions/migrating-to-github-actions/manual-migrations/migrating-from-circleci-to-github-actions.md)
+      * [Migrating From Git Lab CI CD To Git Hub Actions](actions/migrating-to-github-actions/manual-migrations/migrating-from-gitlab-cicd-to-github-actions.md)
+      * [Migrating From Jenkins To Git Hub Actions](actions/migrating-to-github-actions/manual-migrations/migrating-from-jenkins-to-github-actions.md)
+      * [Migrating From Travis CI To Git Hub Actions](actions/migrating-to-github-actions/manual-migrations/migrating-from-travis-ci-to-github-actions.md)
     * [Migrating To Git Hub Actions](actions/migrating-to-github-actions/index.md)
-    * [Migrating From Azure Pipelines To Git Hub Actions](actions/migrating-to-github-actions/migrating-from-azure-pipelines-to-github-actions.md)
-    * [Migrating From Circle CI To Git Hub Actions](actions/migrating-to-github-actions/migrating-from-circleci-to-github-actions.md)
-    * [Migrating From Git Lab CI CD To Git Hub Actions](actions/migrating-to-github-actions/migrating-from-gitlab-cicd-to-github-actions.md)
-    * [Migrating From Jenkins To Git Hub Actions](actions/migrating-to-github-actions/migrating-from-jenkins-to-github-actions.md)
-    * [Migrating From Travis CI To Git Hub Actions](actions/migrating-to-github-actions/migrating-from-travis-ci-to-github-actions.md)
   - Monitoring And Troubleshooting Workflows
     * [About Monitoring And Troubleshooting](actions/monitoring-and-troubleshooting-workflows/about-monitoring-and-troubleshooting.md)
     * [Adding A Workflow Status Badge](actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge.md)
@@ -611,8 +617,11 @@
 - Apps
   - Creating Github Apps
     - Authenticating With A Github App
+      * [Authenticating As A Git Hub App Installation](apps/creating-github-apps/authenticating-with-a-github-app/authenticating-as-a-github-app-installation.md)
+      * [Authenticating As A Git Hub App](apps/creating-github-apps/authenticating-with-a-github-app/authenticating-as-a-github-app.md)
       * [Authenticating With Git Hub Apps](apps/creating-github-apps/authenticating-with-a-github-app/authenticating-with-github-apps.md)
       * [Generating A JSON Web Token JWT For A Git Hub App](apps/creating-github-apps/authenticating-with-a-github-app/generating-a-json-web-token-jwt-for-a-github-app.md)
+      * [Generating An Installation Access Token For A Git Hub App](apps/creating-github-apps/authenticating-with-a-github-app/generating-an-installation-access-token-for-a-github-app.md)
       * [Identifying And Authorizing Users For Git Hub Apps](apps/creating-github-apps/authenticating-with-a-github-app/identifying-and-authorizing-users-for-github-apps.md)
       * [Authenticating with a {% data variables.product.prodname_github_app %}](apps/creating-github-apps/authenticating-with-a-github-app/index.md)
       * [Managing Private Keys For Git Hub Apps](apps/creating-github-apps/authenticating-with-a-github-app/managing-private-keys-for-github-apps.md)
@@ -2090,7 +2099,7 @@
     * [Apps](rest/apps/index.md)
     * [Git Hub App Installations](rest/apps/installations.md)
     * [Git Hub Marketplace](rest/apps/marketplace.md)
-    * [O Auth Apps](rest/apps/oauth-applications.md)
+    * [O Auth Authorizations](rest/apps/oauth-applications.md)
     * [Git Hub App Webhooks](rest/apps/webhooks.md)
   - Branches
     * [Protected Branches](rest/branches/branch-protection.md)
