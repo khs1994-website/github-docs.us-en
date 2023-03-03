@@ -2061,6 +2061,7 @@
       * [Removing Files From Git Large File Storage](repositories/working-with-files/managing-large-files/removing-files-from-git-large-file-storage.md)
       * [Resolving Git Large File Storage Upload Failures](repositories/working-with-files/managing-large-files/resolving-git-large-file-storage-upload-failures.md)
     - Using Files
+      * [Downloading Source Code Archives](repositories/working-with-files/using-files/downloading-source-code-archives.md)
       * [Getting Permanent Links To Files](repositories/working-with-files/using-files/getting-permanent-links-to-files.md)
       * [Using Files](repositories/working-with-files/using-files/index.md)
       * [Navigating Code On Git Hub](repositories/working-with-files/using-files/navigating-code-on-github.md)
