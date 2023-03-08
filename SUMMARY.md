@@ -617,9 +617,9 @@
 - Apps
   - Creating Github Apps
     - Authenticating With A Github App
+      * [About Authentication With A Git Hub App](apps/creating-github-apps/authenticating-with-a-github-app/about-authentication-with-a-github-app.md)
       * [Authenticating As A Git Hub App Installation](apps/creating-github-apps/authenticating-with-a-github-app/authenticating-as-a-github-app-installation.md)
       * [Authenticating As A Git Hub App](apps/creating-github-apps/authenticating-with-a-github-app/authenticating-as-a-github-app.md)
-      * [Authenticating With Git Hub Apps](apps/creating-github-apps/authenticating-with-a-github-app/authenticating-with-github-apps.md)
       * [Generating A JSON Web Token JWT For A Git Hub App](apps/creating-github-apps/authenticating-with-a-github-app/generating-a-json-web-token-jwt-for-a-github-app.md)
       * [Generating An Installation Access Token For A Git Hub App](apps/creating-github-apps/authenticating-with-a-github-app/generating-an-installation-access-token-for-a-github-app.md)
       * [Identifying And Authorizing Users For Git Hub Apps](apps/creating-github-apps/authenticating-with-a-github-app/identifying-and-authorizing-users-for-github-apps.md)
@@ -657,6 +657,7 @@
     * [Transferring Ownership Of A Git Hub App](apps/maintaining-github-apps/transferring-ownership-of-a-github-app.md)
   - Oauth Apps
     - Building Oauth Apps
+      * [Authenticating To The REST API With An O Auth App](apps/oauth-apps/building-oauth-apps/authenticating-to-the-rest-api-with-an-oauth-app.md)
       * [Authorizing O Auth Apps](apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps.md)
       * [Creating A Custom Badge For Your O Auth App](apps/oauth-apps/building-oauth-apps/creating-a-custom-badge-for-your-oauth-app.md)
       * [Creating An O Auth App](apps/oauth-apps/building-oauth-apps/creating-an-oauth-app.md)
@@ -1316,6 +1317,10 @@
     * [Contribute With Git Hub Community Exchange](education/contribute-with-github-community-exchange/index.md)
     * [Managing Your Submissions To Git Hub Community Exchange](education/contribute-with-github-community-exchange/managing-your-submissions-to-github-community-exchange.md)
     * [Submitting Your Repository To Git Hub Community Exchange](education/contribute-with-github-community-exchange/submitting-your-repository-to-github-community-exchange.md)
+  - Explore Internship Projects With Github Octernships
+    * [About {% data variables.product.prodname_octernships %}](education/explore-internship-projects-with-github-octernships/about-github-octernships.md)
+    * [Applying for {% data variables.product.prodname_octernships %}](education/explore-internship-projects-with-github-octernships/applying-for-github-octernships.md)
+    * [Explore internship projects with {% data variables.product.prodname_octernships %}](education/explore-internship-projects-with-github-octernships/index.md)
   - Explore The Benefits Of Teaching And Learning With Github Education
     - Github Global Campus For Students
       * [About Git Hub Community Exchange](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/about-github-community-exchange.md)
@@ -2165,7 +2170,6 @@
     * [Git Tags](rest/git/tags.md)
     * [Git Trees](rest/git/trees.md)
   - Guides
-    * [Basics Of Authentication](rest/guides/basics-of-authentication.md)
     * [Best Practices For Integrators](rest/guides/best-practices-for-integrators.md)
     * [Building A CI Server](rest/guides/building-a-ci-server.md)
     * [Delivering Deployments](rest/guides/delivering-deployments.md)
@@ -2258,6 +2262,7 @@
     * [GPG Keys](rest/users/gpg-keys.md)
     * [Users](rest/users/users.md)
     * [Git SSH Keys](rest/users/keys.md)
+    * [Social Accounts](rest/users/social-accounts.md)
     * [SSH Signing Keys](rest/users/ssh-signing-keys.md)
   - Webhooks
     * [Repository Webhooks](rest/webhooks/index.md)
