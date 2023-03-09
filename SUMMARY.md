@@ -208,6 +208,8 @@
       * [Automating Migration With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/automating-migration-with-github-actions-importer.md)
       * [Extending Git Hub Actions Importer With Custom Transformers](actions/migrating-to-github-actions/automated-migrations/extending-github-actions-importer-with-custom-transformers.md)
       * [Using {% data variables.product.prodname_actions_importer %} to automate migrations](actions/migrating-to-github-actions/automated-migrations/index.md)
+      * [Migrating From Circle CI With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-circleci-with-github-actions-importer.md)
+      * [Migrating From Jenkins With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-jenkins-with-github-actions-importer.md)
       * [Supplemental Arguments And Settings](actions/migrating-to-github-actions/automated-migrations/supplemental-arguments-and-settings.md)
     - Manual Migrations
       * [Manually Migrating To Git Hub Actions](actions/migrating-to-github-actions/manual-migrations/index.md)
