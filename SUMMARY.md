@@ -603,14 +603,6 @@
       * [Suspending And Unsuspending Users](admin/user-management/managing-users-in-your-enterprise/suspending-and-unsuspending-users.md)
       * [Viewing And Managing A User S SAML Access To Your Enterprise](admin/user-management/managing-users-in-your-enterprise/viewing-and-managing-a-users-saml-access-to-your-enterprise.md)
       * [Viewing People In Your Enterprise](admin/user-management/managing-users-in-your-enterprise/viewing-people-in-your-enterprise.md)
-    - Migrating Data To And From Your Enterprise
-      * [About Migrations](admin/user-management/migrating-data-to-and-from-your-enterprise/about-migrations.md)
-      * [Exporting migration data from GitHub.com](admin/user-management/migrating-data-to-and-from-your-enterprise/exporting-migration-data-from-githubcom.md)
-      * [Exporting Migration Data From Your Enterprise](admin/user-management/migrating-data-to-and-from-your-enterprise/exporting-migration-data-from-your-enterprise.md)
-      * [Importing Data From Third Party Version Control Systems](admin/user-management/migrating-data-to-and-from-your-enterprise/importing-data-from-third-party-version-control-systems.md)
-      * [Migrating Data To And From Your Enterprise](admin/user-management/migrating-data-to-and-from-your-enterprise/index.md)
-      * [Migrating Data To Your Enterprise](admin/user-management/migrating-data-to-and-from-your-enterprise/migrating-data-to-your-enterprise.md)
-      * [Preparing To Migrate Data To Your Enterprise](admin/user-management/migrating-data-to-and-from-your-enterprise/preparing-to-migrate-data-to-your-enterprise.md)
     * [Managing Users Organizations And Repositories](admin/user-management/index.md)
   * [Git Hub Enterprise Server Releases](admin/all-releases.md)
   * [Git Hub Enterprise Guides](admin/guides.md)
@@ -623,6 +615,7 @@
       * [Authenticating As A Git Hub App Installation](apps/creating-github-apps/authenticating-with-a-github-app/authenticating-as-a-github-app-installation.md)
       * [Authenticating As A Git Hub App](apps/creating-github-apps/authenticating-with-a-github-app/authenticating-as-a-github-app.md)
       * [Generating A JSON Web Token JWT For A Git Hub App](apps/creating-github-apps/authenticating-with-a-github-app/generating-a-json-web-token-jwt-for-a-github-app.md)
+      * [Generating A User Access Token For A Git Hub App](apps/creating-github-apps/authenticating-with-a-github-app/generating-a-user-access-token-for-a-github-app.md)
       * [Generating An Installation Access Token For A Git Hub App](apps/creating-github-apps/authenticating-with-a-github-app/generating-an-installation-access-token-for-a-github-app.md)
       * [Identifying And Authorizing Users For Git Hub Apps](apps/creating-github-apps/authenticating-with-a-github-app/identifying-and-authorizing-users-for-github-apps.md)
       * [Authenticating with a {% data variables.product.prodname_github_app %}](apps/creating-github-apps/authenticating-with-a-github-app/index.md)
@@ -1399,21 +1392,6 @@
     * [Setting Your Username In Git](get-started/getting-started-with-git/setting-your-username-in-git.md)
     * [Updating Credentials From The Mac OS Keychain](get-started/getting-started-with-git/updating-credentials-from-the-macos-keychain.md)
     * [Why Is Git Always Asking For My Password](get-started/getting-started-with-git/why-is-git-always-asking-for-my-password.md)
-  - Importing Your Projects To Github
-    - Importing Source Code To Github
-      * [About Git Hub Importer](get-started/importing-your-projects-to-github/importing-source-code-to-github/about-github-importer.md)
-      * [Adding Locally Hosted Code To Git Hub](get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github.md)
-      * [Importing A Repository With Git Hub Importer](get-started/importing-your-projects-to-github/importing-source-code-to-github/importing-a-repository-with-github-importer.md)
-      * [Importing An External Git Repository Using The Command Line](get-started/importing-your-projects-to-github/importing-source-code-to-github/importing-an-external-git-repository-using-the-command-line.md)
-      * [Importing Source Code To Git Hub](get-started/importing-your-projects-to-github/importing-source-code-to-github/index.md)
-      * [Source Code Migration Tools](get-started/importing-your-projects-to-github/importing-source-code-to-github/source-code-migration-tools.md)
-      * [Updating Commit Author Attribution With Git Hub Importer](get-started/importing-your-projects-to-github/importing-source-code-to-github/updating-commit-author-attribution-with-github-importer.md)
-    - Working With Subversion On Github
-      * [Working With Subversion On Git Hub](get-started/importing-your-projects-to-github/working-with-subversion-on-github/index.md)
-      * [Subversion Properties Supported By Git Hub](get-started/importing-your-projects-to-github/working-with-subversion-on-github/subversion-properties-supported-by-github.md)
-      * [Support For Subversion Clients](get-started/importing-your-projects-to-github/working-with-subversion-on-github/support-for-subversion-clients.md)
-      * [What Are The Differences Between Subversion And Git](get-started/importing-your-projects-to-github/working-with-subversion-on-github/what-are-the-differences-between-subversion-and-git.md)
-    * [Importing Your Projects To Git Hub](get-started/importing-your-projects-to-github/index.md)
   - Learning About Github
     * [About Git Hub Advanced Security](get-started/learning-about-github/about-github-advanced-security.md)
     * [About Versions Of Git Hub Docs](get-started/learning-about-github/about-versions-of-github-docs.md)
@@ -1477,6 +1455,11 @@
     * [Keyboard Shortcuts](get-started/using-github/keyboard-shortcuts.md)
     * [Supported Browsers](get-started/using-github/supported-browsers.md)
     * [Troubleshooting Connectivity Problems](get-started/using-github/troubleshooting-connectivity-problems.md)
+  - Working With Subversion On Github
+    * [Working With Subversion On Git Hub](get-started/working-with-subversion-on-github/index.md)
+    * [Subversion Properties Supported By Git Hub](get-started/working-with-subversion-on-github/subversion-properties-supported-by-github.md)
+    * [Support For Subversion Clients](get-started/working-with-subversion-on-github/support-for-subversion-clients.md)
+    * [What Are The Differences Between Subversion And Git](get-started/working-with-subversion-on-github/what-are-the-differences-between-subversion-and-git.md)
   - Writing On Github
     - Editing And Sharing Content With Gists
       * [Creating Gists](get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists.md)
@@ -1651,6 +1634,56 @@
     * [Viewing Your Milestone S Progress](issues/using-labels-and-milestones-to-track-work/viewing-your-milestones-progress.md)
   * [Issues Guides](issues/guides.md)
   * [Git Hub Issues](issues/index.md)
+- Migrations
+  - Importing Source Code
+    - Using Github Importer
+      * [About Git Hub Importer](migrations/importing-source-code/using-github-importer/about-github-importer.md)
+      * [Importing A Repository With Git Hub Importer](migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer.md)
+      * [Using Git Hub Importer](migrations/importing-source-code/using-github-importer/index.md)
+      * [Updating Commit Author Attribution With Git Hub Importer](migrations/importing-source-code/using-github-importer/updating-commit-author-attribution-with-github-importer.md)
+    - Using The Command Line To Import Source Code
+      * [Adding Locally Hosted Code To Git Hub](migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github.md)
+      * [Importing An External Git Repository Using The Command Line](migrations/importing-source-code/using-the-command-line-to-import-source-code/importing-an-external-git-repository-using-the-command-line.md)
+      * [Importing From Other Version Control Systems With The Administrative Shell](migrations/importing-source-code/using-the-command-line-to-import-source-code/importing-from-other-version-control-systems-with-the-administrative-shell.md)
+      * [Using The Command Line To Import Source Code](migrations/importing-source-code/using-the-command-line-to-import-source-code/index.md)
+      * [Source Code Migration Tools](migrations/importing-source-code/using-the-command-line-to-import-source-code/source-code-migration-tools.md)
+    * [Importing Source Code](migrations/importing-source-code/index.md)
+  - Using Ghe Migrator
+    * [About Ghe Migrator](migrations/using-ghe-migrator/about-ghe-migrator.md)
+    * [Exporting Migration Data From Git Hub Enterprise Server](migrations/using-ghe-migrator/exporting-migration-data-from-github-enterprise-server.md)
+    * [Exporting migration data from GitHub.com](migrations/using-ghe-migrator/exporting-migration-data-from-githubcom.md)
+    * [Using Ghe Migrator](migrations/using-ghe-migrator/index.md)
+    * [Migrating Data To Git Hub Enterprise Server](migrations/using-ghe-migrator/migrating-data-to-github-enterprise-server.md)
+    * [Preparing To Migrate Data To Git Hub Enterprise Server](migrations/using-ghe-migrator/preparing-to-migrate-data-to-github-enterprise-server.md)
+  - Using Github Enterprise Importer
+    - Completing Your Migration With Github Enterprise Importer
+      * [Accessing Your Migration Logs For Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/completing-your-migration-with-github-enterprise-importer/accessing-your-migration-logs-for-github-enterprise-importer.md)
+      * [Completing Your Migration With Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/completing-your-migration-with-github-enterprise-importer/index.md)
+      * [Reclaiming Mannequins For Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/completing-your-migration-with-github-enterprise-importer/reclaiming-mannequins-for-github-enterprise-importer.md)
+      * [Troubleshooting Your Migration With Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/completing-your-migration-with-github-enterprise-importer/troubleshooting-your-migration-with-github-enterprise-importer.md)
+    - Migrating Organizations With Github Enterprise Importer
+      * [Migrating Organizations With Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/migrating-organizations-with-github-enterprise-importer/index.md)
+      * [Migrating organizations from GitHub.com to GitHub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-organizations-with-github-enterprise-importer/migrating-organizations-from-githubcom-to-github-enterprise-cloud.md)
+    - Migrating Repositories With Github Enterprise Importer
+      * [Migrating Repositories With Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/migrating-repositories-with-github-enterprise-importer/index.md)
+      * [Migrating Repositories From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-repositories-with-github-enterprise-importer/migrating-repositories-from-azure-devops-to-github-enterprise-cloud.md)
+      * [Migrating Repositories From Bitbucket Server To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-repositories-with-github-enterprise-importer/migrating-repositories-from-bitbucket-server-to-github-enterprise-cloud.md)
+      * [Migrating Repositories From Git Hub Enterprise Server To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-repositories-with-github-enterprise-importer/migrating-repositories-from-github-enterprise-server-to-github-enterprise-cloud.md)
+      * [Migrating repositories from GitHub.com to GitHub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-repositories-with-github-enterprise-importer/migrating-repositories-from-githubcom-to-github-enterprise-cloud.md)
+    - Preparing To Migrate With Github Enterprise Importer
+      * [Granting The Migrator Role For Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/preparing-to-migrate-with-github-enterprise-importer/granting-the-migrator-role-for-github-enterprise-importer.md)
+      * [Preparing To Migrate With Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/preparing-to-migrate-with-github-enterprise-importer/index.md)
+      * [Managing Access For Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/preparing-to-migrate-with-github-enterprise-importer/managing-access-for-github-enterprise-importer.md)
+      * [Preparing To Run A Migration With Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/preparing-to-migrate-with-github-enterprise-importer/preparing-to-run-a-migration-with-github-enterprise-importer.md)
+    - Understanding Github Enterprise Importer
+      * [About Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/understanding-github-enterprise-importer/about-github-enterprise-importer.md)
+      * [Understanding Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/understanding-github-enterprise-importer/index.md)
+      * [Migrating Between Git Hub Products With Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/understanding-github-enterprise-importer/migrating-between-github-products-with-github-enterprise-importer.md)
+      * [Migrating From Azure Dev Ops With Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/understanding-github-enterprise-importer/migrating-from-azure-devops-with-github-enterprise-importer.md)
+      * [Migrating From Bitbucket Server With Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/understanding-github-enterprise-importer/migrating-from-bitbucket-server-with-github-enterprise-importer.md)
+      * [Migration Support For Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/understanding-github-enterprise-importer/migration-support-for-github-enterprise-importer.md)
+    * [Using Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/index.md)
+  * [Migrations](migrations/index.md)
 - Organizations
   - Collaborating With Groups In Organizations
     * [About Organizations](organizations/collaborating-with-groups-in-organizations/about-organizations.md)
