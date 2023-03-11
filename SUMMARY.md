@@ -84,7 +84,7 @@
       * [Merging Multiple Personal Accounts](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-personal-account/merging-multiple-personal-accounts.md)
       * [Unlinking Your Email Address From A Locked Account](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-personal-account/unlinking-your-email-address-from-a-locked-account.md)
     * [Setting Up And Managing Your Personal Account On Git Hub](account-and-profile/setting-up-and-managing-your-personal-account-on-github/index.md)
-  * [Your Account And Profile On Git Hub](account-and-profile/index.md)
+  * [Account And Profile Documentation](account-and-profile/index.md)
 - Actions
   - Automating Builds And Tests
     * [About Continuous Integration](actions/automating-builds-and-tests/about-continuous-integration.md)
@@ -614,13 +614,13 @@
       * [About Authentication With A Git Hub App](apps/creating-github-apps/authenticating-with-a-github-app/about-authentication-with-a-github-app.md)
       * [Authenticating As A Git Hub App Installation](apps/creating-github-apps/authenticating-with-a-github-app/authenticating-as-a-github-app-installation.md)
       * [Authenticating As A Git Hub App](apps/creating-github-apps/authenticating-with-a-github-app/authenticating-as-a-github-app.md)
+      * [Authenticating With A Git Hub App On Behalf Of A User](apps/creating-github-apps/authenticating-with-a-github-app/authenticating-with-a-github-app-on-behalf-of-a-user.md)
       * [Generating A JSON Web Token JWT For A Git Hub App](apps/creating-github-apps/authenticating-with-a-github-app/generating-a-json-web-token-jwt-for-a-github-app.md)
       * [Generating A User Access Token For A Git Hub App](apps/creating-github-apps/authenticating-with-a-github-app/generating-a-user-access-token-for-a-github-app.md)
       * [Generating An Installation Access Token For A Git Hub App](apps/creating-github-apps/authenticating-with-a-github-app/generating-an-installation-access-token-for-a-github-app.md)
-      * [Identifying And Authorizing Users For Git Hub Apps](apps/creating-github-apps/authenticating-with-a-github-app/identifying-and-authorizing-users-for-github-apps.md)
       * [Authenticating with a {% data variables.product.prodname_github_app %}](apps/creating-github-apps/authenticating-with-a-github-app/index.md)
       * [Managing Private Keys For Git Hub Apps](apps/creating-github-apps/authenticating-with-a-github-app/managing-private-keys-for-github-apps.md)
-      * [Refreshing User To Server Access Tokens](apps/creating-github-apps/authenticating-with-a-github-app/refreshing-user-to-server-access-tokens.md)
+      * [Refreshing User Access Tokens](apps/creating-github-apps/authenticating-with-a-github-app/refreshing-user-access-tokens.md)
     - Creating Github Apps
       * [About Apps](apps/creating-github-apps/creating-github-apps/about-apps.md)
       * [About The User Authorization Callback URL](apps/creating-github-apps/creating-github-apps/about-the-user-authorization-callback-url.md)
@@ -633,6 +633,7 @@
       * [Making A Git Hub App Public Or Private](apps/creating-github-apps/creating-github-apps/making-a-github-app-public-or-private.md)
       * [Rate Limits For Git Hub Apps](apps/creating-github-apps/creating-github-apps/rate-limits-for-github-apps.md)
       * [Setting Permissions For Git Hub Apps](apps/creating-github-apps/creating-github-apps/setting-permissions-for-github-apps.md)
+      * [Using Webhooks With Git Hub Apps](apps/creating-github-apps/creating-github-apps/using-webhooks-with-github-apps.md)
     - Guides
       * [Creating CI Tests With The Checks API](apps/creating-github-apps/guides/creating-ci-tests-with-the-checks-api.md)
       * [Guides](apps/creating-github-apps/guides/index.md)
@@ -711,7 +712,7 @@
     * [Installing An App In Your Organization](apps/using-github-apps/installing-an-app-in-your-organization.md)
     * [Installing An App In Your Personal Account](apps/using-github-apps/installing-an-app-in-your-personal-account.md)
     * [Reviewing Your Authorized Integrations](apps/using-github-apps/reviewing-your-authorized-integrations.md)
-  * [Apps](apps/index.md)
+  * [Git Hub Apps Documentation](apps/index.md)
 - Authentication
   - Authenticating With Saml Single Sign On
     * [About Authentication With SAML Single Sign On](authentication/authenticating-with-saml-single-sign-on/about-authentication-with-saml-single-sign-on.md)
@@ -786,7 +787,7 @@
     * [Troubleshooting SSH](authentication/troubleshooting-ssh/index.md)
     * [Recovering Your SSH Key Passphrase](authentication/troubleshooting-ssh/recovering-your-ssh-key-passphrase.md)
     * [Using SSH Over The HTTPS Port](authentication/troubleshooting-ssh/using-ssh-over-the-https-port.md)
-  * [Authentication](authentication/index.md)
+  * [Authentication Documentation](authentication/index.md)
 - Billing
   - Managing Billing For Git Large File Storage
     * [About Billing For Git Large File Storage](billing/managing-billing-for-git-large-file-storage/about-billing-for-git-large-file-storage.md)
@@ -883,7 +884,7 @@
       * [Renewing Your Client S Paid Organization](billing/setting-up-paid-accounts-for-procurement-companies/setting-up-paid-organizations-for-procurement-companies/renewing-your-clients-paid-organization.md)
       * [Upgrading Or Downgrading Your Client S Paid Organization](billing/setting-up-paid-accounts-for-procurement-companies/setting-up-paid-organizations-for-procurement-companies/upgrading-or-downgrading-your-clients-paid-organization.md)
     * [Setting Up Paid Accounts For Procurement Companies](billing/setting-up-paid-accounts-for-procurement-companies/index.md)
-  * [Billing And Payments On Git Hub](billing/index.md)
+  * [Billing And Payments Documentation](billing/index.md)
 - Code Security
   - Adopting Github Advanced Security At Scale
     * [Adopting Git Hub Advanced Security At Scale](code-security/adopting-github-advanced-security-at-scale/index.md)
@@ -976,6 +977,7 @@
     * [Keeping Your Supply Chain Secure With Dependabot](code-security/dependabot/index.md)
   - Getting Started
     * [Adding A Security Policy To Your Repository](code-security/getting-started/adding-a-security-policy-to-your-repository.md)
+    * [Auditing Security Alerts](code-security/getting-started/auditing-security-alerts.md)
     * [Git Hub Security Features](code-security/getting-started/github-security-features.md)
     * [Getting Started With Code Security](code-security/getting-started/index.md)
     * [Securing Your Organization](code-security/getting-started/securing-your-organization.md)
@@ -1042,7 +1044,7 @@
       * [Using The Dependency Submission API](code-security/supply-chain-security/understanding-your-software-supply-chain/using-the-dependency-submission-api.md)
     * [Securing Your Software Supply Chain](code-security/supply-chain-security/index.md)
   * [Guides For Code Security](code-security/guides.md)
-  * [Code Security](code-security/index.md)
+  * [Code Security Documentation](code-security/index.md)
 - Codespaces
   - Codespaces Reference
     * [Allowing Your Codespace To Access A Private Registry](codespaces/codespaces-reference/allowing-your-codespace-to-access-a-private-registry.md)
@@ -1195,7 +1197,7 @@
     * [Manually Creating A Single Issue Template For Your Repository](communities/using-templates-to-encourage-useful-issues-and-pull-requests/manually-creating-a-single-issue-template-for-your-repository.md)
     * [Syntax For Git Hub S Form Schema](communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema.md)
     * [Syntax For Issue Forms](communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms.md)
-  * [Building Communities](communities/index.md)
+  * [Building Communities Documentation](communities/index.md)
 - Copilot
   - Configuring Github Copilot
     * [Configuring Git Hub Copilot In A Jet Brains IDE](copilot/configuring-github-copilot/configuring-github-copilot-in-a-jetbrains-ide.md)
@@ -1224,7 +1226,7 @@
     * [Troubleshooting Git Hub Copilot In Neovim](copilot/troubleshooting-github-copilot/troubleshooting-github-copilot-in-neovim.md)
     * [Troubleshooting Git Hub Copilot In Visual Studio Code](copilot/troubleshooting-github-copilot/troubleshooting-github-copilot-in-visual-studio-code.md)
     * [Troubleshooting Git Hub Copilot In Visual Studio](copilot/troubleshooting-github-copilot/troubleshooting-github-copilot-in-visual-studio.md)
-  * [Git Hub Copilot](copilot/index.md)
+  * [Git Hub Copilot Documentation](copilot/index.md)
   * [Quickstart For Git Hub Copilot](copilot/quickstart.md)
 - Desktop
   - Contributing And Collaborating Using Github Desktop
@@ -1284,7 +1286,7 @@
       * [Launching Git Hub Desktop From The Command Line](desktop/installing-and-configuring-github-desktop/overview/launching-github-desktop-from-the-command-line.md)
       * [Supported Operating Systems](desktop/installing-and-configuring-github-desktop/overview/supported-operating-systems.md)
     * [Installing And Configuring Git Hub Desktop](desktop/installing-and-configuring-github-desktop/index.md)
-  * [Git Hub Desktop](desktop/index.md)
+  * [Git Hub Desktop Documentation](desktop/index.md)
 - Discussions
   - Collaborating With Your Community Using Discussions
     * [About Discussions](discussions/collaborating-with-your-community-using-discussions/about-discussions.md)
@@ -1490,7 +1492,7 @@
       * [Working With Saved Replies](get-started/writing-on-github/working-with-saved-replies/index.md)
       * [Using Saved Replies](get-started/writing-on-github/working-with-saved-replies/using-saved-replies.md)
     * [Writing On Git Hub](get-started/writing-on-github/index.md)
-  * [Getting Started With Git Hub](get-started/index.md)
+  * [Getting Started With Git Hub Documentation](get-started/index.md)
 - Github Cli
   - Github Cli
     * [About Git Hub CLI](github-cli/github-cli/about-github-cli.md)
@@ -1499,7 +1501,7 @@
     * [Git Hub CLI](github-cli/github-cli/index.md)
     * [Git Hub CLI Quickstart](github-cli/github-cli/quickstart.md)
     * [Using Git Hub CLI Extensions](github-cli/github-cli/using-github-cli-extensions.md)
-  * [Git Hub CLI](github-cli/index.md)
+  * [Git Hub CLI Documentation](github-cli/index.md)
 - [Graphql](graphql/README.md)
   - Guides
     * [Forming Calls With Graph QL](graphql/guides/forming-calls-with-graphql.md)
@@ -1530,7 +1532,7 @@
     * [Queries](graphql/reference/queries.md)
     * [Scalars](graphql/reference/scalars.md)
     * [Unions](graphql/reference/unions.md)
-  * [Git Hub Graph QL API](graphql/index.md)
+  * [Git Hub Graph QL API Documentation](graphql/index.md)
 - Issues
   - Organizing Your Work With Project Boards
     - Managing Project Boards
@@ -1633,7 +1635,7 @@
     * [Managing Labels](issues/using-labels-and-milestones-to-track-work/managing-labels.md)
     * [Viewing Your Milestone S Progress](issues/using-labels-and-milestones-to-track-work/viewing-your-milestones-progress.md)
   * [Issues Guides](issues/guides.md)
-  * [Git Hub Issues](issues/index.md)
+  * [Git Hub Issues Documentation](issues/index.md)
 - Migrations
   - Importing Source Code
     - Using Github Importer
@@ -1849,7 +1851,7 @@
     * [Requesting To Add Or Change A Parent Team](organizations/organizing-members-into-teams/requesting-to-add-or-change-a-parent-team.md)
     * [Setting Your Team S Profile Picture](organizations/organizing-members-into-teams/setting-your-teams-profile-picture.md)
     * [Synchronizing A Team With An Identity Provider Group](organizations/organizing-members-into-teams/synchronizing-a-team-with-an-identity-provider-group.md)
-  * [Organizations And Teams](organizations/index.md)
+  * [Organizations And Teams Documentation](organizations/index.md)
 - Packages
   - Learn Github Packages
     * [About Permissions For Git Hub Packages](packages/learn-github-packages/about-permissions-for-github-packages.md)
@@ -1981,7 +1983,7 @@
       * [Differences Between Commit Views](pull-requests/committing-changes-to-your-project/viewing-and-comparing-commits/differences-between-commit-views.md)
       * [Viewing And Comparing Commits](pull-requests/committing-changes-to-your-project/viewing-and-comparing-commits/index.md)
     * [Committing Changes To Your Project](pull-requests/committing-changes-to-your-project/index.md)
-  * [Pull Requests](pull-requests/index.md)
+  * [Pull Requests Documentation](pull-requests/index.md)
 - Repositories
   - Archiving A Github Repository
     * [About Archiving Content And Data On Git Hub](repositories/archiving-a-github-repository/about-archiving-content-and-data-on-github.md)
@@ -2108,7 +2110,7 @@
       * [Viewing A File](repositories/working-with-files/using-files/viewing-a-file.md)
       * [Working With Non Code Files](repositories/working-with-files/using-files/working-with-non-code-files.md)
     * [Working With Files](repositories/working-with-files/index.md)
-  * [Repositories](repositories/index.md)
+  * [Repositories Documentation](repositories/index.md)
 - [Rest](rest/README.md)
   - Actions
     * [Git Hub Actions Artifacts](rest/actions/artifacts.md)
@@ -2310,7 +2312,7 @@
   * [Deploy Keys](rest/deploy-keys.md)
   * [Emojis](rest/emojis.md)
   * [Gitignore](rest/gitignore.md)
-  * [Git Hub REST API](rest/index.md)
+  * [Git Hub REST API Documentation](rest/index.md)
   * [Licenses](rest/licenses.md)
   * [Markdown](rest/markdown.md)
   * [Meta](rest/meta.md)
@@ -2352,7 +2354,7 @@
     * [Searching Topics](search-github/searching-on-github/searching-topics.md)
     * [Searching Users](search-github/searching-on-github/searching-users.md)
     * [Searching Wikis](search-github/searching-on-github/searching-wikis.md)
-  * [Searching For Information On Git Hub](search-github/index.md)
+  * [Search On Git Hub Documentation](search-github/index.md)
 - Site Policy
   - Acceptable Use Policies
     * [Git Hub Acceptable Use Policies](site-policy/acceptable-use-policies/github-acceptable-use-policies.md)
@@ -2426,7 +2428,7 @@
     * [Git Hub Enterprise Subscription Agreement](site-policy/site-policy-deprecated/github-enterprise-subscription-agreement.md)
     * [Git Hub Supplemental Terms For Microsoft Volume Licensing](site-policy/site-policy-deprecated/github-supplemental-terms-for-microsoft-volume-licensing.md)
     * [Deprecated Site Policy Articles](site-policy/site-policy-deprecated/index.md)
-  * [Site Policy](site-policy/index.md)
+  * [Site Policy Documentation](site-policy/index.md)
 - Sponsors
   - Getting Started With Github Sponsors
     * [About Git Hub Sponsors](sponsors/getting-started-with-github-sponsors/about-github-sponsors.md)
@@ -2471,7 +2473,7 @@
     * [About Ticket Priority](support/learning-about-github-support/about-ticket-priority.md)
     * [Git Hub Marketplace Support](support/learning-about-github-support/github-marketplace-support.md)
     * [Learning About Git Hub Support](support/learning-about-github-support/index.md)
-  * [Working With Git Hub Support](support/index.md)
+  * [Working With Git Hub Support Documentation](support/index.md)
 - Video Transcripts
   * [Video Transcripts](video-transcripts/index.md)
   * [Transcript Codespaces Your Instant Dev Box In The Cloud](video-transcripts/transcript-codespaces-your-instant-dev-box-in-the-cloud.md)
@@ -2490,5 +2492,5 @@
     * [Securing Your Webhooks](webhooks-and-events/webhooks/securing-your-webhooks.md)
     * [Testing Webhooks](webhooks-and-events/webhooks/testing-webhooks.md)
     * [Webhook Events And Payloads](webhooks-and-events/webhooks/webhook-events-and-payloads.md)
-  * [Webhooks And Events](webhooks-and-events/index.md)
+  * [Webhooks And Events Documentation](webhooks-and-events/index.md)
 * [{% data variables.product.product_name %}{% ifversion fpt or ghec%}.com{% endif %} Help Documentation](index.md)
