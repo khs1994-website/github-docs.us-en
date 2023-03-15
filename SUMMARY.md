@@ -658,6 +658,7 @@
       * [Creating A Custom Badge For Your O Auth App](apps/oauth-apps/building-oauth-apps/creating-a-custom-badge-for-your-oauth-app.md)
       * [Creating An O Auth App](apps/oauth-apps/building-oauth-apps/creating-an-oauth-app.md)
       * [Building O Auth Apps](apps/oauth-apps/building-oauth-apps/index.md)
+      * [Rate Limits For O Auth Apps](apps/oauth-apps/building-oauth-apps/rate-limits-for-oauth-apps.md)
       * [Scopes For O Auth Apps](apps/oauth-apps/building-oauth-apps/scopes-for-oauth-apps.md)
     - Maintaining Oauth Apps
       * [Deleting An O Auth App](apps/oauth-apps/maintaining-oauth-apps/deleting-an-oauth-app.md)
@@ -1711,6 +1712,7 @@
   - Keeping Your Organization Secure
     - Managing Security Settings For Your Organization
       * [Accessing Compliance Reports For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/accessing-compliance-reports-for-your-organization.md)
+      * [Displaying IP Addresses In The Audit Log For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/displaying-ip-addresses-in-the-audit-log-for-your-organization.md)
       * [Managing Security Settings For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/index.md)
       * [Managing Allowed IP Addresses For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/managing-allowed-ip-addresses-for-your-organization.md)
       * [Managing Security And Analysis Settings For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/managing-security-and-analysis-settings-for-your-organization.md)
@@ -2253,6 +2255,7 @@
   - Overview
     * [About Git Hub S AP Is](rest/overview/about-githubs-apis.md)
     * [API Versions](rest/overview/api-versions.md)
+    * [Authenticating To The REST API](rest/overview/authenticating-to-the-rest-api.md)
     * [Breaking Changes](rest/overview/breaking-changes.md)
     * [Endpoints Available For Fine Grained Personal Access Tokens](rest/overview/endpoints-available-for-fine-grained-personal-access-tokens.md)
     * [Endpoints Available For Git Hub Apps](rest/overview/endpoints-available-for-github-apps.md)
@@ -2260,7 +2263,6 @@
     * [Libraries](rest/overview/libraries.md)
     * [Media Types](rest/overview/media-types.md)
     * [Open API Description](rest/overview/openapi-description.md)
-    * [Other Authentication Methods](rest/overview/other-authentication-methods.md)
     * [Permissions Required For Fine Grained Personal Access Tokens](rest/overview/permissions-required-for-fine-grained-personal-access-tokens.md)
     * [Permissions Required For Git Hub Apps](rest/overview/permissions-required-for-github-apps.md)
     * [Resources In The REST API](rest/overview/resources-in-the-rest-api.md)
