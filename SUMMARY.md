@@ -209,6 +209,7 @@
       * [Extending Git Hub Actions Importer With Custom Transformers](actions/migrating-to-github-actions/automated-migrations/extending-github-actions-importer-with-custom-transformers.md)
       * [Using {% data variables.product.prodname_actions_importer %} to automate migrations](actions/migrating-to-github-actions/automated-migrations/index.md)
       * [Migrating From Circle CI With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-circleci-with-github-actions-importer.md)
+      * [Migrating From Git Lab With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-gitlab-with-github-actions-importer.md)
       * [Migrating From Jenkins With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-jenkins-with-github-actions-importer.md)
       * [Supplemental Arguments And Settings](actions/migrating-to-github-actions/automated-migrations/supplemental-arguments-and-settings.md)
     - Manual Migrations
@@ -1612,6 +1613,7 @@
     * [Planning and tracking with {% data variables.product.prodname_projects_v2 %}](issues/planning-and-tracking-with-projects/index.md)
   - Tracking Your Work With Issues
     * [About Issues](issues/tracking-your-work-with-issues/about-issues.md)
+    * [About Slash Commands](issues/tracking-your-work-with-issues/about-slash-commands.md)
     * [About Tasklists](issues/tracking-your-work-with-issues/about-tasklists.md)
     * [Assigning Issues And Pull Requests To Other Git Hub Users](issues/tracking-your-work-with-issues/assigning-issues-and-pull-requests-to-other-github-users.md)
     * [Closing An Issue](issues/tracking-your-work-with-issues/closing-an-issue.md)
