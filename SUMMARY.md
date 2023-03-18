@@ -2468,6 +2468,7 @@
 - Support
   - Contacting Github Support
     * [Creating A Support Ticket](support/contacting-github-support/creating-a-support-ticket.md)
+    * [Getting Started With The Git Hub Support Portal](support/contacting-github-support/getting-started-with-the-github-support-portal.md)
     * [Contacting Git Hub Support](support/contacting-github-support/index.md)
     * [Providing Data To Git Hub Support](support/contacting-github-support/providing-data-to-github-support.md)
     * [Viewing And Updating Support Tickets](support/contacting-github-support/viewing-and-updating-support-tickets.md)
