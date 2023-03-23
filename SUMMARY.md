@@ -1341,7 +1341,6 @@
     * [Explore The Benefits Of Teaching And Learning With Git Hub Education](education/explore-the-benefits-of-teaching-and-learning-with-github-education/index.md)
   - Manage Coursework With Github Classroom
     - Get Started With Github Classroom
-      * [Basics Of Setting Up Git Hub Classroom](education/manage-coursework-with-github-classroom/get-started-with-github-classroom/basics-of-setting-up-github-classroom.md)
       * [Glossary](education/manage-coursework-with-github-classroom/get-started-with-github-classroom/glossary.md)
       * [Get Started With Git Hub Classroom](education/manage-coursework-with-github-classroom/get-started-with-github-classroom/index.md)
     - Integrate Github Classroom With An Ide
@@ -1354,12 +1353,14 @@
     - Learn With Github Classroom
       * [Learn With Git Hub Classroom](education/manage-coursework-with-github-classroom/learn-with-github-classroom/index.md)
       * [View Autograding Results](education/manage-coursework-with-github-classroom/learn-with-github-classroom/view-autograding-results.md)
+      * [Viewing Your Assignment S Deadline](education/manage-coursework-with-github-classroom/learn-with-github-classroom/viewing-your-assignments-deadline.md)
     - Teach With Github Classroom
       * [Connect A Learning Management System Course To A Classroom](education/manage-coursework-with-github-classroom/teach-with-github-classroom/connect-a-learning-management-system-course-to-a-classroom.md)
       * [Create A Group Assignment](education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-a-group-assignment.md)
       * [Create An Assignment From A Template Repository](education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-assignment-from-a-template-repository.md)
       * [Create An Individual Assignment](education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-individual-assignment.md)
       * [Editing An Assignment](education/manage-coursework-with-github-classroom/teach-with-github-classroom/editing-an-assignment.md)
+      * [Extending An Assignment S Deadline For An Individual Or Group](education/manage-coursework-with-github-classroom/teach-with-github-classroom/extending-an-assignments-deadline-for-an-individual-or-group.md)
       * [Teach With Git Hub Classroom](education/manage-coursework-with-github-classroom/teach-with-github-classroom/index.md)
       * [Leave Feedback With Pull Requests](education/manage-coursework-with-github-classroom/teach-with-github-classroom/leave-feedback-with-pull-requests.md)
       * [Manage Classrooms](education/manage-coursework-with-github-classroom/teach-with-github-classroom/manage-classrooms.md)
