@@ -208,6 +208,7 @@
       * [Automating Migration With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/automating-migration-with-github-actions-importer.md)
       * [Extending Git Hub Actions Importer With Custom Transformers](actions/migrating-to-github-actions/automated-migrations/extending-github-actions-importer-with-custom-transformers.md)
       * [Using {% data variables.product.prodname_actions_importer %} to automate migrations](actions/migrating-to-github-actions/automated-migrations/index.md)
+      * [Migrating From Azure Dev Ops With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-azure-devops-with-github-actions-importer.md)
       * [Migrating From Circle CI With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-circleci-with-github-actions-importer.md)
       * [Migrating From Git Lab With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-gitlab-with-github-actions-importer.md)
       * [Migrating From Jenkins With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-jenkins-with-github-actions-importer.md)
@@ -641,6 +642,7 @@
       * [Migrating O Auth Apps To Git Hub Apps](apps/creating-github-apps/guides/migrating-oauth-apps-to-github-apps.md)
       * [Setting Up Your Development Environment To Create A Git Hub App](apps/creating-github-apps/guides/setting-up-your-development-environment-to-create-a-github-app.md)
       * [Using The Git Hub API In Your App](apps/creating-github-apps/guides/using-the-github-api-in-your-app.md)
+      * [Using The Web Application Flow To Generate A User Access Token For A Git Hub App](apps/creating-github-apps/guides/using-the-web-application-flow-to-generate-a-user-access-token-for-a-github-app.md)
     * [Creating Git Hub Apps](apps/creating-github-apps/index.md)
   - Maintaining Github Apps
     * [Activating Optional Features For Apps](apps/maintaining-github-apps/activating-optional-features-for-apps.md)
@@ -1368,6 +1370,7 @@
       * [Reuse An Assignment](education/manage-coursework-with-github-classroom/teach-with-github-classroom/reuse-an-assignment.md)
       * [Use Autograding](education/manage-coursework-with-github-classroom/teach-with-github-classroom/use-autograding.md)
       * [Use The Git And Git Hub Starter Assignment](education/manage-coursework-with-github-classroom/teach-with-github-classroom/use-the-git-and-github-starter-assignment.md)
+      * [Using {% data variables.product.prodname_classroom %} with {% data variables.product.prodname_cli %}](education/manage-coursework-with-github-classroom/teach-with-github-classroom/using-github-classroom-with-github-cli.md)
     * [Manage Coursework With Git Hub Classroom](education/manage-coursework-with-github-classroom/index.md)
   * [Guides For Git Hub Education](education/guides.md)
   * [Git Hub Education Documentation](education/index.md)
