@@ -212,6 +212,7 @@
       * [Migrating From Circle CI With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-circleci-with-github-actions-importer.md)
       * [Migrating From Git Lab With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-gitlab-with-github-actions-importer.md)
       * [Migrating From Jenkins With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-jenkins-with-github-actions-importer.md)
+      * [Migrating From Travis CI With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-travis-ci-with-github-actions-importer.md)
       * [Supplemental Arguments And Settings](actions/migrating-to-github-actions/automated-migrations/supplemental-arguments-and-settings.md)
     - Manual Migrations
       * [Manually Migrating To Git Hub Actions](actions/migrating-to-github-actions/manual-migrations/index.md)
@@ -904,6 +905,7 @@
       * [About Code Scanning Alerts](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning-alerts.md)
       * [About Code Scanning With Code QL](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning-with-codeql.md)
       * [About Code Scanning](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning.md)
+      * [About The Tool Status Page For Code Scanning](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-the-tool-status-page.md)
       * [Configuring Code Scanning At Scale Using Code QL](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning-at-scale.md)
       * [Configuring Code Scanning For A Repository](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning-for-a-repository.md)
       * [Configuring The Code QL Workflow For Compiled Languages](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-the-codeql-workflow-for-compiled-languages.md)
@@ -1113,6 +1115,7 @@
       * [Configuring Dependency Review](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-dependency-review.md)
       * [Configuring The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-the-dependency-graph.md)
       * [Exploring The Dependencies Of A Repository](code-security/supply-chain-security/understanding-your-software-supply-chain/exploring-the-dependencies-of-a-repository.md)
+      * [Exporting A Software Bill Of Materials For Your Repository](code-security/supply-chain-security/understanding-your-software-supply-chain/exporting-a-software-bill-of-materials-for-your-repository.md)
       * [Understanding Your Software Supply Chain](code-security/supply-chain-security/understanding-your-software-supply-chain/index.md)
       * [Troubleshooting The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/troubleshooting-the-dependency-graph.md)
       * [Using The Dependency Submission API](code-security/supply-chain-security/understanding-your-software-supply-chain/using-the-dependency-submission-api.md)
@@ -1274,19 +1277,10 @@
   * [Building Communities Documentation](communities/index.md)
 - Copilot
   - Configuring Github Copilot
-    * [Configuring Git Hub Copilot In A Jet Brains IDE](copilot/configuring-github-copilot/configuring-github-copilot-in-a-jetbrains-ide.md)
-    * [Configuring Git Hub Copilot In Neovim](copilot/configuring-github-copilot/configuring-github-copilot-in-neovim.md)
-    * [Configuring Git Hub Copilot In Visual Studio Code](copilot/configuring-github-copilot/configuring-github-copilot-in-visual-studio-code.md)
-    * [Configuring Git Hub Copilot In Visual Studio](copilot/configuring-github-copilot/configuring-github-copilot-in-visual-studio.md)
+    * [Configuring Git Hub Copilot In Your Environment](copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment.md)
     * [Configuring Git Hub Copilot Settings In Your Organization](copilot/configuring-github-copilot/configuring-github-copilot-settings-in-your-organization.md)
     * [Configuring GitHub Copilot settings on GitHub.com](copilot/configuring-github-copilot/configuring-github-copilot-settings-on-githubcom.md)
     * [Configuring Git Hub Copilot](copilot/configuring-github-copilot/index.md)
-  - Getting Started With Github Copilot
-    * [Getting Started With Git Hub Copilot In A Jet Brains IDE](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-a-jetbrains-ide.md)
-    * [Getting Started With Git Hub Copilot In Neovim](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-neovim.md)
-    * [Getting Started With Git Hub Copilot In Visual Studio Code](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio-code.md)
-    * [Getting Started With Git Hub Copilot In Visual Studio](copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio.md)
-    * [Getting Started With Git Hub Copilot](copilot/getting-started-with-github-copilot/index.md)
   - Overview Of Github Copilot
     * [About Git Hub Copilot For Business](copilot/overview-of-github-copilot/about-github-copilot-for-business.md)
     * [About Git Hub Copilot For Individuals](copilot/overview-of-github-copilot/about-github-copilot-for-individuals.md)
@@ -1296,10 +1290,8 @@
     * [Troubleshooting Git Hub Copilot](copilot/troubleshooting-github-copilot/index.md)
     * [Troubleshooting Certificate Errors For Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-certificate-errors-for-github-copilot.md)
     * [Troubleshooting Common Issues With Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-common-issues-with-github-copilot.md)
-    * [Troubleshooting Git Hub Copilot In A Jet Brains IDE](copilot/troubleshooting-github-copilot/troubleshooting-github-copilot-in-a-jetbrains-ide.md)
-    * [Troubleshooting Git Hub Copilot In Neovim](copilot/troubleshooting-github-copilot/troubleshooting-github-copilot-in-neovim.md)
-    * [Troubleshooting Git Hub Copilot In Visual Studio Code](copilot/troubleshooting-github-copilot/troubleshooting-github-copilot-in-visual-studio-code.md)
-    * [Troubleshooting Git Hub Copilot In Visual Studio](copilot/troubleshooting-github-copilot/troubleshooting-github-copilot-in-visual-studio.md)
+    * [Troubleshooting Git Hub Copilot In Your Environment](copilot/troubleshooting-github-copilot/troubleshooting-github-copilot-in-your-environment.md)
+  * [Getting Started With Git Hub Copilot](copilot/getting-started-with-github-copilot.md)
   * [Git Hub Copilot Documentation](copilot/index.md)
   * [Quickstart For Git Hub Copilot](copilot/quickstart.md)
 - Desktop
@@ -1728,6 +1720,10 @@
       * [Using The Command Line To Import Source Code](migrations/importing-source-code/using-the-command-line-to-import-source-code/index.md)
       * [Source Code Migration Tools](migrations/importing-source-code/using-the-command-line-to-import-source-code/source-code-migration-tools.md)
     * [Importing Source Code](migrations/importing-source-code/index.md)
+  - Overview
+    * [About Git Hub S Migration Tooling](migrations/overview/about-githubs-migration-tooling.md)
+    * [Index](migrations/overview/index.md)
+    * [Planning Your Migration To Git Hub](migrations/overview/planning-your-migration-to-github.md)
   - Using Ghe Migrator
     * [About Ghe Migrator](migrations/using-ghe-migrator/about-ghe-migrator.md)
     * [Exporting Migration Data From Git Hub Enterprise Server](migrations/using-ghe-migrator/exporting-migration-data-from-github-enterprise-server.md)
