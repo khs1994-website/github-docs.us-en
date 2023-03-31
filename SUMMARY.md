@@ -627,6 +627,7 @@
     - Creating Github Apps
       * [About Apps](apps/creating-github-apps/creating-github-apps/about-apps.md)
       * [About The User Authorization Callback URL](apps/creating-github-apps/creating-github-apps/about-the-user-authorization-callback-url.md)
+      * [Choosing Permissions For A Git Hub App](apps/creating-github-apps/creating-github-apps/choosing-permissions-for-a-github-app.md)
       * [Creating A Custom Badge For Your Git Hub App](apps/creating-github-apps/creating-github-apps/creating-a-custom-badge-for-your-github-app.md)
       * [Creating A Git Hub App From A Manifest](apps/creating-github-apps/creating-github-apps/creating-a-github-app-from-a-manifest.md)
       * [Creating A Git Hub App Using URL Parameters](apps/creating-github-apps/creating-github-apps/creating-a-github-app-using-url-parameters.md)
@@ -635,7 +636,6 @@
       * [Creating {% data variables.product.prodname_github_apps %}](apps/creating-github-apps/creating-github-apps/index.md)
       * [Making A Git Hub App Public Or Private](apps/creating-github-apps/creating-github-apps/making-a-github-app-public-or-private.md)
       * [Rate Limits For Git Hub Apps](apps/creating-github-apps/creating-github-apps/rate-limits-for-github-apps.md)
-      * [Setting Permissions For Git Hub Apps](apps/creating-github-apps/creating-github-apps/setting-permissions-for-github-apps.md)
       * [Using Webhooks With Git Hub Apps](apps/creating-github-apps/creating-github-apps/using-webhooks-with-github-apps.md)
     - Guides
       * [Creating CI Tests With The Checks API](apps/creating-github-apps/guides/creating-ci-tests-with-the-checks-api.md)
@@ -1097,10 +1097,11 @@
       * [Withdrawing A Repository Security Advisory](code-security/security-advisories/repository-security-advisories/withdrawing-a-repository-security-advisory.md)
     * [Working With Security Advisories](code-security/security-advisories/index.md)
   - Security Overview
-    * [About The Security Overview](code-security/security-overview/about-the-security-overview.md)
-    * [Filtering Alerts In The Security Overview](code-security/security-overview/filtering-alerts-in-the-security-overview.md)
+    * [About Security Overview](code-security/security-overview/about-security-overview.md)
+    * [Assessing Adoption Of Code Security Features](code-security/security-overview/assessing-adoption-code-security.md)
+    * [Assessing Your Code Security Risk](code-security/security-overview/assessing-code-security-risk.md)
+    * [Filtering Alerts In Security Overview](code-security/security-overview/filtering-alerts-in-security-overview.md)
     * [Viewing Security Alerts For Repositories In Your Organization](code-security/security-overview/index.md)
-    * [Viewing The Security Overview](code-security/security-overview/viewing-the-security-overview.md)
   - Supply Chain Security
     - End To End Supply Chain
       * [Securing Your End To End Supply Chain](code-security/supply-chain-security/end-to-end-supply-chain/end-to-end-supply-chain-overview.md)
@@ -2360,6 +2361,9 @@
     * [Repositories](rest/repos/repos.md)
     * [Git LFS](rest/repos/lfs.md)
     * [Repository Tags](rest/repos/tags.md)
+  - Security Advisories
+    * [Security Advisories](rest/security-advisories/index.md)
+    * [Repository Security Advisories](rest/security-advisories/repository-advisories.md)
   - Teams
     * [Team Discussion Comments](rest/teams/discussion-comments.md)
     * [Team Discussions](rest/teams/discussions.md)
