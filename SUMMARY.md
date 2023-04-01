@@ -608,7 +608,7 @@
       * [Viewing People In Your Enterprise](admin/user-management/managing-users-in-your-enterprise/viewing-people-in-your-enterprise.md)
     * [Managing Users Organizations And Repositories](admin/user-management/index.md)
   * [Git Hub Enterprise Server Releases](admin/all-releases.md)
-  * [Git Hub Enterprise Guides](admin/guides.md)
+  * [Guides For Git Hub Enterprise](admin/guides.md)
   * [Enterprise Administrator Documentation](admin/index.md)
   * [Release Notes](admin/release-notes.md)
 - Apps
@@ -638,12 +638,13 @@
       * [Rate Limits For Git Hub Apps](apps/creating-github-apps/creating-github-apps/rate-limits-for-github-apps.md)
       * [Using Webhooks With Git Hub Apps](apps/creating-github-apps/creating-github-apps/using-webhooks-with-github-apps.md)
     - Guides
+      * [Building A CLI With A Git Hub App](apps/creating-github-apps/guides/building-a-cli-with-a-github-app.md)
+      * [Building A Login With Git Hub Button With A Git Hub App](apps/creating-github-apps/guides/building-a-login-with-github-button-with-a-github-app.md)
       * [Creating CI Tests With The Checks API](apps/creating-github-apps/guides/creating-ci-tests-with-the-checks-api.md)
       * [Guides](apps/creating-github-apps/guides/index.md)
       * [Migrating O Auth Apps To Git Hub Apps](apps/creating-github-apps/guides/migrating-oauth-apps-to-github-apps.md)
       * [Setting Up Your Development Environment To Create A Git Hub App](apps/creating-github-apps/guides/setting-up-your-development-environment-to-create-a-github-app.md)
       * [Using The Git Hub API In Your App](apps/creating-github-apps/guides/using-the-github-api-in-your-app.md)
-      * [Using The Web Application Flow To Generate A User Access Token For A Git Hub App](apps/creating-github-apps/guides/using-the-web-application-flow-to-generate-a-user-access-token-for-a-github-app.md)
     * [Creating Git Hub Apps](apps/creating-github-apps/index.md)
   - Maintaining Github Apps
     * [Activating Optional Features For Apps](apps/maintaining-github-apps/activating-optional-features-for-apps.md)
@@ -1222,7 +1223,7 @@
     * [Troubleshooting Prebuilds](codespaces/troubleshooting/troubleshooting-prebuilds.md)
     * [Troubleshooting Your Connection To Git Hub Codespaces](codespaces/troubleshooting/troubleshooting-your-connection-to-github-codespaces.md)
     * [Working With Support For Git Hub Codespaces](codespaces/troubleshooting/working-with-support-for-github-codespaces.md)
-  * [Codespaces Guides](codespaces/guides.md)
+  * [Guides For Codespaces](codespaces/guides.md)
   * [Git Hub Codespaces Documentation](codespaces/index.md)
   * [Git Hub Codespaces Overview](codespaces/overview.md)
   * [The github.dev web-based editor](codespaces/the-githubdev-web-based-editor.md)
@@ -1705,7 +1706,7 @@
     * [Using Labels And Milestones To Track Work](issues/using-labels-and-milestones-to-track-work/index.md)
     * [Managing Labels](issues/using-labels-and-milestones-to-track-work/managing-labels.md)
     * [Viewing Your Milestone S Progress](issues/using-labels-and-milestones-to-track-work/viewing-your-milestones-progress.md)
-  * [Issues Guides](issues/guides.md)
+  * [Guides For Issues](issues/guides.md)
   * [Git Hub Issues Documentation](issues/index.md)
 - Migrations
   - Importing Source Code
@@ -2538,7 +2539,7 @@
     * [Managing Your Sponsorship](sponsors/sponsoring-open-source-contributors/managing-your-sponsorship.md)
     * [Paying For Git Hub Sponsors By Invoice](sponsors/sponsoring-open-source-contributors/paying-for-github-sponsors-by-invoice.md)
     * [Sponsoring An Open Source Contributor](sponsors/sponsoring-open-source-contributors/sponsoring-an-open-source-contributor.md)
-  * [Git Hub Sponsors Guides](sponsors/guides.md)
+  * [Guides For Git Hub Sponsors](sponsors/guides.md)
   * [Git Hub Sponsors Documentation](sponsors/index.md)
 - Support
   - Contacting Github Support
