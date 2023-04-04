@@ -366,7 +366,7 @@
       * [About Clustering](admin/enterprise-management/configuring-clustering/about-clustering.md)
       * [Cluster Network Configuration](admin/enterprise-management/configuring-clustering/cluster-network-configuration.md)
       * [Differences Between Clustering And High Availability HA](admin/enterprise-management/configuring-clustering/differences-between-clustering-and-high-availability-ha.md)
-      * [Evacuating A Cluster Node](admin/enterprise-management/configuring-clustering/evacuating-a-cluster-node.md)
+      * [Evacuating A Cluster Node Running Data Services](admin/enterprise-management/configuring-clustering/evacuating-a-cluster-node-running-data-services.md)
       * [Configuring Clustering](admin/enterprise-management/configuring-clustering/index.md)
       * [Initializing The Cluster](admin/enterprise-management/configuring-clustering/initializing-the-cluster.md)
       * [Monitoring Cluster Nodes](admin/enterprise-management/configuring-clustering/monitoring-cluster-nodes.md)
