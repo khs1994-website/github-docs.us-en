@@ -1139,6 +1139,7 @@
     * [Using The Visual Studio Code Command Palette In Git Hub Codespaces](codespaces/codespaces-reference/using-the-vs-code-command-palette-in-codespaces.md)
   - Customizing Your Codespace
     * [Changing The Machine Type For Your Codespace](codespaces/customizing-your-codespace/changing-the-machine-type-for-your-codespace.md)
+    * [Changing The Shell In A Codespace](codespaces/customizing-your-codespace/changing-the-shell-in-a-codespace.md)
     * [Configuring Automatic Deletion Of Your Codespaces](codespaces/customizing-your-codespace/configuring-automatic-deletion-of-your-codespaces.md)
     * [Customizing Your Codespace](codespaces/customizing-your-codespace/index.md)
     * [Personalizing Git Hub Codespaces For Your Account](codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account.md)
@@ -1919,6 +1920,7 @@
     * [Adding Organization Members To A Team](organizations/organizing-members-into-teams/adding-organization-members-to-a-team.md)
     * [Assigning The Team Maintainer Role To A Team Member](organizations/organizing-members-into-teams/assigning-the-team-maintainer-role-to-a-team-member.md)
     * [Changing Team Visibility](organizations/organizing-members-into-teams/changing-team-visibility.md)
+    * [Configuring Team Notifications](organizations/organizing-members-into-teams/configuring-team-notifications.md)
     * [Creating A Team](organizations/organizing-members-into-teams/creating-a-team.md)
     * [Deleting A Team](organizations/organizing-members-into-teams/deleting-a-team.md)
     * [Disabling Team Discussions For Your Organization](organizations/organizing-members-into-teams/disabling-team-discussions-for-your-organization.md)
