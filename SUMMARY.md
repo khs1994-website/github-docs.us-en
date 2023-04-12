@@ -907,6 +907,7 @@
       * [About Code Scanning With Code QL](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning-with-codeql.md)
       * [About Code Scanning](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning.md)
       * [About The Tool Status Page For Code Scanning](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-the-tool-status-page.md)
+      * [Built In Code QL Query Suites](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/built-in-codeql-query-suites.md)
       * [Configuring Code Scanning At Scale Using Code QL](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning-at-scale.md)
       * [Configuring Code Scanning For A Repository](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning-for-a-repository.md)
       * [Configuring The Code QL Workflow For Compiled Languages](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-the-codeql-workflow-for-compiled-languages.md)
