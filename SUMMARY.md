@@ -565,17 +565,14 @@
   - User Management
     - Managing Organizations In Your Enterprise
       * [Adding Organizations To Your Enterprise](admin/user-management/managing-organizations-in-your-enterprise/adding-organizations-to-your-enterprise.md)
-      * [Adding People To Teams](admin/user-management/managing-organizations-in-your-enterprise/adding-people-to-teams.md)
       * [Best Practices For Structuring Organizations In Your Enterprise](admin/user-management/managing-organizations-in-your-enterprise/best-practices-for-structuring-organizations-in-your-enterprise.md)
       * [Configuring Visibility For Organization Membership](admin/user-management/managing-organizations-in-your-enterprise/configuring-visibility-for-organization-membership.md)
       * [Continuous Integration Using Jenkins](admin/user-management/managing-organizations-in-your-enterprise/continuous-integration-using-jenkins.md)
-      * [Creating Teams](admin/user-management/managing-organizations-in-your-enterprise/creating-teams.md)
       * [Managing Organizations In Your Enterprise](admin/user-management/managing-organizations-in-your-enterprise/index.md)
       * [Managing Projects Using Jira](admin/user-management/managing-organizations-in-your-enterprise/managing-projects-using-jira.md)
       * [Managing Your Role In An Organization Owned By Your Enterprise](admin/user-management/managing-organizations-in-your-enterprise/managing-your-role-in-an-organization-owned-by-your-enterprise.md)
       * [Preventing Users From Creating Organizations](admin/user-management/managing-organizations-in-your-enterprise/preventing-users-from-creating-organizations.md)
       * [Removing Organizations From Your Enterprise](admin/user-management/managing-organizations-in-your-enterprise/removing-organizations-from-your-enterprise.md)
-      * [Removing Users From Teams And Organizations](admin/user-management/managing-organizations-in-your-enterprise/removing-users-from-teams-and-organizations.md)
       * [Requiring Two Factor Authentication For An Organization](admin/user-management/managing-organizations-in-your-enterprise/requiring-two-factor-authentication-for-an-organization.md)
       * [Restoring A Deleted Organization](admin/user-management/managing-organizations-in-your-enterprise/restoring-a-deleted-organization.md)
     - Managing Repositories In Your Enterprise
@@ -843,7 +840,7 @@
     * [About Billing For Git Hub Accounts](billing/managing-billing-for-your-github-account/about-billing-for-github-accounts.md)
     * [About Billing For Your Enterprise](billing/managing-billing-for-your-github-account/about-billing-for-your-enterprise.md)
     * [About Per User Pricing](billing/managing-billing-for-your-github-account/about-per-user-pricing.md)
-    * [Connecting An Azure Subscription To Your Enterprise](billing/managing-billing-for-your-github-account/connecting-an-azure-subscription-to-your-enterprise.md)
+    * [Connecting An Azure Subscription](billing/managing-billing-for-your-github-account/connecting-an-azure-subscription.md)
     * [Discounted Subscriptions For Git Hub Accounts](billing/managing-billing-for-your-github-account/discounted-subscriptions-for-github-accounts.md)
     * [Downgrading Your Git Hub Subscription](billing/managing-billing-for-your-github-account/downgrading-your-github-subscription.md)
     * [How Does Upgrading Or Downgrading Affect The Billing Process](billing/managing-billing-for-your-github-account/how-does-upgrading-or-downgrading-affect-the-billing-process.md)
@@ -1663,6 +1660,7 @@
       * [Adding items to your {% data variables.projects.project_v2 %}](issues/planning-and-tracking-with-projects/managing-items-in-your-project/adding-items-to-your-project.md)
       * [Archiving items from your {% data variables.projects.project_v2 %}](issues/planning-and-tracking-with-projects/managing-items-in-your-project/archiving-items-from-your-project.md)
       * [Converting Draft Issues To Issues](issues/planning-and-tracking-with-projects/managing-items-in-your-project/converting-draft-issues-to-issues.md)
+      * [Editing items in your {% data variables.projects.project_v2 %}](issues/planning-and-tracking-with-projects/managing-items-in-your-project/editing-items-in-your-project.md)
       * [Managing items in your {% data variables.projects.project_v2 %}](issues/planning-and-tracking-with-projects/managing-items-in-your-project/index.md)
     - Managing Your Project
       * [Adding your {% data variables.projects.project_v2 %} to a repository](issues/planning-and-tracking-with-projects/managing-your-project/adding-your-project-to-a-repository.md)
@@ -2257,6 +2255,7 @@
     * [Dependency Review](rest/dependency-graph/dependency-review.md)
     * [Dependency Submission](rest/dependency-graph/dependency-submission.md)
     * [Dependency Graph](rest/dependency-graph/index.md)
+    * [Software Bill Of Materials SBOM](rest/dependency-graph/sboms.md)
   - Deployments
     * [Deployment Branch Policies](rest/deployments/branch-policies.md)
     * [Deployments](rest/deployments/index.md)
@@ -2332,6 +2331,7 @@
     * [Organizations](rest/orgs/orgs.md)
     * [Organization Members](rest/orgs/members.md)
     * [Outside Collaborators](rest/orgs/outside-collaborators.md)
+    * [Personal Access Tokens](rest/orgs/personal-access-tokens.md)
     * [Security Managers](rest/orgs/security-managers.md)
     * [Organization Webhooks](rest/orgs/webhooks.md)
   - Overview
@@ -2551,7 +2551,7 @@
 - Support
   - Contacting Github Support
     * [Creating A Support Ticket](support/contacting-github-support/creating-a-support-ticket.md)
-    * [Getting Started With The Git Hub Support Portal](support/contacting-github-support/getting-started-with-the-github-support-portal.md)
+    * [Getting Your Enterprise Started With The Git Hub Support Portal](support/contacting-github-support/getting-your-enterprise-started-with-the-github-support-portal.md)
     * [Contacting Git Hub Support](support/contacting-github-support/index.md)
     * [Providing Data To Git Hub Support](support/contacting-github-support/providing-data-to-github-support.md)
     * [Viewing And Updating Support Tickets](support/contacting-github-support/viewing-and-updating-support-tickets.md)
