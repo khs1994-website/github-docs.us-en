@@ -644,6 +644,7 @@
       * [Using The Git Hub API In Your App](apps/creating-github-apps/guides/using-the-github-api-in-your-app.md)
     * [Creating Git Hub Apps](apps/creating-github-apps/index.md)
   - Maintaining Github Apps
+    * [About Git Hub App Managers](apps/maintaining-github-apps/about-github-app-managers.md)
     * [Activating Optional Features For Apps](apps/maintaining-github-apps/activating-optional-features-for-apps.md)
     * [Deleting A Git Hub App](apps/maintaining-github-apps/deleting-a-github-app.md)
     * [Editing A Git Hub App S Permissions](apps/maintaining-github-apps/editing-a-github-apps-permissions.md)
@@ -1103,6 +1104,7 @@
     * [About Security Overview](code-security/security-overview/about-security-overview.md)
     * [Assessing Adoption Of Code Security Features](code-security/security-overview/assessing-adoption-code-security.md)
     * [Assessing Your Code Security Risk](code-security/security-overview/assessing-code-security-risk.md)
+    * [Enabling Security Features For Multiple Repositories](code-security/security-overview/enabling-security-features-for-multiple-repositories.md)
     * [Filtering Alerts In Security Overview](code-security/security-overview/filtering-alerts-in-security-overview.md)
     * [Viewing Security Alerts For Repositories In Your Organization](code-security/security-overview/index.md)
   - Supply Chain Security
@@ -1720,11 +1722,14 @@
       * [Using Git Hub Importer](migrations/importing-source-code/using-github-importer/index.md)
       * [Updating Commit Author Attribution With Git Hub Importer](migrations/importing-source-code/using-github-importer/updating-commit-author-attribution-with-github-importer.md)
     - Using The Command Line To Import Source Code
+      * [About Source Code Imports Using The Command Line](migrations/importing-source-code/using-the-command-line-to-import-source-code/about-source-code-imports-using-the-command-line.md)
       * [Adding Locally Hosted Code To Git Hub](migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github.md)
+      * [Importing A Mercurial Repository](migrations/importing-source-code/using-the-command-line-to-import-source-code/importing-a-mercurial-repository.md)
+      * [Importing A Subversion Repository](migrations/importing-source-code/using-the-command-line-to-import-source-code/importing-a-subversion-repository.md)
+      * [Importing A Team Foundation Version Control Repository](migrations/importing-source-code/using-the-command-line-to-import-source-code/importing-a-team-foundation-version-control-repository.md)
       * [Importing An External Git Repository Using The Command Line](migrations/importing-source-code/using-the-command-line-to-import-source-code/importing-an-external-git-repository-using-the-command-line.md)
       * [Importing From Other Version Control Systems With The Administrative Shell](migrations/importing-source-code/using-the-command-line-to-import-source-code/importing-from-other-version-control-systems-with-the-administrative-shell.md)
       * [Using The Command Line To Import Source Code](migrations/importing-source-code/using-the-command-line-to-import-source-code/index.md)
-      * [Source Code Migration Tools](migrations/importing-source-code/using-the-command-line-to-import-source-code/source-code-migration-tools.md)
     * [Importing Source Code](migrations/importing-source-code/index.md)
   - Overview
     * [About Git Hub S Migration Tooling](migrations/overview/about-githubs-migration-tooling.md)
@@ -1848,6 +1853,7 @@
     * [Managing Default Labels For Repositories In Your Organization](organizations/managing-organization-settings/managing-default-labels-for-repositories-in-your-organization.md)
     * [Managing Discussion Creation For Repositories In Your Organization](organizations/managing-organization-settings/managing-discussion-creation-for-repositories-in-your-organization.md)
     * [Managing Pull Request Reviews In Your Organization](organizations/managing-organization-settings/managing-pull-request-reviews-in-your-organization.md)
+    * [Managing Rulesets For Repositories In Your Organization](organizations/managing-organization-settings/managing-rulesets-for-repositories-in-your-organization.md)
     * [Managing Scheduled Reminders For Your Organization](organizations/managing-organization-settings/managing-scheduled-reminders-for-your-organization.md)
     * [Managing The Commit Signoff Policy For Your Organization](organizations/managing-organization-settings/managing-the-commit-signoff-policy-for-your-organization.md)
     * [Managing The Default Branch Name For Repositories In Your Organization](organizations/managing-organization-settings/managing-the-default-branch-name-for-repositories-in-your-organization.md)
@@ -1875,11 +1881,10 @@
     * [Removing A Billing Manager From Your Organization](organizations/managing-peoples-access-to-your-organization-with-roles/removing-a-billing-manager-from-your-organization.md)
     * [Roles In An Organization](organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization.md)
   - Managing Programmatic Access To Your Organization
-    * [Adding Git Hub App Managers In Your Organization](organizations/managing-programmatic-access-to-your-organization/adding-github-app-managers-in-your-organization.md)
+    * [Adding And Removing Git Hub App Managers In Your Organization](organizations/managing-programmatic-access-to-your-organization/adding-and-removing-github-app-managers-in-your-organization.md)
     * [Managing Programmatic Access To Your Organization](organizations/managing-programmatic-access-to-your-organization/index.md)
     * [Limiting O Auth App And Git Hub App Access Requests](organizations/managing-programmatic-access-to-your-organization/limiting-oauth-app-and-github-app-access-requests.md)
     * [Managing Requests For Personal Access Tokens In Your Organization](organizations/managing-programmatic-access-to-your-organization/managing-requests-for-personal-access-tokens-in-your-organization.md)
-    * [Removing Git Hub App Managers From Your Organization](organizations/managing-programmatic-access-to-your-organization/removing-github-app-managers-from-your-organization.md)
     * [Reviewing And Revoking Personal Access Tokens In Your Organization](organizations/managing-programmatic-access-to-your-organization/reviewing-and-revoking-personal-access-tokens-in-your-organization.md)
     * [Reviewing Git Hub Apps Installed In Your Organization](organizations/managing-programmatic-access-to-your-organization/reviewing-github-apps-installed-in-your-organization.md)
     * [Setting A Personal Access Token Policy For Your Organization](organizations/managing-programmatic-access-to-your-organization/setting-a-personal-access-token-policy-for-your-organization.md)
@@ -2084,17 +2089,22 @@
       * [Managing Auto Merge For Pull Requests In Your Repository](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-auto-merge-for-pull-requests-in-your-repository.md)
       * [Managing Suggestions To Update Pull Request Branches](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-suggestions-to-update-pull-request-branches.md)
       * [Managing The Automatic Deletion Of Branches](repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-the-automatic-deletion-of-branches.md)
-    - Defining The Mergeability Of Pull Requests
-      * [About Protected Branches](repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches.md)
-      * [Defining The Mergeability Of Pull Requests](repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/index.md)
-      * [Managing A Branch Protection Rule](repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule.md)
-      * [Troubleshooting Required Status Checks](repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/troubleshooting-required-status-checks.md)
     - Managing Branches In Your Repository
       * [Changing The Default Branch](repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/changing-the-default-branch.md)
       * [Deleting And Restoring Branches In A Pull Request](repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/deleting-and-restoring-branches-in-a-pull-request.md)
       * [Managing Branches In Your Repository](repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/index.md)
       * [Renaming A Branch](repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/renaming-a-branch.md)
       * [Viewing Branches In Your Repository](repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/viewing-branches-in-your-repository.md)
+    - Managing Protected Branches
+      * [About Protected Branches](repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches.md)
+      * [Managing Protected Branches](repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/index.md)
+      * [Managing A Branch Protection Rule](repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule.md)
+      * [Troubleshooting Required Status Checks](repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/troubleshooting-required-status-checks.md)
+    - Managing Rulesets
+      * [About Rulesets](repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets.md)
+      * [Available Rules For Rulesets](repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets.md)
+      * [Managing Rulesets For A Repository](repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/managing-rulesets-for-a-repository.md)
+      * [Troubleshooting Rules](repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/troubleshooting-rules.md)
     * [Configuring Branches And Merges In Your Repository](repositories/configuring-branches-and-merges-in-your-repository/index.md)
   - Creating And Managing Repositories
     * [About Repositories](repositories/creating-and-managing-repositories/about-repositories.md)
@@ -2332,6 +2342,7 @@
     * [Organization Members](rest/orgs/members.md)
     * [Outside Collaborators](rest/orgs/outside-collaborators.md)
     * [Personal Access Tokens](rest/orgs/personal-access-tokens.md)
+    * [Rules](rest/orgs/rules.md)
     * [Security Managers](rest/orgs/security-managers.md)
     * [Organization Webhooks](rest/orgs/webhooks.md)
   - Overview
@@ -2368,6 +2379,7 @@
     * [Forks](rest/repos/forks.md)
     * [Repositories](rest/repos/repos.md)
     * [Git LFS](rest/repos/lfs.md)
+    * [Rules](rest/repos/rules.md)
     * [Repository Tags](rest/repos/tags.md)
   - Security Advisories
     * [Security Advisories](rest/security-advisories/index.md)
