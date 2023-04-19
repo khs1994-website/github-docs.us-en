@@ -2270,6 +2270,7 @@
     * [Deployment Branch Policies](rest/deployments/branch-policies.md)
     * [Deployments](rest/deployments/index.md)
     * [Deployment Environments](rest/deployments/environments.md)
+    * [Protection Rules](rest/deployments/protection-rules.md)
     * [Deployment Statuses](rest/deployments/statuses.md)
   - Enterprise Admin
     * [Admin Stats](rest/enterprise-admin/admin-stats.md)
