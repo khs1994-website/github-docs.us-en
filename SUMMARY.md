@@ -140,6 +140,10 @@
     - Managing Your Deployments
       * [Managing Your Deployments](actions/deployment/managing-your-deployments/index.md)
       * [Viewing Deployment History](actions/deployment/managing-your-deployments/viewing-deployment-history.md)
+    - Protecting Deployments
+      * [Configuring Custom Deployment Protection Rules](actions/deployment/protecting-deployments/configuring-custom-deployment-protection-rules.md)
+      * [Creating Custom Deployment Protection Rules](actions/deployment/protecting-deployments/creating-custom-deployment-protection-rules.md)
+      * [Protecting Your Deployments With Custom Deployment Protection Rules](actions/deployment/protecting-deployments/index.md)
     - Security Hardening Your Deployments
       * [About Security Hardening With Open ID Connect](actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect.md)
       * [Configuring Open ID Connect In Amazon Web Services](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services.md)
