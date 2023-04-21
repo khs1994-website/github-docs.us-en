@@ -651,7 +651,6 @@
     * [About Git Hub App Managers](apps/maintaining-github-apps/about-github-app-managers.md)
     * [Activating Optional Features For Apps](apps/maintaining-github-apps/activating-optional-features-for-apps.md)
     * [Deleting A Git Hub App](apps/maintaining-github-apps/deleting-a-github-app.md)
-    * [Editing A Git Hub App S Permissions](apps/maintaining-github-apps/editing-a-github-apps-permissions.md)
     * [Maintaining {% data variables.product.prodname_github_apps %}](apps/maintaining-github-apps/index.md)
     * [Installing Git Hub Apps](apps/maintaining-github-apps/installing-github-apps.md)
     * [Managing Allowed IP Addresses For A Git Hub App](apps/maintaining-github-apps/managing-allowed-ip-addresses-for-a-github-app.md)
