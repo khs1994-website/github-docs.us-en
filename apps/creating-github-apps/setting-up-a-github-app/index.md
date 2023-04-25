@@ -1,5 +1,5 @@
 ---
-title: 'Creating {% data variables.product.prodname_github_apps %}'
+title: 'Setting up a {% data variables.product.prodname_github_app %}'
 intro: 'Learn about building {% data variables.product.prodname_github_apps %}.'
 versions:
   fpt: '*'
@@ -8,10 +8,11 @@ versions:
   ghec: '*'
 redirect_from:
   - /apps/building-github-apps
+  - /apps/creating-github-apps/creating-github-apps
 topics:
   - GitHub Apps
 children:
-  - /about-apps
+  - /about-creating-github-apps
   - /differences-between-github-apps-and-oauth-apps
   - /rate-limits-for-github-apps
   - /creating-a-github-app
