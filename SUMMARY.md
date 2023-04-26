@@ -1440,6 +1440,7 @@
       * [View Autograding Results](education/manage-coursework-with-github-classroom/learn-with-github-classroom/view-autograding-results.md)
       * [Viewing Your Assignment S Deadline](education/manage-coursework-with-github-classroom/learn-with-github-classroom/viewing-your-assignments-deadline.md)
     - Teach With Github Classroom
+      * [About Assignments](education/manage-coursework-with-github-classroom/teach-with-github-classroom/about-assignments.md)
       * [Connect A Learning Management System Course To A Classroom](education/manage-coursework-with-github-classroom/teach-with-github-classroom/connect-a-learning-management-system-course-to-a-classroom.md)
       * [Create A Group Assignment](education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-a-group-assignment.md)
       * [Create An Assignment From A Template Repository](education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-assignment-from-a-template-repository.md)
