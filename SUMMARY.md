@@ -640,6 +640,7 @@
       * [Building A Login With Git Hub Button With A Git Hub App](apps/creating-github-apps/guides/building-a-login-with-github-button-with-a-github-app.md)
       * [Creating CI Tests With The Checks API](apps/creating-github-apps/guides/creating-ci-tests-with-the-checks-api.md)
       * [Guides](apps/creating-github-apps/guides/index.md)
+      * [Making Authenticated API Requests With A Git Hub App In A Git Hub Actions Workflow](apps/creating-github-apps/guides/making-authenticated-api-requests-with-a-github-app-in-a-github-actions-workflow.md)
       * [Migrating O Auth Apps To Git Hub Apps](apps/creating-github-apps/guides/migrating-oauth-apps-to-github-apps.md)
       * [Setting Up Your Development Environment To Create A Git Hub App](apps/creating-github-apps/guides/setting-up-your-development-environment-to-create-a-github-app.md)
       * [Using The Git Hub API In Your App](apps/creating-github-apps/guides/using-the-github-api-in-your-app.md)
@@ -651,7 +652,6 @@
       * [Creating A Git Hub App From A Manifest](apps/creating-github-apps/setting-up-a-github-app/creating-a-github-app-from-a-manifest.md)
       * [Creating A Git Hub App Using URL Parameters](apps/creating-github-apps/setting-up-a-github-app/creating-a-github-app-using-url-parameters.md)
       * [Creating A Git Hub App](apps/creating-github-apps/setting-up-a-github-app/creating-a-github-app.md)
-      * [Differences Between Git Hub Apps And O Auth Apps](apps/creating-github-apps/setting-up-a-github-app/differences-between-github-apps-and-oauth-apps.md)
       * [Setting up a {% data variables.product.prodname_github_app %}](apps/creating-github-apps/setting-up-a-github-app/index.md)
       * [Making A Git Hub App Public Or Private](apps/creating-github-apps/setting-up-a-github-app/making-a-github-app-public-or-private.md)
       * [Rate Limits For Git Hub Apps](apps/creating-github-apps/setting-up-a-github-app/rate-limits-for-github-apps.md)
@@ -673,6 +673,7 @@
       * [Authorizing O Auth Apps](apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps.md)
       * [Creating A Custom Badge For Your O Auth App](apps/oauth-apps/building-oauth-apps/creating-a-custom-badge-for-your-oauth-app.md)
       * [Creating An O Auth App](apps/oauth-apps/building-oauth-apps/creating-an-oauth-app.md)
+      * [Differences Between Git Hub Apps And O Auth Apps](apps/oauth-apps/building-oauth-apps/differences-between-github-apps-and-oauth-apps.md)
       * [Building O Auth Apps](apps/oauth-apps/building-oauth-apps/index.md)
       * [Rate Limits For O Auth Apps](apps/oauth-apps/building-oauth-apps/rate-limits-for-oauth-apps.md)
       * [Scopes For O Auth Apps](apps/oauth-apps/building-oauth-apps/scopes-for-oauth-apps.md)
@@ -723,12 +724,13 @@
       * [Webhook Events For The Git Hub Marketplace API](apps/publishing-apps-to-github-marketplace/using-the-github-marketplace-api-in-your-app/webhook-events-for-the-github-marketplace-api.md)
     * [Git Hub Marketplace](apps/publishing-apps-to-github-marketplace/index.md)
   - Using Github Apps
+    * [About Using Git Hub Apps](apps/using-github-apps/about-using-github-apps.md)
     * [Authorizing Git Hub Apps](apps/using-github-apps/authorizing-github-apps.md)
     * [Connecting With Third Party Applications](apps/using-github-apps/connecting-with-third-party-applications.md)
     * [Using Git Hub Apps](apps/using-github-apps/index.md)
     * [Installing An App In Your Organization](apps/using-github-apps/installing-an-app-in-your-organization.md)
     * [Installing An App In Your Personal Account](apps/using-github-apps/installing-an-app-in-your-personal-account.md)
-    * [Reviewing Your Authorized Integrations](apps/using-github-apps/reviewing-your-authorized-integrations.md)
+    * [Reviewing And Revoking Authorization Of Git Hub Apps](apps/using-github-apps/reviewing-and-revoking-authorization-of-github-apps.md)
   * [Git Hub Apps Documentation](apps/index.md)
 - Authentication
   - Authenticating With Saml Single Sign On
@@ -760,6 +762,7 @@
     * [Reviewing Your Deploy Keys](authentication/keeping-your-account-and-data-secure/reviewing-your-deploy-keys.md)
     * [Reviewing Your Security Log](authentication/keeping-your-account-and-data-secure/reviewing-your-security-log.md)
     * [Reviewing Your SSH Keys](authentication/keeping-your-account-and-data-secure/reviewing-your-ssh-keys.md)
+    * [Security Log Events](authentication/keeping-your-account-and-data-secure/security-log-events.md)
     * [Sudo Mode](authentication/keeping-your-account-and-data-secure/sudo-mode.md)
     * [Token Expiration And Revocation](authentication/keeping-your-account-and-data-secure/token-expiration-and-revocation.md)
     * [Updating Your Git Hub Access Credentials](authentication/keeping-your-account-and-data-secure/updating-your-github-access-credentials.md)
@@ -1812,6 +1815,7 @@
   - Keeping Your Organization Secure
     - Managing Security Settings For Your Organization
       * [Accessing Compliance Reports For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/accessing-compliance-reports-for-your-organization.md)
+      * [Audit Log Events For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/audit-log-events-for-your-organization.md)
       * [Displaying IP Addresses In The Audit Log For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/displaying-ip-addresses-in-the-audit-log-for-your-organization.md)
       * [Managing Security Settings For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/index.md)
       * [Managing Allowed IP Addresses For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/managing-allowed-ip-addresses-for-your-organization.md)
