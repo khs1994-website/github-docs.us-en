@@ -1049,6 +1049,7 @@
       * [Configuring Dependabot Alerts](code-security/dependabot/dependabot-alerts/configuring-dependabot-alerts.md)
       * [Configuring Notifications For Dependabot Alerts](code-security/dependabot/dependabot-alerts/configuring-notifications-for-dependabot-alerts.md)
       * [Identifying Vulnerabilities In Your Project S Dependencies With Dependabot Alerts](code-security/dependabot/dependabot-alerts/index.md)
+      * [Using Alert Rules To Prioritize Dependabot Alerts](code-security/dependabot/dependabot-alerts/using-alert-rules-to-prioritize-dependabot-alerts.md)
       * [Viewing And Updating Dependabot Alerts](code-security/dependabot/dependabot-alerts/viewing-and-updating-dependabot-alerts.md)
     - Dependabot Security Updates
       * [About Dependabot Security Updates](code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates.md)
