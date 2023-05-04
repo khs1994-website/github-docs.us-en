@@ -732,6 +732,7 @@
     * [Installing An App In Your Personal Account](apps/using-github-apps/installing-an-app-in-your-personal-account.md)
     * [Reviewing And Revoking Authorization Of Git Hub Apps](apps/using-github-apps/reviewing-and-revoking-authorization-of-github-apps.md)
   * [Git Hub Apps Documentation](apps/index.md)
+  * [Git Hub Apps Overview](apps/overview.md)
 - Authentication
   - Authenticating With Saml Single Sign On
     * [About Authentication With SAML Single Sign On](authentication/authenticating-with-saml-single-sign-on/about-authentication-with-saml-single-sign-on.md)
