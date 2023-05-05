@@ -659,7 +659,7 @@
     * [Creating Git Hub Apps](apps/creating-github-apps/index.md)
   - Maintaining Github Apps
     * [About Git Hub App Managers](apps/maintaining-github-apps/about-github-app-managers.md)
-    * [Activating Optional Features For Apps](apps/maintaining-github-apps/activating-optional-features-for-apps.md)
+    * [Activating Optional Features For Git Hub Apps](apps/maintaining-github-apps/activating-optional-features-for-github-apps.md)
     * [Deleting A Git Hub App](apps/maintaining-github-apps/deleting-a-github-app.md)
     * [Maintaining {% data variables.product.prodname_github_apps %}](apps/maintaining-github-apps/index.md)
     * [Installing Git Hub Apps](apps/maintaining-github-apps/installing-github-apps.md)
@@ -678,6 +678,7 @@
       * [Rate Limits For O Auth Apps](apps/oauth-apps/building-oauth-apps/rate-limits-for-oauth-apps.md)
       * [Scopes For O Auth Apps](apps/oauth-apps/building-oauth-apps/scopes-for-oauth-apps.md)
     - Maintaining Oauth Apps
+      * [Activating Optional Features For O Auth Apps](apps/oauth-apps/maintaining-oauth-apps/activating-optional-features-for-oauth-apps.md)
       * [Deleting An O Auth App](apps/oauth-apps/maintaining-oauth-apps/deleting-an-oauth-app.md)
       * [Maintaining O Auth Apps](apps/oauth-apps/maintaining-oauth-apps/index.md)
       * [Modifying An O Auth App](apps/oauth-apps/maintaining-oauth-apps/modifying-an-oauth-app.md)
@@ -687,6 +688,8 @@
     - Using Oauth Apps
       * [Authorizing O Auth Apps](apps/oauth-apps/using-oauth-apps/authorizing-oauth-apps.md)
       * [Using O Auth Apps](apps/oauth-apps/using-oauth-apps/index.md)
+      * [Installing An O Auth App In Your Organization](apps/oauth-apps/using-oauth-apps/installing-an-oauth-app-in-your-organization.md)
+      * [Installing An O Auth App In Your Personal Account](apps/oauth-apps/using-oauth-apps/installing-an-oauth-app-in-your-personal-account.md)
       * [Reviewing Your Authorized Applications O Auth](apps/oauth-apps/using-oauth-apps/reviewing-your-authorized-applications-oauth.md)
     * [O Auth Apps](apps/oauth-apps/index.md)
   - Publishing Apps To Github Marketplace
@@ -725,11 +728,12 @@
     * [Git Hub Marketplace](apps/publishing-apps-to-github-marketplace/index.md)
   - Using Github Apps
     * [About Using Git Hub Apps](apps/using-github-apps/about-using-github-apps.md)
+    * [Approving Updated Permissions For A Git Hub App](apps/using-github-apps/approving-updated-permissions-for-a-github-app.md)
     * [Authorizing Git Hub Apps](apps/using-github-apps/authorizing-github-apps.md)
     * [Connecting With Third Party Applications](apps/using-github-apps/connecting-with-third-party-applications.md)
     * [Using Git Hub Apps](apps/using-github-apps/index.md)
-    * [Installing An App In Your Organization](apps/using-github-apps/installing-an-app-in-your-organization.md)
-    * [Installing An App In Your Personal Account](apps/using-github-apps/installing-an-app-in-your-personal-account.md)
+    * [Installing A Git Hub App In Your Organization](apps/using-github-apps/installing-a-github-app-in-your-organization.md)
+    * [Installing A Git Hub App In Your Personal Account](apps/using-github-apps/installing-a-github-app-in-your-personal-account.md)
     * [Reviewing And Revoking Authorization Of Git Hub Apps](apps/using-github-apps/reviewing-and-revoking-authorization-of-github-apps.md)
   * [Git Hub Apps Documentation](apps/index.md)
   * [Git Hub Apps Overview](apps/overview.md)
@@ -1754,7 +1758,7 @@
     * [Importing Source Code](migrations/importing-source-code/index.md)
   - Overview
     * [About Git Hub S Migration Tooling](migrations/overview/about-githubs-migration-tooling.md)
-    * [Index](migrations/overview/index.md)
+    * [Overview](migrations/overview/index.md)
     * [Planning Your Migration To Git Hub](migrations/overview/planning-your-migration-to-github.md)
   - Using Ghe Migrator
     * [About Ghe Migrator](migrations/using-ghe-migrator/about-ghe-migrator.md)
