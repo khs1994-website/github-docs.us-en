@@ -637,6 +637,7 @@
       * [Refreshing User Access Tokens](apps/creating-github-apps/authenticating-with-a-github-app/refreshing-user-access-tokens.md)
     - Guides
       * [Building A CLI With A Git Hub App](apps/creating-github-apps/guides/building-a-cli-with-a-github-app.md)
+      * [Building A Git Hub App That Responds To Webhook Events](apps/creating-github-apps/guides/building-a-github-app-that-responds-to-webhook-events.md)
       * [Building A Login With Git Hub Button With A Git Hub App](apps/creating-github-apps/guides/building-a-login-with-github-button-with-a-github-app.md)
       * [Creating CI Tests With The Checks API](apps/creating-github-apps/guides/creating-ci-tests-with-the-checks-api.md)
       * [Guides](apps/creating-github-apps/guides/index.md)
@@ -2208,7 +2209,6 @@
       * [Editing Files](repositories/working-with-files/managing-files/editing-files.md)
       * [Managing Files](repositories/working-with-files/managing-files/index.md)
       * [Moving A File To A New Location](repositories/working-with-files/managing-files/moving-a-file-to-a-new-location.md)
-      * [Navigating Files With The New Code View Beta](repositories/working-with-files/managing-files/navigating-files-with-the-new-code-view.md)
       * [Renaming A File](repositories/working-with-files/managing-files/renaming-a-file.md)
     - Managing Large Files
       * [About Git Large File Storage](repositories/working-with-files/managing-large-files/about-git-large-file-storage.md)
@@ -2463,10 +2463,10 @@
     * [Troubleshooting Search Queries](search-github/getting-started-with-searching-on-github/troubleshooting-search-queries.md)
     * [Understanding The Search Syntax](search-github/getting-started-with-searching-on-github/understanding-the-search-syntax.md)
   - Github Code Search
-    * [About Git Hub Code Search Beta](search-github/github-code-search/about-github-code-search.md)
-    * [Git Hub Code Search Beta](search-github/github-code-search/index.md)
-    * [Understanding Git Hub Code Search Beta Syntax](search-github/github-code-search/understanding-github-code-search-syntax.md)
-    * [Using Git Hub Code Search Beta](search-github/github-code-search/using-github-code-search.md)
+    * [About Git Hub Code Search](search-github/github-code-search/about-github-code-search.md)
+    * [Git Hub Code Search](search-github/github-code-search/index.md)
+    * [Understanding Git Hub Code Search Syntax](search-github/github-code-search/understanding-github-code-search-syntax.md)
+    * [Using Git Hub Code Search](search-github/github-code-search/using-github-code-search.md)
   - Searching On Github
     * [Finding Files On Git Hub](search-github/searching-on-github/finding-files-on-github.md)
     * [Searching On Git Hub](search-github/searching-on-github/index.md)
