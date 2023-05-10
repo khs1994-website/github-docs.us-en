@@ -312,6 +312,7 @@
       * [Managing Git Hub Advanced Security Features For Your Enterprise](admin/code-security/managing-github-advanced-security-for-your-enterprise/managing-github-advanced-security-features-for-your-enterprise.md)
     - Managing Supply Chain Security For Your Enterprise
       * [About Supply Chain Security For Your Enterprise](admin/code-security/managing-supply-chain-security-for-your-enterprise/about-supply-chain-security-for-your-enterprise.md)
+      * [Configuring Dependabot To Work With Limited Internet Access](admin/code-security/managing-supply-chain-security-for-your-enterprise/configuring-dependabot-to-work-with-limited-internet-access.md)
       * [Enabling The Dependency Graph For Your Enterprise](admin/code-security/managing-supply-chain-security-for-your-enterprise/enabling-the-dependency-graph-for-your-enterprise.md)
       * [Managing Supply Chain Security For Your Enterprise](admin/code-security/managing-supply-chain-security-for-your-enterprise/index.md)
       * [Viewing The Vulnerability Data For Your Enterprise](admin/code-security/managing-supply-chain-security-for-your-enterprise/viewing-the-vulnerability-data-for-your-enterprise.md)
@@ -1696,6 +1697,7 @@
       * [Closing and deleting your {% data variables.projects.projects_v2 %}](issues/planning-and-tracking-with-projects/managing-your-project/closing-and-deleting-your-projects.md)
       * [Managing your {% data variables.projects.project_v2 %}](issues/planning-and-tracking-with-projects/managing-your-project/index.md)
       * [Managing access to your {% data variables.projects.projects_v2 %}](issues/planning-and-tracking-with-projects/managing-your-project/managing-access-to-your-projects.md)
+      * [Managing {% data variables.projects.project_v2 %} templates in your organization](issues/planning-and-tracking-with-projects/managing-your-project/managing-project-templates-in-your-organization.md)
       * [Managing visibility of your {% data variables.projects.projects_v2 %}](issues/planning-and-tracking-with-projects/managing-your-project/managing-visibility-of-your-projects.md)
     - Understanding Fields
       * [About Date Fields](issues/planning-and-tracking-with-projects/understanding-fields/about-date-fields.md)
@@ -2605,6 +2607,7 @@
 - Video Transcripts
   * [Video Transcripts](video-transcripts/index.md)
   * [Transcript Codespaces Your Instant Dev Box In The Cloud](video-transcripts/transcript-codespaces-your-instant-dev-box-in-the-cloud.md)
+  * [Transcript Using Projects For Feature Planning](video-transcripts/transcript-using-projects-for-feature-planning.md)
 - Webhooks And Events
   - Events
     * [Git Hub Event Types](webhooks-and-events/events/github-event-types.md)
