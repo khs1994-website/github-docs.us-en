@@ -1911,6 +1911,7 @@
     * [Removing A Billing Manager From Your Organization](organizations/managing-peoples-access-to-your-organization-with-roles/removing-a-billing-manager-from-your-organization.md)
     * [Roles In An Organization](organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization.md)
   - Managing Programmatic Access To Your Organization
+    * [About Programmatic Access In Your Organization](organizations/managing-programmatic-access-to-your-organization/about-programmatic-access-in-your-organization.md)
     * [Adding And Removing Git Hub App Managers In Your Organization](organizations/managing-programmatic-access-to-your-organization/adding-and-removing-github-app-managers-in-your-organization.md)
     * [Managing Programmatic Access To Your Organization](organizations/managing-programmatic-access-to-your-organization/index.md)
     * [Limiting O Auth App And Git Hub App Access Requests](organizations/managing-programmatic-access-to-your-organization/limiting-oauth-app-and-github-app-access-requests.md)
