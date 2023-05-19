@@ -1463,6 +1463,7 @@
       * [Teach With Git Hub Classroom](education/manage-coursework-with-github-classroom/teach-with-github-classroom/index.md)
       * [Leave Feedback With Pull Requests](education/manage-coursework-with-github-classroom/teach-with-github-classroom/leave-feedback-with-pull-requests.md)
       * [Manage Classrooms](education/manage-coursework-with-github-classroom/teach-with-github-classroom/manage-classrooms.md)
+      * [Monitor Students Progress With The Assignment Overview Page](education/manage-coursework-with-github-classroom/teach-with-github-classroom/monitor-students-progress-with-the-assignment-overview-page.md)
       * [Register A Learning Management System With Git Hub Classroom](education/manage-coursework-with-github-classroom/teach-with-github-classroom/register-a-learning-management-system-with-github-classroom.md)
       * [Reuse An Assignment](education/manage-coursework-with-github-classroom/teach-with-github-classroom/reuse-an-assignment.md)
       * [Use Autograding](education/manage-coursework-with-github-classroom/teach-with-github-classroom/use-autograding.md)
