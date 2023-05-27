@@ -2023,6 +2023,7 @@
     * [Configuring A Publishing Source For Your Git Hub Pages Site](pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site.md)
     * [Creating A Custom 404 Page For Your Git Hub Pages Site](pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site.md)
     * [Creating A Git Hub Pages Site](pages/getting-started-with-github-pages/creating-a-github-pages-site.md)
+    * [Deleting A Git Hub Pages Site](pages/getting-started-with-github-pages/deleting-a-github-pages-site.md)
     * [Getting Started With Git Hub Pages](pages/getting-started-with-github-pages/index.md)
     * [Securing Your Git Hub Pages Site With HTTPS](pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https.md)
     * [Unpublishing A Git Hub Pages Site](pages/getting-started-with-github-pages/unpublishing-a-github-pages-site.md)
