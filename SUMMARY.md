@@ -1022,6 +1022,7 @@
       * [Query Format](code-security/codeql-cli/codeql-cli-manual/query-format.md)
       * [Query Run](code-security/codeql-cli/codeql-cli-manual/query-run.md)
       * [Resolve Database](code-security/codeql-cli/codeql-cli-manual/resolve-database.md)
+      * [Resolve Extensions By Pack](code-security/codeql-cli/codeql-cli-manual/resolve-extensions-by-pack.md)
       * [Resolve Extensions](code-security/codeql-cli/codeql-cli-manual/resolve-extensions.md)
       * [Resolve Extractor](code-security/codeql-cli/codeql-cli-manual/resolve-extractor.md)
       * [Resolve Files](code-security/codeql-cli/codeql-cli-manual/resolve-files.md)
@@ -1565,6 +1566,7 @@
     * [Splitting A Subfolder Out Into A New Repository](get-started/using-git/splitting-a-subfolder-out-into-a-new-repository.md)
     * [Using Git Rebase On The Command Line](get-started/using-git/using-git-rebase-on-the-command-line.md)
   - Using Github
+    * [Allowing Access To Git Hub S Services From A Restricted Network](get-started/using-github/allowing-access-to-githubs-services-from-a-restricted-network.md)
     * [Exploring Early Access Releases With Feature Preview](get-started/using-github/exploring-early-access-releases-with-feature-preview.md)
     * [Git Hub CLI](get-started/using-github/github-cli.md)
     * [Git Hub Command Palette](get-started/using-github/github-command-palette.md)
@@ -2215,8 +2217,9 @@
     * [Analyzing Changes To A Repository S Content](repositories/viewing-activity-and-data-for-your-repository/analyzing-changes-to-a-repositorys-content.md)
     * [Viewing Activity And Data For Your Repository](repositories/viewing-activity-and-data-for-your-repository/index.md)
     * [Understanding Connections Between Repositories](repositories/viewing-activity-and-data-for-your-repository/understanding-connections-between-repositories.md)
+    * [Using Pulse To View A Summary Of Repository Activity](repositories/viewing-activity-and-data-for-your-repository/using-pulse-to-view-a-summary-of-repository-activity.md)
+    * [Using The Activity View To See Changes To A Repository](repositories/viewing-activity-and-data-for-your-repository/using-the-activity-view-to-see-changes-to-a-repository.md)
     * [Viewing A Project S Contributors](repositories/viewing-activity-and-data-for-your-repository/viewing-a-projects-contributors.md)
-    * [Viewing A Summary Of Repository Activity](repositories/viewing-activity-and-data-for-your-repository/viewing-a-summary-of-repository-activity.md)
     * [Viewing Deployment Activity For Your Repository](repositories/viewing-activity-and-data-for-your-repository/viewing-deployment-activity-for-your-repository.md)
     * [Viewing Traffic To A Repository](repositories/viewing-activity-and-data-for-your-repository/viewing-traffic-to-a-repository.md)
   - Working With Files
