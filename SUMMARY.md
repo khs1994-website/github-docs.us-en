@@ -677,6 +677,7 @@
     - Building Oauth Apps
       * [Authenticating To The REST API With An O Auth App](apps/oauth-apps/building-oauth-apps/authenticating-to-the-rest-api-with-an-oauth-app.md)
       * [Authorizing O Auth Apps](apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps.md)
+      * [Best Practices For Creating An O Auth App](apps/oauth-apps/building-oauth-apps/best-practices-for-creating-an-oauth-app.md)
       * [Creating A Custom Badge For Your O Auth App](apps/oauth-apps/building-oauth-apps/creating-a-custom-badge-for-your-oauth-app.md)
       * [Creating An O Auth App](apps/oauth-apps/building-oauth-apps/creating-an-oauth-app.md)
       * [Differences Between Git Hub Apps And O Auth Apps](apps/oauth-apps/building-oauth-apps/differences-between-github-apps-and-oauth-apps.md)
