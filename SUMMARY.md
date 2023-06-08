@@ -709,7 +709,7 @@
       * [Viewing Metrics For Your Listing](apps/publishing-apps-to-github-marketplace/creating-apps-for-github-marketplace/viewing-metrics-for-your-listing.md)
       * [Viewing Transactions For Your Listing](apps/publishing-apps-to-github-marketplace/creating-apps-for-github-marketplace/viewing-transactions-for-your-listing.md)
     - Github Marketplace Overview
-      * [About Git Hub Marketplace](apps/publishing-apps-to-github-marketplace/github-marketplace-overview/about-github-marketplace.md)
+      * [About Git Hub Marketplace For Apps](apps/publishing-apps-to-github-marketplace/github-marketplace-overview/about-github-marketplace-for-apps.md)
       * [About Marketplace Badges](apps/publishing-apps-to-github-marketplace/github-marketplace-overview/about-marketplace-badges.md)
       * [Applying For Publisher Verification For Your Organization](apps/publishing-apps-to-github-marketplace/github-marketplace-overview/applying-for-publisher-verification-for-your-organization.md)
       * [Git Hub Marketplace Overview](apps/publishing-apps-to-github-marketplace/github-marketplace-overview/index.md)
@@ -1492,10 +1492,10 @@
   * [Quickstart For Git Hub Educators](education/quickstart.md)
 - Get Started
   - Exploring Integrations
-    * [About Git Hub Marketplace](get-started/exploring-integrations/about-github-marketplace.md)
-    * [About Integrations](get-started/exploring-integrations/about-integrations.md)
+    * [About Building Integrations](get-started/exploring-integrations/about-building-integrations.md)
+    * [About Using Integrations](get-started/exploring-integrations/about-using-integrations.md)
+    * [Featured Git Hub Integrations](get-started/exploring-integrations/featured-github-integrations.md)
     * [Git Hub Developer Program](get-started/exploring-integrations/github-developer-program.md)
-    * [Git Hub Extensions And Integrations](get-started/exploring-integrations/github-extensions-and-integrations.md)
     * [Exploring Integrations](get-started/exploring-integrations/index.md)
   - Exploring Projects On Github
     * [Finding Ways To Contribute To Open Source On Git Hub](get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github.md)
