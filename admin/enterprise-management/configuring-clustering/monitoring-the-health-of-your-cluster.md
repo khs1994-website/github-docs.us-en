@@ -1,10 +1,13 @@
 ---
-title: Monitoring cluster nodes
-intro: 'A {% data variables.product.prodname_ghe_server %} cluster is comprised of redundant services that are distributed across two or more nodes. If an individual service or an entire node were to fail, it should not be immediately apparent to users of the cluster. However since performance and redundancy are affected, it is important to monitor the health of a {% data variables.product.prodname_ghe_server %} cluster.'
+title: Monitoring the health of your cluster
+shortTitle: Monitor cluster health
+intro: "To ensure the performance and redundancy of a {% data variables.product.product_name %} cluster, you can monitor the cluster's health."
+product: '{% data reusables.gated-features.cluster %}'
 redirect_from:
   - /enterprise/admin/clustering/monitoring-cluster-nodes
   - /enterprise/admin/enterprise-management/monitoring-cluster-nodes
   - /admin/enterprise-management/monitoring-cluster-nodes
+  - /admin/enterprise-management/configuring-clustering/monitoring-cluster-nodes
 versions:
   ghes: '*'
 type: how_to
@@ -17,11 +20,15 @@ topics:
   - Performance
 ---
 
-## About monitoring the health of your cluster
+## About {% data variables.product.product_name %} cluster health
 
-{% data reusables.enterprise_clustering.clustering-scale-recommendation %}
+A {% data variables.product.product_name %} cluster comprises multiple nodes, with redundant services distributed across two or more nodes. If an individual service or an entire node fails, users should not notice. Failures affect performance and redundancy, so it's important to monitor the health of your cluster. You can monitor the health of your cluster using a command-line utility or an external monitoring tool like Nagios.
 
-You can monitor the health of your entire {% data variables.product.prodname_ghe_server %} cluster using a command-line utility or an external monitoring tool like Nagios.
+{% ifversion node-eligibility-service %}
+
+You can also monitor the health of individual nodes using {% data variables.product.prodname_nes %}. For more information, see "[AUTOTITLE](/admin/enterprise-management/configuring-clustering/monitoring-the-health-of-your-cluster-nodes-with-node-eligibility-service)."
+
+{% endif %}
 
 ## Manually checking cluster status
 
