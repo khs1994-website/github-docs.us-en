@@ -596,12 +596,14 @@
       * [Requiring Two Factor Authentication For An Organization](admin/user-management/managing-organizations-in-your-enterprise/requiring-two-factor-authentication-for-an-organization.md)
       * [Restoring A Deleted Organization](admin/user-management/managing-organizations-in-your-enterprise/restoring-a-deleted-organization.md)
     - Managing Repositories In Your Enterprise
+      * [Accessing User Owned Repositories In Your Enterprise](admin/user-management/managing-repositories-in-your-enterprise/accessing-user-owned-repositories-in-your-enterprise.md)
       * [Configuring Git Large File Storage For Your Enterprise](admin/user-management/managing-repositories-in-your-enterprise/configuring-git-large-file-storage-for-your-enterprise.md)
       * [Disabling Git SSH Access On Your Enterprise](admin/user-management/managing-repositories-in-your-enterprise/disabling-git-ssh-access-on-your-enterprise.md)
       * [Managing Repositories In Your Enterprise](admin/user-management/managing-repositories-in-your-enterprise/index.md)
       * [Migrating To Internal Repositories](admin/user-management/managing-repositories-in-your-enterprise/migrating-to-internal-repositories.md)
       * [Restoring A Deleted Repository](admin/user-management/managing-repositories-in-your-enterprise/restoring-a-deleted-repository.md)
       * [Troubleshooting Service Hooks](admin/user-management/managing-repositories-in-your-enterprise/troubleshooting-service-hooks.md)
+      * [Viewing User Owned Repositories In Your Enterprise](admin/user-management/managing-repositories-in-your-enterprise/viewing-user-owned-repositories-in-your-enterprise.md)
     - Managing Users In Your Enterprise
       * [Auditing SSH Keys](admin/user-management/managing-users-in-your-enterprise/auditing-ssh-keys.md)
       * [Auditing Users Across Your Enterprise](admin/user-management/managing-users-in-your-enterprise/auditing-users-across-your-enterprise.md)
