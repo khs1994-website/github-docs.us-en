@@ -720,6 +720,7 @@
       * [Git Hub Marketplace Overview](apps/publishing-apps-to-github-marketplace/github-marketplace-overview/index.md)
     - Listing An App On Github Marketplace
       * [Configuring A Webhook To Notify You Of Plan Changes](apps/publishing-apps-to-github-marketplace/listing-an-app-on-github-marketplace/configuring-a-webhook-to-notify-you-of-plan-changes.md)
+      * [Deleting Your Git Hub App Listing From Git Hub Marketplace](apps/publishing-apps-to-github-marketplace/listing-an-app-on-github-marketplace/deleting-your-github-app-listing-from-github-marketplace.md)
       * [Drafting A Listing For Your App](apps/publishing-apps-to-github-marketplace/listing-an-app-on-github-marketplace/drafting-a-listing-for-your-app.md)
       * [Listing An App On Git Hub Marketplace](apps/publishing-apps-to-github-marketplace/listing-an-app-on-github-marketplace/index.md)
       * [Setting Pricing Plans For Your Listing](apps/publishing-apps-to-github-marketplace/listing-an-app-on-github-marketplace/setting-pricing-plans-for-your-listing.md)
