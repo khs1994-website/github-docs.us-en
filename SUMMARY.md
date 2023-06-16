@@ -852,6 +852,7 @@
     * [About Billing For Git Hub Advanced Security](billing/managing-billing-for-github-advanced-security/about-billing-for-github-advanced-security.md)
     * [Managing Billing For Git Hub Advanced Security](billing/managing-billing-for-github-advanced-security/index.md)
     * [Managing Your Git Hub Advanced Security Licensing](billing/managing-billing-for-github-advanced-security/managing-your-github-advanced-security-licensing.md)
+    * [Setting Up A Trial Of Git Hub Advanced Security](billing/managing-billing-for-github-advanced-security/setting-up-a-trial-of-github-advanced-security.md)
     * [Signing Up For Git Hub Advanced Security](billing/managing-billing-for-github-advanced-security/signing-up-for-github-advanced-security.md)
     * [Viewing Committer Information For Git Hub Advanced Security](billing/managing-billing-for-github-advanced-security/viewing-committer-information-for-github-advanced-security.md)
     * [Viewing Your Git Hub Advanced Security Usage](billing/managing-billing-for-github-advanced-security/viewing-your-github-advanced-security-usage.md)
@@ -1229,6 +1230,7 @@
     * [Restricting Access To Machine Types](codespaces/managing-codespaces-for-your-organization/restricting-access-to-machine-types.md)
     * [Restricting The Base Image For Codespaces](codespaces/managing-codespaces-for-your-organization/restricting-the-base-image-for-codespaces.md)
     * [Restricting The Idle Timeout Period](codespaces/managing-codespaces-for-your-organization/restricting-the-idle-timeout-period.md)
+    * [Restricting The Number Of Organization Billed Codespaces A User Can Create](codespaces/managing-codespaces-for-your-organization/restricting-the-number-of-organization-billed-codespaces-a-user-can-create.md)
     * [Restricting The Retention Period For Codespaces](codespaces/managing-codespaces-for-your-organization/restricting-the-retention-period-for-codespaces.md)
     * [Restricting The Visibility Of Forwarded Ports](codespaces/managing-codespaces-for-your-organization/restricting-the-visibility-of-forwarded-ports.md)
     * [Reviewing Your Organization S Audit Logs For Git Hub Codespaces](codespaces/managing-codespaces-for-your-organization/reviewing-your-organizations-audit-logs-for-github-codespaces.md)
@@ -1622,7 +1624,7 @@
       * [Working With Saved Replies](get-started/writing-on-github/working-with-saved-replies/index.md)
       * [Using Saved Replies](get-started/writing-on-github/working-with-saved-replies/using-saved-replies.md)
     * [Writing On Git Hub](get-started/writing-on-github/index.md)
-  * [Getting Started With Git Hub Documentation](get-started/index.md)
+  * [Get Started With Git Hub Documentation](get-started/index.md)
 - Github Cli
   - Github Cli
     * [About Git Hub CLI](github-cli/github-cli/about-github-cli.md)
@@ -1825,7 +1827,7 @@
       * [Migrating From Bitbucket Server With Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/understanding-github-enterprise-importer/migrating-from-bitbucket-server-with-github-enterprise-importer.md)
       * [Migration Support For Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/understanding-github-enterprise-importer/migration-support-for-github-enterprise-importer.md)
     * [Using Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/index.md)
-  * [Migrations](migrations/index.md)
+  * [Migrations Documentation](migrations/index.md)
 - Organizations
   - Collaborating With Groups In Organizations
     * [About Organizations](organizations/collaborating-with-groups-in-organizations/about-organizations.md)
@@ -1895,6 +1897,7 @@
   - Managing Organization Settings
     * [Allowing People To Delete Issues In Your Organization](organizations/managing-organization-settings/allowing-people-to-delete-issues-in-your-organization.md)
     * [Allowing Project Visibility Changes In Your Organization](organizations/managing-organization-settings/allowing-project-visibility-changes-in-your-organization.md)
+    * [Archiving An Organization](organizations/managing-organization-settings/archiving-an-organization.md)
     * [Changing The Visibility Of Your Organization S Dependency Insights](organizations/managing-organization-settings/changing-the-visibility-of-your-organizations-dependency-insights.md)
     * [Configuring The Retention Period For Git Hub Actions Artifacts And Logs In Your Organization](organizations/managing-organization-settings/configuring-the-retention-period-for-github-actions-artifacts-and-logs-in-your-organization.md)
     * [Converting An Organization Into A User](organizations/managing-organization-settings/converting-an-organization-into-a-user.md)
@@ -2042,6 +2045,7 @@
     * [Getting Started With Git Hub Pages](pages/getting-started-with-github-pages/index.md)
     * [Securing Your Git Hub Pages Site With HTTPS](pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https.md)
     * [Unpublishing A Git Hub Pages Site](pages/getting-started-with-github-pages/unpublishing-a-github-pages-site.md)
+    * [Using Custom Workflows With Git Hub Pages](pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages.md)
     * [Using Submodules With Git Hub Pages](pages/getting-started-with-github-pages/using-submodules-with-github-pages.md)
   - Setting Up A Github Pages Site With Jekyll
     * [About Git Hub Pages And Jekyll](pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll.md)
@@ -2637,7 +2641,7 @@
     * [About Ticket Priority](support/learning-about-github-support/about-ticket-priority.md)
     * [Git Hub Marketplace Support](support/learning-about-github-support/github-marketplace-support.md)
     * [Learning About Git Hub Support](support/learning-about-github-support/index.md)
-  * [Working With Git Hub Support Documentation](support/index.md)
+  * [Git Hub Support Documentation](support/index.md)
 - Video Transcripts
   * [Video Transcripts](video-transcripts/index.md)
   * [Transcript Codespaces Your Instant Dev Box In The Cloud](video-transcripts/transcript-codespaces-your-instant-dev-box-in-the-cloud.md)
