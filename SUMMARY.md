@@ -481,6 +481,7 @@
       * [Configuring SCIM Provisioning For Enterprise Managed Users](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/configuring-scim-provisioning-for-enterprise-managed-users.md)
       * [Using Enterprise Managed Users For IAM](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/index.md)
       * [Managing Team Memberships With Identity Provider Groups](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/managing-team-memberships-with-identity-provider-groups.md)
+      * [Migrating From OIDC To SAML](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/migrating-from-oidc-to-saml.md)
       * [Migrating From SAML To OIDC](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/migrating-from-saml-to-oidc.md)
       * [Migrating Your Enterprise To A New Identity Provider Or Tenant](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/migrating-your-enterprise-to-a-new-identity-provider-or-tenant.md)
     - Using Ldap For Enterprise Iam
@@ -600,6 +601,7 @@
       * [Configuring Git Large File Storage For Your Enterprise](admin/user-management/managing-repositories-in-your-enterprise/configuring-git-large-file-storage-for-your-enterprise.md)
       * [Disabling Git SSH Access On Your Enterprise](admin/user-management/managing-repositories-in-your-enterprise/disabling-git-ssh-access-on-your-enterprise.md)
       * [Managing Repositories In Your Enterprise](admin/user-management/managing-repositories-in-your-enterprise/index.md)
+      * [Locking A Repository](admin/user-management/managing-repositories-in-your-enterprise/locking-a-repository.md)
       * [Migrating To Internal Repositories](admin/user-management/managing-repositories-in-your-enterprise/migrating-to-internal-repositories.md)
       * [Restoring A Deleted Repository](admin/user-management/managing-repositories-in-your-enterprise/restoring-a-deleted-repository.md)
       * [Troubleshooting Service Hooks](admin/user-management/managing-repositories-in-your-enterprise/troubleshooting-service-hooks.md)
@@ -1790,6 +1792,7 @@
     * [Importing Source Code](migrations/importing-source-code/index.md)
   - Overview
     * [About Git Hub S Migration Tooling](migrations/overview/about-githubs-migration-tooling.md)
+    * [About Locked Repositories](migrations/overview/about-locked-repositories.md)
     * [Overview](migrations/overview/index.md)
     * [Planning Your Migration To Git Hub](migrations/overview/planning-your-migration-to-github.md)
   - Using Ghe Migrator
@@ -2416,7 +2419,8 @@
     * [Authenticating To The REST API](rest/overview/authenticating-to-the-rest-api.md)
     * [Breaking Changes](rest/overview/breaking-changes.md)
     * [Endpoints Available For Fine Grained Personal Access Tokens](rest/overview/endpoints-available-for-fine-grained-personal-access-tokens.md)
-    * [Endpoints Available For Git Hub Apps](rest/overview/endpoints-available-for-github-apps.md)
+    * [Endpoints Available For Git Hub App Installation Access Tokens](rest/overview/endpoints-available-for-github-app-installation-access-tokens.md)
+    * [Endpoints Available For Git Hub App User Access Tokens](rest/overview/endpoints-available-for-github-app-user-access-tokens.md)
     * [REST API Overview](rest/overview/index.md)
     * [Keeping Your API Credentials Secure](rest/overview/keeping-your-api-credentials-secure.md)
     * [Libraries](rest/overview/libraries.md)
