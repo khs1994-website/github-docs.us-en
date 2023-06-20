@@ -705,7 +705,7 @@
       * [Using O Auth Apps](apps/oauth-apps/using-oauth-apps/index.md)
       * [Installing An O Auth App In Your Organization](apps/oauth-apps/using-oauth-apps/installing-an-oauth-app-in-your-organization.md)
       * [Installing An O Auth App In Your Personal Account](apps/oauth-apps/using-oauth-apps/installing-an-oauth-app-in-your-personal-account.md)
-      * [Reviewing Your Authorized O Auth Applications](apps/oauth-apps/using-oauth-apps/reviewing-your-authorized-oauth-applications.md)
+      * [Reviewing Your Authorized O Auth Apps](apps/oauth-apps/using-oauth-apps/reviewing-your-authorized-oauth-apps.md)
     * [O Auth Apps](apps/oauth-apps/index.md)
   - Publishing Apps To Github Marketplace
     - Creating Apps For Github Marketplace
@@ -760,6 +760,7 @@
     * [Requesting A Git Hub App From Your Organization Owner](apps/using-github-apps/requesting-a-github-app-from-your-organization-owner.md)
     * [Reviewing And Modifying Installed Git Hub Apps](apps/using-github-apps/reviewing-and-modifying-installed-github-apps.md)
     * [Reviewing And Revoking Authorization Of Git Hub Apps](apps/using-github-apps/reviewing-and-revoking-authorization-of-github-apps.md)
+    * [SAML And Git Hub Apps](apps/using-github-apps/saml-and-github-apps.md)
   * [Git Hub Apps Documentation](apps/index.md)
   * [Git Hub Apps Overview](apps/overview.md)
 - Authentication
@@ -2512,7 +2513,7 @@
   - Searching On Github
     * [Finding Files On Git Hub](search-github/searching-on-github/finding-files-on-github.md)
     * [Searching On Git Hub](search-github/searching-on-github/index.md)
-    * [Searching Code](search-github/searching-on-github/searching-code.md)
+    * [Searching Code Ifversion Code Search Code View Legacy Endif](search-github/searching-on-github/searching-code.md)
     * [Searching Commits](search-github/searching-on-github/searching-commits.md)
     * [Searching Discussions](search-github/searching-on-github/searching-discussions.md)
     * [Searching For Packages](search-github/searching-on-github/searching-for-packages.md)
