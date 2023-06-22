@@ -264,12 +264,14 @@
     * [Using Containerized Services](actions/using-containerized-services/index.md)
   - Using Github Hosted Runners
     * [About Git Hub Hosted Runners](actions/using-github-hosted-runners/about-github-hosted-runners.md)
+    * [About Larger Runners](actions/using-github-hosted-runners/about-larger-runners.md)
     * [Connecting To A Private Network](actions/using-github-hosted-runners/connecting-to-a-private-network.md)
     * [Controlling Access To Larger Runners](actions/using-github-hosted-runners/controlling-access-to-larger-runners.md)
     * [Customizing Git Hub Hosted Runners](actions/using-github-hosted-runners/customizing-github-hosted-runners.md)
     * [Using Git Hub Hosted Runners](actions/using-github-hosted-runners/index.md)
+    * [Managing Larger Runners](actions/using-github-hosted-runners/managing-larger-runners.md)
     * [Monitoring Your Current Jobs](actions/using-github-hosted-runners/monitoring-your-current-jobs.md)
-    * [Using Larger Runners](actions/using-github-hosted-runners/using-larger-runners.md)
+    * [Running Jobs On Larger Runners](actions/using-github-hosted-runners/running-jobs-on-larger-runners.md)
   - Using Jobs
     * [Assigning Permissions To Jobs](actions/using-jobs/assigning-permissions-to-jobs.md)
     * [Choosing The Runner For A Job](actions/using-jobs/choosing-the-runner-for-a-job.md)
