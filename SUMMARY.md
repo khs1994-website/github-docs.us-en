@@ -2051,6 +2051,7 @@
     * [Deleting A Git Hub Pages Site](pages/getting-started-with-github-pages/deleting-a-github-pages-site.md)
     * [Getting Started With Git Hub Pages](pages/getting-started-with-github-pages/index.md)
     * [Securing Your Git Hub Pages Site With HTTPS](pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https.md)
+    * [Troubleshooting 404 Errors For Git Hub Pages Sites](pages/getting-started-with-github-pages/troubleshooting-404-errors-for-github-pages-sites.md)
     * [Unpublishing A Git Hub Pages Site](pages/getting-started-with-github-pages/unpublishing-a-github-pages-site.md)
     * [Using Custom Workflows With Git Hub Pages](pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages.md)
     * [Using Submodules With Git Hub Pages](pages/getting-started-with-github-pages/using-submodules-with-github-pages.md)
