@@ -912,6 +912,7 @@
     * [Adding Or Editing A Payment Method](billing/managing-your-github-billing-settings/adding-or-editing-a-payment-method.md)
     * [Changing The Duration Of Your Billing Cycle](billing/managing-your-github-billing-settings/changing-the-duration-of-your-billing-cycle.md)
     * [Managing Your Git Hub Billing Settings](billing/managing-your-github-billing-settings/index.md)
+    * [Receiving An Invoice](billing/managing-your-github-billing-settings/receiving-an-invoice.md)
     * [Redeeming A Coupon](billing/managing-your-github-billing-settings/redeeming-a-coupon.md)
     * [Setting Your Billing Email](billing/managing-your-github-billing-settings/setting-your-billing-email.md)
     * [Troubleshooting A Declined Credit Card Charge](billing/managing-your-github-billing-settings/troubleshooting-a-declined-credit-card-charge.md)
@@ -2301,7 +2302,6 @@
     * [Actions](rest/actions/index.md)
     * [Git Hub Actions OIDC](rest/actions/oidc.md)
     * [Git Hub Actions Permissions](rest/actions/permissions.md)
-    * [Git Hub Actions Required Workflows](rest/actions/required-workflows.md)
     * [Git Hub Actions Secrets](rest/actions/secrets.md)
     * [Self Hosted Runner Groups](rest/actions/self-hosted-runner-groups.md)
     * [Self Hosted Runners](rest/actions/self-hosted-runners.md)
@@ -2327,6 +2327,8 @@
     * [Git Hub Marketplace](rest/apps/marketplace.md)
     * [O Auth Authorizations](rest/apps/oauth-applications.md)
     * [Git Hub App Webhooks](rest/apps/webhooks.md)
+  - Billing
+    * [Billing](rest/billing/index.md)
   - Branches
     * [Protected Branches](rest/branches/branch-protection.md)
     * [Branches](rest/branches/index.md)
@@ -2334,6 +2336,10 @@
     * [Checks](rest/checks/index.md)
     * [Check Runs](rest/checks/runs.md)
     * [Check Suites](rest/checks/suites.md)
+  - Code Scanning
+    * [Code Scanning](rest/code-scanning/index.md)
+  - Codes Of Conduct
+    * [Codes Of Conduct](rest/codes-of-conduct/index.md)
   - Codespaces
     * [Codespaces](rest/codespaces/index.md)
     * [Codespaces Machines](rest/codespaces/machines.md)
@@ -2357,12 +2363,16 @@
     * [Dependency Submission](rest/dependency-graph/dependency-submission.md)
     * [Dependency Graph](rest/dependency-graph/index.md)
     * [Software Bill Of Materials SBOM](rest/dependency-graph/sboms.md)
+  - Deploy Keys
+    * [Deploy Keys](rest/deploy-keys/index.md)
   - Deployments
     * [Deployment Branch Policies](rest/deployments/branch-policies.md)
     * [Deployments](rest/deployments/index.md)
     * [Deployment Environments](rest/deployments/environments.md)
     * [Protection Rules](rest/deployments/protection-rules.md)
     * [Deployment Statuses](rest/deployments/statuses.md)
+  - Emojis
+    * [Emojis](rest/emojis/index.md)
   - Enterprise Admin
     * [Admin Stats](rest/enterprise-admin/admin-stats.md)
     * [Announcement](rest/enterprise-admin/announcement.md)
@@ -2392,6 +2402,8 @@
     * [Git References](rest/git/refs.md)
     * [Git Tags](rest/git/tags.md)
     * [Git Trees](rest/git/trees.md)
+  - Gitignore
+    * [Gitignore](rest/gitignore/index.md)
   - Guides
     * [Best Practices For Integrators](rest/guides/best-practices-for-integrators.md)
     * [Building A CI Server](rest/guides/building-a-ci-server.md)
@@ -2418,6 +2430,12 @@
     * [Labels](rest/issues/labels.md)
     * [Milestones](rest/issues/milestones.md)
     * [Timeline Events](rest/issues/timeline.md)
+  - Licenses
+    * [Licenses](rest/licenses/licenses.md)
+  - Markdown
+    * [Markdown](rest/markdown/markdown.md)
+  - Meta
+    * [Meta](rest/meta/meta.md)
   - Metrics
     * [Community Metrics](rest/metrics/community.md)
     * [Metrics](rest/metrics/index.md)
@@ -2428,6 +2446,8 @@
     * [Organization Migrations](rest/migrations/orgs.md)
     * [Source Imports](rest/migrations/source-imports.md)
     * [User Migrations](rest/migrations/users.md)
+  - Oauth Authorizations
+    * [O Auth Authorizations](rest/oauth-authorizations/oauth-authorizations.md)
   - Orgs
     * [Blocking Users](rest/orgs/blocking.md)
     * [Custom Repository Roles](rest/orgs/custom-roles.md)
@@ -2455,6 +2475,10 @@
     * [Permissions Required For Git Hub Apps](rest/overview/permissions-required-for-github-apps.md)
     * [Resources In The REST API](rest/overview/resources-in-the-rest-api.md)
     * [Troubleshooting](rest/overview/troubleshooting.md)
+  - Packages
+    * [Packages](rest/packages/packages.md)
+  - Pages
+    * [Pages](rest/pages/pages.md)
   - Projects
     * [{% data variables.product.prodname_project_v1_caps %} cards](rest/projects/cards.md)
     * [{% data variables.product.prodname_project_v1_caps %} collaborators](rest/projects/collaborators.md)
@@ -2465,6 +2489,10 @@
     * [Pulls](rest/pulls/pulls.md)
     * [Review Requests](rest/pulls/review-requests.md)
     * [Pull Request Reviews](rest/pulls/reviews.md)
+  - Rate Limit
+    * [Rate Limit](rest/rate-limit/rate-limit.md)
+  - Reactions
+    * [Reactions](rest/reactions/reactions.md)
   - Releases
     * [Release Assets](rest/releases/assets.md)
     * [Releases](rest/releases/releases.md)
@@ -2476,6 +2504,12 @@
     * [Git LFS](rest/repos/lfs.md)
     * [Rules](rest/repos/rules.md)
     * [Repository Tags](rest/repos/tags.md)
+  - Scim
+    * [SCIM](rest/scim/scim.md)
+  - Search
+    * [Search](rest/search/search.md)
+  - Secret Scanning
+    * [Secret Scanning](rest/secret-scanning/secret-scanning.md)
   - Security Advisories
     * [Security Advisories](rest/security-advisories/index.md)
     * [Repository Security Advisories](rest/security-advisories/repository-advisories.md)
@@ -2500,25 +2534,8 @@
     * [Repository Webhook Configuration](rest/webhooks/repo-config.md)
     * [Repository Webhook Deliveries](rest/webhooks/repo-deliveries.md)
     * [Repository Webhooks](rest/webhooks/repos.md)
-  * [Billing](rest/billing.md)
-  * [Code Scanning](rest/code-scanning.md)
-  * [Codes Of Conduct](rest/codes-of-conduct.md)
-  * [Deploy Keys](rest/deploy-keys.md)
-  * [Emojis](rest/emojis.md)
-  * [Gitignore](rest/gitignore.md)
   * [Git Hub REST API Documentation](rest/index.md)
-  * [Licenses](rest/licenses.md)
-  * [Markdown](rest/markdown.md)
-  * [Meta](rest/meta.md)
-  * [O Auth Authorizations](rest/oauth-authorizations.md)
-  * [Packages](rest/packages.md)
-  * [Pages](rest/pages.md)
   * [Quickstart For Git Hub REST API](rest/quickstart.md)
-  * [Rate Limit](rest/rate-limit.md)
-  * [Reactions](rest/reactions.md)
-  * [SCIM](rest/scim.md)
-  * [Search](rest/search.md)
-  * [Secret Scanning](rest/secret-scanning.md)
 - Search
   * [Search](search/index.md)
 - Search Github
