@@ -438,7 +438,7 @@
       * [About Git Hub Actions For Enterprises](admin/github-actions/getting-started-with-github-actions-for-your-enterprise/about-github-actions-for-enterprises.md)
       * [Getting Started With Git Hub Actions For Git Hub AE](admin/github-actions/getting-started-with-github-actions-for-your-enterprise/getting-started-with-github-actions-for-github-ae.md)
       * [Getting Started With Git Hub Actions For Git Hub Enterprise Cloud](admin/github-actions/getting-started-with-github-actions-for-your-enterprise/getting-started-with-github-actions-for-github-enterprise-cloud.md)
-      * [Getting Started With Github Actions For Github Enterprise Server](admin/github-actions/getting-started-with-github-actions-for-your-enterprise/getting-started-with-github-actions-for-github-enterprise-server.md)
+      * [Getting Started With Git Hub Actions For Git Hub Enterprise Server](admin/github-actions/getting-started-with-github-actions-for-your-enterprise/getting-started-with-github-actions-for-github-enterprise-server.md)
       * [Getting Started With Self Hosted Runners For Your Enterprise](admin/github-actions/getting-started-with-github-actions-for-your-enterprise/getting-started-with-self-hosted-runners-for-your-enterprise.md)
       * [Getting Started With Git Hub Actions For Your Enterprise](admin/github-actions/getting-started-with-github-actions-for-your-enterprise/index.md)
       * [Introducing Git Hub Actions To Your Enterprise](admin/github-actions/getting-started-with-github-actions-for-your-enterprise/introducing-github-actions-to-your-enterprise.md)
@@ -1400,7 +1400,7 @@
       * [Stashing Changes In Git Hub Desktop](desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/stashing-changes-in-github-desktop.md)
       * [Viewing The Branch History In Git Hub Desktop](desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/viewing-the-branch-history-in-github-desktop.md)
     - Managing Commits
-      * [Amending A Commit In Github Desktop](desktop/contributing-and-collaborating-using-github-desktop/managing-commits/amending-a-commit-in-github-desktop.md)
+      * [Amending A Commit In Git Hub Desktop](desktop/contributing-and-collaborating-using-github-desktop/managing-commits/amending-a-commit-in-github-desktop.md)
       * [Cherry Picking A Commit In Git Hub Desktop](desktop/contributing-and-collaborating-using-github-desktop/managing-commits/cherry-picking-a-commit-in-github-desktop.md)
       * [Managing Commits](desktop/contributing-and-collaborating-using-github-desktop/managing-commits/index.md)
       * [Managing Tags In Git Hub Desktop](desktop/contributing-and-collaborating-using-github-desktop/managing-commits/managing-tags-in-github-desktop.md)
