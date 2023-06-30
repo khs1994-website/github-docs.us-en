@@ -353,7 +353,7 @@
       * [Accessing The Administrative Shell SSH](admin/configuration/configuring-your-enterprise/accessing-the-administrative-shell-ssh.md)
       * [Command Line Utilities](admin/configuration/configuring-your-enterprise/command-line-utilities.md)
       * [Configuring Applications](admin/configuration/configuring-your-enterprise/configuring-applications.md)
-      * [Configuring Backups On Your Appliance](admin/configuration/configuring-your-enterprise/configuring-backups-on-your-appliance.md)
+      * [Configuring Backups On Your Instance](admin/configuration/configuring-your-enterprise/configuring-backups-on-your-instance.md)
       * [Configuring Custom Footers](admin/configuration/configuring-your-enterprise/configuring-custom-footers.md)
       * [Configuring Email For Notifications](admin/configuration/configuring-your-enterprise/configuring-email-for-notifications.md)
       * [Configuring Git Hub Pages For Your Enterprise](admin/configuration/configuring-your-enterprise/configuring-github-pages-for-your-enterprise.md)
@@ -368,6 +368,7 @@
       * [Enabling Private Mode](admin/configuration/configuring-your-enterprise/enabling-private-mode.md)
       * [Configuring Your Enterprise](admin/configuration/configuring-your-enterprise/index.md)
       * [Initializing Git Hub AE](admin/configuration/configuring-your-enterprise/initializing-github-ae.md)
+      * [Known Issues With Backups For Your Instance](admin/configuration/configuring-your-enterprise/known-issues-with-backups-for-your-instance.md)
       * [Managing Git Hub Mobile For Your Enterprise](admin/configuration/configuring-your-enterprise/managing-github-mobile-for-your-enterprise.md)
       * [Restricting Network Traffic To Your Enterprise With An IP Allow List](admin/configuration/configuring-your-enterprise/restricting-network-traffic-to-your-enterprise-with-an-ip-allow-list.md)
       * [Site Admin Dashboard](admin/configuration/configuring-your-enterprise/site-admin-dashboard.md)
@@ -912,7 +913,6 @@
     * [Adding Or Editing A Payment Method](billing/managing-your-github-billing-settings/adding-or-editing-a-payment-method.md)
     * [Changing The Duration Of Your Billing Cycle](billing/managing-your-github-billing-settings/changing-the-duration-of-your-billing-cycle.md)
     * [Managing Your Git Hub Billing Settings](billing/managing-your-github-billing-settings/index.md)
-    * [Receiving An Invoice](billing/managing-your-github-billing-settings/receiving-an-invoice.md)
     * [Redeeming A Coupon](billing/managing-your-github-billing-settings/redeeming-a-coupon.md)
     * [Setting Your Billing Email](billing/managing-your-github-billing-settings/setting-your-billing-email.md)
     * [Troubleshooting A Declined Credit Card Charge](billing/managing-your-github-billing-settings/troubleshooting-a-declined-credit-card-charge.md)
@@ -1527,6 +1527,10 @@
   * [Git Hub Education Documentation](education/index.md)
   * [Quickstart For Git Hub Educators](education/quickstart.md)
 - Get Started
+  - Archiving Your Github Personal Account And Public Repositories
+    * [Archiving Your Git Hub Personal Account And Public Repositories](get-started/archiving-your-github-personal-account-and-public-repositories/index.md)
+    * [Opting Into Or Out Of The Git Hub Archive Program For Your Public Repository](get-started/archiving-your-github-personal-account-and-public-repositories/opting-into-or-out-of-the-github-archive-program-for-your-public-repository.md)
+    * [Requesting an archive of your personal account’s data](get-started/archiving-your-github-personal-account-and-public-repositories/requesting-an-archive-of-your-personal-accounts-data.md)
   - Exploring Integrations
     * [About Building Integrations](get-started/exploring-integrations/about-building-integrations.md)
     * [About Using Integrations](get-started/exploring-integrations/about-using-integrations.md)
@@ -1567,12 +1571,6 @@
     * [Getting Started With Git Hub Team](get-started/onboarding/getting-started-with-github-team.md)
     * [Getting Started With Your Git Hub Account](get-started/onboarding/getting-started-with-your-github-account.md)
     * [Onboarding](get-started/onboarding/index.md)
-  - Privacy On Github
-    * [About Git Hub S Use Of Your Data](get-started/privacy-on-github/about-githubs-use-of-your-data.md)
-    * [Privacy On Git Hub](get-started/privacy-on-github/index.md)
-    * [Managing Data Use Settings For Your Private Repository](get-started/privacy-on-github/managing-data-use-settings-for-your-private-repository.md)
-    * [Opting Into Or Out Of The Git Hub Archive Program For Your Public Repository](get-started/privacy-on-github/opting-into-or-out-of-the-github-archive-program-for-your-public-repository.md)
-    * [Requesting an archive of your personal account’s data](get-started/privacy-on-github/requesting-an-archive-of-your-personal-accounts-data.md)
   - Quickstart
     * [Be Social](get-started/quickstart/be-social.md)
     * [Communicating On Git Hub](get-started/quickstart/communicating-on-github.md)
