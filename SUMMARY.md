@@ -669,10 +669,9 @@
       * [Building A CLI With A Git Hub App](apps/creating-github-apps/writing-code-for-a-github-app/building-a-cli-with-a-github-app.md)
       * [Building A Git Hub App That Responds To Webhook Events](apps/creating-github-apps/writing-code-for-a-github-app/building-a-github-app-that-responds-to-webhook-events.md)
       * [Building A Login With Git Hub Button With A Git Hub App](apps/creating-github-apps/writing-code-for-a-github-app/building-a-login-with-github-button-with-a-github-app.md)
-      * [Creating CI Tests With The Checks API](apps/creating-github-apps/writing-code-for-a-github-app/creating-ci-tests-with-the-checks-api.md)
+      * [Building CI Checks With A Git Hub App](apps/creating-github-apps/writing-code-for-a-github-app/building-ci-checks-with-a-github-app.md)
       * [Writing Code For A Git Hub App](apps/creating-github-apps/writing-code-for-a-github-app/index.md)
       * [Quickstart For Building Git Hub Apps](apps/creating-github-apps/writing-code-for-a-github-app/quickstart.md)
-      * [Setting Up Your Development Environment To Create A Git Hub App](apps/creating-github-apps/writing-code-for-a-github-app/setting-up-your-development-environment-to-create-a-github-app.md)
     * [Creating Git Hub Apps](apps/creating-github-apps/index.md)
   - Maintaining Github Apps
     * [About Git Hub App Managers](apps/maintaining-github-apps/about-github-app-managers.md)
