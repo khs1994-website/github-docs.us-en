@@ -460,6 +460,7 @@
       * [About Authentication For Your Enterprise](admin/identity-and-access-management/managing-iam-for-your-enterprise/about-authentication-for-your-enterprise.md)
       * [Allowing Built In Authentication For Users Outside Your Provider](admin/identity-and-access-management/managing-iam-for-your-enterprise/allowing-built-in-authentication-for-users-outside-your-provider.md)
       * [Changing Authentication Methods](admin/identity-and-access-management/managing-iam-for-your-enterprise/changing-authentication-methods.md)
+      * [Identifying The Best Authentication Method For Your Enterprise](admin/identity-and-access-management/managing-iam-for-your-enterprise/identifying-the-best-authentication-method-for-your-enterprise.md)
       * [Managing IAM For Your Enterprise](admin/identity-and-access-management/managing-iam-for-your-enterprise/index.md)
       * [Troubleshooting Identity And Access Management For Your Enterprise](admin/identity-and-access-management/managing-iam-for-your-enterprise/troubleshooting-identity-and-access-management-for-your-enterprise.md)
       * [Username Considerations For External Authentication](admin/identity-and-access-management/managing-iam-for-your-enterprise/username-considerations-for-external-authentication.md)
@@ -497,6 +498,7 @@
       * [Configuring SAML Single Sign On For Your Enterprise Using Okta](admin/identity-and-access-management/using-saml-for-enterprise-iam/configuring-saml-single-sign-on-for-your-enterprise-using-okta.md)
       * [Configuring SAML Single Sign On For Your Enterprise](admin/identity-and-access-management/using-saml-for-enterprise-iam/configuring-saml-single-sign-on-for-your-enterprise.md)
       * [Configuring User Provisioning With SCIM For Your Enterprise](admin/identity-and-access-management/using-saml-for-enterprise-iam/configuring-user-provisioning-with-scim-for-your-enterprise.md)
+      * [Deciding Whether To Configure SAML For Your Enterprise Or Your Organizations](admin/identity-and-access-management/using-saml-for-enterprise-iam/deciding-whether-to-configure-saml-for-your-enterprise-or-your-organizations.md)
       * [Enabling Encrypted Assertions](admin/identity-and-access-management/using-saml-for-enterprise-iam/enabling-encrypted-assertions.md)
       * [Using SAML For Enterprise IAM](admin/identity-and-access-management/using-saml-for-enterprise-iam/index.md)
       * [Managing Team Synchronization For Organizations In Your Enterprise](admin/identity-and-access-management/using-saml-for-enterprise-iam/managing-team-synchronization-for-organizations-in-your-enterprise.md)
@@ -766,6 +768,11 @@
   * [Git Hub Apps Documentation](apps/index.md)
   * [Git Hub Apps Overview](apps/overview.md)
 - Authentication
+  - Authenticating With A Passkey
+    * [About Passkeys](authentication/authenticating-with-a-passkey/about-passkeys.md)
+    * [Authenticating With A Passkey](authentication/authenticating-with-a-passkey/index.md)
+    * [Managing Your Passkeys](authentication/authenticating-with-a-passkey/managing-your-passkeys.md)
+    * [Signing In With A Passkey](authentication/authenticating-with-a-passkey/signing-in-with-a-passkey.md)
   - Authenticating With Saml Single Sign On
     * [About Authentication With SAML Single Sign On](authentication/authenticating-with-saml-single-sign-on/about-authentication-with-saml-single-sign-on.md)
     * [Authorizing A Personal Access Token For Use With SAML Single Sign On](authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on.md)
