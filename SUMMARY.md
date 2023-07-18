@@ -966,8 +966,10 @@
       * [About Code Scanning](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning.md)
       * [About The Tool Status Page For Code Scanning](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-the-tool-status-page.md)
       * [Built In Code QL Query Suites](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/built-in-codeql-query-suites.md)
-      * [Configuring Code Scanning At Scale Using Code QL](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning-at-scale.md)
-      * [Configuring Code Scanning For A Repository](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning-for-a-repository.md)
+      * [Configuring Ifversion Code Scanning Without Workflow Advanced Setup For Endif Code Scanning With Code QL At Scale](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-advanced-setup-for-code-scanning-with-codeql-at-scale.md)
+      * [Configuring Ifversion Code Scanning Without Workflow Advanced Setup For Endif Code Scanning](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-advanced-setup-for-code-scanning.md)
+      * [Configuring Default Setup For Code Scanning At Scale](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-default-setup-for-code-scanning-at-scale.md)
+      * [Configuring Default Setup For Code Scanning](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-default-setup-for-code-scanning.md)
       * [Configuring The Code QL Workflow For Compiled Languages](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-the-codeql-workflow-for-compiled-languages.md)
       * [Customizing Code Scanning](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/customizing-code-scanning.md)
       * [Automatically Scanning Your Code For Vulnerabilities And Errors](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/index.md)
@@ -976,7 +978,6 @@
       * [Running Code QL Code Scanning In A Container](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/running-codeql-code-scanning-in-a-container.md)
       * [Tracking Code Scanning Alerts In Issues Using Task Lists](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/tracking-code-scanning-alerts-in-issues-using-task-lists.md)
       * [Triaging Code Scanning Alerts In Pull Requests](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/triaging-code-scanning-alerts-in-pull-requests.md)
-      * [Troubleshooting Your Default Setup For Code QL](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/troubleshooting-your-default-setup-for-codeql.md)
       * [Viewing Code Scanning Logs](code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/viewing-code-scanning-logs.md)
     - Integrating With Code Scanning
       * [About Integration With Code Scanning](code-security/code-scanning/integrating-with-code-scanning/about-integration-with-code-scanning.md)
@@ -1254,7 +1255,7 @@
     * [Deep dive into {% data variables.product.prodname_github_codespaces %}](codespaces/getting-started/deep-dive.md)
     * [Getting started with {% data variables.product.prodname_github_codespaces %}](codespaces/getting-started/index.md)
     * [Quickstart for {% data variables.product.prodname_github_codespaces %}](codespaces/getting-started/quickstart.md)
-    * [The Codespace Lifecycle](codespaces/getting-started/the-codespace-lifecycle.md)
+    * [Understanding The Codespace Lifecycle](codespaces/getting-started/understanding-the-codespace-lifecycle.md)
   - Managing Codespaces For Your Organization
     * [Enabling Git Hub Codespaces For Your Organization](codespaces/managing-codespaces-for-your-organization/enabling-github-codespaces-for-your-organization.md)
     * [Managing Git Hub Codespaces For Your Organization](codespaces/managing-codespaces-for-your-organization/index.md)
@@ -1699,6 +1700,13 @@
     * [Unions](graphql/reference/unions.md)
   * [Git Hub Graph QL API Documentation](graphql/index.md)
 - Issues
+  - Managing Your Tasks With Tasklists
+    * [About Tasklists](issues/managing-your-tasks-with-tasklists/about-tasklists.md)
+    * [Creating A Tasklist](issues/managing-your-tasks-with-tasklists/creating-a-tasklist.md)
+    * [Managing Your Issues With Tasklists](issues/managing-your-tasks-with-tasklists/index.md)
+    * [Managing Tasks In A Tasklist](issues/managing-your-tasks-with-tasklists/managing-tasks-in-a-tasklist.md)
+    * [Quickstart For Tasklists](issues/managing-your-tasks-with-tasklists/quickstart-for-tasklists.md)
+    * [Using Projects And Tasklists](issues/managing-your-tasks-with-tasklists/using-projects-and-tasklists.md)
   - Organizing Your Work With Project Boards
     - Managing Project Boards
       * [About automation for {% data variables.product.prodname_projects_v1 %}](issues/organizing-your-work-with-project-boards/managing-project-boards/about-automation-for-project-boards.md)
@@ -1779,7 +1787,6 @@
   - Tracking Your Work With Issues
     * [About Issues](issues/tracking-your-work-with-issues/about-issues.md)
     * [About Slash Commands](issues/tracking-your-work-with-issues/about-slash-commands.md)
-    * [About Tasklists](issues/tracking-your-work-with-issues/about-tasklists.md)
     * [Assigning Issues And Pull Requests To Other Git Hub Users](issues/tracking-your-work-with-issues/assigning-issues-and-pull-requests-to-other-github-users.md)
     * [Closing An Issue](issues/tracking-your-work-with-issues/closing-an-issue.md)
     * [Creating A Branch To Work On An Issue](issues/tracking-your-work-with-issues/creating-a-branch-for-an-issue.md)
