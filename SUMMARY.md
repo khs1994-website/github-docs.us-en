@@ -1932,6 +1932,7 @@
       * [Reviewing The Audit Log For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-the-audit-log-for-your-organization.md)
     - Managing Two Factor Authentication For Your Organization
       * [Managing Two Factor Authentication For Your Organization](organizations/keeping-your-organization-secure/managing-two-factor-authentication-for-your-organization/index.md)
+      * [Managing Bots And Service Accounts With Two Factor Authentication](organizations/keeping-your-organization-secure/managing-two-factor-authentication-for-your-organization/managing-bots-and-service-accounts-with-two-factor-authentication.md)
       * [Preparing To Require Two Factor Authentication In Your Organization](organizations/keeping-your-organization-secure/managing-two-factor-authentication-for-your-organization/preparing-to-require-two-factor-authentication-in-your-organization.md)
       * [Requiring Two Factor Authentication In Your Organization](organizations/keeping-your-organization-secure/managing-two-factor-authentication-for-your-organization/requiring-two-factor-authentication-in-your-organization.md)
       * [Viewing Whether Users In Your Organization Have 2 FA Enabled](organizations/keeping-your-organization-secure/managing-two-factor-authentication-for-your-organization/viewing-whether-users-in-your-organization-have-2fa-enabled.md)
