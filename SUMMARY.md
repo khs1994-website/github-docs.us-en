@@ -1405,6 +1405,10 @@
     * [Configuring Git Hub Copilot Settings In Your Organization](copilot/configuring-github-copilot/configuring-github-copilot-settings-in-your-organization.md)
     * [Configuring GitHub Copilot settings on GitHub.com](copilot/configuring-github-copilot/configuring-github-copilot-settings-on-githubcom.md)
     * [Configuring Git Hub Copilot](copilot/configuring-github-copilot/index.md)
+  - Github Copilot Chat
+    * [About Git Hub Copilot Chat](copilot/github-copilot-chat/about-github-copilot-chat.md)
+    * [Git Hub Copilot Chat](copilot/github-copilot-chat/index.md)
+    * [Using Git Hub Copilot Chat](copilot/github-copilot-chat/using-github-copilot-chat.md)
   - Overview Of Github Copilot
     * [About Git Hub Copilot For Business](copilot/overview-of-github-copilot/about-github-copilot-for-business.md)
     * [About Git Hub Copilot For Individuals](copilot/overview-of-github-copilot/about-github-copilot-for-individuals.md)
@@ -1412,6 +1416,7 @@
     * [Overview Of Git Hub Copilot](copilot/overview-of-github-copilot/index.md)
   - Troubleshooting Github Copilot
     * [Troubleshooting Git Hub Copilot](copilot/troubleshooting-github-copilot/index.md)
+    * [Troubleshooting Authentication Issues With Git Hub Copilot Chat](copilot/troubleshooting-github-copilot/troubleshooting-authentication-issues-with-github-copilot-chat.md)
     * [Troubleshooting Certificate Errors For Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-certificate-errors-for-github-copilot.md)
     * [Troubleshooting Common Issues With Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-common-issues-with-github-copilot.md)
     * [Troubleshooting Firewall Settings For Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-firewall-settings-for-github-copilot.md)
@@ -2645,6 +2650,7 @@
   - Github Terms
     * [Git Hub Community Code Of Conduct](site-policy/github-terms/github-community-code-of-conduct.md)
     * [Git Hub Community Guidelines](site-policy/github-terms/github-community-guidelines.md)
+    * [Git Hub Copilot Pre Release Terms](site-policy/github-terms/github-copilot-pre-release-terms.md)
     * [Git Hub Corporate Terms Of Service](site-policy/github-terms/github-corporate-terms-of-service.md)
     * [Git Hub Event Code Of Conduct](site-policy/github-terms/github-event-code-of-conduct.md)
     * [Git Hub Event Terms](site-policy/github-terms/github-event-terms.md)
