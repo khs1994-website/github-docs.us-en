@@ -1005,6 +1005,14 @@
       * [Two Code QL Workflows](code-security/code-scanning/troubleshooting-code-scanning/two-codeql-workflows.md)
       * [Unclear What Triggered A Workflow Run](code-security/code-scanning/troubleshooting-code-scanning/unclear-what-triggered-a-workflow-run.md)
       * [Warning 1 Issue Was Detected With This Workflow Git Checkout HEAD 2 Is No Longer Necessary](code-security/code-scanning/troubleshooting-code-scanning/unnecessary-step-found.md)
+    - Troubleshooting Sarif
+      * [Upload was rejected because CodeQL default setup is enabled for {% data variables.product.prodname_code_scanning %}](code-security/code-scanning/troubleshooting-sarif/default-setup-enabled.md)
+      * [SARIF Results File Is Too Large](code-security/code-scanning/troubleshooting-sarif/file-too-large.md)
+      * [Upload Fails Because Git Hub Advanced Security Is Disabled](code-security/code-scanning/troubleshooting-sarif/ghas-required.md)
+      * [Troubleshooting SARIF Uploads](code-security/code-scanning/troubleshooting-sarif/index.md)
+      * [Git Hub Token Is Required To Upload SARIF Results](code-security/code-scanning/troubleshooting-sarif/missing-token.md)
+      * [SARIF Results Exceed One Or More Limits](code-security/code-scanning/troubleshooting-sarif/results-exceed-limit.md)
+      * [SARIF File Is Invalid](code-security/code-scanning/troubleshooting-sarif/sarif-invalid.md)
     - Using Codeql Code Scanning With Your Existing Ci System
       * [About Code QL Code Scanning In Your CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/about-codeql-code-scanning-in-your-ci-system.md)
       * [Configuring Code QL CLI In Your CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/configuring-codeql-cli-in-your-ci-system.md)
@@ -1384,6 +1392,7 @@
     * [Setting up your environment to work on {% data variables.product.prodname_docs %}](contributing/setting-up-your-environment-to-work-on-github-docs/index.md)
     * [Working On Git Hub Docs In A Codespace](contributing/setting-up-your-environment-to-work-on-github-docs/working-on-github-docs-in-a-codespace.md)
   - Syntax And Versioning For Github Docs
+    * [Annotating Code Examples](contributing/syntax-and-versioning-for-github-docs/annotating-code-examples.md)
     * [Changing An Article S Title](contributing/syntax-and-versioning-for-github-docs/changing-an-articles-title.md)
     * [Creating Tool Switchers In Articles](contributing/syntax-and-versioning-for-github-docs/creating-tool-switchers-in-articles.md)
     * [Syntax And Versioning For Git Hub Docs](contributing/syntax-and-versioning-for-github-docs/index.md)
@@ -2147,6 +2156,7 @@
     - Collaborating On Repositories With Code Quality Features
       * [About Status Checks](pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks.md)
       * [Collaborating On Repositories With Code Quality Features](pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/index.md)
+      * [Troubleshooting Required Status Checks](pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/troubleshooting-required-status-checks.md)
       * [Working With Pre Receive Hooks](pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/working-with-pre-receive-hooks.md)
     - Getting Started
       * [About Collaborative Development Models](pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models.md)
@@ -2240,7 +2250,6 @@
       * [About Protected Branches](repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches.md)
       * [Managing Protected Branches](repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/index.md)
       * [Managing A Branch Protection Rule](repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule.md)
-      * [Troubleshooting Required Status Checks](repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/troubleshooting-required-status-checks.md)
     - Managing Rulesets
       * [About Rulesets](repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets.md)
       * [Available Rules For Rulesets](repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets.md)
