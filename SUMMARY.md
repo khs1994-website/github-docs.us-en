@@ -575,6 +575,7 @@
       * [Enforcing Policies For Code Security And Analysis For Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-code-security-and-analysis-for-your-enterprise.md)
       * [Enforcing Policies For Dependency Insights In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-dependency-insights-in-your-enterprise.md)
       * [Enforcing Policies For Git Hub Actions In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise.md)
+      * [Enforcing Policies For Git Hub Codespaces In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-codespaces-in-your-enterprise.md)
       * [Enforcing Policies For Git Hub Copilot In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-copilot-in-your-enterprise.md)
       * [Enforcing Policies For Personal Access Tokens In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-personal-access-tokens-in-your-enterprise.md)
       * [Enforcing Policies For Projects In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-projects-in-your-enterprise.md)
@@ -1267,7 +1268,8 @@
     * [Quickstart for {% data variables.product.prodname_github_codespaces %}](codespaces/getting-started/quickstart.md)
     * [Understanding The Codespace Lifecycle](codespaces/getting-started/understanding-the-codespace-lifecycle.md)
   - Managing Codespaces For Your Organization
-    * [Enabling Git Hub Codespaces For Your Organization](codespaces/managing-codespaces-for-your-organization/enabling-github-codespaces-for-your-organization.md)
+    * [Choosing Who Owns And Pays For Codespaces In Your Organization](codespaces/managing-codespaces-for-your-organization/choosing-who-owns-and-pays-for-codespaces-in-your-organization.md)
+    * [Enabling Or Disabling Git Hub Codespaces For Your Organization](codespaces/managing-codespaces-for-your-organization/enabling-or-disabling-github-codespaces-for-your-organization.md)
     * [Managing Git Hub Codespaces For Your Organization](codespaces/managing-codespaces-for-your-organization/index.md)
     * [Listing The Codespaces In Your Organization](codespaces/managing-codespaces-for-your-organization/listing-the-codespaces-in-your-organization.md)
     * [Managing Encrypted Secrets For Your Repository And Organization For Git Hub Codespaces](codespaces/managing-codespaces-for-your-organization/managing-encrypted-secrets-for-your-repository-and-organization-for-github-codespaces.md)
