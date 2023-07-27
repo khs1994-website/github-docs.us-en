@@ -1398,6 +1398,7 @@
     * [Changing An Article S Title](contributing/syntax-and-versioning-for-github-docs/changing-an-articles-title.md)
     * [Creating Tool Switchers In Articles](contributing/syntax-and-versioning-for-github-docs/creating-tool-switchers-in-articles.md)
     * [Syntax And Versioning For Git Hub Docs](contributing/syntax-and-versioning-for-github-docs/index.md)
+    * [Using Markdown And Liquid In Git Hub Docs](contributing/syntax-and-versioning-for-github-docs/using-markdown-and-liquid-in-github-docs.md)
   - Writing For Github Docs
     * [About Git Hub S Documentation Philosophy](contributing/writing-for-github-docs/about-githubs-documentation-philosophy.md)
     * [Content Design Principles](contributing/writing-for-github-docs/content-design-principles.md)
@@ -2472,6 +2473,7 @@
     * [Building A CI Server](rest/guides/building-a-ci-server.md)
     * [Delivering Deployments](rest/guides/delivering-deployments.md)
     * [Discovering Resources For A User](rest/guides/discovering-resources-for-a-user.md)
+    * [Encrypting Secrets For The REST API](rest/guides/encrypting-secrets-for-the-rest-api.md)
     * [Getting Started With The REST API](rest/guides/getting-started-with-the-rest-api.md)
     * [Guides](rest/guides/index.md)
     * [Rendering Data As Graphs](rest/guides/rendering-data-as-graphs.md)
