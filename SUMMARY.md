@@ -906,25 +906,25 @@
     * [Downgrading A Sponsorship](billing/managing-billing-for-github-sponsors/downgrading-a-sponsorship.md)
     * [Managing Billing For Git Hub Sponsors](billing/managing-billing-for-github-sponsors/index.md)
     * [Upgrading A Sponsorship](billing/managing-billing-for-github-sponsors/upgrading-a-sponsorship.md)
-  - Managing Billing For Your Github Account
-    * [About Billing For Git Hub Accounts](billing/managing-billing-for-your-github-account/about-billing-for-github-accounts.md)
-    * [About Billing For Your Enterprise](billing/managing-billing-for-your-github-account/about-billing-for-your-enterprise.md)
-    * [About Per User Pricing](billing/managing-billing-for-your-github-account/about-per-user-pricing.md)
-    * [Connecting An Azure Subscription](billing/managing-billing-for-your-github-account/connecting-an-azure-subscription.md)
-    * [Discounted Subscriptions For Git Hub Accounts](billing/managing-billing-for-your-github-account/discounted-subscriptions-for-github-accounts.md)
-    * [Downgrading Your Git Hub Subscription](billing/managing-billing-for-your-github-account/downgrading-your-github-subscription.md)
-    * [How Does Upgrading Or Downgrading Affect The Billing Process](billing/managing-billing-for-your-github-account/how-does-upgrading-or-downgrading-affect-the-billing-process.md)
-    * [Managing Billing For Your Git Hub Account](billing/managing-billing-for-your-github-account/index.md)
-    * [Managing Invoices For Your Enterprise](billing/managing-billing-for-your-github-account/managing-invoices-for-your-enterprise.md)
-    * [One Time Payments For Customers In India](billing/managing-billing-for-your-github-account/one-time-payments-for-customers-in-india.md)
-    * [Upgrading Your Git Hub Subscription](billing/managing-billing-for-your-github-account/upgrading-your-github-subscription.md)
-    * [Viewing And Managing Pending Changes To Your Subscription](billing/managing-billing-for-your-github-account/viewing-and-managing-pending-changes-to-your-subscription.md)
-    * [Viewing The Subscription And Usage For Your Enterprise Account](billing/managing-billing-for-your-github-account/viewing-the-subscription-and-usage-for-your-enterprise-account.md)
   - Managing Licenses For Visual Studio Subscriptions With Github Enterprise
     * [About Visual Studio Subscriptions With Git Hub Enterprise](billing/managing-licenses-for-visual-studio-subscriptions-with-github-enterprise/about-visual-studio-subscriptions-with-github-enterprise.md)
     * [Managing Licenses For Visual Studio Subscriptions With Git Hub Enterprise](billing/managing-licenses-for-visual-studio-subscriptions-with-github-enterprise/index.md)
     * [Setting Up Visual Studio Subscriptions With Git Hub Enterprise](billing/managing-licenses-for-visual-studio-subscriptions-with-github-enterprise/setting-up-visual-studio-subscriptions-with-github-enterprise.md)
+  - Managing The Plan For Your Github Account
+    * [About Billing For Plans](billing/managing-the-plan-for-your-github-account/about-billing-for-plans.md)
+    * [About Per User Pricing](billing/managing-the-plan-for-your-github-account/about-per-user-pricing.md)
+    * [Connecting An Azure Subscription](billing/managing-the-plan-for-your-github-account/connecting-an-azure-subscription.md)
+    * [Discounted Plans For Git Hub Accounts](billing/managing-the-plan-for-your-github-account/discounted-plans-for-github-accounts.md)
+    * [Downgrading Your Account S Plan](billing/managing-the-plan-for-your-github-account/downgrading-your-accounts-plan.md)
+    * [How Does Upgrading Or Downgrading Affect The Billing Process](billing/managing-the-plan-for-your-github-account/how-does-upgrading-or-downgrading-affect-the-billing-process.md)
+    * [Managing The Plan For Your Git Hub Account](billing/managing-the-plan-for-your-github-account/index.md)
+    * [Managing Invoices For Your Enterprise](billing/managing-the-plan-for-your-github-account/managing-invoices-for-your-enterprise.md)
+    * [One Time Payments For Customers In India](billing/managing-the-plan-for-your-github-account/one-time-payments-for-customers-in-india.md)
+    * [Upgrading Your Account S Plan](billing/managing-the-plan-for-your-github-account/upgrading-your-accounts-plan.md)
+    * [Viewing And Managing Pending Changes To Your Plan](billing/managing-the-plan-for-your-github-account/viewing-and-managing-pending-changes-to-your-plan.md)
+    * [Viewing The Subscription And Usage For Your Enterprise Account](billing/managing-the-plan-for-your-github-account/viewing-the-subscription-and-usage-for-your-enterprise-account.md)
   - Managing Your Github Billing Settings
+    * [About Billing For Your Enterprise](billing/managing-your-github-billing-settings/about-billing-for-your-enterprise.md)
     * [About Billing On Git Hub](billing/managing-your-github-billing-settings/about-billing-on-github.md)
     * [Adding Information To Your Receipts](billing/managing-your-github-billing-settings/adding-information-to-your-receipts.md)
     * [Adding Or Editing A Payment Method](billing/managing-your-github-billing-settings/adding-or-editing-a-payment-method.md)
@@ -1419,7 +1419,7 @@
     * [Templates](contributing/writing-for-github-docs/templates.md)
     * [Using Videos In Git Hub Docs](contributing/writing-for-github-docs/using-videos-in-github-docs.md)
     * [Writing Content To Be Translated](contributing/writing-for-github-docs/writing-content-to-be-translated.md)
-  * [Contributing To Git Hub Docs](contributing/index.md)
+  * [Contributing To Git Hub Docs Documentation](contributing/index.md)
 - Copilot
   - Configuring Github Copilot
     * [Configuring Git Hub Copilot In Your Environment](copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment.md)
@@ -1625,7 +1625,7 @@
     * [Access Permissions On Git Hub](get-started/learning-about-github/access-permissions-on-github.md)
     * [FAQ about changes to GitHub’s plans](get-started/learning-about-github/faq-about-changes-to-githubs-plans.md)
     * [Git Hub Language Support](get-started/learning-about-github/github-language-support.md)
-    * [GitHub’s products](get-started/learning-about-github/githubs-products.md)
+    * [GitHub’s plans](get-started/learning-about-github/githubs-plans.md)
     * [Learning About Git Hub](get-started/learning-about-github/index.md)
     * [Types Of Git Hub Accounts](get-started/learning-about-github/types-of-github-accounts.md)
   - Onboarding
@@ -2585,6 +2585,7 @@
   - Secret Scanning
     * [Secret Scanning](rest/secret-scanning/secret-scanning.md)
   - Security Advisories
+    * [Global Security Advisories](rest/security-advisories/global-advisories.md)
     * [Security Advisories](rest/security-advisories/index.md)
     * [Repository Security Advisories](rest/security-advisories/repository-advisories.md)
   - Teams
