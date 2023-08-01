@@ -1212,6 +1212,7 @@
     * [Enabling Security Features For Multiple Repositories](code-security/security-overview/enabling-security-features-for-multiple-repositories.md)
     * [Filtering Alerts In Security Overview](code-security/security-overview/filtering-alerts-in-security-overview.md)
     * [Viewing Security Alerts For Repositories In Your Organization](code-security/security-overview/index.md)
+    * [Viewing Metrics For Secret Scanning Push Protection In Your Organization](code-security/security-overview/viewing-metrics-for-secret-scanning-push-protection-in-your-organization.md)
   - Supply Chain Security
     - End To End Supply Chain
       * [Securing Your End To End Supply Chain](code-security/supply-chain-security/end-to-end-supply-chain/end-to-end-supply-chain-overview.md)
@@ -1397,6 +1398,7 @@
     * [Collaborating On Git Hub Docs](contributing/collaborating-on-github-docs/index.md)
     * [Label Reference](contributing/collaborating-on-github-docs/label-reference.md)
     * [Using Git On Git Hub Docs](contributing/collaborating-on-github-docs/using-git-on-github-docs.md)
+    * [Using The Content Linter](contributing/collaborating-on-github-docs/using-the-content-linter.md)
     * [Using The TODOCS Placeholder To Leave Notes](contributing/collaborating-on-github-docs/using-the-todocs-placeholder-to-leave-notes.md)
   - Setting Up Your Environment To Work On Github Docs
     * [Creating A Local Environment](contributing/setting-up-your-environment-to-work-on-github-docs/creating-a-local-environment.md)
