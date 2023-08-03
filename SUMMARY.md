@@ -227,13 +227,13 @@
       * [Migrating From Jenkins With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-jenkins-with-github-actions-importer.md)
       * [Migrating From Travis CI With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-travis-ci-with-github-actions-importer.md)
       * [Supplemental Arguments And Settings](actions/migrating-to-github-actions/automated-migrations/supplemental-arguments-and-settings.md)
-    - Manual Migrations
-      * [Manually Migrating To Git Hub Actions](actions/migrating-to-github-actions/manual-migrations/index.md)
-      * [Migrating From Azure Pipelines To Git Hub Actions](actions/migrating-to-github-actions/manual-migrations/migrating-from-azure-pipelines-to-github-actions.md)
-      * [Migrating From Circle CI To Git Hub Actions](actions/migrating-to-github-actions/manual-migrations/migrating-from-circleci-to-github-actions.md)
-      * [Migrating From Git Lab CI CD To Git Hub Actions](actions/migrating-to-github-actions/manual-migrations/migrating-from-gitlab-cicd-to-github-actions.md)
-      * [Migrating From Jenkins To Git Hub Actions](actions/migrating-to-github-actions/manual-migrations/migrating-from-jenkins-to-github-actions.md)
-      * [Migrating From Travis CI To Git Hub Actions](actions/migrating-to-github-actions/manual-migrations/migrating-from-travis-ci-to-github-actions.md)
+    - Manually Migrating To Github Actions
+      * [Manually Migrating To Git Hub Actions](actions/migrating-to-github-actions/manually-migrating-to-github-actions/index.md)
+      * [Migrating From Azure Pipelines To Git Hub Actions](actions/migrating-to-github-actions/manually-migrating-to-github-actions/migrating-from-azure-pipelines-to-github-actions.md)
+      * [Migrating From Circle CI To Git Hub Actions](actions/migrating-to-github-actions/manually-migrating-to-github-actions/migrating-from-circleci-to-github-actions.md)
+      * [Migrating From Git Lab CI CD To Git Hub Actions](actions/migrating-to-github-actions/manually-migrating-to-github-actions/migrating-from-gitlab-cicd-to-github-actions.md)
+      * [Migrating From Jenkins To Git Hub Actions](actions/migrating-to-github-actions/manually-migrating-to-github-actions/migrating-from-jenkins-to-github-actions.md)
+      * [Migrating From Travis CI To Git Hub Actions](actions/migrating-to-github-actions/manually-migrating-to-github-actions/migrating-from-travis-ci-to-github-actions.md)
     * [Migrating To Git Hub Actions](actions/migrating-to-github-actions/index.md)
   - Monitoring And Troubleshooting Workflows
     * [About Monitoring And Troubleshooting](actions/monitoring-and-troubleshooting-workflows/about-monitoring-and-troubleshooting.md)
@@ -1312,6 +1312,7 @@
       * [Setting up a C# (.NET) project for GitHub Codespaces](codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-dotnet-project-for-codespaces.md)
       * [Setting Up A Java Project For Git Hub Codespaces](codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-java-project-for-codespaces.md)
       * [Setting up a Node.js project for GitHub Codespaces](codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-nodejs-project-for-codespaces.md)
+      * [Setting Up A PHP Project For Git Hub Codespaces](codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-php-project-for-codespaces.md)
       * [Setting Up A Python Project For Git Hub Codespaces](codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-python-project-for-codespaces.md)
     - Configuring Dev Containers
       * [Adding features to a devcontainer.json file](codespaces/setting-up-your-project-for-codespaces/configuring-dev-containers/adding-features-to-a-devcontainer-file.md)
@@ -1410,6 +1411,7 @@
     * [Creating Tool Switchers In Articles](contributing/syntax-and-versioning-for-github-docs/creating-tool-switchers-in-articles.md)
     * [Syntax And Versioning For Git Hub Docs](contributing/syntax-and-versioning-for-github-docs/index.md)
     * [Using Markdown And Liquid In Git Hub Docs](contributing/syntax-and-versioning-for-github-docs/using-markdown-and-liquid-in-github-docs.md)
+    * [Versioning Documentation](contributing/syntax-and-versioning-for-github-docs/versioning-documentation.md)
   - Writing For Github Docs
     * [About Git Hub S Documentation Philosophy](contributing/writing-for-github-docs/about-githubs-documentation-philosophy.md)
     * [Content Design Principles](contributing/writing-for-github-docs/content-design-principles.md)
