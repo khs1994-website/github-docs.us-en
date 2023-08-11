@@ -1431,6 +1431,7 @@
     * [Configuring Git Hub Copilot In Your Environment](copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment.md)
     * [Configuring Git Hub Copilot Settings In Your Organization](copilot/configuring-github-copilot/configuring-github-copilot-settings-in-your-organization.md)
     * [Configuring GitHub Copilot settings on GitHub.com](copilot/configuring-github-copilot/configuring-github-copilot-settings-on-githubcom.md)
+    * [Configuring Network Settings For Git Hub Copilot](copilot/configuring-github-copilot/configuring-network-settings-for-github-copilot.md)
     * [Configuring Git Hub Copilot](copilot/configuring-github-copilot/index.md)
   - Github Copilot Chat
     * [About Git Hub Copilot Chat](copilot/github-copilot-chat/about-github-copilot-chat.md)
@@ -1444,10 +1445,10 @@
   - Troubleshooting Github Copilot
     * [Troubleshooting Git Hub Copilot](copilot/troubleshooting-github-copilot/index.md)
     * [Troubleshooting Authentication Issues With Git Hub Copilot Chat](copilot/troubleshooting-github-copilot/troubleshooting-authentication-issues-with-github-copilot-chat.md)
-    * [Troubleshooting Certificate Errors For Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-certificate-errors-for-github-copilot.md)
     * [Troubleshooting Common Issues With Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-common-issues-with-github-copilot.md)
     * [Troubleshooting Firewall Settings For Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-firewall-settings-for-github-copilot.md)
-    * [Troubleshooting Git Hub Copilot In Your Environment](copilot/troubleshooting-github-copilot/troubleshooting-github-copilot-in-your-environment.md)
+    * [Troubleshooting Network Errors For Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-network-errors-for-github-copilot.md)
+    * [Viewing Logs For Git Hub Copilot In Your Environment](copilot/troubleshooting-github-copilot/viewing-logs-for-github-copilot-in-your-environment.md)
   * [Getting Started With Git Hub Copilot](copilot/getting-started-with-github-copilot.md)
   * [Git Hub Copilot Documentation](copilot/index.md)
   * [Quickstart For Git Hub Copilot](copilot/quickstart.md)
