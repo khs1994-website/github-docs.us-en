@@ -1413,6 +1413,7 @@
     * [Creating Tool Switchers In Articles](contributing/syntax-and-versioning-for-github-docs/creating-tool-switchers-in-articles.md)
     * [Syntax And Versioning For Git Hub Docs](contributing/syntax-and-versioning-for-github-docs/index.md)
     * [Using Markdown And Liquid In Git Hub Docs](contributing/syntax-and-versioning-for-github-docs/using-markdown-and-liquid-in-github-docs.md)
+    * [Using YAML Frontmatter](contributing/syntax-and-versioning-for-github-docs/using-yaml-frontmatter.md)
     * [Versioning Documentation](contributing/syntax-and-versioning-for-github-docs/versioning-documentation.md)
   - Writing For Github Docs
     * [About Git Hub S Documentation Philosophy](contributing/writing-for-github-docs/about-githubs-documentation-philosophy.md)
