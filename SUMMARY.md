@@ -1473,6 +1473,7 @@
       * [Viewing The Branch History In Git Hub Desktop](desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/viewing-the-branch-history-in-github-desktop.md)
     - Managing Commits
       * [Amending A Commit In Git Hub Desktop](desktop/contributing-and-collaborating-using-github-desktop/managing-commits/amending-a-commit-in-github-desktop.md)
+      * [Checking Out A Commit In Git Hub Desktop](desktop/contributing-and-collaborating-using-github-desktop/managing-commits/checking-out-a-commit-in-github-desktop.md)
       * [Cherry Picking A Commit In Git Hub Desktop](desktop/contributing-and-collaborating-using-github-desktop/managing-commits/cherry-picking-a-commit-in-github-desktop.md)
       * [Managing Commits](desktop/contributing-and-collaborating-using-github-desktop/managing-commits/index.md)
       * [Managing Tags In Git Hub Desktop](desktop/contributing-and-collaborating-using-github-desktop/managing-commits/managing-tags-in-github-desktop.md)
