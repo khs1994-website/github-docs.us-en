@@ -847,6 +847,7 @@
     * [Deleted Or Missing SSH Keys](authentication/troubleshooting-ssh/deleted-or-missing-ssh-keys.md)
     * [Error Agent Admitted Failure To Sign](authentication/troubleshooting-ssh/error-agent-admitted-failure-to-sign.md)
     * [Error Bad File Number](authentication/troubleshooting-ssh/error-bad-file-number.md)
+    * [Error Host Key Verification Failed](authentication/troubleshooting-ssh/error-host-key-verification-failed.md)
     * [Error Key Already In Use](authentication/troubleshooting-ssh/error-key-already-in-use.md)
     * [Error Permission Denied Publickey](authentication/troubleshooting-ssh/error-permission-denied-publickey.md)
     * [Error Permission To User Repo Denied To Other User](authentication/troubleshooting-ssh/error-permission-to-userrepo-denied-to-other-user.md)
