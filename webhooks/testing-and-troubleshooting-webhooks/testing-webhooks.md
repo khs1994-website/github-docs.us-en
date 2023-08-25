@@ -6,6 +6,9 @@ redirect_from:
   - /developers/webhooks-and-events/testing-webhooks
   - /articles/testing-webhooks
   - /developers/webhooks-and-events/webhooks/testing-webhooks
+  - /webhooks-and-events/webhooks/testing-webhooks
+  - /webhooks/webhooks/testing-webhooks
+  - /webhooks/testing-webhooks
 versions:
   fpt: '*'
   ghes: '*'
