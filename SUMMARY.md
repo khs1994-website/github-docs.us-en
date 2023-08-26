@@ -1024,14 +1024,14 @@
       * [Two Code QL Workflows](code-security/code-scanning/troubleshooting-code-scanning/two-codeql-workflows.md)
       * [Unclear What Triggered A Workflow Run](code-security/code-scanning/troubleshooting-code-scanning/unclear-what-triggered-a-workflow-run.md)
       * [Warning 1 Issue Was Detected With This Workflow Git Checkout HEAD 2 Is No Longer Necessary](code-security/code-scanning/troubleshooting-code-scanning/unnecessary-step-found.md)
-    - Troubleshooting Sarif
-      * [Upload was rejected because CodeQL default setup is enabled for {% data variables.product.prodname_code_scanning %}](code-security/code-scanning/troubleshooting-sarif/default-setup-enabled.md)
-      * [SARIF Results File Is Too Large](code-security/code-scanning/troubleshooting-sarif/file-too-large.md)
-      * [Upload Fails Because Git Hub Advanced Security Is Disabled](code-security/code-scanning/troubleshooting-sarif/ghas-required.md)
-      * [Troubleshooting SARIF Uploads](code-security/code-scanning/troubleshooting-sarif/index.md)
-      * [Git Hub Token Is Required To Upload SARIF Results](code-security/code-scanning/troubleshooting-sarif/missing-token.md)
-      * [SARIF Results Exceed One Or More Limits](code-security/code-scanning/troubleshooting-sarif/results-exceed-limit.md)
-      * [SARIF File Is Invalid](code-security/code-scanning/troubleshooting-sarif/sarif-invalid.md)
+    - Troubleshooting Sarif Uploads
+      * [Upload was rejected because CodeQL default setup is enabled for {% data variables.product.prodname_code_scanning %}](code-security/code-scanning/troubleshooting-sarif-uploads/default-setup-enabled.md)
+      * [SARIF Results File Is Too Large](code-security/code-scanning/troubleshooting-sarif-uploads/file-too-large.md)
+      * [Upload Fails Because Git Hub Advanced Security Is Disabled](code-security/code-scanning/troubleshooting-sarif-uploads/ghas-required.md)
+      * [Troubleshooting SARIF Uploads](code-security/code-scanning/troubleshooting-sarif-uploads/index.md)
+      * [Git Hub Token Is Required To Upload SARIF Results](code-security/code-scanning/troubleshooting-sarif-uploads/missing-token.md)
+      * [SARIF Results Exceed One Or More Limits](code-security/code-scanning/troubleshooting-sarif-uploads/results-exceed-limit.md)
+      * [SARIF File Is Invalid](code-security/code-scanning/troubleshooting-sarif-uploads/sarif-invalid.md)
     - Using Codeql Code Scanning With Your Existing Ci System
       * [About Code QL Code Scanning In Your CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/about-codeql-code-scanning-in-your-ci-system.md)
       * [Configuring Code QL CLI In Your CI System](code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/configuring-codeql-cli-in-your-ci-system.md)
