@@ -559,10 +559,12 @@
       * [About Cluster Nodes](admin/monitoring-managing-and-updating-your-instance/configuring-clustering/about-cluster-nodes.md)
       * [About Clustering](admin/monitoring-managing-and-updating-your-instance/configuring-clustering/about-clustering.md)
       * [Cluster Network Configuration](admin/monitoring-managing-and-updating-your-instance/configuring-clustering/cluster-network-configuration.md)
+      * [Configuring High Availability Replication For A Cluster](admin/monitoring-managing-and-updating-your-instance/configuring-clustering/configuring-high-availability-replication-for-a-cluster.md)
       * [Differences Between Clustering And High Availability HA](admin/monitoring-managing-and-updating-your-instance/configuring-clustering/differences-between-clustering-and-high-availability-ha.md)
       * [Evacuating A Cluster Node Running Data Services](admin/monitoring-managing-and-updating-your-instance/configuring-clustering/evacuating-a-cluster-node-running-data-services.md)
       * [Configuring Clustering](admin/monitoring-managing-and-updating-your-instance/configuring-clustering/index.md)
       * [Initializing The Cluster](admin/monitoring-managing-and-updating-your-instance/configuring-clustering/initializing-the-cluster.md)
+      * [Initiating A Failover To Your Replica Cluster](admin/monitoring-managing-and-updating-your-instance/configuring-clustering/initiating-a-failover-to-your-replica-cluster.md)
       * [Monitoring The Health Of Your Cluster Nodes With Node Eligibility Service](admin/monitoring-managing-and-updating-your-instance/configuring-clustering/monitoring-the-health-of-your-cluster-nodes-with-node-eligibility-service.md)
       * [Monitoring The Health Of Your Cluster](admin/monitoring-managing-and-updating-your-instance/configuring-clustering/monitoring-the-health-of-your-cluster.md)
       * [Rebalancing Cluster Workloads](admin/monitoring-managing-and-updating-your-instance/configuring-clustering/rebalancing-cluster-workloads.md)
@@ -906,6 +908,7 @@
     * [About Billing For Git Hub Sponsors](billing/managing-billing-for-github-sponsors/about-billing-for-github-sponsors.md)
     * [Downgrading A Sponsorship](billing/managing-billing-for-github-sponsors/downgrading-a-sponsorship.md)
     * [Managing Billing For Git Hub Sponsors](billing/managing-billing-for-github-sponsors/index.md)
+    * [Setting An End Date To A Sponsorship](billing/managing-billing-for-github-sponsors/setting-an-end-date-to-a-sponsorship.md)
     * [Upgrading A Sponsorship](billing/managing-billing-for-github-sponsors/upgrading-a-sponsorship.md)
   - Managing Licenses For Visual Studio Subscriptions With Github Enterprise
     * [About Visual Studio Subscriptions With Git Hub Enterprise](billing/managing-licenses-for-visual-studio-subscriptions-with-github-enterprise/about-visual-studio-subscriptions-with-github-enterprise.md)
@@ -1684,6 +1687,7 @@
     * [Pushing Commits To A Remote Repository](get-started/using-git/pushing-commits-to-a-remote-repository.md)
     * [Resolving Merge Conflicts After A Git Rebase](get-started/using-git/resolving-merge-conflicts-after-a-git-rebase.md)
     * [Splitting A Subfolder Out Into A New Repository](get-started/using-git/splitting-a-subfolder-out-into-a-new-repository.md)
+    * [Troubleshooting The 2 GB Push Limit](get-started/using-git/troubleshooting-the-2-gb-push-limit.md)
     * [Using Git Rebase On The Command Line](get-started/using-git/using-git-rebase-on-the-command-line.md)
   - Using Github
     * [Allowing Access To Git Hub S Services From A Restricted Network](get-started/using-github/allowing-access-to-githubs-services-from-a-restricted-network.md)
