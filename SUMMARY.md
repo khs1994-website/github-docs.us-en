@@ -1225,7 +1225,7 @@
     * [Assessing Your Code Security Risk](code-security/security-overview/assessing-code-security-risk.md)
     * [Enabling Security Features For Multiple Repositories](code-security/security-overview/enabling-security-features-for-multiple-repositories.md)
     * [Filtering Alerts In Security Overview](code-security/security-overview/filtering-alerts-in-security-overview.md)
-    * [Viewing Security Alerts For Repositories In Your Organization](code-security/security-overview/index.md)
+    * [Viewing Security Information For Your Organization Or Enterprise](code-security/security-overview/index.md)
     * [Viewing Metrics For Secret Scanning Push Protection In Your Organization](code-security/security-overview/viewing-metrics-for-secret-scanning-push-protection-in-your-organization.md)
   - Supply Chain Security
     - End To End Supply Chain
@@ -2809,6 +2809,7 @@
     * [Testing Webhooks](webhooks/testing-and-troubleshooting-webhooks/testing-webhooks.md)
     * [Viewing Webhook Deliveries](webhooks/testing-and-troubleshooting-webhooks/viewing-webhook-deliveries.md)
   - Using Webhooks
+    * [Best Practices For Using Webhooks](webhooks/using-webhooks/best-practices-for-using-webhooks.md)
     * [Configuring Your Server To Receive Payloads](webhooks/using-webhooks/configuring-your-server-to-receive-payloads.md)
     * [Creating Webhooks](webhooks/using-webhooks/creating-webhooks.md)
     * [Using Webhooks](webhooks/using-webhooks/index.md)
