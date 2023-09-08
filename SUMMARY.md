@@ -1246,7 +1246,6 @@
       * [Troubleshooting The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/troubleshooting-the-dependency-graph.md)
       * [Using The Dependency Submission API](code-security/supply-chain-security/understanding-your-software-supply-chain/using-the-dependency-submission-api.md)
     * [Securing Your Software Supply Chain](code-security/supply-chain-security/index.md)
-  * [Guides For Code Security](code-security/guides.md)
   * [Code Security Documentation](code-security/index.md)
 - Codespaces
   - Codespaces Reference
@@ -1445,7 +1444,6 @@
 - Copilot
   - Configuring Github Copilot
     * [Configuring Git Hub Copilot In Your Environment](copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment.md)
-    * [Configuring Git Hub Copilot Settings In Your Organization](copilot/configuring-github-copilot/configuring-github-copilot-settings-in-your-organization.md)
     * [Configuring GitHub Copilot settings on GitHub.com](copilot/configuring-github-copilot/configuring-github-copilot-settings-on-githubcom.md)
     * [Configuring Network Settings For Git Hub Copilot](copilot/configuring-github-copilot/configuring-network-settings-for-github-copilot.md)
     * [Configuring Git Hub Copilot](copilot/configuring-github-copilot/index.md)
@@ -1453,10 +1451,14 @@
     * [About Git Hub Copilot Chat](copilot/github-copilot-chat/about-github-copilot-chat.md)
     * [Git Hub Copilot Chat](copilot/github-copilot-chat/index.md)
     * [Using Git Hub Copilot Chat](copilot/github-copilot-chat/using-github-copilot-chat.md)
+  - Managing Copilot For Business
+    * [Enabling And Setting Up Git Hub Copilot For Business](copilot/managing-copilot-for-business/enabling-and-setting-up-github-copilot-for-business.md)
+    * [Managing Copilot For Business](copilot/managing-copilot-for-business/index.md)
+    * [Managing Access For Copilot For Business In Your Organization](copilot/managing-copilot-for-business/managing-access-for-copilot-for-business-in-your-organization.md)
+    * [Managing Policies For Copilot For Business In Your Organization](copilot/managing-copilot-for-business/managing-policies-for-copilot-for-business-in-your-organization.md)
   - Overview Of Github Copilot
     * [About Git Hub Copilot For Business](copilot/overview-of-github-copilot/about-github-copilot-for-business.md)
     * [About Git Hub Copilot For Individuals](copilot/overview-of-github-copilot/about-github-copilot-for-individuals.md)
-    * [Enabling And Setting Up Git Hub Copilot For Business](copilot/overview-of-github-copilot/enabling-and-setting-up-github-copilot-for-business.md)
     * [Overview Of Git Hub Copilot](copilot/overview-of-github-copilot/index.md)
   - Troubleshooting Github Copilot
     * [Troubleshooting Git Hub Copilot](copilot/troubleshooting-github-copilot/index.md)
@@ -2509,7 +2511,7 @@
   - Gitignore
     * [Gitignore](rest/gitignore/index.md)
   - Guides
-    * [Best Practices For Integrators](rest/guides/best-practices-for-integrators.md)
+    * [Best Practices For Using The REST API](rest/guides/best-practices-for-using-the-rest-api.md)
     * [Building A CI Server](rest/guides/building-a-ci-server.md)
     * [Delivering Deployments](rest/guides/delivering-deployments.md)
     * [Discovering Resources For A User](rest/guides/discovering-resources-for-a-user.md)
