@@ -1024,6 +1024,7 @@
       * [Results Are Different Than Expected](code-security/code-scanning/troubleshooting-code-scanning/results-are-different-than-expected.md)
       * [Results Differ Between Platforms](code-security/code-scanning/troubleshooting-code-scanning/results-differ-between-platforms.md)
       * [Error Server Error](code-security/code-scanning/troubleshooting-code-scanning/server-error.md)
+      * [Some Languages Were Not Analyzed With Code QL Advanced Setup](code-security/code-scanning/troubleshooting-code-scanning/some-languages-were-not-analyzed.md)
       * [Two Code QL Workflows](code-security/code-scanning/troubleshooting-code-scanning/two-codeql-workflows.md)
       * [Unclear What Triggered A Workflow Run](code-security/code-scanning/troubleshooting-code-scanning/unclear-what-triggered-a-workflow-run.md)
       * [Warning 1 Issue Was Detected With This Workflow Git Checkout HEAD 2 Is No Longer Necessary](code-security/code-scanning/troubleshooting-code-scanning/unnecessary-step-found.md)
@@ -1163,6 +1164,7 @@
     - Working With Dependabot
       * [Automating Dependabot With Git Hub Actions](code-security/dependabot/working-with-dependabot/automating-dependabot-with-github-actions.md)
       * [Configuring Access To Private Registries For Dependabot](code-security/dependabot/working-with-dependabot/configuring-access-to-private-registries-for-dependabot.md)
+      * [Guidance For The Configuration Of Private Registries For Dependabot](code-security/dependabot/working-with-dependabot/guidance-for-the-configuration-of-private-registries-for-dependabot.md)
       * [Working With Dependabot](code-security/dependabot/working-with-dependabot/index.md)
       * [Keeping Your Actions Up To Date With Dependabot](code-security/dependabot/working-with-dependabot/keeping-your-actions-up-to-date-with-dependabot.md)
       * [Managing Pull Requests For Dependency Updates](code-security/dependabot/working-with-dependabot/managing-pull-requests-for-dependency-updates.md)
