@@ -2810,12 +2810,14 @@
   - Testing And Troubleshooting Webhooks
     * [Testing And Troubleshooting Webhooks](webhooks/testing-and-troubleshooting-webhooks/index.md)
     * [Receiving Webhooks With The Git Hub CLI](webhooks/testing-and-troubleshooting-webhooks/receiving-webhooks-with-the-github-cli.md)
+    * [Redelivering Webhooks](webhooks/testing-and-troubleshooting-webhooks/redelivering-webhooks.md)
     * [Testing Webhooks](webhooks/testing-and-troubleshooting-webhooks/testing-webhooks.md)
     * [Viewing Webhook Deliveries](webhooks/testing-and-troubleshooting-webhooks/viewing-webhook-deliveries.md)
   - Using Webhooks
     * [Best Practices For Using Webhooks](webhooks/using-webhooks/best-practices-for-using-webhooks.md)
-    * [Configuring Your Server To Receive Payloads](webhooks/using-webhooks/configuring-your-server-to-receive-payloads.md)
     * [Creating Webhooks](webhooks/using-webhooks/creating-webhooks.md)
+    * [Disabling Webhooks](webhooks/using-webhooks/disabling-webhooks.md)
+    * [Handling Webhook Deliveries](webhooks/using-webhooks/handling-webhook-deliveries.md)
     * [Using Webhooks](webhooks/using-webhooks/index.md)
     * [Securing Your Webhooks](webhooks/using-webhooks/securing-your-webhooks.md)
   * [About Webhooks For Repositories](webhooks/about-webhooks-for-repositories.md)
