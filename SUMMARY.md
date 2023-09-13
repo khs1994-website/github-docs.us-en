@@ -306,11 +306,21 @@
   * [Quickstart For Git Hub Actions](actions/quickstart.md)
 - Admin
   - Administering Your Instance
-    * [Accessing The Administrative Shell SSH](admin/administering-your-instance/accessing-the-administrative-shell-ssh.md)
-    * [Command Line Utilities](admin/administering-your-instance/command-line-utilities.md)
-    * [Enabling And Scheduling Maintenance Mode](admin/administering-your-instance/enabling-and-scheduling-maintenance-mode.md)
+    - Administering Your Instance From The Command Line
+      * [Accessing The Administrative Shell SSH](admin/administering-your-instance/administering-your-instance-from-the-command-line/accessing-the-administrative-shell-ssh.md)
+      * [Command Line Utilities](admin/administering-your-instance/administering-your-instance-from-the-command-line/command-line-utilities.md)
+      * [Administering Your Instance From The Command Line](admin/administering-your-instance/administering-your-instance-from-the-command-line/index.md)
+    - Administering Your Instance From The Web Ui
+      * [About The Management Console](admin/administering-your-instance/administering-your-instance-from-the-web-ui/about-the-management-console.md)
+      * [Accessing The Management Console](admin/administering-your-instance/administering-your-instance-from-the-web-ui/accessing-the-management-console.md)
+      * [Administering Your Instance From The Web UI](admin/administering-your-instance/administering-your-instance-from-the-web-ui/index.md)
+      * [Managing Access To The Management Console](admin/administering-your-instance/administering-your-instance-from-the-web-ui/managing-access-to-the-management-console.md)
+      * [Site Admin Dashboard](admin/administering-your-instance/administering-your-instance-from-the-web-ui/site-admin-dashboard.md)
+      * [Troubleshooting Access To The Management Console](admin/administering-your-instance/administering-your-instance-from-the-web-ui/troubleshooting-access-to-the-management-console.md)
+    - Configuring Maintenance Mode
+      * [Enabling And Scheduling Maintenance Mode](admin/administering-your-instance/configuring-maintenance-mode/enabling-and-scheduling-maintenance-mode.md)
+      * [Configuring Maintenance Mode](admin/administering-your-instance/configuring-maintenance-mode/index.md)
     * [Administering Your Instance](admin/administering-your-instance/index.md)
-    * [Site Admin Dashboard](admin/administering-your-instance/site-admin-dashboard.md)
   - Backing Up And Restoring Your Instance
     * [Configuring Backups On Your Instance](admin/backing-up-and-restoring-your-instance/configuring-backups-on-your-instance.md)
     * [Backing Up And Restoring Your Instance](admin/backing-up-and-restoring-your-instance/index.md)
@@ -331,12 +341,6 @@
       * [Viewing The Vulnerability Data For Your Enterprise](admin/code-security/managing-supply-chain-security-for-your-enterprise/viewing-the-vulnerability-data-for-your-enterprise.md)
     * [Managing Code Security For Your Enterprise](admin/code-security/index.md)
   - Configuration
-    - Administering Your Instance From The Management Console
-      * [About The Management Console](admin/configuration/administering-your-instance-from-the-management-console/about-the-management-console.md)
-      * [Accessing The Management Console](admin/configuration/administering-your-instance-from-the-management-console/accessing-the-management-console.md)
-      * [Administering Your Instance From The Management Console](admin/configuration/administering-your-instance-from-the-management-console/index.md)
-      * [Managing Access To The Management Console](admin/configuration/administering-your-instance-from-the-management-console/managing-access-to-the-management-console.md)
-      * [Troubleshooting Access To The Management Console](admin/configuration/administering-your-instance-from-the-management-console/troubleshooting-access-to-the-management-console.md)
     - Configuring Github Connect
       * [About Git Hub Connect](admin/configuration/configuring-github-connect/about-github-connect.md)
       * [Enabling Automatic User License Sync For Your Enterprise](admin/configuration/configuring-github-connect/enabling-automatic-user-license-sync-for-your-enterprise.md)
@@ -529,6 +533,7 @@
     - Analyzing How Your Team Works With Server Statistics
       * [About Server Statistics](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/about-server-statistics.md)
       * [Exporting Server Statistics](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/exporting-server-statistics.md)
+      * [Including Data About Git Hub Actions In Server Statistics](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/including-data-about-github-actions-in-server-statistics.md)
       * [Analyzing How Your Team Works With Server Statistics](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/index.md)
       * [Requesting Server Statistics Using The REST API](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/requesting-server-statistics-using-the-rest-api.md)
     - Exploring User Activity In Your Enterprise
@@ -579,15 +584,15 @@
       * [Monitoring A High Availability Configuration](admin/monitoring-managing-and-updating-your-instance/configuring-high-availability/monitoring-a-high-availability-configuration.md)
       * [Recovering A High Availability Configuration](admin/monitoring-managing-and-updating-your-instance/configuring-high-availability/recovering-a-high-availability-configuration.md)
       * [Removing A High Availability Replica](admin/monitoring-managing-and-updating-your-instance/configuring-high-availability/removing-a-high-availability-replica.md)
-    - Monitoring Your Appliance
-      * [About System Logs](admin/monitoring-managing-and-updating-your-instance/monitoring-your-appliance/about-system-logs.md)
-      * [Accessing The Monitor Dashboard](admin/monitoring-managing-and-updating-your-instance/monitoring-your-appliance/accessing-the-monitor-dashboard.md)
-      * [Configuring Collectd](admin/monitoring-managing-and-updating-your-instance/monitoring-your-appliance/configuring-collectd.md)
-      * [Generating A Health Check For Your Enterprise](admin/monitoring-managing-and-updating-your-instance/monitoring-your-appliance/generating-a-health-check-for-your-enterprise.md)
-      * [Monitoring Your Appliance](admin/monitoring-managing-and-updating-your-instance/monitoring-your-appliance/index.md)
-      * [Monitoring Using SNMP](admin/monitoring-managing-and-updating-your-instance/monitoring-your-appliance/monitoring-using-snmp.md)
-      * [Recommended Alert Thresholds](admin/monitoring-managing-and-updating-your-instance/monitoring-your-appliance/recommended-alert-thresholds.md)
-      * [Setting Up External Monitoring](admin/monitoring-managing-and-updating-your-instance/monitoring-your-appliance/setting-up-external-monitoring.md)
+    - Monitoring Your Instance
+      * [About System Logs](admin/monitoring-managing-and-updating-your-instance/monitoring-your-instance/about-system-logs.md)
+      * [Accessing The Monitor Dashboard](admin/monitoring-managing-and-updating-your-instance/monitoring-your-instance/accessing-the-monitor-dashboard.md)
+      * [Configuring Collectd](admin/monitoring-managing-and-updating-your-instance/monitoring-your-instance/configuring-collectd.md)
+      * [Generating A Health Check For Your Enterprise](admin/monitoring-managing-and-updating-your-instance/monitoring-your-instance/generating-a-health-check-for-your-enterprise.md)
+      * [Monitoring Your Instance](admin/monitoring-managing-and-updating-your-instance/monitoring-your-instance/index.md)
+      * [Monitoring Using SNMP](admin/monitoring-managing-and-updating-your-instance/monitoring-your-instance/monitoring-using-snmp.md)
+      * [Recommended Alert Thresholds](admin/monitoring-managing-and-updating-your-instance/monitoring-your-instance/recommended-alert-thresholds.md)
+      * [Setting Up External Monitoring](admin/monitoring-managing-and-updating-your-instance/monitoring-your-instance/setting-up-external-monitoring.md)
     - Updating The Virtual Machine And Physical Resources
       * [Enabling Automatic Update Checks](admin/monitoring-managing-and-updating-your-instance/updating-the-virtual-machine-and-physical-resources/enabling-automatic-update-checks.md)
       * [Increasing CPU Or Memory Resources](admin/monitoring-managing-and-updating-your-instance/updating-the-virtual-machine-and-physical-resources/increasing-cpu-or-memory-resources.md)
@@ -631,6 +636,7 @@
       * [Enforcing Policies For Git Hub Actions In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise.md)
       * [Enforcing Policies For Git Hub Codespaces In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-codespaces-in-your-enterprise.md)
       * [Enforcing Policies For Git Hub Copilot In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-copilot-in-your-enterprise.md)
+      * [Enforcing Policies For Git Hub Sponsors In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-sponsors-in-your-enterprise.md)
       * [Enforcing Policies For Personal Access Tokens In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-personal-access-tokens-in-your-enterprise.md)
       * [Enforcing Policies For Projects In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-projects-in-your-enterprise.md)
       * [Enforcing Policies For Security Settings In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-security-settings-in-your-enterprise.md)
@@ -643,7 +649,7 @@
       * [Creating A Pre Receive Hook Environment](admin/policies/enforcing-policy-with-pre-receive-hooks/creating-a-pre-receive-hook-environment.md)
       * [Creating A Pre Receive Hook Script](admin/policies/enforcing-policy-with-pre-receive-hooks/creating-a-pre-receive-hook-script.md)
       * [Enforcing Policy With Pre Receive Hooks](admin/policies/enforcing-policy-with-pre-receive-hooks/index.md)
-      * [Managing Pre Receive Hooks On The Git Hub Enterprise Server Appliance](admin/policies/enforcing-policy-with-pre-receive-hooks/managing-pre-receive-hooks-on-the-github-enterprise-server-appliance.md)
+      * [Managing Pre Receive Hooks On Your Instance](admin/policies/enforcing-policy-with-pre-receive-hooks/managing-pre-receive-hooks-on-your-instance.md)
     * [Setting Policies For Your Enterprise](admin/policies/index.md)
   * [Git Hub Enterprise Server Releases](admin/all-releases.md)
   * [Guides For Git Hub Enterprise](admin/guides.md)
@@ -1226,6 +1232,7 @@
     * [Assessing Adoption Of Code Security Features](code-security/security-overview/assessing-adoption-code-security.md)
     * [Assessing Your Code Security Risk](code-security/security-overview/assessing-code-security-risk.md)
     * [Enabling Security Features For Multiple Repositories](code-security/security-overview/enabling-security-features-for-multiple-repositories.md)
+    * [Exporting Data From The Risk And Coverage Pages](code-security/security-overview/exporting-data-from-the-risk-and-coverage-pages.md)
     * [Filtering Alerts In Security Overview](code-security/security-overview/filtering-alerts-in-security-overview.md)
     * [Viewing Security Information For Your Organization Or Enterprise](code-security/security-overview/index.md)
     * [Viewing Metrics For Secret Scanning Push Protection In Your Organization](code-security/security-overview/viewing-metrics-for-secret-scanning-push-protection-in-your-organization.md)
@@ -2331,7 +2338,7 @@
       * [Licensing A Repository](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository.md)
     - Enabling Features For Your Repository
       * [Disabling Issues](repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/disabling-issues.md)
-      * [Disabling {% data variables.projects.projects_v1_boards %} in a repository](repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/disabling-project-boards-in-a-repository.md)
+      * [Disabling Projects In A Repository](repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/disabling-projects-in-a-repository.md)
       * [Enabling Or Disabling Git Hub Discussions For A Repository](repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/enabling-or-disabling-github-discussions-for-a-repository.md)
       * [Enabling Features For Your Repository](repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/index.md)
       * [Managing Git Hub Actions Settings For A Repository](repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository.md)
