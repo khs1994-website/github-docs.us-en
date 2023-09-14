@@ -2448,6 +2448,8 @@
     * [Checks](rest/checks/index.md)
     * [Check Runs](rest/checks/runs.md)
     * [Check Suites](rest/checks/suites.md)
+  - Classroom
+    * [Classroom](rest/classroom/index.md)
   - Code Scanning
     * [Code Scanning](rest/code-scanning/index.md)
   - Codes Of Conduct
