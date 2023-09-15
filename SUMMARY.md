@@ -1465,6 +1465,7 @@
     * [Managing Copilot For Business](copilot/managing-copilot-for-business/index.md)
     * [Managing Access For Copilot For Business In Your Organization](copilot/managing-copilot-for-business/managing-access-for-copilot-for-business-in-your-organization.md)
     * [Managing Policies For Copilot For Business In Your Organization](copilot/managing-copilot-for-business/managing-policies-for-copilot-for-business-in-your-organization.md)
+    * [Reviewing Your Organization Ifversion Ghec Or Enterprise Endif S Audit Logs For Copilot For Business](copilot/managing-copilot-for-business/reviewing-your-organization-or-enterprises-audit-logs-for-copilot-for-business.md)
   - Overview Of Github Copilot
     * [About Git Hub Copilot For Business](copilot/overview-of-github-copilot/about-github-copilot-for-business.md)
     * [About Git Hub Copilot For Individuals](copilot/overview-of-github-copilot/about-github-copilot-for-individuals.md)
