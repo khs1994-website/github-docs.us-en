@@ -1924,6 +1924,7 @@
     * [About Git Hub S Migration Tooling](migrations/overview/about-githubs-migration-tooling.md)
     * [About Locked Repositories](migrations/overview/about-locked-repositories.md)
     * [Overview](migrations/overview/index.md)
+    * [Migration Paths To Git Hub](migrations/overview/migration-paths-to-github.md)
     * [Planning Your Migration To Git Hub](migrations/overview/planning-your-migration-to-github.md)
   - Using Ghe Migrator
     * [About Ghe Migrator](migrations/using-ghe-migrator/about-ghe-migrator.md)
