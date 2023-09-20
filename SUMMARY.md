@@ -264,15 +264,25 @@
     * [Creating Redis Service Containers](actions/using-containerized-services/creating-redis-service-containers.md)
     * [Using Containerized Services](actions/using-containerized-services/index.md)
   - Using Github Hosted Runners
-    * [About Git Hub Hosted Runners](actions/using-github-hosted-runners/about-github-hosted-runners.md)
-    * [About Larger Runners](actions/using-github-hosted-runners/about-larger-runners.md)
-    * [Connecting To A Private Network](actions/using-github-hosted-runners/connecting-to-a-private-network.md)
-    * [Controlling Access To Larger Runners](actions/using-github-hosted-runners/controlling-access-to-larger-runners.md)
-    * [Customizing Git Hub Hosted Runners](actions/using-github-hosted-runners/customizing-github-hosted-runners.md)
+    - About Github Hosted Runners
+      * [About Git Hub Hosted Runners](actions/using-github-hosted-runners/about-github-hosted-runners/about-github-hosted-runners.md)
+      * [Customizing Git Hub Hosted Runners](actions/using-github-hosted-runners/about-github-hosted-runners/customizing-github-hosted-runners.md)
+      * [Using Git Hub Hosted Runners](actions/using-github-hosted-runners/about-github-hosted-runners/index.md)
+      * [Monitoring Your Current Jobs](actions/using-github-hosted-runners/about-github-hosted-runners/monitoring-your-current-jobs.md)
+    - About Larger Runners
+      * [About Larger Runners](actions/using-github-hosted-runners/about-larger-runners/index.md)
+      * [Controlling Access To Larger Runners](actions/using-github-hosted-runners/about-larger-runners/controlling-access-to-larger-runners.md)
+      * [Managing Larger Runners](actions/using-github-hosted-runners/about-larger-runners/managing-larger-runners.md)
+      * [Running Jobs On Larger Runners](actions/using-github-hosted-runners/about-larger-runners/running-jobs-on-larger-runners.md)
+    - Connecting To A Private Network
+      * [About Private Networking With Git Hub Hosted Runners](actions/using-github-hosted-runners/connecting-to-a-private-network/about-private-networking-with-github-hosted-runners.md)
+      * [About Using Git Hub Hosted Runners In Your Azure Virtual Network](actions/using-github-hosted-runners/connecting-to-a-private-network/about-using-github-hosted-runners-in-your-azure-virtual-network.md)
+      * [Configuring Azure Resources For Private Networking With Git Hub Hosted Runners](actions/using-github-hosted-runners/connecting-to-a-private-network/configuring-azure-resources-for-private-networking-with-github-hosted-runners.md)
+      * [Configuring Your Git Hub Settings For Use With Azure Virtual Network](actions/using-github-hosted-runners/connecting-to-a-private-network/configuring-your-github-settings-for-use-with-azure-virtual-network.md)
+      * [Connecting to a private network with {% data variables.product.company_short %}-hosted runners](actions/using-github-hosted-runners/connecting-to-a-private-network/index.md)
+      * [Using An API Gateway With OIDC](actions/using-github-hosted-runners/connecting-to-a-private-network/using-an-api-gateway-with-oidc.md)
+      * [Using Wire Guard To Create A Network Overlay](actions/using-github-hosted-runners/connecting-to-a-private-network/using-wireguard-to-create-a-network-overlay.md)
     * [Using Git Hub Hosted Runners](actions/using-github-hosted-runners/index.md)
-    * [Managing Larger Runners](actions/using-github-hosted-runners/managing-larger-runners.md)
-    * [Monitoring Your Current Jobs](actions/using-github-hosted-runners/monitoring-your-current-jobs.md)
-    * [Running Jobs On Larger Runners](actions/using-github-hosted-runners/running-jobs-on-larger-runners.md)
   - Using Jobs
     * [Assigning Permissions To Jobs](actions/using-jobs/assigning-permissions-to-jobs.md)
     * [Choosing The Runner For A Job](actions/using-jobs/choosing-the-runner-for-a-job.md)
