@@ -849,6 +849,7 @@
     * [Signing Tags](authentication/managing-commit-signature-verification/signing-tags.md)
     * [Telling Git About Your Signing Key](authentication/managing-commit-signature-verification/telling-git-about-your-signing-key.md)
   - Securing Your Account With Two Factor Authentication 2 Fa
+    * [About Mandatory Two Factor Authentication](authentication/securing-your-account-with-two-factor-authentication-2fa/about-mandatory-two-factor-authentication.md)
     * [About Two Factor Authentication](authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication.md)
     * [Accessing Git Hub Using Two Factor Authentication](authentication/securing-your-account-with-two-factor-authentication-2fa/accessing-github-using-two-factor-authentication.md)
     * [Changing Your Preferred Two Factor Authentication Method](authentication/securing-your-account-with-two-factor-authentication-2fa/changing-your-preferred-two-factor-authentication-method.md)
@@ -2834,6 +2835,7 @@
     * [Best Practices For Using Webhooks](webhooks/using-webhooks/best-practices-for-using-webhooks.md)
     * [Creating Webhooks](webhooks/using-webhooks/creating-webhooks.md)
     * [Disabling Webhooks](webhooks/using-webhooks/disabling-webhooks.md)
+    * [Handling Failed Webhook Deliveries](webhooks/using-webhooks/handling-failed-webhook-deliveries.md)
     * [Handling Webhook Deliveries](webhooks/using-webhooks/handling-webhook-deliveries.md)
     * [Using Webhooks](webhooks/using-webhooks/index.md)
     * [Securing Your Webhooks](webhooks/using-webhooks/securing-your-webhooks.md)
