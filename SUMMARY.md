@@ -151,6 +151,7 @@
       * [Configuring Open ID Connect In Cloud Providers](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-cloud-providers.md)
       * [Configuring Open ID Connect In Google Cloud Platform](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-google-cloud-platform.md)
       * [Configuring Open ID Connect In Hashi Corp Vault](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-hashicorp-vault.md)
+      * [Configuring Open ID Connect In Py PI](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-pypi.md)
       * [Security Hardening Your Deployments](actions/deployment/security-hardening-your-deployments/index.md)
       * [Using Open ID Connect With Reusable Workflows](actions/deployment/security-hardening-your-deployments/using-openid-connect-with-reusable-workflows.md)
     - Targeting Different Environments
@@ -194,6 +195,7 @@
     * [Learn Git Hub Actions](actions/learn-github-actions/index.md)
     * [Understanding Git Hub Actions](actions/learn-github-actions/understanding-github-actions.md)
     * [Usage Limits Billing And Administration](actions/learn-github-actions/usage-limits-billing-and-administration.md)
+    * [Using Starter Workflows](actions/learn-github-actions/using-starter-workflows.md)
     * [Variables](actions/learn-github-actions/variables.md)
   - Managing Issues And Pull Requests
     * [Adding Labels To Issues](actions/managing-issues-and-pull-requests/adding-labels-to-issues.md)
@@ -309,7 +311,6 @@
     * [Storing Workflow Data As Artifacts](actions/using-workflows/storing-workflow-data-as-artifacts.md)
     * [Triggering A Workflow](actions/using-workflows/triggering-a-workflow.md)
     * [Using Git Hub CLI In Workflows](actions/using-workflows/using-github-cli-in-workflows.md)
-    * [Using Starter Workflows](actions/using-workflows/using-starter-workflows.md)
     * [Workflow Commands For Git Hub Actions](actions/using-workflows/workflow-commands-for-github-actions.md)
     * [Workflow Syntax For Git Hub Actions](actions/using-workflows/workflow-syntax-for-github-actions.md)
   * [Guides For Git Hub Actions](actions/guides.md)
@@ -1161,12 +1162,17 @@
       * [Using Custom Queries With The Code QL CLI](code-security/codeql-cli/using-the-advanced-functionality-of-the-codeql-cli/using-custom-queries-with-the-codeql-cli.md)
     * [Use The Code QL CLI To Secure Your Code](code-security/codeql-cli/index.md)
   - Dependabot
+    - Dependabot Alert Rules
+      * [About Dependabot Alert Rules](code-security/dependabot/dependabot-alert-rules/about-dependabot-alert-rules.md)
+      * [Customizing Alert Rules To Prioritize Dependabot Alerts](code-security/dependabot/dependabot-alert-rules/customizing-alert-rules-to-prioritize-dependabot-alerts.md)
+      * [Prioritizing Dependabot Alerts With Dependabot Alert Rules](code-security/dependabot/dependabot-alert-rules/index.md)
+      * [Managing Alerts That Have Been Automatically Dismissed By An Alert Rule](code-security/dependabot/dependabot-alert-rules/managing-automatically-dismissed-alerts.md)
+      * [Using Git Hub Curated Alert Rules To Prioritize Dependabot Alerts](code-security/dependabot/dependabot-alert-rules/using-github-curated-alert-rules-to-prioritize-dependabot-alerts.md)
     - Dependabot Alerts
       * [About Dependabot Alerts](code-security/dependabot/dependabot-alerts/about-dependabot-alerts.md)
       * [Configuring Dependabot Alerts](code-security/dependabot/dependabot-alerts/configuring-dependabot-alerts.md)
       * [Configuring Notifications For Dependabot Alerts](code-security/dependabot/dependabot-alerts/configuring-notifications-for-dependabot-alerts.md)
       * [Identifying Vulnerabilities In Your Project S Dependencies With Dependabot Alerts](code-security/dependabot/dependabot-alerts/index.md)
-      * [Using Alert Rules To Prioritize Dependabot Alerts](code-security/dependabot/dependabot-alerts/using-alert-rules-to-prioritize-dependabot-alerts.md)
       * [Viewing And Updating Dependabot Alerts](code-security/dependabot/dependabot-alerts/viewing-and-updating-dependabot-alerts.md)
     - Dependabot Security Updates
       * [About Dependabot Security Updates](code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates.md)
