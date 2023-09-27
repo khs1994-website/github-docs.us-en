@@ -644,7 +644,6 @@
     - Enforcing Policies For Your Enterprise
       * [About Enterprise Policies](admin/policies/enforcing-policies-for-your-enterprise/about-enterprise-policies.md)
       * [Enforcing Policies For Code Security And Analysis For Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-code-security-and-analysis-for-your-enterprise.md)
-      * [Enforcing Policies For Dependency Insights In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-dependency-insights-in-your-enterprise.md)
       * [Enforcing Policies For Git Hub Actions In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise.md)
       * [Enforcing Policies For Git Hub Codespaces In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-codespaces-in-your-enterprise.md)
       * [Enforcing Policies For Git Hub Copilot In Your Enterprise](admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-copilot-in-your-enterprise.md)
@@ -1676,6 +1675,7 @@
     * [GitHub’s plans](get-started/learning-about-github/githubs-plans.md)
     * [Learning About Git Hub](get-started/learning-about-github/index.md)
     * [Types Of Git Hub Accounts](get-started/learning-about-github/types-of-github-accounts.md)
+    * [Using Hover Cards On Git Hub Docs](get-started/learning-about-github/using-hover-cards-on-github-docs.md)
   - Onboarding
     * [Getting Started With Git Hub AE](get-started/onboarding/getting-started-with-github-ae.md)
     * [Getting Started With Git Hub Enterprise Cloud](get-started/onboarding/getting-started-with-github-enterprise-cloud.md)
@@ -2001,6 +2001,7 @@
       * [Accessing Compliance Reports For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/accessing-compliance-reports-for-your-organization.md)
       * [Audit Log Events For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/audit-log-events-for-your-organization.md)
       * [Displaying IP Addresses In The Audit Log For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/displaying-ip-addresses-in-the-audit-log-for-your-organization.md)
+      * [Identifying Audit Log Events Performed By An Access Token](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/identifying-audit-log-events-performed-by-an-access-token.md)
       * [Managing Security Settings For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/index.md)
       * [Managing Allowed IP Addresses For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/managing-allowed-ip-addresses-for-your-organization.md)
       * [Managing Security And Analysis Settings For Your Organization](organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/managing-security-and-analysis-settings-for-your-organization.md)
