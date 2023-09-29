@@ -1194,6 +1194,7 @@
       * [Removing Dependabot Access To Public Registries](code-security/dependabot/working-with-dependabot/removing-dependabot-access-to-public-registries.md)
       * [Troubleshooting Dependabot Errors](code-security/dependabot/working-with-dependabot/troubleshooting-dependabot-errors.md)
       * [Troubleshooting The Detection Of Vulnerable Dependencies](code-security/dependabot/working-with-dependabot/troubleshooting-the-detection-of-vulnerable-dependencies.md)
+      * [Viewing Dependabot Job Logs](code-security/dependabot/working-with-dependabot/viewing-dependabot-job-logs.md)
     * [Keeping Your Supply Chain Secure With Dependabot](code-security/dependabot/index.md)
   - Getting Started
     * [Adding A Security Policy To Your Repository](code-security/getting-started/adding-a-security-policy-to-your-repository.md)
