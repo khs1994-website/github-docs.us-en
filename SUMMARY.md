@@ -2850,6 +2850,7 @@
     * [Receiving Webhooks With The Git Hub CLI](webhooks/testing-and-troubleshooting-webhooks/receiving-webhooks-with-the-github-cli.md)
     * [Redelivering Webhooks](webhooks/testing-and-troubleshooting-webhooks/redelivering-webhooks.md)
     * [Testing Webhooks](webhooks/testing-and-troubleshooting-webhooks/testing-webhooks.md)
+    * [Troubleshooting Webhooks](webhooks/testing-and-troubleshooting-webhooks/troubleshooting-webhooks.md)
     * [Viewing Webhook Deliveries](webhooks/testing-and-troubleshooting-webhooks/viewing-webhook-deliveries.md)
   - Using Webhooks
     * [Best Practices For Using Webhooks](webhooks/using-webhooks/best-practices-for-using-webhooks.md)
