@@ -1500,9 +1500,9 @@
     * [Overview Of Git Hub Copilot](copilot/overview-of-github-copilot/index.md)
   - Troubleshooting Github Copilot
     * [Troubleshooting Git Hub Copilot](copilot/troubleshooting-github-copilot/index.md)
-    * [Troubleshooting Authentication Issues With Git Hub Copilot Chat](copilot/troubleshooting-github-copilot/troubleshooting-authentication-issues-with-github-copilot-chat.md)
     * [Troubleshooting Common Issues With Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-common-issues-with-github-copilot.md)
     * [Troubleshooting Firewall Settings For Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-firewall-settings-for-github-copilot.md)
+    * [Troubleshooting Issues With Git Hub Copilot Chat](copilot/troubleshooting-github-copilot/troubleshooting-issues-with-github-copilot-chat.md)
     * [Troubleshooting Network Errors For Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-network-errors-for-github-copilot.md)
     * [Viewing Logs For Git Hub Copilot In Your Environment](copilot/troubleshooting-github-copilot/viewing-logs-for-github-copilot-in-your-environment.md)
   * [Getting Started With Git Hub Copilot](copilot/getting-started-with-github-copilot.md)
@@ -2782,6 +2782,7 @@
   - Security Policies
     * [Coordinated Disclosure Of Security Vulnerabilities](site-policy/security-policies/coordinated-disclosure-of-security-vulnerabilities.md)
     * [Git Hub Bug Bounty Program Legal Safe Harbor](site-policy/security-policies/github-bug-bounty-program-legal-safe-harbor.md)
+    * [Git Hub SIRT Description RFC 2350](site-policy/security-policies/github-sirt-description-rfc-2350.md)
     * [Security Policies](site-policy/security-policies/index.md)
   - Site Policy Deprecated
     * [Amendment to GitHub Terms of Service Applicable to U.S. Federal Government Users](site-policy/site-policy-deprecated/amendment-to-github-terms-of-service-applicable-to-us-federal-government-users.md)
