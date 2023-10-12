@@ -1731,6 +1731,7 @@
     * [Using Git Rebase On The Command Line](get-started/using-git/using-git-rebase-on-the-command-line.md)
   - Using Github
     * [Allowing Access To Git Hub S Services From A Restricted Network](get-started/using-github/allowing-access-to-githubs-services-from-a-restricted-network.md)
+    * [Connecting To Git Hub](get-started/using-github/connecting-to-github.md)
     * [Exploring Early Access Releases With Feature Preview](get-started/using-github/exploring-early-access-releases-with-feature-preview.md)
     * [Git Hub CLI](get-started/using-github/github-cli.md)
     * [Git Hub Command Palette](get-started/using-github/github-command-palette.md)
