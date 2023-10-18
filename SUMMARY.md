@@ -1681,14 +1681,12 @@
     * [Why Is Git Always Asking For My Password](get-started/getting-started-with-git/why-is-git-always-asking-for-my-password.md)
   - Learning About Github
     * [About Git Hub Advanced Security](get-started/learning-about-github/about-github-advanced-security.md)
-    * [About Versions Of Git Hub Docs](get-started/learning-about-github/about-versions-of-github-docs.md)
     * [Access Permissions On Git Hub](get-started/learning-about-github/access-permissions-on-github.md)
     * [FAQ about changes to GitHub’s plans](get-started/learning-about-github/faq-about-changes-to-githubs-plans.md)
     * [Git Hub Language Support](get-started/learning-about-github/github-language-support.md)
     * [GitHub’s plans](get-started/learning-about-github/githubs-plans.md)
     * [Learning About Git Hub](get-started/learning-about-github/index.md)
     * [Types Of Git Hub Accounts](get-started/learning-about-github/types-of-github-accounts.md)
-    * [Using Hover Cards On Git Hub Docs](get-started/learning-about-github/using-hover-cards-on-github-docs.md)
   - Onboarding
     * [Getting Started With Git Hub AE](get-started/onboarding/getting-started-with-github-ae.md)
     * [Getting Started With Git Hub Enterprise Cloud](get-started/onboarding/getting-started-with-github-enterprise-cloud.md)
@@ -1740,6 +1738,10 @@
     * [Keyboard Shortcuts](get-started/using-github/keyboard-shortcuts.md)
     * [Supported Browsers](get-started/using-github/supported-browsers.md)
     * [Troubleshooting Connectivity Problems](get-started/using-github/troubleshooting-connectivity-problems.md)
+  - Using Github Docs
+    * [About Versions Of Git Hub Docs](get-started/using-github-docs/about-versions-of-github-docs.md)
+    * [Using Git Hub Docs](get-started/using-github-docs/index.md)
+    * [Using Hover Cards On Git Hub Docs](get-started/using-github-docs/using-hover-cards-on-github-docs.md)
   - Working With Subversion On Github
     * [Working With Subversion On Git Hub](get-started/working-with-subversion-on-github/index.md)
     * [Subversion Properties Supported By Git Hub](get-started/working-with-subversion-on-github/subversion-properties-supported-by-github.md)
@@ -2660,6 +2662,7 @@
     * [Rule Suites](rest/repos/rule-suites.md)
     * [Rules](rest/repos/rules.md)
     * [Repository Tags](rest/repos/tags.md)
+    * [Repository Webhooks](rest/repos/webhooks.md)
   - Scim
     * [SCIM](rest/scim/scim.md)
   - Search
@@ -2686,11 +2689,6 @@
     * [Git SSH Keys](rest/users/keys.md)
     * [Social Accounts](rest/users/social-accounts.md)
     * [SSH Signing Keys](rest/users/ssh-signing-keys.md)
-  - Webhooks
-    * [Repository Webhooks](rest/webhooks/index.md)
-    * [Repository Webhook Configuration](rest/webhooks/repo-config.md)
-    * [Repository Webhook Deliveries](rest/webhooks/repo-deliveries.md)
-    * [Repository Webhooks](rest/webhooks/repos.md)
   * [Git Hub REST API Documentation](rest/index.md)
   * [Quickstart For Git Hub REST API](rest/quickstart.md)
 - Search
