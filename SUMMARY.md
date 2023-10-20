@@ -2565,6 +2565,7 @@
     * [Guides](rest/guides/index.md)
     * [Rendering Data As Graphs](rest/guides/rendering-data-as-graphs.md)
     * [Scripting With The REST API And Java Script](rest/guides/scripting-with-the-rest-api-and-javascript.md)
+    * [Scripting With The REST API And Ruby](rest/guides/scripting-with-the-rest-api-and-ruby.md)
     * [Using Pagination In The REST API](rest/guides/using-pagination-in-the-rest-api.md)
     * [Using The REST API To Interact With Checks](rest/guides/using-the-rest-api-to-interact-with-checks.md)
     * [Using The REST API To Interact With Your Git Database](rest/guides/using-the-rest-api-to-interact-with-your-git-database.md)
