@@ -1275,14 +1275,6 @@
     * [Securing Your Software Supply Chain](code-security/supply-chain-security/index.md)
   * [Code Security Documentation](code-security/index.md)
 - Codespaces
-  - Codespaces Reference
-    * [Allowing Your Codespace To Access A Private Registry](codespaces/codespaces-reference/allowing-your-codespace-to-access-a-private-registry.md)
-    * [Disaster Recovery For Git Hub Codespaces](codespaces/codespaces-reference/disaster-recovery-for-github-codespaces.md)
-    * [Reference](codespaces/codespaces-reference/index.md)
-    * [Security In Git Hub Codespaces](codespaces/codespaces-reference/security-in-github-codespaces.md)
-    * [Using Git Hub Copilot In Git Hub Codespaces](codespaces/codespaces-reference/using-github-copilot-in-github-codespaces.md)
-    * [Using The Git Hub Codespaces Plugin For Jet Brains](codespaces/codespaces-reference/using-the-github-codespaces-plugin-for-jetbrains.md)
-    * [Using The Visual Studio Code Command Palette In Git Hub Codespaces](codespaces/codespaces-reference/using-the-vs-code-command-palette-in-codespaces.md)
   - Customizing Your Codespace
     * [Changing The Machine Type For Your Codespace](codespaces/customizing-your-codespace/changing-the-machine-type-for-your-codespace.md)
     * [Changing The Shell In A Codespace](codespaces/customizing-your-codespace/changing-the-shell-in-a-codespace.md)
@@ -1345,6 +1337,14 @@
     * [Prebuilding Your Codespaces](codespaces/prebuilding-your-codespaces/index.md)
     * [Managing Prebuilds](codespaces/prebuilding-your-codespaces/managing-prebuilds.md)
     * [Testing Dev Container Configuration Changes On A Prebuild Enabled Branch](codespaces/prebuilding-your-codespaces/testing-dev-container-changes.md)
+  - Reference
+    * [Allowing Your Codespace To Access A Private Registry](codespaces/reference/allowing-your-codespace-to-access-a-private-registry.md)
+    * [Disaster Recovery For Git Hub Codespaces](codespaces/reference/disaster-recovery-for-github-codespaces.md)
+    * [Reference](codespaces/reference/index.md)
+    * [Security In Git Hub Codespaces](codespaces/reference/security-in-github-codespaces.md)
+    * [Using Git Hub Copilot In Git Hub Codespaces](codespaces/reference/using-github-copilot-in-github-codespaces.md)
+    * [Using The Git Hub Codespaces Plugin For Jet Brains](codespaces/reference/using-the-github-codespaces-plugin-for-jetbrains.md)
+    * [Using The Visual Studio Code Command Palette In Git Hub Codespaces](codespaces/reference/using-the-vs-code-command-palette-in-codespaces.md)
   - Setting Up Your Project For Codespaces
     - Adding A Dev Container Configuration
       * [Adding A Dev Container Configuration To Your Repository](codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/index.md)
