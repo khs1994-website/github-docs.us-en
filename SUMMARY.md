@@ -462,6 +462,7 @@
       * [Migrating From OIDC To SAML](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/migrating-from-oidc-to-saml.md)
       * [Migrating From SAML To OIDC](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/migrating-from-saml-to-oidc.md)
       * [Migrating Your Enterprise To A New Identity Provider Or Tenant](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/migrating-your-enterprise-to-a-new-identity-provider-or-tenant.md)
+      * [Troubleshooting Team Membership With Identity Provider Groups](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/troubleshooting-team-membership-with-identity-provider-groups.md)
     - Using Ldap For Enterprise Iam
       * [Using LDAP For Enterprise IAM](admin/identity-and-access-management/using-ldap-for-enterprise-iam/index.md)
       * [Using LDAP](admin/identity-and-access-management/using-ldap-for-enterprise-iam/using-ldap.md)
@@ -794,6 +795,7 @@
     * [Installing A Git Hub App From Git Hub Marketplace For Your Organizations](apps/using-github-apps/installing-a-github-app-from-github-marketplace-for-your-organizations.md)
     * [Installing A Git Hub App From Git Hub Marketplace For Your Personal Account](apps/using-github-apps/installing-a-github-app-from-github-marketplace-for-your-personal-account.md)
     * [Installing Your Own Git Hub App](apps/using-github-apps/installing-your-own-github-app.md)
+    * [Internal Git Hub Apps](apps/using-github-apps/internal-github-apps.md)
     * [Requesting A Git Hub App From Your Organization Owner](apps/using-github-apps/requesting-a-github-app-from-your-organization-owner.md)
     * [Reviewing And Modifying Installed Git Hub Apps](apps/using-github-apps/reviewing-and-modifying-installed-github-apps.md)
     * [Reviewing And Revoking Authorization Of Git Hub Apps](apps/using-github-apps/reviewing-and-revoking-authorization-of-github-apps.md)
