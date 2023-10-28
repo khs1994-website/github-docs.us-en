@@ -1963,7 +1963,6 @@
     * [Exporting migration data from GitHub.com](migrations/using-ghe-migrator/exporting-migration-data-from-githubcom.md)
     * [Using Ghe Migrator](migrations/using-ghe-migrator/index.md)
     * [Migrating Data To Git Hub Enterprise Server](migrations/using-ghe-migrator/migrating-data-to-github-enterprise-server.md)
-    * [Preparing To Migrate Data To Git Hub Enterprise Server](migrations/using-ghe-migrator/preparing-to-migrate-data-to-github-enterprise-server.md)
   - Using Github Enterprise Importer
     - Completing Your Migration With Github Enterprise Importer
       * [Accessing Your Migration Logs For Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/completing-your-migration-with-github-enterprise-importer/accessing-your-migration-logs-for-github-enterprise-importer.md)
@@ -2616,10 +2615,10 @@
     * [Security Managers](rest/orgs/security-managers.md)
     * [Organization Webhooks](rest/orgs/webhooks.md)
   - Overview
-    * [About Git Hub S AP Is](rest/overview/about-githubs-apis.md)
     * [API Versions](rest/overview/api-versions.md)
     * [Authenticating To The REST API](rest/overview/authenticating-to-the-rest-api.md)
     * [Breaking Changes](rest/overview/breaking-changes.md)
+    * [Comparing Git Hub S REST API And Graph QL API](rest/overview/comparing-githubs-rest-api-and-graphql-api.md)
     * [Endpoints Available For Fine Grained Personal Access Tokens](rest/overview/endpoints-available-for-fine-grained-personal-access-tokens.md)
     * [Endpoints Available For Git Hub App Installation Access Tokens](rest/overview/endpoints-available-for-github-app-installation-access-tokens.md)
     * [Endpoints Available For Git Hub App User Access Tokens](rest/overview/endpoints-available-for-github-app-user-access-tokens.md)
