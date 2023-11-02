@@ -278,9 +278,6 @@
       * [Running Jobs On Larger Runners](actions/using-github-hosted-runners/about-larger-runners/running-jobs-on-larger-runners.md)
     - Connecting To A Private Network
       * [About Private Networking With Git Hub Hosted Runners](actions/using-github-hosted-runners/connecting-to-a-private-network/about-private-networking-with-github-hosted-runners.md)
-      * [About Using Git Hub Hosted Runners In Your Azure Virtual Network](actions/using-github-hosted-runners/connecting-to-a-private-network/about-using-github-hosted-runners-in-your-azure-virtual-network.md)
-      * [Configuring Azure Resources For Private Networking With Git Hub Hosted Runners](actions/using-github-hosted-runners/connecting-to-a-private-network/configuring-azure-resources-for-private-networking-with-github-hosted-runners.md)
-      * [Configuring Your Git Hub Settings For Use With Azure Virtual Network](actions/using-github-hosted-runners/connecting-to-a-private-network/configuring-your-github-settings-for-use-with-azure-virtual-network.md)
       * [Connecting to a private network with {% data variables.product.company_short %}-hosted runners](actions/using-github-hosted-runners/connecting-to-a-private-network/index.md)
       * [Using An API Gateway With OIDC](actions/using-github-hosted-runners/connecting-to-a-private-network/using-an-api-gateway-with-oidc.md)
       * [Using Wire Guard To Create A Network Overlay](actions/using-github-hosted-runners/connecting-to-a-private-network/using-wireguard-to-create-a-network-overlay.md)
@@ -374,6 +371,11 @@
       * [Network Ports](admin/configuration/configuring-network-settings/network-ports.md)
       * [Using Git Hub Enterprise Server With A Load Balancer](admin/configuration/configuring-network-settings/using-github-enterprise-server-with-a-load-balancer.md)
       * [Validating Your Domain Settings](admin/configuration/configuring-network-settings/validating-your-domain-settings.md)
+    - Configuring Private Networking For Hosted Compute Products
+      * [About Networking For Hosted Compute Products](admin/configuration/configuring-private-networking-for-hosted-compute-products/about-networking-for-hosted-compute-products.md)
+      * [About Using Git Hub Hosted Runners In Your Azure Virtual Network](admin/configuration/configuring-private-networking-for-hosted-compute-products/about-using-github-hosted-runners-in-your-azure-virtual-network.md)
+      * [Configuring Private Networking For Git Hub Hosted Runners](admin/configuration/configuring-private-networking-for-hosted-compute-products/configuring-private-networking-for-github-hosted-runners.md)
+      * [Configuring Private Networking For Hosted Compute Products](admin/configuration/configuring-private-networking-for-hosted-compute-products/index.md)
     - Configuring User Applications For Your Enterprise
       * [Configuring Applications](admin/configuration/configuring-user-applications-for-your-enterprise/configuring-applications.md)
       * [Configuring Email For Notifications](admin/configuration/configuring-user-applications-for-your-enterprise/configuring-email-for-notifications.md)
