@@ -431,18 +431,41 @@
       * [Using Actions In Git Hub AE](admin/github-actions/using-github-actions-in-github-ae/using-actions-in-github-ae.md)
     * [Managing Git Hub Actions For Your Enterprise](admin/github-actions/index.md)
   - Identity And Access Management
-    - Managing Iam For Your Enterprise
-      * [About Authentication For Your Enterprise](admin/identity-and-access-management/managing-iam-for-your-enterprise/about-authentication-for-your-enterprise.md)
-      * [Allowing Built In Authentication For Users Outside Your Provider](admin/identity-and-access-management/managing-iam-for-your-enterprise/allowing-built-in-authentication-for-users-outside-your-provider.md)
-      * [Changing Authentication Methods](admin/identity-and-access-management/managing-iam-for-your-enterprise/changing-authentication-methods.md)
-      * [Identifying The Best Authentication Method For Your Enterprise](admin/identity-and-access-management/managing-iam-for-your-enterprise/identifying-the-best-authentication-method-for-your-enterprise.md)
-      * [Managing IAM For Your Enterprise](admin/identity-and-access-management/managing-iam-for-your-enterprise/index.md)
-      * [Troubleshooting Identity And Access Management For Your Enterprise](admin/identity-and-access-management/managing-iam-for-your-enterprise/troubleshooting-identity-and-access-management-for-your-enterprise.md)
-      * [Username Considerations For External Authentication](admin/identity-and-access-management/managing-iam-for-your-enterprise/username-considerations-for-external-authentication.md)
+    - Configuring Authentication For Enterprise Managed Users
+      * [About Support For Your Id P S Conditional Access Policy](admin/identity-and-access-management/configuring-authentication-for-enterprise-managed-users/about-support-for-your-idps-conditional-access-policy.md)
+      * [Configuring OIDC For Enterprise Managed Users](admin/identity-and-access-management/configuring-authentication-for-enterprise-managed-users/configuring-oidc-for-enterprise-managed-users.md)
+      * [Configuring SAML Single Sign On For Enterprise Managed Users](admin/identity-and-access-management/configuring-authentication-for-enterprise-managed-users/configuring-saml-single-sign-on-for-enterprise-managed-users.md)
+      * [Disabling Authentication For Enterprise Managed Users](admin/identity-and-access-management/configuring-authentication-for-enterprise-managed-users/disabling-authentication-for-enterprise-managed-users.md)
+      * [Configuring Authentication For Enterprise Managed Users](admin/identity-and-access-management/configuring-authentication-for-enterprise-managed-users/index.md)
+    - Iam Configuration Reference
+      * [IAM Configuration Reference](admin/identity-and-access-management/iam-configuration-reference/index.md)
+      * [SAML Configuration Reference](admin/identity-and-access-management/iam-configuration-reference/saml-configuration-reference.md)
+      * [Username Considerations For External Authentication](admin/identity-and-access-management/iam-configuration-reference/username-considerations-for-external-authentication.md)
     - Managing Recovery Codes For Your Enterprise
       * [Accessing Your Enterprise Account If Your Identity Provider Is Unavailable](admin/identity-and-access-management/managing-recovery-codes-for-your-enterprise/accessing-your-enterprise-account-if-your-identity-provider-is-unavailable.md)
       * [Downloading Your Enterprise Account S Single Sign On Recovery Codes](admin/identity-and-access-management/managing-recovery-codes-for-your-enterprise/downloading-your-enterprise-accounts-single-sign-on-recovery-codes.md)
       * [Managing Recovery Codes For Your Enterprise](admin/identity-and-access-management/managing-recovery-codes-for-your-enterprise/index.md)
+    - Provisioning User Accounts For Enterprise Managed Users
+      * [Configuring SCIM Provisioning For Enterprise Managed Users](admin/identity-and-access-management/provisioning-user-accounts-for-enterprise-managed-users/configuring-scim-provisioning-for-enterprise-managed-users.md)
+      * [Configuring SCIM Provisioning With Okta](admin/identity-and-access-management/provisioning-user-accounts-for-enterprise-managed-users/configuring-scim-provisioning-with-okta.md)
+      * [Provisioning User Accounts For Enterprise Managed Users](admin/identity-and-access-management/provisioning-user-accounts-for-enterprise-managed-users/index.md)
+      * [Managing Team Memberships With Identity Provider Groups](admin/identity-and-access-management/provisioning-user-accounts-for-enterprise-managed-users/managing-team-memberships-with-identity-provider-groups.md)
+      * [Troubleshooting Team Membership With Identity Provider Groups](admin/identity-and-access-management/provisioning-user-accounts-for-enterprise-managed-users/troubleshooting-team-membership-with-identity-provider-groups.md)
+    - Reconfiguring Iam For Enterprise Managed Users
+      * [Reconfiguring IAM For Enterprise Managed Users](admin/identity-and-access-management/reconfiguring-iam-for-enterprise-managed-users/index.md)
+      * [Migrating From OIDC To SAML](admin/identity-and-access-management/reconfiguring-iam-for-enterprise-managed-users/migrating-from-oidc-to-saml.md)
+      * [Migrating From SAML To OIDC](admin/identity-and-access-management/reconfiguring-iam-for-enterprise-managed-users/migrating-from-saml-to-oidc.md)
+      * [Migrating Your Enterprise To A New Identity Provider Or Tenant](admin/identity-and-access-management/reconfiguring-iam-for-enterprise-managed-users/migrating-your-enterprise-to-a-new-identity-provider-or-tenant.md)
+    - Understanding Iam For Enterprises
+      * [Abilities And Restrictions Of Managed User Accounts](admin/identity-and-access-management/understanding-iam-for-enterprises/abilities-and-restrictions-of-managed-user-accounts.md)
+      * [About {% data variables.product.prodname_emus %}](admin/identity-and-access-management/understanding-iam-for-enterprises/about-enterprise-managed-users.md)
+      * [About Identity And Access Management](admin/identity-and-access-management/understanding-iam-for-enterprises/about-identity-and-access-management.md)
+      * [About SAML For Enterprise IAM](admin/identity-and-access-management/understanding-iam-for-enterprises/about-saml-for-enterprise-iam.md)
+      * [Allowing Built In Authentication For Users Outside Your Provider](admin/identity-and-access-management/understanding-iam-for-enterprises/allowing-built-in-authentication-for-users-outside-your-provider.md)
+      * [Changing Authentication Methods](admin/identity-and-access-management/understanding-iam-for-enterprises/changing-authentication-methods.md)
+      * [Identifying The Best Authentication Method For Your Enterprise](admin/identity-and-access-management/understanding-iam-for-enterprises/identifying-the-best-authentication-method-for-your-enterprise.md)
+      * [Understanding IAM For Enterprises](admin/identity-and-access-management/understanding-iam-for-enterprises/index.md)
+      * [Troubleshooting Identity And Access Management For Your Enterprise](admin/identity-and-access-management/understanding-iam-for-enterprises/troubleshooting-identity-and-access-management-for-your-enterprise.md)
     - Using Built In Authentication
       * [Configuring Built In Authentication](admin/identity-and-access-management/using-built-in-authentication/configuring-built-in-authentication.md)
       * [Disabling Unauthenticated Sign Ups](admin/identity-and-access-management/using-built-in-authentication/disabling-unauthenticated-sign-ups.md)
@@ -451,25 +474,10 @@
     - Using Cas For Enterprise Iam
       * [Using CAS For Enterprise IAM](admin/identity-and-access-management/using-cas-for-enterprise-iam/index.md)
       * [Using CAS](admin/identity-and-access-management/using-cas-for-enterprise-iam/using-cas.md)
-    - Using Enterprise Managed Users For Iam
-      * [About {% data variables.product.prodname_emus %}](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/about-enterprise-managed-users.md)
-      * [About Support For Your Id P S Conditional Access Policy](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/about-support-for-your-idps-conditional-access-policy.md)
-      * [Configuring OIDC For Enterprise Managed Users](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/configuring-oidc-for-enterprise-managed-users.md)
-      * [Configuring SAML Single Sign On For Enterprise Managed Users](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/configuring-saml-single-sign-on-for-enterprise-managed-users.md)
-      * [Configuring SCIM Provisioning For Enterprise Managed Users With Okta](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/configuring-scim-provisioning-for-enterprise-managed-users-with-okta.md)
-      * [Configuring SCIM Provisioning For Enterprise Managed Users](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/configuring-scim-provisioning-for-enterprise-managed-users.md)
-      * [Disabling Authentication For Enterprise Managed Users](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/disabling-authentication-for-enterprise-managed-users.md)
-      * [Using Enterprise Managed Users For IAM](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/index.md)
-      * [Managing Team Memberships With Identity Provider Groups](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/managing-team-memberships-with-identity-provider-groups.md)
-      * [Migrating From OIDC To SAML](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/migrating-from-oidc-to-saml.md)
-      * [Migrating From SAML To OIDC](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/migrating-from-saml-to-oidc.md)
-      * [Migrating Your Enterprise To A New Identity Provider Or Tenant](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/migrating-your-enterprise-to-a-new-identity-provider-or-tenant.md)
-      * [Troubleshooting Team Membership With Identity Provider Groups](admin/identity-and-access-management/using-enterprise-managed-users-for-iam/troubleshooting-team-membership-with-identity-provider-groups.md)
     - Using Ldap For Enterprise Iam
       * [Using LDAP For Enterprise IAM](admin/identity-and-access-management/using-ldap-for-enterprise-iam/index.md)
       * [Using LDAP](admin/identity-and-access-management/using-ldap-for-enterprise-iam/using-ldap.md)
     - Using Saml For Enterprise Iam
-      * [About SAML For Enterprise IAM](admin/identity-and-access-management/using-saml-for-enterprise-iam/about-saml-for-enterprise-iam.md)
       * [Configuring Authentication And Provisioning For Your Enterprise Using Azure AD](admin/identity-and-access-management/using-saml-for-enterprise-iam/configuring-authentication-and-provisioning-for-your-enterprise-using-azure-ad.md)
       * [Configuring Authentication And Provisioning For Your Enterprise Using Okta](admin/identity-and-access-management/using-saml-for-enterprise-iam/configuring-authentication-and-provisioning-for-your-enterprise-using-okta.md)
       * [Configuring SAML Single Sign On For Your Enterprise Using Okta](admin/identity-and-access-management/using-saml-for-enterprise-iam/configuring-saml-single-sign-on-for-your-enterprise-using-okta.md)
@@ -481,7 +489,6 @@
       * [Using SAML For Enterprise IAM](admin/identity-and-access-management/using-saml-for-enterprise-iam/index.md)
       * [Managing Team Synchronization For Organizations In Your Enterprise](admin/identity-and-access-management/using-saml-for-enterprise-iam/managing-team-synchronization-for-organizations-in-your-enterprise.md)
       * [Mapping Okta Groups To Teams](admin/identity-and-access-management/using-saml-for-enterprise-iam/mapping-okta-groups-to-teams.md)
-      * [SAML Configuration Reference](admin/identity-and-access-management/using-saml-for-enterprise-iam/saml-configuration-reference.md)
       * [Switching Your SAML Configuration From An Organization To An Enterprise Account](admin/identity-and-access-management/using-saml-for-enterprise-iam/switching-your-saml-configuration-from-an-organization-to-an-enterprise-account.md)
       * [Troubleshooting SAML Authentication](admin/identity-and-access-management/using-saml-for-enterprise-iam/troubleshooting-saml-authentication.md)
       * [Updating A User S SAML Name ID](admin/identity-and-access-management/using-saml-for-enterprise-iam/updating-a-users-saml-nameid.md)
