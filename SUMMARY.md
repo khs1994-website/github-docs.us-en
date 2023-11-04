@@ -848,6 +848,7 @@
     * [Reviewing Your SSH Keys](authentication/keeping-your-account-and-data-secure/reviewing-your-ssh-keys.md)
     * [Security Log Events](authentication/keeping-your-account-and-data-secure/security-log-events.md)
     * [Sudo Mode](authentication/keeping-your-account-and-data-secure/sudo-mode.md)
+    * [Switching Between Accounts](authentication/keeping-your-account-and-data-secure/switching-between-accounts.md)
     * [Token Expiration And Revocation](authentication/keeping-your-account-and-data-secure/token-expiration-and-revocation.md)
     * [Updating Your Git Hub Access Credentials](authentication/keeping-your-account-and-data-secure/updating-your-github-access-credentials.md)
     * [Viewing And Managing Your Sessions](authentication/keeping-your-account-and-data-secure/viewing-and-managing-your-sessions.md)
@@ -1817,7 +1818,7 @@
     * [Explorer](graphql/overview/explorer.md)
     * [Overview](graphql/overview/index.md)
     * [Public Schema](graphql/overview/public-schema.md)
-    * [Resource Limitations](graphql/overview/resource-limitations.md)
+    * [Rate Limits And Node Limits For The Graph QL API](graphql/overview/rate-limits-and-node-limits-for-the-graphql-api.md)
     * [Schema Previews](graphql/overview/schema-previews.md)
   - Reference
     * [Enums](graphql/reference/enums.md)
@@ -2640,6 +2641,7 @@
     * [Open API Description](rest/overview/openapi-description.md)
     * [Permissions Required For Fine Grained Personal Access Tokens](rest/overview/permissions-required-for-fine-grained-personal-access-tokens.md)
     * [Permissions Required For Git Hub Apps](rest/overview/permissions-required-for-github-apps.md)
+    * [Rate Limits For The REST API](rest/overview/rate-limits-for-the-rest-api.md)
     * [Resources In The REST API](rest/overview/resources-in-the-rest-api.md)
     * [Troubleshooting](rest/overview/troubleshooting.md)
   - Packages
