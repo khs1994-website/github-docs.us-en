@@ -1173,18 +1173,18 @@
       * [Using Custom Queries With The Code QL CLI](code-security/codeql-cli/using-the-advanced-functionality-of-the-codeql-cli/using-custom-queries-with-the-codeql-cli.md)
     * [Use The Code QL CLI To Secure Your Code](code-security/codeql-cli/index.md)
   - Dependabot
-    - Dependabot Alert Rules
-      * [About Dependabot Alert Rules](code-security/dependabot/dependabot-alert-rules/about-dependabot-alert-rules.md)
-      * [Customizing Alert Rules To Prioritize Dependabot Alerts](code-security/dependabot/dependabot-alert-rules/customizing-alert-rules-to-prioritize-dependabot-alerts.md)
-      * [Prioritizing Dependabot Alerts With Dependabot Alert Rules](code-security/dependabot/dependabot-alert-rules/index.md)
-      * [Managing Alerts That Have Been Automatically Dismissed By An Alert Rule](code-security/dependabot/dependabot-alert-rules/managing-automatically-dismissed-alerts.md)
-      * [Using Git Hub Curated Alert Rules To Prioritize Dependabot Alerts](code-security/dependabot/dependabot-alert-rules/using-github-curated-alert-rules-to-prioritize-dependabot-alerts.md)
     - Dependabot Alerts
       * [About Dependabot Alerts](code-security/dependabot/dependabot-alerts/about-dependabot-alerts.md)
       * [Configuring Dependabot Alerts](code-security/dependabot/dependabot-alerts/configuring-dependabot-alerts.md)
       * [Configuring Notifications For Dependabot Alerts](code-security/dependabot/dependabot-alerts/configuring-notifications-for-dependabot-alerts.md)
       * [Identifying Vulnerabilities In Your Project S Dependencies With Dependabot Alerts](code-security/dependabot/dependabot-alerts/index.md)
       * [Viewing And Updating Dependabot Alerts](code-security/dependabot/dependabot-alerts/viewing-and-updating-dependabot-alerts.md)
+    - Dependabot Auto Triage Rules
+      * [About Dependabot Auto Triage Rules](code-security/dependabot/dependabot-auto-triage-rules/about-dependabot-auto-triage-rules.md)
+      * [Customizing Auto Triage Rules To Prioritize Dependabot Alerts](code-security/dependabot/dependabot-auto-triage-rules/customizing-auto-triage-rules-to-prioritize-dependabot-alerts.md)
+      * [Prioritizing Dependabot Alerts With Dependabot Auto Triage Rules](code-security/dependabot/dependabot-auto-triage-rules/index.md)
+      * [Managing Alerts That Have Been Automatically Dismissed By A Dependabot Auto Triage Rule](code-security/dependabot/dependabot-auto-triage-rules/managing-automatically-dismissed-alerts.md)
+      * [Using Git Hub Curated Default Rules To Prioritize Dependabot Alerts](code-security/dependabot/dependabot-auto-triage-rules/using-github-curated-default-rules-to-prioritize-dependabot-alerts.md)
     - Dependabot Security Updates
       * [About Dependabot Security Updates](code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates.md)
       * [Configuring Dependabot Security Updates](code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates.md)
