@@ -1,13 +1,14 @@
 ---
-title: About GitHub Copilot for Individuals
+title: About GitHub Copilot Individual
 intro: '{% data variables.product.prodname_copilot %} can help you code by offering autocomplete-style suggestions. You can learn how {% data variables.product.prodname_copilot %} works, and what to consider while using {% data variables.product.prodname_copilot %}.'
+redirect_from:
+  - /copilot/overview-of-github-copilot/about-github-copilot-for-individuals
+  - /copilot/overview-of-github-copilot/about-github-copilot
 versions:
   feature: copilot
 topics:
   - Copilot
-shortTitle: About GitHub Copilot for Individuals
-redirect_from:
-  - /copilot/overview-of-github-copilot/about-github-copilot
+shortTitle: About GitHub Copilot Individual
 ---
 
 ## About {% data variables.product.prodname_copilot %}
@@ -99,5 +100,5 @@ No. We follow responsible practices in accordance with our [Privacy Statement](/
 ## Further reading
 
 - "[AUTOTITLE](/free-pro-team@latest/site-policy/github-terms/github-terms-for-additional-products-and-features#github-copilot)"{% ifversion ghec %}
-- "[AUTOTITLE](/free-pro-team@latest/site-policy/privacy-policies/github-copilot-for-business-privacy-statement)"{% endif %}
+- "[AUTOTITLE](/free-pro-team@latest/site-policy/privacy-policies/github-copilot-business-privacy-statement)"{% endif %}
 - "[{% data variables.product.prodname_copilot %} FAQ](https://github.com/features/copilot#faq)"

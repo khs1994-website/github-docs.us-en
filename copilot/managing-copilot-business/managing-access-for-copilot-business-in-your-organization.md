@@ -1,9 +1,11 @@
 ---
-title: Managing access for Copilot for Business in your organization
+title: Managing access for Copilot Business in your organization
 intro: 'Learn how to manage access to {% data variables.product.prodname_copilot_for_business %} in your organization, and review usage data to inform your decisions.'
 permissions: Organization owners can configure access to {% data variables.product.prodname_copilot_for_business %} for their organization.
 versions:
   feature: copilot
+redirect_from:
+  - /copilot/managing-copilot-for-business/managing-access-for-copilot-for-business-in-your-organization
 topics:
   - Copilot
 shortTitle: Managing access
@@ -13,7 +15,7 @@ shortTitle: Managing access
 
 {% data variables.product.prodname_copilot_for_business %} is a {% data variables.product.prodname_copilot %} subscription, billed and administered at the organization {% ifversion ghec %}or enterprise {% endif %}level.{% ifversion ghec %} Enterprise owners can administer access for organizations within the enterprise.{% endif %} Organization owners can administer access for teams and individuals within the organization. Organization owners can also access usage data relating to {% data variables.product.prodname_copilot_for_business %} in their organization, and use that data to make informed decisions about seat assignment.
 
-Organization{% ifversion ghec %} and enterprise{% endif %} owners can also manage policies for {% data variables.product.prodname_copilot_for_business %}. For more information{% ifversion ghec %} about managing policies at the organization level{% endif %}, see "[AUTOTITLE](/copilot/managing-copilot-for-business/managing-policies-for-copilot-for-business-in-your-organization)."{% ifversion ghec %} For more information about managing policies at the enterprise level, see "[AUTOTITLE](/enterprise-cloud@latest/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-copilot-in-your-enterprise)" {% endif %}
+Organization{% ifversion ghec %} and enterprise{% endif %} owners can also manage policies for {% data variables.product.prodname_copilot_for_business %}. For more information{% ifversion ghec %} about managing policies at the organization level{% endif %}, see "[AUTOTITLE](/copilot/managing-copilot-business/managing-policies-for-copilot-business-in-your-organization)."{% ifversion ghec %} For more information about managing policies at the enterprise level, see "[AUTOTITLE](/enterprise-cloud@latest/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-copilot-in-your-enterprise)" {% endif %}
 
 ## Configuring access to {% data variables.product.prodname_copilot %} in your organization
 

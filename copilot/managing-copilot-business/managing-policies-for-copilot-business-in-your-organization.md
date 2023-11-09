@@ -1,9 +1,11 @@
 ---
-title: Managing policies for Copilot for Business in your organization
+title: Managing policies for Copilot Business in your organization
 intro: 'Learn how to manage policies for {% data variables.product.prodname_copilot_for_business %} in your organization.'
 permissions: Organization owners can configure policies for {% data variables.product.prodname_copilot_for_business %} for their organization.
 versions:
   feature: copilot
+redirect_from:
+  - /copilot/managing-copilot-for-business/managing-policies-for-copilot-for-business-in-your-organization
 topics:
   - Copilot
 shortTitle: Managing policies
@@ -37,4 +39,4 @@ shortTitle: Managing policies
 
 ## Further reading
 
-- "[AUTOTITLE](/free-pro-team@latest/site-policy/privacy-policies/github-copilot-for-business-privacy-statement)"
+- "[AUTOTITLE](/free-pro-team@latest/site-policy/privacy-policies/github-copilot-business-privacy-statement)"

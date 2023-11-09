@@ -450,6 +450,7 @@
       * [Configuring SCIM Provisioning With Okta](admin/identity-and-access-management/provisioning-user-accounts-for-enterprise-managed-users/configuring-scim-provisioning-with-okta.md)
       * [Provisioning User Accounts For Enterprise Managed Users](admin/identity-and-access-management/provisioning-user-accounts-for-enterprise-managed-users/index.md)
       * [Managing Team Memberships With Identity Provider Groups](admin/identity-and-access-management/provisioning-user-accounts-for-enterprise-managed-users/managing-team-memberships-with-identity-provider-groups.md)
+      * [Provisioning Users With SCIM Using The REST API](admin/identity-and-access-management/provisioning-user-accounts-for-enterprise-managed-users/provisioning-users-with-scim-using-the-rest-api.md)
       * [Troubleshooting Team Membership With Identity Provider Groups](admin/identity-and-access-management/provisioning-user-accounts-for-enterprise-managed-users/troubleshooting-team-membership-with-identity-provider-groups.md)
     - Reconfiguring Iam For Enterprise Managed Users
       * [Reconfiguring IAM For Enterprise Managed Users](admin/identity-and-access-management/reconfiguring-iam-for-enterprise-managed-users/index.md)
@@ -1029,6 +1030,7 @@
       * [About Code Scanning](code-security/code-scanning/introduction-to-code-scanning/about-code-scanning.md)
       * [Introduction To Code Scanning](code-security/code-scanning/introduction-to-code-scanning/index.md)
     - Managing Code Scanning Alerts
+      * [About Autofix For Code QL Code Scanning](code-security/code-scanning/managing-code-scanning-alerts/about-autofix-for-codeql-code-scanning.md)
       * [About Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/about-code-scanning-alerts.md)
       * [Managing Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/index.md)
       * [Managing Code Scanning Alerts For Your Repository](code-security/code-scanning/managing-code-scanning-alerts/managing-code-scanning-alerts-for-your-repository.md)
@@ -1219,8 +1221,12 @@
     * [Securing Your Repository](code-security/getting-started/securing-your-repository.md)
   - Secret Scanning
     * [About Secret Scanning](code-security/secret-scanning/about-secret-scanning.md)
+    * [About The Detection Of Generic Secrets With Secret Scanning](code-security/secret-scanning/about-the-detection-of-generic-secrets-with-secret-scanning.md)
+    * [About The Regular Expression Generator For Custom Patterns](code-security/secret-scanning/about-the-regular-expression-generator-for-custom-patterns.md)
     * [Configuring Secret Scanning For Your Repositories](code-security/secret-scanning/configuring-secret-scanning-for-your-repositories.md)
     * [Defining Custom Patterns For Secret Scanning](code-security/secret-scanning/defining-custom-patterns-for-secret-scanning.md)
+    * [Enabling AI Powered Generic Secret Detection](code-security/secret-scanning/enabling-ai-powered-generic-secret-detection.md)
+    * [Generating Regular Expressions For Custom Patterns With AI](code-security/secret-scanning/generating-regular-expressions-for-custom-patterns-with-ai.md)
     * [Keeping Secrets Secure With Secret Scanning](code-security/secret-scanning/index.md)
     * [Managing Alerts From Secret Scanning](code-security/secret-scanning/managing-alerts-from-secret-scanning.md)
     * [Push Protection For Repositories And Organizations](code-security/secret-scanning/push-protection-for-repositories-and-organizations.md)
@@ -1266,6 +1272,7 @@
     * [Filtering Alerts In Security Overview](code-security/security-overview/filtering-alerts-in-security-overview.md)
     * [Viewing Security Information For Your Organization Or Enterprise](code-security/security-overview/index.md)
     * [Viewing Metrics For Secret Scanning Push Protection In Your Organization](code-security/security-overview/viewing-metrics-for-secret-scanning-push-protection-in-your-organization.md)
+    * [Viewing Security Insights For Your Organization](code-security/security-overview/viewing-security-insights-for-your-organization.md)
   - Supply Chain Security
     - End To End Supply Chain
       * [Securing Your End To End Supply Chain](code-security/supply-chain-security/end-to-end-supply-chain/end-to-end-supply-chain-overview.md)
@@ -1500,16 +1507,36 @@
   - Github Copilot Chat
     * [About Git Hub Copilot Chat](copilot/github-copilot-chat/about-github-copilot-chat.md)
     * [Git Hub Copilot Chat](copilot/github-copilot-chat/index.md)
-    * [Using Git Hub Copilot Chat](copilot/github-copilot-chat/using-github-copilot-chat.md)
-  - Managing Copilot For Business
-    * [Enabling And Setting Up Git Hub Copilot For Business](copilot/managing-copilot-for-business/enabling-and-setting-up-github-copilot-for-business.md)
-    * [Managing Copilot For Business](copilot/managing-copilot-for-business/index.md)
-    * [Managing Access For Copilot For Business In Your Organization](copilot/managing-copilot-for-business/managing-access-for-copilot-for-business-in-your-organization.md)
-    * [Managing Policies For Copilot For Business In Your Organization](copilot/managing-copilot-for-business/managing-policies-for-copilot-for-business-in-your-organization.md)
-    * [Reviewing Your Organization Ifversion Ghec Or Enterprise Endif S Audit Logs For Copilot For Business](copilot/managing-copilot-for-business/reviewing-your-organization-or-enterprises-audit-logs-for-copilot-for-business.md)
+    * [Using Git Hub Copilot Chat In Your IDE](copilot/github-copilot-chat/using-github-copilot-chat-in-your-ide.md)
+  - Github Copilot Enterprise
+    - Copilot Chat In Github
+      * [About Git Hub Copilot Chat](copilot/github-copilot-enterprise/copilot-chat-in-github/about-github-copilot-chat.md)
+      * [Copilot Chat in GitHub.com](copilot/github-copilot-enterprise/copilot-chat-in-github/index.md)
+      * [Using GitHub Copilot Chat in GitHub.com](copilot/github-copilot-enterprise/copilot-chat-in-github/using-github-copilot-chat-in-githubcom.md)
+    - Copilot Pull Request Summaries
+      * [About Copilot Pull Request Summaries](copilot/github-copilot-enterprise/copilot-pull-request-summaries/about-copilot-pull-request-summaries.md)
+      * [Creating A Pull Request Summary With Git Hub Copilot](copilot/github-copilot-enterprise/copilot-pull-request-summaries/creating-a-pull-request-summary-with-github-copilot.md)
+      * [Copilot Pull Request Summaries](copilot/github-copilot-enterprise/copilot-pull-request-summaries/index.md)
+    - Overview
+      * [About Git Hub Copilot Enterprise](copilot/github-copilot-enterprise/overview/about-github-copilot-enterprise.md)
+      * [Enabling Git Hub Copilot Enterprise](copilot/github-copilot-enterprise/overview/enabling-github-copilot-enterprise.md)
+      * [Overview](copilot/github-copilot-enterprise/overview/index.md)
+    * [Git Hub Copilot Enterprise](copilot/github-copilot-enterprise/index.md)
+  - Github Copilot In The Cli
+    * [About Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/about-github-copilot-in-the-cli.md)
+    * [Enabling Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/enabling-github-copilot-in-the-cli.md)
+    * [Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/index.md)
+    * [Using Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/using-github-copilot-in-the-cli.md)
+  - Managing Copilot Business
+    * [Configuring Content Exclusions For Git Hub Copilot](copilot/managing-copilot-business/configuring-content-exclusions-for-github-copilot.md)
+    * [Enabling And Setting Up Git Hub Copilot Business](copilot/managing-copilot-business/enabling-and-setting-up-github-copilot-business.md)
+    * [Managing Copilot Business](copilot/managing-copilot-business/index.md)
+    * [Managing Access For Copilot Business In Your Organization](copilot/managing-copilot-business/managing-access-for-copilot-business-in-your-organization.md)
+    * [Managing Policies For Copilot Business In Your Organization](copilot/managing-copilot-business/managing-policies-for-copilot-business-in-your-organization.md)
+    * [Reviewing Your Organization Ifversion Ghec Or Enterprise Endif S Audit Logs For Copilot Business](copilot/managing-copilot-business/reviewing-your-organization-or-enterprises-audit-logs-for-copilot-business.md)
   - Overview Of Github Copilot
-    * [About Git Hub Copilot For Business](copilot/overview-of-github-copilot/about-github-copilot-for-business.md)
-    * [About Git Hub Copilot For Individuals](copilot/overview-of-github-copilot/about-github-copilot-for-individuals.md)
+    * [About Git Hub Copilot Business](copilot/overview-of-github-copilot/about-github-copilot-business.md)
+    * [About Git Hub Copilot Individual](copilot/overview-of-github-copilot/about-github-copilot-individual.md)
     * [Overview Of Git Hub Copilot](copilot/overview-of-github-copilot/index.md)
   - Troubleshooting Github Copilot
     * [Troubleshooting Git Hub Copilot](copilot/troubleshooting-github-copilot/index.md)
@@ -2793,7 +2820,7 @@
     * [Git Hub Candidate Privacy Policy](site-policy/privacy-policies/github-candidate-privacy-policy.md)
     * [Git Hub Codespaces Privacy Statement](site-policy/privacy-policies/github-codespaces-privacy-statement.md)
     * [Git Hub Cookies](site-policy/privacy-policies/github-cookies.md)
-    * [Git Hub Copilot For Business Privacy Statement](site-policy/privacy-policies/github-copilot-for-business-privacy-statement.md)
+    * [Git Hub Copilot Business Privacy Statement](site-policy/privacy-policies/github-copilot-business-privacy-statement.md)
     * [Git Hub Octernships Terms Of Service](site-policy/privacy-policies/github-octernships-terms-of-service.md)
     * [Git Hub Privacy Statement](site-policy/privacy-policies/github-privacy-statement.md)
     * [Git Hub Subprocessors](site-policy/privacy-policies/github-subprocessors.md)

@@ -1,9 +1,11 @@
 ---
-title: Using GitHub Copilot Chat
+title: Using GitHub Copilot Chat in your IDE
 intro: 'You can start using {% data variables.product.prodname_copilot_chat %} by installing the extension in your preferred environment.'
 product: '{% data reusables.gated-features.copilot-chat %}'
 topics:
   - Copilot
+redirect_from:
+  - /copilot/github-copilot-chat/using-github-copilot-chat
 defaultTool: vscode
 versions:
   feature: copilot
@@ -26,7 +28,7 @@ shortTitle: Using Copilot Chat
 
 {% data reusables.copilot.enabling-copilot-chat-beta %}
 
-## Installing the {% data variables.product.prodname_vscode %} extension
+## Installing the {% data variables.product.prodname_copilot_chat %} extension in {% data variables.product.prodname_vscode %}
 
 To use {% data variables.product.prodname_copilot_chat %}, you must first install the {% data variables.product.prodname_copilot_chat %} extension for {% data variables.product.prodname_vscode %}.
 
@@ -107,7 +109,7 @@ To share feedback about {% data variables.product.prodname_copilot_chat %}, you 
 
 - "[AUTOTITLE](/free-pro-team@latest/site-policy/github-terms/github-copilot-pre-release-terms)"
 - "[AUTOTITLE](/free-pro-team@latest/site-policy/github-terms/github-terms-for-additional-products-and-features#github-copilot)"{% ifversion ghec %}
-- "[AUTOTITLE](/free-pro-team@latest/site-policy/privacy-policies/github-copilot-for-business-privacy-statement)"{% endif %}
+- "[AUTOTITLE](/free-pro-team@latest/site-policy/privacy-policies/github-copilot-business-privacy-statement)"{% endif %}
 - [{% data variables.product.prodname_copilot %} FAQ](https://github.com/features/copilot#faq)
 
 {% endvscode %}
@@ -128,7 +130,7 @@ To share feedback about {% data variables.product.prodname_copilot_chat %}, you 
 
 {% data reusables.copilot.enabling-copilot-chat-beta %}
 
-## Installing the {% data variables.product.prodname_vs %} extension
+## Installing the {% data variables.product.prodname_copilot_chat %} extension in {% data variables.product.prodname_vs %}
 
 To use {% data variables.product.prodname_copilot_chat %} with {% data variables.product.prodname_vs %}, you must install the {% data variables.product.prodname_vs %} extension.
 {% data reusables.copilot.vs-extensions %}
@@ -183,7 +185,129 @@ To share feedback about {% data variables.product.prodname_copilot_chat %}, you 
 
 - [AUTOTITLE](/free-pro-team@latest/site-policy/github-terms/github-copilot-pre-release-terms)
 - [AUTOTITLE](/free-pro-team@latest/site-policy/github-terms/github-terms-for-additional-products-and-features#github-copilot){% ifversion ghec %}
-- [AUTOTITLE](/free-pro-team@latest/site-policy/privacy-policies/github-copilot-for-business-privacy-statement){% endif %}
+- [AUTOTITLE](/free-pro-team@latest/site-policy/privacy-policies/github-copilot-business-privacy-statement){% endif %}
 - [{% data variables.product.prodname_copilot %} FAQ](https://github.com/features/copilot#faq)
 
 {% endvisualstudio %}
+
+{% jetbrains %}
+
+## About {% data variables.product.prodname_copilot_chat %} and JetBrains
+
+{% data reusables.copilot.chat-procedural-intro %}
+
+## Prerequisites
+
+{% data reusables.copilot.chat-subscription-prerequisite %}
+
+- To use the {% data variables.product.prodname_copilot_chat %} beta in JetBrains, you must have a compatible JetBrains IDE installed. {% data variables.product.prodname_copilot_chat_short %} is compatible with the following IDEs:
+  - IntelliJ IDEA (Ultimate, Community, Educational)
+  - Android Studio
+  - AppCode
+  - CLion
+  - DataGrip
+  - DataSpell
+  - GoLand
+  - MPS
+  - PhpStorm
+  - PyCharm (Professional, Community, Educational)
+  - Rider
+  - RubyMine
+  - RustRover
+  - WebStorm
+
+  For more information, see the [JetBrains IDEs](https://www.jetbrains.com/products/) tool finder.
+
+## Enabling or disabling {% data variables.product.prodname_copilot_chat %}
+
+{% note %}
+
+**Note:**  If you have a {% data variables.product.prodname_copilot_for_individuals %} subscription, you can join the [waitlist](https://github.com/github-copilot/chat_jetbrains_waitlist_signup/join). You will be notified by email when you have been grated access. Joining the waitlist does not guarantee you access.
+
+{% endnote %}
+
+The {% data variables.product.prodname_copilot_chat %} public beta is available to all organizations and enterprises that have an active {% data variables.product.prodname_copilot_for_business %} license. You can enable or disable {% data variables.product.prodname_copilot_chat %} for your organization or enterprise in the {% data variables.product.prodname_copilot_for_business %} settings page.
+
+### Enabling or disabling {% data variables.product.prodname_copilot_chat %} at the organization level
+
+{% data reusables.profile.access_org %}
+{% data reusables.profile.org_settings %}
+1. In the "Code planning, and automation" section of the sidebar, click **{% octicon "copilot" aria-hidden="true" %} {% data variables.product.prodname_copilot_short %}**, and then click **Policies**.
+1. To the right of **{% data variables.product.prodname_copilot_chat %} Beta**, select the dropdown menu, and then click **Enabled** or **Disabled**.
+
+### Enabling or disabling {% data variables.product.prodname_copilot_chat %} at the enterprise level
+
+{% data reusables.enterprise-accounts.policies-tab %}
+{% data reusables.enterprise-accounts.copilot-tab %}
+1. To the right of **{% data variables.product.prodname_copilot_chat %} Beta**, select the dropdown menu, and then choose the appropriate option.
+    - Click **Allowed** to enable the {% data variables.product.prodname_copilot_chat %} beta for all organizations under your enterprise.
+    - Click **Blocked** to disable the {% data variables.product.prodname_copilot_chat %} beta for all organizations under your enterprise.
+    - Click **No policy** to allow each organization under your enterprise to set their own policy.
+
+## Installing or updating the {% data variables.product.prodname_copilot %} plugin in JetBrains
+
+To use the {% data variables.product.prodname_copilot_chat %} beta in a JetBrains IDE, you must install or update the {% data variables.product.prodname_copilot %} plugin. If you have not yet installed the {% data variables.product.prodname_copilot %} plugin, follow the steps in "[Installing the {% data variables.product.prodname_copilot %} plugin in your JetBrains IDE](#installing-the-github-copilot-plugin-in-your-jetbrains-ide)." If you have already installed the {% data variables.product.prodname_copilot %} plugin, follow the steps in "[Updating the {% data variables.product.prodname_copilot %} plugin in JetBrains](#updating-the-github-copilot-plugin-in-jetbrains)."
+
+The following procedures will guide you through installing or updating the {% data variables.product.prodname_copilot %} plugin in IntelliJ IDEA. Steps to install the plugin in another supported IDE may differ.
+
+### Installing the {% data variables.product.prodname_copilot %} plugin in your JetBrains IDE
+
+{% data reusables.copilot.installing-copilot-in-jetbrains-ide %}
+
+### Updating the {% data variables.product.prodname_copilot %} plugin in JetBrains
+
+{% data reusables.copilot.jetbrains-settings-preferences %}
+1. In the left-side menu of the **Settings/Preferences** dialog box, click **Plugins**.
+1. At the top of the **Settings/Preferences** dialog box, click **Installed**. In the search bar, search for **{% data variables.product.prodname_copilot %}**, then click **Update**.
+1. After {% data variables.product.prodname_copilot %} is updated, quit and relaunch your JetBrains IDE.
+1. After your JetBrains IDE has restarted, navigate back to the **Settings/Preferences** dialog box. Click **Languages & Frameworks**, then click **{% data variables.product.prodname_copilot %}**.
+1. Under "Plugin", in the "Update channel" dropdown menu, select **Nightly**.
+1. Click **Apply**.
+1. Click **OK**.
+1. Quit and relaunch your JetBrains IDE.
+
+## Asking your first question
+
+{% data reusables.copilot.copilot-chat-exclusively-code-questions %}
+
+1. At the right side of the JetBrains IDE window, click the **{% data variables.product.prodname_copilot_chat %}** icon to open the {% data variables.product.prodname_copilot_chat %} window.
+
+    ![Screenshot of the {% data variables.product.prodname_copilot_chat %} icon in the Activity Bar.](/assets/images/help/copilot/jetbrains-copilot-chat-icon.png)
+
+1. At the bottom of the {% data variables.product.prodname_copilot_chat %} window, in the **Ask {% data variables.product.prodname_copilot_short %} a question or type `/` for commands** text box, type a coding related question, then press **Enter**. For example, type "How do I write a function that returns the sum of two numbers?".
+1. {% data variables.product.prodname_copilot_chat %} will process your question and provide an answer, with code suggestions when appropriate, in the chat window.
+
+   If your question is outside the scope of {% data variables.product.prodname_copilot_chat %}, it will tell you and may suggest an alternative question to ask.
+
+1. Optionally, if {% data variables.product.prodname_copilot_chat %} suggests a follow-up question above the **Ask {% data variables.product.prodname_copilot_short %} a question or type `/` for commands** text box, click the follow-up question to ask it.
+
+## Asking {% data variables.product.prodname_copilot_chat %} questions about your code
+
+{% data variables.product.prodname_copilot_chat %} can provide answers and support with a wide range of coding-related topics.
+
+1. In your JetBrains IDE, open the file you want {% data variables.product.prodname_copilot_chat %} to help you with.
+1. Ask {% data variables.product.prodname_copilot_chat %} a question about the file you have open. For example:
+    - To generate a description of the file's purpose, ask a question like, `What does this file do?`.
+    - To generate a unit test for the file, type a request like, `Write a unit test for this file`. Alternatively, highlight the code you want to generate a unit test for, then ask a question like, `Write a unit test for this code`.
+    - To generate a fix for a bug in the file, type a request like, `Fix this bug`.
+
+## Sharing feedback about {% data variables.product.prodname_copilot_chat %}
+
+To share feedback about {% data variables.product.prodname_copilot_chat %}, you can use the **share feedback** link in JetBrains.
+
+1. At the right side of the JetBrains IDE window, click the **{% data variables.product.prodname_copilot_chat %}** icon to open the {% data variables.product.prodname_copilot_chat %} window.
+
+    ![Screenshot of the {% data variables.product.prodname_copilot_chat %} icon in the Activity Bar.](/assets/images/help/copilot/jetbrains-copilot-chat-icon.png)
+
+1. At the top of the {% data variables.product.prodname_copilot_chat %} window, click the **share feedback** link.
+
+    ![Screenshot of the share feedback link in the {% data variables.product.prodname_copilot_chat %} window.](/assets/images/help/copilot/jetbrains-share-feedback.png)
+
+## Further reading
+
+- "[AUTOTITLE](/free-pro-team@latest/site-policy/github-terms/github-copilot-pre-release-terms)"
+- "[AUTOTITLE](/free-pro-team@latest/site-policy/github-terms/github-terms-for-additional-products-and-features#github-copilot) "{% ifversion ghec %}
+- "[AUTOTITLE](/free-pro-team@latest/site-policy/privacy-policies/github-copilot-for-business-privacy-statement) "{% endif %}
+- [{% data variables.product.prodname_copilot %} FAQ](https://github.com/features/copilot#faq)
+
+{% endjetbrains %}

@@ -1,7 +1,9 @@
 ---
-title: Reviewing your organization{% ifversion ghec%} or enterprise{% endif %}'s audit logs for Copilot for Business
+title: Reviewing your organization{% ifversion ghec%} or enterprise{% endif %}'s audit logs for Copilot Business
 intro: 'Review the audit logs for your {% data variables.product.prodname_copilot_business_short %} subscription to understand what actions have been taken and by which users.'
 allowTitleToDifferFromFilename: true
+redirect_from:
+  - /copilot/managing-copilot-for-business/reviewing-your-organization-or-enterprises-audit-logs-for-copilot-for-business
 versions:
   feature: copilot
 product: '{% data reusables.gated-features.copilot-audit-logs %}'
@@ -39,6 +41,7 @@ You can search for any of the {% data variables.product.prodname_copilot %} audi
 |------------------|-------------------{% ifversion ghec %}
 |`cfb_enterprise_settings_changed`| Settings for {% data variables.product.prodname_copilot_business_short %} were changed at the enterprise level.
 |`copilot.cfb_enterprise_org_enablement_changed` | The {% data variables.product.prodname_copilot_business_short %} enablement policy changed at the enterprise level or for an organization within the enterprise.
+|`copilot.content_exclusion_changed` | The content exclusion settings for {% data variables.product.prodname_copilot_business_short %} were changed.
 |`clickwrap_save_event`| The {% data variables.product.prodname_copilot %} Product Specific Terms were accepted.{% endif %}
 |`cfb_org_settings_changed`| Settings for {% data variables.product.prodname_copilot_business_short %} were changed at the organization level.
 |`copilot.cfb_seat_cancelled_by_staff`| A seat was cancelled from the {% data variables.product.prodname_copilot_business_short %} subscription manually by GitHub staff.

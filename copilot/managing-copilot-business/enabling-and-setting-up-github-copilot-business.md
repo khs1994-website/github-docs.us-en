@@ -1,14 +1,15 @@
 ---
-title: Enabling and setting up GitHub Copilot for Business
+title: Enabling and setting up GitHub Copilot Business
 intro: 'To use {% data variables.product.prodname_copilot_for_business %}, you need to set up a subscription for your organization{% ifversion ghec %} or enterprise{% endif %}.'
 product: '{% data reusables.gated-features.copilot-billing %}'
 redirect_from:
   - /copilot/overview-of-github-copilot/enabling-and-setting-up-github-copilot-for-business
+  - /copilot/managing-copilot-business/enabling-and-setting-up-github-copilot-for-business
 versions:
   feature: copilot
 topics:
   - Copilot
-shortTitle: Enabling GitHub Copilot for Business
+shortTitle: Enabling GitHub Copilot Business
 ---
 
 To use {% data variables.product.prodname_copilot_for_business %}, you need to set up a subscription for your organization{% ifversion ghec %} or enterprise{% endif %} account. For more information, see "[AUTOTITLE](/billing/managing-billing-for-github-copilot/managing-your-github-copilot-subscription-for-your-organization-or-enterprise)."
@@ -26,7 +27,7 @@ To use {% data variables.product.prodname_copilot_for_business %}, you need to s
 
 {% endnote %}
 
-Your enterprise owner can enable {% data variables.product.prodname_copilot_business_short %} for the organizations in the enterprise by first establishing the policy and then assigning users. To enforce a policy to manage the use of {% data variables.product.prodname_copilot_business_short %}, follow the steps in "[AUTOTITLE](/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-copilot-in-your-enterprise#enforcing-a-policy-to-manage-the-use-of-github-copilot-for-business-in-your-enterprise)." If you need additional help with policy configuration or user assignment for {% data variables.product.prodname_copilot_business_short %}, you can contact {% data variables.contact.contact_enterprise_sales %}.
+Your enterprise owner can enable {% data variables.product.prodname_copilot_business_short %} for the organizations in the enterprise by first establishing the policy and then assigning users. To enforce a policy to manage the use of {% data variables.product.prodname_copilot_business_short %}, follow the steps in "[AUTOTITLE](/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-copilot-in-your-enterprise#enforcing-a-policy-to-manage-the-use-of-github-copilot-business-in-your-enterprise)." If you need additional help with policy configuration or user assignment for {% data variables.product.prodname_copilot_business_short %}, you can contact {% data variables.contact.contact_enterprise_sales %}.
 
 {% data variables.product.prodname_copilot %} includes a filter which detects code suggestions that match public code on {% data variables.product.prodname_dotcom %}. Your enterprise owner can choose whether to enable or disable the filter at the enterprise-level, or allow organization owners to decide at the organization-level. For more information, see "[AUTOTITLE](/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-copilot-in-your-enterprise#enforcing-a-policy-to-manage-the-use-of-github-copilot-suggestions-that-match-public-code-in-your-enterprise)."{% endif %}
 
