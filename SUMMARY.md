@@ -2671,7 +2671,7 @@
     * [Permissions Required For Git Hub Apps](rest/overview/permissions-required-for-github-apps.md)
     * [Rate Limits For The REST API](rest/overview/rate-limits-for-the-rest-api.md)
     * [Resources In The REST API](rest/overview/resources-in-the-rest-api.md)
-    * [Troubleshooting](rest/overview/troubleshooting.md)
+    * [Troubleshooting The REST API](rest/overview/troubleshooting-the-rest-api.md)
   - Packages
     * [Packages](rest/packages/packages.md)
   - Pages
