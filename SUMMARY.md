@@ -316,6 +316,7 @@
   - Administering Your Instance
     - Administering Your Instance From The Command Line
       * [Accessing The Administrative Shell SSH](admin/administering-your-instance/administering-your-instance-from-the-command-line/accessing-the-administrative-shell-ssh.md)
+      * [Administering Your Instance Using The Git Hub CLI](admin/administering-your-instance/administering-your-instance-from-the-command-line/administering-your-instance-using-the-github-cli.md)
       * [Command Line Utilities](admin/administering-your-instance/administering-your-instance-from-the-command-line/command-line-utilities.md)
       * [Administering Your Instance From The Command Line](admin/administering-your-instance/administering-your-instance-from-the-command-line/index.md)
     - Administering Your Instance From The Web Ui
