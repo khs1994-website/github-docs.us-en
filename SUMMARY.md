@@ -553,6 +553,10 @@
       * [Viewing And Managing A User S SAML Access To Your Enterprise](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/viewing-and-managing-a-users-saml-access-to-your-enterprise.md)
       * [Viewing People In Your Enterprise](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/viewing-people-in-your-enterprise.md)
     * [Managing Accounts And Repositories](admin/managing-accounts-and-repositories/index.md)
+  - Managing Your Enterprise Account
+    * [Creating An Enterprise Account](admin/managing-your-enterprise-account/creating-an-enterprise-account.md)
+    * [Deleting An Enterprise Account](admin/managing-your-enterprise-account/deleting-an-enterprise-account.md)
+    * [Managing Your Enterprise Account](admin/managing-your-enterprise-account/index.md)
   - Monitoring Activity In Your Enterprise
     - Analyzing How Your Team Works With Server Statistics
       * [About Server Statistics](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/about-server-statistics.md)
@@ -639,8 +643,6 @@
     * [About Upgrades To New Releases](admin/overview/about-upgrades-to-new-releases.md)
     * [Accessing Compliance Reports For Your Enterprise](admin/overview/accessing-compliance-reports-for-your-enterprise.md)
     * [Best Practices For Enterprises](admin/overview/best-practices-for-enterprises.md)
-    * [Creating An Enterprise Account](admin/overview/creating-an-enterprise-account.md)
-    * [Deleting An Enterprise Account](admin/overview/deleting-an-enterprise-account.md)
     * [Deploying Git Hub AE](admin/overview/deploying-github-ae.md)
     * [Overview](admin/overview/index.md)
     * [Initializing Git Hub AE](admin/overview/initializing-github-ae.md)
