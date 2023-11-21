@@ -2547,7 +2547,7 @@
     * [Commits](rest/commits/index.md)
     * [Commit Statuses](rest/commits/statuses.md)
   - Copilot
-    * [Copilot For Business](rest/copilot/copilot-for-business.md)
+    * [Copilot Business](rest/copilot/copilot-business.md)
     * [Copilot](rest/copilot/index.md)
   - Dependabot
     * [{% data variables.product.prodname_dependabot_alerts %}](rest/dependabot/alerts.md)
