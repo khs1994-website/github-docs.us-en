@@ -51,6 +51,7 @@
       * [Setting A Backup Email Address](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-a-backup-email-address.md)
       * [Setting Your Commit Email Address](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address.md)
       * [Types Of Emails Git Hub Sends](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/types-of-emails-github-sends.md)
+      * [Verifying Your Email Address](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/verifying-your-email-address.md)
     - Managing User Account Settings
       * [About Your Personal Dashboard](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/about-your-personal-dashboard.md)
       * [Changing Your Git Hub Username](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/changing-your-github-username.md)
@@ -646,6 +647,8 @@
     * [Deploying Git Hub AE](admin/overview/deploying-github-ae.md)
     * [Overview](admin/overview/index.md)
     * [Initializing Git Hub AE](admin/overview/initializing-github-ae.md)
+    * [Setting Up A Trial Of Git Hub Enterprise Cloud](admin/overview/setting-up-a-trial-of-github-enterprise-cloud.md)
+    * [Setting Up A Trial Of Git Hub Enterprise Server](admin/overview/setting-up-a-trial-of-github-enterprise-server.md)
     * [System Overview](admin/overview/system-overview.md)
   - Packages
     * [Configuring Package Ecosystem Support For Your Enterprise](admin/packages/configuring-package-ecosystem-support-for-your-enterprise.md)
@@ -1746,6 +1749,7 @@
     * [Communicating On Git Hub](get-started/quickstart/communicating-on-github.md)
     * [Contributing To Projects](get-started/quickstart/contributing-to-projects.md)
     * [Create A Repo](get-started/quickstart/create-a-repo.md)
+    * [Creating An Account On Git Hub](get-started/quickstart/creating-an-account-on-github.md)
     * [Fork A Repo](get-started/quickstart/fork-a-repo.md)
     * [Git And Git Hub Learning Resources](get-started/quickstart/git-and-github-learning-resources.md)
     * [Git Cheatsheet](get-started/quickstart/git-cheatsheet.md)
@@ -1754,12 +1758,6 @@
     * [Hello World](get-started/quickstart/hello-world.md)
     * [Quickstart](get-started/quickstart/index.md)
     * [Set Up Git](get-started/quickstart/set-up-git.md)
-  - Signing Up For Github
-    * [Signing Up For Git Hub](get-started/signing-up-for-github/index.md)
-    * [Setting Up A Trial Of Git Hub Enterprise Cloud](get-started/signing-up-for-github/setting-up-a-trial-of-github-enterprise-cloud.md)
-    * [Setting Up A Trial Of Git Hub Enterprise Server](get-started/signing-up-for-github/setting-up-a-trial-of-github-enterprise-server.md)
-    * [Signing Up For A New Git Hub Account](get-started/signing-up-for-github/signing-up-for-a-new-github-account.md)
-    * [Verifying Your Email Address](get-started/signing-up-for-github/verifying-your-email-address.md)
   - Using Git
     * [About Git Rebase](get-started/using-git/about-git-rebase.md)
     * [About Git Subtree Merges](get-started/using-git/about-git-subtree-merges.md)
