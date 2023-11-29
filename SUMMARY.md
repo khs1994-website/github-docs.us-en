@@ -1059,7 +1059,7 @@
       * [Code QL Scanned Fewer Lines Than Expected](code-security/code-scanning/troubleshooting-code-scanning/fewer-lines-scanned-than-expected.md)
       * [Troubleshooting Code Scanning](code-security/code-scanning/troubleshooting-code-scanning/index.md)
       * [Logs Are Not Detailed Enough](code-security/code-scanning/troubleshooting-code-scanning/logs-not-detailed-enough.md)
-      * [Error: "No source code was seen during the build" or "The process '/opt/hostedtoolcache/CodeQL/0.0.0-20200630/x64/codeql/codeql' failed with exit code 32"](code-security/code-scanning/troubleshooting-code-scanning/no-source-code-seen-during-build.md)
+      * [Error No Source Code Was Seen During The Build](code-security/code-scanning/troubleshooting-code-scanning/no-source-code-seen-during-build.md)
       * [Error: "is not a .ql file, .qls file, a directory, or a query pack specification"](code-security/code-scanning/troubleshooting-code-scanning/not-recognized.md)
       * [Error Out Of Disk Or Error Out Of Memory](code-security/code-scanning/troubleshooting-code-scanning/out-of-disk-or-memory.md)
       * [Error 403 Resource Not Accessible By Integration](code-security/code-scanning/troubleshooting-code-scanning/resource-not-accessible.md)
@@ -1303,13 +1303,8 @@
   - Customizing Your Codespace
     * [Changing The Machine Type For Your Codespace](codespaces/customizing-your-codespace/changing-the-machine-type-for-your-codespace.md)
     * [Changing The Shell In A Codespace](codespaces/customizing-your-codespace/changing-the-shell-in-a-codespace.md)
-    * [Configuring Automatic Deletion Of Your Codespaces](codespaces/customizing-your-codespace/configuring-automatic-deletion-of-your-codespaces.md)
     * [Customizing Your Codespace](codespaces/customizing-your-codespace/index.md)
-    * [Personalizing Git Hub Codespaces For Your Account](codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account.md)
     * [Renaming A Codespace](codespaces/customizing-your-codespace/renaming-a-codespace.md)
-    * [Setting Your Default Editor For Git Hub Codespaces](codespaces/customizing-your-codespace/setting-your-default-editor-for-github-codespaces.md)
-    * [Setting Your Default Region For Git Hub Codespaces](codespaces/customizing-your-codespace/setting-your-default-region-for-github-codespaces.md)
-    * [Setting Your Timeout Period For Git Hub Codespaces](codespaces/customizing-your-codespace/setting-your-timeout-period-for-github-codespaces.md)
   - Developing In A Codespace
     * [Connecting To A Private Network](codespaces/developing-in-a-codespace/connecting-to-a-private-network.md)
     * [Creating A Codespace For A Repository](codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository.md)
@@ -1390,6 +1385,14 @@
       * [Setting up your repository for {% data variables.product.prodname_github_codespaces %}](codespaces/setting-up-your-project-for-codespaces/setting-up-your-repository/index.md)
       * [Setting Up A Template Repository For Git Hub Codespaces](codespaces/setting-up-your-project-for-codespaces/setting-up-your-repository/setting-up-a-template-repository-for-github-codespaces.md)
     * [Setting up your project for {% data variables.product.prodname_github_codespaces %}](codespaces/setting-up-your-project-for-codespaces/index.md)
+  - Setting Your User Preferences
+    * [Choosing The Stable Or Beta Host Image](codespaces/setting-your-user-preferences/choosing-the-stable-or-beta-host-image.md)
+    * [Configuring Automatic Deletion Of Your Codespaces](codespaces/setting-your-user-preferences/configuring-automatic-deletion-of-your-codespaces.md)
+    * [Setting Your User Preferences](codespaces/setting-your-user-preferences/index.md)
+    * [Personalizing Git Hub Codespaces For Your Account](codespaces/setting-your-user-preferences/personalizing-github-codespaces-for-your-account.md)
+    * [Setting Your Default Editor For Git Hub Codespaces](codespaces/setting-your-user-preferences/setting-your-default-editor-for-github-codespaces.md)
+    * [Setting Your Default Region For Git Hub Codespaces](codespaces/setting-your-user-preferences/setting-your-default-region-for-github-codespaces.md)
+    * [Setting Your Timeout Period For Git Hub Codespaces](codespaces/setting-your-user-preferences/setting-your-timeout-period-for-github-codespaces.md)
   - Troubleshooting
     * [Exporting Changes To A Branch](codespaces/troubleshooting/exporting-changes-to-a-branch.md)
     * [Git Hub Codespaces Logs](codespaces/troubleshooting/github-codespaces-logs.md)
