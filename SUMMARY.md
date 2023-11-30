@@ -1917,6 +1917,7 @@
     - Learning About Projects
       * [About {% data variables.product.prodname_projects_v2 %}](issues/planning-and-tracking-with-projects/learning-about-projects/about-projects.md)
       * [Best practices for {% data variables.product.prodname_projects_v2 %}](issues/planning-and-tracking-with-projects/learning-about-projects/best-practices-for-projects.md)
+      * [Finding your {% data variables.projects.projects_v2 %}](issues/planning-and-tracking-with-projects/learning-about-projects/finding-your-projects.md)
       * [Learning about {% data variables.product.prodname_projects_v2 %}](issues/planning-and-tracking-with-projects/learning-about-projects/index.md)
       * [Quickstart for {% data variables.product.prodname_projects_v2 %}](issues/planning-and-tracking-with-projects/learning-about-projects/quickstart-for-projects.md)
     - Managing Items In Your Project
