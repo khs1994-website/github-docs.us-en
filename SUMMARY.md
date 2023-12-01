@@ -555,6 +555,7 @@
       * [Viewing People In Your Enterprise](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/viewing-people-in-your-enterprise.md)
     * [Managing Accounts And Repositories](admin/managing-accounts-and-repositories/index.md)
   - Managing Your Enterprise Account
+    * [Changing The URL For Your Enterprise](admin/managing-your-enterprise-account/changing-the-url-for-your-enterprise.md)
     * [Creating An Enterprise Account](admin/managing-your-enterprise-account/creating-an-enterprise-account.md)
     * [Deleting An Enterprise Account](admin/managing-your-enterprise-account/deleting-an-enterprise-account.md)
     * [Managing Your Enterprise Account](admin/managing-your-enterprise-account/index.md)
@@ -1554,7 +1555,10 @@
     * [Troubleshooting Issues With Git Hub Copilot Chat](copilot/troubleshooting-github-copilot/troubleshooting-issues-with-github-copilot-chat.md)
     * [Troubleshooting Network Errors For Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-network-errors-for-github-copilot.md)
     * [Viewing Logs For Git Hub Copilot In Your Environment](copilot/troubleshooting-github-copilot/viewing-logs-for-github-copilot-in-your-environment.md)
-  * [Getting Started With Git Hub Copilot](copilot/getting-started-with-github-copilot.md)
+  - Using Github Copilot
+    * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/using-github-copilot/finding-public-code-that-matches-github-copilot-suggestions.md)
+    * [Getting Started With Git Hub Copilot](copilot/using-github-copilot/getting-started-with-github-copilot.md)
+    * [Using Git Hub Copilot](copilot/using-github-copilot/index.md)
   * [Git Hub Copilot Documentation](copilot/index.md)
   * [Quickstart For Git Hub Copilot](copilot/quickstart.md)
 - Desktop
