@@ -2296,6 +2296,7 @@
       * [Working With Pre Receive Hooks](pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/working-with-pre-receive-hooks.md)
     - Getting Started
       * [About Collaborative Development Models](pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models.md)
+      * [Best Practices For Pull Requests](pull-requests/collaborating-with-pull-requests/getting-started/best-practices-for-pull-requests.md)
       * [Getting Started](pull-requests/collaborating-with-pull-requests/getting-started/index.md)
     - Incorporating Changes From A Pull Request
       * [About Pull Request Merges](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges.md)
