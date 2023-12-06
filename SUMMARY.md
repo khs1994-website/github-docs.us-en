@@ -311,7 +311,7 @@
     * [Workflow Commands For Git Hub Actions](actions/using-workflows/workflow-commands-for-github-actions.md)
     * [Workflow Syntax For Git Hub Actions](actions/using-workflows/workflow-syntax-for-github-actions.md)
   * [Guides For Git Hub Actions](actions/guides.md)
-  * [Git Hub Actions Documentation](actions/index.md)
+  * [{% data variables.product.prodname_actions %} documentation](actions/index.md)
   * [Quickstart For Git Hub Actions](actions/quickstart.md)
 - Admin
   - Administering Your Instance
@@ -1409,7 +1409,7 @@
     * [Troubleshooting Your Connection To Git Hub Codespaces](codespaces/troubleshooting/troubleshooting-your-connection-to-github-codespaces.md)
     * [Working With Support For Git Hub Codespaces](codespaces/troubleshooting/working-with-support-for-github-codespaces.md)
   * [Guides For Codespaces](codespaces/guides.md)
-  * [Git Hub Codespaces Documentation](codespaces/index.md)
+  * [{% data variables.product.prodname_codespaces %} documentation](codespaces/index.md)
   * [Git Hub Codespaces Overview](codespaces/overview.md)
   * [The github.dev web-based editor](codespaces/the-githubdev-web-based-editor.md)
 - Communities
@@ -1559,7 +1559,7 @@
     * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/using-github-copilot/finding-public-code-that-matches-github-copilot-suggestions.md)
     * [Getting Started With Git Hub Copilot](copilot/using-github-copilot/getting-started-with-github-copilot.md)
     * [Using Git Hub Copilot](copilot/using-github-copilot/index.md)
-  * [Git Hub Copilot Documentation](copilot/index.md)
+  * [{% data variables.product.prodname_copilot %} documentation](copilot/index.md)
   * [Quickstart For Git Hub Copilot](copilot/quickstart.md)
 - Desktop
   - Adding And Cloning Repositories
@@ -1615,7 +1615,7 @@
     * [Syncing Your Branch In Git Hub Desktop](desktop/working-with-your-remote-repository-on-github-or-github-enterprise/syncing-your-branch-in-github-desktop.md)
     * [Viewing A Pull Request In Git Hub Desktop](desktop/working-with-your-remote-repository-on-github-or-github-enterprise/viewing-a-pull-request-in-github-desktop.md)
     * [Viewing And Re Running Checks In Git Hub Desktop](desktop/working-with-your-remote-repository-on-github-or-github-enterprise/viewing-and-re-running-checks-in-github-desktop.md)
-  * [Git Hub Desktop Documentation](desktop/index.md)
+  * [{% data variables.product.prodname_desktop %} documentation](desktop/index.md)
 - Discussions
   - Collaborating With Your Community Using Discussions
     * [About Discussions](discussions/collaborating-with-your-community-using-discussions/about-discussions.md)
@@ -1635,7 +1635,7 @@
     * [Moderating Discussions](discussions/managing-discussions-for-your-community/moderating-discussions.md)
     * [Syntax For Discussion Category Forms](discussions/managing-discussions-for-your-community/syntax-for-discussion-category-forms.md)
     * [Viewing Insights For Your Discussions](discussions/managing-discussions-for-your-community/viewing-insights-for-your-discussions.md)
-  * [Git Hub Discussions Documentation](discussions/index.md)
+  * [{% data variables.product.prodname_discussions %} documentation](discussions/index.md)
   * [Quickstart For Git Hub Discussions](discussions/quickstart.md)
 - Education
   - Contribute With Github Community Exchange
@@ -1700,7 +1700,7 @@
       * [Using {% data variables.product.prodname_classroom %} with {% data variables.product.prodname_cli %}](education/manage-coursework-with-github-classroom/teach-with-github-classroom/using-github-classroom-with-github-cli.md)
     * [Manage Coursework With Git Hub Classroom](education/manage-coursework-with-github-classroom/index.md)
   * [Guides For Git Hub Education](education/guides.md)
-  * [Git Hub Education Documentation](education/index.md)
+  * [{% data variables.product.prodname_education %} documentation](education/index.md)
   * [Quickstart For Git Hub Educators](education/quickstart.md)
 - Get Started
   - Accessibility
@@ -1835,7 +1835,7 @@
     * [Git Hub CLI](github-cli/github-cli/index.md)
     * [Git Hub CLI Quickstart](github-cli/github-cli/quickstart.md)
     * [Using Git Hub CLI Extensions](github-cli/github-cli/using-github-cli-extensions.md)
-  * [Git Hub CLI Documentation](github-cli/index.md)
+  * [{% data variables.product.prodname_cli %} documentation](github-cli/index.md)
 - [Graphql](graphql/README.md)
   - Guides
     * [Forming Calls With Graph QL](graphql/guides/forming-calls-with-graphql.md)
@@ -1979,7 +1979,7 @@
     * [Managing Labels](issues/using-labels-and-milestones-to-track-work/managing-labels.md)
     * [Viewing Your Milestone S Progress](issues/using-labels-and-milestones-to-track-work/viewing-your-milestones-progress.md)
   * [Guides For Issues](issues/guides.md)
-  * [Git Hub Issues Documentation](issues/index.md)
+  * [{% data variables.product.prodname_github_issues %} documentation](issues/index.md)
 - Migrations
   - Importing Source Code
     - Using Github Importer
@@ -2248,7 +2248,7 @@
     * [Working With The Npm Registry](packages/working-with-a-github-packages-registry/working-with-the-npm-registry.md)
     * [Working With The Nu Get Registry](packages/working-with-a-github-packages-registry/working-with-the-nuget-registry.md)
     * [Working With The Ruby Gems Registry](packages/working-with-a-github-packages-registry/working-with-the-rubygems-registry.md)
-  * [Git Hub Packages Documentation](packages/index.md)
+  * [{% data variables.product.prodname_registry %} documentation](packages/index.md)
   * [Quickstart For Git Hub Packages](packages/quickstart.md)
 - Pages
   - Configuring A Custom Domain For Your Github Pages Site
@@ -2280,7 +2280,7 @@
     * [Setting A Markdown Processor For Your Git Hub Pages Site Using Jekyll](pages/setting-up-a-github-pages-site-with-jekyll/setting-a-markdown-processor-for-your-github-pages-site-using-jekyll.md)
     * [Testing Your Git Hub Pages Site Locally With Jekyll](pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll.md)
     * [Troubleshooting Jekyll Build Errors For Git Hub Pages Sites](pages/setting-up-a-github-pages-site-with-jekyll/troubleshooting-jekyll-build-errors-for-github-pages-sites.md)
-  * [Git Hub Pages Documentation](pages/index.md)
+  * [{% data variables.product.prodname_pages %} documentation](pages/index.md)
   * [Quickstart For Git Hub Pages](pages/quickstart.md)
 - Pull Requests
   - Collaborating With Pull Requests
@@ -2891,7 +2891,7 @@
     * [Sponsoring An Open Source Contributor Through Patreon](sponsors/sponsoring-open-source-contributors/sponsoring-an-open-source-contributor-through-patreon.md)
     * [Unlinking Your Patreon Account From Your Git Hub Account](sponsors/sponsoring-open-source-contributors/unlinking-your-patreon-account-from-your-github-account.md)
   * [Guides For Git Hub Sponsors](sponsors/guides.md)
-  * [Git Hub Sponsors Documentation](sponsors/index.md)
+  * [{% data variables.product.prodname_sponsors %} documentation](sponsors/index.md)
 - Support
   - Contacting Github Support
     * [Creating A Support Ticket](support/contacting-github-support/creating-a-support-ticket.md)
