@@ -310,7 +310,7 @@
     * [Using Git Hub CLI In Workflows](actions/using-workflows/using-github-cli-in-workflows.md)
     * [Workflow Commands For Git Hub Actions](actions/using-workflows/workflow-commands-for-github-actions.md)
     * [Workflow Syntax For Git Hub Actions](actions/using-workflows/workflow-syntax-for-github-actions.md)
-  * [Guides For Git Hub Actions](actions/guides.md)
+  * [Guides for {% data variables.product.prodname_actions %}](actions/guides.md)
   * [{% data variables.product.prodname_actions %} documentation](actions/index.md)
   * [Quickstart For Git Hub Actions](actions/quickstart.md)
 - Admin
