@@ -1845,6 +1845,7 @@
     * [Migrating From REST To Graph QL](graphql/guides/migrating-from-rest-to-graphql.md)
     * [Migrating Graph QL Global Node I Ds](graphql/guides/migrating-graphql-global-node-ids.md)
     * [Using Global Node I Ds](graphql/guides/using-global-node-ids.md)
+    * [Using Pagination In The Graph QL API](graphql/guides/using-pagination-in-the-graphql-api.md)
     * [Using The Explorer](graphql/guides/using-the-explorer.md)
     * [Using The Graph QL API For Discussions](graphql/guides/using-the-graphql-api-for-discussions.md)
   - Overview
