@@ -1045,8 +1045,16 @@
     - Managing Your Code Scanning Configuration
       * [About The Tool Status Page For Code Scanning](code-security/code-scanning/managing-your-code-scanning-configuration/about-the-tool-status-page.md)
       * [Built In Code QL Query Suites](code-security/code-scanning/managing-your-code-scanning-configuration/built-in-codeql-query-suites.md)
+      * [C And C Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/c-cpp-built-in-queries.md)
+      * [C Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/csharp-built-in-queries.md)
       * [Editing Your Configuration Of Default Setup](code-security/code-scanning/managing-your-code-scanning-configuration/editing-your-configuration-of-default-setup.md)
+      * [Go Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/go-built-in-queries.md)
       * [Managing Your Code Scanning Configuration](code-security/code-scanning/managing-your-code-scanning-configuration/index.md)
+      * [Java And Kotlin Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/java-kotlin-built-in-queries.md)
+      * [Java Script And Type Script Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/javascript-typescript-built-in-queries.md)
+      * [Python Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/python-built-in-queries.md)
+      * [Ruby Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/ruby-built-in-queries.md)
+      * [Swift Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/swift-built-in-queries.md)
       * [Viewing Code Scanning Logs](code-security/code-scanning/managing-your-code-scanning-configuration/viewing-code-scanning-logs.md)
     - Troubleshooting Code Scanning
       * [Error Advanced Security Must Be Enabled For This Repository To Use Code Scanning](code-security/code-scanning/troubleshooting-code-scanning/advanced-security-must-be-enabled.md)
