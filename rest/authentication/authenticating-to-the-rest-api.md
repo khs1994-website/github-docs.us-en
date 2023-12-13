@@ -4,6 +4,7 @@ intro: You can authenticate to the REST API to access more endpoints and have a 
 redirect_from:
   - /v3/auth
   - /rest/overview/other-authentication-methods
+  - /rest/overview/authenticating-to-the-rest-api
 versions:
   fpt: '*'
   ghes: '*'

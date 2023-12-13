@@ -4,6 +4,8 @@ shortTitle: Breaking changes
 intro: Learn about breaking changes that were introduced in each REST API version.
 versions:
   feature: api-date-versioning
+redirect_from:
+  - /rest/overview/breaking-changes
 ---
 
 ## About breaking changes in the REST API

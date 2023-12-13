@@ -5,6 +5,7 @@ intro: Learn how to diagnose and resolve common problems for the REST API.
 redirect_from:
   - /v3/troubleshooting
   - /rest/overview/troubleshooting
+  - /rest/overview/troubleshooting-the-rest-api
 versions:
   fpt: '*'
   ghes: '*'

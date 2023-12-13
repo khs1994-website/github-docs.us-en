@@ -5,6 +5,7 @@ redirect_from:
   - /guides/best-practices-for-integrators
   - /v3/guides/best-practices-for-integrators
   - /rest/guides/best-practices-for-integrators
+  - /rest/guides/best-practices-for-using-the-rest-api
 versions:
   fpt: '*'
   ghes: '*'

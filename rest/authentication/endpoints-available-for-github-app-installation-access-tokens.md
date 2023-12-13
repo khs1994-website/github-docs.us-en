@@ -7,6 +7,7 @@ redirect_from:
   - /v3/apps/available-endpoints
   - /rest/reference/endpoints-available-for-github-apps
   - /rest/overview/endpoints-available-for-github-apps
+  - /rest/overview/endpoints-available-for-github-app-installation-access-tokens
 versions:
   fpt: '*'
   ghes: '*'

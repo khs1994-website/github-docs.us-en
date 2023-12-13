@@ -5,6 +5,7 @@ redirect_from:
   - /guides/traversing-with-pagination
   - /v3/guides/traversing-with-pagination
   - /rest/guides/traversing-with-pagination
+  - /rest/guides/using-pagination-in-the-rest-api
 versions:
   fpt: '*'
   ghes: '*'

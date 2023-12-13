@@ -4,6 +4,7 @@ intro: 'These are the permissions required for a {% data variables.product.prodn
 redirect_from:
   - /v3/apps/permissions
   - /rest/reference/permissions-required-for-github-apps
+  - /rest/overview/permissions-required-for-github-apps
 versions:
   fpt: '*'
   ghes: '*'

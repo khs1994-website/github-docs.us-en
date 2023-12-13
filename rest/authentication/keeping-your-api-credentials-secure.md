@@ -1,7 +1,7 @@
 ---
 title: Keeping your API credentials secure
 shortTitle: Keeping API credentials secure
-intro: 'Follow these best practices to keep your API credentials and tokens secure.'
+intro: Follow these best practices to keep your API credentials and tokens secure.
 versions:
   fpt: '*'
   ghes: '*'
@@ -9,6 +9,8 @@ versions:
   ghec: '*'
 topics:
   - API
+redirect_from:
+  - /rest/overview/keeping-your-api-credentials-secure
 ---
 
 ## Choose an appropriate authentication method

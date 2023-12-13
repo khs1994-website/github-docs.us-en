@@ -1,6 +1,6 @@
 ---
 title: Getting started with the REST API
-shortTitle: Using the API
+shortTitle: Getting started
 intro: 'Learn how to use the {% data variables.product.prodname_dotcom %} REST API.'
 versions:
   fpt: '*'
@@ -9,6 +9,8 @@ versions:
   ghec: '*'
 topics:
   - API
+redirect_from:
+  - /rest/guides/getting-started-with-the-rest-api
 ---
 
 ## Introduction

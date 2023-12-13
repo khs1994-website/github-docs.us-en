@@ -3,6 +3,7 @@ title: Media types
 intro: Learn about media types for specifying the format of the data you want to consume.
 redirect_from:
   - /v3/media
+  - /rest/overview/media-types
 versions:
   fpt: '*'
   ghes: '*'

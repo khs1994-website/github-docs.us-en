@@ -6,6 +6,7 @@ redirect_from:
   - /libraries
   - /v3/libraries
   - /rest/overview/libraries
+  - /rest/overview/libraries-for-the-rest-api
 versions:
   fpt: '*'
   ghes: '*'

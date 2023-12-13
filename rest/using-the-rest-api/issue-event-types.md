@@ -6,6 +6,7 @@ redirect_from:
   - /developers/webhooks-and-events/issue-event-types
   - /developers/webhooks-and-events/events/issue-event-types
   - /webhooks-and-events/events/issue-event-types
+  - /rest/overview/issue-event-types
 versions:
   fpt: '*'
   ghes: '*'

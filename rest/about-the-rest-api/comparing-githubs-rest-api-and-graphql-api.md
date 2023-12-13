@@ -8,6 +8,7 @@ redirect_from:
   - /github/extending-github/getting-started-with-the-api
   - /developers/overview/about-githubs-apis
   - /rest/overview/about-githubs-apis
+  - /rest/overview/comparing-githubs-rest-api-and-graphql-api
 versions:
   fpt: '*'
   ghes: '*'

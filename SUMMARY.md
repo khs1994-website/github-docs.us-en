@@ -1024,6 +1024,7 @@
     - Enabling Code Scanning
       * [Configuring Default Setup For Code Scanning At Scale](code-security/code-scanning/enabling-code-scanning/configuring-default-setup-for-code-scanning-at-scale.md)
       * [Configuring Default Setup For Code Scanning](code-security/code-scanning/enabling-code-scanning/configuring-default-setup-for-code-scanning.md)
+      * [Evaluating Default Setup For Code Scanning](code-security/code-scanning/enabling-code-scanning/evaluating-default-setup-for-code-scanning.md)
       * [Enabling Code Scanning](code-security/code-scanning/enabling-code-scanning/index.md)
     - Integrating With Code Scanning
       * [About Integration With Code Scanning](code-security/code-scanning/integrating-with-code-scanning/about-integration-with-code-scanning.md)
@@ -1044,8 +1045,8 @@
       * [Triaging Code Scanning Alerts In Pull Requests](code-security/code-scanning/managing-code-scanning-alerts/triaging-code-scanning-alerts-in-pull-requests.md)
     - Managing Your Code Scanning Configuration
       * [About The Tool Status Page For Code Scanning](code-security/code-scanning/managing-your-code-scanning-configuration/about-the-tool-status-page.md)
-      * [Built In Code QL Query Suites](code-security/code-scanning/managing-your-code-scanning-configuration/built-in-codeql-query-suites.md)
       * [C And C Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/c-cpp-built-in-queries.md)
+      * [Code QL Query Suites](code-security/code-scanning/managing-your-code-scanning-configuration/codeql-query-suites.md)
       * [C Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/csharp-built-in-queries.md)
       * [Editing Your Configuration Of Default Setup](code-security/code-scanning/managing-your-code-scanning-configuration/editing-your-configuration-of-default-setup.md)
       * [Go Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/go-built-in-queries.md)
@@ -2502,6 +2503,12 @@
     * [Working With Files](repositories/working-with-files/index.md)
   * [Repositories Documentation](repositories/index.md)
 - [Rest](rest/README.md)
+  - About The Rest Api
+    * [About The Open API Description For The REST API](rest/about-the-rest-api/about-the-openapi-description-for-the-rest-api.md)
+    * [API Versions](rest/about-the-rest-api/api-versions.md)
+    * [Breaking Changes](rest/about-the-rest-api/breaking-changes.md)
+    * [Comparing Git Hub S REST API And Graph QL API](rest/about-the-rest-api/comparing-githubs-rest-api-and-graphql-api.md)
+    * [About The REST API](rest/about-the-rest-api/index.md)
   - Actions
     * [Git Hub Actions Artifacts](rest/actions/artifacts.md)
     * [Git Hub Actions Cache](rest/actions/cache.md)
@@ -2533,6 +2540,14 @@
     * [Git Hub Marketplace](rest/apps/marketplace.md)
     * [O Auth Authorizations](rest/apps/oauth-applications.md)
     * [Git Hub App Webhooks](rest/apps/webhooks.md)
+  - Authentication
+    * [Authenticating To The REST API](rest/authentication/index.md)
+    * [Endpoints Available For Fine Grained Personal Access Tokens](rest/authentication/endpoints-available-for-fine-grained-personal-access-tokens.md)
+    * [Endpoints Available For Git Hub App Installation Access Tokens](rest/authentication/endpoints-available-for-github-app-installation-access-tokens.md)
+    * [Endpoints Available For Git Hub App User Access Tokens](rest/authentication/endpoints-available-for-github-app-user-access-tokens.md)
+    * [Keeping Your API Credentials Secure](rest/authentication/keeping-your-api-credentials-secure.md)
+    * [Permissions Required For Fine Grained Personal Access Tokens](rest/authentication/permissions-required-for-fine-grained-personal-access-tokens.md)
+    * [Permissions Required For Git Hub Apps](rest/authentication/permissions-required-for-github-apps.md)
   - Billing
     * [Billing](rest/billing/index.md)
   - Branches
@@ -2616,17 +2631,14 @@
   - Gitignore
     * [Gitignore](rest/gitignore/index.md)
   - Guides
-    * [Best Practices For Using The REST API](rest/guides/best-practices-for-using-the-rest-api.md)
     * [Building A CI Server](rest/guides/building-a-ci-server.md)
     * [Delivering Deployments](rest/guides/delivering-deployments.md)
     * [Discovering Resources For A User](rest/guides/discovering-resources-for-a-user.md)
     * [Encrypting Secrets For The REST API](rest/guides/encrypting-secrets-for-the-rest-api.md)
-    * [Getting Started With The REST API](rest/guides/getting-started-with-the-rest-api.md)
     * [Guides](rest/guides/index.md)
     * [Rendering Data As Graphs](rest/guides/rendering-data-as-graphs.md)
     * [Scripting With The REST API And Java Script](rest/guides/scripting-with-the-rest-api-and-javascript.md)
     * [Scripting With The REST API And Ruby](rest/guides/scripting-with-the-rest-api-and-ruby.md)
-    * [Using Pagination In The REST API](rest/guides/using-pagination-in-the-rest-api.md)
     * [Using The REST API To Interact With Checks](rest/guides/using-the-rest-api-to-interact-with-checks.md)
     * [Using The REST API To Interact With Your Git Database](rest/guides/using-the-rest-api-to-interact-with-your-git-database.md)
     * [Working With Comments](rest/guides/working-with-comments.md)
@@ -2674,26 +2686,6 @@
     * [Rules](rest/orgs/rules.md)
     * [Security Managers](rest/orgs/security-managers.md)
     * [Organization Webhooks](rest/orgs/webhooks.md)
-  - Overview
-    * [About The Open API Description For The REST API](rest/overview/about-the-openapi-description-for-the-rest-api.md)
-    * [API Versions](rest/overview/api-versions.md)
-    * [Authenticating To The REST API](rest/overview/authenticating-to-the-rest-api.md)
-    * [Breaking Changes](rest/overview/breaking-changes.md)
-    * [Comparing Git Hub S REST API And Graph QL API](rest/overview/comparing-githubs-rest-api-and-graphql-api.md)
-    * [Endpoints Available For Fine Grained Personal Access Tokens](rest/overview/endpoints-available-for-fine-grained-personal-access-tokens.md)
-    * [Endpoints Available For Git Hub App Installation Access Tokens](rest/overview/endpoints-available-for-github-app-installation-access-tokens.md)
-    * [Endpoints Available For Git Hub App User Access Tokens](rest/overview/endpoints-available-for-github-app-user-access-tokens.md)
-    * [Git Hub Event Types](rest/overview/github-event-types.md)
-    * [REST API Overview](rest/overview/index.md)
-    * [Issue Event Types](rest/overview/issue-event-types.md)
-    * [Keeping Your API Credentials Secure](rest/overview/keeping-your-api-credentials-secure.md)
-    * [Libraries For The REST API](rest/overview/libraries-for-the-rest-api.md)
-    * [Media Types](rest/overview/media-types.md)
-    * [Permissions Required For Fine Grained Personal Access Tokens](rest/overview/permissions-required-for-fine-grained-personal-access-tokens.md)
-    * [Permissions Required For Git Hub Apps](rest/overview/permissions-required-for-github-apps.md)
-    * [Rate Limits For The REST API](rest/overview/rate-limits-for-the-rest-api.md)
-    * [Resources In The REST API](rest/overview/resources-in-the-rest-api.md)
-    * [Troubleshooting The REST API](rest/overview/troubleshooting-the-rest-api.md)
   - Packages
     * [Packages](rest/packages/packages.md)
   - Pages
@@ -2752,6 +2744,18 @@
     * [Git SSH Keys](rest/users/keys.md)
     * [Social Accounts](rest/users/social-accounts.md)
     * [SSH Signing Keys](rest/users/ssh-signing-keys.md)
+  - Using The Rest Api
+    * [Best Practices For Using The REST API](rest/using-the-rest-api/best-practices-for-using-the-rest-api.md)
+    * [Getting Started With The REST API](rest/using-the-rest-api/getting-started-with-the-rest-api.md)
+    * [Git Hub Event Types](rest/using-the-rest-api/github-event-types.md)
+    * [Using The REST API](rest/using-the-rest-api/index.md)
+    * [Issue Event Types](rest/using-the-rest-api/issue-event-types.md)
+    * [Libraries For The REST API](rest/using-the-rest-api/libraries-for-the-rest-api.md)
+    * [Media Types](rest/using-the-rest-api/media-types.md)
+    * [Rate Limits For The REST API](rest/using-the-rest-api/rate-limits-for-the-rest-api.md)
+    * [Resources In The REST API](rest/using-the-rest-api/resources-in-the-rest-api.md)
+    * [Troubleshooting The REST API](rest/using-the-rest-api/troubleshooting-the-rest-api.md)
+    * [Using Pagination In The REST API](rest/using-the-rest-api/using-pagination-in-the-rest-api.md)
   * [Git Hub REST API Documentation](rest/index.md)
   * [Quickstart For Git Hub REST API](rest/quickstart.md)
 - Search

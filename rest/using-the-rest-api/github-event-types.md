@@ -7,6 +7,7 @@ redirect_from:
   - /developers/webhooks-and-events/events/github-event-types
   - /webhooks-and-events/events/github-event-types
   - /developers/webhooks-and-events/events
+  - /rest/overview/github-event-types
 versions:
   fpt: '*'
   ghes: '*'
