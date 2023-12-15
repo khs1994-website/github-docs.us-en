@@ -2507,10 +2507,10 @@
 - [Rest](rest/README.md)
   - About The Rest Api
     * [About The Open API Description For The REST API](rest/about-the-rest-api/about-the-openapi-description-for-the-rest-api.md)
+    * [About The REST API](rest/about-the-rest-api/index.md)
     * [API Versions](rest/about-the-rest-api/api-versions.md)
     * [Breaking Changes](rest/about-the-rest-api/breaking-changes.md)
     * [Comparing Git Hub S REST API And Graph QL API](rest/about-the-rest-api/comparing-githubs-rest-api-and-graphql-api.md)
-    * [About The REST API](rest/about-the-rest-api/index.md)
   - Actions
     * [Git Hub Actions Artifacts](rest/actions/artifacts.md)
     * [Git Hub Actions Cache](rest/actions/cache.md)
