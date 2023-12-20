@@ -337,7 +337,7 @@
     * [Known Issues With Backups For Your Instance](admin/backing-up-and-restoring-your-instance/known-issues-with-backups-for-your-instance.md)
   - Code Security
     - Managing Github Advanced Security For Your Enterprise
-      * [Configuring Code Scanning For Your Appliance](admin/code-security/managing-github-advanced-security-for-your-enterprise/configuring-code-scanning-for-your-appliance.md)
+      * [Ifversion Ghes Configuring Code Scanning For Your Appliance Elsif Default Setup Self Hosted Runners GHEC Configuring Self Hosted Runners For Code Scanning In Your Enterprise Endif](admin/code-security/managing-github-advanced-security-for-your-enterprise/configuring-code-scanning-for-your-appliance.md)
       * [Configuring Dependency Review For Your Appliance](admin/code-security/managing-github-advanced-security-for-your-enterprise/configuring-dependency-review-for-your-appliance.md)
       * [Configuring Secret Scanning For Your Appliance](admin/code-security/managing-github-advanced-security-for-your-enterprise/configuring-secret-scanning-for-your-appliance.md)
       * [Enabling Git Hub Advanced Security For Your Enterprise](admin/code-security/managing-github-advanced-security-for-your-enterprise/enabling-github-advanced-security-for-your-enterprise.md)
