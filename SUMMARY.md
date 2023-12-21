@@ -2025,16 +2025,19 @@
       * [Reclaiming Mannequins For Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/completing-your-migration-with-github-enterprise-importer/reclaiming-mannequins-for-github-enterprise-importer.md)
       * [Troubleshooting Your Migration With Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/completing-your-migration-with-github-enterprise-importer/troubleshooting-your-migration-with-github-enterprise-importer.md)
     - Migrating Between Github Products
+      * [About Migrations Between Git Hub Products](migrations/using-github-enterprise-importer/migrating-between-github-products/about-migrations-between-github-products.md)
       * [Migrating Between Git Hub Products](migrations/using-github-enterprise-importer/migrating-between-github-products/index.md)
       * [Migrating organizations from GitHub.com to GitHub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-between-github-products/migrating-organizations-from-githubcom-to-github-enterprise-cloud.md)
       * [Migrating Repositories From Git Hub Enterprise Server To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-between-github-products/migrating-repositories-from-github-enterprise-server-to-github-enterprise-cloud.md)
       * [Migrating repositories from GitHub.com to GitHub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-between-github-products/migrating-repositories-from-githubcom-to-github-enterprise-cloud.md)
       * [Overview Of A Migration Between Git Hub Products](migrations/using-github-enterprise-importer/migrating-between-github-products/overview-of-a-migration-between-github-products.md)
     - Migrating From Azure Devops To Github Enterprise Cloud
+      * [About Migrations From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-from-azure-devops-to-github-enterprise-cloud/about-migrations-from-azure-devops-to-github-enterprise-cloud.md)
       * [Migrating From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-from-azure-devops-to-github-enterprise-cloud/index.md)
       * [Migrating Repositories From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-from-azure-devops-to-github-enterprise-cloud/migrating-repositories-from-azure-devops-to-github-enterprise-cloud.md)
       * [Overview Of A Migration From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-from-azure-devops-to-github-enterprise-cloud/overview-of-a-migration-from-azure-devops-to-github-enterprise-cloud.md)
     - Migrating From Bitbucket Server To Github Enterprise Cloud
+      * [About Migrations From Bitbucket Server To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-from-bitbucket-server-to-github-enterprise-cloud/about-migrations-from-bitbucket-server-to-github-enterprise-cloud.md)
       * [Migrating From Bitbucket Server To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-from-bitbucket-server-to-github-enterprise-cloud/index.md)
       * [Migrating Repositories From Bitbucket Server To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-from-bitbucket-server-to-github-enterprise-cloud/migrating-repositories-from-bitbucket-server-to-github-enterprise-cloud.md)
       * [Overview Of A Migration From Bitbucket Server To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-from-bitbucket-server-to-github-enterprise-cloud/overview-of-a-migration-from-bitbucket-server-to-github-enterprise-cloud.md)
@@ -2046,7 +2049,6 @@
     - Understanding Github Enterprise Importer
       * [About Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/understanding-github-enterprise-importer/about-github-enterprise-importer.md)
       * [Understanding Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/understanding-github-enterprise-importer/index.md)
-      * [Migration Support For Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/understanding-github-enterprise-importer/migration-support-for-github-enterprise-importer.md)
     * [Using Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/index.md)
   * [Migrations Documentation](migrations/index.md)
 - Organizations
