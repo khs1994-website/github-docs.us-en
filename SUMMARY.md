@@ -381,6 +381,7 @@
       * [Configuring Applications](admin/configuration/configuring-user-applications-for-your-enterprise/configuring-applications.md)
       * [Configuring Email For Notifications](admin/configuration/configuring-user-applications-for-your-enterprise/configuring-email-for-notifications.md)
       * [Configuring Git Hub Pages For Your Enterprise](admin/configuration/configuring-user-applications-for-your-enterprise/configuring-github-pages-for-your-enterprise.md)
+      * [Configuring Interactive Maps](admin/configuration/configuring-user-applications-for-your-enterprise/configuring-interactive-maps.md)
       * [Configuring Rate Limits](admin/configuration/configuring-user-applications-for-your-enterprise/configuring-rate-limits.md)
       * [Configuring Web Commit Signing](admin/configuration/configuring-user-applications-for-your-enterprise/configuring-web-commit-signing.md)
       * [Configuring User Applications For Your Enterprise](admin/configuration/configuring-user-applications-for-your-enterprise/index.md)
