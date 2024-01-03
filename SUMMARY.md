@@ -1346,7 +1346,6 @@
     * [Managing Git Hub Codespaces For Your Organization](codespaces/managing-codespaces-for-your-organization/index.md)
     * [Listing The Codespaces In Your Organization](codespaces/managing-codespaces-for-your-organization/listing-the-codespaces-in-your-organization.md)
     * [Managing Development Environment Secrets For Your Repository Or Organization](codespaces/managing-codespaces-for-your-organization/managing-development-environment-secrets-for-your-repository-or-organization.md)
-    * [Managing Repository Access For Your Organization S Codespaces](codespaces/managing-codespaces-for-your-organization/managing-repository-access-for-your-organizations-codespaces.md)
     * [Managing The Cost Of Git Hub Codespaces In Your Organization](codespaces/managing-codespaces-for-your-organization/managing-the-cost-of-github-codespaces-in-your-organization.md)
     * [Restricting Access To Machine Types](codespaces/managing-codespaces-for-your-organization/restricting-access-to-machine-types.md)
     * [Restricting The Base Image For Codespaces](codespaces/managing-codespaces-for-your-organization/restricting-the-base-image-for-codespaces.md)
