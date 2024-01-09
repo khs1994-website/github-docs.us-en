@@ -1762,9 +1762,9 @@
     * [Getting Started With Your Git Hub Account](get-started/onboarding/getting-started-with-your-github-account.md)
     * [Onboarding](get-started/onboarding/index.md)
   - Quickstart
-    * [Be Social](get-started/quickstart/be-social.md)
     * [Communicating On Git Hub](get-started/quickstart/communicating-on-github.md)
     * [Creating An Account On Git Hub](get-started/quickstart/creating-an-account-on-github.md)
+    * [Finding Inspiration On Git Hub](get-started/quickstart/finding-inspiration-on-github.md)
     * [Git And Git Hub Learning Resources](get-started/quickstart/git-and-github-learning-resources.md)
     * [Git Cheatsheet](get-started/quickstart/git-cheatsheet.md)
     * [Git Hub Flow](get-started/quickstart/github-flow.md)
