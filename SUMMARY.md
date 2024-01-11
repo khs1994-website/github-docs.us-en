@@ -1532,6 +1532,10 @@
       * [About Git Hub Copilot Chat](copilot/github-copilot-enterprise/copilot-chat-in-github/about-github-copilot-chat.md)
       * [Copilot Chat in GitHub.com](copilot/github-copilot-enterprise/copilot-chat-in-github/index.md)
       * [Using GitHub Copilot Chat in GitHub.com](copilot/github-copilot-enterprise/copilot-chat-in-github/using-github-copilot-chat-in-githubcom.md)
+    - Copilot Docset Management
+      * [About Copilot Docset Management](copilot/github-copilot-enterprise/copilot-docset-management/about-copilot-docset-management.md)
+      * [Creating Private Docsets](copilot/github-copilot-enterprise/copilot-docset-management/creating-private-docsets.md)
+      * [Copilot Docset Management](copilot/github-copilot-enterprise/copilot-docset-management/index.md)
     - Copilot Pull Request Summaries
       * [About Copilot Pull Request Summaries](copilot/github-copilot-enterprise/copilot-pull-request-summaries/about-copilot-pull-request-summaries.md)
       * [Creating A Pull Request Summary With Git Hub Copilot](copilot/github-copilot-enterprise/copilot-pull-request-summaries/creating-a-pull-request-summary-with-github-copilot.md)
