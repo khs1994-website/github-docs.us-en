@@ -128,6 +128,8 @@ mutation startRepositoryMigration (
 {% data reusables.enterprise-migration-tool.startRepositoryMigration-table-ec %}
 | `sourceRepositoryUrl` | The URL of your source repository, using the format `https://github.com/{organization}/{repository}`.
 
+For {% data variables.product.pat_generic %} requirements, see "[AUTOTITLE](/migrations/using-github-enterprise-importer/migrating-between-github-products/managing-access-for-a-migration-between-github-products#required-scopes-for-personal-access-tokens)."
+
 {% data reusables.enterprise-migration-tool.next-check-status %}
 
 ## Step 4: Check the status of your migration
@@ -211,6 +213,12 @@ gh gei migrate-repo --github-source-org SOURCE --source-repo CURRENT-NAME --gith
 {% data reusables.enterprise-migration-tool.skip-releases %}
 
 {% data reusables.enterprise-migration-tool.migrate-repo-table-ec %}
+
+{% data reusables.enterprise-migration-tool.abort-migration %}
+
+```shell copy
+gh gei abort-migration --migration-id MIGRATION-ID
+```
 
 ## Step 6: Validate your migration and check the error log
 
