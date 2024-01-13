@@ -1768,6 +1768,7 @@
   - Quickstart
     * [Communicating On Git Hub](get-started/quickstart/communicating-on-github.md)
     * [Creating An Account On Git Hub](get-started/quickstart/creating-an-account-on-github.md)
+    * [Downloading Files From Git Hub](get-started/quickstart/downloading-files-from-github.md)
     * [Finding Inspiration On Git Hub](get-started/quickstart/finding-inspiration-on-github.md)
     * [Git And Git Hub Learning Resources](get-started/quickstart/git-and-github-learning-resources.md)
     * [Git Cheatsheet](get-started/quickstart/git-cheatsheet.md)
