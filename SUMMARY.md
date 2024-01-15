@@ -2357,6 +2357,7 @@
       * [About Permissions And Visibility Of Forks](pull-requests/collaborating-with-pull-requests/working-with-forks/about-permissions-and-visibility-of-forks.md)
       * [Allowing Changes To A Pull Request Branch Created From A Fork](pull-requests/collaborating-with-pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork.md)
       * [Configuring A Remote Repository For A Fork](pull-requests/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-repository-for-a-fork.md)
+      * [Detaching A Fork](pull-requests/collaborating-with-pull-requests/working-with-forks/detaching-a-fork.md)
       * [Fork A Repository](pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo.md)
       * [Working With Forks](pull-requests/collaborating-with-pull-requests/working-with-forks/index.md)
       * [Syncing A Fork](pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork.md)
