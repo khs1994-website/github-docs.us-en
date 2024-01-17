@@ -414,7 +414,6 @@
       * [Managing Self Hosted Runners For Dependabot Updates On Your Enterprise](admin/github-actions/enabling-github-actions-for-github-enterprise-server/managing-self-hosted-runners-for-dependabot-updates.md)
     - Getting Started With Github Actions For Your Enterprise
       * [About Git Hub Actions For Enterprises](admin/github-actions/getting-started-with-github-actions-for-your-enterprise/about-github-actions-for-enterprises.md)
-      * [Getting Started With Git Hub Actions For Git Hub AE](admin/github-actions/getting-started-with-github-actions-for-your-enterprise/getting-started-with-github-actions-for-github-ae.md)
       * [Getting Started With Git Hub Actions For Git Hub Enterprise Cloud](admin/github-actions/getting-started-with-github-actions-for-your-enterprise/getting-started-with-github-actions-for-github-enterprise-cloud.md)
       * [Getting Started With Git Hub Actions For Git Hub Enterprise Server](admin/github-actions/getting-started-with-github-actions-for-your-enterprise/getting-started-with-github-actions-for-github-enterprise-server.md)
       * [Getting Started With Self Hosted Runners For Your Enterprise](admin/github-actions/getting-started-with-github-actions-for-your-enterprise/getting-started-with-self-hosted-runners-for-your-enterprise.md)
@@ -428,9 +427,6 @@
       * [Manually syncing actions from GitHub.com](admin/github-actions/managing-access-to-actions-from-githubcom/manually-syncing-actions-from-githubcom.md)
       * [Setting Up The Tool Cache On Self Hosted Runners Without Internet Access](admin/github-actions/managing-access-to-actions-from-githubcom/setting-up-the-tool-cache-on-self-hosted-runners-without-internet-access.md)
       * [Using The Latest Version Of The Official Bundled Actions](admin/github-actions/managing-access-to-actions-from-githubcom/using-the-latest-version-of-the-official-bundled-actions.md)
-    - Using Github Actions In Github Ae
-      * [Using Git Hub Actions In Git Hub AE](admin/github-actions/using-github-actions-in-github-ae/index.md)
-      * [Using Actions In Git Hub AE](admin/github-actions/using-github-actions-in-github-ae/using-actions-in-github-ae.md)
     * [Managing Git Hub Actions For Your Enterprise](admin/github-actions/index.md)
   - Identity And Access Management
     - Configuring Authentication For Enterprise Managed Users
@@ -482,7 +478,6 @@
       * [Using LDAP](admin/identity-and-access-management/using-ldap-for-enterprise-iam/using-ldap.md)
     - Using Saml For Enterprise Iam
       * [Configuring Authentication And Provisioning For Your Enterprise Using Azure AD](admin/identity-and-access-management/using-saml-for-enterprise-iam/configuring-authentication-and-provisioning-for-your-enterprise-using-azure-ad.md)
-      * [Configuring Authentication And Provisioning For Your Enterprise Using Okta](admin/identity-and-access-management/using-saml-for-enterprise-iam/configuring-authentication-and-provisioning-for-your-enterprise-using-okta.md)
       * [Configuring SAML Single Sign On For Your Enterprise Using Okta](admin/identity-and-access-management/using-saml-for-enterprise-iam/configuring-saml-single-sign-on-for-your-enterprise-using-okta.md)
       * [Configuring SAML Single Sign On For Your Enterprise](admin/identity-and-access-management/using-saml-for-enterprise-iam/configuring-saml-single-sign-on-for-your-enterprise.md)
       * [Configuring User Provisioning With SCIM For Your Enterprise](admin/identity-and-access-management/using-saml-for-enterprise-iam/configuring-user-provisioning-with-scim-for-your-enterprise.md)
@@ -491,7 +486,6 @@
       * [Enabling Encrypted Assertions](admin/identity-and-access-management/using-saml-for-enterprise-iam/enabling-encrypted-assertions.md)
       * [Using SAML For Enterprise IAM](admin/identity-and-access-management/using-saml-for-enterprise-iam/index.md)
       * [Managing Team Synchronization For Organizations In Your Enterprise](admin/identity-and-access-management/using-saml-for-enterprise-iam/managing-team-synchronization-for-organizations-in-your-enterprise.md)
-      * [Mapping Okta Groups To Teams](admin/identity-and-access-management/using-saml-for-enterprise-iam/mapping-okta-groups-to-teams.md)
       * [Switching Your SAML Configuration From An Organization To An Enterprise Account](admin/identity-and-access-management/using-saml-for-enterprise-iam/switching-your-saml-configuration-from-an-organization-to-an-enterprise-account.md)
       * [Troubleshooting SAML Authentication](admin/identity-and-access-management/using-saml-for-enterprise-iam/troubleshooting-saml-authentication.md)
       * [Updating A User S SAML Name ID](admin/identity-and-access-management/using-saml-for-enterprise-iam/updating-a-users-saml-nameid.md)
@@ -636,9 +630,7 @@
       * [Upgrading Git Hub Enterprise Server](admin/monitoring-managing-and-updating-your-instance/updating-the-virtual-machine-and-physical-resources/upgrading-github-enterprise-server.md)
     * [Monitoring Managing And Updating Your Instance](admin/monitoring-managing-and-updating-your-instance/index.md)
   - Overview
-    * [About Data Residency](admin/overview/about-data-residency.md)
     * [About Enterprise Accounts](admin/overview/about-enterprise-accounts.md)
-    * [About Git Hub AE](admin/overview/about-github-ae.md)
     * [About Git Hub Enterprise Cloud](admin/overview/about-github-enterprise-cloud.md)
     * [About Git Hub Enterprise Server](admin/overview/about-github-enterprise-server.md)
     * [About Git Hub For Enterprises](admin/overview/about-github-for-enterprises.md)
@@ -646,9 +638,7 @@
     * [About Upgrades To New Releases](admin/overview/about-upgrades-to-new-releases.md)
     * [Accessing Compliance Reports For Your Enterprise](admin/overview/accessing-compliance-reports-for-your-enterprise.md)
     * [Best Practices For Enterprises](admin/overview/best-practices-for-enterprises.md)
-    * [Deploying Git Hub AE](admin/overview/deploying-github-ae.md)
     * [Overview](admin/overview/index.md)
-    * [Initializing Git Hub AE](admin/overview/initializing-github-ae.md)
     * [Setting Up A Trial Of Git Hub Enterprise Cloud](admin/overview/setting-up-a-trial-of-github-enterprise-cloud.md)
     * [Setting Up A Trial Of Git Hub Enterprise Server](admin/overview/setting-up-a-trial-of-github-enterprise-server.md)
     * [System Overview](admin/overview/system-overview.md)
@@ -1019,7 +1009,7 @@
       * [Configuring Ifversion Code Scanning Without Workflow Advanced Setup For Endif Code Scanning With Code QL At Scale](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/configuring-advanced-setup-for-code-scanning-with-codeql-at-scale.md)
       * [Configuring Ifversion Code Scanning Without Workflow Advanced Setup For Endif Code Scanning](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/configuring-advanced-setup-for-code-scanning.md)
       * [Customizing Ifversion Code Scanning Without Workflow Your Advanced Setup For Endif Code Scanning](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/customizing-your-advanced-setup-for-code-scanning.md)
-      * [Creating {% ifversion code-scanning-without-workflow %}an advanced setup for {% else %}a workflow {% endif %}for {% data variables.product.prodname_code_scanning %}](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/index.md)
+      * [Creating {% ifversion code-scanning-without-workflow %}an advanced setup {% else %}a workflow {% endif %}for {% data variables.product.prodname_code_scanning %}](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/index.md)
       * [Recommended Hardware Resources For Running Code QL](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/recommended-hardware-resources-for-running-codeql.md)
       * [Running Code QL Code Scanning In A Container](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/running-codeql-code-scanning-in-a-container.md)
     - Enabling Code Scanning
@@ -1759,7 +1749,6 @@
     * [Learning About Git Hub](get-started/learning-about-github/index.md)
     * [Types Of Git Hub Accounts](get-started/learning-about-github/types-of-github-accounts.md)
   - Onboarding
-    * [Getting Started With Git Hub AE](get-started/onboarding/getting-started-with-github-ae.md)
     * [Getting Started With Git Hub Enterprise Cloud](get-started/onboarding/getting-started-with-github-enterprise-cloud.md)
     * [Getting Started With Git Hub Enterprise Server](get-started/onboarding/getting-started-with-github-enterprise-server.md)
     * [Getting Started With Git Hub Team](get-started/onboarding/getting-started-with-github-team.md)
