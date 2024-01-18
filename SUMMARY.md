@@ -1038,6 +1038,7 @@
       * [About The Tool Status Page For Code Scanning](code-security/code-scanning/managing-your-code-scanning-configuration/about-the-tool-status-page.md)
       * [C And C Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/c-cpp-built-in-queries.md)
       * [Code QL Query Suites](code-security/code-scanning/managing-your-code-scanning-configuration/codeql-query-suites.md)
+      * [Configuring Larger Runners For Default Setup](code-security/code-scanning/managing-your-code-scanning-configuration/configuring-larger-runners-for-default-setup.md)
       * [C Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/csharp-built-in-queries.md)
       * [Editing Your Configuration Of Default Setup](code-security/code-scanning/managing-your-code-scanning-configuration/editing-your-configuration-of-default-setup.md)
       * [Go Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/go-built-in-queries.md)
@@ -1599,9 +1600,11 @@
     * [Cherry Picking A Commit In Git Hub Desktop](desktop/managing-commits/cherry-picking-a-commit-in-github-desktop.md)
     * [Managing Commits](desktop/managing-commits/index.md)
     * [Managing Tags In Git Hub Desktop](desktop/managing-commits/managing-tags-in-github-desktop.md)
+    * [Options For Managing Commits In Git Hub Desktop](desktop/managing-commits/options-for-managing-commits-in-github-desktop.md)
     * [Reordering Commits In Git Hub Desktop](desktop/managing-commits/reordering-commits-in-github-desktop.md)
     * [Reverting A Commit In Git Hub Desktop](desktop/managing-commits/reverting-a-commit-in-github-desktop.md)
     * [Squashing Commits In Git Hub Desktop](desktop/managing-commits/squashing-commits-in-github-desktop.md)
+    * [Undoing A Commit In Git Hub Desktop](desktop/managing-commits/undoing-a-commit-in-github-desktop.md)
   - Overview
     * [About Git Hub Desktop](desktop/overview/about-github-desktop.md)
     * [Creating Your First Repository Using Git Hub Desktop](desktop/overview/creating-your-first-repository-using-github-desktop.md)
@@ -2039,7 +2042,6 @@
       * [Migrating Repositories From Bitbucket Server To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-from-bitbucket-server-to-github-enterprise-cloud/migrating-repositories-from-bitbucket-server-to-github-enterprise-cloud.md)
       * [Overview Of A Migration From Bitbucket Server To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-from-bitbucket-server-to-github-enterprise-cloud/overview-of-a-migration-from-bitbucket-server-to-github-enterprise-cloud.md)
     - Preparing To Migrate With Github Enterprise Importer
-      * [Granting The Migrator Role For Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/preparing-to-migrate-with-github-enterprise-importer/granting-the-migrator-role-for-github-enterprise-importer.md)
       * [Preparing To Migrate With Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/preparing-to-migrate-with-github-enterprise-importer/index.md)
       * [Preparing To Run A Migration With Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/preparing-to-migrate-with-github-enterprise-importer/preparing-to-run-a-migration-with-github-enterprise-importer.md)
     - Understanding Github Enterprise Importer
