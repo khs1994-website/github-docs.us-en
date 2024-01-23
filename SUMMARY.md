@@ -2927,6 +2927,7 @@
   * [Git Hub Support Documentation](support/index.md)
 - Video Transcripts
   * [Video Transcripts](video-transcripts/index.md)
+  * [Transcript Billing Git Hub Consumption Through An Azure Subscription](video-transcripts/transcript-billing-github-consumption-through-an-azure-subscription.md)
   * [Transcript Codespaces Your Instant Dev Box In The Cloud](video-transcripts/transcript-codespaces-your-instant-dev-box-in-the-cloud.md)
   * [Transcript Using Projects For Feature Planning](video-transcripts/transcript-using-projects-for-feature-planning.md)
 - Webhooks
