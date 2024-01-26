@@ -1649,10 +1649,6 @@
     * [Contribute With Git Hub Community Exchange](education/contribute-with-github-community-exchange/index.md)
     * [Managing Your Submissions To Git Hub Community Exchange](education/contribute-with-github-community-exchange/managing-your-submissions-to-github-community-exchange.md)
     * [Submitting Your Repository To Git Hub Community Exchange](education/contribute-with-github-community-exchange/submitting-your-repository-to-github-community-exchange.md)
-  - Explore Internship Projects With Github Octernships
-    * [About {% data variables.product.prodname_octernships %}](education/explore-internship-projects-with-github-octernships/about-github-octernships.md)
-    * [Applying for {% data variables.product.prodname_octernships %}](education/explore-internship-projects-with-github-octernships/applying-for-github-octernships.md)
-    * [Explore internship projects with {% data variables.product.prodname_octernships %}](education/explore-internship-projects-with-github-octernships/index.md)
   - Explore The Benefits Of Teaching And Learning With Github Education
     - Github Global Campus For Students
       * [About Git Hub Community Exchange](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/about-github-community-exchange.md)
@@ -1768,6 +1764,7 @@
     * [Git Hub Glossary](get-started/quickstart/github-glossary.md)
     * [Hello World](get-started/quickstart/hello-world.md)
     * [Quickstart](get-started/quickstart/index.md)
+    * [Uploading A Project To Git Hub](get-started/quickstart/uploading-a-project-to-github.md)
   - Using Git
     * [About Git Rebase](get-started/using-git/about-git-rebase.md)
     * [About Git Subtree Merges](get-started/using-git/about-git-subtree-merges.md)
@@ -2756,7 +2753,6 @@
     * [Using The REST API](rest/using-the-rest-api/index.md)
     * [Issue Event Types](rest/using-the-rest-api/issue-event-types.md)
     * [Libraries For The REST API](rest/using-the-rest-api/libraries-for-the-rest-api.md)
-    * [Media Types](rest/using-the-rest-api/media-types.md)
     * [Rate Limits For The REST API](rest/using-the-rest-api/rate-limits-for-the-rest-api.md)
     * [Timezones And The REST API](rest/using-the-rest-api/timezones-and-the-rest-api.md)
     * [Troubleshooting The REST API](rest/using-the-rest-api/troubleshooting-the-rest-api.md)
