@@ -1764,7 +1764,12 @@
     * [Git Hub Glossary](get-started/quickstart/github-glossary.md)
     * [Hello World](get-started/quickstart/hello-world.md)
     * [Quickstart](get-started/quickstart/index.md)
+    * [Setting Up Your Profile](get-started/quickstart/setting-up-your-profile.md)
     * [Uploading A Project To Git Hub](get-started/quickstart/uploading-a-project-to-github.md)
+  - Showcase Your Expertise With Github Certifications
+    * [About {% data variables.product.prodname_certifications %}](get-started/showcase-your-expertise-with-github-certifications/about-github-certifications.md)
+    * [Showcase your expertise with {% data variables.product.prodname_certifications %}](get-started/showcase-your-expertise-with-github-certifications/index.md)
+    * [Registering for a {% data variables.product.prodname_certifications %} exam](get-started/showcase-your-expertise-with-github-certifications/registering-for-a-github-certifications-exam.md)
   - Using Git
     * [About Git Rebase](get-started/using-git/about-git-rebase.md)
     * [About Git Subtree Merges](get-started/using-git/about-git-subtree-merges.md)
