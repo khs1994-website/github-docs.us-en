@@ -2045,9 +2045,6 @@
       * [Managing Access For A Migration From Bitbucket Server](migrations/using-github-enterprise-importer/migrating-from-bitbucket-server-to-github-enterprise-cloud/managing-access-for-a-migration-from-bitbucket-server.md)
       * [Migrating Repositories From Bitbucket Server To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-from-bitbucket-server-to-github-enterprise-cloud/migrating-repositories-from-bitbucket-server-to-github-enterprise-cloud.md)
       * [Overview Of A Migration From Bitbucket Server To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-from-bitbucket-server-to-github-enterprise-cloud/overview-of-a-migration-from-bitbucket-server-to-github-enterprise-cloud.md)
-    - Preparing To Migrate With Github Enterprise Importer
-      * [Preparing To Migrate With Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/preparing-to-migrate-with-github-enterprise-importer/index.md)
-      * [Preparing To Run A Migration With Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/preparing-to-migrate-with-github-enterprise-importer/preparing-to-run-a-migration-with-github-enterprise-importer.md)
     - Understanding Github Enterprise Importer
       * [About Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/understanding-github-enterprise-importer/about-github-enterprise-importer.md)
       * [Understanding Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/understanding-github-enterprise-importer/index.md)
