@@ -730,7 +730,7 @@
       * [Git Hub Marketplace Overview](apps/github-marketplace/github-marketplace-overview/index.md)
     - Listing An App On Github Marketplace
       * [Configuring A Webhook To Notify You Of Plan Changes](apps/github-marketplace/listing-an-app-on-github-marketplace/configuring-a-webhook-to-notify-you-of-plan-changes.md)
-      * [Deleting Your Git Hub App Listing From Git Hub Marketplace](apps/github-marketplace/listing-an-app-on-github-marketplace/deleting-your-github-app-listing-from-github-marketplace.md)
+      * [Deleting Your App Listing From Git Hub Marketplace](apps/github-marketplace/listing-an-app-on-github-marketplace/deleting-your-app-listing-from-github-marketplace.md)
       * [Drafting A Listing For Your App](apps/github-marketplace/listing-an-app-on-github-marketplace/drafting-a-listing-for-your-app.md)
       * [Listing An App On Git Hub Marketplace](apps/github-marketplace/listing-an-app-on-github-marketplace/index.md)
       * [Setting Pricing Plans For Your Listing](apps/github-marketplace/listing-an-app-on-github-marketplace/setting-pricing-plans-for-your-listing.md)
@@ -2852,8 +2852,8 @@
     * [Git Hub Codespaces Privacy Statement](site-policy/privacy-policies/github-codespaces-privacy-statement.md)
     * [Git Hub Cookies](site-policy/privacy-policies/github-cookies.md)
     * [Git Hub Copilot Business Privacy Statement](site-policy/privacy-policies/github-copilot-business-privacy-statement.md)
+    * [Git Hub General Privacy Statement](site-policy/privacy-policies/github-general-privacy-statement.md)
     * [Git Hub Octernships Terms Of Service](site-policy/privacy-policies/github-octernships-terms-of-service.md)
-    * [Git Hub Privacy Statement](site-policy/privacy-policies/github-privacy-statement.md)
     * [Git Hub Subprocessors](site-policy/privacy-policies/github-subprocessors.md)
     * [Privacy Policies](site-policy/privacy-policies/index.md)
   - Security Policies
