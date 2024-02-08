@@ -2528,16 +2528,16 @@
     * [REST API Endpoints For Workflow Runs](rest/actions/workflow-runs.md)
     * [REST API Endpoints For Workflows](rest/actions/workflows.md)
   - Activity
-    * [Events](rest/activity/events.md)
-    * [Feeds](rest/activity/feeds.md)
-    * [Activity](rest/activity/index.md)
-    * [Notifications](rest/activity/notifications.md)
-    * [Starring](rest/activity/starring.md)
-    * [Watching](rest/activity/watching.md)
+    * [REST API Endpoints For Events](rest/activity/events.md)
+    * [REST API Endpoints For Feeds](rest/activity/feeds.md)
+    * [REST API Endpoints For Activity](rest/activity/index.md)
+    * [REST API Endpoints For Notifications](rest/activity/notifications.md)
+    * [REST API Endpoints For Starring](rest/activity/starring.md)
+    * [REST API Endpoints For Watching](rest/activity/watching.md)
   - Announcement Banners
-    * [Enterprise Announcement Banners](rest/announcement-banners/enterprises.md)
-    * [Announcement Banners](rest/announcement-banners/index.md)
-    * [Organization Announcement Banners](rest/announcement-banners/organizations.md)
+    * [REST API Endpoints For Enterprise Announcement Banners](rest/announcement-banners/enterprises.md)
+    * [REST API Endpoints For Announcement Banners](rest/announcement-banners/index.md)
+    * [REST API Endpoints For Organization Announcement Banners](rest/announcement-banners/organizations.md)
   - Apps
     * [Git Hub Apps](rest/apps/apps.md)
     * [Apps](rest/apps/index.md)
@@ -2554,20 +2554,21 @@
     * [Permissions Required For Fine Grained Personal Access Tokens](rest/authentication/permissions-required-for-fine-grained-personal-access-tokens.md)
     * [Permissions Required For Git Hub Apps](rest/authentication/permissions-required-for-github-apps.md)
   - Billing
-    * [Billing](rest/billing/index.md)
+    * [REST API Endpoints For Billing](rest/billing/index.md)
   - Branches
-    * [Protected Branches](rest/branches/branch-protection.md)
-    * [Branches](rest/branches/index.md)
+    * [REST API Endpoints For Protected Branches](rest/branches/branch-protection.md)
+    * [REST API Endpoints For Branches](rest/branches/branches.md)
+    * [REST API Endpoints For Branches And Their Settings](rest/branches/index.md)
   - Checks
-    * [Checks](rest/checks/index.md)
-    * [Check Runs](rest/checks/runs.md)
-    * [Check Suites](rest/checks/suites.md)
+    * [REST API Endpoints For Checks](rest/checks/index.md)
+    * [REST API Endpoints For Check Runs](rest/checks/runs.md)
+    * [REST API Endpoints For Check Suites](rest/checks/suites.md)
   - Classroom
-    * [Classroom](rest/classroom/index.md)
+    * [REST API endpoints for {% data variables.product.prodname_classroom %}](rest/classroom/index.md)
   - Code Scanning
     * [Code Scanning](rest/code-scanning/index.md)
   - Codes Of Conduct
-    * [Codes Of Conduct](rest/codes-of-conduct/index.md)
+    * [REST API Endpoints For Codes Of Conduct](rest/codes-of-conduct/index.md)
   - Codespaces
     * [Codespaces](rest/codespaces/index.md)
     * [Codespaces Machines](rest/codespaces/machines.md)
@@ -2576,8 +2577,8 @@
     * [Codespaces Repository Secrets](rest/codespaces/repository-secrets.md)
     * [Codespaces User Secrets](rest/codespaces/secrets.md)
   - Collaborators
-    * [Collaborators](rest/collaborators/index.md)
-    * [Repository Invitations](rest/collaborators/invitations.md)
+    * [REST API Endpoints For Collaborators](rest/collaborators/index.md)
+    * [REST API Endpoints For Repository Invitations](rest/collaborators/invitations.md)
   - Commits
     * [Commit Comments](rest/commits/comments.md)
     * [Commits](rest/commits/index.md)
@@ -2603,7 +2604,7 @@
     * [Protection Rules](rest/deployments/protection-rules.md)
     * [Deployment Statuses](rest/deployments/statuses.md)
   - Emojis
-    * [Emojis](rest/emojis/index.md)
+    * [REST API Endpoints For Emojis](rest/emojis/index.md)
   - Enterprise Admin
     * [Admin Stats](rest/enterprise-admin/admin-stats.md)
     * [Announcement](rest/enterprise-admin/announcement.md)
@@ -2624,17 +2625,18 @@
     * [SCIM](rest/enterprise-admin/scim.md)
     * [Users](rest/enterprise-admin/users.md)
   - Gists
-    * [Gist Comments](rest/gists/comments.md)
-    * [Gists](rest/gists/index.md)
+    * [REST API Endpoints For Gist Comments](rest/gists/comments.md)
+    * [REST API Endpoints For Gists](rest/gists/gists.md)
+    * [REST API Endpoints For Gists And Gist Comments](rest/gists/index.md)
   - Git
-    * [Git Blobs](rest/git/blobs.md)
-    * [Git Commits](rest/git/commits.md)
-    * [Git Database](rest/git/index.md)
-    * [Git References](rest/git/refs.md)
-    * [Git Tags](rest/git/tags.md)
-    * [Git Trees](rest/git/trees.md)
+    * [REST API Endpoints For Git Blobs](rest/git/blobs.md)
+    * [REST API Endpoints For Git Commits](rest/git/commits.md)
+    * [REST API Endpoints For Git Database](rest/git/index.md)
+    * [REST API Endpoints For Git References](rest/git/refs.md)
+    * [REST API Endpoints For Git Tags](rest/git/tags.md)
+    * [REST API Endpoints For Git Trees](rest/git/trees.md)
   - Gitignore
-    * [Gitignore](rest/gitignore/index.md)
+    * [REST API Endpoints For Gitignore](rest/gitignore/index.md)
   - Guides
     * [Building A CI Server](rest/guides/building-a-ci-server.md)
     * [Delivering Deployments](rest/guides/delivering-deployments.md)
@@ -2661,16 +2663,17 @@
     * [Milestones](rest/issues/milestones.md)
     * [Timeline Events](rest/issues/timeline.md)
   - Licenses
+    * [REST API Endpoints For Licenses](rest/licenses/index.md)
     * [Licenses](rest/licenses/licenses.md)
   - Markdown
-    * [Markdown](rest/markdown/markdown.md)
+    * [REST API Endpoints For Markdown](rest/markdown/markdown.md)
   - Meta
-    * [Meta](rest/meta/meta.md)
+    * [REST API Endpoints For Meta Data](rest/meta/meta.md)
   - Metrics
-    * [Community Metrics](rest/metrics/community.md)
-    * [Metrics](rest/metrics/index.md)
-    * [Repository Statistics](rest/metrics/statistics.md)
-    * [Repository Traffic](rest/metrics/traffic.md)
+    * [REST API Endpoints For Community Metrics](rest/metrics/community.md)
+    * [REST API Endpoints For Metrics](rest/metrics/index.md)
+    * [REST API Endpoints For Repository Statistics](rest/metrics/statistics.md)
+    * [REST API Endpoints For Repository Traffic](rest/metrics/traffic.md)
   - Migrations
     * [Migrations](rest/migrations/index.md)
     * [Organization Migrations](rest/migrations/orgs.md)
@@ -2694,7 +2697,7 @@
   - Packages
     * [Packages](rest/packages/packages.md)
   - Pages
-    * [Pages](rest/pages/pages.md)
+    * [REST API endpoints for {% data variables.product.prodname_pages %}](rest/pages/pages.md)
   - Projects
     * [{% data variables.product.prodname_project_v1_caps %} cards](rest/projects/cards.md)
     * [{% data variables.product.prodname_project_v1_caps %} collaborators](rest/projects/collaborators.md)
@@ -2706,12 +2709,13 @@
     * [Review Requests](rest/pulls/review-requests.md)
     * [Pull Request Reviews](rest/pulls/reviews.md)
   - Rate Limit
-    * [Rate Limit](rest/rate-limit/rate-limit.md)
+    * [REST API Endpoints For Rate Limits](rest/rate-limit/rate-limit.md)
   - Reactions
-    * [Reactions](rest/reactions/reactions.md)
+    * [REST API Endpoints For Reactions](rest/reactions/reactions.md)
   - Releases
-    * [Release Assets](rest/releases/assets.md)
-    * [Releases](rest/releases/releases.md)
+    * [REST API Endpoints For Release Assets](rest/releases/assets.md)
+    * [REST API Endpoints For Releases And Release Assets](rest/releases/index.md)
+    * [REST API Endpoints For Releases](rest/releases/releases.md)
   - Repos
     * [Repository Autolinks](rest/repos/autolinks.md)
     * [Repository Contents](rest/repos/contents.md)
@@ -2726,7 +2730,7 @@
   - Scim
     * [SCIM](rest/scim/scim.md)
   - Search
-    * [Search](rest/search/search.md)
+    * [REST API Endpoints For Search](rest/search/search.md)
   - Secret Scanning
     * [Secret Scanning](rest/secret-scanning/secret-scanning.md)
   - Security Advisories
