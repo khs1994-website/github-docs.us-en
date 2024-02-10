@@ -2920,8 +2920,10 @@
     * [Getting Your Enterprise Started With The Git Hub Support Portal](support/contacting-github-support/getting-your-enterprise-started-with-the-github-support-portal.md)
     * [Contacting Git Hub Support](support/contacting-github-support/index.md)
     * [Providing Data To Git Hub Support](support/contacting-github-support/providing-data-to-github-support.md)
+    * [Using Copilot In Git Hub Support](support/contacting-github-support/using-copilot-in-github-support.md)
     * [Viewing And Updating Support Tickets](support/contacting-github-support/viewing-and-updating-support-tickets.md)
   - Learning About Github Support
+    * [About Copilot In Git Hub Support](support/learning-about-github-support/about-copilot-in-github-support.md)
     * [About Git Hub Premium Support](support/learning-about-github-support/about-github-premium-support.md)
     * [About Git Hub Support](support/learning-about-github-support/about-github-support.md)
     * [About Ticket Priority](support/learning-about-github-support/about-ticket-priority.md)
