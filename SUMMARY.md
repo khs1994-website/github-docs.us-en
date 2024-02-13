@@ -2911,7 +2911,7 @@
     * [Paying For Git Hub Sponsors By Invoice](sponsors/sponsoring-open-source-contributors/paying-for-github-sponsors-by-invoice.md)
     * [Sponsoring An Open Source Contributor Through Git Hub](sponsors/sponsoring-open-source-contributors/sponsoring-an-open-source-contributor-through-github.md)
     * [Sponsoring An Open Source Contributor Through Patreon](sponsors/sponsoring-open-source-contributors/sponsoring-an-open-source-contributor-through-patreon.md)
-    * [Unlinking Your Patreon Account From Your Git Hub Account](sponsors/sponsoring-open-source-contributors/unlinking-your-patreon-account-from-your-github-account.md)
+    * [Unlinking Your Patreon Account From Git Hub](sponsors/sponsoring-open-source-contributors/unlinking-your-patreon-account-from-github.md)
   * [Guides For Git Hub Sponsors](sponsors/guides.md)
   * [{% data variables.product.prodname_sponsors %} documentation](sponsors/index.md)
 - Support
