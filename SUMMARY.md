@@ -180,6 +180,7 @@
       * [Using Self Hosted Runners In A Workflow](actions/hosting-your-own-runners/managing-self-hosted-runners/using-self-hosted-runners-in-a-workflow.md)
     - Managing Self Hosted Runners With Actions Runner Controller
       * [About Actions Runner Controller](actions/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/about-actions-runner-controller.md)
+      * [About Support For Actions Runner Controller](actions/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/about-support-for-actions-runner-controller.md)
       * [Authenticating To The Git Hub API](actions/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/authenticating-to-the-github-api.md)
       * [Deploying Runner Scale Sets With Actions Runner Controller](actions/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/deploying-runner-scale-sets-with-actions-runner-controller.md)
       * [Managing Self Hosted Runners With Actions Runner Controller](actions/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/index.md)
