@@ -867,7 +867,7 @@
     * [About Mandatory Two Factor Authentication](authentication/securing-your-account-with-two-factor-authentication-2fa/about-mandatory-two-factor-authentication.md)
     * [About Two Factor Authentication](authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication.md)
     * [Accessing Git Hub Using Two Factor Authentication](authentication/securing-your-account-with-two-factor-authentication-2fa/accessing-github-using-two-factor-authentication.md)
-    * [Changing Your Preferred Two Factor Authentication Method](authentication/securing-your-account-with-two-factor-authentication-2fa/changing-your-preferred-two-factor-authentication-method.md)
+    * [Changing Your Two Factor Authentication Method](authentication/securing-your-account-with-two-factor-authentication-2fa/changing-your-two-factor-authentication-method.md)
     * [Configuring Two Factor Authentication Recovery Methods](authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication-recovery-methods.md)
     * [Configuring Two Factor Authentication](authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication.md)
     * [Countries Where SMS Authentication Is Supported](authentication/securing-your-account-with-two-factor-authentication-2fa/countries-where-sms-authentication-is-supported.md)
