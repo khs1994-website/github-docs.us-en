@@ -1067,7 +1067,6 @@
       * [Error: "is not a .ql file, .qls file, a directory, or a query pack specification"](code-security/code-scanning/troubleshooting-code-scanning/not-recognized.md)
       * [Error Out Of Disk Or Error Out Of Memory](code-security/code-scanning/troubleshooting-code-scanning/out-of-disk-or-memory.md)
       * [Error 403 Resource Not Accessible By Integration](code-security/code-scanning/troubleshooting-code-scanning/resource-not-accessible.md)
-      * [Results Differ Between Platforms](code-security/code-scanning/troubleshooting-code-scanning/results-differ-between-platforms.md)
       * [Results Are Different Than Expected](code-security/code-scanning/troubleshooting-code-scanning/results-different-than-expected.md)
       * [Error Server Error](code-security/code-scanning/troubleshooting-code-scanning/server-error.md)
       * [Some Languages Were Not Analyzed With Code QL Advanced Setup](code-security/code-scanning/troubleshooting-code-scanning/some-languages-not-analyzed.md)
@@ -2585,7 +2584,7 @@
     * [Commits](rest/commits/index.md)
     * [Commit Statuses](rest/commits/statuses.md)
   - Copilot
-    * [Copilot Business](rest/copilot/copilot-business.md)
+    * [Copilot User Management](rest/copilot/copilot-user-management.md)
     * [Copilot](rest/copilot/index.md)
   - Dependabot
     * [{% data variables.product.prodname_dependabot_alerts %}](rest/dependabot/alerts.md)
