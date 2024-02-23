@@ -2829,7 +2829,6 @@
   - Github Terms
     * [Git Hub Community Code Of Conduct](site-policy/github-terms/github-community-code-of-conduct.md)
     * [Git Hub Community Guidelines](site-policy/github-terms/github-community-guidelines.md)
-    * [Git Hub Copilot Pre Release License Terms](site-policy/github-terms/github-copilot-pre-release-license-terms.md)
     * [Git Hub Corporate Terms Of Service](site-policy/github-terms/github-corporate-terms-of-service.md)
     * [Git Hub Educational Use Agreement](site-policy/github-terms/github-educational-use-agreement.md)
     * [Git Hub Event Code Of Conduct](site-policy/github-terms/github-event-code-of-conduct.md)
@@ -2837,6 +2836,7 @@
     * [Git Hub Marketplace Developer Agreement](site-policy/github-terms/github-marketplace-developer-agreement.md)
     * [Git Hub Marketplace Terms Of Service](site-policy/github-terms/github-marketplace-terms-of-service.md)
     * [Git Hub Open Source Applications Terms And Conditions](site-policy/github-terms/github-open-source-applications-terms-and-conditions.md)
+    * [Git Hub Pre Release License Terms](site-policy/github-terms/github-pre-release-license-terms.md)
     * [Git Hub Registered Developer Agreement](site-policy/github-terms/github-registered-developer-agreement.md)
     * [Git Hub Research Program Terms](site-policy/github-terms/github-research-program-terms.md)
     * [Git Hub Sponsors Additional Terms](site-policy/github-terms/github-sponsors-additional-terms.md)
