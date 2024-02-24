@@ -2868,8 +2868,6 @@
     * [Security Policies](site-policy/security-policies/index.md)
   - Site Policy Deprecated
     * [Amendment to GitHub Terms of Service Applicable to U.S. Federal Government Users](site-policy/site-policy-deprecated/amendment-to-github-terms-of-service-applicable-to-us-federal-government-users.md)
-    * [Git Hub AE Data Protection Agreement](site-policy/site-policy-deprecated/github-ae-data-protection-agreement.md)
-    * [Git Hub AE Product Specific Terms](site-policy/site-policy-deprecated/github-ae-product-specific-terms.md)
     * [Git Hub Enterprise Cloud Evaluation Agreement](site-policy/site-policy-deprecated/github-enterprise-cloud-evaluation-agreement.md)
     * [Git Hub Enterprise Server License Agreement](site-policy/site-policy-deprecated/github-enterprise-server-license-agreement.md)
     * [Git Hub Enterprise Service Level Agreement](site-policy/site-policy-deprecated/github-enterprise-service-level-agreement.md)
