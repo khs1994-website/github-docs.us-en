@@ -326,7 +326,7 @@
       * [Accessing The Management Console](admin/administering-your-instance/administering-your-instance-from-the-web-ui/accessing-the-management-console.md)
       * [Administering Your Instance From The Web UI](admin/administering-your-instance/administering-your-instance-from-the-web-ui/index.md)
       * [Managing Access To The Management Console](admin/administering-your-instance/administering-your-instance-from-the-web-ui/managing-access-to-the-management-console.md)
-      * [Site Admin Dashboard](admin/administering-your-instance/administering-your-instance-from-the-web-ui/site-admin-dashboard.md)
+      * [Managing Search Indices For Your Instance](admin/administering-your-instance/administering-your-instance-from-the-web-ui/managing-search-indices-for-your-instance.md)
       * [Troubleshooting Access To The Management Console](admin/administering-your-instance/administering-your-instance-from-the-web-ui/troubleshooting-access-to-the-management-console.md)
     - Configuring Maintenance Mode
       * [Enabling And Scheduling Maintenance Mode](admin/administering-your-instance/configuring-maintenance-mode/enabling-and-scheduling-maintenance-mode.md)
@@ -530,6 +530,7 @@
       * [Troubleshooting Service Hooks](admin/managing-accounts-and-repositories/managing-repositories-in-your-enterprise/troubleshooting-service-hooks.md)
       * [Viewing User Owned Repositories In Your Enterprise](admin/managing-accounts-and-repositories/managing-repositories-in-your-enterprise/viewing-user-owned-repositories-in-your-enterprise.md)
     - Managing Users In Your Enterprise
+      * [About Reserved Usernames For Git Hub Enterprise Server](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/about-reserved-usernames-for-github-enterprise-server.md)
       * [Auditing SSH Keys](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/auditing-ssh-keys.md)
       * [Auditing Users Across Your Enterprise](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/auditing-users-across-your-enterprise.md)
       * [Best Practices For User Security](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/best-practices-for-user-security.md)
@@ -564,6 +565,7 @@
       * [Analyzing How Your Team Works With Server Statistics](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/index.md)
       * [Requesting Server Statistics Using The REST API](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/requesting-server-statistics-using-the-rest-api.md)
     - Exploring User Activity In Your Enterprise
+      * [Accessing Reports For Your Instance](admin/monitoring-activity-in-your-enterprise/exploring-user-activity-in-your-enterprise/accessing-reports-for-your-instance.md)
       * [Activity Dashboard](admin/monitoring-activity-in-your-enterprise/exploring-user-activity-in-your-enterprise/activity-dashboard.md)
       * [Exploring User Activity In Your Enterprise](admin/monitoring-activity-in-your-enterprise/exploring-user-activity-in-your-enterprise/index.md)
       * [Log Forwarding](admin/monitoring-activity-in-your-enterprise/exploring-user-activity-in-your-enterprise/log-forwarding.md)
