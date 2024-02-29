@@ -554,6 +554,7 @@
     * [Managing Accounts And Repositories](admin/managing-accounts-and-repositories/index.md)
   - Managing Your Enterprise Account
     * [Changing The URL For Your Enterprise](admin/managing-your-enterprise-account/changing-the-url-for-your-enterprise.md)
+    * [Creating A README For An Enterprise](admin/managing-your-enterprise-account/creating-a-readme-for-an-enterprise.md)
     * [Creating An Enterprise Account](admin/managing-your-enterprise-account/creating-an-enterprise-account.md)
     * [Deleting An Enterprise Account](admin/managing-your-enterprise-account/deleting-an-enterprise-account.md)
     * [Managing Your Enterprise Account](admin/managing-your-enterprise-account/index.md)
@@ -1198,7 +1199,7 @@
       * [Customizing Auto Triage Rules To Prioritize Dependabot Alerts](code-security/dependabot/dependabot-auto-triage-rules/customizing-auto-triage-rules-to-prioritize-dependabot-alerts.md)
       * [Prioritizing Dependabot Alerts With Dependabot Auto Triage Rules](code-security/dependabot/dependabot-auto-triage-rules/index.md)
       * [Managing Alerts That Have Been Automatically Dismissed By A Dependabot Auto Triage Rule](code-security/dependabot/dependabot-auto-triage-rules/managing-automatically-dismissed-alerts.md)
-      * [Using Git Hub Curated Default Rules To Prioritize Dependabot Alerts](code-security/dependabot/dependabot-auto-triage-rules/using-github-curated-default-rules-to-prioritize-dependabot-alerts.md)
+      * [Using Git Hub Preset Rules To Prioritize Dependabot Alerts](code-security/dependabot/dependabot-auto-triage-rules/using-github-preset-rules-to-prioritize-dependabot-alerts.md)
     - Dependabot Security Updates
       * [About Dependabot Security Updates](code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates.md)
       * [Configuring Dependabot Security Updates](code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates.md)
@@ -2688,20 +2689,20 @@
   - Oauth Authorizations
     * [O Auth Authorizations](rest/oauth-authorizations/oauth-authorizations.md)
   - Orgs
-    * [Blocking Users](rest/orgs/blocking.md)
-    * [Custom Properties](rest/orgs/custom-properties.md)
-    * [Custom Repository Roles](rest/orgs/custom-roles.md)
-    * [Organizations](rest/orgs/orgs.md)
-    * [Organization Members](rest/orgs/members.md)
-    * [Organization Roles](rest/orgs/organization-roles.md)
-    * [Outside Collaborators](rest/orgs/outside-collaborators.md)
-    * [Personal Access Tokens](rest/orgs/personal-access-tokens.md)
-    * [Rule Suites](rest/orgs/rule-suites.md)
-    * [Rules](rest/orgs/rules.md)
-    * [Security Managers](rest/orgs/security-managers.md)
-    * [Organization Webhooks](rest/orgs/webhooks.md)
+    * [REST API Endpoints For Blocking Users](rest/orgs/blocking.md)
+    * [REST API Endpoints For Custom Properties](rest/orgs/custom-properties.md)
+    * [REST API Endpoints For Custom Repository Roles](rest/orgs/custom-roles.md)
+    * [REST API Endpoints For Organizations](rest/orgs/orgs.md)
+    * [REST API Endpoints For Organization Members](rest/orgs/members.md)
+    * [REST API Endpoints For Organization Roles](rest/orgs/organization-roles.md)
+    * [REST API Endpoints For Outside Collaborators](rest/orgs/outside-collaborators.md)
+    * [REST API Endpoints For Personal Access Tokens](rest/orgs/personal-access-tokens.md)
+    * [REST API Endpoints For Rule Suites](rest/orgs/rule-suites.md)
+    * [REST API Endpoints For Rules](rest/orgs/rules.md)
+    * [REST API Endpoints For Security Managers](rest/orgs/security-managers.md)
+    * [REST API Endpoints For Organization Webhooks](rest/orgs/webhooks.md)
   - Packages
-    * [Packages](rest/packages/packages.md)
+    * [REST API Endpoints For Packages](rest/packages/packages.md)
   - Pages
     * [REST API endpoints for {% data variables.product.prodname_pages %}](rest/pages/pages.md)
   - Projects
