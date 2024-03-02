@@ -260,6 +260,7 @@
     * [Automatic Token Authentication](actions/security-guides/automatic-token-authentication.md)
     * [Security Guides](actions/security-guides/index.md)
     * [Security Hardening For Git Hub Actions](actions/security-guides/security-hardening-for-github-actions.md)
+    * [Using Git Hub S Security Features To Secure Your Use Of Git Hub Actions](actions/security-guides/using-githubs-security-features-to-secure-your-use-of-github-actions.md)
     * [Using Secrets In Git Hub Actions](actions/security-guides/using-secrets-in-github-actions.md)
   - Using Containerized Services
     * [About Service Containers](actions/using-containerized-services/about-service-containers.md)
