@@ -2864,7 +2864,6 @@
     * [Git Hub Candidate Privacy Policy](site-policy/privacy-policies/github-candidate-privacy-policy.md)
     * [Git Hub Codespaces Privacy Statement](site-policy/privacy-policies/github-codespaces-privacy-statement.md)
     * [Git Hub Cookies](site-policy/privacy-policies/github-cookies.md)
-    * [Git Hub Copilot Business Privacy Statement](site-policy/privacy-policies/github-copilot-business-privacy-statement.md)
     * [Git Hub General Privacy Statement](site-policy/privacy-policies/github-general-privacy-statement.md)
     * [Git Hub Octernships Terms Of Service](site-policy/privacy-policies/github-octernships-terms-of-service.md)
     * [Git Hub Subprocessors](site-policy/privacy-policies/github-subprocessors.md)
@@ -2936,6 +2935,7 @@
     * [Git Hub Marketplace Support](support/learning-about-github-support/github-marketplace-support.md)
     * [Learning About Git Hub Support](support/learning-about-github-support/index.md)
   * [Git Hub Support Documentation](support/index.md)
+  * [Sharing Feedback With Git Hub](support/sharing-feedback-with-github.md)
 - Video Transcripts
   * [Video Transcripts](video-transcripts/index.md)
   * [Transcript Billing Git Hub Consumption Through An Azure Subscription](video-transcripts/transcript-billing-github-consumption-through-an-azure-subscription.md)
