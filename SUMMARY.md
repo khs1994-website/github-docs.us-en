@@ -2574,7 +2574,7 @@
   - Classroom
     * [REST API endpoints for {% data variables.product.prodname_classroom %}](rest/classroom/index.md)
   - Code Scanning
-    * [Code Scanning](rest/code-scanning/index.md)
+    * [REST API Endpoints For Code Scanning](rest/code-scanning/index.md)
   - Codes Of Conduct
     * [REST API Endpoints For Codes Of Conduct](rest/codes-of-conduct/index.md)
   - Codespaces
@@ -2588,29 +2588,29 @@
     * [REST API Endpoints For Collaborators](rest/collaborators/index.md)
     * [REST API Endpoints For Repository Invitations](rest/collaborators/invitations.md)
   - Commits
-    * [Commit Comments](rest/commits/comments.md)
-    * [Commits](rest/commits/index.md)
-    * [Commit Statuses](rest/commits/statuses.md)
+    * [REST API Endpoints For Commit Comments](rest/commits/comments.md)
+    * [REST API Endpoints For Commits](rest/commits/index.md)
+    * [REST API Endpoints For Commit Statuses](rest/commits/statuses.md)
   - Copilot
-    * [Copilot User Management](rest/copilot/copilot-user-management.md)
-    * [Copilot](rest/copilot/index.md)
+    * [REST API Endpoints For Copilot User Management](rest/copilot/copilot-user-management.md)
+    * [REST API Endpoints For Copilot](rest/copilot/index.md)
   - Dependabot
-    * [{% data variables.product.prodname_dependabot_alerts %}](rest/dependabot/alerts.md)
-    * [Dependabot](rest/dependabot/index.md)
-    * [Dependabot Secrets](rest/dependabot/secrets.md)
+    * [REST API endpoints for {% data variables.product.prodname_dependabot_alerts %}](rest/dependabot/alerts.md)
+    * [REST API endpoints for {% data variables.product.prodname_dependabot %}](rest/dependabot/index.md)
+    * [REST API Endpoints For Dependabot Secrets](rest/dependabot/secrets.md)
   - Dependency Graph
-    * [Dependency Review](rest/dependency-graph/dependency-review.md)
-    * [Dependency Submission](rest/dependency-graph/dependency-submission.md)
-    * [Dependency Graph](rest/dependency-graph/index.md)
-    * [Software Bill Of Materials SBOM](rest/dependency-graph/sboms.md)
+    * [REST API Endpoints For Dependency Review](rest/dependency-graph/dependency-review.md)
+    * [REST API Endpoints For Dependency Submission](rest/dependency-graph/dependency-submission.md)
+    * [REST API Endpoints For The Dependency Graph](rest/dependency-graph/index.md)
+    * [REST API Endpoints For Software Bill Of Materials SBOM](rest/dependency-graph/sboms.md)
   - Deploy Keys
-    * [Deploy Keys](rest/deploy-keys/index.md)
+    * [REST API Endpoints For Deploy Keys](rest/deploy-keys/index.md)
   - Deployments
-    * [Deployment Branch Policies](rest/deployments/branch-policies.md)
-    * [Deployments](rest/deployments/index.md)
-    * [Deployment Environments](rest/deployments/environments.md)
-    * [Protection Rules](rest/deployments/protection-rules.md)
-    * [Deployment Statuses](rest/deployments/statuses.md)
+    * [REST API Endpoints For Deployment Branch Policies](rest/deployments/branch-policies.md)
+    * [REST API Endpoints For Deployments](rest/deployments/index.md)
+    * [REST API Endpoints For Deployment Environments](rest/deployments/environments.md)
+    * [REST API Endpoints For Protection Rules](rest/deployments/protection-rules.md)
+    * [REST API Endpoints For Deployment Statuses](rest/deployments/statuses.md)
   - Emojis
     * [REST API Endpoints For Emojis](rest/emojis/index.md)
   - Enterprise Admin
@@ -2658,18 +2658,18 @@
     * [Using The REST API To Interact With Your Git Database](rest/guides/using-the-rest-api-to-interact-with-your-git-database.md)
     * [Working With Comments](rest/guides/working-with-comments.md)
   - Interactions
-    * [Interactions](rest/interactions/index.md)
-    * [Organization Interactions](rest/interactions/orgs.md)
-    * [Repository Interactions](rest/interactions/repos.md)
-    * [User Interactions](rest/interactions/user.md)
+    * [REST API Endpoints For Interactions](rest/interactions/index.md)
+    * [REST API Endpoints For Organization Interactions](rest/interactions/orgs.md)
+    * [REST API Endpoints For Repository Interactions](rest/interactions/repos.md)
+    * [REST API Endpoints For User Interactions](rest/interactions/user.md)
   - Issues
-    * [Issue Assignees](rest/issues/assignees.md)
-    * [Issue Comments](rest/issues/comments.md)
-    * [Issue Events](rest/issues/events.md)
-    * [Issues](rest/issues/issues.md)
-    * [Labels](rest/issues/labels.md)
-    * [Milestones](rest/issues/milestones.md)
-    * [Timeline Events](rest/issues/timeline.md)
+    * [REST API Endpoints For Issue Assignees](rest/issues/assignees.md)
+    * [REST API Endpoints For Issue Comments](rest/issues/comments.md)
+    * [REST API Endpoints For Issue Events](rest/issues/events.md)
+    * [REST API Endpoints For Issues](rest/issues/issues.md)
+    * [REST API Endpoints For Labels](rest/issues/labels.md)
+    * [REST API Endpoints For Milestones](rest/issues/milestones.md)
+    * [REST API Endpoints For Timeline Events](rest/issues/timeline.md)
   - Licenses
     * [REST API Endpoints For Licenses](rest/licenses/index.md)
     * [Licenses](rest/licenses/licenses.md)
@@ -2740,11 +2740,11 @@
   - Search
     * [REST API Endpoints For Search](rest/search/search.md)
   - Secret Scanning
-    * [Secret Scanning](rest/secret-scanning/secret-scanning.md)
+    * [REST API Endpoints For Secret Scanning](rest/secret-scanning/secret-scanning.md)
   - Security Advisories
-    * [Global Security Advisories](rest/security-advisories/global-advisories.md)
-    * [Security Advisories](rest/security-advisories/index.md)
-    * [Repository Security Advisories](rest/security-advisories/repository-advisories.md)
+    * [REST API Endpoints For Global Security Advisories](rest/security-advisories/global-advisories.md)
+    * [REST API Endpoints For Security Advisories](rest/security-advisories/index.md)
+    * [REST API Endpoints For Repository Security Advisories](rest/security-advisories/repository-advisories.md)
   - Teams
     * [REST API Endpoints For Team Discussion Comments](rest/teams/discussion-comments.md)
     * [REST API Endpoints For Team Discussions](rest/teams/discussions.md)
