@@ -554,6 +554,7 @@
       * [Viewing People In Your Enterprise](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/viewing-people-in-your-enterprise.md)
     * [Managing Accounts And Repositories](admin/managing-accounts-and-repositories/index.md)
   - Managing Your Enterprise Account
+    * [About Enterprise Accounts](admin/managing-your-enterprise-account/about-enterprise-accounts.md)
     * [Changing The URL For Your Enterprise](admin/managing-your-enterprise-account/changing-the-url-for-your-enterprise.md)
     * [Creating A README For An Enterprise](admin/managing-your-enterprise-account/creating-a-readme-for-an-enterprise.md)
     * [Creating An Enterprise Account](admin/managing-your-enterprise-account/creating-an-enterprise-account.md)
@@ -636,7 +637,6 @@
       * [Upgrading Git Hub Enterprise Server](admin/monitoring-managing-and-updating-your-instance/updating-the-virtual-machine-and-physical-resources/upgrading-github-enterprise-server.md)
     * [Monitoring Managing And Updating Your Instance](admin/monitoring-managing-and-updating-your-instance/index.md)
   - Overview
-    * [About Enterprise Accounts](admin/overview/about-enterprise-accounts.md)
     * [About Git Hub Enterprise Cloud](admin/overview/about-github-enterprise-cloud.md)
     * [About Git Hub Enterprise Server](admin/overview/about-github-enterprise-server.md)
     * [About Git Hub For Enterprises](admin/overview/about-github-for-enterprises.md)
@@ -2547,12 +2547,12 @@
     * [REST API Endpoints For Announcement Banners](rest/announcement-banners/index.md)
     * [REST API Endpoints For Organization Announcement Banners](rest/announcement-banners/organizations.md)
   - Apps
-    * [Git Hub Apps](rest/apps/apps.md)
-    * [Apps](rest/apps/index.md)
-    * [Git Hub App Installations](rest/apps/installations.md)
-    * [Git Hub Marketplace](rest/apps/marketplace.md)
-    * [O Auth Authorizations](rest/apps/oauth-applications.md)
-    * [Git Hub App Webhooks](rest/apps/webhooks.md)
+    * [REST API endpoints for {% data variables.product.prodname_github_apps %}](rest/apps/apps.md)
+    * [REST API Endpoints For Apps](rest/apps/index.md)
+    * [REST API endpoints for {% data variables.product.prodname_github_app %} installations](rest/apps/installations.md)
+    * [REST API endpoints for {% data variables.product.prodname_marketplace %}](rest/apps/marketplace.md)
+    * [REST API Endpoints For O Auth Authorizations](rest/apps/oauth-applications.md)
+    * [REST API endpoints for {% data variables.product.prodname_github_app %} webhooks](rest/apps/webhooks.md)
   - Authentication
     * [Authenticating To The REST API](rest/authentication/index.md)
     * [Endpoints Available For Fine Grained Personal Access Tokens](rest/authentication/endpoints-available-for-fine-grained-personal-access-tokens.md)
@@ -2578,12 +2578,12 @@
   - Codes Of Conduct
     * [REST API Endpoints For Codes Of Conduct](rest/codes-of-conduct/index.md)
   - Codespaces
-    * [Codespaces](rest/codespaces/index.md)
-    * [Codespaces Machines](rest/codespaces/machines.md)
-    * [Codespaces Organization Secrets](rest/codespaces/organization-secrets.md)
-    * [Codespaces Organizations](rest/codespaces/organizations.md)
-    * [Codespaces Repository Secrets](rest/codespaces/repository-secrets.md)
-    * [Codespaces User Secrets](rest/codespaces/secrets.md)
+    * [REST API Endpoints For Codespaces](rest/codespaces/index.md)
+    * [REST API Endpoints For Codespaces Machines](rest/codespaces/machines.md)
+    * [REST API Endpoints For Codespaces Organization Secrets](rest/codespaces/organization-secrets.md)
+    * [REST API Endpoints For Codespaces Organizations](rest/codespaces/organizations.md)
+    * [REST API Endpoints For Codespaces Repository Secrets](rest/codespaces/repository-secrets.md)
+    * [REST API Endpoints For Codespaces User Secrets](rest/codespaces/secrets.md)
   - Collaborators
     * [REST API Endpoints For Collaborators](rest/collaborators/index.md)
     * [REST API Endpoints For Repository Invitations](rest/collaborators/invitations.md)
@@ -2671,8 +2671,7 @@
     * [REST API Endpoints For Milestones](rest/issues/milestones.md)
     * [REST API Endpoints For Timeline Events](rest/issues/timeline.md)
   - Licenses
-    * [REST API Endpoints For Licenses](rest/licenses/index.md)
-    * [Licenses](rest/licenses/licenses.md)
+    * [REST API Endpoints For Licenses](rest/licenses/licenses.md)
   - Markdown
     * [REST API Endpoints For Markdown](rest/markdown/markdown.md)
   - Meta
@@ -2688,7 +2687,7 @@
     * [REST API Endpoints For Source Imports](rest/migrations/source-imports.md)
     * [REST API Endpoints For User Migrations](rest/migrations/users.md)
   - Oauth Authorizations
-    * [O Auth Authorizations](rest/oauth-authorizations/oauth-authorizations.md)
+    * [REST API Endpoints For O Auth App Authorizations](rest/oauth-authorizations/oauth-authorizations.md)
   - Orgs
     * [REST API Endpoints For Blocking Users](rest/orgs/blocking.md)
     * [REST API Endpoints For Custom Properties](rest/orgs/custom-properties.md)
@@ -2707,15 +2706,15 @@
   - Pages
     * [REST API endpoints for {% data variables.product.prodname_pages %}](rest/pages/pages.md)
   - Projects
-    * [{% data variables.product.prodname_project_v1_caps %} cards](rest/projects/cards.md)
-    * [{% data variables.product.prodname_project_v1_caps %} collaborators](rest/projects/collaborators.md)
-    * [{% data variables.product.prodname_project_v1_caps %} columns](rest/projects/columns.md)
-    * [{% data variables.product.prodname_projects_v1_caps %}](rest/projects/projects.md)
+    * [REST API endpoints for {% data variables.product.prodname_project_v1_caps %} cards](rest/projects/cards.md)
+    * [REST API endpoints for {% data variables.product.prodname_project_v1_caps %} collaborators](rest/projects/collaborators.md)
+    * [REST API endpoints for {% data variables.product.prodname_project_v1_caps %} columns](rest/projects/columns.md)
+    * [REST API endpoints for {% data variables.product.prodname_projects_v1_caps %}](rest/projects/projects.md)
   - Pulls
-    * [Pull Request Review Comments](rest/pulls/comments.md)
-    * [Pulls](rest/pulls/pulls.md)
-    * [Review Requests](rest/pulls/review-requests.md)
-    * [Pull Request Reviews](rest/pulls/reviews.md)
+    * [REST API Endpoints For Pull Request Review Comments](rest/pulls/comments.md)
+    * [REST API Endpoints For Pull Requests](rest/pulls/pulls.md)
+    * [REST API Endpoints For Review Requests](rest/pulls/review-requests.md)
+    * [REST API Endpoints For Pull Request Reviews](rest/pulls/reviews.md)
   - Rate Limit
     * [REST API Endpoints For Rate Limits](rest/rate-limit/rate-limit.md)
   - Reactions
