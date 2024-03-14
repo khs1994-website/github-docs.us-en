@@ -435,7 +435,7 @@
       * [About Support For Your Id P S Conditional Access Policy](admin/identity-and-access-management/configuring-authentication-for-enterprise-managed-users/about-support-for-your-idps-conditional-access-policy.md)
       * [Configuring OIDC For Enterprise Managed Users](admin/identity-and-access-management/configuring-authentication-for-enterprise-managed-users/configuring-oidc-for-enterprise-managed-users.md)
       * [Configuring SAML Single Sign On For Enterprise Managed Users](admin/identity-and-access-management/configuring-authentication-for-enterprise-managed-users/configuring-saml-single-sign-on-for-enterprise-managed-users.md)
-      * [Disabling Authentication For Enterprise Managed Users](admin/identity-and-access-management/configuring-authentication-for-enterprise-managed-users/disabling-authentication-for-enterprise-managed-users.md)
+      * [Disabling Authentication And Provisioning For Enterprise Managed Users](admin/identity-and-access-management/configuring-authentication-for-enterprise-managed-users/disabling-authentication-and-provisioning-for-enterprise-managed-users.md)
       * [Configuring Authentication For Enterprise Managed Users](admin/identity-and-access-management/configuring-authentication-for-enterprise-managed-users/index.md)
     - Iam Configuration Reference
       * [IAM Configuration Reference](admin/identity-and-access-management/iam-configuration-reference/index.md)
@@ -450,7 +450,7 @@
       * [Configuring SCIM Provisioning With Okta](admin/identity-and-access-management/provisioning-user-accounts-for-enterprise-managed-users/configuring-scim-provisioning-with-okta.md)
       * [Provisioning User Accounts For Enterprise Managed Users](admin/identity-and-access-management/provisioning-user-accounts-for-enterprise-managed-users/index.md)
       * [Managing Team Memberships With Identity Provider Groups](admin/identity-and-access-management/provisioning-user-accounts-for-enterprise-managed-users/managing-team-memberships-with-identity-provider-groups.md)
-      * [Provisioning Users With SCIM Using The REST API](admin/identity-and-access-management/provisioning-user-accounts-for-enterprise-managed-users/provisioning-users-with-scim-using-the-rest-api.md)
+      * [Provisioning Users And Groups With SCIM Using The REST API](admin/identity-and-access-management/provisioning-user-accounts-for-enterprise-managed-users/provisioning-users-and-groups-with-scim-using-the-rest-api.md)
       * [Troubleshooting Team Membership With Identity Provider Groups](admin/identity-and-access-management/provisioning-user-accounts-for-enterprise-managed-users/troubleshooting-team-membership-with-identity-provider-groups.md)
     - Reconfiguring Iam For Enterprise Managed Users
       * [Reconfiguring IAM For Enterprise Managed Users](admin/identity-and-access-management/reconfiguring-iam-for-enterprise-managed-users/index.md)
@@ -464,7 +464,7 @@
       * [About SAML For Enterprise IAM](admin/identity-and-access-management/understanding-iam-for-enterprises/about-saml-for-enterprise-iam.md)
       * [Allowing Built In Authentication For Users Outside Your Provider](admin/identity-and-access-management/understanding-iam-for-enterprises/allowing-built-in-authentication-for-users-outside-your-provider.md)
       * [Changing Authentication Methods](admin/identity-and-access-management/understanding-iam-for-enterprises/changing-authentication-methods.md)
-      * [Identifying The Best Authentication Method For Your Enterprise](admin/identity-and-access-management/understanding-iam-for-enterprises/identifying-the-best-authentication-method-for-your-enterprise.md)
+      * [Choosing An Enterprise Type For Git Hub Enterprise Cloud](admin/identity-and-access-management/understanding-iam-for-enterprises/choosing-an-enterprise-type-for-github-enterprise-cloud.md)
       * [Understanding IAM For Enterprises](admin/identity-and-access-management/understanding-iam-for-enterprises/index.md)
       * [Troubleshooting Identity And Access Management For Your Enterprise](admin/identity-and-access-management/understanding-iam-for-enterprises/troubleshooting-identity-and-access-management-for-your-enterprise.md)
     - Using Built In Authentication
