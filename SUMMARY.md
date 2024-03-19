@@ -53,6 +53,7 @@
       * [Types Of Emails Git Hub Sends](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/types-of-emails-github-sends.md)
       * [Verifying Your Email Address](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/verifying-your-email-address.md)
     - Managing User Account Settings
+      * [About Available For Hire](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/about-available-for-hire.md)
       * [About Your Personal Dashboard](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/about-your-personal-dashboard.md)
       * [Changing Your Git Hub Username](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/changing-your-github-username.md)
       * [Managing User Account Settings](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/index.md)
@@ -65,7 +66,6 @@
       * [Managing Your Tab Size Rendering Preference](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/managing-your-tab-size-rendering-preference.md)
       * [Permission Levels For A Personal Account Repository](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/permission-levels-for-a-personal-account-repository.md)
       * [Permission levels for a {% data variables.projects.projects_v1_board %} owned by a personal account](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/permission-levels-for-a-project-board-owned-by-a-personal-account.md)
-      * [What Does The Available For Hire Checkbox Do](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/what-does-the-available-for-hire-checkbox-do.md)
     - Managing Your Membership In Organizations
       * [About Organization Membership](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/about-organization-membership.md)
       * [Accessing An Organization](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/accessing-an-organization.md)
