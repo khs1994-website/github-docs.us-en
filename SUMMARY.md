@@ -1037,6 +1037,7 @@
     - Managing Code Scanning Alerts
       * [About Autofix For Code QL Code Scanning](code-security/code-scanning/managing-code-scanning-alerts/about-autofix-for-codeql-code-scanning.md)
       * [About Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/about-code-scanning-alerts.md)
+      * [Disabling Autofix For Code Scanning](code-security/code-scanning/managing-code-scanning-alerts/disabling-autofix-for-code-scanning.md)
       * [Managing Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/index.md)
       * [Managing Code Scanning Alerts For Your Repository](code-security/code-scanning/managing-code-scanning-alerts/managing-code-scanning-alerts-for-your-repository.md)
       * [Tracking Code Scanning Alerts In Issues Using Task Lists](code-security/code-scanning/managing-code-scanning-alerts/tracking-code-scanning-alerts-in-issues-using-task-lists.md)
