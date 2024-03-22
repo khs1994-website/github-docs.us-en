@@ -1552,6 +1552,7 @@
     * [Git Hub Copilot Enterprise](copilot/github-copilot-enterprise/index.md)
   - Github Copilot In The Cli
     * [About Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/about-github-copilot-in-the-cli.md)
+    * [Configuring Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/configuring-github-copilot-in-the-cli.md)
     * [Enabling Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/enabling-github-copilot-in-the-cli.md)
     * [Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/index.md)
     * [Using Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/using-github-copilot-in-the-cli.md)
