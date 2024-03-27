@@ -1068,6 +1068,7 @@
       * [Extraction Errors In The Database](code-security/code-scanning/troubleshooting-code-scanning/extraction-errors-in-the-database.md)
       * [Code QL Scanned Fewer Lines Than Expected](code-security/code-scanning/troubleshooting-code-scanning/fewer-lines-scanned-than-expected.md)
       * [Troubleshooting Code Scanning](code-security/code-scanning/troubleshooting-code-scanning/index.md)
+      * [Warning Detected X Kotlin Files In Your Project That Could Not Be Processed Without A Build](code-security/code-scanning/troubleshooting-code-scanning/kotlin-detected-in-no-build.md)
       * [Logs Are Not Detailed Enough](code-security/code-scanning/troubleshooting-code-scanning/logs-not-detailed-enough.md)
       * [Error No Source Code Was Seen During The Build](code-security/code-scanning/troubleshooting-code-scanning/no-source-code-seen-during-build.md)
       * [Error: "is not a .ql file, .qls file, a directory, or a query pack specification"](code-security/code-scanning/troubleshooting-code-scanning/not-recognized.md)
