@@ -1501,6 +1501,7 @@
   - Writing For Github Docs
     * [About Git Hub S Documentation Philosophy](contributing/writing-for-github-docs/about-githubs-documentation-philosophy.md)
     * [Annotating Code Examples](contributing/writing-for-github-docs/annotating-code-examples.md)
+    * [Best Practices For Git Hub Docs](contributing/writing-for-github-docs/best-practices-for-github-docs.md)
     * [Changing An Article S Title](contributing/writing-for-github-docs/changing-an-articles-title.md)
     * [Configuring Redirects](contributing/writing-for-github-docs/configuring-redirects.md)
     * [Content Design Principles](contributing/writing-for-github-docs/content-design-principles.md)
