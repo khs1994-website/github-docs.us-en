@@ -247,6 +247,7 @@
     * [Notifications For Workflow Runs](actions/monitoring-and-troubleshooting-workflows/notifications-for-workflow-runs.md)
     * [Using The Visualization Graph](actions/monitoring-and-troubleshooting-workflows/using-the-visualization-graph.md)
     * [Using Workflow Run Logs](actions/monitoring-and-troubleshooting-workflows/using-workflow-run-logs.md)
+    * [Viewing Git Hub Actions Usage Metrics For Your Organization](actions/monitoring-and-troubleshooting-workflows/viewing-github-actions-usage-metrics-for-your-organization.md)
     * [Viewing Job Execution Time](actions/monitoring-and-troubleshooting-workflows/viewing-job-execution-time.md)
     * [Viewing Workflow Run History](actions/monitoring-and-troubleshooting-workflows/viewing-workflow-run-history.md)
   - Publishing Packages
@@ -564,7 +565,6 @@
     - Analyzing How Your Team Works With Server Statistics
       * [About Server Statistics](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/about-server-statistics.md)
       * [Exporting Server Statistics](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/exporting-server-statistics.md)
-      * [Including Data About Git Hub Actions In Server Statistics](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/including-data-about-github-actions-in-server-statistics.md)
       * [Analyzing How Your Team Works With Server Statistics](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/index.md)
       * [Requesting Server Statistics Using The REST API](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/requesting-server-statistics-using-the-rest-api.md)
     - Exploring User Activity In Your Enterprise
@@ -2073,7 +2073,8 @@
     * [Creating A New Organization From Scratch](organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch.md)
     * [Customizing Your Organization S Profile](organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile.md)
     * [Collaborating With Groups In Organizations](organizations/collaborating-with-groups-in-organizations/index.md)
-    * [Viewing Insights For Your Organization](organizations/collaborating-with-groups-in-organizations/viewing-insights-for-your-organization.md)
+    * [Viewing Insights For Dependencies In Your Organization](organizations/collaborating-with-groups-in-organizations/viewing-insights-for-dependencies-in-your-organization.md)
+    * [Viewing Usage Metrics For Git Hub Actions](organizations/collaborating-with-groups-in-organizations/viewing-usage-metrics-for-github-actions.md)
   - Collaborating With Your Team
     * [About Team Discussions](organizations/collaborating-with-your-team/about-team-discussions.md)
     * [Creating A Team Discussion](organizations/collaborating-with-your-team/creating-a-team-discussion.md)
