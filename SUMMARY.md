@@ -376,10 +376,11 @@
       * [Using Git Hub Enterprise Server With A Load Balancer](admin/configuration/configuring-network-settings/using-github-enterprise-server-with-a-load-balancer.md)
       * [Validating Your Domain Settings](admin/configuration/configuring-network-settings/validating-your-domain-settings.md)
     - Configuring Private Networking For Hosted Compute Products
-      * [About Networking For Hosted Compute Products](admin/configuration/configuring-private-networking-for-hosted-compute-products/about-networking-for-hosted-compute-products.md)
-      * [About Using Git Hub Hosted Runners In Your Azure Virtual Network](admin/configuration/configuring-private-networking-for-hosted-compute-products/about-using-github-hosted-runners-in-your-azure-virtual-network.md)
-      * [Configuring Private Networking For Git Hub Hosted Runners](admin/configuration/configuring-private-networking-for-hosted-compute-products/configuring-private-networking-for-github-hosted-runners.md)
+      * [About Azure Private Networking For Git Hub Hosted Runners In Your Enterprise](admin/configuration/configuring-private-networking-for-hosted-compute-products/about-azure-private-networking-for-github-hosted-runners-in-your-enterprise.md)
+      * [About Networking For Hosted Compute Products In Your Enterprise](admin/configuration/configuring-private-networking-for-hosted-compute-products/about-networking-for-hosted-compute-products-in-your-enterprise.md)
+      * [Configuring Private Networking For Git Hub Hosted Runners In Your Enterprise](admin/configuration/configuring-private-networking-for-hosted-compute-products/configuring-private-networking-for-github-hosted-runners-in-your-enterprise.md)
       * [Configuring Private Networking For Hosted Compute Products](admin/configuration/configuring-private-networking-for-hosted-compute-products/index.md)
+      * [Troubleshooting Azure Private Network Configurations For Git Hub Hosted Runners In Your Enterprise](admin/configuration/configuring-private-networking-for-hosted-compute-products/troubleshooting-azure-private-network-configurations-for-github-hosted-runners-in-your-enterprise.md)
     - Configuring User Applications For Your Enterprise
       * [Configuring Applications](admin/configuration/configuring-user-applications-for-your-enterprise/configuring-applications.md)
       * [Configuring Email For Notifications](admin/configuration/configuring-user-applications-for-your-enterprise/configuring-email-for-notifications.md)
@@ -1233,8 +1234,8 @@
     * [Dependabot Quickstart Guide](code-security/getting-started/dependabot-quickstart-guide.md)
     * [Git Hub Security Features](code-security/getting-started/github-security-features.md)
     * [Getting Started With Code Security](code-security/getting-started/index.md)
-    * [Securing Your Organization](code-security/getting-started/securing-your-organization.md)
-    * [Securing Your Repository](code-security/getting-started/securing-your-repository.md)
+    * [Quickstart For Securing Your Organization](code-security/getting-started/quickstart-for-securing-your-organization.md)
+    * [Quickstart For Securing Your Repository](code-security/getting-started/quickstart-for-securing-your-repository.md)
   - Secret Scanning
     * [About Secret Scanning](code-security/secret-scanning/about-secret-scanning.md)
     * [About The Detection Of Generic Secrets With Secret Scanning](code-security/secret-scanning/about-the-detection-of-generic-secrets-with-secret-scanning.md)
@@ -1251,6 +1252,32 @@
     * [Secret Scanning Partner Program](code-security/secret-scanning/secret-scanning-partner-program.md)
     * [Secret Scanning Patterns](code-security/secret-scanning/secret-scanning-patterns.md)
     * [Troubleshooting Secret Scanning](code-security/secret-scanning/troubleshooting-secret-scanning.md)
+  - Securing Your Organization
+    - Enabling Security Features In Your Organization
+      * [Applying The Git Hub Recommended Security Configuration In Your Organization](code-security/securing-your-organization/enabling-security-features-in-your-organization/applying-the-github-recommended-security-configuration-in-your-organization.md)
+      * [Configuring Global Security Settings For Your Organization](code-security/securing-your-organization/enabling-security-features-in-your-organization/configuring-global-security-settings-for-your-organization.md)
+      * [Enabling Security Features In Your Organization](code-security/securing-your-organization/enabling-security-features-in-your-organization/index.md)
+    - Introduction To Securing Your Organization At Scale
+      * [About Enabling Security Features At Scale](code-security/securing-your-organization/introduction-to-securing-your-organization-at-scale/about-enabling-security-features-at-scale.md)
+      * [Choosing A Security Configuration For Your Repositories](code-security/securing-your-organization/introduction-to-securing-your-organization-at-scale/choosing-a-security-configuration-for-your-repositories.md)
+      * [Introduction To Securing Your Organization At Scale](code-security/securing-your-organization/introduction-to-securing-your-organization-at-scale/index.md)
+    - Managing The Security Of Your Organization
+      * [Deleting A Custom Security Configuration](code-security/securing-your-organization/managing-the-security-of-your-organization/deleting-a-custom-security-configuration.md)
+      * [Detaching Repositories From Their Security Configurations](code-security/securing-your-organization/managing-the-security-of-your-organization/detaching-repositories-from-their-security-configurations.md)
+      * [Editing A Custom Security Configuration](code-security/securing-your-organization/managing-the-security-of-your-organization/editing-a-custom-security-configuration.md)
+      * [Filtering Repositories In Your Organization Using The Repository Table](code-security/securing-your-organization/managing-the-security-of-your-organization/filtering-repositories-in-your-organization-using-the-repository-table.md)
+      * [Managing The Security Of Your Organization](code-security/securing-your-organization/managing-the-security-of-your-organization/index.md)
+      * [Interpreting Security Findings On A Repository](code-security/securing-your-organization/managing-the-security-of-your-organization/interpreting-security-findings-on-a-repository.md)
+      * [Managing Your Git Hub Advanced Security License Usage](code-security/securing-your-organization/managing-the-security-of-your-organization/managing-your-github-advanced-security-license-usage.md)
+    - Meeting Your Specific Security Needs With Custom Security Configurations
+      * [Applying A Custom Security Configuration](code-security/securing-your-organization/meeting-your-specific-security-needs-with-custom-security-configurations/applying-a-custom-security-configuration.md)
+      * [Creating A Custom Security Configuration](code-security/securing-your-organization/meeting-your-specific-security-needs-with-custom-security-configurations/creating-a-custom-security-configuration.md)
+      * [Meeting Your Specific Security Needs With Custom Security Configurations](code-security/securing-your-organization/meeting-your-specific-security-needs-with-custom-security-configurations/index.md)
+    - Troubleshooting Security Configurations
+      * [A Repository Has An Existing Advanced Setup For Code Scanning](code-security/securing-your-organization/troubleshooting-security-configurations/a-repository-has-an-existing-advanced-setup-for-code-scanning.md)
+      * [Troubleshooting Security Configurations](code-security/securing-your-organization/troubleshooting-security-configurations/index.md)
+      * [Not Enough Git Hub Advanced Security Licenses](code-security/securing-your-organization/troubleshooting-security-configurations/not-enough-github-advanced-security-licenses.md)
+    * [Securing Your Organization](code-security/securing-your-organization/index.md)
   - Security Advisories
     - Guidance On Reporting And Writing Information About Vulnerabilities
       * [About Coordinated Disclosure Of Security Vulnerabilities](code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/about-coordinated-disclosure-of-security-vulnerabilities.md)
@@ -2133,10 +2160,13 @@
     * [Enabling O Auth App Access Restrictions For Your Organization](organizations/managing-oauth-access-to-your-organizations-data/enabling-oauth-app-access-restrictions-for-your-organization.md)
     * [Managing O Auth Access To Your Organization S Data](organizations/managing-oauth-access-to-your-organizations-data/index.md)
   - Managing Organization Settings
+    * [About Azure Private Networking For Git Hub Hosted Runners In Your Organization](organizations/managing-organization-settings/about-azure-private-networking-for-github-hosted-runners-in-your-organization.md)
+    * [About Networking For Hosted Compute Products In Your Organization](organizations/managing-organization-settings/about-networking-for-hosted-compute-products-in-your-organization.md)
     * [Allowing People To Delete Issues In Your Organization](organizations/managing-organization-settings/allowing-people-to-delete-issues-in-your-organization.md)
     * [Allowing Project Visibility Changes In Your Organization](organizations/managing-organization-settings/allowing-project-visibility-changes-in-your-organization.md)
     * [Archiving An Organization](organizations/managing-organization-settings/archiving-an-organization.md)
     * [Changing The Visibility Of Your Organization S Dependency Insights](organizations/managing-organization-settings/changing-the-visibility-of-your-organizations-dependency-insights.md)
+    * [Configuring Private Networking For Git Hub Hosted Runners In Your Organization](organizations/managing-organization-settings/configuring-private-networking-for-github-hosted-runners-in-your-organization.md)
     * [Configuring The Retention Period For Git Hub Actions Artifacts And Logs In Your Organization](organizations/managing-organization-settings/configuring-the-retention-period-for-github-actions-artifacts-and-logs-in-your-organization.md)
     * [Converting An Organization Into A User](organizations/managing-organization-settings/converting-an-organization-into-a-user.md)
     * [Creating An Announcement Banner For Your Organization](organizations/managing-organization-settings/creating-an-announcement-banner-for-your-organization.md)
@@ -2168,6 +2198,7 @@
     * [Setting Permissions For Deleting Or Transferring Repositories](organizations/managing-organization-settings/setting-permissions-for-deleting-or-transferring-repositories.md)
     * [Setting Team Creation Permissions In Your Organization](organizations/managing-organization-settings/setting-team-creation-permissions-in-your-organization.md)
     * [Transferring Organization Ownership](organizations/managing-organization-settings/transferring-organization-ownership.md)
+    * [Troubleshooting Azure Private Network Configurations For Git Hub Hosted Runners In Your Organization](organizations/managing-organization-settings/troubleshooting-azure-private-network-configurations-for-github-hosted-runners-in-your-organization.md)
     * [Upgrading To The Git Hub Customer Agreement](organizations/managing-organization-settings/upgrading-to-the-github-customer-agreement.md)
     * [Verifying Or Approving A Domain For Your Organization](organizations/managing-organization-settings/verifying-or-approving-a-domain-for-your-organization.md)
   - Managing Peoples Access To Your Organization With Roles
