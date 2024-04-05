@@ -1129,6 +1129,7 @@
       * [Generate Extensible Predicate Metadata](code-security/codeql-cli/codeql-cli-manual/generate-extensible-predicate-metadata.md)
       * [Generate Log Summary](code-security/codeql-cli/codeql-cli-manual/generate-log-summary.md)
       * [Generate Query Help](code-security/codeql-cli/codeql-cli-manual/generate-query-help.md)
+      * [Github Merge Results](code-security/codeql-cli/codeql-cli-manual/github-merge-results.md)
       * [Github Upload Results](code-security/codeql-cli/codeql-cli-manual/github-upload-results.md)
       * [Code QL CLI Commands Manual](code-security/codeql-cli/codeql-cli-manual/index.md)
       * [Pack Add](code-security/codeql-cli/codeql-cli-manual/pack-add.md)
