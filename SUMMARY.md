@@ -250,6 +250,7 @@
     * [Viewing Git Hub Actions Usage Metrics For Your Organization](actions/monitoring-and-troubleshooting-workflows/viewing-github-actions-usage-metrics-for-your-organization.md)
     * [Viewing Job Execution Time](actions/monitoring-and-troubleshooting-workflows/viewing-job-execution-time.md)
     * [Viewing Workflow Run History](actions/monitoring-and-troubleshooting-workflows/viewing-workflow-run-history.md)
+    * [Working With Support For Git Hub Actions](actions/monitoring-and-troubleshooting-workflows/working-with-support-for-github-actions.md)
   - Publishing Packages
     * [About Packaging With Git Hub Actions](actions/publishing-packages/about-packaging-with-github-actions.md)
     * [Publishing Packages](actions/publishing-packages/index.md)
