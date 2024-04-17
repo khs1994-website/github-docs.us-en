@@ -1317,7 +1317,7 @@
     * [Filtering Alerts In Security Overview](code-security/security-overview/filtering-alerts-in-security-overview.md)
     * [Viewing Security Information For Your Organization Or Enterprise](code-security/security-overview/index.md)
     * [Viewing Metrics For Secret Scanning Push Protection In Your Organization](code-security/security-overview/viewing-metrics-for-secret-scanning-push-protection-in-your-organization.md)
-    * [Viewing Security Insights For Your Organization](code-security/security-overview/viewing-security-insights-for-your-organization.md)
+    * [Viewing Security Insights](code-security/security-overview/viewing-security-insights.md)
   - Supply Chain Security
     - End To End Supply Chain
       * [Securing Your End To End Supply Chain](code-security/supply-chain-security/end-to-end-supply-chain/end-to-end-supply-chain-overview.md)
@@ -1584,8 +1584,8 @@
   - Github Copilot In The Cli
     * [About Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/about-github-copilot-in-the-cli.md)
     * [Configuring Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/configuring-github-copilot-in-the-cli.md)
-    * [Enabling Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/enabling-github-copilot-in-the-cli.md)
     * [Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/index.md)
+    * [Setting Up Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/setting-up-github-copilot-in-the-cli.md)
     * [Using Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/using-github-copilot-in-the-cli.md)
   - Managing Github Copilot In Your Organization
     * [Configuring Content Exclusions For Git Hub Copilot](copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot.md)
