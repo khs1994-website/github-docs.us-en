@@ -1193,6 +1193,31 @@
       * [Testing Query Help Files](code-security/codeql-cli/using-the-advanced-functionality-of-the-codeql-cli/testing-query-help-files.md)
       * [Using Custom Queries With The Code QL CLI](code-security/codeql-cli/using-the-advanced-functionality-of-the-codeql-cli/using-custom-queries-with-the-codeql-cli.md)
     * [Use The Code QL CLI To Secure Your Code](code-security/codeql-cli/index.md)
+  - Codeql For Vs Code
+    - Getting Started With Codeql For Vs Code
+      * [About Code QL For VS Code](code-security/codeql-for-vs-code/getting-started-with-codeql-for-vs-code/about-codeql-for-vs-code.md)
+      * [Exploring Data Flow With Path Queries](code-security/codeql-for-vs-code/getting-started-with-codeql-for-vs-code/exploring-data-flow-with-path-queries.md)
+      * [Getting started with the {% data variables.product.prodname_codeql %} for Visual Studio Code extension](code-security/codeql-for-vs-code/getting-started-with-codeql-for-vs-code/index.md)
+      * [Installing Code QL For Visual Studio Code](code-security/codeql-for-vs-code/getting-started-with-codeql-for-vs-code/installing-codeql-for-vs-code.md)
+      * [Managing Code QL Databases](code-security/codeql-for-vs-code/getting-started-with-codeql-for-vs-code/managing-codeql-databases.md)
+      * [Running Code QL Queries At Scale With Multi Repository Variant Analysis](code-security/codeql-for-vs-code/getting-started-with-codeql-for-vs-code/running-codeql-queries-at-scale-with-multi-repository-variant-analysis.md)
+      * [Running Code QL Queries](code-security/codeql-for-vs-code/getting-started-with-codeql-for-vs-code/running-codeql-queries.md)
+    - Troubleshooting Codeql For Vs Code
+      * [Accessing Logs](code-security/codeql-for-vs-code/troubleshooting-codeql-for-vs-code/accessing-logs.md)
+      * [Troubleshooting Code QL For VS Code](code-security/codeql-for-vs-code/troubleshooting-codeql-for-vs-code/index.md)
+      * [Problem With Controller Repository](code-security/codeql-for-vs-code/troubleshooting-codeql-for-vs-code/warning-problem-with-controller-repository.md)
+    - Using The Advanced Functionality Of The Codeql For Vs Code Extension
+      * [Configuring Access To The Code QL CLI](code-security/codeql-for-vs-code/using-the-advanced-functionality-of-the-codeql-for-vs-code-extension/configuring-access-to-the-codeql-cli.md)
+      * [Creating A Custom Query](code-security/codeql-for-vs-code/using-the-advanced-functionality-of-the-codeql-for-vs-code-extension/creating-a-custom-query.md)
+      * [Customizing Settings](code-security/codeql-for-vs-code/using-the-advanced-functionality-of-the-codeql-for-vs-code-extension/customizing-settings.md)
+      * [Exploring The Structure Of Your Source Code](code-security/codeql-for-vs-code/using-the-advanced-functionality-of-the-codeql-for-vs-code-extension/exploring-the-structure-of-your-source-code.md)
+      * [Using the advanced functionality of the {% data variables.product.prodname_codeql %} for VS Code extension](code-security/codeql-for-vs-code/using-the-advanced-functionality-of-the-codeql-for-vs-code-extension/index.md)
+      * [Managing Code QL Query Packs And Library Packs](code-security/codeql-for-vs-code/using-the-advanced-functionality-of-the-codeql-for-vs-code-extension/managing-codeql-packs.md)
+      * [Setting Up A Code QL Workspace](code-security/codeql-for-vs-code/using-the-advanced-functionality-of-the-codeql-for-vs-code-extension/setting-up-a-codeql-workspace.md)
+      * [Telemetry In Code QL For Visual Studio Code](code-security/codeql-for-vs-code/using-the-advanced-functionality-of-the-codeql-for-vs-code-extension/telemetry-in-codeql-for-visual-studio-code.md)
+      * [Testing Code QL Queries In Visual Studio Code](code-security/codeql-for-vs-code/using-the-advanced-functionality-of-the-codeql-for-vs-code-extension/testing-codeql-queries-in-vs-code.md)
+      * [Using The Code QL Model Editor](code-security/codeql-for-vs-code/using-the-advanced-functionality-of-the-codeql-for-vs-code-extension/using-the-codeql-model-editor.md)
+    * [Use Code QL Inside Visual Studio Code](code-security/codeql-for-vs-code/index.md)
   - Dependabot
     - Dependabot Alerts
       * [About Dependabot Alerts](code-security/dependabot/dependabot-alerts/about-dependabot-alerts.md)
@@ -2037,7 +2062,6 @@
       * [About Git Hub Importer](migrations/importing-source-code/using-github-importer/about-github-importer.md)
       * [Importing A Repository With Git Hub Importer](migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer.md)
       * [Using Git Hub Importer](migrations/importing-source-code/using-github-importer/index.md)
-      * [Updating Commit Author Attribution With Git Hub Importer](migrations/importing-source-code/using-github-importer/updating-commit-author-attribution-with-github-importer.md)
     - Using The Command Line To Import Source Code
       * [About Source Code Imports Using The Command Line](migrations/importing-source-code/using-the-command-line-to-import-source-code/about-source-code-imports-using-the-command-line.md)
       * [Adding Locally Hosted Code To Git Hub](migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github.md)
