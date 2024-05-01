@@ -262,6 +262,7 @@
     * [Automatic Token Authentication](actions/security-guides/automatic-token-authentication.md)
     * [Security Guides](actions/security-guides/index.md)
     * [Security Hardening For Git Hub Actions](actions/security-guides/security-hardening-for-github-actions.md)
+    * [Using Artifact Attestations To Establish Provenance For Builds](actions/security-guides/using-artifact-attestations-to-establish-provenance-for-builds.md)
     * [Using Git Hub S Security Features To Secure Your Use Of Git Hub Actions](actions/security-guides/using-githubs-security-features-to-secure-your-use-of-github-actions.md)
     * [Using Secrets In Git Hub Actions](actions/security-guides/using-secrets-in-github-actions.md)
   - Using Containerized Services
@@ -599,6 +600,7 @@
       * [About Clustering](admin/monitoring-managing-and-updating-your-instance/configuring-clustering/about-clustering.md)
       * [Cluster Network Configuration](admin/monitoring-managing-and-updating-your-instance/configuring-clustering/cluster-network-configuration.md)
       * [Configuring High Availability Replication For A Cluster](admin/monitoring-managing-and-updating-your-instance/configuring-clustering/configuring-high-availability-replication-for-a-cluster.md)
+      * [Deferring Database Seeding](admin/monitoring-managing-and-updating-your-instance/configuring-clustering/deferring-database-seeding.md)
       * [Differences Between Clustering And High Availability HA](admin/monitoring-managing-and-updating-your-instance/configuring-clustering/differences-between-clustering-and-high-availability-ha.md)
       * [Evacuating A Cluster Node Running Data Services](admin/monitoring-managing-and-updating-your-instance/configuring-clustering/evacuating-a-cluster-node-running-data-services.md)
       * [Configuring Clustering](admin/monitoring-managing-and-updating-your-instance/configuring-clustering/index.md)
@@ -1057,6 +1059,7 @@
       * [Java Script And Type Script Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/javascript-typescript-built-in-queries.md)
       * [Python Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/python-built-in-queries.md)
       * [Ruby Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/ruby-built-in-queries.md)
+      * [Set Code Scanning Merge Protection](code-security/code-scanning/managing-your-code-scanning-configuration/set-code-scanning-merge-protection.md)
       * [Swift Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/swift-built-in-queries.md)
       * [Viewing Code Scanning Logs](code-security/code-scanning/managing-your-code-scanning-configuration/viewing-code-scanning-logs.md)
     - Troubleshooting Code Scanning
@@ -1280,6 +1283,7 @@
     * [Secret Scanning Partner Program](code-security/secret-scanning/secret-scanning-partner-program.md)
     * [Secret Scanning Patterns](code-security/secret-scanning/secret-scanning-patterns.md)
     * [Troubleshooting Secret Scanning](code-security/secret-scanning/troubleshooting-secret-scanning.md)
+    * [Working With Push Protection](code-security/secret-scanning/working-with-push-protection.md)
   - Securing Your Organization
     - Enabling Security Features In Your Organization
       * [Applying The Git Hub Recommended Security Configuration In Your Organization](code-security/securing-your-organization/enabling-security-features-in-your-organization/applying-the-github-recommended-security-configuration-in-your-organization.md)
