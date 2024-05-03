@@ -1252,6 +1252,7 @@
       * [Guidance For The Configuration Of Private Registries For Dependabot](code-security/dependabot/working-with-dependabot/guidance-for-the-configuration-of-private-registries-for-dependabot.md)
       * [Working With Dependabot](code-security/dependabot/working-with-dependabot/index.md)
       * [Keeping Your Actions Up To Date With Dependabot](code-security/dependabot/working-with-dependabot/keeping-your-actions-up-to-date-with-dependabot.md)
+      * [Managing Dependabot On Self Hosted Runners](code-security/dependabot/working-with-dependabot/managing-dependabot-on-self-hosted-runners.md)
       * [Managing Pull Requests For Dependency Updates](code-security/dependabot/working-with-dependabot/managing-pull-requests-for-dependency-updates.md)
       * [Removing Dependabot Access To Public Registries](code-security/dependabot/working-with-dependabot/removing-dependabot-access-to-public-registries.md)
       * [Troubleshooting Dependabot Errors](code-security/dependabot/working-with-dependabot/troubleshooting-dependabot-errors.md)
