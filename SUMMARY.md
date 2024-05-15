@@ -1727,17 +1727,17 @@
     * [Managing Your Submissions To Git Hub Community Exchange](education/contribute-with-github-community-exchange/managing-your-submissions-to-github-community-exchange.md)
     * [Submitting Your Repository To Git Hub Community Exchange](education/contribute-with-github-community-exchange/submitting-your-repository-to-github-community-exchange.md)
   - Explore The Benefits Of Teaching And Learning With Github Education
-    - Github Global Campus For Students
-      * [About Git Hub Community Exchange](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/about-github-community-exchange.md)
-      * [About Git Hub Global Campus For Students](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/about-github-global-campus-for-students.md)
-      * [Apply To Git Hub Global Campus As A Student](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/apply-to-github-global-campus-as-a-student.md)
-      * [Git Hub Global Campus For Students](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/index.md)
-      * [Why Wasn T My Application To Global Campus For Students Approved](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/why-wasnt-my-application-to-global-campus-for-students-approved.md)
-    - Github Global Campus For Teachers
-      * [About Git Hub Global Campus For Teachers](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-teachers/about-github-global-campus-for-teachers.md)
-      * [Apply To Git Hub Global Campus As A Teacher](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-teachers/apply-to-github-global-campus-as-a-teacher.md)
-      * [Git Hub Global Campus For Teachers](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-teachers/index.md)
-      * [Why Wasn T My Application To Global Campus For Teachers Approved](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-teachers/why-wasnt-my-application-to-global-campus-for-teachers-approved.md)
+    - Github Education For Students
+      * [About Git Hub Community Exchange](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/about-github-community-exchange.md)
+      * [About Git Hub Education For Students](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/about-github-education-for-students.md)
+      * [Apply To Git Hub Education As A Student](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/apply-to-github-education-as-a-student.md)
+      * [Git Hub Education For Students](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/index.md)
+      * [Why Wasn T My Application To Git Hub Education For Students Approved](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/why-wasnt-my-application-to-github-education-for-students-approved.md)
+    - Github Education For Teachers
+      * [About Git Hub Education For Teachers](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-teachers/about-github-education-for-teachers.md)
+      * [Apply To Git Hub Education As A Teacher](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-teachers/apply-to-github-education-as-a-teacher.md)
+      * [Git Hub Education For Teachers](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-teachers/index.md)
+      * [Why Wasn T My Application To Git Hub Education For Teachers Approved](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-teachers/why-wasnt-my-application-to-github-education-for-teachers-approved.md)
     - Use Github At Your Educational Institution
       * [About Git Hub Campus Experts](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/about-github-campus-experts.md)
       * [About Git Hub Campus Program](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/about-github-campus-program.md)
