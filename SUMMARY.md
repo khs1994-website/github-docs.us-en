@@ -1626,10 +1626,12 @@
     * [Using Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/using-github-copilot-in-the-cli.md)
   - Managing Github Copilot In Your Organization
     * [Configuring Content Exclusions For Git Hub Copilot](copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot.md)
+    * [Granting Access To Copilot For Members Of Your Organization](copilot/managing-github-copilot-in-your-organization/granting-access-to-copilot-for-members-of-your-organization.md)
     * [Managing Git Hub Copilot In Your Organization](copilot/managing-github-copilot-in-your-organization/index.md)
-    * [Managing Access For Copilot In Your Organization](copilot/managing-github-copilot-in-your-organization/managing-access-for-copilot-in-your-organization.md)
     * [Managing Policies And Features For Copilot In Your Organization](copilot/managing-github-copilot-in-your-organization/managing-policies-and-features-for-copilot-in-your-organization.md)
+    * [Reviewing Usage Data For Git Hub Copilot In Your Organization](copilot/managing-github-copilot-in-your-organization/reviewing-usage-data-for-github-copilot-in-your-organization.md)
     * [Reviewing Your Organization Ifversion Ghec Or Enterprise Endif S Audit Logs For Copilot Business](copilot/managing-github-copilot-in-your-organization/reviewing-your-organization-or-enterprises-audit-logs-for-copilot-business.md)
+    * [Revoking Access To Copilot For Members Of Your Organization](copilot/managing-github-copilot-in-your-organization/revoking-access-to-copilot-for-members-of-your-organization.md)
   - Troubleshooting Github Copilot
     * [Troubleshooting Git Hub Copilot](copilot/troubleshooting-github-copilot/index.md)
     * [Troubleshooting Common Issues With Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-common-issues-with-github-copilot.md)
