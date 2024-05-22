@@ -440,6 +440,7 @@
       * [About Support For Your Id P S Conditional Access Policy](admin/identity-and-access-management/configuring-authentication-for-enterprise-managed-users/about-support-for-your-idps-conditional-access-policy.md)
       * [Configuring OIDC For Enterprise Managed Users](admin/identity-and-access-management/configuring-authentication-for-enterprise-managed-users/configuring-oidc-for-enterprise-managed-users.md)
       * [Configuring SAML Single Sign On For Enterprise Managed Users](admin/identity-and-access-management/configuring-authentication-for-enterprise-managed-users/configuring-saml-single-sign-on-for-enterprise-managed-users.md)
+      * [Configuring SAML Single Sign On With Okta For Enterprise Managed Users](admin/identity-and-access-management/configuring-authentication-for-enterprise-managed-users/configuring-saml-single-sign-on-with-okta-for-enterprise-managed-users.md)
       * [Disabling Authentication And Provisioning For Enterprise Managed Users](admin/identity-and-access-management/configuring-authentication-for-enterprise-managed-users/disabling-authentication-and-provisioning-for-enterprise-managed-users.md)
       * [Finding The Object ID For Your Entra OIDC Application](admin/identity-and-access-management/configuring-authentication-for-enterprise-managed-users/finding-the-object-id-for-your-entra-oidc-application.md)
       * [Configuring Authentication For Enterprise Managed Users](admin/identity-and-access-management/configuring-authentication-for-enterprise-managed-users/index.md)
@@ -1596,18 +1597,29 @@
     * [Git Hub Copilot Individual Feature Set](copilot/copilot-individual/github-copilot-individual-feature-set.md)
     * [Git Hub Copilot Individual](copilot/copilot-individual/index.md)
   - Github Copilot Chat
-    * [About Git Hub Copilot Chat In Git Hub Mobile](copilot/github-copilot-chat/about-github-copilot-chat-in-github-mobile.md)
-    * [About Git Hub Copilot Chat In Your IDE](copilot/github-copilot-chat/about-github-copilot-chat.md)
-    * [Enabling Git Hub Copilot Chat For Git Hub Mobile](copilot/github-copilot-chat/enabling-github-copilot-chat-for-github-mobile.md)
-    * [Git Hub Copilot Chat](copilot/github-copilot-chat/index.md)
-    * [Using Git Hub Copilot Chat In Git Hub Mobile](copilot/github-copilot-chat/using-github-copilot-chat-in-github-mobile.md)
-    * [Using Git Hub Copilot Chat In Your IDE](copilot/github-copilot-chat/using-github-copilot-chat-in-your-ide.md)
-  - Github Copilot Enterprise
     - Copilot Chat In Github
-      * [About GitHub Copilot Chat in GitHub.com](copilot/github-copilot-enterprise/copilot-chat-in-github/about-github-copilot-chat-in-githubcom.md)
-      * [Copilot Chat in GitHub.com](copilot/github-copilot-enterprise/copilot-chat-in-github/index.md)
-      * [Managing Copilot Knowledge Bases](copilot/github-copilot-enterprise/copilot-chat-in-github/managing-copilot-knowledge-bases.md)
-      * [Using GitHub Copilot Chat in GitHub.com](copilot/github-copilot-enterprise/copilot-chat-in-github/using-github-copilot-chat-in-githubcom.md)
+      * [About GitHub Copilot Chat in GitHub.com](copilot/github-copilot-chat/copilot-chat-in-github/about-github-copilot-chat-in-githubcom.md)
+      * [Copilot Chat in GitHub.com](copilot/github-copilot-chat/copilot-chat-in-github/index.md)
+      * [Managing Copilot Knowledge Bases](copilot/github-copilot-chat/copilot-chat-in-github/managing-copilot-knowledge-bases.md)
+      * [Using GitHub Copilot Chat in GitHub.com](copilot/github-copilot-chat/copilot-chat-in-github/using-github-copilot-chat-in-githubcom.md)
+    - Copilot Chat In Github Mobile
+      * [About Git Hub Copilot Chat In Git Hub Mobile](copilot/github-copilot-chat/copilot-chat-in-github-mobile/about-github-copilot-chat-in-github-mobile.md)
+      * [Enabling Git Hub Copilot Chat For Git Hub Mobile](copilot/github-copilot-chat/copilot-chat-in-github-mobile/enabling-github-copilot-chat-for-github-mobile.md)
+      * [Copilot Chat In Git Hub Mobile](copilot/github-copilot-chat/copilot-chat-in-github-mobile/index.md)
+      * [Using Git Hub Copilot Chat In Git Hub Mobile](copilot/github-copilot-chat/copilot-chat-in-github-mobile/using-github-copilot-chat-in-github-mobile.md)
+    - Copilot Chat In Ides
+      * [About Git Hub Copilot Chat In Your IDE](copilot/github-copilot-chat/copilot-chat-in-ides/about-github-copilot-chat-in-your-ide.md)
+      * [Copilot Chat In ID Es](copilot/github-copilot-chat/copilot-chat-in-ides/index.md)
+      * [Using Git Hub Copilot Chat In Your IDE](copilot/github-copilot-chat/copilot-chat-in-ides/using-github-copilot-chat-in-your-ide.md)
+    - Github Copilot Extensions
+      * [About Git Hub Copilot Extensions](copilot/github-copilot-chat/github-copilot-extensions/about-github-copilot-extensions.md)
+      * [Git Hub Copilot Extensions](copilot/github-copilot-chat/github-copilot-extensions/index.md)
+      * [Installing Git Hub Copilot Extensions For Your Organization](copilot/github-copilot-chat/github-copilot-extensions/installing-github-copilot-extensions-for-your-organization.md)
+      * [Installing Git Hub Copilot Extensions For Your Personal Account](copilot/github-copilot-chat/github-copilot-extensions/installing-github-copilot-extensions-for-your-personal-account.md)
+      * [Managing Git Hub Copilot Extensions](copilot/github-copilot-chat/github-copilot-extensions/managing-github-copilot-extensions.md)
+      * [Using Git Hub Copilot Extensions](copilot/github-copilot-chat/github-copilot-extensions/using-github-copilot-extensions.md)
+    * [Git Hub Copilot Chat](copilot/github-copilot-chat/index.md)
+  - Github Copilot Enterprise
     - Copilot Pull Request Summaries
       * [About Copilot Pull Request Summaries](copilot/github-copilot-enterprise/copilot-pull-request-summaries/about-copilot-pull-request-summaries.md)
       * [Creating A Pull Request Summary With Git Hub Copilot](copilot/github-copilot-enterprise/copilot-pull-request-summaries/creating-a-pull-request-summary-with-github-copilot.md)
