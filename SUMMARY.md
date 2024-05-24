@@ -1983,7 +1983,6 @@
       * [Changing {% data variables.product.prodname_project_v1 %} visibility](issues/organizing-your-work-with-project-boards/managing-project-boards/changing-project-board-visibility.md)
       * [Closing a {% data variables.product.prodname_project_v1 %}](issues/organizing-your-work-with-project-boards/managing-project-boards/closing-a-project-board.md)
       * [Configuring automation for {% data variables.product.prodname_projects_v1 %}](issues/organizing-your-work-with-project-boards/managing-project-boards/configuring-automation-for-project-boards.md)
-      * [Copying a {% data variables.product.prodname_project_v1 %}](issues/organizing-your-work-with-project-boards/managing-project-boards/copying-a-project-board.md)
       * [Creating a {% data variables.product.prodname_project_v1 %}](issues/organizing-your-work-with-project-boards/managing-project-boards/creating-a-project-board.md)
       * [Deleting a {% data variables.product.prodname_project_v1 %}](issues/organizing-your-work-with-project-boards/managing-project-boards/deleting-a-project-board.md)
       * [Editing a {% data variables.product.prodname_project_v1 %}](issues/organizing-your-work-with-project-boards/managing-project-boards/editing-a-project-board.md)
