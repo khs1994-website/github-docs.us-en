@@ -1587,6 +1587,7 @@
     * [Configuring GitHub Copilot settings on GitHub.com](copilot/configuring-github-copilot/configuring-github-copilot-settings-on-githubcom.md)
     * [Configuring Network Settings For Git Hub Copilot](copilot/configuring-github-copilot/configuring-network-settings-for-github-copilot.md)
     * [Configuring Git Hub Copilot](copilot/configuring-github-copilot/index.md)
+    * [Installing The Git Hub Copilot Extension In Your Environment](copilot/configuring-github-copilot/installing-the-github-copilot-extension-in-your-environment.md)
   - Copilot Business
     * [About Git Hub Copilot Business](copilot/copilot-business/about-github-copilot-business.md)
     * [Enabling And Setting Up Git Hub Copilot Business](copilot/copilot-business/enabling-and-setting-up-github-copilot-business.md)
@@ -1653,8 +1654,8 @@
     * [Viewing Logs For Git Hub Copilot In Your Environment](copilot/troubleshooting-github-copilot/viewing-logs-for-github-copilot-in-your-environment.md)
   - Using Github Copilot
     * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/using-github-copilot/finding-public-code-that-matches-github-copilot-suggestions.md)
-    * [Getting Started With Git Hub Copilot](copilot/using-github-copilot/getting-started-with-github-copilot.md)
     * [Using Git Hub Copilot](copilot/using-github-copilot/index.md)
+    * [Using Git Hub Copilot Code Suggestions In Your Editor](copilot/using-github-copilot/using-github-copilot-code-suggestions-in-your-editor.md)
   * [About Git Hub Copilot](copilot/about-github-copilot.md)
   * [{% data variables.product.prodname_copilot %} documentation](copilot/index.md)
   * [Quickstart For Git Hub Copilot](copilot/quickstart.md)
