@@ -976,6 +976,7 @@
   - Managing Your Github Billing Settings
     * [About Billing For Your Enterprise](billing/managing-your-github-billing-settings/about-billing-for-your-enterprise.md)
     * [About Billing On Git Hub](billing/managing-your-github-billing-settings/about-billing-on-github.md)
+    * [Adding A Sales Tax Certificate](billing/managing-your-github-billing-settings/adding-a-sales-tax-certificate.md)
     * [Adding Information To Your Receipts](billing/managing-your-github-billing-settings/adding-information-to-your-receipts.md)
     * [Adding Or Editing A Payment Method](billing/managing-your-github-billing-settings/adding-or-editing-a-payment-method.md)
     * [Changing The Duration Of Your Billing Cycle](billing/managing-your-github-billing-settings/changing-the-duration-of-your-billing-cycle.md)
