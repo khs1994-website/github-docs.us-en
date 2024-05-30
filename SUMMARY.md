@@ -472,6 +472,7 @@
       * [Allowing Built In Authentication For Users Outside Your Provider](admin/identity-and-access-management/understanding-iam-for-enterprises/allowing-built-in-authentication-for-users-outside-your-provider.md)
       * [Changing Authentication Methods](admin/identity-and-access-management/understanding-iam-for-enterprises/changing-authentication-methods.md)
       * [Choosing An Enterprise Type For Git Hub Enterprise Cloud](admin/identity-and-access-management/understanding-iam-for-enterprises/choosing-an-enterprise-type-for-github-enterprise-cloud.md)
+      * [Getting started with {% data variables.product.prodname_emus %}](admin/identity-and-access-management/understanding-iam-for-enterprises/getting-started-with-enterprise-managed-users.md)
       * [Understanding IAM For Enterprises](admin/identity-and-access-management/understanding-iam-for-enterprises/index.md)
       * [Troubleshooting Identity And Access Management For Your Enterprise](admin/identity-and-access-management/understanding-iam-for-enterprises/troubleshooting-identity-and-access-management-for-your-enterprise.md)
     - Using Built In Authentication
@@ -831,6 +832,7 @@
     * [Signing In With A Passkey](authentication/authenticating-with-a-passkey/signing-in-with-a-passkey.md)
   - Authenticating With Saml Single Sign On
     * [About Authentication With SAML Single Sign On](authentication/authenticating-with-saml-single-sign-on/about-authentication-with-saml-single-sign-on.md)
+    * [Authenticating with {% data variables.product.prodname_emus %}](authentication/authenticating-with-saml-single-sign-on/authenticating-with-a-managed-user-account.md)
     * [Authorizing A Personal Access Token For Use With SAML Single Sign On](authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on.md)
     * [Authorizing An SSH Key For Use With SAML Single Sign On](authentication/authenticating-with-saml-single-sign-on/authorizing-an-ssh-key-for-use-with-saml-single-sign-on.md)
     * [Authenticating With SAML Single Sign On](authentication/authenticating-with-saml-single-sign-on/index.md)
@@ -1697,6 +1699,7 @@
     * [Managing Tags In Git Hub Desktop](desktop/managing-commits/managing-tags-in-github-desktop.md)
     * [Options For Managing Commits In Git Hub Desktop](desktop/managing-commits/options-for-managing-commits-in-github-desktop.md)
     * [Reordering Commits In Git Hub Desktop](desktop/managing-commits/reordering-commits-in-github-desktop.md)
+    * [Resetting To A Commit In Git Hub Desktop](desktop/managing-commits/resetting-to-a-commit-in-github-desktop.md)
     * [Reverting A Commit In Git Hub Desktop](desktop/managing-commits/reverting-a-commit-in-github-desktop.md)
     * [Squashing Commits In Git Hub Desktop](desktop/managing-commits/squashing-commits-in-github-desktop.md)
     * [Undoing A Commit In Git Hub Desktop](desktop/managing-commits/undoing-a-commit-in-github-desktop.md)
