@@ -1638,7 +1638,7 @@
     * [About Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/about-github-copilot-in-the-cli.md)
     * [Configuring Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/configuring-github-copilot-in-the-cli.md)
     * [Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/index.md)
-    * [Setting Up Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/setting-up-github-copilot-in-the-cli.md)
+    * [Installing Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/installing-github-copilot-in-the-cli.md)
     * [Using Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/using-github-copilot-in-the-cli.md)
   - Managing Github Copilot In Your Organization
     * [Configuring Content Exclusions For Git Hub Copilot](copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot.md)
