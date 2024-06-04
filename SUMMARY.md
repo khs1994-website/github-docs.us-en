@@ -1010,6 +1010,16 @@
       * [Renewing Your Client S Paid Organization](billing/setting-up-paid-accounts-for-procurement-companies/setting-up-paid-organizations-for-procurement-companies/renewing-your-clients-paid-organization.md)
       * [Upgrading Or Downgrading Your Client S Paid Organization](billing/setting-up-paid-accounts-for-procurement-companies/setting-up-paid-organizations-for-procurement-companies/upgrading-or-downgrading-your-clients-paid-organization.md)
     * [Setting Up Paid Accounts For Procurement Companies](billing/setting-up-paid-accounts-for-procurement-companies/index.md)
+  - Using The Enhanced Billing Platform For Enterprises
+    * [About Enhanced Billing For Git Large File Storage](billing/using-the-enhanced-billing-platform-for-enterprises/about-enhanced-billing-for-git-large-file-storage.md)
+    * [About The Enhanced Billing Platform For Enterprises](billing/using-the-enhanced-billing-platform-for-enterprises/about-the-enhanced-billing-platform-for-enterprises.md)
+    * [Charging Business Units](billing/using-the-enhanced-billing-platform-for-enterprises/charging-business-units.md)
+    * [Estimating Spending For Your Enterprise](billing/using-the-enhanced-billing-platform-for-enterprises/estimating-spending-for-your-enterprise.md)
+    * [Gathering Insights On Your Spending](billing/using-the-enhanced-billing-platform-for-enterprises/gathering-insights-on-your-spending.md)
+    * [Using The Enhanced Billing Platform For Enterprises](billing/using-the-enhanced-billing-platform-for-enterprises/index.md)
+    * [Managing Your Payment And Billing Information](billing/using-the-enhanced-billing-platform-for-enterprises/managing-your-payment-and-billing-information.md)
+    * [Preventing Overspending](billing/using-the-enhanced-billing-platform-for-enterprises/preventing-overspending.md)
+    * [Roles For The Enhanced Billing Platform](billing/using-the-enhanced-billing-platform-for-enterprises/roles-for-the-enhanced-billing-platform.md)
   * [Billing And Payments Documentation](billing/index.md)
 - Code Security
   - Adopting Github Advanced Security At Scale
