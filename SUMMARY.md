@@ -937,10 +937,6 @@
   - Managing Billing For Github Copilot
     * [About Billing For Git Hub Copilot](billing/managing-billing-for-github-copilot/about-billing-for-github-copilot.md)
     * [Managing Billing For Git Hub Copilot](billing/managing-billing-for-github-copilot/index.md)
-    * [Managing Your Git Hub Copilot Business Subscription](billing/managing-billing-for-github-copilot/managing-your-github-copilot-business-subscription.md)
-    * [Managing Your Git Hub Copilot Enterprise Subscription](billing/managing-billing-for-github-copilot/managing-your-github-copilot-enterprise-subscription.md)
-    * [Managing Your Git Hub Copilot Individual Subscription](billing/managing-billing-for-github-copilot/managing-your-github-copilot-individual-subscription.md)
-    * [Viewing Your Git Hub Copilot Usage](billing/managing-billing-for-github-copilot/viewing-your-github-copilot-usage.md)
   - Managing Billing For Github Marketplace Apps
     * [About Billing For Git Hub Marketplace](billing/managing-billing-for-github-marketplace-apps/about-billing-for-github-marketplace.md)
     * [Canceling A Git Hub Marketplace App](billing/managing-billing-for-github-marketplace-apps/canceling-a-github-marketplace-app.md)
@@ -1614,7 +1610,6 @@
     - Copilot Chat In Github
       * [About GitHub Copilot Chat in GitHub.com](copilot/github-copilot-chat/copilot-chat-in-github/about-github-copilot-chat-in-githubcom.md)
       * [Copilot Chat in GitHub.com](copilot/github-copilot-chat/copilot-chat-in-github/index.md)
-      * [Managing Copilot Knowledge Bases](copilot/github-copilot-chat/copilot-chat-in-github/managing-copilot-knowledge-bases.md)
       * [Using GitHub Copilot Chat in GitHub.com](copilot/github-copilot-chat/copilot-chat-in-github/using-github-copilot-chat-in-githubcom.md)
     - Copilot Chat In Github Mobile
       * [About Git Hub Copilot Chat In Git Hub Mobile](copilot/github-copilot-chat/copilot-chat-in-github-mobile/about-github-copilot-chat-in-github-mobile.md)
@@ -1644,20 +1639,42 @@
       * [Git Hub Copilot Enterprise Feature Set](copilot/github-copilot-enterprise/overview/github-copilot-enterprise-feature-set.md)
       * [Overview](copilot/github-copilot-enterprise/overview/index.md)
     * [Git Hub Copilot Enterprise](copilot/github-copilot-enterprise/index.md)
+    * [Managing Copilot Knowledge Bases](copilot/github-copilot-enterprise/managing-copilot-knowledge-bases.md)
   - Github Copilot In The Cli
     * [About Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/about-github-copilot-in-the-cli.md)
     * [Configuring Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/configuring-github-copilot-in-the-cli.md)
     * [Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/index.md)
     * [Installing Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/installing-github-copilot-in-the-cli.md)
     * [Using Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/using-github-copilot-in-the-cli.md)
-  - Managing Github Copilot In Your Organization
-    * [Configuring Content Exclusions For Git Hub Copilot](copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot.md)
-    * [Granting Access To Copilot For Members Of Your Organization](copilot/managing-github-copilot-in-your-organization/granting-access-to-copilot-for-members-of-your-organization.md)
-    * [Managing Git Hub Copilot In Your Organization](copilot/managing-github-copilot-in-your-organization/index.md)
-    * [Managing Policies And Features For Copilot In Your Organization](copilot/managing-github-copilot-in-your-organization/managing-policies-and-features-for-copilot-in-your-organization.md)
-    * [Reviewing Audit Logs For Copilot Business](copilot/managing-github-copilot-in-your-organization/reviewing-audit-logs-for-copilot-business.md)
-    * [Reviewing Usage Data For Git Hub Copilot In Your Organization](copilot/managing-github-copilot-in-your-organization/reviewing-usage-data-for-github-copilot-in-your-organization.md)
-    * [Revoking Access To Copilot For Members Of Your Organization](copilot/managing-github-copilot-in-your-organization/revoking-access-to-copilot-for-members-of-your-organization.md)
+  - Managing Copilot
+    - Managing Copilot As An Individual Subscriber
+      * [Canceling Copilot As An Individual User](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/canceling-copilot-as-an-individual-user.md)
+      * [Canceling Your Copilot Trial As An Individual User](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/canceling-your-copilot-trial-as-an-individual-user.md)
+      * [Managing Copilot As An Individual Subscriber](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/index.md)
+      * [Modifying Your Copilot Subscription As An Individual User](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/modifying-your-copilot-subscription-as-an-individual-user.md)
+      * [Subscribing To Copilot As An Individual User](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/subscribing-to-copilot-as-an-individual-user.md)
+    - Managing Copilot For Your Enterprise
+      * [Canceling Copilot For Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/canceling-copilot-for-your-enterprise.md)
+      * [Disabling Copilot For Organizations In Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/disabling-copilot-for-organizations-in-your-enterprise.md)
+      * [Downgrading Copilot For Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/downgrading-copilot-for-your-enterprise.md)
+      * [Enabling Copilot For Organizations In Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/enabling-copilot-for-organizations-in-your-enterprise.md)
+      * [Managing Git Hub Copilot In Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/index.md)
+      * [Managing Policies And Features For Copilot In Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise.md)
+      * [Subscribing To Copilot For Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/subscribing-to-copilot-for-your-enterprise.md)
+      * [Upgrading Copilot For Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/upgrading-copilot-for-your-enterprise.md)
+      * [Viewing Your Git Hub Copilot Usage](copilot/managing-copilot/managing-copilot-for-your-enterprise/viewing-your-github-copilot-usage.md)
+    - Managing Github Copilot In Your Organization
+      * [Canceling Copilot For Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/canceling-copilot-for-your-organization.md)
+      * [Configuring Content Exclusions For Git Hub Copilot](copilot/managing-copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot.md)
+      * [Granting Access To Copilot For Members Of Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/granting-access-to-copilot-for-members-of-your-organization.md)
+      * [Managing Git Hub Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/index.md)
+      * [Managing Policies And Features For Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-policies-and-features-for-copilot-in-your-organization.md)
+      * [Managing Requests For Copilot Access In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-requests-for-copilot-access-in-your-organization.md)
+      * [Reviewing Audit Logs For Copilot Business](copilot/managing-copilot/managing-github-copilot-in-your-organization/reviewing-audit-logs-for-copilot-business.md)
+      * [Reviewing Usage Data For Git Hub Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/reviewing-usage-data-for-github-copilot-in-your-organization.md)
+      * [Revoking Access To Copilot For Members Of Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/revoking-access-to-copilot-for-members-of-your-organization.md)
+      * [Subscribing To Copilot For Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/subscribing-to-copilot-for-your-organization.md)
+    * [Managing Copilot](copilot/managing-copilot/index.md)
   - Troubleshooting Github Copilot
     * [Troubleshooting Git Hub Copilot](copilot/troubleshooting-github-copilot/index.md)
     * [Troubleshooting Common Issues With Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-common-issues-with-github-copilot.md)

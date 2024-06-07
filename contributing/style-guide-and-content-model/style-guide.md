@@ -703,7 +703,7 @@ When introducing a list, avoid short, nonspecific sentences using terms like “
 
 Use permission statements and product callouts to communicate tasks that require specific roles or products to complete.
 
-- [**Permissions statements**](/contributing/style-guide-and-content-model/contents-of-a-github-docs-article#permission-statements): The role required to take an action or do a task described in the article. Example: "Enterprise owners."
+- [**Permissions statements**](/contributing/style-guide-and-content-model/contents-of-a-github-docs-article#permissions-statements): The role required to take an action or do a task described in the article. Example: "Enterprise owners."
 - [**Product callout**](/contributing/style-guide-and-content-model/contents-of-a-github-docs-article#product-callout): The product or products required to take an action or do a task described in the article. Example: "Organization and enterprise accounts with a subscription to {% data variables.product.prodname_copilot_business_short %}."
 
 Together, permission statements and product callouts tell readers who can use the feature being described in an article.
@@ -911,7 +911,7 @@ Each release note in a set describes one of the following changes.
 - [Deprecations](#deprecations): removal of a feature or behavior
 - [Errata](#errata): correction to inaccurate release note or documentation
 
-You can also review guidelines for updating release notes in [Adding or updating a release note](#adding-or-updating-a-release-note).
+You can also review guidelines for updating release notes in "[Adding or updating a release note](#adding-or-updating-a-release-note)" and "[Removing a release note](#removing-a-release-note)."
 
 ### Features
 
@@ -1101,6 +1101,10 @@ Errata answers the following questions.
 ### Adding or updating a release note
 
 To signal to readers that you've added or changed a note, or to indicate the publication date of errata, append a datestamp in the format "[Updated: YYYY-MM-DD]".
+
+### Removing a release note
+
+To signal that we have removed a release note, add an "Errata" section detailing which note you removed and (if relevant) which version the removed note actually pertains to. See "[Writing errata](#writing-errata)."
 
 ## Reusables and variables
 
