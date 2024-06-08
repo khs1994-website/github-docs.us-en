@@ -1593,8 +1593,8 @@
 - Copilot
   - Configuring Github Copilot
     * [Configuring Git Hub Copilot In Your Environment](copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment.md)
-    * [Configuring GitHub Copilot settings on GitHub.com](copilot/configuring-github-copilot/configuring-github-copilot-settings-on-githubcom.md)
     * [Configuring Network Settings For Git Hub Copilot](copilot/configuring-github-copilot/configuring-network-settings-for-github-copilot.md)
+    * [Configuring your personal GitHub Copilot settings on GitHub.com](copilot/configuring-github-copilot/configuring-your-personal-github-copilot-settings-on-githubcom.md)
     * [Configuring Git Hub Copilot](copilot/configuring-github-copilot/index.md)
     * [Installing The Git Hub Copilot Extension In Your Environment](copilot/configuring-github-copilot/installing-the-github-copilot-extension-in-your-environment.md)
   - Copilot Business
@@ -1662,7 +1662,7 @@
       * [Managing Policies And Features For Copilot In Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise.md)
       * [Subscribing To Copilot For Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/subscribing-to-copilot-for-your-enterprise.md)
       * [Upgrading Copilot For Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/upgrading-copilot-for-your-enterprise.md)
-      * [Viewing Your Git Hub Copilot Usage](copilot/managing-copilot/managing-copilot-for-your-enterprise/viewing-your-github-copilot-usage.md)
+      * [Viewing Copilot Usage For Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/viewing-copilot-usage-for-your-enterprise.md)
     - Managing Github Copilot In Your Organization
       * [Canceling Copilot For Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/canceling-copilot-for-your-organization.md)
       * [Configuring Content Exclusions For Git Hub Copilot](copilot/managing-copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot.md)
