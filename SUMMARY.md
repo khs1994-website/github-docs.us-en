@@ -1030,8 +1030,8 @@
   - Code Scanning
     - Creating An Advanced Setup For Code Scanning
       * [Code QL Code Scanning For Compiled Languages](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/codeql-code-scanning-for-compiled-languages.md)
-      * [Configuring Ifversion Code Scanning Without Workflow Advanced Setup For Endif Code Scanning With Code QL At Scale](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/configuring-advanced-setup-for-code-scanning-with-codeql-at-scale.md)
-      * [Configuring Ifversion Code Scanning Without Workflow Advanced Setup For Endif Code Scanning](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/configuring-advanced-setup-for-code-scanning.md)
+      * [Configuring Advanced Setup For Code Scanning With Code QL At Scale](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/configuring-advanced-setup-for-code-scanning-with-codeql-at-scale.md)
+      * [Configuring Advanced Setup For Code Scanning](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/configuring-advanced-setup-for-code-scanning.md)
       * [Customizing Ifversion Code Scanning Without Workflow Your Advanced Setup For Endif Code Scanning](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/customizing-your-advanced-setup-for-code-scanning.md)
       * [Creating {% ifversion code-scanning-without-workflow %}an advanced setup {% else %}a workflow {% endif %}for {% data variables.product.prodname_code_scanning %}](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/index.md)
       * [Recommended Hardware Resources For Running Code QL](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/recommended-hardware-resources-for-running-codeql.md)
