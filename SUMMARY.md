@@ -1032,8 +1032,8 @@
       * [Code QL Code Scanning For Compiled Languages](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/codeql-code-scanning-for-compiled-languages.md)
       * [Configuring Advanced Setup For Code Scanning With Code QL At Scale](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/configuring-advanced-setup-for-code-scanning-with-codeql-at-scale.md)
       * [Configuring Advanced Setup For Code Scanning](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/configuring-advanced-setup-for-code-scanning.md)
-      * [Customizing Ifversion Code Scanning Without Workflow Your Advanced Setup For Endif Code Scanning](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/customizing-your-advanced-setup-for-code-scanning.md)
-      * [Creating {% ifversion code-scanning-without-workflow %}an advanced setup {% else %}a workflow {% endif %}for {% data variables.product.prodname_code_scanning %}](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/index.md)
+      * [Customizing Your Advanced Setup For Code Scanning](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/customizing-your-advanced-setup-for-code-scanning.md)
+      * [Creating an advanced setup for {% data variables.product.prodname_code_scanning %}](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/index.md)
       * [Recommended Hardware Resources For Running Code QL](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/recommended-hardware-resources-for-running-codeql.md)
       * [Running Code QL Code Scanning In A Container](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/running-codeql-code-scanning-in-a-container.md)
     - Enabling Code Scanning
@@ -1591,12 +1591,6 @@
     * [Writing Content To Be Translated](contributing/writing-for-github-docs/writing-content-to-be-translated.md)
   * [Contributing To Git Hub Docs Documentation](contributing/index.md)
 - Copilot
-  - Configuring Github Copilot
-    * [Configuring Git Hub Copilot In Your Environment](copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment.md)
-    * [Configuring Network Settings For Git Hub Copilot](copilot/configuring-github-copilot/configuring-network-settings-for-github-copilot.md)
-    * [Configuring your personal GitHub Copilot settings on GitHub.com](copilot/configuring-github-copilot/configuring-your-personal-github-copilot-settings-on-githubcom.md)
-    * [Configuring Git Hub Copilot](copilot/configuring-github-copilot/index.md)
-    * [Installing The Git Hub Copilot Extension In Your Environment](copilot/configuring-github-copilot/installing-the-github-copilot-extension-in-your-environment.md)
   - Copilot Business
     * [About Git Hub Copilot Business](copilot/copilot-business/about-github-copilot-business.md)
     * [Enabling And Setting Up Git Hub Copilot Business](copilot/copilot-business/enabling-and-setting-up-github-copilot-business.md)
@@ -1639,7 +1633,6 @@
       * [Git Hub Copilot Enterprise Feature Set](copilot/github-copilot-enterprise/overview/github-copilot-enterprise-feature-set.md)
       * [Overview](copilot/github-copilot-enterprise/overview/index.md)
     * [Git Hub Copilot Enterprise](copilot/github-copilot-enterprise/index.md)
-    * [Managing Copilot Knowledge Bases](copilot/github-copilot-enterprise/managing-copilot-knowledge-bases.md)
   - Github Copilot In The Cli
     * [About Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/about-github-copilot-in-the-cli.md)
     * [Configuring Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/configuring-github-copilot-in-the-cli.md)
@@ -1647,10 +1640,16 @@
     * [Installing Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/installing-github-copilot-in-the-cli.md)
     * [Using Git Hub Copilot In The CLI](copilot/github-copilot-in-the-cli/using-github-copilot-in-the-cli.md)
   - Managing Copilot
+    - Configure Personal Settings
+      * [Configuring Git Hub Copilot In Your Environment](copilot/managing-copilot/configure-personal-settings/configuring-github-copilot-in-your-environment.md)
+      * [Configuring Network Settings For Git Hub Copilot](copilot/managing-copilot/configure-personal-settings/configuring-network-settings-for-github-copilot.md)
+      * [Configuring Personal Settings](copilot/managing-copilot/configure-personal-settings/index.md)
+      * [Installing The Git Hub Copilot Extension In Your Environment](copilot/managing-copilot/configure-personal-settings/installing-the-github-copilot-extension-in-your-environment.md)
     - Managing Copilot As An Individual Subscriber
       * [Canceling Copilot As An Individual User](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/canceling-copilot-as-an-individual-user.md)
       * [Canceling Your Copilot Trial As An Individual User](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/canceling-your-copilot-trial-as-an-individual-user.md)
       * [Managing Copilot As An Individual Subscriber](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/index.md)
+      * [Managing Copilot Policies As An Individual Subscriber](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-policies-as-an-individual-subscriber.md)
       * [Modifying Your Copilot Subscription As An Individual User](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/modifying-your-copilot-subscription-as-an-individual-user.md)
       * [Subscribing To Copilot As An Individual User](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/subscribing-to-copilot-as-an-individual-user.md)
     - Managing Copilot For Your Enterprise
@@ -1668,6 +1667,7 @@
       * [Configuring Content Exclusions For Git Hub Copilot](copilot/managing-copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot.md)
       * [Granting Access To Copilot For Members Of Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/granting-access-to-copilot-for-members-of-your-organization.md)
       * [Managing Git Hub Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/index.md)
+      * [Managing Copilot Knowledge Bases](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-copilot-knowledge-bases.md)
       * [Managing Policies And Features For Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-policies-and-features-for-copilot-in-your-organization.md)
       * [Managing Requests For Copilot Access In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-requests-for-copilot-access-in-your-organization.md)
       * [Reviewing Audit Logs For Copilot Business](copilot/managing-copilot/managing-github-copilot-in-your-organization/reviewing-audit-logs-for-copilot-business.md)
