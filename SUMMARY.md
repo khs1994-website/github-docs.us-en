@@ -302,6 +302,7 @@
     * [Using Jobs In A Workflow](actions/using-jobs/using-jobs-in-a-workflow.md)
   - Using Workflows
     * [About Workflows](actions/using-workflows/about-workflows.md)
+    * [Avoiding Duplication](actions/using-workflows/avoiding-duplication.md)
     * [Caching Dependencies To Speed Up Workflows](actions/using-workflows/caching-dependencies-to-speed-up-workflows.md)
     * [Creating Starter Workflows For Your Organization](actions/using-workflows/creating-starter-workflows-for-your-organization.md)
     * [Disabling And Enabling A Workflow](actions/using-workflows/disabling-and-enabling-a-workflow.md)
