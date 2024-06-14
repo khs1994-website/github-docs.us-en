@@ -263,6 +263,7 @@
     * [Automatic Token Authentication](actions/security-guides/automatic-token-authentication.md)
     * [Security Guides](actions/security-guides/index.md)
     * [Security Hardening For Git Hub Actions](actions/security-guides/security-hardening-for-github-actions.md)
+    * [Using Artifact Attestations And Reusable Workflows To Achieve SLSA V 1 Build Level 3](actions/security-guides/using-artifact-attestations-and-reusable-workflows-to-achieve-slsa-v1-build-level-3.md)
     * [Using Artifact Attestations To Establish Provenance For Builds](actions/security-guides/using-artifact-attestations-to-establish-provenance-for-builds.md)
     * [Using Git Hub S Security Features To Secure Your Use Of Git Hub Actions](actions/security-guides/using-githubs-security-features-to-secure-your-use-of-github-actions.md)
     * [Using Secrets In Git Hub Actions](actions/security-guides/using-secrets-in-github-actions.md)
