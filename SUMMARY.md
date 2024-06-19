@@ -1687,6 +1687,7 @@
   - Using Github Copilot
     * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/using-github-copilot/finding-public-code-that-matches-github-copilot-suggestions.md)
     * [Using Git Hub Copilot](copilot/using-github-copilot/index.md)
+    * [Prompt Engineering For Git Hub Copilot](copilot/using-github-copilot/prompt-engineering-for-github-copilot.md)
     * [Using Git Hub Copilot Code Suggestions In Your Editor](copilot/using-github-copilot/using-github-copilot-code-suggestions-in-your-editor.md)
   * [About Git Hub Copilot](copilot/about-github-copilot.md)
   * [{% data variables.product.prodname_copilot %} documentation](copilot/index.md)
