@@ -2697,6 +2697,9 @@
     * [REST API endpoints for {% data variables.product.prodname_classroom %}](rest/classroom/index.md)
   - Code Scanning
     * [REST API Endpoints For Code Scanning](rest/code-scanning/index.md)
+  - Code Security
+    * [Configurations](rest/code-security/configurations.md)
+    * [Code Security Settings](rest/code-security/index.md)
   - Codes Of Conduct
     * [REST API Endpoints For Codes Of Conduct](rest/codes-of-conduct/index.md)
   - Codespaces
@@ -2987,7 +2990,6 @@
     * [Git Hub Codespaces Privacy Statement](site-policy/privacy-policies/github-codespaces-privacy-statement.md)
     * [Git Hub Cookies](site-policy/privacy-policies/github-cookies.md)
     * [Git Hub General Privacy Statement](site-policy/privacy-policies/github-general-privacy-statement.md)
-    * [Git Hub Octernships Terms Of Service](site-policy/privacy-policies/github-octernships-terms-of-service.md)
     * [Git Hub Subprocessors](site-policy/privacy-policies/github-subprocessors.md)
     * [Privacy Policies](site-policy/privacy-policies/index.md)
   - Security Policies
