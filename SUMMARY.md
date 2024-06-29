@@ -1362,7 +1362,7 @@
     * [Exporting Data From The Risk And Coverage Pages](code-security/security-overview/exporting-data-from-the-risk-and-coverage-pages.md)
     * [Filtering Alerts In Security Overview](code-security/security-overview/filtering-alerts-in-security-overview.md)
     * [Viewing Security Information For Your Organization Or Enterprise](code-security/security-overview/index.md)
-    * [Viewing Metrics For Secret Scanning Push Protection In Your Organization](code-security/security-overview/viewing-metrics-for-secret-scanning-push-protection-in-your-organization.md)
+    * [Viewing Metrics For Secret Scanning Push Protection](code-security/security-overview/viewing-metrics-for-secret-scanning-push-protection.md)
     * [Viewing Security Insights](code-security/security-overview/viewing-security-insights.md)
   - Supply Chain Security
     - End To End Supply Chain
