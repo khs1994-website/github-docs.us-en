@@ -867,6 +867,7 @@
     * [Switching Between Accounts](authentication/keeping-your-account-and-data-secure/switching-between-accounts.md)
     * [Token Expiration And Revocation](authentication/keeping-your-account-and-data-secure/token-expiration-and-revocation.md)
     * [Updating Your Git Hub Access Credentials](authentication/keeping-your-account-and-data-secure/updating-your-github-access-credentials.md)
+    * [Verifying New Devices When Signing In](authentication/keeping-your-account-and-data-secure/verifying-new-devices-when-signing-in.md)
     * [Viewing And Managing Your Sessions](authentication/keeping-your-account-and-data-secure/viewing-and-managing-your-sessions.md)
   - Managing Commit Signature Verification
     * [About Commit Signature Verification](authentication/managing-commit-signature-verification/about-commit-signature-verification.md)
@@ -1585,6 +1586,7 @@
     * [Creating Screenshots](contributing/writing-for-github-docs/creating-screenshots.md)
     * [Creating Tool Switchers In Articles](contributing/writing-for-github-docs/creating-tool-switchers-in-articles.md)
     * [Writing For Git Hub Docs](contributing/writing-for-github-docs/index.md)
+    * [Making Content Findable In Search](contributing/writing-for-github-docs/making-content-findable-in-search.md)
     * [Templates](contributing/writing-for-github-docs/templates.md)
     * [Using Markdown And Liquid In Git Hub Docs](contributing/writing-for-github-docs/using-markdown-and-liquid-in-github-docs.md)
     * [Using Videos In Git Hub Docs](contributing/writing-for-github-docs/using-videos-in-github-docs.md)
