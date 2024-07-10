@@ -1595,20 +1595,11 @@
     * [Writing Content To Be Translated](contributing/writing-for-github-docs/writing-content-to-be-translated.md)
   * [Contributing To Git Hub Docs Documentation](contributing/index.md)
 - Copilot
-  - Copilot Business
-    * [About Git Hub Copilot Business](copilot/copilot-business/about-github-copilot-business.md)
-    * [Enabling And Setting Up Git Hub Copilot Business](copilot/copilot-business/enabling-and-setting-up-github-copilot-business.md)
-    * [Git Hub Copilot Business Feature Set](copilot/copilot-business/github-copilot-business-feature-set.md)
-    * [Copilot Business](copilot/copilot-business/index.md)
-  - Copilot Individual
-    * [About Git Hub Copilot Individual](copilot/copilot-individual/about-github-copilot-individual.md)
-    * [Git Hub Copilot Individual Feature Set](copilot/copilot-individual/github-copilot-individual-feature-set.md)
-    * [Git Hub Copilot Individual](copilot/copilot-individual/index.md)
-  - Github Copilot Enterprise
-    * [About Git Hub Copilot Enterprise](copilot/github-copilot-enterprise/about-github-copilot-enterprise.md)
-    * [Enabling Git Hub Copilot Enterprise Features](copilot/github-copilot-enterprise/enabling-github-copilot-enterprise-features.md)
-    * [Git Hub Copilot Enterprise Feature Set](copilot/github-copilot-enterprise/github-copilot-enterprise-feature-set.md)
-    * [Git Hub Copilot Enterprise](copilot/github-copilot-enterprise/index.md)
+  - About Github Copilot
+    * [Git Hub Copilot Features](copilot/about-github-copilot/github-copilot-features.md)
+    * [About Git Hub Copilot](copilot/about-github-copilot/index.md)
+    * [Subscription Plans For Git Hub Copilot](copilot/about-github-copilot/subscription-plans-for-github-copilot.md)
+    * [What Is Git Hub Copilot](copilot/about-github-copilot/what-is-github-copilot.md)
   - Managing Copilot
     - Configure Personal Settings
       * [Configuring Git Hub Copilot In The CLI](copilot/managing-copilot/configure-personal-settings/configuring-github-copilot-in-the-cli.md)
@@ -1665,6 +1656,11 @@
     * [Responsible Use Of Git Hub Copilot Chat In Your IDE](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-your-ide.md)
     * [Responsible Use Of Git Hub Copilot In The CLI](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-in-the-cli.md)
     * [Responsible Use Of Git Hub Copilot Pull Request Summaries](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-pull-request-summaries.md)
+  - Setting Up Github Copilot
+    * [Setting Up Git Hub Copilot](copilot/setting-up-github-copilot/index.md)
+    * [Setting Up Git Hub Copilot For Your Enterprise](copilot/setting-up-github-copilot/setting-up-github-copilot-for-your-enterprise.md)
+    * [Setting Up Git Hub Copilot For Your Organization](copilot/setting-up-github-copilot/setting-up-github-copilot-for-your-organization.md)
+    * [Setting Up Git Hub Copilot For Yourself](copilot/setting-up-github-copilot/setting-up-github-copilot-for-yourself.md)
   - Troubleshooting Github Copilot
     * [Troubleshooting Git Hub Copilot](copilot/troubleshooting-github-copilot/index.md)
     * [Troubleshooting Common Issues With Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-common-issues-with-github-copilot.md)
@@ -1683,7 +1679,6 @@
     * [Prompt Engineering For Git Hub Copilot](copilot/using-github-copilot/prompt-engineering-for-github-copilot.md)
     * [Using Extensions To Integrate External Tools With Copilot Chat](copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat.md)
     * [Using Git Hub Copilot In The Command Line](copilot/using-github-copilot/using-github-copilot-in-the-command-line.md)
-  * [About Git Hub Copilot](copilot/about-github-copilot.md)
   * [{% data variables.product.prodname_copilot %} documentation](copilot/index.md)
   * [Quickstart For Git Hub Copilot](copilot/quickstart.md)
 - Desktop
