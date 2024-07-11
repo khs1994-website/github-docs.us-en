@@ -1323,7 +1323,7 @@
       * [Creating A Custom Security Configuration](code-security/securing-your-organization/meeting-your-specific-security-needs-with-custom-security-configurations/creating-a-custom-security-configuration.md)
       * [Meeting Your Specific Security Needs With Custom Security Configurations](code-security/securing-your-organization/meeting-your-specific-security-needs-with-custom-security-configurations/index.md)
     - Troubleshooting Security Configurations
-      * [A Repository Has An Existing Advanced Setup For Code Scanning](code-security/securing-your-organization/troubleshooting-security-configurations/a-repository-has-an-existing-advanced-setup-for-code-scanning.md)
+      * [A Repository Is Using Advanced Setup For Code Scanning](code-security/securing-your-organization/troubleshooting-security-configurations/a-repository-is-using-advanced-setup-for-code-scanning.md)
       * [Troubleshooting Security Configurations](code-security/securing-your-organization/troubleshooting-security-configurations/index.md)
       * [Not Enough Git Hub Advanced Security Licenses](code-security/securing-your-organization/troubleshooting-security-configurations/not-enough-github-advanced-security-licenses.md)
     * [Securing Your Organization](code-security/securing-your-organization/index.md)
@@ -2286,6 +2286,7 @@
     * [Managing Security Managers In Your Organization](organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization.md)
     * [Removing A Billing Manager From Your Organization](organizations/managing-peoples-access-to-your-organization-with-roles/removing-a-billing-manager-from-your-organization.md)
     * [Roles In An Organization](organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization.md)
+    * [Using Organization Roles](organizations/managing-peoples-access-to-your-organization-with-roles/using-organization-roles.md)
   - Managing Programmatic Access To Your Organization
     * [About Programmatic Access In Your Organization](organizations/managing-programmatic-access-to-your-organization/about-programmatic-access-in-your-organization.md)
     * [Adding And Removing Git Hub App Managers In Your Organization](organizations/managing-programmatic-access-to-your-organization/adding-and-removing-github-app-managers-in-your-organization.md)
