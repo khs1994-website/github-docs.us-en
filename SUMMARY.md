@@ -343,7 +343,6 @@
   - Backing Up And Restoring Your Instance
     * [Configuring Backups On Your Instance](admin/backing-up-and-restoring-your-instance/configuring-backups-on-your-instance.md)
     * [Backing Up And Restoring Your Instance](admin/backing-up-and-restoring-your-instance/index.md)
-    * [Known Issues With Backups For Your Instance](admin/backing-up-and-restoring-your-instance/known-issues-with-backups-for-your-instance.md)
   - Configuring Packages
     * [Configuring Package Ecosystem Support For Your Enterprise](admin/configuring-packages/configuring-package-ecosystem-support-for-your-enterprise.md)
     * [Enabling Git Hub Packages With AWS](admin/configuring-packages/enabling-github-packages-with-aws.md)
@@ -457,7 +456,6 @@
       * [Disabling Git SSH Access On Your Enterprise](admin/managing-accounts-and-repositories/managing-repositories-in-your-enterprise/disabling-git-ssh-access-on-your-enterprise.md)
       * [Managing Repositories In Your Enterprise](admin/managing-accounts-and-repositories/managing-repositories-in-your-enterprise/index.md)
       * [Locking A Repository](admin/managing-accounts-and-repositories/managing-repositories-in-your-enterprise/locking-a-repository.md)
-      * [Migrating To Internal Repositories](admin/managing-accounts-and-repositories/managing-repositories-in-your-enterprise/migrating-to-internal-repositories.md)
       * [Restoring A Deleted Repository](admin/managing-accounts-and-repositories/managing-repositories-in-your-enterprise/restoring-a-deleted-repository.md)
       * [Troubleshooting Service Hooks](admin/managing-accounts-and-repositories/managing-repositories-in-your-enterprise/troubleshooting-service-hooks.md)
       * [Viewing User Owned Repositories In Your Enterprise](admin/managing-accounts-and-repositories/managing-repositories-in-your-enterprise/viewing-user-owned-repositories-in-your-enterprise.md)
@@ -466,6 +464,7 @@
       * [Auditing SSH Keys](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/auditing-ssh-keys.md)
       * [Auditing Users Across Your Enterprise](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/auditing-users-across-your-enterprise.md)
       * [Best Practices For User Security](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/best-practices-for-user-security.md)
+      * [Deleting Users From Your Instance](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/deleting-users-from-your-instance.md)
       * [Enabling Guest Collaborators](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/enabling-guest-collaborators.md)
       * [Exporting Membership Information For Your Enterprise](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/exporting-membership-information-for-your-enterprise.md)
       * [Impersonating A User](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/impersonating-a-user.md)
@@ -1611,6 +1610,7 @@
     - Managing Copilot As An Individual Subscriber
       * [Canceling Copilot As An Individual User](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/canceling-copilot-as-an-individual-user.md)
       * [Canceling Your Copilot Trial As An Individual User](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/canceling-your-copilot-trial-as-an-individual-user.md)
+      * [Getting Free Access To Copilot As A Student Teacher Or Maintainer](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer.md)
       * [Managing Copilot As An Individual Subscriber](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/index.md)
       * [Installing Git Hub Copilot Extensions For Your Personal Account](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/installing-github-copilot-extensions-for-your-personal-account.md)
       * [Managing Copilot Policies As An Individual Subscriber](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-policies-as-an-individual-subscriber.md)
