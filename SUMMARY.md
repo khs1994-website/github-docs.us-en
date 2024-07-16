@@ -445,6 +445,7 @@
       * [Configuring Visibility For Organization Membership](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/configuring-visibility-for-organization-membership.md)
       * [Managing Organizations In Your Enterprise](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/index.md)
       * [Managing Projects Using Jira](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/managing-projects-using-jira.md)
+      * [Managing Requests For Copilot Business From Organizations In Your Enterprise](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/managing-requests-for-copilot-business-from-organizations-in-your-enterprise.md)
       * [Managing Your Role In An Organization Owned By Your Enterprise](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/managing-your-role-in-an-organization-owned-by-your-enterprise.md)
       * [Preventing Users From Creating Organizations](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/preventing-users-from-creating-organizations.md)
       * [Removing Organizations From Your Enterprise](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/removing-organizations-from-your-enterprise.md)
@@ -1630,12 +1631,13 @@
       - Managing Access To Github Copilot In Your Organization
         * [Granting Access To Copilot For Members Of Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/granting-access-to-copilot-for-members-of-your-organization.md)
         * [Managing Access To Git Hub Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/index.md)
-        * [Managing Requests For Copilot Access In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/managing-requests-for-copilot-access-in-your-organization.md)
+        * [Managing Requests For Copilot Business In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/managing-requests-for-copilot-business-in-your-organization.md)
         * [Revoking Access To Copilot For Members Of Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/revoking-access-to-copilot-for-members-of-your-organization.md)
       - Managing Github Copilot Features In Your Organization
         * [About Content Exclusions For Git Hub Copilot](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-github-copilot-features-in-your-organization/about-content-exclusions-for-github-copilot.md)
         * [Configuring Content Exclusions For Git Hub Copilot](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-github-copilot-features-in-your-organization/configuring-content-exclusions-for-github-copilot.md)
         * [Managing Git Hub Copilot Features In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-github-copilot-features-in-your-organization/index.md)
+        * [Indexing Repositories For Copilot Chat](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-github-copilot-features-in-your-organization/indexing-repositories-for-copilot-chat.md)
         * [Installing Git Hub Copilot Extensions For Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-github-copilot-features-in-your-organization/installing-github-copilot-extensions-for-your-organization.md)
         * [Managing Copilot Knowledge Bases](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-github-copilot-features-in-your-organization/managing-copilot-knowledge-bases.md)
         * [Managing Policies For Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-github-copilot-features-in-your-organization/managing-policies-for-copilot-in-your-organization.md)
