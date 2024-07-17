@@ -1285,9 +1285,9 @@
     * [Quickstart For Securing Your Organization](code-security/getting-started/quickstart-for-securing-your-organization.md)
     * [Quickstart For Securing Your Repository](code-security/getting-started/quickstart-for-securing-your-repository.md)
   - Secret Scanning
+    * [About Generating Regular Expressions With AI](code-security/secret-scanning/about-generating-regular-expressions-with-ai.md)
     * [About Secret Scanning](code-security/secret-scanning/about-secret-scanning.md)
     * [About The Detection Of Generic Secrets With Secret Scanning](code-security/secret-scanning/about-the-detection-of-generic-secrets-with-secret-scanning.md)
-    * [About The Regular Expression Generator For Custom Patterns](code-security/secret-scanning/about-the-regular-expression-generator-for-custom-patterns.md)
     * [Configuring Secret Scanning For Your Repositories](code-security/secret-scanning/configuring-secret-scanning-for-your-repositories.md)
     * [Defining Custom Patterns For Secret Scanning](code-security/secret-scanning/defining-custom-patterns-for-secret-scanning.md)
     * [Enabling AI Powered Generic Secret Detection](code-security/secret-scanning/enabling-ai-powered-generic-secret-detection.md)
