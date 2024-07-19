@@ -268,6 +268,7 @@
     * [Using Artifact Attestations To Establish Provenance For Builds](actions/security-guides/using-artifact-attestations-to-establish-provenance-for-builds.md)
     * [Using Git Hub S Security Features To Secure Your Use Of Git Hub Actions](actions/security-guides/using-githubs-security-features-to-secure-your-use-of-github-actions.md)
     * [Using Secrets In Git Hub Actions](actions/security-guides/using-secrets-in-github-actions.md)
+    * [Verifying Attestations Offline](actions/security-guides/verifying-attestations-offline.md)
   - Using Containerized Services
     * [About Service Containers](actions/using-containerized-services/about-service-containers.md)
     * [Creating Postgre SQL Service Containers](actions/using-containerized-services/creating-postgresql-service-containers.md)
