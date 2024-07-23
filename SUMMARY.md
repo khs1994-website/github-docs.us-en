@@ -157,7 +157,7 @@
       * [Using Open ID Connect With Reusable Workflows](actions/deployment/security-hardening-your-deployments/using-openid-connect-with-reusable-workflows.md)
     - Targeting Different Environments
       * [Targeting Different Environments](actions/deployment/targeting-different-environments/index.md)
-      * [Using Environments For Deployment](actions/deployment/targeting-different-environments/using-environments-for-deployment.md)
+      * [Managing Environments For Deployment](actions/deployment/targeting-different-environments/managing-environments-for-deployment.md)
     * [Deployment](actions/deployment/index.md)
   - Examples
     * [Examples](actions/examples/index.md)
@@ -301,7 +301,7 @@
     * [Using A Matrix For Your Jobs](actions/using-jobs/using-a-matrix-for-your-jobs.md)
     * [Using Concurrency](actions/using-jobs/using-concurrency.md)
     * [Using Conditions To Control Job Execution](actions/using-jobs/using-conditions-to-control-job-execution.md)
-    * [Using Environments For Jobs](actions/using-jobs/using-environments-for-jobs.md)
+    * [Using Environments For Deployment](actions/using-jobs/using-environments-for-deployment.md)
     * [Using Jobs In A Workflow](actions/using-jobs/using-jobs-in-a-workflow.md)
   - Using Workflows
     * [About Workflows](actions/using-workflows/about-workflows.md)
