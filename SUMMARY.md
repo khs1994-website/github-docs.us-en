@@ -86,6 +86,12 @@
     * [Setting Up And Managing Your Personal Account On Git Hub](account-and-profile/setting-up-and-managing-your-personal-account-on-github/index.md)
   * [Account And Profile Documentation](account-and-profile/index.md)
 - Actions
+  - Administering Github Actions
+    * [Administering Git Hub Actions](actions/administering-github-actions/index.md)
+    * [Managing Environments For Deployment](actions/administering-github-actions/managing-environments-for-deployment.md)
+    * [Sharing Workflows Secrets And Runners With Your Organization](actions/administering-github-actions/sharing-workflows-secrets-and-runners-with-your-organization.md)
+    * [Usage Limits Billing And Administration](actions/administering-github-actions/usage-limits-billing-and-administration.md)
+    * [Viewing Git Hub Actions Usage Metrics For Your Organization](actions/administering-github-actions/viewing-github-actions-usage-metrics-for-your-organization.md)
   - Automating Builds And Tests
     * [About Continuous Integration](actions/automating-builds-and-tests/about-continuous-integration.md)
     * [Building And Testing Go](actions/automating-builds-and-tests/building-and-testing-go.md)
@@ -155,9 +161,6 @@
       * [Configuring Open ID Connect In Py PI](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-pypi.md)
       * [Security Hardening Your Deployments](actions/deployment/security-hardening-your-deployments/index.md)
       * [Using Open ID Connect With Reusable Workflows](actions/deployment/security-hardening-your-deployments/using-openid-connect-with-reusable-workflows.md)
-    - Targeting Different Environments
-      * [Targeting Different Environments](actions/deployment/targeting-different-environments/index.md)
-      * [Managing Environments For Deployment](actions/deployment/targeting-different-environments/managing-environments-for-deployment.md)
     * [Deployment](actions/deployment/index.md)
   - Examples
     * [Examples](actions/examples/index.md)
@@ -196,7 +199,6 @@
     * [Finding And Customizing Actions](actions/learn-github-actions/finding-and-customizing-actions.md)
     * [Learn Git Hub Actions](actions/learn-github-actions/index.md)
     * [Understanding Git Hub Actions](actions/learn-github-actions/understanding-github-actions.md)
-    * [Usage Limits Billing And Administration](actions/learn-github-actions/usage-limits-billing-and-administration.md)
     * [Using Starter Workflows](actions/learn-github-actions/using-starter-workflows.md)
     * [Variables](actions/learn-github-actions/variables.md)
   - Managing Issues And Pull Requests
@@ -244,11 +246,10 @@
     * [About Monitoring And Troubleshooting](actions/monitoring-and-troubleshooting-workflows/about-monitoring-and-troubleshooting.md)
     * [Adding A Workflow Status Badge](actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge.md)
     * [Enabling Debug Logging](actions/monitoring-and-troubleshooting-workflows/enabling-debug-logging.md)
-    * [Index](actions/monitoring-and-troubleshooting-workflows/index.md)
+    * [Monitoring And Troubleshooting Workflows](actions/monitoring-and-troubleshooting-workflows/index.md)
     * [Notifications For Workflow Runs](actions/monitoring-and-troubleshooting-workflows/notifications-for-workflow-runs.md)
     * [Using The Visualization Graph](actions/monitoring-and-troubleshooting-workflows/using-the-visualization-graph.md)
     * [Using Workflow Run Logs](actions/monitoring-and-troubleshooting-workflows/using-workflow-run-logs.md)
-    * [Viewing Git Hub Actions Usage Metrics For Your Organization](actions/monitoring-and-troubleshooting-workflows/viewing-github-actions-usage-metrics-for-your-organization.md)
     * [Viewing Job Execution Time](actions/monitoring-and-troubleshooting-workflows/viewing-job-execution-time.md)
     * [Viewing Workflow Run History](actions/monitoring-and-troubleshooting-workflows/viewing-workflow-run-history.md)
     * [Working With Support For Git Hub Actions](actions/monitoring-and-troubleshooting-workflows/working-with-support-for-github-actions.md)
@@ -314,7 +315,6 @@
     * [Manually Running A Workflow](actions/using-workflows/manually-running-a-workflow.md)
     * [Required Workflows](actions/using-workflows/required-workflows.md)
     * [Reusing Workflows](actions/using-workflows/reusing-workflows.md)
-    * [Sharing Workflows Secrets And Runners With Your Organization](actions/using-workflows/sharing-workflows-secrets-and-runners-with-your-organization.md)
     * [Storing Workflow Data As Artifacts](actions/using-workflows/storing-workflow-data-as-artifacts.md)
     * [Triggering A Workflow](actions/using-workflows/triggering-a-workflow.md)
     * [Using Git Hub CLI In Workflows](actions/using-workflows/using-github-cli-in-workflows.md)
