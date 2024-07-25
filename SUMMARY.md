@@ -1668,6 +1668,7 @@
     * [Responsible Use Of Git Hub Copilot Chat In Your IDE](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-your-ide.md)
     * [Responsible Use Of Git Hub Copilot In The CLI](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-in-the-cli.md)
     * [Responsible Use Of Git Hub Copilot Pull Request Summaries](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-pull-request-summaries.md)
+    * [Responsible Use Of Git Hub Copilot Text Completion](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-text-completion.md)
   - Setting Up Github Copilot
     * [Setting Up Git Hub Copilot](copilot/setting-up-github-copilot/index.md)
     * [Setting Up Git Hub Copilot For Your Enterprise](copilot/setting-up-github-copilot/setting-up-github-copilot-for-your-enterprise.md)
@@ -1689,6 +1690,7 @@
     * [Getting Code Suggestions In Your IDE With Git Hub Copilot](copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot.md)
     * [Using Git Hub Copilot](copilot/using-github-copilot/index.md)
     * [Prompt Engineering For Git Hub Copilot](copilot/using-github-copilot/prompt-engineering-for-github-copilot.md)
+    * [Using Copilot Text Completion](copilot/using-github-copilot/using-copilot-text-completion.md)
     * [Using Extensions To Integrate External Tools With Copilot Chat](copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat.md)
     * [Using Git Hub Copilot In The Command Line](copilot/using-github-copilot/using-github-copilot-in-the-command-line.md)
   * [{% data variables.product.prodname_copilot %} documentation](copilot/index.md)
