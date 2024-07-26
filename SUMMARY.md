@@ -243,16 +243,21 @@
       * [Migrating From Travis CI To Git Hub Actions](actions/migrating-to-github-actions/manually-migrating-to-github-actions/migrating-from-travis-ci-to-github-actions.md)
     * [Migrating To Git Hub Actions](actions/migrating-to-github-actions/index.md)
   - Monitoring And Troubleshooting Workflows
-    * [About Monitoring And Troubleshooting](actions/monitoring-and-troubleshooting-workflows/about-monitoring-and-troubleshooting.md)
-    * [Adding A Workflow Status Badge](actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge.md)
-    * [Enabling Debug Logging](actions/monitoring-and-troubleshooting-workflows/enabling-debug-logging.md)
+    - Monitoring Workflows
+      * [About Monitoring Workflows](actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/about-monitoring-workflows.md)
+      * [Adding A Workflow Status Badge](actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/adding-a-workflow-status-badge.md)
+      * [Monitoring Workflows](actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/index.md)
+      * [Notifications For Workflow Runs](actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/notifications-for-workflow-runs.md)
+      * [Using The Visualization Graph](actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/using-the-visualization-graph.md)
+      * [Using Workflow Run Logs](actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/using-workflow-run-logs.md)
+      * [Viewing Job Execution Time](actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/viewing-job-execution-time.md)
+      * [Viewing Workflow Run History](actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/viewing-workflow-run-history.md)
+    - Troubleshooting Workflows
+      * [About Troubleshooting Workflows](actions/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/about-troubleshooting-workflows.md)
+      * [Enabling Debug Logging](actions/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/enabling-debug-logging.md)
+      * [Troubleshooting Workflows](actions/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/index.md)
+      * [Working With Support For Git Hub Actions](actions/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/working-with-support-for-github-actions.md)
     * [Monitoring And Troubleshooting Workflows](actions/monitoring-and-troubleshooting-workflows/index.md)
-    * [Notifications For Workflow Runs](actions/monitoring-and-troubleshooting-workflows/notifications-for-workflow-runs.md)
-    * [Using The Visualization Graph](actions/monitoring-and-troubleshooting-workflows/using-the-visualization-graph.md)
-    * [Using Workflow Run Logs](actions/monitoring-and-troubleshooting-workflows/using-workflow-run-logs.md)
-    * [Viewing Job Execution Time](actions/monitoring-and-troubleshooting-workflows/viewing-job-execution-time.md)
-    * [Viewing Workflow Run History](actions/monitoring-and-troubleshooting-workflows/viewing-workflow-run-history.md)
-    * [Working With Support For Git Hub Actions](actions/monitoring-and-troubleshooting-workflows/working-with-support-for-github-actions.md)
   - Publishing Packages
     * [About Packaging With Git Hub Actions](actions/publishing-packages/about-packaging-with-github-actions.md)
     * [Publishing Packages](actions/publishing-packages/index.md)
@@ -1682,6 +1687,9 @@
     * [Troubleshooting Network Errors For Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-network-errors-for-github-copilot.md)
     * [Viewing Logs For Git Hub Copilot In Your Environment](copilot/troubleshooting-github-copilot/viewing-logs-for-github-copilot-in-your-environment.md)
   - Using Github Copilot
+    - Example Use Cases
+      * [Example Prompts For Copilot Chat](copilot/using-github-copilot/example-use-cases/example-prompts-for-copilot-chat.md)
+      * [Example Use Cases](copilot/using-github-copilot/example-use-cases/index.md)
     * [Asking Git Hub Copilot Questions In Git Hub Mobile](copilot/using-github-copilot/asking-github-copilot-questions-in-github-mobile.md)
     * [Asking GitHub Copilot questions in GitHub.com](copilot/using-github-copilot/asking-github-copilot-questions-in-githubcom.md)
     * [Asking Git Hub Copilot Questions In Your IDE](copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide.md)
