@@ -1382,6 +1382,7 @@
       * [About Dependency Review](code-security/supply-chain-security/understanding-your-software-supply-chain/about-dependency-review.md)
       * [About Supply Chain Security](code-security/supply-chain-security/understanding-your-software-supply-chain/about-supply-chain-security.md)
       * [About The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph.md)
+      * [Configuring Automatic Dependency Submission For Your Repository](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-automatic-dependency-submission-for-your-repository.md)
       * [Configuring Dependency Review](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-dependency-review.md)
       * [Configuring The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-the-dependency-graph.md)
       * [Enforcing Dependency Review Across An Organization](code-security/supply-chain-security/understanding-your-software-supply-chain/enforcing-dependency-review-across-an-organization.md)
@@ -1651,6 +1652,7 @@
         * [Managing Access To Git Hub Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/index.md)
         * [Managing Requests For Copilot Business In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/managing-requests-for-copilot-business-in-your-organization.md)
         * [Reviewing Audit Logs For Copilot Business](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/reviewing-audit-logs-for-copilot-business.md)
+        * [Reviewing Changes To Content Exclusions For Git Hub Copilot](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/reviewing-changes-to-content-exclusions-for-github-copilot.md)
         * [Reviewing Usage Data For Git Hub Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/reviewing-usage-data-for-github-copilot-in-your-organization.md)
         * [Revoking Access To Copilot For Members Of Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/revoking-access-to-copilot-for-members-of-your-organization.md)
       - Managing The Copilot Subscription For Your Organization
@@ -1658,12 +1660,9 @@
         * [Managing The Copilot Subscription For Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-the-copilot-subscription-for-your-organization/index.md)
         * [Subscribing To Copilot For Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-the-copilot-subscription-for-your-organization/subscribing-to-copilot-for-your-organization.md)
       - Setting Policies For Copilot In Your Organization
-        * [About Content Exclusions For Git Hub Copilot](copilot/managing-copilot/managing-github-copilot-in-your-organization/setting-policies-for-copilot-in-your-organization/about-content-exclusions-for-github-copilot.md)
-        * [Configuring Content Exclusions For Git Hub Copilot](copilot/managing-copilot/managing-github-copilot-in-your-organization/setting-policies-for-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot.md)
+        * [Excluding Content From Git Hub Copilot](copilot/managing-copilot/managing-github-copilot-in-your-organization/setting-policies-for-copilot-in-your-organization/excluding-content-from-github-copilot.md)
         * [Setting Policies For Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/setting-policies-for-copilot-in-your-organization/index.md)
         * [Managing Policies For Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/setting-policies-for-copilot-in-your-organization/managing-policies-for-copilot-in-your-organization.md)
-        * [Reviewing Changes To Content Exclusions For Git Hub Copilot](copilot/managing-copilot/managing-github-copilot-in-your-organization/setting-policies-for-copilot-in-your-organization/reviewing-changes-to-content-exclusions-for-github-copilot.md)
-        * [Testing Changes To Content Exclusions In Your IDE](copilot/managing-copilot/managing-github-copilot-in-your-organization/setting-policies-for-copilot-in-your-organization/testing-changes-to-content-exclusions-in-your-ide.md)
       * [Managing Git Hub Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/index.md)
     * [Managing Copilot](copilot/managing-copilot/index.md)
   - Responsible Use Of Github Copilot Features
