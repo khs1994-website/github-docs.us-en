@@ -145,6 +145,17 @@
     - Deploying Xcode Applications
       * [Deploying Xcode Applications](actions/deployment/deploying-xcode-applications/index.md)
       * [Installing An Apple Certificate On Mac OS Runners For Xcode Development](actions/deployment/deploying-xcode-applications/installing-an-apple-certificate-on-macos-runners-for-xcode-development.md)
+    - Security Hardening Your Deployments
+      * [About Security Hardening With Open ID Connect](actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect.md)
+      * [Configuring Open ID Connect In Amazon Web Services](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services.md)
+      * [Configuring Open ID Connect In Azure](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-azure.md)
+      * [Configuring Open ID Connect In Cloud Providers](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-cloud-providers.md)
+      * [Configuring Open ID Connect In Google Cloud Platform](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-google-cloud-platform.md)
+      * [Configuring Open ID Connect In Hashi Corp Vault](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-hashicorp-vault.md)
+      * [Configuring Open ID Connect In J Frog](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-jfrog.md)
+      * [Configuring Open ID Connect In Py PI](actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-pypi.md)
+      * [Security Hardening Your Deployments](actions/deployment/security-hardening-your-deployments/index.md)
+      * [Using Open ID Connect With Reusable Workflows](actions/deployment/security-hardening-your-deployments/using-openid-connect-with-reusable-workflows.md)
     * [Deployment](actions/deployment/index.md)
   - Examples
     * [Examples](actions/examples/index.md)
@@ -250,31 +261,16 @@
     * [Publishing Java Packages With Gradle](actions/publishing-packages/publishing-java-packages-with-gradle.md)
     * [Publishing Java Packages With Maven](actions/publishing-packages/publishing-java-packages-with-maven.md)
     * [Publishing Node.js packages](actions/publishing-packages/publishing-nodejs-packages.md)
-  - Security For Github Actions
-    - Security Guides
-      * [Automatic Token Authentication](actions/security-for-github-actions/security-guides/automatic-token-authentication.md)
-      * [Security Guides](actions/security-for-github-actions/security-guides/index.md)
-      * [Security Hardening For Git Hub Actions](actions/security-for-github-actions/security-guides/security-hardening-for-github-actions.md)
-      * [Using Git Hub S Security Features To Secure Your Use Of Git Hub Actions](actions/security-for-github-actions/security-guides/using-githubs-security-features-to-secure-your-use-of-github-actions.md)
-      * [Using Secrets In Git Hub Actions](actions/security-for-github-actions/security-guides/using-secrets-in-github-actions.md)
-    - Security Hardening Your Deployments
-      * [About Security Hardening With Open ID Connect](actions/security-for-github-actions/security-hardening-your-deployments/about-security-hardening-with-openid-connect.md)
-      * [Configuring Open ID Connect In Amazon Web Services](actions/security-for-github-actions/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services.md)
-      * [Configuring Open ID Connect In Azure](actions/security-for-github-actions/security-hardening-your-deployments/configuring-openid-connect-in-azure.md)
-      * [Configuring Open ID Connect In Cloud Providers](actions/security-for-github-actions/security-hardening-your-deployments/configuring-openid-connect-in-cloud-providers.md)
-      * [Configuring Open ID Connect In Google Cloud Platform](actions/security-for-github-actions/security-hardening-your-deployments/configuring-openid-connect-in-google-cloud-platform.md)
-      * [Configuring Open ID Connect In Hashi Corp Vault](actions/security-for-github-actions/security-hardening-your-deployments/configuring-openid-connect-in-hashicorp-vault.md)
-      * [Configuring Open ID Connect In J Frog](actions/security-for-github-actions/security-hardening-your-deployments/configuring-openid-connect-in-jfrog.md)
-      * [Configuring Open ID Connect In Py PI](actions/security-for-github-actions/security-hardening-your-deployments/configuring-openid-connect-in-pypi.md)
-      * [Security Hardening Your Deployments](actions/security-for-github-actions/security-hardening-your-deployments/index.md)
-      * [Using Open ID Connect With Reusable Workflows](actions/security-for-github-actions/security-hardening-your-deployments/using-openid-connect-with-reusable-workflows.md)
-    - Using Artifact Attestations
-      * [Enforcing Artifact Attestations With A Kubernetes Admission Controller](actions/security-for-github-actions/using-artifact-attestations/enforcing-artifact-attestations-with-a-kubernetes-admission-controller.md)
-      * [Using Artifact Attestations](actions/security-for-github-actions/using-artifact-attestations/index.md)
-      * [Using Artifact Attestations And Reusable Workflows To Achieve SLSA V 1 Build Level 3](actions/security-for-github-actions/using-artifact-attestations/using-artifact-attestations-and-reusable-workflows-to-achieve-slsa-v1-build-level-3.md)
-      * [Using Artifact Attestations To Establish Provenance For Builds](actions/security-for-github-actions/using-artifact-attestations/using-artifact-attestations-to-establish-provenance-for-builds.md)
-      * [Verifying Attestations Offline](actions/security-for-github-actions/using-artifact-attestations/verifying-attestations-offline.md)
-    * [Security For Git Hub Actions](actions/security-for-github-actions/index.md)
+  - Security Guides
+    * [Automatic Token Authentication](actions/security-guides/automatic-token-authentication.md)
+    * [Enforcing Artifact Attestations With A Kubernetes Admission Controller](actions/security-guides/enforcing-artifact-attestations-with-a-kubernetes-admission-controller.md)
+    * [Security Guides](actions/security-guides/index.md)
+    * [Security Hardening For Git Hub Actions](actions/security-guides/security-hardening-for-github-actions.md)
+    * [Using Artifact Attestations And Reusable Workflows To Achieve SLSA V 1 Build Level 3](actions/security-guides/using-artifact-attestations-and-reusable-workflows-to-achieve-slsa-v1-build-level-3.md)
+    * [Using Artifact Attestations To Establish Provenance For Builds](actions/security-guides/using-artifact-attestations-to-establish-provenance-for-builds.md)
+    * [Using Git Hub S Security Features To Secure Your Use Of Git Hub Actions](actions/security-guides/using-githubs-security-features-to-secure-your-use-of-github-actions.md)
+    * [Using Secrets In Git Hub Actions](actions/security-guides/using-secrets-in-github-actions.md)
+    * [Verifying Attestations Offline](actions/security-guides/verifying-attestations-offline.md)
   - Using Containerized Services
     * [About Service Containers](actions/using-containerized-services/about-service-containers.md)
     * [Creating Postgre SQL Service Containers](actions/using-containerized-services/creating-postgresql-service-containers.md)
@@ -1028,6 +1024,7 @@
   - Using The Enhanced Billing Platform For Enterprises
     * [About Enhanced Billing For Git Large File Storage](billing/using-the-enhanced-billing-platform-for-enterprises/about-enhanced-billing-for-git-large-file-storage.md)
     * [About The Enhanced Billing Platform For Enterprises](billing/using-the-enhanced-billing-platform-for-enterprises/about-the-enhanced-billing-platform-for-enterprises.md)
+    * [Adding Seats To Your Enterprise Account](billing/using-the-enhanced-billing-platform-for-enterprises/adding-seats-to-your-enterprise-account.md)
     * [Charging Business Units](billing/using-the-enhanced-billing-platform-for-enterprises/charging-business-units.md)
     * [Estimating Spending For Your Enterprise](billing/using-the-enhanced-billing-platform-for-enterprises/estimating-spending-for-your-enterprise.md)
     * [Gathering Insights On Your Spending](billing/using-the-enhanced-billing-platform-for-enterprises/gathering-insights-on-your-spending.md)
@@ -1642,6 +1639,7 @@
         * [Disabling Copilot For Organizations In Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-access-to-copilot-in-your-enterprise/disabling-copilot-for-organizations-in-your-enterprise.md)
         * [Enabling Copilot For Organizations In Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-access-to-copilot-in-your-enterprise/enabling-copilot-for-organizations-in-your-enterprise.md)
         * [Managing Access To Copilot In Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-access-to-copilot-in-your-enterprise/index.md)
+        * [Managing Git Hub Copilot Access To Your Enterprise S Network](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-access-to-copilot-in-your-enterprise/managing-github-copilot-access-to-your-enterprises-network.md)
         * [Viewing Copilot Usage For Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-access-to-copilot-in-your-enterprise/viewing-copilot-usage-for-your-enterprise.md)
       - Managing The Copilot Subscription For Your Enterprise
         * [Canceling Copilot For Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-the-copilot-subscription-for-your-enterprise/canceling-copilot-for-your-enterprise.md)
@@ -1660,6 +1658,7 @@
       - Managing Access To Github Copilot In Your Organization
         * [Granting Access To Copilot For Members Of Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/granting-access-to-copilot-for-members-of-your-organization.md)
         * [Managing Access To Git Hub Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/index.md)
+        * [Managing Git Hub Copilot Access To Your Organization S Network](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/managing-github-copilot-access-to-your-organizations-network.md)
         * [Managing Requests For Copilot Business In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/managing-requests-for-copilot-business-in-your-organization.md)
         * [Reviewing Audit Logs For Copilot Business](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/reviewing-audit-logs-for-copilot-business.md)
         * [Reviewing Changes To Content Exclusions For Git Hub Copilot](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/reviewing-changes-to-content-exclusions-for-github-copilot.md)
