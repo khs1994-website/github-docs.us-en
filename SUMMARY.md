@@ -1011,6 +1011,7 @@
   - Setting Up Paid Accounts For Procurement Companies
     - Setting Up Enterprise Accounts For Procurement Companies
       * [About Enterprise Accounts For Procurement Companies](billing/setting-up-paid-accounts-for-procurement-companies/setting-up-enterprise-accounts-for-procurement-companies/about-enterprise-accounts-for-procurement-companies.md)
+      * [Creating An Enterprise Account As A Microsoft CSP Partner](billing/setting-up-paid-accounts-for-procurement-companies/setting-up-enterprise-accounts-for-procurement-companies/creating-an-enterprise-account-as-a-microsoft-csp-partner.md)
       * [Creating And Paying For An Enterprise Account On Behalf Of A Client](billing/setting-up-paid-accounts-for-procurement-companies/setting-up-enterprise-accounts-for-procurement-companies/creating-and-paying-for-an-enterprise-account-on-behalf-of-a-client.md)
       * [Setting Up Enterprise Accounts For Procurement Companies](billing/setting-up-paid-accounts-for-procurement-companies/setting-up-enterprise-accounts-for-procurement-companies/index.md)
       * [Renewing Your Client S Enterprise Account](billing/setting-up-paid-accounts-for-procurement-companies/setting-up-enterprise-accounts-for-procurement-companies/renewing-your-clients-enterprise-account.md)
@@ -1024,10 +1025,12 @@
   - Using The Enhanced Billing Platform For Enterprises
     * [About Enhanced Billing For Git Large File Storage](billing/using-the-enhanced-billing-platform-for-enterprises/about-enhanced-billing-for-git-large-file-storage.md)
     * [About The Enhanced Billing Platform For Enterprises](billing/using-the-enhanced-billing-platform-for-enterprises/about-the-enhanced-billing-platform-for-enterprises.md)
+    * [About Usage Based Billing For Licenses](billing/using-the-enhanced-billing-platform-for-enterprises/about-usage-based-billing-for-licenses.md)
     * [Adding Seats To Your Enterprise Account](billing/using-the-enhanced-billing-platform-for-enterprises/adding-seats-to-your-enterprise-account.md)
     * [Charging Business Units](billing/using-the-enhanced-billing-platform-for-enterprises/charging-business-units.md)
     * [Estimating Spending For Your Enterprise](billing/using-the-enhanced-billing-platform-for-enterprises/estimating-spending-for-your-enterprise.md)
     * [Gathering Insights On Your Spending](billing/using-the-enhanced-billing-platform-for-enterprises/gathering-insights-on-your-spending.md)
+    * [Getting Started With The Enhanced Billing Platform](billing/using-the-enhanced-billing-platform-for-enterprises/getting-started-with-the-enhanced-billing-platform.md)
     * [Using The Enhanced Billing Platform For Enterprises](billing/using-the-enhanced-billing-platform-for-enterprises/index.md)
     * [Managing Your Payment And Billing Information](billing/using-the-enhanced-billing-platform-for-enterprises/managing-your-payment-and-billing-information.md)
     * [Preventing Overspending](billing/using-the-enhanced-billing-platform-for-enterprises/preventing-overspending.md)
@@ -1640,7 +1643,7 @@
         * [Enabling Copilot For Organizations In Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-access-to-copilot-in-your-enterprise/enabling-copilot-for-organizations-in-your-enterprise.md)
         * [Managing Access To Copilot In Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-access-to-copilot-in-your-enterprise/index.md)
         * [Managing Git Hub Copilot Access To Your Enterprise S Network](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-access-to-copilot-in-your-enterprise/managing-github-copilot-access-to-your-enterprises-network.md)
-        * [Viewing Copilot Usage For Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-access-to-copilot-in-your-enterprise/viewing-copilot-usage-for-your-enterprise.md)
+        * [Viewing Copilot License Usage In Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-access-to-copilot-in-your-enterprise/viewing-copilot-license-usage-in-your-enterprise.md)
       - Managing The Copilot Subscription For Your Enterprise
         * [Canceling Copilot For Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-the-copilot-subscription-for-your-enterprise/canceling-copilot-for-your-enterprise.md)
         * [Downgrading Copilot For Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-the-copilot-subscription-for-your-enterprise/downgrading-copilot-for-your-enterprise.md)
@@ -1662,7 +1665,7 @@
         * [Managing Requests For Copilot Business In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/managing-requests-for-copilot-business-in-your-organization.md)
         * [Reviewing Audit Logs For Copilot Business](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/reviewing-audit-logs-for-copilot-business.md)
         * [Reviewing Changes To Content Exclusions For Git Hub Copilot](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/reviewing-changes-to-content-exclusions-for-github-copilot.md)
-        * [Reviewing Usage Data For Git Hub Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/reviewing-usage-data-for-github-copilot-in-your-organization.md)
+        * [Reviewing User Activity Data For Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/reviewing-user-activity-data-for-copilot-in-your-organization.md)
         * [Revoking Access To Copilot For Members Of Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/revoking-access-to-copilot-for-members-of-your-organization.md)
       - Managing The Copilot Subscription For Your Organization
         * [Canceling Copilot For Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-the-copilot-subscription-for-your-organization/canceling-copilot-for-your-organization.md)
@@ -1991,6 +1994,10 @@
     * [Git Hub CLI Quickstart](github-cli/github-cli/quickstart.md)
     * [Using Git Hub CLI Extensions](github-cli/github-cli/using-github-cli-extensions.md)
   * [{% data variables.product.prodname_cli %} documentation](github-cli/index.md)
+- Github Models
+  * [Git Hub Models](github-models/index.md)
+  * [Prototyping With AI Models](github-models/prototyping-with-ai-models.md)
+  * [Responsible Use Of Git Hub Models](github-models/responsible-use-of-github-models.md)
 - [Graphql](graphql/README.md)
   - Guides
     * [Forming Calls With Graph QL](graphql/guides/forming-calls-with-graphql.md)
