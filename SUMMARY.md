@@ -2097,6 +2097,7 @@
       * [Adding your {% data variables.projects.project_v2 %} to a repository](issues/planning-and-tracking-with-projects/managing-your-project/adding-your-project-to-a-repository.md)
       * [Adding your {% data variables.projects.project_v2 %} to a team](issues/planning-and-tracking-with-projects/managing-your-project/adding-your-project-to-a-team.md)
       * [Closing and deleting your {% data variables.projects.projects_v2 %}](issues/planning-and-tracking-with-projects/managing-your-project/closing-and-deleting-your-projects.md)
+      * [Exporting your {% data variables.projects.project_v2 %} data](issues/planning-and-tracking-with-projects/managing-your-project/exporting-your-projects-data.md)
       * [Managing your {% data variables.projects.project_v2 %}](issues/planning-and-tracking-with-projects/managing-your-project/index.md)
       * [Managing access to your {% data variables.projects.projects_v2 %}](issues/planning-and-tracking-with-projects/managing-your-project/managing-access-to-your-projects.md)
       * [Managing {% data variables.projects.project_v2 %} templates in your organization](issues/planning-and-tracking-with-projects/managing-your-project/managing-project-templates-in-your-organization.md)
