@@ -562,13 +562,16 @@
       * [Accessing Your Enterprise Account If Your Identity Provider Is Unavailable](admin/managing-iam/managing-recovery-codes-for-your-enterprise/accessing-your-enterprise-account-if-your-identity-provider-is-unavailable.md)
       * [Downloading Your Enterprise Account S Single Sign On Recovery Codes](admin/managing-iam/managing-recovery-codes-for-your-enterprise/downloading-your-enterprise-accounts-single-sign-on-recovery-codes.md)
       * [Managing Recovery Codes For Your Enterprise](admin/managing-iam/managing-recovery-codes-for-your-enterprise/index.md)
-    - Provisioning User Accounts For Enterprise Managed Users
-      * [Configuring SCIM Provisioning For Enterprise Managed Users](admin/managing-iam/provisioning-user-accounts-for-enterprise-managed-users/configuring-scim-provisioning-for-enterprise-managed-users.md)
-      * [Configuring SCIM Provisioning With Okta](admin/managing-iam/provisioning-user-accounts-for-enterprise-managed-users/configuring-scim-provisioning-with-okta.md)
-      * [Provisioning User Accounts For Enterprise Managed Users](admin/managing-iam/provisioning-user-accounts-for-enterprise-managed-users/index.md)
-      * [Managing Team Memberships With Identity Provider Groups](admin/managing-iam/provisioning-user-accounts-for-enterprise-managed-users/managing-team-memberships-with-identity-provider-groups.md)
-      * [Provisioning Users And Groups With SCIM Using The REST API](admin/managing-iam/provisioning-user-accounts-for-enterprise-managed-users/provisioning-users-and-groups-with-scim-using-the-rest-api.md)
-      * [Troubleshooting Team Membership With Identity Provider Groups](admin/managing-iam/provisioning-user-accounts-for-enterprise-managed-users/troubleshooting-team-membership-with-identity-provider-groups.md)
+    - Provisioning User Accounts With Scim
+      * [Configuring Authentication And Provisioning With Entra ID](admin/managing-iam/provisioning-user-accounts-with-scim/configuring-authentication-and-provisioning-with-entra-id.md)
+      * [Configuring Authentication And Provisioning With Ping Federate](admin/managing-iam/provisioning-user-accounts-with-scim/configuring-authentication-and-provisioning-with-pingfederate.md)
+      * [Configuring SCIM Provisioning Ifversion Ghec For Enterprise Managed Users Else To Manage Users Endif](admin/managing-iam/provisioning-user-accounts-with-scim/configuring-scim-provisioning-for-users.md)
+      * [Configuring Ifversion Ghec SCIM Else Authentication And Endif Provisioning With Okta](admin/managing-iam/provisioning-user-accounts-with-scim/configuring-scim-provisioning-with-okta.md)
+      * [Provisioning Accounts Ifversion Ghec For Enterprise Managed Users Else With SCIM Endif](admin/managing-iam/provisioning-user-accounts-with-scim/index.md)
+      * [Managing Team Memberships With Identity Provider Groups](admin/managing-iam/provisioning-user-accounts-with-scim/managing-team-memberships-with-identity-provider-groups.md)
+      * [Provisioning Users And Groups With SCIM Using The REST API](admin/managing-iam/provisioning-user-accounts-with-scim/provisioning-users-and-groups-with-scim-using-the-rest-api.md)
+      * [Troubleshooting Team Membership With Identity Provider Groups](admin/managing-iam/provisioning-user-accounts-with-scim/troubleshooting-team-membership-with-identity-provider-groups.md)
+      * [Ifversion Scim For Ghes Public Beta About Else Configuring Endif User Provisioning With SCIM On Git Hub Enterprise Server](admin/managing-iam/provisioning-user-accounts-with-scim/user-provisioning-with-scim-on-ghes.md)
     - Reconfiguring Iam For Enterprise Managed Users
       * [Reconfiguring IAM For Enterprise Managed Users](admin/managing-iam/reconfiguring-iam-for-enterprise-managed-users/index.md)
       * [Migrating From OIDC To SAML](admin/managing-iam/reconfiguring-iam-for-enterprise-managed-users/migrating-from-oidc-to-saml.md)
@@ -587,6 +590,7 @@
       * [Troubleshooting Identity And Access Management For Your Enterprise](admin/managing-iam/understanding-iam-for-enterprises/troubleshooting-identity-and-access-management-for-your-enterprise.md)
     - Using Built In Authentication
       * [Configuring Built In Authentication](admin/managing-iam/using-built-in-authentication/configuring-built-in-authentication.md)
+      * [Disabling Passkeys For Your Instance](admin/managing-iam/using-built-in-authentication/disabling-passkeys-for-your-instance.md)
       * [Disabling Unauthenticated Sign Ups](admin/managing-iam/using-built-in-authentication/disabling-unauthenticated-sign-ups.md)
       * [Using Built In Authentication](admin/managing-iam/using-built-in-authentication/index.md)
       * [Inviting People To Use Your Instance](admin/managing-iam/using-built-in-authentication/inviting-people-to-use-your-instance.md)
@@ -597,10 +601,8 @@
       * [Using LDAP For Enterprise IAM](admin/managing-iam/using-ldap-for-enterprise-iam/index.md)
       * [Using LDAP](admin/managing-iam/using-ldap-for-enterprise-iam/using-ldap.md)
     - Using Saml For Enterprise Iam
-      * [Configuring Authentication And Provisioning For Your Enterprise Using Entra ID](admin/managing-iam/using-saml-for-enterprise-iam/configuring-authentication-and-provisioning-for-your-enterprise-using-entra-id.md)
       * [Configuring SAML Single Sign On For Your Enterprise Using Okta](admin/managing-iam/using-saml-for-enterprise-iam/configuring-saml-single-sign-on-for-your-enterprise-using-okta.md)
       * [Configuring SAML Single Sign On For Your Enterprise](admin/managing-iam/using-saml-for-enterprise-iam/configuring-saml-single-sign-on-for-your-enterprise.md)
-      * [Configuring User Provisioning With SCIM For Your Enterprise](admin/managing-iam/using-saml-for-enterprise-iam/configuring-user-provisioning-with-scim-for-your-enterprise.md)
       * [Deciding Whether To Configure SAML For Your Enterprise Or Your Organizations](admin/managing-iam/using-saml-for-enterprise-iam/deciding-whether-to-configure-saml-for-your-enterprise-or-your-organizations.md)
       * [Disabling SAML Single Sign On For Your Enterprise](admin/managing-iam/using-saml-for-enterprise-iam/disabling-saml-single-sign-on-for-your-enterprise.md)
       * [Enabling Encrypted Assertions](admin/managing-iam/using-saml-for-enterprise-iam/enabling-encrypted-assertions.md)
@@ -693,6 +695,7 @@
       * [Preparing for the Elasticsearch upgrade in {% data variables.product.prodname_ghe_server %} 3.13](admin/monitoring-managing-and-updating-your-instance/updating-the-virtual-machine-and-physical-resources/preparing-for-the-elasticsearch-upgrade.md)
       * [Upgrade Requirements](admin/monitoring-managing-and-updating-your-instance/updating-the-virtual-machine-and-physical-resources/upgrade-requirements.md)
       * [Upgrading Git Hub Enterprise Server](admin/monitoring-managing-and-updating-your-instance/updating-the-virtual-machine-and-physical-resources/upgrading-github-enterprise-server.md)
+      * [Using Generation 2 Virtual Machines](admin/monitoring-managing-and-updating-your-instance/updating-the-virtual-machine-and-physical-resources/using-generation-2-virtual-machines.md)
     * [Monitoring Managing And Updating Your Instance](admin/monitoring-managing-and-updating-your-instance/index.md)
   - Overview
     * [About Git Hub Enterprise Cloud](admin/overview/about-github-enterprise-cloud.md)

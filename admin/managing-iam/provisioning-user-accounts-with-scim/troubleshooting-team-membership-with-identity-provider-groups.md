@@ -5,6 +5,7 @@ intro: 'If you manage team membership using groups on your identity provider (Id
 product: '{% data reusables.gated-features.emus %}'
 versions:
   ghec: '*'
+  feature: scim-for-ghes-public-beta
 type: how_to
 topics:
   - Accounts
@@ -14,7 +15,10 @@ topics:
 redirect_from:
   - /admin/identity-and-access-management/using-enterprise-managed-users-for-iam/troubleshooting-team-membership-with-identity-provider-groups
   - /admin/identity-and-access-management/provisioning-user-accounts-for-enterprise-managed-users/troubleshooting-team-membership-with-identity-provider-groups
+  - /admin/managing-iam/provisioning-user-accounts-for-enterprise-managed-users/troubleshooting-team-membership-with-identity-provider-groups
 ---
+
+{% data reusables.scim.ghes-beta-note %}
 
 ## About management of team membership with IdP groups
 
@@ -34,6 +38,8 @@ If {% data variables.product.prodname_dotcom %} is unable to synchronize team me
 
    If a team is unable to sync membership with a group on your IdP, you'll see a description of the problem under the team's name and membership count.
 
+{% ifversion ghec %}
+
 ### Error: "Out of sync due to insufficient licenses"
 
 If your enterprise does not have sufficient licenses and {% data variables.product.prodname_dotcom %} is unable to synchronize team membership with a group on your IdP, you'll see a message that reads "Out of sync due to insufficient licenses".
@@ -48,6 +54,8 @@ The team may be missing members because your enterprise does not have sufficient
    * Remove users from the IdP group.
    * Deprovision users from your enterprise.
    * Purchase additional licenses to allow synchronization to complete. For more information, see "[AUTOTITLE](/billing/managing-the-plan-for-your-github-account/about-per-user-pricing#about-changes-to-your-subscription)."
+
+{% endif %}
 
 ### Error: "Out of sync"
 
