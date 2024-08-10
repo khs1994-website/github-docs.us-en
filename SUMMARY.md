@@ -96,19 +96,6 @@
     * [Sharing Workflows Secrets And Runners With Your Organization](actions/administering-github-actions/sharing-workflows-secrets-and-runners-with-your-organization.md)
     * [Usage Limits Billing And Administration](actions/administering-github-actions/usage-limits-billing-and-administration.md)
     * [Viewing Git Hub Actions Usage Metrics For Your Organization](actions/administering-github-actions/viewing-github-actions-usage-metrics-for-your-organization.md)
-  - Automating Builds And Tests
-    * [Building And Testing Go](actions/automating-builds-and-tests/building-and-testing-go.md)
-    * [Building And Testing Java With Ant](actions/automating-builds-and-tests/building-and-testing-java-with-ant.md)
-    * [Building And Testing Java With Gradle](actions/automating-builds-and-tests/building-and-testing-java-with-gradle.md)
-    * [Building And Testing Java With Maven](actions/automating-builds-and-tests/building-and-testing-java-with-maven.md)
-    * [Building and testing .NET](actions/automating-builds-and-tests/building-and-testing-net.md)
-    * [Building and testing Node.js](actions/automating-builds-and-tests/building-and-testing-nodejs.md)
-    * [Building And Testing Power Shell](actions/automating-builds-and-tests/building-and-testing-powershell.md)
-    * [Building And Testing Python](actions/automating-builds-and-tests/building-and-testing-python.md)
-    * [Building And Testing Ruby](actions/automating-builds-and-tests/building-and-testing-ruby.md)
-    * [Building And Testing Swift](actions/automating-builds-and-tests/building-and-testing-swift.md)
-    * [Building And Testing Xamarin Applications](actions/automating-builds-and-tests/building-and-testing-xamarin-applications.md)
-    * [Automating Builds And Tests](actions/automating-builds-and-tests/index.md)
   - Creating Actions
     * [About Custom Actions](actions/creating-actions/about-custom-actions.md)
     * [Creating A Composite Action](actions/creating-actions/creating-a-composite-action.md)
@@ -124,33 +111,6 @@
     * [Sharing Actions And Workflows From Your Private Repository](actions/creating-actions/sharing-actions-and-workflows-from-your-private-repository.md)
     * [Sharing Actions And Workflows With Your Enterprise](actions/creating-actions/sharing-actions-and-workflows-with-your-enterprise.md)
     * [Sharing Actions And Workflows With Your Organization](actions/creating-actions/sharing-actions-and-workflows-with-your-organization.md)
-  - Deployment
-    - About Deployments
-      * [Deploying With Git Hub Actions](actions/deployment/about-deployments/deploying-with-github-actions.md)
-      * [About Deployments](actions/deployment/about-deployments/index.md)
-    - Deploying To Your Cloud Provider
-      - Deploying To Azure
-        * [Deploying Docker To Azure App Service](actions/deployment/deploying-to-your-cloud-provider/deploying-to-azure/deploying-docker-to-azure-app-service.md)
-        * [Deploying Java To Azure App Service](actions/deployment/deploying-to-your-cloud-provider/deploying-to-azure/deploying-java-to-azure-app-service.md)
-        * [Deploying .NET to Azure App Service](actions/deployment/deploying-to-your-cloud-provider/deploying-to-azure/deploying-net-to-azure-app-service.md)
-        * [Deploying Node.js to Azure App Service](actions/deployment/deploying-to-your-cloud-provider/deploying-to-azure/deploying-nodejs-to-azure-app-service.md)
-        * [Deploying PHP To Azure App Service](actions/deployment/deploying-to-your-cloud-provider/deploying-to-azure/deploying-php-to-azure-app-service.md)
-        * [Deploying Python To Azure App Service](actions/deployment/deploying-to-your-cloud-provider/deploying-to-azure/deploying-python-to-azure-app-service.md)
-        * [Deploying To Azure Kubernetes Service](actions/deployment/deploying-to-your-cloud-provider/deploying-to-azure/deploying-to-azure-kubernetes-service.md)
-        * [Deploying To Azure Static Web App](actions/deployment/deploying-to-your-cloud-provider/deploying-to-azure/deploying-to-azure-static-web-app.md)
-        * [Deploying To Azure](actions/deployment/deploying-to-your-cloud-provider/deploying-to-azure/index.md)
-      * [Deploying To Amazon Elastic Container Service](actions/deployment/deploying-to-your-cloud-provider/deploying-to-amazon-elastic-container-service.md)
-      * [Deploying To Google Kubernetes Engine](actions/deployment/deploying-to-your-cloud-provider/deploying-to-google-kubernetes-engine.md)
-      * [Deploying To Your Cloud Provider](actions/deployment/deploying-to-your-cloud-provider/index.md)
-    - Deploying Xcode Applications
-      * [Deploying Xcode Applications](actions/deployment/deploying-xcode-applications/index.md)
-      * [Installing An Apple Certificate On Mac OS Runners For Xcode Development](actions/deployment/deploying-xcode-applications/installing-an-apple-certificate-on-macos-runners-for-xcode-development.md)
-    * [Deployment](actions/deployment/index.md)
-  - Examples
-    * [Examples](actions/examples/index.md)
-    * [Using Concurrency Expressions And A Test Matrix](actions/examples/using-concurrency-expressions-and-a-test-matrix.md)
-    * [Using Scripts To Test Your Code On A Runner](actions/examples/using-scripts-to-test-your-code-on-a-runner.md)
-    * [Using The Git Hub CLI On A Runner](actions/examples/using-the-github-cli-on-a-runner.md)
   - Hosting Your Own Runners
     - Managing Self Hosted Runners
       * [About Self Hosted Runners](actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners.md)
@@ -176,15 +136,6 @@
       * [Troubleshooting Actions Runner Controller Errors](actions/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/troubleshooting-actions-runner-controller-errors.md)
       * [Using Actions Runner Controller Runners In A Workflow](actions/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/using-actions-runner-controller-runners-in-a-workflow.md)
     * [Hosting Your Own Runners](actions/hosting-your-own-runners/index.md)
-  - Managing Issues And Pull Requests
-    * [Adding Labels To Issues](actions/managing-issues-and-pull-requests/adding-labels-to-issues.md)
-    * [Closing Inactive Issues](actions/managing-issues-and-pull-requests/closing-inactive-issues.md)
-    * [Commenting On An Issue When A Label Is Added](actions/managing-issues-and-pull-requests/commenting-on-an-issue-when-a-label-is-added.md)
-    * [Managing Issues And Pull Requests](actions/managing-issues-and-pull-requests/index.md)
-    * [Moving assigned issues on {% data variables.projects.projects_v1_boards %}](actions/managing-issues-and-pull-requests/moving-assigned-issues-on-project-boards.md)
-    * [Removing a label when a card is added to a {% data variables.projects.projects_v1_board %} column](actions/managing-issues-and-pull-requests/removing-a-label-when-a-card-is-added-to-a-project-board-column.md)
-    * [Scheduling Issue Creation](actions/managing-issues-and-pull-requests/scheduling-issue-creation.md)
-    * [Using Git Hub Actions For Project Management](actions/managing-issues-and-pull-requests/using-github-actions-for-project-management.md)
   - Managing Workflow Runs And Deployments
     - Managing Deployments
       * [Configuring Custom Deployment Protection Rules](actions/managing-workflow-runs-and-deployments/managing-deployments/configuring-custom-deployment-protection-rules.md)
@@ -243,13 +194,6 @@
       * [Troubleshooting Workflows](actions/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/index.md)
       * [Working With Support For Git Hub Actions](actions/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/working-with-support-for-github-actions.md)
     * [Monitoring And Troubleshooting Workflows](actions/monitoring-and-troubleshooting-workflows/index.md)
-  - Publishing Packages
-    * [About Packaging With Git Hub Actions](actions/publishing-packages/about-packaging-with-github-actions.md)
-    * [Publishing Packages](actions/publishing-packages/index.md)
-    * [Publishing Docker Images](actions/publishing-packages/publishing-docker-images.md)
-    * [Publishing Java Packages With Gradle](actions/publishing-packages/publishing-java-packages-with-gradle.md)
-    * [Publishing Java Packages With Maven](actions/publishing-packages/publishing-java-packages-with-maven.md)
-    * [Publishing Node.js packages](actions/publishing-packages/publishing-nodejs-packages.md)
   - Security For Github Actions
     - Security Guides
       * [Automatic Token Authentication](actions/security-for-github-actions/security-guides/automatic-token-authentication.md)
@@ -275,11 +219,56 @@
       * [Using Artifact Attestations To Establish Provenance For Builds](actions/security-for-github-actions/using-artifact-attestations/using-artifact-attestations-to-establish-provenance-for-builds.md)
       * [Verifying Attestations Offline](actions/security-for-github-actions/using-artifact-attestations/verifying-attestations-offline.md)
     * [Security For Git Hub Actions](actions/security-for-github-actions/index.md)
-  - Using Containerized Services
-    * [About Service Containers](actions/using-containerized-services/about-service-containers.md)
-    * [Creating Postgre SQL Service Containers](actions/using-containerized-services/creating-postgresql-service-containers.md)
-    * [Creating Redis Service Containers](actions/using-containerized-services/creating-redis-service-containers.md)
-    * [Using Containerized Services](actions/using-containerized-services/index.md)
+  - Use Cases And Examples
+    - Building And Testing
+      * [Building And Testing Go](actions/use-cases-and-examples/building-and-testing/building-and-testing-go.md)
+      * [Building And Testing Java With Ant](actions/use-cases-and-examples/building-and-testing/building-and-testing-java-with-ant.md)
+      * [Building And Testing Java With Gradle](actions/use-cases-and-examples/building-and-testing/building-and-testing-java-with-gradle.md)
+      * [Building And Testing Java With Maven](actions/use-cases-and-examples/building-and-testing/building-and-testing-java-with-maven.md)
+      * [Building and testing .NET](actions/use-cases-and-examples/building-and-testing/building-and-testing-net.md)
+      * [Building and testing Node.js](actions/use-cases-and-examples/building-and-testing/building-and-testing-nodejs.md)
+      * [Building And Testing Power Shell](actions/use-cases-and-examples/building-and-testing/building-and-testing-powershell.md)
+      * [Building And Testing Python](actions/use-cases-and-examples/building-and-testing/building-and-testing-python.md)
+      * [Building And Testing Ruby](actions/use-cases-and-examples/building-and-testing/building-and-testing-ruby.md)
+      * [Building And Testing Swift](actions/use-cases-and-examples/building-and-testing/building-and-testing-swift.md)
+      * [Building And Testing Xamarin Applications](actions/use-cases-and-examples/building-and-testing/building-and-testing-xamarin-applications.md)
+      * [Building And Testing](actions/use-cases-and-examples/building-and-testing/index.md)
+    - Deploying
+      * [Deploying Docker To Azure App Service](actions/use-cases-and-examples/deploying/deploying-docker-to-azure-app-service.md)
+      * [Deploying Java To Azure App Service](actions/use-cases-and-examples/deploying/deploying-java-to-azure-app-service.md)
+      * [Deploying .NET to Azure App Service](actions/use-cases-and-examples/deploying/deploying-net-to-azure-app-service.md)
+      * [Deploying Node.js to Azure App Service](actions/use-cases-and-examples/deploying/deploying-nodejs-to-azure-app-service.md)
+      * [Deploying PHP To Azure App Service](actions/use-cases-and-examples/deploying/deploying-php-to-azure-app-service.md)
+      * [Deploying Python To Azure App Service](actions/use-cases-and-examples/deploying/deploying-python-to-azure-app-service.md)
+      * [Deploying To Amazon Elastic Container Service](actions/use-cases-and-examples/deploying/deploying-to-amazon-elastic-container-service.md)
+      * [Deploying To Azure Kubernetes Service](actions/use-cases-and-examples/deploying/deploying-to-azure-kubernetes-service.md)
+      * [Deploying To Azure Static Web App](actions/use-cases-and-examples/deploying/deploying-to-azure-static-web-app.md)
+      * [Deploying To Google Kubernetes Engine](actions/use-cases-and-examples/deploying/deploying-to-google-kubernetes-engine.md)
+      * [Deploying With Git Hub Actions](actions/use-cases-and-examples/deploying/deploying-with-github-actions.md)
+      * [Deploying](actions/use-cases-and-examples/deploying/index.md)
+      * [Installing An Apple Certificate On Mac OS Runners For Xcode Development](actions/use-cases-and-examples/deploying/installing-an-apple-certificate-on-macos-runners-for-xcode-development.md)
+    - Project Management
+      * [Adding Labels To Issues](actions/use-cases-and-examples/project-management/adding-labels-to-issues.md)
+      * [Closing Inactive Issues](actions/use-cases-and-examples/project-management/closing-inactive-issues.md)
+      * [Commenting On An Issue When A Label Is Added](actions/use-cases-and-examples/project-management/commenting-on-an-issue-when-a-label-is-added.md)
+      * [Managing Projects](actions/use-cases-and-examples/project-management/index.md)
+      * [Moving assigned issues on {% data variables.projects.projects_v1_boards %}](actions/use-cases-and-examples/project-management/moving-assigned-issues-on-project-boards.md)
+      * [Removing a label when a card is added to a {% data variables.projects.projects_v1_board %} column](actions/use-cases-and-examples/project-management/removing-a-label-when-a-card-is-added-to-a-project-board-column.md)
+      * [Scheduling Issue Creation](actions/use-cases-and-examples/project-management/scheduling-issue-creation.md)
+      * [Using Git Hub Actions For Project Management](actions/use-cases-and-examples/project-management/using-github-actions-for-project-management.md)
+    - Publishing Packages
+      * [About Packaging With Git Hub Actions](actions/use-cases-and-examples/publishing-packages/about-packaging-with-github-actions.md)
+      * [Publishing Packages](actions/use-cases-and-examples/publishing-packages/index.md)
+      * [Publishing Docker Images](actions/use-cases-and-examples/publishing-packages/publishing-docker-images.md)
+      * [Publishing Java Packages With Gradle](actions/use-cases-and-examples/publishing-packages/publishing-java-packages-with-gradle.md)
+      * [Publishing Java Packages With Maven](actions/use-cases-and-examples/publishing-packages/publishing-java-packages-with-maven.md)
+      * [Publishing Node.js packages](actions/use-cases-and-examples/publishing-packages/publishing-nodejs-packages.md)
+    - Using Containerized Services
+      * [About Service Containers](actions/use-cases-and-examples/using-containerized-services/about-service-containers.md)
+      * [Creating Postgre SQL Service Containers](actions/use-cases-and-examples/using-containerized-services/creating-postgresql-service-containers.md)
+      * [Creating Redis Service Containers](actions/use-cases-and-examples/using-containerized-services/creating-redis-service-containers.md)
+      * [Using Containerized Services](actions/use-cases-and-examples/using-containerized-services/index.md)
+    * [Use Cases And Examples](actions/use-cases-and-examples/index.md)
   - Using Github Hosted Runners
     - About Github Hosted Runners
       * [About Git Hub Hosted Runners](actions/using-github-hosted-runners/about-github-hosted-runners/about-github-hosted-runners.md)
