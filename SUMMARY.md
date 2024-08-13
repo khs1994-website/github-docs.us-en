@@ -96,21 +96,6 @@
     * [Sharing Workflows Secrets And Runners With Your Organization](actions/administering-github-actions/sharing-workflows-secrets-and-runners-with-your-organization.md)
     * [Usage Limits Billing And Administration](actions/administering-github-actions/usage-limits-billing-and-administration.md)
     * [Viewing Git Hub Actions Usage Metrics For Your Organization](actions/administering-github-actions/viewing-github-actions-usage-metrics-for-your-organization.md)
-  - Creating Actions
-    * [About Custom Actions](actions/creating-actions/about-custom-actions.md)
-    * [Creating A Composite Action](actions/creating-actions/creating-a-composite-action.md)
-    * [Creating A Docker Container Action](actions/creating-actions/creating-a-docker-container-action.md)
-    * [Creating A Java Script Action](actions/creating-actions/creating-a-javascript-action.md)
-    * [Developing A Third Party CLI Action](actions/creating-actions/developing-a-third-party-cli-action.md)
-    * [Dockerfile Support For Git Hub Actions](actions/creating-actions/dockerfile-support-for-github-actions.md)
-    * [Index](actions/creating-actions/index.md)
-    * [Metadata Syntax For Git Hub Actions](actions/creating-actions/metadata-syntax-for-github-actions.md)
-    * [Publishing Actions In Git Hub Marketplace](actions/creating-actions/publishing-actions-in-github-marketplace.md)
-    * [Releasing And Maintaining Actions](actions/creating-actions/releasing-and-maintaining-actions.md)
-    * [Setting Exit Codes For Actions](actions/creating-actions/setting-exit-codes-for-actions.md)
-    * [Sharing Actions And Workflows From Your Private Repository](actions/creating-actions/sharing-actions-and-workflows-from-your-private-repository.md)
-    * [Sharing Actions And Workflows With Your Enterprise](actions/creating-actions/sharing-actions-and-workflows-with-your-enterprise.md)
-    * [Sharing Actions And Workflows With Your Organization](actions/creating-actions/sharing-actions-and-workflows-with-your-organization.md)
   - Hosting Your Own Runners
     - Managing Self Hosted Runners
       * [About Self Hosted Runners](actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners.md)
@@ -158,18 +143,6 @@
       * [Skipping Workflow Runs](actions/managing-workflow-runs-and-deployments/managing-workflow-runs/skipping-workflow-runs.md)
     * [Managing Workflow Runs And Deployments](actions/managing-workflow-runs-and-deployments/index.md)
   - Migrating To Github Actions
-    - Automated Migrations
-      * [Automating Migration With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/automating-migration-with-github-actions-importer.md)
-      * [Extending Git Hub Actions Importer With Custom Transformers](actions/migrating-to-github-actions/automated-migrations/extending-github-actions-importer-with-custom-transformers.md)
-      * [Using {% data variables.product.prodname_actions_importer %} to automate migrations](actions/migrating-to-github-actions/automated-migrations/index.md)
-      * [Migrating From Azure Dev Ops With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-azure-devops-with-github-actions-importer.md)
-      * [Migrating From Bamboo With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-bamboo-with-github-actions-importer.md)
-      * [Migrating From Bitbucket Pipelines With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-bitbucket-pipelines-with-github-actions-importer.md)
-      * [Migrating From Circle CI With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-circleci-with-github-actions-importer.md)
-      * [Migrating From Git Lab With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-gitlab-with-github-actions-importer.md)
-      * [Migrating From Jenkins With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-jenkins-with-github-actions-importer.md)
-      * [Migrating From Travis CI With Git Hub Actions Importer](actions/migrating-to-github-actions/automated-migrations/migrating-from-travis-ci-with-github-actions-importer.md)
-      * [Supplemental Arguments And Settings](actions/migrating-to-github-actions/automated-migrations/supplemental-arguments-and-settings.md)
     - Manually Migrating To Github Actions
       * [Manually Migrating To Git Hub Actions](actions/migrating-to-github-actions/manually-migrating-to-github-actions/index.md)
       * [Migrating From Azure Pipelines To Git Hub Actions](actions/migrating-to-github-actions/manually-migrating-to-github-actions/migrating-from-azure-pipelines-to-github-actions.md)
@@ -177,6 +150,18 @@
       * [Migrating From Git Lab CI CD To Git Hub Actions](actions/migrating-to-github-actions/manually-migrating-to-github-actions/migrating-from-gitlab-cicd-to-github-actions.md)
       * [Migrating From Jenkins To Git Hub Actions](actions/migrating-to-github-actions/manually-migrating-to-github-actions/migrating-from-jenkins-to-github-actions.md)
       * [Migrating From Travis CI To Git Hub Actions](actions/migrating-to-github-actions/manually-migrating-to-github-actions/migrating-from-travis-ci-to-github-actions.md)
+    - Using Github Actions Importer To Automate Migrations
+      * [Automating Migration With Git Hub Actions Importer](actions/migrating-to-github-actions/using-github-actions-importer-to-automate-migrations/automating-migration-with-github-actions-importer.md)
+      * [Extending Git Hub Actions Importer With Custom Transformers](actions/migrating-to-github-actions/using-github-actions-importer-to-automate-migrations/extending-github-actions-importer-with-custom-transformers.md)
+      * [Using {% data variables.product.prodname_actions_importer %} to automate migrations](actions/migrating-to-github-actions/using-github-actions-importer-to-automate-migrations/index.md)
+      * [Migrating From Azure Dev Ops With Git Hub Actions Importer](actions/migrating-to-github-actions/using-github-actions-importer-to-automate-migrations/migrating-from-azure-devops-with-github-actions-importer.md)
+      * [Migrating From Bamboo With Git Hub Actions Importer](actions/migrating-to-github-actions/using-github-actions-importer-to-automate-migrations/migrating-from-bamboo-with-github-actions-importer.md)
+      * [Migrating From Bitbucket Pipelines With Git Hub Actions Importer](actions/migrating-to-github-actions/using-github-actions-importer-to-automate-migrations/migrating-from-bitbucket-pipelines-with-github-actions-importer.md)
+      * [Migrating From Circle CI With Git Hub Actions Importer](actions/migrating-to-github-actions/using-github-actions-importer-to-automate-migrations/migrating-from-circleci-with-github-actions-importer.md)
+      * [Migrating From Git Lab With Git Hub Actions Importer](actions/migrating-to-github-actions/using-github-actions-importer-to-automate-migrations/migrating-from-gitlab-with-github-actions-importer.md)
+      * [Migrating From Jenkins With Git Hub Actions Importer](actions/migrating-to-github-actions/using-github-actions-importer-to-automate-migrations/migrating-from-jenkins-with-github-actions-importer.md)
+      * [Migrating From Travis CI With Git Hub Actions Importer](actions/migrating-to-github-actions/using-github-actions-importer-to-automate-migrations/migrating-from-travis-ci-with-github-actions-importer.md)
+      * [Supplemental Arguments And Settings](actions/migrating-to-github-actions/using-github-actions-importer-to-automate-migrations/supplemental-arguments-and-settings.md)
     * [Migrating To Git Hub Actions](actions/migrating-to-github-actions/index.md)
   - Monitoring And Troubleshooting Workflows
     - Monitoring Workflows
@@ -219,6 +204,27 @@
       * [Using Artifact Attestations To Establish Provenance For Builds](actions/security-for-github-actions/using-artifact-attestations/using-artifact-attestations-to-establish-provenance-for-builds.md)
       * [Verifying Attestations Offline](actions/security-for-github-actions/using-artifact-attestations/verifying-attestations-offline.md)
     * [Security For Git Hub Actions](actions/security-for-github-actions/index.md)
+  - Sharing Automations
+    - Creating Actions
+      * [About Custom Actions](actions/sharing-automations/creating-actions/about-custom-actions.md)
+      * [Creating A Composite Action](actions/sharing-automations/creating-actions/creating-a-composite-action.md)
+      * [Creating A Docker Container Action](actions/sharing-automations/creating-actions/creating-a-docker-container-action.md)
+      * [Creating A Java Script Action](actions/sharing-automations/creating-actions/creating-a-javascript-action.md)
+      * [Developing A Third Party CLI Action](actions/sharing-automations/creating-actions/developing-a-third-party-cli-action.md)
+      * [Dockerfile Support For Git Hub Actions](actions/sharing-automations/creating-actions/dockerfile-support-for-github-actions.md)
+      * [Creating Actions](actions/sharing-automations/creating-actions/index.md)
+      * [Metadata Syntax For Git Hub Actions](actions/sharing-automations/creating-actions/metadata-syntax-for-github-actions.md)
+      * [Publishing Actions In Git Hub Marketplace](actions/sharing-automations/creating-actions/publishing-actions-in-github-marketplace.md)
+      * [Releasing And Maintaining Actions](actions/sharing-automations/creating-actions/releasing-and-maintaining-actions.md)
+      * [Setting Exit Codes For Actions](actions/sharing-automations/creating-actions/setting-exit-codes-for-actions.md)
+    * [Avoiding Duplication](actions/sharing-automations/avoiding-duplication.md)
+    * [Creating Workflow Templates For Your Organization](actions/sharing-automations/creating-workflow-templates-for-your-organization.md)
+    * [Sharing Automations](actions/sharing-automations/index.md)
+    * [Required Workflows](actions/sharing-automations/required-workflows.md)
+    * [Reusing Workflows](actions/sharing-automations/reusing-workflows.md)
+    * [Sharing Actions And Workflows From Your Private Repository](actions/sharing-automations/sharing-actions-and-workflows-from-your-private-repository.md)
+    * [Sharing Actions And Workflows With Your Enterprise](actions/sharing-automations/sharing-actions-and-workflows-with-your-enterprise.md)
+    * [Sharing Actions And Workflows With Your Organization](actions/sharing-automations/sharing-actions-and-workflows-with-your-organization.md)
   - Use Cases And Examples
     - Building And Testing
       * [Building And Testing Go](actions/use-cases-and-examples/building-and-testing/building-and-testing-go.md)
@@ -270,29 +276,22 @@
       * [Using Containerized Services](actions/use-cases-and-examples/using-containerized-services/index.md)
     * [Use Cases And Examples](actions/use-cases-and-examples/index.md)
   - Using Github Hosted Runners
-    - About Github Hosted Runners
-      * [About Git Hub Hosted Runners](actions/using-github-hosted-runners/about-github-hosted-runners/about-github-hosted-runners.md)
-      * [Customizing Git Hub Hosted Runners](actions/using-github-hosted-runners/about-github-hosted-runners/customizing-github-hosted-runners.md)
-      * [Using Git Hub Hosted Runners](actions/using-github-hosted-runners/about-github-hosted-runners/index.md)
-      * [Monitoring Your Current Jobs](actions/using-github-hosted-runners/about-github-hosted-runners/monitoring-your-current-jobs.md)
-    - About Larger Runners
-      * [About Larger Runners](actions/using-github-hosted-runners/about-larger-runners/index.md)
-      * [Controlling Access To Larger Runners](actions/using-github-hosted-runners/about-larger-runners/controlling-access-to-larger-runners.md)
-      * [Managing Larger Runners](actions/using-github-hosted-runners/about-larger-runners/managing-larger-runners.md)
-      * [Running Jobs On Larger Runners](actions/using-github-hosted-runners/about-larger-runners/running-jobs-on-larger-runners.md)
     - Connecting To A Private Network
       * [About Private Networking With Git Hub Hosted Runners](actions/using-github-hosted-runners/connecting-to-a-private-network/about-private-networking-with-github-hosted-runners.md)
       * [Connecting to a private network with {% data variables.product.company_short %}-hosted runners](actions/using-github-hosted-runners/connecting-to-a-private-network/index.md)
       * [Using An API Gateway With OIDC](actions/using-github-hosted-runners/connecting-to-a-private-network/using-an-api-gateway-with-oidc.md)
       * [Using Wire Guard To Create A Network Overlay](actions/using-github-hosted-runners/connecting-to-a-private-network/using-wireguard-to-create-a-network-overlay.md)
+    - Using Github Hosted Runners
+      * [About Git Hub Hosted Runners](actions/using-github-hosted-runners/using-github-hosted-runners/about-github-hosted-runners.md)
+      * [Customizing Git Hub Hosted Runners](actions/using-github-hosted-runners/using-github-hosted-runners/customizing-github-hosted-runners.md)
+      * [Using Git Hub Hosted Runners](actions/using-github-hosted-runners/using-github-hosted-runners/index.md)
+      * [Monitoring Your Current Jobs](actions/using-github-hosted-runners/using-github-hosted-runners/monitoring-your-current-jobs.md)
+    - Using Larger Runners
+      * [About Larger Runners](actions/using-github-hosted-runners/using-larger-runners/index.md)
+      * [Controlling Access To Larger Runners](actions/using-github-hosted-runners/using-larger-runners/controlling-access-to-larger-runners.md)
+      * [Managing Larger Runners](actions/using-github-hosted-runners/using-larger-runners/managing-larger-runners.md)
+      * [Running Jobs On Larger Runners](actions/using-github-hosted-runners/using-larger-runners/running-jobs-on-larger-runners.md)
     * [Using Git Hub Hosted Runners](actions/using-github-hosted-runners/index.md)
-  - Using Workflows
-    * [About Workflows](actions/using-workflows/about-workflows.md)
-    * [Avoiding Duplication](actions/using-workflows/avoiding-duplication.md)
-    * [Creating Starter Workflows For Your Organization](actions/using-workflows/creating-starter-workflows-for-your-organization.md)
-    * [Using Workflows](actions/using-workflows/index.md)
-    * [Required Workflows](actions/using-workflows/required-workflows.md)
-    * [Reusing Workflows](actions/using-workflows/reusing-workflows.md)
   - Writing Workflows
     - Choosing What Your Workflow Does
       * [Adding Scripts To Your Workflow](actions/writing-workflows/choosing-what-your-workflow-does/adding-scripts-to-your-workflow.md)
@@ -321,6 +320,7 @@
       * [Choosing The Runner For A Job](actions/writing-workflows/choosing-where-your-workflow-runs/choosing-the-runner-for-a-job.md)
       * [Choosing Where Your Workflow Runs](actions/writing-workflows/choosing-where-your-workflow-runs/index.md)
       * [Running Jobs In A Container](actions/writing-workflows/choosing-where-your-workflow-runs/running-jobs-in-a-container.md)
+    * [About Workflows](actions/writing-workflows/about-workflows.md)
     * [Writing Workflows](actions/writing-workflows/index.md)
     * [Quickstart For Git Hub Actions](actions/writing-workflows/quickstart.md)
     * [Using Starter Workflows](actions/writing-workflows/using-starter-workflows.md)
