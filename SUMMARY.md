@@ -274,6 +274,7 @@
       * [Creating Postgre SQL Service Containers](actions/use-cases-and-examples/using-containerized-services/creating-postgresql-service-containers.md)
       * [Creating Redis Service Containers](actions/use-cases-and-examples/using-containerized-services/creating-redis-service-containers.md)
       * [Using Containerized Services](actions/use-cases-and-examples/using-containerized-services/index.md)
+    * [Creating An Example Workflow](actions/use-cases-and-examples/creating-an-example-workflow.md)
     * [Use Cases And Examples](actions/use-cases-and-examples/index.md)
   - Using Github Hosted Runners
     - Connecting To A Private Network
@@ -323,7 +324,7 @@
     * [About Workflows](actions/writing-workflows/about-workflows.md)
     * [Writing Workflows](actions/writing-workflows/index.md)
     * [Quickstart For Git Hub Actions](actions/writing-workflows/quickstart.md)
-    * [Using Starter Workflows](actions/writing-workflows/using-starter-workflows.md)
+    * [Using Workflow Templates](actions/writing-workflows/using-workflow-templates.md)
     * [Workflow Syntax For Git Hub Actions](actions/writing-workflows/workflow-syntax-for-github-actions.md)
   * [Guides for {% data variables.product.prodname_actions %}](actions/guides.md)
   * [{% data variables.product.prodname_actions %} documentation](actions/index.md)
@@ -1030,6 +1031,7 @@
     * [Setting Up Paid Accounts For Procurement Companies](billing/setting-up-paid-accounts-for-procurement-companies/index.md)
   - Using The Enhanced Billing Platform For Enterprises
     * [About Enhanced Billing For Git Large File Storage](billing/using-the-enhanced-billing-platform-for-enterprises/about-enhanced-billing-for-git-large-file-storage.md)
+    * [About The Billing Cycle](billing/using-the-enhanced-billing-platform-for-enterprises/about-the-billing-cycle.md)
     * [About The Enhanced Billing Platform For Enterprises](billing/using-the-enhanced-billing-platform-for-enterprises/about-the-enhanced-billing-platform-for-enterprises.md)
     * [About Usage Based Billing For Licenses](billing/using-the-enhanced-billing-platform-for-enterprises/about-usage-based-billing-for-licenses.md)
     * [Adding Seats To Your Enterprise Account](billing/using-the-enhanced-billing-platform-for-enterprises/adding-seats-to-your-enterprise-account.md)
