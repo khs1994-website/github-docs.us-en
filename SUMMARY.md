@@ -1423,6 +1423,7 @@
     * [Exporting Data From Security Overview](code-security/security-overview/exporting-data-from-security-overview.md)
     * [Filtering Alerts In Security Overview](code-security/security-overview/filtering-alerts-in-security-overview.md)
     * [Viewing Security Information For Your Organization Or Enterprise](code-security/security-overview/index.md)
+    * [Viewing Metrics For Pull Request Alerts](code-security/security-overview/viewing-metrics-for-pull-request-alerts.md)
     * [Viewing Metrics For Secret Scanning Push Protection](code-security/security-overview/viewing-metrics-for-secret-scanning-push-protection.md)
     * [Viewing Security Insights](code-security/security-overview/viewing-security-insights.md)
   - Supply Chain Security
