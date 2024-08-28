@@ -1700,11 +1700,12 @@
       * [Managing Git Hub Copilot In Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/index.md)
       * [Managing Policies And Features For Copilot In Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise.md)
     - Managing Github Copilot In Your Organization
-      - Enhancing Copilot For Your Organization
-        * [Extending The Capabilities Of Git Hub Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/enhancing-copilot-for-your-organization/extending-the-capabilities-of-github-copilot-in-your-organization.md)
-        * [Enhancing Copilot For Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/enhancing-copilot-for-your-organization/index.md)
-        * [Indexing Repositories For Copilot Chat](copilot/managing-copilot/managing-github-copilot-in-your-organization/enhancing-copilot-for-your-organization/indexing-repositories-for-copilot-chat.md)
-        * [Managing Copilot Knowledge Bases](copilot/managing-copilot/managing-github-copilot-in-your-organization/enhancing-copilot-for-your-organization/managing-copilot-knowledge-bases.md)
+      - Customizing Copilot For Your Organization
+        * [Creating A Custom Model For Git Hub Copilot](copilot/managing-copilot/managing-github-copilot-in-your-organization/customizing-copilot-for-your-organization/creating-a-custom-model-for-github-copilot.md)
+        * [Extending The Capabilities Of Git Hub Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/customizing-copilot-for-your-organization/extending-the-capabilities-of-github-copilot-in-your-organization.md)
+        * [Customizing Copilot For Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/customizing-copilot-for-your-organization/index.md)
+        * [Indexing Repositories For Copilot Chat](copilot/managing-copilot/managing-github-copilot-in-your-organization/customizing-copilot-for-your-organization/indexing-repositories-for-copilot-chat.md)
+        * [Managing Copilot Knowledge Bases](copilot/managing-copilot/managing-github-copilot-in-your-organization/customizing-copilot-for-your-organization/managing-copilot-knowledge-bases.md)
       - Managing Access To Github Copilot In Your Organization
         * [Granting Access To Copilot For Members Of Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/granting-access-to-copilot-for-members-of-your-organization.md)
         * [Managing Access To Git Hub Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/index.md)
@@ -1753,6 +1754,7 @@
     * [Asking Git Hub Copilot Questions In Git Hub Mobile](copilot/using-github-copilot/asking-github-copilot-questions-in-github-mobile.md)
     * [Asking GitHub Copilot questions in GitHub.com](copilot/using-github-copilot/asking-github-copilot-questions-in-githubcom.md)
     * [Asking Git Hub Copilot Questions In Your IDE](copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide.md)
+    * [Best Practices For Using Git Hub Copilot](copilot/using-github-copilot/best-practices-for-using-github-copilot.md)
     * [Creating A Pull Request Summary With Git Hub Copilot](copilot/using-github-copilot/creating-a-pull-request-summary-with-github-copilot.md)
     * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/using-github-copilot/finding-public-code-that-matches-github-copilot-suggestions.md)
     * [Getting Code Suggestions In Your IDE With Git Hub Copilot](copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot.md)
@@ -3088,6 +3090,7 @@
   - Getting Started With Github Sponsors
     * [About Git Hub Sponsors](sponsors/getting-started-with-github-sponsors/about-github-sponsors.md)
     * [Getting Started With Git Hub Sponsors](sponsors/getting-started-with-github-sponsors/index.md)
+    * [Navigating Your Sponsors Dashboard](sponsors/getting-started-with-github-sponsors/navigating-your-sponsors-dashboard.md)
     * [Quickstart For Finding Contributors To Sponsor](sponsors/getting-started-with-github-sponsors/quickstart-for-finding-contributors-to-sponsor.md)
   - Integrating With Github Sponsors
     * [Configuring Webhooks For Events In Your Sponsored Account](sponsors/integrating-with-github-sponsors/configuring-webhooks-for-events-in-your-sponsored-account.md)
