@@ -1285,6 +1285,9 @@
       * [Customizing Dependency Updates](code-security/dependabot/dependabot-version-updates/customizing-dependency-updates.md)
       * [Keeping Your Dependencies Updated Automatically With Dependabot Version Updates](code-security/dependabot/dependabot-version-updates/index.md)
       * [Listing Dependencies Configured For Version Updates](code-security/dependabot/dependabot-version-updates/listing-dependencies-configured-for-version-updates.md)
+    - Ecosystems Supported By Dependabot
+      * [Ecosystems Supported By Dependabot](code-security/dependabot/ecosystems-supported-by-dependabot/index.md)
+      * [Dependabot Supported Ecosystems And Repositories](code-security/dependabot/ecosystems-supported-by-dependabot/supported-ecosystems-and-repositories.md)
     - Working With Dependabot
       * [About Dependabot On Git Hub Actions Runners](code-security/dependabot/working-with-dependabot/about-dependabot-on-github-actions-runners.md)
       * [Automating Dependabot With Git Hub Actions](code-security/dependabot/working-with-dependabot/automating-dependabot-with-github-actions.md)
