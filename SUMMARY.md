@@ -288,8 +288,9 @@
       * [Using Git Hub Hosted Runners](actions/using-github-hosted-runners/using-github-hosted-runners/index.md)
       * [Monitoring Your Current Jobs](actions/using-github-hosted-runners/using-github-hosted-runners/monitoring-your-current-jobs.md)
     - Using Larger Runners
-      * [About Larger Runners](actions/using-github-hosted-runners/using-larger-runners/index.md)
+      * [About Larger Runners](actions/using-github-hosted-runners/using-larger-runners/about-larger-runners.md)
       * [Controlling Access To Larger Runners](actions/using-github-hosted-runners/using-larger-runners/controlling-access-to-larger-runners.md)
+      * [Using Larger Runners](actions/using-github-hosted-runners/using-larger-runners/index.md)
       * [Managing Larger Runners](actions/using-github-hosted-runners/using-larger-runners/managing-larger-runners.md)
       * [Running Jobs On Larger Runners](actions/using-github-hosted-runners/using-larger-runners/running-jobs-on-larger-runners.md)
     * [Using Git Hub Hosted Runners](actions/using-github-hosted-runners/index.md)
