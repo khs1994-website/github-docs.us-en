@@ -681,6 +681,7 @@
       * [Monitoring Using SNMP](admin/monitoring-and-managing-your-instance/monitoring-your-instance/monitoring-using-snmp.md)
       * [Recommended Alert Thresholds](admin/monitoring-and-managing-your-instance/monitoring-your-instance/recommended-alert-thresholds.md)
       * [Setting Up External Monitoring](admin/monitoring-and-managing-your-instance/monitoring-your-instance/setting-up-external-monitoring.md)
+      * [Troubleshooting Resource Allocation Problems](admin/monitoring-and-managing-your-instance/monitoring-your-instance/troubleshooting-resource-allocation-problems.md)
     - Updating The Virtual Machine And Physical Resources
       * [Increasing CPU Or Memory Resources](admin/monitoring-and-managing-your-instance/updating-the-virtual-machine-and-physical-resources/increasing-cpu-or-memory-resources.md)
       * [Increasing Storage Capacity](admin/monitoring-and-managing-your-instance/updating-the-virtual-machine-and-physical-resources/increasing-storage-capacity.md)
@@ -3049,6 +3050,7 @@
   - Github Terms
     * [Git Hub Community Code Of Conduct](site-policy/github-terms/github-community-code-of-conduct.md)
     * [Git Hub Community Guidelines](site-policy/github-terms/github-community-guidelines.md)
+    * [Git Hub Copilot Extension Developer Policy](site-policy/github-terms/github-copilot-extension-developer-policy.md)
     * [Git Hub Corporate Terms Of Service](site-policy/github-terms/github-corporate-terms-of-service.md)
     * [Git Hub Educational Use Agreement](site-policy/github-terms/github-educational-use-agreement.md)
     * [Git Hub Event Code Of Conduct](site-policy/github-terms/github-event-code-of-conduct.md)
