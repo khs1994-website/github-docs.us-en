@@ -1669,6 +1669,24 @@
     * [About Git Hub Copilot](copilot/about-github-copilot/index.md)
     * [Subscription Plans For Git Hub Copilot](copilot/about-github-copilot/subscription-plans-for-github-copilot.md)
     * [What Is Git Hub Copilot](copilot/about-github-copilot/what-is-github-copilot.md)
+  - Building Copilot Extensions
+    - Building A Copilot Agent For Your Copilot Extension
+      * [About Copilot Agents](copilot/building-copilot-extensions/building-a-copilot-agent-for-your-copilot-extension/about-copilot-agents.md)
+      * [Configuring Your Copilot Agent To Communicate With Git Hub](copilot/building-copilot-extensions/building-a-copilot-agent-for-your-copilot-extension/configuring-your-copilot-agent-to-communicate-with-github.md)
+      * [Configuring Your Copilot Agent To Communicate With The Copilot Platform](copilot/building-copilot-extensions/building-a-copilot-agent-for-your-copilot-extension/configuring-your-copilot-agent-to-communicate-with-the-copilot-platform.md)
+      * [Building A Copilot Agent For Your Copilot Extension](copilot/building-copilot-extensions/building-a-copilot-agent-for-your-copilot-extension/index.md)
+      * [Using A Demo Agent](copilot/building-copilot-extensions/building-a-copilot-agent-for-your-copilot-extension/using-a-demo-agent.md)
+      * [Using Copilot S LLM For Your Agent](copilot/building-copilot-extensions/building-a-copilot-agent-for-your-copilot-extension/using-copilots-llm-for-your-agent.md)
+    - Creating A Copilot Extension
+      * [Configuring Your Git Hub App For Your Copilot Agent](copilot/building-copilot-extensions/creating-a-copilot-extension/configuring-your-github-app-for-your-copilot-agent.md)
+      * [Configuring Your Server To Deploy Your Copilot Agent](copilot/building-copilot-extensions/creating-a-copilot-extension/configuring-your-server-to-deploy-your-copilot-agent.md)
+      * [Creating A Git Hub App For Your Copilot Extension](copilot/building-copilot-extensions/creating-a-copilot-extension/creating-a-github-app-for-your-copilot-extension.md)
+      * [Creating A Copilot Extension](copilot/building-copilot-extensions/creating-a-copilot-extension/index.md)
+    * [About Building Copilot Extensions](copilot/building-copilot-extensions/about-building-copilot-extensions.md)
+    * [Copilot Extensions Glossary](copilot/building-copilot-extensions/copilot-extensions-glossary.md)
+    * [Building Copilot Extensions](copilot/building-copilot-extensions/index.md)
+    * [Managing The Availability Of Your Copilot Extension](copilot/building-copilot-extensions/managing-the-availability-of-your-copilot-extension.md)
+    * [Setting Up Copilot Extensions](copilot/building-copilot-extensions/setting-up-copilot-extensions.md)
   - Managing Copilot
     - Configure Personal Settings
       * [Configuring Git Hub Copilot In The CLI](copilot/managing-copilot/configure-personal-settings/configuring-github-copilot-in-the-cli.md)
