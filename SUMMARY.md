@@ -2179,6 +2179,7 @@
     - Understanding Fields
       * [About Date Fields](issues/planning-and-tracking-with-projects/understanding-fields/about-date-fields.md)
       * [About Iteration Fields](issues/planning-and-tracking-with-projects/understanding-fields/about-iteration-fields.md)
+      * [About Parent Issue And Sub Issue Progress Fields](issues/planning-and-tracking-with-projects/understanding-fields/about-parent-issue-and-sub-issue-progress-fields.md)
       * [About Single Select Fields](issues/planning-and-tracking-with-projects/understanding-fields/about-single-select-fields.md)
       * [About Text And Number Fields](issues/planning-and-tracking-with-projects/understanding-fields/about-text-and-number-fields.md)
       * [Deleting Custom Fields](issues/planning-and-tracking-with-projects/understanding-fields/deleting-custom-fields.md)
@@ -2200,13 +2201,17 @@
       * [Transferring An Issue To Another Repository](issues/tracking-your-work-with-issues/administering-issues/transferring-an-issue-to-another-repository.md)
     - Configuring Issues
       * [Configuring Issues](issues/tracking-your-work-with-issues/configuring-issues/index.md)
+      * [Managing Issue Types In An Organization](issues/tracking-your-work-with-issues/configuring-issues/managing-issue-types-in-an-organization.md)
       * [Planning And Tracking Work For Your Team Or Project](issues/tracking-your-work-with-issues/configuring-issues/planning-and-tracking-work-for-your-team-or-project.md)
       * [Quickstart For Git Hub Issues](issues/tracking-your-work-with-issues/configuring-issues/quickstart.md)
     - Using Issues
       * [About Slash Commands](issues/tracking-your-work-with-issues/using-issues/about-slash-commands.md)
+      * [Adding Sub Issues](issues/tracking-your-work-with-issues/using-issues/adding-sub-issues.md)
       * [Assigning Issues And Pull Requests To Other Git Hub Users](issues/tracking-your-work-with-issues/using-issues/assigning-issues-and-pull-requests-to-other-github-users.md)
+      * [Browsing Sub Issues](issues/tracking-your-work-with-issues/using-issues/browsing-sub-issues.md)
       * [Creating A Branch To Work On An Issue](issues/tracking-your-work-with-issues/using-issues/creating-a-branch-for-an-issue.md)
       * [Creating An Issue](issues/tracking-your-work-with-issues/using-issues/creating-an-issue.md)
+      * [Editing An Issue](issues/tracking-your-work-with-issues/using-issues/editing-an-issue.md)
       * [Filtering And Searching Issues And Pull Requests](issues/tracking-your-work-with-issues/using-issues/filtering-and-searching-issues-and-pull-requests.md)
       * [Using Issues](issues/tracking-your-work-with-issues/using-issues/index.md)
       * [Linking A Pull Request To An Issue](issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue.md)
