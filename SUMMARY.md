@@ -1205,6 +1205,7 @@
       * [Resolve Library Path](code-security/codeql-cli/codeql-cli-manual/resolve-library-path.md)
       * [Resolve Metadata](code-security/codeql-cli/codeql-cli-manual/resolve-metadata.md)
       * [Resolve Ml Models](code-security/codeql-cli/codeql-cli-manual/resolve-ml-models.md)
+      * [Resolve Packs](code-security/codeql-cli/codeql-cli-manual/resolve-packs.md)
       * [Resolve Qlpacks](code-security/codeql-cli/codeql-cli-manual/resolve-qlpacks.md)
       * [Resolve Qlref](code-security/codeql-cli/codeql-cli-manual/resolve-qlref.md)
       * [Resolve Queries](code-security/codeql-cli/codeql-cli-manual/resolve-queries.md)
