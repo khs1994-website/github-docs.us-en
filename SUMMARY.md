@@ -1083,11 +1083,11 @@
       * [About Code Scanning](code-security/code-scanning/introduction-to-code-scanning/about-code-scanning.md)
       * [Introduction To Code Scanning](code-security/code-scanning/introduction-to-code-scanning/index.md)
     - Managing Code Scanning Alerts
-      * [About Copilot Autofix For Code QL Code Scanning](code-security/code-scanning/managing-code-scanning-alerts/about-autofix-for-codeql-code-scanning.md)
       * [About Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/about-code-scanning-alerts.md)
       * [Disabling Copilot Autofix For Code Scanning](code-security/code-scanning/managing-code-scanning-alerts/disabling-autofix-for-code-scanning.md)
       * [Managing Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/index.md)
       * [Managing Code Scanning Alerts For Your Repository](code-security/code-scanning/managing-code-scanning-alerts/managing-code-scanning-alerts-for-your-repository.md)
+      * [Responsible Use Of Copilot Autofix For Code Scanning](code-security/code-scanning/managing-code-scanning-alerts/responsible-use-autofix-code-scanning.md)
       * [Tracking Code Scanning Alerts In Issues Using Task Lists](code-security/code-scanning/managing-code-scanning-alerts/tracking-code-scanning-alerts-in-issues-using-task-lists.md)
       * [Triaging Code Scanning Alerts In Pull Requests](code-security/code-scanning/managing-code-scanning-alerts/triaging-code-scanning-alerts-in-pull-requests.md)
     - Managing Your Code Scanning Configuration
@@ -1111,6 +1111,7 @@
       * [Alerts Found In Generated Code](code-security/code-scanning/troubleshooting-code-scanning/alerts-in-generated-code.md)
       * [Code Scanning Analysis Takes Too Long](code-security/code-scanning/troubleshooting-code-scanning/analysis-takes-too-long.md)
       * [Automatic Build Failed For A Compiled Language](code-security/code-scanning/troubleshooting-code-scanning/automatic-build-failed.md)
+      * [C Compiler Unexpectedly Failing](code-security/code-scanning/troubleshooting-code-scanning/c-sharp-compiler-unexpectedly-failing.md)
       * [Cannot Enable Code QL In A Private Repository](code-security/code-scanning/troubleshooting-code-scanning/cannot-enable-codeql-in-a-private-repository.md)
       * [A Particular Language Is Causing Default Setup To Fail](code-security/code-scanning/troubleshooting-code-scanning/default-setup-fails-with-a-language.md)
       * [Enabling Default Setup Takes Too Long](code-security/code-scanning/troubleshooting-code-scanning/enabling-default-setup-takes-too-long.md)
@@ -1344,21 +1345,21 @@
       * [Troubleshooting Secret Scanning](code-security/secret-scanning/troubleshooting-secret-scanning-and-push-protection/troubleshooting-secret-scanning.md)
     - Using Advanced Secret Scanning And Push Protection Features
       - Custom Patterns
-        * [About Generating Regular Expressions With AI](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/custom-patterns/about-generating-regular-expressions-with-ai.md)
         * [Defining Custom Patterns For Secret Scanning](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/custom-patterns/defining-custom-patterns-for-secret-scanning.md)
         * [Generating Regular Expressions For Custom Patterns With AI](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/custom-patterns/generating-regular-expressions-for-custom-patterns-with-ai.md)
         * [Custom Patterns](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/custom-patterns/index.md)
         * [Managing Custom Patterns](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/custom-patterns/managing-custom-patterns.md)
         * [Metrics For Custom Patterns](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/custom-patterns/metrics-for-custom-patterns.md)
+        * [Responsible Use Of AI To Define Regular Expressions](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/custom-patterns/responsible-use-ai-regex-generator.md)
       - Delegated Bypass For Push Protection
         * [About Delegated Bypass For Push Protection](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/delegated-bypass-for-push-protection/about-delegated-bypass-for-push-protection.md)
         * [Enabling Delegated Bypass For Push Protection](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/delegated-bypass-for-push-protection/enabling-delegated-bypass-for-push-protection.md)
         * [Delegated Bypass For Push Protection](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/delegated-bypass-for-push-protection/index.md)
         * [Managing Requests To Bypass Push Protection](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/delegated-bypass-for-push-protection/managing-requests-to-bypass-push-protection.md)
       - Generic Secret Detection
-        * [About The Detection Of Generic Secrets With Secret Scanning](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/generic-secret-detection/about-the-detection-of-generic-secrets-with-secret-scanning.md)
         * [Enabling AI Powered Generic Secret Detection](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/generic-secret-detection/enabling-ai-powered-generic-secret-detection.md)
         * [Generic Secret Detection](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/generic-secret-detection/index.md)
+        * [Responsible Detection Of Generic Secrets With AI](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/generic-secret-detection/responsible-ai-generic-secrets.md)
       - Non Provider Patterns
         * [Enabling Secret Scanning For Non Provider Patterns](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/non-provider-patterns/enabling-secret-scanning-for-non-provider-patterns.md)
         * [Non Provider Patterns](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/non-provider-patterns/index.md)
