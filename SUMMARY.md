@@ -1084,9 +1084,10 @@
       * [Introduction To Code Scanning](code-security/code-scanning/introduction-to-code-scanning/index.md)
     - Managing Code Scanning Alerts
       * [About Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/about-code-scanning-alerts.md)
+      * [Assessing Code Scanning Alerts For Your Repository](code-security/code-scanning/managing-code-scanning-alerts/assessing-code-scanning-alerts-for-your-repository.md)
       * [Disabling Copilot Autofix For Code Scanning](code-security/code-scanning/managing-code-scanning-alerts/disabling-autofix-for-code-scanning.md)
       * [Managing Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/index.md)
-      * [Managing Code Scanning Alerts For Your Repository](code-security/code-scanning/managing-code-scanning-alerts/managing-code-scanning-alerts-for-your-repository.md)
+      * [Resolving Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/resolving-code-scanning-alerts.md)
       * [Responsible Use Of Copilot Autofix For Code Scanning](code-security/code-scanning/managing-code-scanning-alerts/responsible-use-autofix-code-scanning.md)
       * [Tracking Code Scanning Alerts In Issues Using Task Lists](code-security/code-scanning/managing-code-scanning-alerts/tracking-code-scanning-alerts-in-issues-using-task-lists.md)
       * [Triaging Code Scanning Alerts In Pull Requests](code-security/code-scanning/managing-code-scanning-alerts/triaging-code-scanning-alerts-in-pull-requests.md)
@@ -1369,6 +1370,7 @@
       * [Working With Secret Scanning And Push Protection](code-security/secret-scanning/working-with-secret-scanning-and-push-protection/index.md)
       * [Push Protection For Users](code-security/secret-scanning/working-with-secret-scanning-and-push-protection/push-protection-for-users.md)
       * [Working With Push Protection From The Command Line](code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line.md)
+      * [Working With Push Protection From The REST API](code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-rest-api.md)
       * [Working With Push Protection In The Git Hub UI](code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-in-the-github-ui.md)
     * [Keeping Secrets Secure With Secret Scanning](code-security/secret-scanning/index.md)
   - Securing Your Organization
@@ -1386,7 +1388,7 @@
       * [Editing A Custom Security Configuration](code-security/securing-your-organization/managing-the-security-of-your-organization/editing-a-custom-security-configuration.md)
       * [Filtering Repositories In Your Organization Using The Repository Table](code-security/securing-your-organization/managing-the-security-of-your-organization/filtering-repositories-in-your-organization-using-the-repository-table.md)
       * [Managing The Security Of Your Organization](code-security/securing-your-organization/managing-the-security-of-your-organization/index.md)
-      * [Interpreting Security Findings On A Repository](code-security/securing-your-organization/managing-the-security-of-your-organization/interpreting-security-findings-on-a-repository.md)
+      * [Interpreting Security Findings](code-security/securing-your-organization/managing-the-security-of-your-organization/interpreting-security-findings.md)
       * [Managing Your Git Hub Advanced Security License Usage](code-security/securing-your-organization/managing-the-security-of-your-organization/managing-your-github-advanced-security-license-usage.md)
     - Meeting Your Specific Security Needs With Custom Security Configurations
       * [Applying A Custom Security Configuration](code-security/securing-your-organization/meeting-your-specific-security-needs-with-custom-security-configurations/applying-a-custom-security-configuration.md)
@@ -1785,6 +1787,7 @@
     - Example Use Cases
       * [Example Prompts For Copilot Chat](copilot/using-github-copilot/example-use-cases/example-prompts-for-copilot-chat.md)
       * [Example Use Cases](copilot/using-github-copilot/example-use-cases/index.md)
+      * [Refactoring Code With Git Hub Copilot](copilot/using-github-copilot/example-use-cases/refactoring-code-with-github-copilot.md)
     * [Asking Git Hub Copilot Questions In Git Hub Mobile](copilot/using-github-copilot/asking-github-copilot-questions-in-github-mobile.md)
     * [Asking GitHub Copilot questions in GitHub.com](copilot/using-github-copilot/asking-github-copilot-questions-in-githubcom.md)
     * [Asking Git Hub Copilot Questions In Your IDE](copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide.md)
