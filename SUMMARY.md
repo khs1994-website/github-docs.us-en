@@ -2396,6 +2396,7 @@
     * [Managing The Publication Of Git Hub Pages Sites For Your Organization](organizations/managing-organization-settings/managing-the-publication-of-github-pages-sites-for-your-organization.md)
     * [Managing Updates From Accounts Your Organization Sponsors](organizations/managing-organization-settings/managing-updates-from-accounts-your-organization-sponsors.md)
     * [Renaming An Organization](organizations/managing-organization-settings/renaming-an-organization.md)
+    * [Restricting Deploy Keys In Your Organization](organizations/managing-organization-settings/restricting-deploy-keys-in-your-organization.md)
     * [Restricting Repository Creation In Your Organization](organizations/managing-organization-settings/restricting-repository-creation-in-your-organization.md)
     * [Restricting Repository Visibility Changes In Your Organization](organizations/managing-organization-settings/restricting-repository-visibility-changes-in-your-organization.md)
     * [Setting Permissions For Adding Outside Collaborators](organizations/managing-organization-settings/setting-permissions-for-adding-outside-collaborators.md)
