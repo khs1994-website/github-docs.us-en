@@ -1320,6 +1320,12 @@
     * [Quickstart For Securing Your Organization](code-security/getting-started/quickstart-for-securing-your-organization.md)
     * [Quickstart For Securing Your Repository](code-security/getting-started/quickstart-for-securing-your-repository.md)
   - Secret Scanning
+    - Copilot Secret Scanning
+      * [Enabling Copilot Secret Scanning S Generic Secret Detection](code-security/secret-scanning/copilot-secret-scanning/enabling-ai-powered-generic-secret-detection.md)
+      * [Generating Regular Expressions For Custom Patterns With AI](code-security/secret-scanning/copilot-secret-scanning/generating-regular-expressions-for-custom-patterns-with-ai.md)
+      * [Enhance Your Secret Detection Capabilities With Copilot Secret Scanning](code-security/secret-scanning/copilot-secret-scanning/index.md)
+      * [Responsible Detection Of Generic Secrets With Copilot Secret Scanning](code-security/secret-scanning/copilot-secret-scanning/responsible-ai-generic-secrets.md)
+      * [Responsible Use Of AI To Define Regular Expressions](code-security/secret-scanning/copilot-secret-scanning/responsible-use-ai-regex-generator.md)
     - Enabling Secret Scanning Features
       * [Enabling Push Protection For Your Repository](code-security/secret-scanning/enabling-secret-scanning-features/enabling-push-protection-for-your-repository.md)
       * [Enabling Secret Scanning For Your Repository](code-security/secret-scanning/enabling-secret-scanning-features/enabling-secret-scanning-for-your-repository.md)
@@ -1347,20 +1353,14 @@
     - Using Advanced Secret Scanning And Push Protection Features
       - Custom Patterns
         * [Defining Custom Patterns For Secret Scanning](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/custom-patterns/defining-custom-patterns-for-secret-scanning.md)
-        * [Generating Regular Expressions For Custom Patterns With AI](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/custom-patterns/generating-regular-expressions-for-custom-patterns-with-ai.md)
         * [Custom Patterns](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/custom-patterns/index.md)
         * [Managing Custom Patterns](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/custom-patterns/managing-custom-patterns.md)
         * [Metrics For Custom Patterns](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/custom-patterns/metrics-for-custom-patterns.md)
-        * [Responsible Use Of AI To Define Regular Expressions](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/custom-patterns/responsible-use-ai-regex-generator.md)
       - Delegated Bypass For Push Protection
         * [About Delegated Bypass For Push Protection](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/delegated-bypass-for-push-protection/about-delegated-bypass-for-push-protection.md)
         * [Enabling Delegated Bypass For Push Protection](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/delegated-bypass-for-push-protection/enabling-delegated-bypass-for-push-protection.md)
         * [Delegated Bypass For Push Protection](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/delegated-bypass-for-push-protection/index.md)
         * [Managing Requests To Bypass Push Protection](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/delegated-bypass-for-push-protection/managing-requests-to-bypass-push-protection.md)
-      - Generic Secret Detection
-        * [Enabling AI Powered Generic Secret Detection](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/generic-secret-detection/enabling-ai-powered-generic-secret-detection.md)
-        * [Generic Secret Detection](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/generic-secret-detection/index.md)
-        * [Responsible Detection Of Generic Secrets With AI](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/generic-secret-detection/responsible-ai-generic-secrets.md)
       - Non Provider Patterns
         * [Enabling Secret Scanning For Non Provider Patterns](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/non-provider-patterns/enabling-secret-scanning-for-non-provider-patterns.md)
         * [Non Provider Patterns](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/non-provider-patterns/index.md)
