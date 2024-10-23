@@ -613,6 +613,7 @@
     * [Changing The URL For Your Enterprise](admin/managing-your-enterprise-account/changing-the-url-for-your-enterprise.md)
     * [Creating A README For An Enterprise](admin/managing-your-enterprise-account/creating-a-readme-for-an-enterprise.md)
     * [Creating An Enterprise Account](admin/managing-your-enterprise-account/creating-an-enterprise-account.md)
+    * [Creating Git Hub Apps For Your Enterprise](admin/managing-your-enterprise-account/creating-github-apps-for-your-enterprise.md)
     * [Deleting An Enterprise Account](admin/managing-your-enterprise-account/deleting-an-enterprise-account.md)
     * [Managing Your Enterprise Account](admin/managing-your-enterprise-account/index.md)
   - Monitoring Activity In Your Enterprise
