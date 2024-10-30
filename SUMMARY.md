@@ -27,7 +27,7 @@
       * [Setting Your Profile To Private](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/setting-your-profile-to-private.md)
     - Managing Contribution Settings On Your Profile
       * [Managing Contribution Settings On Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/index.md)
-      * [Sending enterprise contributions to your GitHub.com profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/sending-enterprise-contributions-to-your-githubcom-profile.md)
+      * [Sharing Contributions From Git Hub Enterprise Server](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/sharing-contributions-from-github-enterprise-server.md)
       * [Showing An Overview Of Your Activity On Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/showing-an-overview-of-your-activity-on-your-profile.md)
       * [Showing Your Private Contributions Ifversion Hide Individual Achievements And Achievements Endif On Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/showing-your-private-contributions-and-achievements-on-your-profile.md)
       * [Troubleshooting Commits On Your Timeline](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/troubleshooting-commits-on-your-timeline.md)
@@ -93,9 +93,10 @@
     * [Understanding Git Hub Actions](actions/about-github-actions/understanding-github-actions.md)
   - Administering Github Actions
     * [Administering Git Hub Actions](actions/administering-github-actions/index.md)
+    * [Making retired namespaces available on GHE.com](actions/administering-github-actions/making-retired-namespaces-available-on-ghecom.md)
     * [Sharing Workflows Secrets And Runners With Your Organization](actions/administering-github-actions/sharing-workflows-secrets-and-runners-with-your-organization.md)
     * [Usage Limits Billing And Administration](actions/administering-github-actions/usage-limits-billing-and-administration.md)
-    * [Viewing Git Hub Actions Usage Metrics For Your Organization](actions/administering-github-actions/viewing-github-actions-usage-metrics-for-your-organization.md)
+    * [Viewing Git Hub Actions Metrics](actions/administering-github-actions/viewing-github-actions-metrics.md)
   - Hosting Your Own Runners
     - Managing Self Hosted Runners
       * [About Self Hosted Runners](actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners.md)
@@ -362,13 +363,15 @@
   - Configuring Settings
     - Configuring Github Connect
       * [About Git Hub Connect](admin/configuring-settings/configuring-github-connect/about-github-connect.md)
+      * [Disabling Git Hub Connect](admin/configuring-settings/configuring-github-connect/disabling-github-connect.md)
       * [Enabling Automatic User License Sync For Your Enterprise](admin/configuring-settings/configuring-github-connect/enabling-automatic-user-license-sync-for-your-enterprise.md)
       * [Enabling Dependabot For Your Enterprise](admin/configuring-settings/configuring-github-connect/enabling-dependabot-for-your-enterprise.md)
+      * [Enabling GitHub Connect for GHE.com](admin/configuring-settings/configuring-github-connect/enabling-github-connect-for-ghecom.md)
+      * [Enabling GitHub Connect for GitHub.com](admin/configuring-settings/configuring-github-connect/enabling-github-connect-for-githubcom.md)
       * [Enabling Server Statistics For Your Enterprise](admin/configuring-settings/configuring-github-connect/enabling-server-statistics-for-your-enterprise.md)
       * [Enabling Unified Contributions For Your Enterprise](admin/configuring-settings/configuring-github-connect/enabling-unified-contributions-for-your-enterprise.md)
       * [Enabling Unified Search For Your Enterprise](admin/configuring-settings/configuring-github-connect/enabling-unified-search-for-your-enterprise.md)
       * [Configuring Git Hub Connect](admin/configuring-settings/configuring-github-connect/index.md)
-      * [Managing Git Hub Connect](admin/configuring-settings/configuring-github-connect/managing-github-connect.md)
     - Configuring Network Settings
       * [Changing The Hostname For Your Instance](admin/configuring-settings/configuring-network-settings/changing-the-hostname-for-your-instance.md)
       * [Configuring An Outbound Web Proxy Server](admin/configuring-settings/configuring-network-settings/configuring-an-outbound-web-proxy-server.md)
@@ -413,6 +416,14 @@
     * [Using A Dedicated Enterprise Account For Copilot Business](admin/copilot-business-only/index.md)
     * [Setting up a dedicated enterprise for Copilot Business ({% data variables.product.prodname_emus %})](admin/copilot-business-only/setting-up-a-dedicated-enterprise-for-copilot-business-managed-users.md)
     * [Setting Up A Dedicated Enterprise For Copilot Business Personal Accounts](admin/copilot-business-only/setting-up-a-dedicated-enterprise-for-copilot-business-personal-accounts.md)
+  - Data Residency
+    * [About Git Hub Enterprise Cloud With Data Residency](admin/data-residency/about-github-enterprise-cloud-with-data-residency.md)
+    * [About Storage Of Your Data With Data Residency](admin/data-residency/about-storage-of-your-data-with-data-residency.md)
+    * [Feature Overview For Git Hub Enterprise Cloud With Data Residency](admin/data-residency/feature-overview-for-github-enterprise-cloud-with-data-residency.md)
+    * [Getting Started With Data Residency For Git Hub Enterprise Cloud](admin/data-residency/getting-started-with-data-residency-for-github-enterprise-cloud.md)
+    * [Git Hub Enterprise Cloud With Data Residency](admin/data-residency/index.md)
+    * [Network details for GHE.com](admin/data-residency/network-details-for-ghecom.md)
+    * [Resolving issues with your enterprise on GHE.com](admin/data-residency/resolving-issues-with-your-enterprise-on-ghecom.md)
   - Enforcing Policies
     - Enforcing Policies For Your Enterprise
       * [About Enterprise Policies](admin/enforcing-policies/enforcing-policies-for-your-enterprise/about-enterprise-policies.md)
@@ -697,6 +708,7 @@
     * [About Upgrades To New Releases](admin/overview/about-upgrades-to-new-releases.md)
     * [Accessing Compliance Reports For Your Enterprise](admin/overview/accessing-compliance-reports-for-your-enterprise.md)
     * [Best Practices For Enterprises](admin/overview/best-practices-for-enterprises.md)
+    * [Feature Overview For Git Hub Enterprise Cloud](admin/overview/feature-overview-for-github-enterprise-cloud.md)
     * [Overview](admin/overview/index.md)
     * [Setting Up A Trial Of Git Hub Enterprise Cloud](admin/overview/setting-up-a-trial-of-github-enterprise-cloud.md)
     * [Setting Up A Trial Of Git Hub Enterprise Server](admin/overview/setting-up-a-trial-of-github-enterprise-server.md)
@@ -1087,6 +1099,7 @@
       * [About Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/about-code-scanning-alerts.md)
       * [Assessing Code Scanning Alerts For Your Repository](code-security/code-scanning/managing-code-scanning-alerts/assessing-code-scanning-alerts-for-your-repository.md)
       * [Disabling Copilot Autofix For Code Scanning](code-security/code-scanning/managing-code-scanning-alerts/disabling-autofix-for-code-scanning.md)
+      * [Fixing Alerts In A Security Campaign](code-security/code-scanning/managing-code-scanning-alerts/fixing-alerts-in-security-campaign.md)
       * [Managing Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/index.md)
       * [Resolving Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/resolving-code-scanning-alerts.md)
       * [Responsible Use Of Copilot Autofix For Code Scanning](code-security/code-scanning/managing-code-scanning-alerts/responsible-use-autofix-code-scanning.md)
@@ -1379,6 +1392,11 @@
       * [Applying The Git Hub Recommended Security Configuration In Your Organization](code-security/securing-your-organization/enabling-security-features-in-your-organization/applying-the-github-recommended-security-configuration-in-your-organization.md)
       * [Configuring Global Security Settings For Your Organization](code-security/securing-your-organization/enabling-security-features-in-your-organization/configuring-global-security-settings-for-your-organization.md)
       * [Enabling Security Features In Your Organization](code-security/securing-your-organization/enabling-security-features-in-your-organization/index.md)
+    - Fixing Security Alerts At Scale
+      * [About Security Campaigns](code-security/securing-your-organization/fixing-security-alerts-at-scale/about-security-campaigns.md)
+      * [Best Practices For Fixing Security Alerts At Scale](code-security/securing-your-organization/fixing-security-alerts-at-scale/best-practice-fix-alerts-at-scale.md)
+      * [Creating And Tracking Security Campaigns](code-security/securing-your-organization/fixing-security-alerts-at-scale/creating-tracking-security-campaigns.md)
+      * [Fixing Security Alerts At Scale](code-security/securing-your-organization/fixing-security-alerts-at-scale/index.md)
     - Introduction To Securing Your Organization At Scale
       * [About Enabling Security Features At Scale](code-security/securing-your-organization/introduction-to-securing-your-organization-at-scale/about-enabling-security-features-at-scale.md)
       * [Choosing A Security Configuration For Your Repositories](code-security/securing-your-organization/introduction-to-securing-your-organization-at-scale/choosing-a-security-configuration-for-your-repositories.md)
@@ -1698,6 +1716,13 @@
     * [Building Copilot Extensions](copilot/building-copilot-extensions/index.md)
     * [Managing The Availability Of Your Copilot Extension](copilot/building-copilot-extensions/managing-the-availability-of-your-copilot-extension.md)
     * [Setting Up Copilot Extensions](copilot/building-copilot-extensions/setting-up-copilot-extensions.md)
+  - Customizing Copilot
+    * [Adding Custom Instructions For Git Hub Copilot](copilot/customizing-copilot/adding-custom-instructions-for-github-copilot.md)
+    * [Creating A Custom Model For Git Hub Copilot](copilot/customizing-copilot/creating-a-custom-model-for-github-copilot.md)
+    * [Extending The Capabilities Of Git Hub Copilot In Your Organization](copilot/customizing-copilot/extending-the-capabilities-of-github-copilot-in-your-organization.md)
+    * [Customizing Copilot](copilot/customizing-copilot/index.md)
+    * [Indexing Repositories For Copilot Chat](copilot/customizing-copilot/indexing-repositories-for-copilot-chat.md)
+    * [Managing Copilot Knowledge Bases](copilot/customizing-copilot/managing-copilot-knowledge-bases.md)
   - Managing Copilot
     - Configure Personal Settings
       * [Configuring Git Hub Copilot In The CLI](copilot/managing-copilot/configure-personal-settings/configuring-github-copilot-in-the-cli.md)
@@ -1735,12 +1760,6 @@
       * [Managing Git Hub Copilot In Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/index.md)
       * [Managing Policies And Features For Copilot In Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise.md)
     - Managing Github Copilot In Your Organization
-      - Customizing Copilot For Your Organization
-        * [Creating A Custom Model For Git Hub Copilot](copilot/managing-copilot/managing-github-copilot-in-your-organization/customizing-copilot-for-your-organization/creating-a-custom-model-for-github-copilot.md)
-        * [Extending The Capabilities Of Git Hub Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/customizing-copilot-for-your-organization/extending-the-capabilities-of-github-copilot-in-your-organization.md)
-        * [Customizing Copilot For Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/customizing-copilot-for-your-organization/index.md)
-        * [Indexing Repositories For Copilot Chat](copilot/managing-copilot/managing-github-copilot-in-your-organization/customizing-copilot-for-your-organization/indexing-repositories-for-copilot-chat.md)
-        * [Managing Copilot Knowledge Bases](copilot/managing-copilot/managing-github-copilot-in-your-organization/customizing-copilot-for-your-organization/managing-copilot-knowledge-bases.md)
       - Managing Access To Github Copilot In Your Organization
         * [Granting Access To Copilot For Members Of Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/granting-access-to-copilot-for-members-of-your-organization.md)
         * [Managing Access To Git Hub Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-access-to-github-copilot-in-your-organization/index.md)
@@ -1767,9 +1786,11 @@
   - Responsible Use Of Github Copilot Features
     * [Responsible Use Of Git Hub Copilot Features](copilot/responsible-use-of-github-copilot-features/index.md)
     * [Responsible Use Of Git Hub Copilot Chat In Git Hub Mobile](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-github-mobile.md)
-    * [Responsible use of GitHub Copilot Chat in GitHub.com](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-githubcom.md)
+    * [Responsible Use Of Git Hub Copilot Chat In Git Hub](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-github.md)
     * [Responsible Use Of Git Hub Copilot Chat In Your IDE](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-your-ide.md)
+    * [Responsible Use Of Git Hub Copilot Code Review](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-code-review.md)
     * [Responsible Use Of Git Hub Copilot In The CLI](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-in-the-cli.md)
+    * [Responsible Use Of Git Hub Copilot In Windows Terminal](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-in-windows-terminal.md)
     * [Responsible Use Of Git Hub Copilot Pull Request Summaries](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-pull-request-summaries.md)
     * [Responsible Use Of Git Hub Copilot Text Completion](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-text-completion.md)
   - Setting Up Github Copilot
@@ -1785,19 +1806,29 @@
     * [Troubleshooting Network Errors For Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-network-errors-for-github-copilot.md)
     * [Viewing Logs For Git Hub Copilot In Your Environment](copilot/troubleshooting-github-copilot/viewing-logs-for-github-copilot-in-your-environment.md)
   - Using Github Copilot
+    - Code Review
+      * [Configuring Coding Guidelines For Git Hub Copilot Code Review](copilot/using-github-copilot/code-review/configuring-coding-guidelines.md)
+      * [Code Review](copilot/using-github-copilot/code-review/index.md)
+      * [Using Git Hub Copilot Code Review](copilot/using-github-copilot/code-review/using-copilot-code-review.md)
     - Example Use Cases
       * [Example Prompts For Copilot Chat](copilot/using-github-copilot/example-use-cases/example-prompts-for-copilot-chat.md)
       * [Example Use Cases](copilot/using-github-copilot/example-use-cases/index.md)
       * [Refactoring Code With Git Hub Copilot](copilot/using-github-copilot/example-use-cases/refactoring-code-with-github-copilot.md)
+      * [Writing Tests With Git Hub Copilot](copilot/using-github-copilot/example-use-cases/writing-tests-with-github-copilot.md)
+    - Using Github Copilot For Pull Requests
+      * [Creating A Pull Request Summary With Git Hub Copilot](copilot/using-github-copilot/using-github-copilot-for-pull-requests/creating-a-pull-request-summary-with-github-copilot.md)
+      * [Using Git Hub Copilot For Pull Requests](copilot/using-github-copilot/using-github-copilot-for-pull-requests/index.md)
+      * [Using Copilot To Help You Work On A Pull Request](copilot/using-github-copilot/using-github-copilot-for-pull-requests/using-copilot-to-help-you-work-on-a-pull-request.md)
     * [Asking Git Hub Copilot Questions In Git Hub Mobile](copilot/using-github-copilot/asking-github-copilot-questions-in-github-mobile.md)
-    * [Asking GitHub Copilot questions in GitHub.com](copilot/using-github-copilot/asking-github-copilot-questions-in-githubcom.md)
+    * [Asking Git Hub Copilot Questions In Git Hub](copilot/using-github-copilot/asking-github-copilot-questions-in-github.md)
+    * [Asking Git Hub Copilot Questions In Windows Terminal](copilot/using-github-copilot/asking-github-copilot-questions-in-windows-terminal.md)
     * [Asking Git Hub Copilot Questions In Your IDE](copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide.md)
     * [Best Practices For Using Git Hub Copilot](copilot/using-github-copilot/best-practices-for-using-github-copilot.md)
-    * [Creating A Pull Request Summary With Git Hub Copilot](copilot/using-github-copilot/creating-a-pull-request-summary-with-github-copilot.md)
     * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/using-github-copilot/finding-public-code-that-matches-github-copilot-suggestions.md)
     * [Getting Code Suggestions In Your IDE With Git Hub Copilot](copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot.md)
     * [Using Git Hub Copilot](copilot/using-github-copilot/index.md)
     * [Prompt Engineering For Git Hub Copilot](copilot/using-github-copilot/prompt-engineering-for-github-copilot.md)
+    * [Using Claude 3.5 Sonnet in GitHub Copilot](copilot/using-github-copilot/using-claude-sonnet-in-github-copilot.md)
     * [Using Copilot Text Completion](copilot/using-github-copilot/using-copilot-text-completion.md)
     * [Using Extensions To Integrate External Tools With Copilot Chat](copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat.md)
     * [Using Git Hub Copilot In The Command Line](copilot/using-github-copilot/using-github-copilot-in-the-command-line.md)
@@ -2081,9 +2112,11 @@
     * [Git Hub CLI](github-cli/github-cli/index.md)
     * [Git Hub CLI Quickstart](github-cli/github-cli/quickstart.md)
     * [Using Git Hub CLI Extensions](github-cli/github-cli/using-github-cli-extensions.md)
+    * [Using The Git Hub CLI Across Git Hub Platforms](github-cli/github-cli/using-multiple-accounts.md)
   * [{% data variables.product.prodname_cli %} documentation](github-cli/index.md)
 - Github Models
   * [Git Hub Models](github-models/index.md)
+  * [Integrating AI Models Into Your Development Workflow](github-models/integrating-ai-models-into-your-development-workflow.md)
   * [Prototyping With AI Models](github-models/prototyping-with-ai-models.md)
   * [Responsible Use Of Git Hub Models](github-models/responsible-use-of-github-models.md)
 - [Graphql](graphql/README.md)
@@ -2305,8 +2338,8 @@
     * [Creating A New Organization From Scratch](organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch.md)
     * [Customizing Your Organization S Profile](organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile.md)
     * [Collaborating With Groups In Organizations](organizations/collaborating-with-groups-in-organizations/index.md)
+    * [Viewing Git Hub Actions Metrics For Your Organization](organizations/collaborating-with-groups-in-organizations/viewing-github-actions-metrics-for-your-organization.md)
     * [Viewing Insights For Dependencies In Your Organization](organizations/collaborating-with-groups-in-organizations/viewing-insights-for-dependencies-in-your-organization.md)
-    * [Viewing Usage Metrics For Git Hub Actions](organizations/collaborating-with-groups-in-organizations/viewing-usage-metrics-for-github-actions.md)
   - Collaborating With Your Team
     * [About Team Discussions](organizations/collaborating-with-your-team/about-team-discussions.md)
     * [Creating A Team Discussion](organizations/collaborating-with-your-team/creating-a-team-discussion.md)
@@ -2427,6 +2460,7 @@
     * [Reviewing And Revoking Personal Access Tokens In Your Organization](organizations/managing-programmatic-access-to-your-organization/reviewing-and-revoking-personal-access-tokens-in-your-organization.md)
     * [Reviewing Git Hub Apps Installed In Your Organization](organizations/managing-programmatic-access-to-your-organization/reviewing-github-apps-installed-in-your-organization.md)
     * [Setting A Personal Access Token Policy For Your Organization](organizations/managing-programmatic-access-to-your-organization/setting-a-personal-access-token-policy-for-your-organization.md)
+    * [Viewing API Insights In Your Organization](organizations/managing-programmatic-access-to-your-organization/viewing-api-insights-in-your-organization.md)
   - Managing Saml Single Sign On For Your Organization
     * [About Identity And Access Management With SAML Single Sign On](organizations/managing-saml-single-sign-on-for-your-organization/about-identity-and-access-management-with-saml-single-sign-on.md)
     * [About SCIM For Organizations](organizations/managing-saml-single-sign-on-for-your-organization/about-scim-for-organizations.md)
@@ -3027,7 +3061,7 @@
 - Search Github
   - Getting Started With Searching On Github
     * [About Searching On Git Hub](search-github/getting-started-with-searching-on-github/about-searching-on-github.md)
-    * [Enabling GitHub.com repository search from your private enterprise environment](search-github/getting-started-with-searching-on-github/enabling-githubcom-repository-search-from-your-private-enterprise-environment.md)
+    * [Enabling Repository Search Across Environments](search-github/getting-started-with-searching-on-github/enabling-repository-search-across-environments.md)
     * [Getting Started With Searching On Git Hub](search-github/getting-started-with-searching-on-github/index.md)
     * [Sorting Search Results](search-github/getting-started-with-searching-on-github/sorting-search-results.md)
     * [Troubleshooting Search Queries](search-github/getting-started-with-searching-on-github/troubleshooting-search-queries.md)

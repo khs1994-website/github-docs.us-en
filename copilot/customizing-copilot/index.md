@@ -1,7 +1,7 @@
 ---
-title: Customizing Copilot for your organization
+title: Customizing Copilot
 shortTitle: Customize Copilot
-intro: 'Organization owners can customize {% data variables.product.prodname_copilot %} in their organization.'
+intro: 'You can customize {% data variables.product.prodname_copilot %} to make it fit your specific needs.'
 versions:
   feature: copilot
 topics:
@@ -9,8 +9,10 @@ topics:
 children:
   - /extending-the-capabilities-of-github-copilot-in-your-organization
   - /indexing-repositories-for-copilot-chat
+  - /adding-custom-instructions-for-github-copilot
   - /managing-copilot-knowledge-bases
   - /creating-a-custom-model-for-github-copilot
 redirect_from:
+  - /copilot/managing-copilot/managing-github-copilot-in-your-organization/customizing-copilot-for-your-organization
   - /copilot/managing-copilot/managing-github-copilot-in-your-organization/enhancing-copilot-for-your-organization
 ---

@@ -1,19 +1,19 @@
 ---
-title: Asking GitHub Copilot questions in GitHub.com
-shortTitle: Chat in GitHub.com
+title: Asking GitHub Copilot questions in GitHub
+shortTitle: Chat in GitHub
 intro: 'You can use {% data variables.product.prodname_copilot_chat_dotcom %} to answer general questions about software development, or specific questions about the issues or code in a repository.'
 versions:
   feature: copilot
-permissions: '{% data reusables.gated-features.copilot-chat-callout-dotcom %}'
 topics:
   - Copilot
 redirect_from:
   - /copilot/github-copilot-enterprise/copilot-chat-in-github/using-github-copilot-chat-in-githubcom
   - /copilot/github-copilot-chat/copilot-chat-in-github/using-github-copilot-chat-in-githubcom
   - /copilot/github-copilot-chat/copilot-chat-in-github
+  - /copilot/using-github-copilot/asking-github-copilot-questions-in-githubcom
 ---
 
-> [!NOTE] {% data reusables.copilot.chat-dotcom-beta %}
+> [!NOTE] {% data variables.product.prodname_copilot_chat_dotcom %} is currently in {% data variables.release-phases.public_preview %} and is subject to change.
 
 ## Overview
 
@@ -36,17 +36,6 @@ On {% data variables.product.github %}, you can use {% data variables.product.pr
 * Chat responses may be suboptimal if you ask questions about a specific repository that you've selected as a context, and the repository has not been indexed for semantic code search. {% data reusables.copilot.indexing-who-can-do-this %} For more information, see "[AUTOTITLE](/enterprise-cloud@latest/copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-github-copilot-features-in-your-organization/indexing-repositories-for-copilot-chat)."
 * The quality of the results from {% data variables.product.prodname_copilot_chat_short %} may, in some situations, be degraded if very large files, or a large number of files, are used as a context for a question.
 
-## Prerequisites
-
-{% ifversion ghec %}
-{% data reusables.copilot.chat-dotcom-prerequisites %}
-
-{% else %}
-To use {% data variables.product.prodname_copilot_chat_dotcom %}, you must have an active {% data variables.product.prodname_copilot_for_individuals %} subscription.
-
-Alternatively, members assigned a seat in a {% data variables.product.prodname_copilot_for_business %} subscription can use {% data variables.product.prodname_copilot_chat_dotcom %}. For more information, see "[AUTOTITLE](/copilot/setting-up-github-copilot/setting-up-github-copilot-for-your-organization)".
-{% endif %}
-
 ## Powered by skills
 
 {% data variables.product.prodname_copilot_short %} is powered by a collection of skills that are dynamically selected based on the question you ask. You can tell which skill {% data variables.product.prodname_copilot_short %} used by clicking {% octicon "chevron-down" aria-label="the down arrow" %} to expand the status information in the chat window.
@@ -61,20 +50,21 @@ You can generate a list of currently available skills by asking {% data variable
 
 The skills you can use in {% data variables.product.prodname_copilot_chat_dotcom_short %} include those shown in the table below.
 
+<!-- Check whether any edits to this table also need to be made to the same table later in asking-github-copilot-questions-in-your-ide.md -->
 | Skill | Description | Enabled by default? | Example question |
 | ----- | ----------- | ------------------- | ---------------- |
-| **Bing web search** (in {% data variables.release-phases.public_preview %} and subject to change) | Searches the web using the Bing search engine. This skill is useful for teaching {% data variables.product.prodname_copilot_short %} about recent events, new developments, trends, technologies, or extremely specific, detailed, or niche subjects. **Available for {% data variables.product.prodname_copilot_business_short %} and {% data variables.product.prodname_copilot_enterprise_short %}**. | No (requires admin approval - see "[AUTOTITLE](/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise)") | _What are some recent articles about SAT tokens securing against vulnerabilities in Node?_                                                            |
-| **Commit details** | Retrieves a list of commits, or the contents of a specific commit, to provide answers to commit-related questions. | Yes | _Explain the changes in the code of this commit_ |
-| **Discussion details** | Retrieves a specific {% data variables.product.prodname_dotcom %} discussion. This is useful for quickly getting the gist of the conversation in a discussion. | Yes | _Summarize this discussion_ |
-| **File details** | Retrieves a specific file in the default branch of the Git repository, allowing you to ask questions about the file and the recent changes made to it. This skill is useful when you provide the exact path of a file in the repository. | Yes | _What logic does user_auth.js encapsulate?_ <br> <br> _What is the file history of user_auth.js?_ |
-| **{% data variables.product.prodname_GH_advanced_security %}** | Retrieves information about security alerts within your organization from {% data variables.product.prodname_GH_advanced_security %} features ({% data variables.product.prodname_code_scanning %}, {% data variables.product.prodname_secret_scanning %}, and {% data variables.product.prodname_dependabot_alerts %}). | Yes | _How would I fix this {% data variables.product.prodname_code_scanning %} alert?_  |
-| **Issue details** | Retrieves a specific {% data variables.product.prodname_dotcom %} issue, including the issue's title, number, author, status, body, linked pull requests, comments, and timestamps. | Yes | _Summarize the conversation on this issue and suggest next steps_ |
+| **Commit details** | Retrieves a list of commits, or the contents of a specific commit, to provide answers to commit-related questions. | Yes | `Explain the changes in the code of this commit`|
+| **Discussion details** | Retrieves a specific {% data variables.product.prodname_dotcom %} discussion. This is useful for quickly getting the gist of the conversation in a discussion. | Yes | `Summarize this discussion` |
+| **File details** | Retrieves a specific file in the default branch of the Git repository, allowing you to ask questions about the file and the recent changes made to it. This skill is useful when you provide the exact path of a file in the repository. | Yes | `What logic does user_auth.js encapsulate?` <br> <br>`What is the file history of user_auth.js?` |
+| **{% data variables.product.prodname_GH_advanced_security %}** | Retrieves information about security alerts within your organization from {% data variables.product.prodname_GH_advanced_security %} features ({% data variables.product.prodname_code_scanning %}, {% data variables.product.prodname_secret_scanning %}, and {% data variables.product.prodname_dependabot_alerts %}). | Yes | `How would I fix this {% data variables.product.prodname_code_scanning %} alert?` |
+| **Issue details** | Retrieves a specific {% data variables.product.prodname_dotcom %} issue, including the issue's title, number, author, status, body, linked pull requests, comments, and timestamps. | Yes | `Summarize the conversation on this issue and suggest next steps` |
 | **Lexical code search** | Keyword code search in the default branch of the Git repository. This skill is useful when you want to know about specific functions, methods or keywords that exist in the code. This skill leverages most of the functionality available to [{% data variables.product.prodname_dotcom %} Search](/search-github/github-code-search/understanding-github-code-search-syntax#using-qualifiers) like `symbol` and `path`. | Yes | `Find me the tests for the GitService class` |
-| **Pull request details** | Retrieves a specific pull request. This allows you to ask questions about the pull request, including getting a summary of the pull request, its comments, or the code it changes. | Yes | _Summarize this PR for me_ <br><br> _Summarize the changes in this PR_ |
-| **Release details** | Retrieves the latest, or specified, release. This allows you to find out who created a release, when it happened, and information included in the release notes. | Yes | _When was the latest release?_ |
-| **Repository details** | Retrieves a specific {% data variables.product.prodname_dotcom %} repository. This is useful for finding out details such as the repository owner and the main language used. | Yes | _Tell me about this repo_ |
-| **Semantic code search** | Natural language semantic code search in the default branch of the Git repository. This skill is useful when you want to know where or how certain functionality has been implemented in the code. Note: this requires indexing to be enabled for the repository (see "[AUTOTITLE](/enterprise-cloud@latest/copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-github-copilot-features-in-your-organization/indexing-repositories-for-copilot-chat)").   | Yes <br><br>Available for all repositories with a {% data variables.product.prodname_copilot_enterprise_short %} subscription, and for public repositories with a {% data variables.product.prodname_copilot_individuals_short %} or {% data variables.product.prodname_copilot_business_short %} subscription. | `How does this repo manage HTTP requests and responses?`|
-| **Support search** | Retrieves information from the {% data variables.contact.contact_support_portal %}. This skill is useful for asking {% data variables.product.prodname_copilot_chat_short %} about {% data variables.product.prodname_dotcom %} products and support related questions. | Yes | _Can I use {% data variables.product.prodname_copilot_short %} knowledge bases with {% data variables.product.prodname_copilot_individuals_short %}?_ |
+| **Pull request details** | Retrieves a specific pull request. This allows you to ask questions about the pull request, including getting a summary of the pull request, its comments, or the code it changes. | Yes | `Summarize this PR for me` <br><br>`Summarize the changes in this PR` |
+| **Release details** | Retrieves the latest, or specified, release. This allows you to find out who created a release, when it happened, and information included in the release notes. | Yes | `When was the latest release?` |
+| **Repository details** | Retrieves a specific {% data variables.product.prodname_dotcom %} repository. This is useful for finding out details such as the repository owner and the main language used. | Yes | `Tell me about this repo` |
+| **Semantic code search** | Natural language semantic code search in the default branch of the Git repository. This skill is useful when you want to know where or how certain functionality has been implemented in the code. Note: this requires indexing to be enabled for the repository (see "[AUTOTITLE](/enterprise-cloud@latest/copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-github-copilot-features-in-your-organization/indexing-repositories-for-copilot-chat)"). | Yes <br><br>Available for all repositories with a {% data variables.product.prodname_copilot_enterprise_short %} subscription, and for public repositories with a {% data variables.product.prodname_copilot_individuals_short %} or {% data variables.product.prodname_copilot_business_short %} subscription. | `How does this repo manage HTTP requests and responses?`|
+| **Support search** | Retrieves information from the {% data variables.contact.contact_support_portal %}. This skill is useful for asking {% data variables.product.prodname_copilot_chat_short %} about {% data variables.product.prodname_dotcom %} products and support related questions. | Yes | `Can I use {% data variables.product.prodname_copilot_short %} knowledge bases with {% data variables.product.prodname_copilot_individuals_short %}?` |
+| **Web search** | Searches the web using the Bing search engine. This skill is useful for teaching {% data variables.product.prodname_copilot_short %} about recent events, new developments, trends, technologies, or extremely specific, detailed, or niche subjects. | No <br><br>{% ifversion fpt %}_For {% data variables.product.prodname_copilot_individuals_short %}:_<br>Enable in your user settings.<br><br>_For {% data variables.product.prodname_copilot_business_short %}:_<br>Enable in organization settings.{% else %}Enable in enterprise or organization settings.{% endif %} | `What are some recent articles about SAT tokens securing against vulnerabilities in Node?` |
 
 ## AI models for {% data variables.product.prodname_copilot_chat_short %}
 
@@ -85,24 +75,24 @@ The skills you can use in {% data variables.product.prodname_copilot_chat_dotcom
 ### Changing your AI model
 
 > [!NOTE]
-> * The `o1-preview` and `o1-mini` models do not have access to skills {% ifversion ghec %}or knowledge bases {% endif %}in {% data variables.product.prodname_copilot_chat_dotcom %}. If you want to use skills {% ifversion ghec %}or knowledge bases {% endif %}on {% data variables.product.github %}, you must use the `gpt-4o` model.
+> * If you want to use the skills listed in the table above{% ifversion ghec %}, or knowledge bases{% endif %}, on the {% data variables.product.github %} website, you must use the `gpt-4o` model.
 > * If you use {% data variables.product.prodname_copilot_extensions_short %}, they may override the model you select.
 > * Experimental pre-release versions of the models may not interact with all filters correctly, including the duplication detection filter.
 
-{% data reusables.copilot.model-picker-enable-preview-features %}
+{% data reusables.copilot.model-picker-enable-o1-models %}
 1. In the bottom right of any page on {% data variables.product.github %}, click {% octicon "copilot" aria-label="Open Copilot Chat" %}.
 1. If the panel contains a previous conversation you had with {% data variables.product.prodname_copilot_short %}, in the top right of the panel, click {% octicon "plus" aria-label="New conversation" %}.
 
    ![Screenshot of the new conversation button, highlighted with a dark orange outline.](/assets/images/help/copilot/chat-new-conversation-button.png)
 
-1. In the top right of the panel, select the {% octicon "kebab-horizontal" aria-label="Open conversation options" %} dropdown menu, then click {% octicon "screen-full" aria-hidden="true" %} **Take conversation to immersive**. Model selection for {% data variables.product.prodname_copilot_chat_short %} is currently only available in the immersive view.
+1. In the top right of the panel, select the {% octicon "kebab-horizontal" aria-label="Open conversation options" %} dropdown menu, then click {% octicon "screen-full" aria-hidden="true" %} **Take conversation to immersive**. Multi-model {% data variables.product.prodname_copilot_chat_short %} is currently only available in the immersive view.
 1. In the top left of the immersive view, select the **CURRENT-MODEL** {% octicon "chevron-down" aria-hidden="true" %} dropdown menu, then click the AI model of your choice.
 
 ## Asking a general question about software development
 
 You can ask a general question about software development that is not focused on a particular context, such as a repository{% ifversion ghec %} or a knowledge base{% endif %}.
 
-Depending on the question you ask, and your enterprise and organization settings, {% data variables.product.prodname_copilot_short %} may respond using information based on the results of a Bing search. By using Bing search, {% data variables.product.prodname_copilot_short %} can answer a broad range of tech-related questions with up-to-date details based on information currently available on the internet. For information on how to enable or disable Bing search integration, see "[AUTOTITLE](/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise)."
+Depending on the question you ask, and your enterprise and organization settings, {% data variables.product.prodname_copilot_short %} may respond using information based on the results of a Bing search. By using Bing search, {% data variables.product.prodname_copilot_short %} can answer a broad range of tech-related questions with up-to-date details based on information currently available on the internet. For information on how to enable or disable Bing search integration, see "[AUTOTITLE](/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-policies-as-an-individual-subscriber#enabling-or-disabling-web-search-for-github-copilot-chat)" and "[AUTOTITLE](/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise)."
 
 > [!NOTE] Bing search integration into {% data variables.product.prodname_copilot_chat_dotcom_short %} is currently in {% data variables.release-phases.public_preview %} and is subject to change.
 

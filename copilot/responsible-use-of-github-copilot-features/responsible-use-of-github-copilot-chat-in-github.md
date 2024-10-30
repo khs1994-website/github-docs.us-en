@@ -1,8 +1,7 @@
 ---
-title: Responsible use of GitHub Copilot Chat in GitHub.com
-shortTitle: Chat in GitHub.com
+title: Responsible use of GitHub Copilot Chat in GitHub
+shortTitle: Chat in GitHub
 intro: 'Learn how to use {% data variables.product.prodname_copilot_chat_dotcom %} responsibly by understanding its purposes, capabilities, and limitations.'
-product: '{% data reusables.gated-features.copilot-chat-callout-dotcom %}'
 versions:
   feature: copilot
 topics:
@@ -13,6 +12,7 @@ redirect_from:
   - /copilot/github-copilot-enterprise/copilot-docset-management/about-copilot-docset-management
   - /copilot/github-copilot-enterprise/copilot-chat-in-github/about-github-copilot-chat-in-githubcom
   - /copilot/github-copilot-chat/copilot-chat-in-github/about-github-copilot-chat-in-githubcom
+  - /copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-githubcom
 ---
 
 > [!NOTE] {% data reusables.rai.copilot.copilot-chat-dotcom-beta %}

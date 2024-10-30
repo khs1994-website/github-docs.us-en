@@ -7,6 +7,7 @@ versions:
 topics:
   - Copilot
 redirect_from:
+  - /copilot/using-github-copilot/creating-a-pull-request-summary-with-github-copilot
   - /copilot/github-copilot-enterprise/copilot-pull-request-summaries/creating-a-pull-request-summary-with-github-copilot
   - /copilot/github-copilot-enterprise/copilot-pull-request-summaries
 ---

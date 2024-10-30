@@ -1,7 +1,7 @@
 ---
-title: Enabling GitHub.com repository search from your private enterprise environment
-shortTitle: Search GitHub.com from enterprise
-intro: 'You can connect your personal accounts on {% data variables.product.prodname_dotcom_the_website %} and your private {% data variables.product.prodname_enterprise %} environment to search for content in certain {% data variables.product.prodname_dotcom_the_website %} repositories{% ifversion fpt or ghec %} from your private environment{% else %} from {% data variables.product.product_name %}{% endif %}.'
+title: Enabling repository search across environments
+shortTitle: Search across environments
+intro: 'Unify search results in {% data variables.product.prodname_ghe_server %} by connecting your account on {% data variables.product.prodname_dotcom_the_website %}{% ifversion ghecom-github-connect %} or {% data variables.enterprise.data_residency_site %}{% endif %}.'
 redirect_from:
   - /articles/enabling-private-githubcom-repository-search-in-your-github-enterprise-account
   - /articles/enabling-private-github-com-repository-search-in-your-github-enterprise-server-account
@@ -9,13 +9,12 @@ redirect_from:
   - /articles/enabling-githubcom-repository-search-in-github-enterprise-server
   - /github/searching-for-information-on-github/enabling-githubcom-repository-search-in-github-enterprise-server
   - /github/searching-for-information-on-github/getting-started-with-searching-on-github/enabling-githubcom-repository-search-in-github-enterprise-server
+  - /search-github/getting-started-with-searching-on-github/enabling-githubcom-repository-search-from-your-private-enterprise-environment
 versions:
   ghes: '*'
 topics:
   - GitHub search
 ---
-
-## About search for {% data variables.product.prodname_dotcom_the_website %} repositories from {% data variables.product.product_name %}
 
 You can search for designated private repositories on {% data variables.product.prodname_ghe_cloud %} from {% data variables.location.product_location %}. For more information about searching across environments, see "[AUTOTITLE](/search-github/getting-started-with-searching-on-github/about-searching-on-github#searching-repositories-on-githubcom-from-your-private-enterprise-environment)."
 
@@ -23,9 +22,9 @@ You can search for designated private repositories on {% data variables.product.
 
 An enterprise owner for {% data variables.product.product_name %} must enable {% data variables.product.prodname_github_connect %} and {% data variables.enterprise.prodname_unified_search %} for private repositories. For more information, see "[AUTOTITLE](/admin/configuration/configuring-github-connect/enabling-unified-search-for-your-enterprise)."
 
-## Enabling {% data variables.product.prodname_dotcom_the_website %} repository search from {% data variables.product.product_name %}
+## Enabling unified repository search from {% data variables.product.product_name %}
 
-1. Sign into {% data variables.product.product_name %} and {% data variables.product.prodname_dotcom_the_website %}.
+1. Sign in to both your user account on {% data variables.product.product_name %} **and** your user account on {% data variables.product.prodname_ghe_cloud %} ({% data variables.product.prodname_dotcom_the_website %}{% ifversion ghecom-github-connect %} or {% data variables.enterprise.data_residency_site %}{% endif %}).
 1. On {% data variables.product.product_name %}, in the upper-right corner of any page, click your profile photo, then click **Settings**.
 
 {% ifversion global-nav-update %}

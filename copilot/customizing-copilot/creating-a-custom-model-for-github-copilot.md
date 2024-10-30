@@ -9,6 +9,7 @@ versions:
 topics:
   - Copilot
 redirect_from:
+  - /copilot/managing-copilot/managing-github-copilot-in-your-organization/customizing-copilot-for-your-organization/creating-a-custom-model-for-github-copilot
   - /copilot/managing-copilot/managing-github-copilot-in-your-organization/enhancing-copilot-for-your-organization/creating-a-custom-model-for-github-copilot
 ---
 
