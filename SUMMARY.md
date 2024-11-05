@@ -2971,6 +2971,7 @@
   - Oauth Authorizations
     * [REST API Endpoints For O Auth App Authorizations](rest/oauth-authorizations/oauth-authorizations.md)
   - Orgs
+    * [REST API Endpoints For API Insights](rest/orgs/api-insights.md)
     * [REST API Endpoints For Blocking Users](rest/orgs/blocking.md)
     * [REST API Endpoints For Custom Properties](rest/orgs/custom-properties.md)
     * [REST API Endpoints For Custom Repository Roles](rest/orgs/custom-roles.md)
