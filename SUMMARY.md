@@ -1308,6 +1308,7 @@
       * [Listing Dependencies Configured For Version Updates](code-security/dependabot/dependabot-version-updates/listing-dependencies-configured-for-version-updates.md)
     - Ecosystems Supported By Dependabot
       * [Ecosystems Supported By Dependabot](code-security/dependabot/ecosystems-supported-by-dependabot/index.md)
+      * [Optimizing Java Packages For Dependabot Updates](code-security/dependabot/ecosystems-supported-by-dependabot/optimizing-java-packages-dependabot.md)
       * [Dependabot Supported Ecosystems And Repositories](code-security/dependabot/ecosystems-supported-by-dependabot/supported-ecosystems-and-repositories.md)
     - Working With Dependabot
       * [About Dependabot On Git Hub Actions Runners](code-security/dependabot/working-with-dependabot/about-dependabot-on-github-actions-runners.md)
