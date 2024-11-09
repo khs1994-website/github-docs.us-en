@@ -1,8 +1,7 @@
 ---
 title: Customizing auto-triage rules to prioritize Dependabot alerts
 intro: 'You can create your own {% data variables.dependabot.auto_triage_rules_short %} to control which alerts are dismissed or snoozed, and which alerts you want {% data variables.product.prodname_dependabot %} to open pull requests for.'
-permissions: 'People with write permissions can view {% data variables.dependabot.auto_triage_rules %} for the repository. People with admin permissions to a repository can enable or disable {% data variables.dependabot.auto_triage_rules_short %} for the repository, as well as create {% data variables.dependabot.custom_rules %}. Additionally, organization owners and security managers can set {% data variables.dependabot.auto_triage_rules_short %} at the organization-level and optionally choose to enforce rules for repositories in the organization.'
-product: '{% data reusables.gated-features.dependabot-custom-auto-triage-rules %}'
+permissions: '{% data reusables.permissions.dependabot-auto-triage-rules %}'
 versions:
   feature: dependabot-auto-triage-rules
 type: how_to
@@ -30,11 +29,8 @@ Organization owners and security managers can set {% data variables.dependabot.c
    * **Enforced**: If an organization-level rule is "enforced", repository administrators cannot edit, disable, or delete the rule.
    * **Enabled**: If an organization-level rule is "enabled", repository administrators can still disable the rule for their repository.
 
-{% note %}
-
-**Note:** In the event that an organization-level rule and a repository-level rule specify conflicting behaviors, the action set out by the organization-level rule takes precedence. Dismissal rules always act before rules which trigger {% data variables.product.prodname_dependabot %} pull requests.
-
-{% endnote %}
+> [!NOTE]
+> In the event that an organization-level rule and a repository-level rule specify conflicting behaviors, the action set out by the organization-level rule takes precedence. Dismissal rules always act before rules which trigger {% data variables.product.prodname_dependabot %} pull requests.
 
 You can create rules to target alerts using the following metadata:
 
@@ -58,11 +54,8 @@ For more information about enabling or disabling {% data variables.product.prodn
 
 ## Adding {% data variables.dependabot.custom_rules %} to your repository
 
-{% note %}
-
-**Note:** During the {% data variables.release-phases.public_preview %}, you can create up to 10 {% data variables.dependabot.custom_rules %} for a repository.
-
-{% endnote %}
+> [!NOTE]
+> During the {% data variables.release-phases.public_preview %}, you can create up to 10 {% data variables.dependabot.custom_rules %} for a repository.
 
 {% data reusables.repositories.navigate-to-repo %}
 {% data reusables.repositories.sidebar-settings %}
@@ -83,11 +76,8 @@ For more information about enabling or disabling {% data variables.product.prodn
 
 {% else %}
 
-{% note %}
-
-**Note:** During the {% data variables.release-phases.public_preview %}, you can create up to 25 {% data variables.dependabot.custom_rules %} for your organization.
-
-{% endnote %}
+> [!NOTE]
+> During the {% data variables.release-phases.public_preview %}, you can create up to 25 {% data variables.dependabot.custom_rules %} for your organization.
 
 {% data reusables.profile.access_org %}
 {% data reusables.profile.org_settings %}

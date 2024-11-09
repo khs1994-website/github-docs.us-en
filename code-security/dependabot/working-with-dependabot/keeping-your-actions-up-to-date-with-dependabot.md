@@ -1,6 +1,7 @@
 ---
 title: Keeping your actions up to date with Dependabot
 intro: 'You can use {% data variables.product.prodname_dependabot %} to keep the actions you use updated to the latest versions.'
+permissions: '{% data reusables.permissions.dependabot-yml-configure %}'
 redirect_from:
   - /github/administering-a-repository/keeping-your-actions-up-to-date-with-github-dependabot
   - /github/administering-a-repository/keeping-your-actions-up-to-date-with-dependabot
@@ -32,11 +33,10 @@ If a more recent version of the action is available, {% data variables.product.p
 {% data variables.product.prodname_dependabot %} also checks workflow files for uses of reusable workflows, and updates the git reference for these called reusable workflows. For more information about reusable workflows, see "[AUTOTITLE](/actions/using-workflows/reusing-workflows)."
 
 {% ifversion fpt or ghec %}
-{% note %}
 
-**Note:**  {% data reusables.actions.workflow-runs-dependabot-note %}
+> [!NOTE]
+> {% data reusables.actions.workflow-runs-dependabot-note %}
 
-{% endnote %}
 {% endif %}
 
 ## Enabling {% data variables.product.prodname_dependabot_version_updates %} for actions
