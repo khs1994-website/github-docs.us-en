@@ -1390,8 +1390,10 @@
     * [Keeping Secrets Secure With Secret Scanning](code-security/secret-scanning/index.md)
   - Securing Your Organization
     - Enabling Security Features In Your Organization
+      * [Applying A Custom Security Configuration](code-security/securing-your-organization/enabling-security-features-in-your-organization/applying-a-custom-security-configuration.md)
       * [Applying The Git Hub Recommended Security Configuration In Your Organization](code-security/securing-your-organization/enabling-security-features-in-your-organization/applying-the-github-recommended-security-configuration-in-your-organization.md)
       * [Configuring Global Security Settings For Your Organization](code-security/securing-your-organization/enabling-security-features-in-your-organization/configuring-global-security-settings-for-your-organization.md)
+      * [Creating A Custom Security Configuration](code-security/securing-your-organization/enabling-security-features-in-your-organization/creating-a-custom-security-configuration.md)
       * [Enabling Security Features In Your Organization](code-security/securing-your-organization/enabling-security-features-in-your-organization/index.md)
     - Fixing Security Alerts At Scale
       * [About Security Campaigns](code-security/securing-your-organization/fixing-security-alerts-at-scale/about-security-campaigns.md)
@@ -1407,15 +1409,13 @@
       * [Detaching Repositories From Their Security Configurations](code-security/securing-your-organization/managing-the-security-of-your-organization/detaching-repositories-from-their-security-configurations.md)
       * [Editing A Custom Security Configuration](code-security/securing-your-organization/managing-the-security-of-your-organization/editing-a-custom-security-configuration.md)
       * [Filtering Repositories In Your Organization Using The Repository Table](code-security/securing-your-organization/managing-the-security-of-your-organization/filtering-repositories-in-your-organization-using-the-repository-table.md)
+      * [Finding And Fixing Configuration Attachment Failures](code-security/securing-your-organization/managing-the-security-of-your-organization/finding-repositories-with-attachment-failures.md)
       * [Managing The Security Of Your Organization](code-security/securing-your-organization/managing-the-security-of-your-organization/index.md)
       * [Interpreting Security Findings](code-security/securing-your-organization/managing-the-security-of-your-organization/interpreting-security-findings.md)
       * [Managing Your Git Hub Advanced Security License Usage](code-security/securing-your-organization/managing-the-security-of-your-organization/managing-your-github-advanced-security-license-usage.md)
-    - Meeting Your Specific Security Needs With Custom Security Configurations
-      * [Applying A Custom Security Configuration](code-security/securing-your-organization/meeting-your-specific-security-needs-with-custom-security-configurations/applying-a-custom-security-configuration.md)
-      * [Creating A Custom Security Configuration](code-security/securing-your-organization/meeting-your-specific-security-needs-with-custom-security-configurations/creating-a-custom-security-configuration.md)
-      * [Meeting Your Specific Security Needs With Custom Security Configurations](code-security/securing-your-organization/meeting-your-specific-security-needs-with-custom-security-configurations/index.md)
     - Troubleshooting Security Configurations
       * [A Repository Is Using Advanced Setup For Code Scanning](code-security/securing-your-organization/troubleshooting-security-configurations/a-repository-is-using-advanced-setup-for-code-scanning.md)
+      * [A Feature Has Disappeared From A Security Configuration](code-security/securing-your-organization/troubleshooting-security-configurations/feature-disappears.md)
       * [Troubleshooting Security Configurations](code-security/securing-your-organization/troubleshooting-security-configurations/index.md)
       * [Not Enough Git Hub Advanced Security Licenses](code-security/securing-your-organization/troubleshooting-security-configurations/not-enough-github-advanced-security-licenses.md)
     * [Securing Your Organization](code-security/securing-your-organization/index.md)

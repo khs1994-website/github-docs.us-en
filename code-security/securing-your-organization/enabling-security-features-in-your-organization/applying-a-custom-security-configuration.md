@@ -9,11 +9,13 @@ topics:
   - Advanced Security
   - Organizations
   - Security
+redirect_from:
+  - /code-security/securing-your-organization/meeting-your-specific-security-needs-with-custom-security-configurations/applying-a-custom-security-configuration
 ---
 
 ## About applying a {% data variables.product.prodname_custom_security_configuration %}
 
-After you create a {% data variables.product.prodname_custom_security_configuration %}, you need to apply it to repositories in your organization to enable the configuration's settings on those repositories. To learn how to create a {% data variables.product.prodname_custom_security_configuration %}, see "[AUTOTITLE](/code-security/securing-your-organization/meeting-your-specific-security-needs-with-custom-security-configurations/creating-a-custom-security-configuration)."
+After you create a {% data variables.product.prodname_custom_security_configuration %}, you need to apply it to repositories in your organization to enable the configuration's settings on those repositories. To learn how to create a {% data variables.product.prodname_custom_security_configuration %}, see "[AUTOTITLE](/code-security/securing-your-organization/enabling-security-features-in-your-organization/creating-a-custom-security-configuration)."
 
 ## Applying your {% data variables.product.prodname_custom_security_configuration %} to repositories in your organization
 
