@@ -1338,10 +1338,10 @@
   - Secret Scanning
     - Copilot Secret Scanning
       * [Enabling Copilot Secret Scanning S Generic Secret Detection](code-security/secret-scanning/copilot-secret-scanning/enabling-ai-powered-generic-secret-detection.md)
-      * [Generating Regular Expressions For Custom Patterns With AI](code-security/secret-scanning/copilot-secret-scanning/generating-regular-expressions-for-custom-patterns-with-ai.md)
+      * [Generating Regular Expressions For Custom Patterns With Copilot Secret Scanning](code-security/secret-scanning/copilot-secret-scanning/generating-regular-expressions-for-custom-patterns-with-copilot-secret-scanning.md)
       * [Enhance Your Secret Detection Capabilities With Copilot Secret Scanning](code-security/secret-scanning/copilot-secret-scanning/index.md)
       * [Responsible Detection Of Generic Secrets With Copilot Secret Scanning](code-security/secret-scanning/copilot-secret-scanning/responsible-ai-generic-secrets.md)
-      * [Responsible Use Of AI To Define Regular Expressions](code-security/secret-scanning/copilot-secret-scanning/responsible-use-ai-regex-generator.md)
+      * [Responsible Generation Of Regular Expressions With Copilot Secret Scanning](code-security/secret-scanning/copilot-secret-scanning/responsible-ai-regex-generator.md)
     - Enabling Secret Scanning Features
       * [Enabling Push Protection For Your Repository](code-security/secret-scanning/enabling-secret-scanning-features/enabling-push-protection-for-your-repository.md)
       * [Enabling Secret Scanning For Your Repository](code-security/secret-scanning/enabling-secret-scanning-features/enabling-secret-scanning-for-your-repository.md)
