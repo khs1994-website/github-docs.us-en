@@ -685,7 +685,7 @@
       * [Removing A High Availability Replica](admin/monitoring-and-managing-your-instance/configuring-high-availability/removing-a-high-availability-replica.md)
     - Monitoring Your Instance
       * [About System Logs](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-system-logs.md)
-      * [Accessing The Monitor Dashboard](admin/monitoring-and-managing-your-instance/monitoring-your-instance/accessing-the-monitor-dashboard.md)
+      * [About the monitor {% ifversion ghes > 3.15 %}dashboards{% else %}dashboard{% endif %}](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-the-monitor-dashboards.md)
       * [Collectd Metrics For Git Hub Enterprise Server](admin/monitoring-and-managing-your-instance/monitoring-your-instance/collectd-metrics-for-github-enterprise-server.md)
       * [Configuring Collectd For Your Instance](admin/monitoring-and-managing-your-instance/monitoring-your-instance/configuring-collectd-for-your-instance.md)
       * [Generating A Health Check For Your Enterprise](admin/monitoring-and-managing-your-instance/monitoring-your-instance/generating-a-health-check-for-your-enterprise.md)
@@ -1729,6 +1729,34 @@
     * [Customizing Copilot](copilot/customizing-copilot/index.md)
     * [Indexing Repositories For Copilot Chat](copilot/customizing-copilot/indexing-repositories-for-copilot-chat.md)
     * [Managing Copilot Knowledge Bases](copilot/customizing-copilot/managing-copilot-knowledge-bases.md)
+  - Example Prompts For Github Copilot Chat
+    - Debugging Errors
+      * [Debugging Invalid JSON](copilot/example-prompts-for-github-copilot-chat/debugging-errors/debugging-invalid-json.md)
+      * [Handling API Rate Limits](copilot/example-prompts-for-github-copilot-chat/debugging-errors/handling-api-rate-limits.md)
+      * [Debugging Errors](copilot/example-prompts-for-github-copilot-chat/debugging-errors/index.md)
+    - Documenting Code
+      * [Documenting Legacy Code](copilot/example-prompts-for-github-copilot-chat/documenting-code/documenting-legacy-code.md)
+      * [Explaining Complex Algorithms Or Logic](copilot/example-prompts-for-github-copilot-chat/documenting-code/explaining-complex-algorithms-or-logic.md)
+      * [Explaining Legacy Code](copilot/example-prompts-for-github-copilot-chat/documenting-code/explaining-legacy-code.md)
+      * [Documenting Code](copilot/example-prompts-for-github-copilot-chat/documenting-code/index.md)
+      * [Syncing Documentation With Code Changes](copilot/example-prompts-for-github-copilot-chat/documenting-code/syncing-documentation-with-code-changes.md)
+    - Refactoring Code
+      * [Decoupling Business Logic From UI Components](copilot/example-prompts-for-github-copilot-chat/refactoring-code/decoupling-business-logic-from-ui-components.md)
+      * [Fixing Lint Errors](copilot/example-prompts-for-github-copilot-chat/refactoring-code/fixing-lint-errors.md)
+      * [Improving Code Readability And Maintainability](copilot/example-prompts-for-github-copilot-chat/refactoring-code/improving-code-readability-and-maintainability.md)
+      * [Refactoring Code](copilot/example-prompts-for-github-copilot-chat/refactoring-code/index.md)
+      * [Refactoring Data Access Layers](copilot/example-prompts-for-github-copilot-chat/refactoring-code/refactoring-data-access-layers.md)
+      * [Refactoring For Performance Optimization](copilot/example-prompts-for-github-copilot-chat/refactoring-code/refactoring-for-performance-optimization.md)
+      * [Refactoring To Implement A Design Pattern](copilot/example-prompts-for-github-copilot-chat/refactoring-code/refactoring-to-implement-a-design-pattern.md)
+    - Security Analysis
+      * [Finding Existing Vulnerabilities In Code](copilot/example-prompts-for-github-copilot-chat/security-analysis/finding-existing-vulnerabilities-in-code.md)
+      * [Security Analysis](copilot/example-prompts-for-github-copilot-chat/security-analysis/index.md)
+    - Testing Code
+      * [Create End To End Tests For A Webpage](copilot/example-prompts-for-github-copilot-chat/testing-code/create-end-to-end-tests-for-a-webpage.md)
+      * [Create Mock Objects To Abstract Layers](copilot/example-prompts-for-github-copilot-chat/testing-code/create-mock-objects-to-abstract-layers.md)
+      * [Generate Unit Tests](copilot/example-prompts-for-github-copilot-chat/testing-code/generate-unit-tests.md)
+      * [Testing Code](copilot/example-prompts-for-github-copilot-chat/testing-code/index.md)
+    * [Example Prompts For Git Hub Copilot Chat](copilot/example-prompts-for-github-copilot-chat/index.md)
   - Managing Copilot
     - Configure Personal Settings
       * [Configuring Git Hub Copilot In The CLI](copilot/managing-copilot/configure-personal-settings/configuring-github-copilot-in-the-cli.md)
@@ -1816,11 +1844,11 @@
       * [Configuring Coding Guidelines For Git Hub Copilot Code Review](copilot/using-github-copilot/code-review/configuring-coding-guidelines.md)
       * [Code Review](copilot/using-github-copilot/code-review/index.md)
       * [Using Git Hub Copilot Code Review](copilot/using-github-copilot/code-review/using-copilot-code-review.md)
-    - Example Use Cases
-      * [Example Prompts For Copilot Chat](copilot/using-github-copilot/example-use-cases/example-prompts-for-copilot-chat.md)
-      * [Example Use Cases](copilot/using-github-copilot/example-use-cases/index.md)
-      * [Refactoring Code With Git Hub Copilot](copilot/using-github-copilot/example-use-cases/refactoring-code-with-github-copilot.md)
-      * [Writing Tests With Git Hub Copilot](copilot/using-github-copilot/example-use-cases/writing-tests-with-github-copilot.md)
+    - Guides On Using Github Copilot
+      * [Getting Started With Prompts For Copilot Chat](copilot/using-github-copilot/guides-on-using-github-copilot/getting-started-with-prompts-for-copilot-chat.md)
+      * [Guides On Using Git Hub Copilot](copilot/using-github-copilot/guides-on-using-github-copilot/index.md)
+      * [Refactoring Code With Git Hub Copilot](copilot/using-github-copilot/guides-on-using-github-copilot/refactoring-code-with-github-copilot.md)
+      * [Writing Tests With Git Hub Copilot](copilot/using-github-copilot/guides-on-using-github-copilot/writing-tests-with-github-copilot.md)
     - Using Github Copilot For Pull Requests
       * [Creating A Pull Request Summary With Git Hub Copilot](copilot/using-github-copilot/using-github-copilot-for-pull-requests/creating-a-pull-request-summary-with-github-copilot.md)
       * [Using Git Hub Copilot For Pull Requests](copilot/using-github-copilot/using-github-copilot-for-pull-requests/index.md)
@@ -2846,6 +2874,7 @@
     * [Permissions Required For Git Hub Apps](rest/authentication/permissions-required-for-github-apps.md)
   - Billing
     * [REST API Endpoints For Billing](rest/billing/index.md)
+    * [Enhanced Billing Platform](rest/billing/enhanced-billing.md)
   - Branches
     * [REST API Endpoints For Protected Branches](rest/branches/branch-protection.md)
     * [REST API Endpoints For Branches](rest/branches/branches.md)

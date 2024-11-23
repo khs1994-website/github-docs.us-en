@@ -19,11 +19,11 @@ topics:
 
 ## What happens when I change my organization's name?
 
-After changing your organization's name, your previous organization name will be unavailable for anyone to claim for 90 days. When you change your organization's name, most references to your repositories under the previous organization name automatically change to the new name. However, some links to your profile won't automatically redirect.
+After changing your organization's name, your old organization name becomes available for someone else to claim. When you change your organization's name, most references to your repositories under the old organization name automatically change to the new name. However, some links to your profile won't automatically redirect.
 
 ### Changes that occur automatically
 
-* {% data variables.product.prodname_dotcom %} automatically redirects references to your repositories.  Web links to your organization's existing **repositories** will continue to work. This can take a few minutes to complete after you initiate the change.
+* {% data variables.product.prodname_dotcom %} automatically redirects references to your repositories. Web links to your organization's existing **repositories** will continue to work. This can take a few minutes to complete after you initiate the change.
 * You can continue pushing your local repositories to the old remote tracking URL without updating it. However, we recommend you update all existing remote repository URLs after changing your organization name. Because your old organization name is available for use by anyone else after you change it, the new organization owner can create repositories that override the redirect entries to your repository. For more information, see "[AUTOTITLE](/get-started/getting-started-with-git/managing-remote-repositories)."
 * Previous Git commits will also be correctly attributed to users within your organization.{% ifversion fpt or ghec %}
 * {% data reusables.accounts.rename-account-repo-namespace-retirement %}{% endif %}
