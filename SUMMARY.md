@@ -1674,6 +1674,7 @@
     * [Troubleshooting Content Type](contributing/style-guide-and-content-model/troubleshooting-content-type.md)
     * [Tutorial Content Type](contributing/style-guide-and-content-model/tutorial-content-type.md)
   - Writing For Github Docs
+    * [About Git Hub S Documentation Fundamentals](contributing/writing-for-github-docs/about-githubs-documentation-fundamentals.md)
     * [About Git Hub S Documentation Philosophy](contributing/writing-for-github-docs/about-githubs-documentation-philosophy.md)
     * [Annotating Code Examples](contributing/writing-for-github-docs/annotating-code-examples.md)
     * [Best Practices For Git Hub Docs](contributing/writing-for-github-docs/best-practices-for-github-docs.md)
@@ -2031,6 +2032,7 @@
     * [Following People](get-started/exploring-projects-on-github/following-people.md)
     * [Exploring Projects On Git Hub](get-started/exploring-projects-on-github/index.md)
     * [Saving Repositories With Stars](get-started/exploring-projects-on-github/saving-repositories-with-stars.md)
+    * [Using Git Hub Copilot To Explore Projects](get-started/exploring-projects-on-github/using-github-copilot-to-explore-projects.md)
   - Getting Started With Git
     * [About Remote Repositories](get-started/getting-started-with-git/about-remote-repositories.md)
     * [Associating Text Editors With Git](get-started/getting-started-with-git/associating-text-editors-with-git.md)
@@ -2822,7 +2824,7 @@
       * [Getting Permanent Links To Files](repositories/working-with-files/using-files/getting-permanent-links-to-files.md)
       * [Using Files](repositories/working-with-files/using-files/index.md)
       * [Navigating Code On Git Hub](repositories/working-with-files/using-files/navigating-code-on-github.md)
-      * [Viewing A File](repositories/working-with-files/using-files/viewing-a-file.md)
+      * [Viewing And Understanding Files](repositories/working-with-files/using-files/viewing-and-understanding-files.md)
       * [Working With Non Code Files](repositories/working-with-files/using-files/working-with-non-code-files.md)
     * [Working With Files](repositories/working-with-files/index.md)
   * [Repositories Documentation](repositories/index.md)
