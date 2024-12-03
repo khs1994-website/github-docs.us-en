@@ -2988,6 +2988,7 @@
     * [REST API Endpoints For Issues](rest/issues/issues.md)
     * [REST API Endpoints For Labels](rest/issues/labels.md)
     * [REST API Endpoints For Milestones](rest/issues/milestones.md)
+    * [REST API Endpoints For Sub Issues](rest/issues/sub-issues.md)
     * [REST API Endpoints For Timeline Events](rest/issues/timeline.md)
   - Licenses
     * [REST API Endpoints For Licenses](rest/licenses/licenses.md)
