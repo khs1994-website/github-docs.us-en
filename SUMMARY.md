@@ -1741,14 +1741,20 @@
       * [Explaining Legacy Code](copilot/example-prompts-for-github-copilot-chat/documenting-code/explaining-legacy-code.md)
       * [Documenting Code](copilot/example-prompts-for-github-copilot-chat/documenting-code/index.md)
       * [Syncing Documentation With Code Changes](copilot/example-prompts-for-github-copilot-chat/documenting-code/syncing-documentation-with-code-changes.md)
+    - Functionality Analysis And Feature Suggestions
+      * [Analyzing And Incorporating User Feedback](copilot/example-prompts-for-github-copilot-chat/functionality-analysis-and-feature-suggestions/analyzing-and-incorporating-user-feedback.md)
+      * [Exploring Potential Feature Implementations](copilot/example-prompts-for-github-copilot-chat/functionality-analysis-and-feature-suggestions/exploring-potential-feature-implementations.md)
+      * [Functionality Analysis And Feature Suggestions](copilot/example-prompts-for-github-copilot-chat/functionality-analysis-and-feature-suggestions/index.md)
     - Refactoring Code
       * [Decoupling Business Logic From UI Components](copilot/example-prompts-for-github-copilot-chat/refactoring-code/decoupling-business-logic-from-ui-components.md)
+      * [Fixing Database Deadlocks Or Data Integrity Issues](copilot/example-prompts-for-github-copilot-chat/refactoring-code/fixing-database-deadlocks-or-data-integrity-issues.md)
       * [Fixing Lint Errors](copilot/example-prompts-for-github-copilot-chat/refactoring-code/fixing-lint-errors.md)
       * [Improving Code Readability And Maintainability](copilot/example-prompts-for-github-copilot-chat/refactoring-code/improving-code-readability-and-maintainability.md)
       * [Refactoring Code](copilot/example-prompts-for-github-copilot-chat/refactoring-code/index.md)
       * [Refactoring Data Access Layers](copilot/example-prompts-for-github-copilot-chat/refactoring-code/refactoring-data-access-layers.md)
       * [Refactoring For Performance Optimization](copilot/example-prompts-for-github-copilot-chat/refactoring-code/refactoring-for-performance-optimization.md)
       * [Refactoring To Implement A Design Pattern](copilot/example-prompts-for-github-copilot-chat/refactoring-code/refactoring-to-implement-a-design-pattern.md)
+      * [Simplifying Complex Inheritance Hierarchies](copilot/example-prompts-for-github-copilot-chat/refactoring-code/simplifying-complex-inheritance-hierarchies.md)
     - Security Analysis
       * [Finding Existing Vulnerabilities In Code](copilot/example-prompts-for-github-copilot-chat/security-analysis/finding-existing-vulnerabilities-in-code.md)
       * [Security Analysis](copilot/example-prompts-for-github-copilot-chat/security-analysis/index.md)
@@ -2446,7 +2452,6 @@
     * [Creating An Announcement Banner For Your Organization](organizations/managing-organization-settings/creating-an-announcement-banner-for-your-organization.md)
     * [Creating Rulesets For Repositories In Your Organization](organizations/managing-organization-settings/creating-rulesets-for-repositories-in-your-organization.md)
     * [Deleting An Organization Account](organizations/managing-organization-settings/deleting-an-organization-account.md)
-    * [Disabling insights for {% data variables.projects.projects_v2 %} in your organization](organizations/managing-organization-settings/disabling-insights-for-projects-in-your-organization.md)
     * [Disabling Or Limiting Git Hub Actions For Your Organization](organizations/managing-organization-settings/disabling-or-limiting-github-actions-for-your-organization.md)
     * [Disabling {% ifversion projects-v2 %}projects{% else %}{% data variables.projects.projects_v1_boards %}{% endif %} in your organization](organizations/managing-organization-settings/disabling-project-boards-in-your-organization.md)
     * [Enabling Or Disabling Git Hub Discussions For An Organization](organizations/managing-organization-settings/enabling-or-disabling-github-discussions-for-an-organization.md)
