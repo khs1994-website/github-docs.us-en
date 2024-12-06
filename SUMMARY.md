@@ -1751,6 +1751,7 @@
       * [Decoupling Business Logic From UI Components](copilot/example-prompts-for-github-copilot-chat/refactoring-code/decoupling-business-logic-from-ui-components.md)
       * [Fixing Database Deadlocks Or Data Integrity Issues](copilot/example-prompts-for-github-copilot-chat/refactoring-code/fixing-database-deadlocks-or-data-integrity-issues.md)
       * [Fixing Lint Errors](copilot/example-prompts-for-github-copilot-chat/refactoring-code/fixing-lint-errors.md)
+      * [Handling Cross Cutting Concerns](copilot/example-prompts-for-github-copilot-chat/refactoring-code/handling-cross-cutting-concerns.md)
       * [Improving Code Readability And Maintainability](copilot/example-prompts-for-github-copilot-chat/refactoring-code/improving-code-readability-and-maintainability.md)
       * [Refactoring Code](copilot/example-prompts-for-github-copilot-chat/refactoring-code/index.md)
       * [Refactoring Data Access Layers](copilot/example-prompts-for-github-copilot-chat/refactoring-code/refactoring-data-access-layers.md)
@@ -1765,7 +1766,7 @@
       * [Create Mock Objects To Abstract Layers](copilot/example-prompts-for-github-copilot-chat/testing-code/create-mock-objects-to-abstract-layers.md)
       * [Generate Unit Tests](copilot/example-prompts-for-github-copilot-chat/testing-code/generate-unit-tests.md)
       * [Testing Code](copilot/example-prompts-for-github-copilot-chat/testing-code/index.md)
-    * [Example Prompts For Git Hub Copilot Chat](copilot/example-prompts-for-github-copilot-chat/index.md)
+    * [Copilot Chat Cookbook](copilot/example-prompts-for-github-copilot-chat/index.md)
   - Managing Copilot
     - Configure Personal Settings
       * [Configuring Git Hub Copilot In The CLI](copilot/managing-copilot/configure-personal-settings/configuring-github-copilot-in-the-cli.md)
