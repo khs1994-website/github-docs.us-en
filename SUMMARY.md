@@ -2947,6 +2947,7 @@
     * [REST API Endpoints For Enterprise Audit Logs](rest/enterprise-admin/audit-log.md)
     * [REST API Endpoints For Enterprise Billing](rest/enterprise-admin/billing.md)
     * [REST API Endpoints For Enterprise Code Security And Analysis](rest/enterprise-admin/code-security-and-analysis.md)
+    * [Custom Properties](rest/enterprise-admin/custom-properties.md)
     * [REST API Endpoints For Global Webhooks](rest/enterprise-admin/global-webhooks.md)
     * [REST API Endpoints For Git Hub Enterprise Administration](rest/enterprise-admin/index.md)
     * [REST API Endpoints For LDAP](rest/enterprise-admin/ldap.md)
