@@ -1820,6 +1820,7 @@
         * [Managing The Copilot Subscription For Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-the-copilot-subscription-for-your-organization/index.md)
         * [Subscribing To Copilot For Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-the-copilot-subscription-for-your-organization/subscribing-to-copilot-for-your-organization.md)
       - Reviewing Activity Related To Github Copilot In Your Organization
+        * [Analyzing Usage Over Time With The Copilot Metrics API](copilot/managing-copilot/managing-github-copilot-in-your-organization/reviewing-activity-related-to-github-copilot-in-your-organization/analyzing-usage-over-time-with-the-copilot-metrics-api.md)
         * [Reviewing Activity Related To Git Hub Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/reviewing-activity-related-to-github-copilot-in-your-organization/index.md)
         * [Reviewing Audit Logs For Copilot Business](copilot/managing-copilot/managing-github-copilot-in-your-organization/reviewing-activity-related-to-github-copilot-in-your-organization/reviewing-audit-logs-for-copilot-business.md)
         * [Reviewing User Activity Data For Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/reviewing-activity-related-to-github-copilot-in-your-organization/reviewing-user-activity-data-for-copilot-in-your-organization.md)
@@ -2638,8 +2639,9 @@
       * [Working With Pre Receive Hooks](pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/working-with-pre-receive-hooks.md)
     - Getting Started
       * [About Collaborative Development Models](pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models.md)
-      * [Best Practices For Pull Requests](pull-requests/collaborating-with-pull-requests/getting-started/best-practices-for-pull-requests.md)
+      * [Helping Others Review Your Changes](pull-requests/collaborating-with-pull-requests/getting-started/helping-others-review-your-changes.md)
       * [Getting Started](pull-requests/collaborating-with-pull-requests/getting-started/index.md)
+      * [Managing And Standardizing Pull Requests](pull-requests/collaborating-with-pull-requests/getting-started/managing-and-standardizing-pull-requests.md)
     - Incorporating Changes From A Pull Request
       * [About Pull Request Merges](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges.md)
       * [Automatically Merging A Pull Request](pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/automatically-merging-a-pull-request.md)
