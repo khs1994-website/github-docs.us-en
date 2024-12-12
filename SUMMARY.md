@@ -1775,6 +1775,7 @@
       * [Configuring Personal Settings](copilot/managing-copilot/configure-personal-settings/index.md)
       * [Installing Git Hub Copilot In The CLI](copilot/managing-copilot/configure-personal-settings/installing-github-copilot-in-the-cli.md)
       * [Installing The Git Hub Copilot Extension In Your Environment](copilot/managing-copilot/configure-personal-settings/installing-the-github-copilot-extension-in-your-environment.md)
+      * [Using GitHub Copilot with an account on GHE.com](copilot/managing-copilot/configure-personal-settings/using-github-copilot-with-an-account-on-ghecom.md)
     - Configuring And Auditing Content Exclusion
       * [Excluding Content From Git Hub Copilot](copilot/managing-copilot/configuring-and-auditing-content-exclusion/excluding-content-from-github-copilot.md)
       * [Configuring And Auditing Content Exclusion](copilot/managing-copilot/configuring-and-auditing-content-exclusion/index.md)
