@@ -523,6 +523,15 @@
       * [Enabling The Dependency Graph For Your Enterprise](admin/managing-code-security/managing-supply-chain-security-for-your-enterprise/enabling-the-dependency-graph-for-your-enterprise.md)
       * [Managing Supply Chain Security For Your Enterprise](admin/managing-code-security/managing-supply-chain-security-for-your-enterprise/index.md)
       * [Viewing The Vulnerability Data For Your Enterprise](admin/managing-code-security/managing-supply-chain-security-for-your-enterprise/viewing-the-vulnerability-data-for-your-enterprise.md)
+    - Securing Your Enterprise
+      * [About Security Configurations](admin/managing-code-security/securing-your-enterprise/about-security-configurations.md)
+      * [Applying A Custom Security Configuration To Your Enterprise](admin/managing-code-security/securing-your-enterprise/applying-a-custom-security-configuration-to-your-enterprise.md)
+      * [Applying The Git Hub Recommended Security Configuration To Your Enterprise](admin/managing-code-security/securing-your-enterprise/applying-the-github-recommended-security-configuration-to-your-enterprise.md)
+      * [Configuring Additional Secret Scanning Settings For Your Enterprise](admin/managing-code-security/securing-your-enterprise/configuring-additional-secret-scanning-settings-for-your-enterprise.md)
+      * [Creating A Custom Security Configuration For Your Enterprise](admin/managing-code-security/securing-your-enterprise/creating-a-custom-security-configuration-for-your-enterprise.md)
+      * [Deleting A Custom Security Configuration](admin/managing-code-security/securing-your-enterprise/deleting-a-custom-security-configuration.md)
+      * [Editing A Custom Security Configuration](admin/managing-code-security/securing-your-enterprise/editing-a-custom-security-configuration.md)
+      * [Securing Your Enterprise](admin/managing-code-security/securing-your-enterprise/index.md)
     * [Managing Code Security For Your Enterprise](admin/managing-code-security/index.md)
   - Managing Github Actions For Your Enterprise
     - Advanced Configuration And Troubleshooting
