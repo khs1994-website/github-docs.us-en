@@ -2971,6 +2971,7 @@
     * [REST API Endpoints For Pre Receive Environments](rest/enterprise-admin/pre-receive-environments.md)
     * [REST API Endpoints For Pre Receive Hooks](rest/enterprise-admin/pre-receive-hooks.md)
     * [REST API Endpoints For Repository Pre Receive Hooks](rest/enterprise-admin/repo-pre-receive-hooks.md)
+    * [REST API Endpoints For Rules](rest/enterprise-admin/rules.md)
     * [REST API Endpoints For SCIM](rest/enterprise-admin/scim.md)
     * [REST API Endpoints For Enterprise Users](rest/enterprise-admin/users.md)
   - Gists
