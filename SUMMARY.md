@@ -3034,6 +3034,7 @@
   - Orgs
     * [REST API Endpoints For API Insights](rest/orgs/api-insights.md)
     * [REST API Endpoints For Blocking Users](rest/orgs/blocking.md)
+    * [TODOCS](rest/orgs/bypass-requests.md)
     * [REST API Endpoints For Custom Properties](rest/orgs/custom-properties.md)
     * [REST API Endpoints For Custom Repository Roles](rest/orgs/custom-roles.md)
     * [REST API Endpoints For Organizations](rest/orgs/orgs.md)
@@ -3069,6 +3070,7 @@
     * [REST API Endpoints For Releases](rest/releases/releases.md)
   - Repos
     * [REST API Endpoints For Repository Autolinks](rest/repos/autolinks.md)
+    * [TODOCS](rest/repos/bypass-requests.md)
     * [REST API Endpoints For Repository Contents](rest/repos/contents.md)
     * [REST API Endpoints For Custom Properties](rest/repos/custom-properties.md)
     * [REST API Endpoints For Forks](rest/repos/forks.md)
