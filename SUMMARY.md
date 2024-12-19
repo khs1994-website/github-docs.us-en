@@ -1406,6 +1406,7 @@
       * [Applying The Git Hub Recommended Security Configuration In Your Organization](code-security/securing-your-organization/enabling-security-features-in-your-organization/applying-the-github-recommended-security-configuration-in-your-organization.md)
       * [Configuring Global Security Settings For Your Organization](code-security/securing-your-organization/enabling-security-features-in-your-organization/configuring-global-security-settings-for-your-organization.md)
       * [Creating A Custom Security Configuration](code-security/securing-your-organization/enabling-security-features-in-your-organization/creating-a-custom-security-configuration.md)
+      * [Giving Security Features Access To Private Registries](code-security/securing-your-organization/enabling-security-features-in-your-organization/giving-org-access-private-registries.md)
       * [Enabling Security Features In Your Organization](code-security/securing-your-organization/enabling-security-features-in-your-organization/index.md)
     - Fixing Security Alerts At Scale
       * [About Security Campaigns](code-security/securing-your-organization/fixing-security-alerts-at-scale/about-security-campaigns.md)
@@ -1739,7 +1740,6 @@
     * [Creating A Custom Model For Git Hub Copilot](copilot/customizing-copilot/creating-a-custom-model-for-github-copilot.md)
     * [Extending The Capabilities Of Git Hub Copilot In Your Organization](copilot/customizing-copilot/extending-the-capabilities-of-github-copilot-in-your-organization.md)
     * [Customizing Copilot](copilot/customizing-copilot/index.md)
-    * [Indexing Repositories For Copilot Chat](copilot/customizing-copilot/indexing-repositories-for-copilot-chat.md)
     * [Managing Copilot Knowledge Bases](copilot/customizing-copilot/managing-copilot-knowledge-bases.md)
   - Example Prompts For Github Copilot Chat
     - Debugging Errors
@@ -1790,14 +1790,15 @@
       * [Configuring And Auditing Content Exclusion](copilot/managing-copilot/configuring-and-auditing-content-exclusion/index.md)
       * [Reviewing Changes To Content Exclusions For Git Hub Copilot](copilot/managing-copilot/configuring-and-auditing-content-exclusion/reviewing-changes-to-content-exclusions-for-github-copilot.md)
     - Managing Copilot As An Individual Subscriber
-      - Managing Your Copilot Subscription
-        * [About Billing For Git Hub Copilot Individual](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/about-billing-for-github-copilot-individual.md)
-        * [Canceling Copilot As An Individual User](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/canceling-copilot-as-an-individual-user.md)
-        * [Canceling Your Copilot Trial As An Individual User](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/canceling-your-copilot-trial-as-an-individual-user.md)
-        * [Getting Free Access To Copilot As A Student Teacher Or Maintainer](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer.md)
-        * [Managing Your Copilot Subscription](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/index.md)
-        * [Modifying Your Copilot Subscription As An Individual User](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/modifying-your-copilot-subscription-as-an-individual-user.md)
-        * [Subscribing To Copilot As An Individual User](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/subscribing-to-copilot-as-an-individual-user.md)
+      - Managing Your Github Copilot Pro Subscription
+        * [About Billing For Copilot Pro](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-github-copilot-pro-subscription/about-billing-for-copilot-pro.md)
+        * [Canceling Copilot Pro As An Individual User](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-github-copilot-pro-subscription/canceling-copilot-pro-as-an-individual-user.md)
+        * [Canceling Your Copilot Pro Trial As An Individual User](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-github-copilot-pro-subscription/canceling-your-copilot-pro-trial-as-an-individual-user.md)
+        * [Getting Free Access To Copilot Pro As A Student Teacher Or Maintainer](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-github-copilot-pro-subscription/getting-free-access-to-copilot-pro-as-a-student-teacher-or-maintainer.md)
+        * [Managing Your Git Hub Copilot Pro Subscription](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-github-copilot-pro-subscription/index.md)
+        * [Modifying Your Copilot Pro Subscription As An Individual User](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-github-copilot-pro-subscription/modifying-your-copilot-pro-subscription-as-an-individual-user.md)
+        * [Subscribing To Copilot Pro As An Individual User](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-github-copilot-pro-subscription/subscribing-to-copilot-pro-as-an-individual-user.md)
+      * [About Git Hub Copilot Free](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/about-github-copilot-free.md)
       * [Extending The Capabilities Of Git Hub Copilot In Your Personal Account](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/extending-the-capabilities-of-github-copilot-in-your-personal-account.md)
       * [Managing Copilot As An Individual Subscriber](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/index.md)
       * [Managing Copilot Policies As An Individual Subscriber](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-policies-as-an-individual-subscriber.md)
@@ -1882,6 +1883,7 @@
     * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/using-github-copilot/finding-public-code-that-matches-github-copilot-suggestions.md)
     * [Getting Code Suggestions In Your IDE With Git Hub Copilot](copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot.md)
     * [Using Git Hub Copilot](copilot/using-github-copilot/index.md)
+    * [Indexing Repositories For Copilot Chat](copilot/using-github-copilot/indexing-repositories-for-copilot-chat.md)
     * [Prompt Engineering For Git Hub Copilot](copilot/using-github-copilot/prompt-engineering-for-github-copilot.md)
     * [Using Claude 3.5 Sonnet in GitHub Copilot](copilot/using-github-copilot/using-claude-sonnet-in-github-copilot.md)
     * [Using Copilot Text Completion](copilot/using-github-copilot/using-copilot-text-completion.md)
