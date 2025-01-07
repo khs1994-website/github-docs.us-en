@@ -1525,7 +1525,6 @@
     * [Stopping And Starting A Codespace](codespaces/developing-in-a-codespace/stopping-and-starting-a-codespace.md)
     * [Using Git Hub Codespaces For Pull Requests](codespaces/developing-in-a-codespace/using-github-codespaces-for-pull-requests.md)
     * [Using Git Hub Codespaces In Visual Studio Code](codespaces/developing-in-a-codespace/using-github-codespaces-in-visual-studio-code.md)
-    * [Using Git Hub Codespaces In Your Jet Brains IDE](codespaces/developing-in-a-codespace/using-github-codespaces-in-your-jetbrains-ide.md)
     * [Using Git Hub Codespaces With Git Hub CLI](codespaces/developing-in-a-codespace/using-github-codespaces-with-github-cli.md)
     * [Using Source Control In Your Codespace](codespaces/developing-in-a-codespace/using-source-control-in-your-codespace.md)
     * [Working Collaboratively In A Codespace](codespaces/developing-in-a-codespace/working-collaboratively-in-a-codespace.md)
@@ -1567,7 +1566,6 @@
     * [Reference](codespaces/reference/index.md)
     * [Security In Git Hub Codespaces](codespaces/reference/security-in-github-codespaces.md)
     * [Using Git Hub Copilot In Git Hub Codespaces](codespaces/reference/using-github-copilot-in-github-codespaces.md)
-    * [Using The Git Hub Codespaces Plugin For Jet Brains](codespaces/reference/using-the-github-codespaces-plugin-for-jetbrains.md)
     * [Using The Visual Studio Code Command Palette In Git Hub Codespaces](codespaces/reference/using-the-vs-code-command-palette-in-codespaces.md)
   - Setting Up Your Project For Codespaces
     - Adding A Dev Container Configuration
