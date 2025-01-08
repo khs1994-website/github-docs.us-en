@@ -1837,7 +1837,6 @@
         * [Managing The Copilot Subscription For Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-the-copilot-subscription-for-your-organization/index.md)
         * [Subscribing To Copilot For Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-the-copilot-subscription-for-your-organization/subscribing-to-copilot-for-your-organization.md)
       - Reviewing Activity Related To Github Copilot In Your Organization
-        * [Analyzing Usage Over Time With The Copilot Metrics API](copilot/managing-copilot/managing-github-copilot-in-your-organization/reviewing-activity-related-to-github-copilot-in-your-organization/analyzing-usage-over-time-with-the-copilot-metrics-api.md)
         * [Reviewing Activity Related To Git Hub Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/reviewing-activity-related-to-github-copilot-in-your-organization/index.md)
         * [Reviewing Audit Logs For Copilot Business](copilot/managing-copilot/managing-github-copilot-in-your-organization/reviewing-activity-related-to-github-copilot-in-your-organization/reviewing-audit-logs-for-copilot-business.md)
         * [Reviewing User Activity Data For Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/reviewing-activity-related-to-github-copilot-in-your-organization/reviewing-user-activity-data-for-copilot-in-your-organization.md)
@@ -1855,6 +1854,10 @@
     * [Responsible Use Of Git Hub Copilot In Windows Terminal](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-in-windows-terminal.md)
     * [Responsible Use Of Git Hub Copilot Pull Request Summaries](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-pull-request-summaries.md)
     * [Responsible Use Of Git Hub Copilot Text Completion](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-text-completion.md)
+  - Rolling Out Github Copilot At Scale
+    * [Analyzing Usage Over Time With The Copilot Metrics API](copilot/rolling-out-github-copilot-at-scale/analyzing-usage-over-time-with-the-copilot-metrics-api.md)
+    * [Driving Copilot Adoption In Your Company](copilot/rolling-out-github-copilot-at-scale/driving-copilot-adoption-in-your-company.md)
+    * [Rolling Out Git Hub Copilot At Scale](copilot/rolling-out-github-copilot-at-scale/index.md)
   - Setting Up Github Copilot
     * [Setting Up Git Hub Copilot](copilot/setting-up-github-copilot/index.md)
     * [Setting Up Git Hub Copilot For Your Enterprise](copilot/setting-up-github-copilot/setting-up-github-copilot-for-your-enterprise.md)
@@ -2141,6 +2144,7 @@
       * [Creating Gists](get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists.md)
       * [Forking And Cloning Gists](get-started/writing-on-github/editing-and-sharing-content-with-gists/forking-and-cloning-gists.md)
       * [Editing And Sharing Content With Gists](get-started/writing-on-github/editing-and-sharing-content-with-gists/index.md)
+      * [Moderating Gist Comments](get-started/writing-on-github/editing-and-sharing-content-with-gists/moderating-gist-comments.md)
       * [Saving Gists With Stars](get-started/writing-on-github/editing-and-sharing-content-with-gists/saving-gists-with-stars.md)
     - Getting Started With Writing And Formatting On Github
       * [About Writing And Formatting On Git Hub](get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github.md)
@@ -3058,6 +3062,9 @@
     * [REST API Endpoints For Packages](rest/packages/packages.md)
   - Pages
     * [REST API endpoints for {% data variables.product.prodname_pages %}](rest/pages/pages.md)
+  - Private Registries
+    * [Private Registries](rest/private-registries/index.md)
+    * [Organization Configurations](rest/private-registries/organization-configurations.md)
   - Projects
     * [REST API endpoints for {% data variables.product.prodname_project_v1_caps %} cards](rest/projects/cards.md)
     * [REST API endpoints for {% data variables.product.prodname_project_v1_caps %} collaborators](rest/projects/collaborators.md)
