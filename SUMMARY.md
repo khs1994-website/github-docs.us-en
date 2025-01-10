@@ -427,6 +427,7 @@
   - Enforcing Policies
     - Enforcing Policies For Your Enterprise
       * [About Enterprise Policies](admin/enforcing-policies/enforcing-policies-for-your-enterprise/about-enterprise-policies.md)
+      * [Enforcing Code Governance In Your Enterprise With Rulesets](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-code-governance.md)
       * [Enforcing Policies For Code Security And Analysis For Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-code-security-and-analysis-for-your-enterprise.md)
       * [Enforcing Policies For Git Hub Actions In Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise.md)
       * [Enforcing Policies For Git Hub Codespaces In Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-codespaces-in-your-enterprise.md)
@@ -438,6 +439,7 @@
       * [Enforcing Repository Management Policies In Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-repository-management-policies-in-your-enterprise.md)
       * [Enforcing Team Policies In Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-team-policies-in-your-enterprise.md)
       * [Enforcing Policies For Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/index.md)
+      * [Managing Code Rulesets For Repositories In Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/managing-policies-for-code-governance.md)
       * [Restricting Email Notifications For Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/restricting-email-notifications-for-your-enterprise.md)
     - Enforcing Policy With Pre Receive Hooks
       * [About Pre Receive Hooks](admin/enforcing-policies/enforcing-policy-with-pre-receive-hooks/about-pre-receive-hooks.md)
