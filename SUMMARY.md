@@ -1506,6 +1506,12 @@
       * [Troubleshooting The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/troubleshooting-the-dependency-graph.md)
       * [Using The Dependency Submission API](code-security/supply-chain-security/understanding-your-software-supply-chain/using-the-dependency-submission-api.md)
     * [Securing Your Software Supply Chain](code-security/supply-chain-security/index.md)
+  - Trialing Github Advanced Security
+    * [Enabling Security Features In Your Trial Enterprise](code-security/trialing-github-advanced-security/enable-security-features-trial.md)
+    * [Exploring Your Enterprise Trial Of Code Scanning](code-security/trialing-github-advanced-security/explore-trial-code-scanning.md)
+    * [Exploring Your Enterprise Trial Of Secret Scanning](code-security/trialing-github-advanced-security/explore-trial-secret-scanning.md)
+    * [Trialing Git Hub Advanced Security](code-security/trialing-github-advanced-security/index.md)
+    * [Planning A Trial Of Git Hub Advanced Security](code-security/trialing-github-advanced-security/planning-a-trial-of-ghas.md)
   * [Code Security Documentation](code-security/index.md)
 - Codespaces
   - Customizing Your Codespace
@@ -2094,6 +2100,7 @@
     * [Getting Started With Git Hub Enterprise Cloud](get-started/onboarding/getting-started-with-github-enterprise-cloud.md)
     * [Getting Started With Git Hub Enterprise Server](get-started/onboarding/getting-started-with-github-enterprise-server.md)
     * [Getting Started With Git Hub Team](get-started/onboarding/getting-started-with-github-team.md)
+    * [Getting Started With The Git Hub Enterprise Cloud Trial](get-started/onboarding/getting-started-with-the-github-enterprise-cloud-trial.md)
     * [Getting Started With Your Git Hub Account](get-started/onboarding/getting-started-with-your-github-account.md)
     * [Onboarding](get-started/onboarding/index.md)
   - Showcase Your Expertise With Github Certifications
@@ -3049,7 +3056,7 @@
   - Orgs
     * [REST API Endpoints For API Insights](rest/orgs/api-insights.md)
     * [REST API Endpoints For Blocking Users](rest/orgs/blocking.md)
-    * [TODOCS](rest/orgs/bypass-requests.md)
+    * [REST API Endpoints For Organization Push Rule Bypass Requests](rest/orgs/bypass-requests.md)
     * [REST API Endpoints For Custom Properties](rest/orgs/custom-properties.md)
     * [REST API Endpoints For Custom Repository Roles](rest/orgs/custom-roles.md)
     * [REST API Endpoints For Organizations](rest/orgs/orgs.md)
@@ -3088,7 +3095,7 @@
     * [REST API Endpoints For Releases](rest/releases/releases.md)
   - Repos
     * [REST API Endpoints For Repository Autolinks](rest/repos/autolinks.md)
-    * [TODOCS](rest/repos/bypass-requests.md)
+    * [REST API Endpoints For Repository Push Rule Bypass Requests](rest/repos/bypass-requests.md)
     * [REST API Endpoints For Repository Contents](rest/repos/contents.md)
     * [REST API Endpoints For Custom Properties](rest/repos/custom-properties.md)
     * [REST API Endpoints For Forks](rest/repos/forks.md)
