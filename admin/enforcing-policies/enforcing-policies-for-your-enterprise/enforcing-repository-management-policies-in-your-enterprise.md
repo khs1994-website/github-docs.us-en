@@ -107,9 +107,7 @@ If you allow members to create repositories in your organizations, you can choos
 
 Across all organizations owned by your enterprise, you can allow people with access to a private or internal repository to fork the repository, never allow forking of private or internal repositories, or allow owners to administer the setting on the organization level.
 
-{% ifversion org-owners-limit-forks-creation %}
 People with admin permissions can set a more granular forking policy. For more information, see [AUTOTITLE](/organizations/managing-organization-settings/managing-the-forking-policy-for-your-organization).
-{% endif %}
 
 > [!NOTE]
 > If {% ifversion ghec %}your enterprise uses {% data variables.product.prodname_emus %} and {% endif %}your "Repository creation" policy prevents enterprise members from creating repositories owned by their user accounts, members will not be allowed to fork a repository in their user accounts, regardless of your "Repository forking" policy.
@@ -119,9 +117,7 @@ People with admin permissions can set a more granular forking policy. For more i
 {% data reusables.enterprise-accounts.repositories-tab %}
 1. Under "Repository forking", review the information about changing the setting. {% data reusables.enterprise-accounts.view-current-policy-config-orgs %}
 1. Under "Repository forking", select the dropdown menu and click a policy.
-{%- ifversion innersource-fork-policies %}
 1. If forking is enabled, select a policy for where users are allowed to fork repositories.
-{%- endif %}
 
 ## Enforcing a policy for inviting{% ifversion ghec %} outside{% endif %} collaborators to repositories
 

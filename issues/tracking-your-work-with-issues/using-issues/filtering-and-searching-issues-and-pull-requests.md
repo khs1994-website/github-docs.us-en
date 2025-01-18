@@ -71,8 +71,6 @@ You can filter issues and pull requests to find:
 
 ## Building advanced filters for issues
 
-{% data reusables.issues.release-stage %}
-
 You can build advanced filters using boolean and nested queries on your repository's issues page. As you type your filter, {% data variables.product.github %} will show available qualifiers, suggest values, and warn when there is a problem with your filter.
 
 ### Using boolean operators
@@ -136,8 +134,6 @@ Once you've [applied labels to an issue or pull request](/issues/using-labels-an
 {% ifversion issue-types %}
 
 ## Filtering by issue type
-
-{% data reusables.issues.release-stage %}
 
 If your organization uses issue types, you can filter issues for a particular type. You can also type the `type:` qualifier directly into your filter.
 
@@ -226,8 +222,8 @@ With issue and pull request search terms, you can:
 
 For issues, you can also use search to:
 
-* Filter for issues that are linked to a pull request by a closing reference: `linked:pr`{% ifversion issue-close-reasons %}
-* Filter issues by the reason they were closed: `is:closed reason:completed` or `is:closed reason:"not planned"`{% endif %}
+* Filter for issues that are linked to a pull request by a closing reference: `linked:pr`
+* Filter issues by the reason they were closed: `is:closed reason:completed` or `is:closed reason:"not planned"`
 {% ifversion issue-types %}* Filter for issues with a particular type: `is:open type:"Bug"`{% endif %}
 
 For pull requests, you can also use search to:

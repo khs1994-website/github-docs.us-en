@@ -1066,7 +1066,7 @@
     * [About The Billing Cycle](billing/using-the-new-billing-platform/about-the-billing-cycle.md)
     * [About The New Billing Platform](billing/using-the-new-billing-platform/about-the-new-billing-platform.md)
     * [About Usage Based Billing For Licenses](billing/using-the-new-billing-platform/about-usage-based-billing-for-licenses.md)
-    * [Adding Seats To Your Account](billing/using-the-new-billing-platform/adding-seats-to-your-account.md)
+    * [Adding Licenses To Your Account](billing/using-the-new-billing-platform/adding-licenses-to-your-account.md)
     * [Automating Usage Reporting With The REST API](billing/using-the-new-billing-platform/automating-usage-reporting.md)
     * [Charging Business Units](billing/using-the-new-billing-platform/charging-business-units.md)
     * [Estimating Spending](billing/using-the-new-billing-platform/estimating-spending.md)
