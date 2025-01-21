@@ -2881,6 +2881,7 @@
   - Actions
     * [REST API Endpoints For Git Hub Actions Artifacts](rest/actions/artifacts.md)
     * [REST API Endpoints For Git Hub Actions Cache](rest/actions/cache.md)
+    * [Git Hub Hosted Runners](rest/actions/hosted-runners.md)
     * [REST API Endpoints For Git Hub Actions](rest/actions/index.md)
     * [REST API Endpoints For Git Hub Actions OIDC](rest/actions/oidc.md)
     * [REST API Endpoints For Git Hub Actions Permissions](rest/actions/permissions.md)
