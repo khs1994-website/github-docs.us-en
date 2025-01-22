@@ -179,6 +179,7 @@
       * [About Troubleshooting Workflows](actions/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/about-troubleshooting-workflows.md)
       * [Enabling Debug Logging](actions/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/enabling-debug-logging.md)
       * [Troubleshooting Workflows](actions/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/index.md)
+      * [Using Copilot To Troubleshoot Workflows](actions/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/using-copilot-to-troubleshoot-workflows.md)
       * [Working With Support For Git Hub Actions](actions/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/working-with-support-for-github-actions.md)
     * [Monitoring And Troubleshooting Workflows](actions/monitoring-and-troubleshooting-workflows/index.md)
   - Security For Github Actions
@@ -2489,7 +2490,7 @@
     * [Creating Rulesets For Repositories In Your Organization](organizations/managing-organization-settings/creating-rulesets-for-repositories-in-your-organization.md)
     * [Deleting An Organization Account](organizations/managing-organization-settings/deleting-an-organization-account.md)
     * [Disabling Or Limiting Git Hub Actions For Your Organization](organizations/managing-organization-settings/disabling-or-limiting-github-actions-for-your-organization.md)
-    * [Disabling {% ifversion projects-v2 %}projects{% else %}{% data variables.projects.projects_v1_boards %}{% endif %} in your organization](organizations/managing-organization-settings/disabling-project-boards-in-your-organization.md)
+    * [Disabling Projects In Your Organization](organizations/managing-organization-settings/disabling-project-boards-in-your-organization.md)
     * [Enabling Or Disabling Git Hub Discussions For An Organization](organizations/managing-organization-settings/enabling-or-disabling-github-discussions-for-an-organization.md)
     * [Governing How People Use Repositories In Your Organization](organizations/managing-organization-settings/governing-how-people-use-repositories-in-your-organization.md)
     * [Managing Organization Settings](organizations/managing-organization-settings/index.md)
@@ -2989,6 +2990,7 @@
     * [REST API Endpoints For Enterprise Licenses](rest/enterprise-admin/license.md)
     * [REST API Endpoints For Managing Git Hub Enterprise Server](rest/enterprise-admin/manage-ghes.md)
     * [REST API Endpoints For Management Console](rest/enterprise-admin/management-console.md)
+    * [REST API Endpoints For Enterprise Network Configurations](rest/enterprise-admin/network-configurations.md)
     * [REST API Endpoints For Organization Pre Receive Hooks](rest/enterprise-admin/org-pre-receive-hooks.md)
     * [REST API Endpoints For Enterprise Organizations](rest/enterprise-admin/orgs.md)
     * [REST API Endpoints For Pre Receive Environments](rest/enterprise-admin/pre-receive-environments.md)
@@ -3116,6 +3118,8 @@
     * [REST API Endpoints For Global Security Advisories](rest/security-advisories/global-advisories.md)
     * [REST API Endpoints For Security Advisories](rest/security-advisories/index.md)
     * [REST API Endpoints For Repository Security Advisories](rest/security-advisories/repository-advisories.md)
+  - [Settings](rest/settings/index.md)
+    * [REST API Endpoints For Network Configurations](rest/settings/network-configurations.md)
   - Teams
     * [REST API Endpoints For Team Discussion Comments](rest/teams/discussion-comments.md)
     * [REST API Endpoints For Team Discussions](rest/teams/discussions.md)
