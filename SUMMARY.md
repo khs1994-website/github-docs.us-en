@@ -1329,6 +1329,7 @@
       * [Optimizing Java Packages For Dependabot Updates](code-security/dependabot/ecosystems-supported-by-dependabot/optimizing-java-packages-dependabot.md)
       * [Dependabot Supported Ecosystems And Repositories](code-security/dependabot/ecosystems-supported-by-dependabot/supported-ecosystems-and-repositories.md)
     - Maintain Dependencies
+      * [Best Practices For Maintaining Dependencies](code-security/dependabot/maintain-dependencies/best-practices-for-maintaining-dependencies.md)
       * [Maintaining Dependencies At Scale](code-security/dependabot/maintain-dependencies/index.md)
       * [Managing Dependabot On Self Hosted Runners](code-security/dependabot/maintain-dependencies/managing-dependabot-on-self-hosted-runners.md)
       * [Removing Dependabot Access To Public Registries](code-security/dependabot/maintain-dependencies/removing-dependabot-access-to-public-registries.md)
