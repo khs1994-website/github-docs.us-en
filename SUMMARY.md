@@ -3065,6 +3065,7 @@
     * [REST API Endpoints For Custom Repository Roles](rest/orgs/custom-roles.md)
     * [REST API Endpoints For Organizations](rest/orgs/orgs.md)
     * [REST API Endpoints For Organization Members](rest/orgs/members.md)
+    * [REST API Endpoints For Network Configurations](rest/orgs/network-configurations.md)
     * [REST API Endpoints For Organization Roles](rest/orgs/organization-roles.md)
     * [REST API Endpoints For Outside Collaborators](rest/orgs/outside-collaborators.md)
     * [REST API Endpoints For Personal Access Tokens](rest/orgs/personal-access-tokens.md)
@@ -3119,8 +3120,6 @@
     * [REST API Endpoints For Global Security Advisories](rest/security-advisories/global-advisories.md)
     * [REST API Endpoints For Security Advisories](rest/security-advisories/index.md)
     * [REST API Endpoints For Repository Security Advisories](rest/security-advisories/repository-advisories.md)
-  - [Settings](rest/settings/index.md)
-    * [REST API Endpoints For Network Configurations](rest/settings/network-configurations.md)
   - Teams
     * [REST API Endpoints For Team Discussion Comments](rest/teams/discussion-comments.md)
     * [REST API Endpoints For Team Discussions](rest/teams/discussions.md)
