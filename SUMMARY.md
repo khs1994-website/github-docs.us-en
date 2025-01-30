@@ -2098,6 +2098,9 @@
     * [GitHub’s plans](get-started/learning-about-github/githubs-plans.md)
     * [Learning About Git Hub](get-started/learning-about-github/index.md)
     * [Types Of Git Hub Accounts](get-started/learning-about-github/types-of-github-accounts.md)
+  - Learning To Code
+    * [Learning To Code](get-started/learning-to-code/index.md)
+    * [Reusing Other People S Code In Your Projects](get-started/learning-to-code/reusing-other-peoples-code-in-your-projects.md)
   - Onboarding
     * [Getting Started With Git Hub Enterprise Cloud](get-started/onboarding/getting-started-with-github-enterprise-cloud.md)
     * [Getting Started With Git Hub Enterprise Server](get-started/onboarding/getting-started-with-github-enterprise-server.md)
