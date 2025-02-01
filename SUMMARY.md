@@ -3346,4 +3346,4 @@
   * [Webhooks Documentation](webhooks/index.md)
   * [Types Of Webhooks](webhooks/types-of-webhooks.md)
   * [Webhook Events And Payloads](webhooks/webhook-events-and-payloads.md)
-* [{% data variables.product.product_name %}{% ifversion fpt or ghec%}.com{% endif %} Help Documentation](index.md)
+* [{% data variables.product.github %}{% ifversion fpt or ghec%}.com{% endif %} Help Documentation](index.md)
