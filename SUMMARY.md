@@ -239,6 +239,7 @@
       * [Building And Testing Power Shell](actions/use-cases-and-examples/building-and-testing/building-and-testing-powershell.md)
       * [Building And Testing Python](actions/use-cases-and-examples/building-and-testing/building-and-testing-python.md)
       * [Building And Testing Ruby](actions/use-cases-and-examples/building-and-testing/building-and-testing-ruby.md)
+      * [Building And Testing Rust](actions/use-cases-and-examples/building-and-testing/building-and-testing-rust.md)
       * [Building And Testing Swift](actions/use-cases-and-examples/building-and-testing/building-and-testing-swift.md)
       * [Building And Testing Xamarin Applications](actions/use-cases-and-examples/building-and-testing/building-and-testing-xamarin-applications.md)
       * [Building And Testing](actions/use-cases-and-examples/building-and-testing/index.md)
@@ -2100,6 +2101,7 @@
     * [Types Of Git Hub Accounts](get-started/learning-about-github/types-of-github-accounts.md)
   - Learning To Code
     * [Learning To Code](get-started/learning-to-code/index.md)
+    * [Learning To Debug With Git Hub Copilot](get-started/learning-to-code/learning-to-debug-with-github-copilot.md)
     * [Reusing Other People S Code In Your Projects](get-started/learning-to-code/reusing-other-peoples-code-in-your-projects.md)
   - Onboarding
     * [Getting Started With Git Hub Enterprise Cloud](get-started/onboarding/getting-started-with-github-enterprise-cloud.md)
