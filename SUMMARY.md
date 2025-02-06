@@ -1883,6 +1883,11 @@
     * [Troubleshooting Network Errors For Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-network-errors-for-github-copilot.md)
     * [Viewing Logs For Git Hub Copilot In Your Environment](copilot/troubleshooting-github-copilot/viewing-logs-for-github-copilot-in-your-environment.md)
   - Using Github Copilot
+    - Ai Models
+      * [Changing The AI Model For Copilot Chat](copilot/using-github-copilot/ai-models/changing-the-ai-model-for-copilot-chat.md)
+      * [AI Models For Copilot Chat](copilot/using-github-copilot/ai-models/index.md)
+      * [Using Claude 3.5 Sonnet in GitHub Copilot](copilot/using-github-copilot/ai-models/using-claude-sonnet-in-github-copilot.md)
+      * [Using Gemini 2.0 Flash in GitHub Copilot](copilot/using-github-copilot/ai-models/using-gemini-flash-in-github-copilot.md)
     - Code Review
       * [Configuring Coding Guidelines For Git Hub Copilot Code Review](copilot/using-github-copilot/code-review/configuring-coding-guidelines.md)
       * [Code Review](copilot/using-github-copilot/code-review/index.md)
@@ -1906,7 +1911,6 @@
     * [Using Git Hub Copilot](copilot/using-github-copilot/index.md)
     * [Indexing Repositories For Copilot Chat](copilot/using-github-copilot/indexing-repositories-for-copilot-chat.md)
     * [Prompt Engineering For Git Hub Copilot](copilot/using-github-copilot/prompt-engineering-for-github-copilot.md)
-    * [Using Claude 3.5 Sonnet in GitHub Copilot](copilot/using-github-copilot/using-claude-sonnet-in-github-copilot.md)
     * [Using Copilot Text Completion](copilot/using-github-copilot/using-copilot-text-completion.md)
     * [Using Extensions To Integrate External Tools With Copilot Chat](copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat.md)
     * [Using Git Hub Copilot In The Command Line](copilot/using-github-copilot/using-github-copilot-in-the-command-line.md)
@@ -2737,6 +2741,7 @@
     - Troubleshooting Commits
       * [Commit Exists On Git Hub But Not In My Local Clone](pull-requests/committing-changes-to-your-project/troubleshooting-commits/commit-exists-on-github-but-not-in-my-local-clone.md)
       * [Troubleshooting Commits](pull-requests/committing-changes-to-your-project/troubleshooting-commits/index.md)
+      * [My Commit Is Blocked By Push Protection](pull-requests/committing-changes-to-your-project/troubleshooting-commits/my-commit-is-blocked-by-push-protection.md)
       * [Why Are My Commits Linked To The Wrong User](pull-requests/committing-changes-to-your-project/troubleshooting-commits/why-are-my-commits-linked-to-the-wrong-user.md)
     - Viewing And Comparing Commits
       * [Comparing Commits](pull-requests/committing-changes-to-your-project/viewing-and-comparing-commits/comparing-commits.md)
@@ -2988,6 +2993,7 @@
     * [REST API Endpoints For Global Announcements](rest/enterprise-admin/announcement.md)
     * [REST API Endpoints For Enterprise Audit Logs](rest/enterprise-admin/audit-log.md)
     * [REST API Endpoints For Enterprise Billing](rest/enterprise-admin/billing.md)
+    * [REST API Endpoints For Bypass Requests](rest/enterprise-admin/bypass-requests.md)
     * [REST API Endpoints For Enterprise Code Security And Analysis](rest/enterprise-admin/code-security-and-analysis.md)
     * [Custom Properties](rest/enterprise-admin/custom-properties.md)
     * [REST API Endpoints For Global Webhooks](rest/enterprise-admin/global-webhooks.md)
