@@ -1870,6 +1870,7 @@
     * [Analyzing Usage Over Time With The Copilot Metrics API](copilot/rolling-out-github-copilot-at-scale/analyzing-usage-over-time-with-the-copilot-metrics-api.md)
     * [Driving Copilot Adoption In Your Company](copilot/rolling-out-github-copilot-at-scale/driving-copilot-adoption-in-your-company.md)
     * [Rolling Out Git Hub Copilot At Scale](copilot/rolling-out-github-copilot-at-scale/index.md)
+    * [Reminding Inactive Users To Use Their Git Hub Copilot License](copilot/rolling-out-github-copilot-at-scale/reminding-inactive-users.md)
   - Setting Up Github Copilot
     * [Setting Up Git Hub Copilot](copilot/setting-up-github-copilot/index.md)
     * [Setting Up Git Hub Copilot For Your Enterprise](copilot/setting-up-github-copilot/setting-up-github-copilot-for-your-enterprise.md)
@@ -1908,6 +1909,7 @@
     * [Best Practices For Using Git Hub Copilot](copilot/using-github-copilot/best-practices-for-using-github-copilot.md)
     * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/using-github-copilot/finding-public-code-that-matches-github-copilot-suggestions.md)
     * [Getting Code Suggestions In Your IDE With Git Hub Copilot](copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot.md)
+    * [Git Hub Copilot Chat Cheat Sheet](copilot/using-github-copilot/github-copilot-chat-cheat-sheet.md)
     * [Using Git Hub Copilot](copilot/using-github-copilot/index.md)
     * [Indexing Repositories For Copilot Chat](copilot/using-github-copilot/indexing-repositories-for-copilot-chat.md)
     * [Prompt Engineering For Git Hub Copilot](copilot/using-github-copilot/prompt-engineering-for-github-copilot.md)
