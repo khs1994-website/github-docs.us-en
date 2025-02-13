@@ -41,7 +41,7 @@ You can ask {% data variables.product.prodname_copilot_chat_short %} to give cod
 
    The response may contain text, code blocks, buttons, images, URIs, and file trees. The response often includes interactive elements. For example, the response may include a menu to insert a code block, or a button to invoke a {% data variables.product.prodname_vscode %} command.
 
-   To see the files that {% data variables.product.prodname_copilot_chat_short %} used to generate the response, select the **Used _n_ references** dropdown at the top of the response. The references may include a link to a custom instructions file. This file contains additional information that is automatically added to all of your chat questions to improve the quality of the responses. For more information, see [AUTOTITLE](/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot).
+   To see the files that {% data variables.product.prodname_copilot_chat_short %} used to generate the response, select the **Used _n_ references** dropdown at the top of the response. The references may include a link to a custom instructions file for your repository. This file contains additional information that is automatically added to all of your chat questions to improve the quality of the responses. For more information, see [AUTOTITLE](/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot).
 
 ## Using keywords in your prompt
 
@@ -82,13 +82,7 @@ To see all available chat variables, type `#` in the chat prompt box. See also [
 > [!NOTE]
 > This functionality is available with the {% data variables.product.prodname_copilot_chat_short %} extension v0.20.3 or later and {% data variables.product.prodname_vscode_shortname %} or {% data variables.product.prodname_vscode_shortname %} Insiders 1.93 or later.
 
-{% data variables.product.prodname_copilot_short %}'s {% data variables.product.prodname_dotcom %}-specific skills expand the type of information {% data variables.product.prodname_copilot_short %} can provide. To access these skills in {% data variables.product.prodname_copilot_chat_short %} in {% data variables.product.prodname_vscode_shortname %}, include `@github` in your question.
-
-When you add `@github` to a question, {% data variables.product.prodname_copilot_short %} dynamically selects an appropriate skill, based on the content of your question. You can also explicitly ask {% data variables.product.prodname_copilot_chat_short %} to use a particular skill. You can do this in two ways:
-* Use natural language to ask {% data variables.product.prodname_copilot_chat_short %} to use a skill. For example, `@github Search the web to find the latest GPT4 model from OpenAI.`
-* To specifically invoke a web search you can include the `#web` variable in your question. For example, `@github #web What is the latest LTS of Node.js?`
-
-You can generate a list of currently available skills by asking {% data variables.product.prodname_copilot_short %}: `@github What skills are available?`
+{% data reusables.copilot.using-skills %}
 
 {% ifversion ghec %}
 
@@ -195,7 +189,7 @@ You can ask {% data variables.product.prodname_copilot_chat_short %} to give cod
 
    The response often includes interactive elements. For example, the response may include buttons to copy, insert, or preview the result of a code block.
 
-   To see the files that {% data variables.product.prodname_copilot_chat_short %} used to generate the response, click the **References** link below the response. The references may include a link to a custom instructions file. This file contains additional information that is automatically added to all of your chat questions to improve the quality of the responses. For more information, see [AUTOTITLE](/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot).
+   To see the files that {% data variables.product.prodname_copilot_chat_short %} used to generate the response, click the **References** link below the response. The references may include a link to a custom instructions file for your repository. This file contains additional information that is automatically added to all of your chat questions to improve the quality of the responses. For more information, see [AUTOTITLE](/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot).
 
 ## Using keywords in your prompt
 
@@ -313,6 +307,12 @@ You can ask {% data variables.product.prodname_copilot_chat_short %} to give cod
 
 You can use special keywords to help {% data variables.product.prodname_copilot_short %} understand your prompt.
 
+### Chat participants
+
+Chat participants are like domain experts who have a specialty that they can help you with. You can use a chat participant to scope your prompt to a specific domain. To do this, type `@` in the chat prompt box, followed by a chat participant name.
+
+For a list of available chat participants, type `@` in the chat prompt box. See also [AUTOTITLE](/copilot/using-github-copilot/github-copilot-chat-cheat-sheet?tool=jetbrains#chat-participants-1).
+
 ### Extending {% data variables.product.prodname_copilot_chat_short %}
 
 {% data reusables.copilot.copilot-extensions.extending-copilot-chat %}
@@ -326,6 +326,10 @@ To see all available slash commands, type `/` in the chat prompt box. See also [
 ### File references
 
 By default, {% data variables.product.prodname_copilot_chat_short %} will reference the file that you have open or the code that you have selected. You can also tell {% data variables.product.prodname_copilot_chat_short %} which files to reference by dragging a file into the chat prompt box. Alternatively, you can right click on a file, select **GitHub Copilot**, then select **Reference File in Chat**.
+
+## Using {% data variables.product.prodname_dotcom %} skills for {% data variables.product.prodname_copilot_short %}
+
+{% data reusables.copilot.using-skills %}
 
 ## Additional ways to access {% data variables.product.prodname_copilot_chat_short %}
 
@@ -356,3 +360,59 @@ To share feedback about {% data variables.product.prodname_copilot_chat_short %}
 * [{% data variables.product.prodname_copilot %} FAQ](https://github.com/features/copilot#faq)
 
 {% endjetbrains %}
+
+{% xcode %}
+
+{% data reusables.copilot.xcode-chat-public-preview-note %}
+
+## Prerequisites
+
+To use {% data variables.product.prodname_copilot %} for Xcode, you must install the {% data variables.product.prodname_copilot %} for Xcode extension. See [AUTOTITLE](/copilot/configuring-github-copilot/installing-the-github-copilot-extension-in-your-environment).
+
+{% data reusables.copilot.chat-access-denied %}
+
+## Submitting prompts
+
+You can ask {% data variables.product.prodname_copilot_chat_short %} to give code suggestions, explain code, generate unit tests, and suggest code fixes.
+
+1. To open the chat view, click **{% octicon "copilot" aria-hidden="true" %} {% data variables.product.prodname_copilot_short %}** in the menu bar, then click **Open Chat**.
+
+1. Enter a prompt in the prompt box. For example prompts, see [AUTOTITLE](/copilot/using-github-copilot/guides-on-using-github-copilot/getting-started-with-prompts-for-copilot-chat).
+
+1. Evaluate {% data variables.product.prodname_copilot_short %}'s response, and submit a follow up prompt if needed.
+
+   The response often includes interactive elements. For example, the response may include buttons to copy or insert a code block.
+
+## Using keywords in your prompt
+
+You can use special keywords to help {% data variables.product.prodname_copilot_short %} understand your prompt.
+
+### Slash commands
+
+Use slash commands to avoid writing complex prompts for common scenarios. To use a slash command, type `/` in the chat prompt box, followed by a command.
+
+To see all available slash commands, type `/` in the chat prompt box. For more information, see [AUTOTITLE](/copilot/using-github-copilot/github-copilot-chat-cheat-sheet?tool=xcode#slash-commands).
+
+## File references
+
+By default, {% data variables.product.prodname_copilot_chat_short %} will reference the file that you have open or the code that you have selected. To attach a specific file as reference, click {% octicon "paperclip" aria-label="Add attachments" %} in the chat prompt box.
+
+## Chat management
+
+You can open a conversation thread for each Xcode IDE to keep discussions organized across different contexts. You can also revisit previous conversations and reference past suggestions through the chat history.
+
+## Sharing feedback
+
+To indicate whether a response was helpful, use {% octicon "thumbsup" aria-label="Thumbs up" %} or {% octicon "thumbsdown" aria-label="Thumbs down" %} that appear next to the response.
+
+## Further reading
+
+* [AUTOTITLE](/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
+* [AUTOTITLE](/copilot/github-copilot-enterprise/copilot-chat-in-github/using-github-copilot-chat-in-githubcom)
+* [AUTOTITLE](/copilot/github-copilot-chat/about-github-copilot-chat)
+* [AUTOTITLE](/free-pro-team@latest/site-policy/github-terms/github-copilot-pre-release-terms)
+* [AUTOTITLE](/free-pro-team@latest/site-policy/github-terms/github-terms-for-additional-products-and-features#github-copilot)
+* [{% data variables.product.prodname_copilot %} Trust Center](https://resources.github.com/copilot-trust-center)
+* [{% data variables.product.prodname_copilot %} FAQ](https://github.com/features/copilot#faq)
+
+{% endxcode %}

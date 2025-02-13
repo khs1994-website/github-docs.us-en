@@ -23,7 +23,7 @@ On {% data variables.product.github %}, you can use {% data variables.product.pr
 
 * General software-related questions, without a particular context. For more information, see [Asking a general question about software development](#asking-a-general-question-about-software-development).
 * Exploratory questions asked in the context of a specific repository. For more information, see [Asking exploratory questions about a repository](#asking-exploratory-questions-about-a-repository).
-* Questions asked in the context of a specific repository, file or symbol. For more information, see [Asking a question about a specific file or symbol](#asking-a-question-about-a-specific-file-or-symbol). {% ifversion ghec %}
+* Questions asked in the context of a specific repository, folder, file, or symbol. For more information, see [Asking questions about references](#asking-questions-about-references). {% ifversion ghec %}
 * Questions asked in the context of a knowledge base (that is, Markdown documentation across one or more repositories). For more information, see [Asking a question about a knowledge base](#asking-a-question-about-a-knowledge-base).{% endif %}
 * Questions about a specific file or specified lines of code within a file. For more information, see [Asking questions about specific pieces of code](#asking-questions-about-specific-pieces-of-code).
 * Questions about a pull request diff. For more information, see [Finding out about the changes in a pull request](#asking-questions-about-a-specific-pull-request).
@@ -51,6 +51,16 @@ When using the GPT 4o and {% data variables.copilot.copilot_claude_sonnet %} mod
 You can explicitly ask {% data variables.product.prodname_copilot_chat_dotcom %} to use a particular skill - for example, `Use the Bing skill to find the latest GPT4 model from OpenAI`.
 
 You can generate a list of currently available skills by asking {% data variables.product.prodname_copilot_short %}: `What skills are available?`
+
+## Customizing {% data variables.product.prodname_copilot_chat_short %} responses
+
+{% data variables.product.prodname_copilot %} can provide chat responses that are tailored to the way your team works, the tools you use, the specifics of your project, or your personal preferences, if you provide it with enough context to do so. Instead of repeating instructions in each prompt, you can create and save instructions for {% data variables.product.prodname_copilot_chat_short %} to customize what responses you receive.
+
+There are two types of custom instructions you can add for {% data variables.product.prodname_copilot_chat_short %}:
+* Repository instructions: You can create a custom instructions file for a repository, so that all prompts asked in the context of the repository automatically include the instructions you've defined
+* Personal instructions: You can add personal instructions so that all the chat responses you, as a user, receive are tailored to your preferences
+
+For more information, see [AUTOTITLE](/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot) and [AUTOTITLE](/copilot/customizing-copilot/adding-personal-custom-instructions-for-github-copilot).
 
 ## AI models for {% data variables.product.prodname_copilot_chat_short %}
 
@@ -132,19 +142,21 @@ Depending on the question you ask, and your enterprise and organization settings
 {% data reusables.copilot.stop-response-generation %}
 {% data reusables.copilot.chat-conversation-buttons %}
 
-## Asking a question about a specific file or symbol
+## Asking questions about references
 
-You can ask {% data variables.product.prodname_copilot_short %} about a specific file or symbol within a repository.
+You can ask {% data variables.product.prodname_copilot_short %} about a specific file, folder, or symbol within a repository.
 
 > [!NOTE] A "symbol" is a named entity in code. This could be a variable, function, class, module, or any other identifier that's part of a codebase.
 
 {% data reusables.copilot.go-to-copilot-page %}
 
-{% data reusables.copilot.ask-copilot-not-displayed %}
-
-1. Click the "Attach files or symbols" button (a paperclip icon) at the bottom of the chat panel, then search for and select one or more files and symbols.
+1. To select a repository for context, click {% octicon "paperclip" aria-label="Add attachments" %} at the bottom of the chat panel, then select "Repositories".
 
    ![Screenshot of the "Attach files or symbols" button, highlighted with a dark orange outline.](/assets/images/help/copilot/chat-paperclip-icon.png)
+
+1. Once the repository has been attached, click {% octicon "paperclip" aria-label="Add attachments" %} again, then select "Files, folders, and symbols".
+
+1. Search for and select one or more files, folders, or symbols.
 
 1. In the "Ask {% data variables.product.prodname_copilot_short %}" box, type a question and press <kbd>Enter</kbd>.
 

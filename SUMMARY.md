@@ -1753,47 +1753,48 @@
     * [Managing The Availability Of Your Copilot Extension](copilot/building-copilot-extensions/managing-the-availability-of-your-copilot-extension.md)
     * [Quickstart For Git Hub Copilot Extensions Using Agents](copilot/building-copilot-extensions/quickstart-for-github-copilot-extensions-using-agents.md)
     * [Setting Up Copilot Extensions](copilot/building-copilot-extensions/setting-up-copilot-extensions.md)
+  - Copilot Chat Cookbook
+    - Debugging Errors
+      * [Debugging Invalid JSON](copilot/copilot-chat-cookbook/debugging-errors/debugging-invalid-json.md)
+      * [Handling API Rate Limits](copilot/copilot-chat-cookbook/debugging-errors/handling-api-rate-limits.md)
+      * [Debugging Errors](copilot/copilot-chat-cookbook/debugging-errors/index.md)
+    - Documenting Code
+      * [Documenting Legacy Code](copilot/copilot-chat-cookbook/documenting-code/documenting-legacy-code.md)
+      * [Explaining Complex Algorithms Or Logic](copilot/copilot-chat-cookbook/documenting-code/explaining-complex-algorithms-or-logic.md)
+      * [Explaining Legacy Code](copilot/copilot-chat-cookbook/documenting-code/explaining-legacy-code.md)
+      * [Documenting Code](copilot/copilot-chat-cookbook/documenting-code/index.md)
+      * [Syncing Documentation With Code Changes](copilot/copilot-chat-cookbook/documenting-code/syncing-documentation-with-code-changes.md)
+    - Functionality Analysis And Feature Suggestions
+      * [Analyzing And Incorporating User Feedback](copilot/copilot-chat-cookbook/functionality-analysis-and-feature-suggestions/analyzing-and-incorporating-user-feedback.md)
+      * [Exploring Potential Feature Implementations](copilot/copilot-chat-cookbook/functionality-analysis-and-feature-suggestions/exploring-potential-feature-implementations.md)
+      * [Functionality Analysis And Feature Suggestions](copilot/copilot-chat-cookbook/functionality-analysis-and-feature-suggestions/index.md)
+    - Refactoring Code
+      * [Decoupling Business Logic From UI Components](copilot/copilot-chat-cookbook/refactoring-code/decoupling-business-logic-from-ui-components.md)
+      * [Fixing Database Deadlocks Or Data Integrity Issues](copilot/copilot-chat-cookbook/refactoring-code/fixing-database-deadlocks-or-data-integrity-issues.md)
+      * [Fixing Lint Errors](copilot/copilot-chat-cookbook/refactoring-code/fixing-lint-errors.md)
+      * [Handling Cross Cutting Concerns](copilot/copilot-chat-cookbook/refactoring-code/handling-cross-cutting-concerns.md)
+      * [Improving Code Readability And Maintainability](copilot/copilot-chat-cookbook/refactoring-code/improving-code-readability-and-maintainability.md)
+      * [Refactoring Code](copilot/copilot-chat-cookbook/refactoring-code/index.md)
+      * [Refactoring Data Access Layers](copilot/copilot-chat-cookbook/refactoring-code/refactoring-data-access-layers.md)
+      * [Refactoring For Performance Optimization](copilot/copilot-chat-cookbook/refactoring-code/refactoring-for-performance-optimization.md)
+      * [Refactoring To Implement A Design Pattern](copilot/copilot-chat-cookbook/refactoring-code/refactoring-to-implement-a-design-pattern.md)
+      * [Simplifying Complex Inheritance Hierarchies](copilot/copilot-chat-cookbook/refactoring-code/simplifying-complex-inheritance-hierarchies.md)
+    - Security Analysis
+      * [Finding Existing Vulnerabilities In Code](copilot/copilot-chat-cookbook/security-analysis/finding-existing-vulnerabilities-in-code.md)
+      * [Security Analysis](copilot/copilot-chat-cookbook/security-analysis/index.md)
+    - Testing Code
+      * [Create End To End Tests For A Webpage](copilot/copilot-chat-cookbook/testing-code/create-end-to-end-tests-for-a-webpage.md)
+      * [Create Mock Objects To Abstract Layers](copilot/copilot-chat-cookbook/testing-code/create-mock-objects-to-abstract-layers.md)
+      * [Generate Unit Tests](copilot/copilot-chat-cookbook/testing-code/generate-unit-tests.md)
+      * [Testing Code](copilot/copilot-chat-cookbook/testing-code/index.md)
+    * [Copilot Chat Cookbook](copilot/copilot-chat-cookbook/index.md)
   - Customizing Copilot
-    * [Adding Custom Instructions For Git Hub Copilot](copilot/customizing-copilot/adding-custom-instructions-for-github-copilot.md)
+    * [Adding Personal Custom Instructions For Git Hub Copilot](copilot/customizing-copilot/adding-personal-custom-instructions-for-github-copilot.md)
+    * [Adding Repository Custom Instructions For Git Hub Copilot](copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot.md)
     * [Creating A Custom Model For Git Hub Copilot](copilot/customizing-copilot/creating-a-custom-model-for-github-copilot.md)
     * [Extending The Capabilities Of Git Hub Copilot In Your Organization](copilot/customizing-copilot/extending-the-capabilities-of-github-copilot-in-your-organization.md)
     * [Customizing Copilot](copilot/customizing-copilot/index.md)
     * [Managing Copilot Knowledge Bases](copilot/customizing-copilot/managing-copilot-knowledge-bases.md)
-  - Example Prompts For Github Copilot Chat
-    - Debugging Errors
-      * [Debugging Invalid JSON](copilot/example-prompts-for-github-copilot-chat/debugging-errors/debugging-invalid-json.md)
-      * [Handling API Rate Limits](copilot/example-prompts-for-github-copilot-chat/debugging-errors/handling-api-rate-limits.md)
-      * [Debugging Errors](copilot/example-prompts-for-github-copilot-chat/debugging-errors/index.md)
-    - Documenting Code
-      * [Documenting Legacy Code](copilot/example-prompts-for-github-copilot-chat/documenting-code/documenting-legacy-code.md)
-      * [Explaining Complex Algorithms Or Logic](copilot/example-prompts-for-github-copilot-chat/documenting-code/explaining-complex-algorithms-or-logic.md)
-      * [Explaining Legacy Code](copilot/example-prompts-for-github-copilot-chat/documenting-code/explaining-legacy-code.md)
-      * [Documenting Code](copilot/example-prompts-for-github-copilot-chat/documenting-code/index.md)
-      * [Syncing Documentation With Code Changes](copilot/example-prompts-for-github-copilot-chat/documenting-code/syncing-documentation-with-code-changes.md)
-    - Functionality Analysis And Feature Suggestions
-      * [Analyzing And Incorporating User Feedback](copilot/example-prompts-for-github-copilot-chat/functionality-analysis-and-feature-suggestions/analyzing-and-incorporating-user-feedback.md)
-      * [Exploring Potential Feature Implementations](copilot/example-prompts-for-github-copilot-chat/functionality-analysis-and-feature-suggestions/exploring-potential-feature-implementations.md)
-      * [Functionality Analysis And Feature Suggestions](copilot/example-prompts-for-github-copilot-chat/functionality-analysis-and-feature-suggestions/index.md)
-    - Refactoring Code
-      * [Decoupling Business Logic From UI Components](copilot/example-prompts-for-github-copilot-chat/refactoring-code/decoupling-business-logic-from-ui-components.md)
-      * [Fixing Database Deadlocks Or Data Integrity Issues](copilot/example-prompts-for-github-copilot-chat/refactoring-code/fixing-database-deadlocks-or-data-integrity-issues.md)
-      * [Fixing Lint Errors](copilot/example-prompts-for-github-copilot-chat/refactoring-code/fixing-lint-errors.md)
-      * [Handling Cross Cutting Concerns](copilot/example-prompts-for-github-copilot-chat/refactoring-code/handling-cross-cutting-concerns.md)
-      * [Improving Code Readability And Maintainability](copilot/example-prompts-for-github-copilot-chat/refactoring-code/improving-code-readability-and-maintainability.md)
-      * [Refactoring Code](copilot/example-prompts-for-github-copilot-chat/refactoring-code/index.md)
-      * [Refactoring Data Access Layers](copilot/example-prompts-for-github-copilot-chat/refactoring-code/refactoring-data-access-layers.md)
-      * [Refactoring For Performance Optimization](copilot/example-prompts-for-github-copilot-chat/refactoring-code/refactoring-for-performance-optimization.md)
-      * [Refactoring To Implement A Design Pattern](copilot/example-prompts-for-github-copilot-chat/refactoring-code/refactoring-to-implement-a-design-pattern.md)
-      * [Simplifying Complex Inheritance Hierarchies](copilot/example-prompts-for-github-copilot-chat/refactoring-code/simplifying-complex-inheritance-hierarchies.md)
-    - Security Analysis
-      * [Finding Existing Vulnerabilities In Code](copilot/example-prompts-for-github-copilot-chat/security-analysis/finding-existing-vulnerabilities-in-code.md)
-      * [Security Analysis](copilot/example-prompts-for-github-copilot-chat/security-analysis/index.md)
-    - Testing Code
-      * [Create End To End Tests For A Webpage](copilot/example-prompts-for-github-copilot-chat/testing-code/create-end-to-end-tests-for-a-webpage.md)
-      * [Create Mock Objects To Abstract Layers](copilot/example-prompts-for-github-copilot-chat/testing-code/create-mock-objects-to-abstract-layers.md)
-      * [Generate Unit Tests](copilot/example-prompts-for-github-copilot-chat/testing-code/generate-unit-tests.md)
-      * [Testing Code](copilot/example-prompts-for-github-copilot-chat/testing-code/index.md)
-    * [Copilot Chat Cookbook](copilot/example-prompts-for-github-copilot-chat/index.md)
   - Managing Copilot
     - Configure Personal Settings
       * [Configuring Git Hub Copilot In The CLI](copilot/managing-copilot/configure-personal-settings/configuring-github-copilot-in-the-cli.md)
@@ -2106,6 +2107,7 @@
     * [Learning About Git Hub](get-started/learning-about-github/index.md)
     * [Types Of Git Hub Accounts](get-started/learning-about-github/types-of-github-accounts.md)
   - Learning To Code
+    * [Finding And Understanding Example Code](get-started/learning-to-code/finding-and-understanding-example-code.md)
     * [Learning To Code](get-started/learning-to-code/index.md)
     * [Learning To Debug With Git Hub Copilot](get-started/learning-to-code/learning-to-debug-with-github-copilot.md)
     * [Reusing Other People S Code In Your Projects](get-started/learning-to-code/reusing-other-peoples-code-in-your-projects.md)
