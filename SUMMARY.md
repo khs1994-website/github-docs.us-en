@@ -1888,9 +1888,10 @@
   - Using Github Copilot
     - Ai Models
       * [Changing The AI Model For Copilot Chat](copilot/using-github-copilot/ai-models/changing-the-ai-model-for-copilot-chat.md)
-      * [AI Models For Copilot Chat](copilot/using-github-copilot/ai-models/index.md)
-      * [Using Claude 3.5 Sonnet in GitHub Copilot](copilot/using-github-copilot/ai-models/using-claude-sonnet-in-github-copilot.md)
-      * [Using Gemini 2.0 Flash in GitHub Copilot](copilot/using-github-copilot/ai-models/using-gemini-flash-in-github-copilot.md)
+      * [Changing The AI Model For Copilot Code Completion](copilot/using-github-copilot/ai-models/changing-the-ai-model-for-copilot-code-completion.md)
+      * [AI Models For Copilot](copilot/using-github-copilot/ai-models/index.md)
+      * [Using Claude 3.5 Sonnet in Copilot Chat](copilot/using-github-copilot/ai-models/using-claude-sonnet-in-github-copilot.md)
+      * [Using Gemini 2.0 Flash in Copilot Chat](copilot/using-github-copilot/ai-models/using-gemini-flash-in-github-copilot.md)
     - Code Review
       * [Configuring Coding Guidelines For Git Hub Copilot Code Review](copilot/using-github-copilot/code-review/configuring-coding-guidelines.md)
       * [Code Review](copilot/using-github-copilot/code-review/index.md)
