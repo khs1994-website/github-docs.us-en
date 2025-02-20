@@ -1735,6 +1735,7 @@
       * [About Copilot Agents](copilot/building-copilot-extensions/building-a-copilot-agent-for-your-copilot-extension/about-copilot-agents.md)
       * [Configuring Your Copilot Agent To Communicate With Git Hub](copilot/building-copilot-extensions/building-a-copilot-agent-for-your-copilot-extension/configuring-your-copilot-agent-to-communicate-with-github.md)
       * [Configuring Your Copilot Agent To Communicate With The Copilot Platform](copilot/building-copilot-extensions/building-a-copilot-agent-for-your-copilot-extension/configuring-your-copilot-agent-to-communicate-with-the-copilot-platform.md)
+      * [Context Passing For Your Agent](copilot/building-copilot-extensions/building-a-copilot-agent-for-your-copilot-extension/context-passing-for-your-agent.md)
       * [Building A Copilot Agent For Your Copilot Extension](copilot/building-copilot-extensions/building-a-copilot-agent-for-your-copilot-extension/index.md)
       * [Using Copilot S LLM For Your Agent](copilot/building-copilot-extensions/building-a-copilot-agent-for-your-copilot-extension/using-copilots-llm-for-your-agent.md)
     - Building A Copilot Skillset For Your Copilot Extension
@@ -1753,6 +1754,7 @@
     * [Managing The Availability Of Your Copilot Extension](copilot/building-copilot-extensions/managing-the-availability-of-your-copilot-extension.md)
     * [Quickstart For Git Hub Copilot Extensions Using Agents](copilot/building-copilot-extensions/quickstart-for-github-copilot-extensions-using-agents.md)
     * [Setting Up Copilot Extensions](copilot/building-copilot-extensions/setting-up-copilot-extensions.md)
+    * [Using OIDC With Git Hub Copilot Extensions](copilot/building-copilot-extensions/using-oidc-with-github-copilot-extensions.md)
   - Copilot Chat Cookbook
     - Debugging Errors
       * [Debugging Invalid JSON](copilot/copilot-chat-cookbook/debugging-errors/debugging-invalid-json.md)
