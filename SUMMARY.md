@@ -1877,6 +1877,7 @@
     * [Driving Copilot Adoption In Your Company](copilot/rolling-out-github-copilot-at-scale/driving-copilot-adoption-in-your-company.md)
     * [Rolling Out Git Hub Copilot At Scale](copilot/rolling-out-github-copilot-at-scale/index.md)
     * [Reminding Inactive Users To Use Their Git Hub Copilot License](copilot/rolling-out-github-copilot-at-scale/reminding-inactive-users.md)
+    * [Setting Up A Self Serve Process For Git Hub Copilot Licenses](copilot/rolling-out-github-copilot-at-scale/setting-up-a-self-serve-process-for-github-copilot-licenses.md)
   - Setting Up Github Copilot
     * [Setting Up Git Hub Copilot](copilot/setting-up-github-copilot/index.md)
     * [Setting Up Git Hub Copilot For Your Enterprise](copilot/setting-up-github-copilot/setting-up-github-copilot-for-your-enterprise.md)
