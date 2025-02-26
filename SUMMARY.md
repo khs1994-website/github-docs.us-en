@@ -703,6 +703,7 @@
       * [About the monitor {% ifversion ghes > 3.15 %}dashboards{% else %}dashboard{% endif %}](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-the-monitor-dashboards.md)
       * [Collectd Metrics For Git Hub Enterprise Server](admin/monitoring-and-managing-your-instance/monitoring-your-instance/collectd-metrics-for-github-enterprise-server.md)
       * [Configuring Collectd For Your Instance](admin/monitoring-and-managing-your-instance/monitoring-your-instance/configuring-collectd-for-your-instance.md)
+      * [Exporting And Scraping Prometheus Metrics](admin/monitoring-and-managing-your-instance/monitoring-your-instance/exporting-and-scraping-prometheus-metrics.md)
       * [Generating A Health Check For Your Enterprise](admin/monitoring-and-managing-your-instance/monitoring-your-instance/generating-a-health-check-for-your-enterprise.md)
       * [Monitoring Your Instance](admin/monitoring-and-managing-your-instance/monitoring-your-instance/index.md)
       * [Monitoring Using SNMP](admin/monitoring-and-managing-your-instance/monitoring-your-instance/monitoring-using-snmp.md)
@@ -1884,7 +1885,7 @@
     * [Troubleshooting Git Hub Copilot](copilot/troubleshooting-github-copilot/index.md)
     * [Troubleshooting Common Issues With Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-common-issues-with-github-copilot.md)
     * [Troubleshooting Firewall Settings For Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-firewall-settings-for-github-copilot.md)
-    * [Troubleshooting Issues With Git Hub Copilot Chat In ID Es](copilot/troubleshooting-github-copilot/troubleshooting-issues-with-github-copilot-chat-in-ides.md)
+    * [Troubleshooting Issues With Git Hub Copilot Chat](copilot/troubleshooting-github-copilot/troubleshooting-issues-with-github-copilot-chat.md)
     * [Troubleshooting Network Errors For Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-network-errors-for-github-copilot.md)
     * [Viewing Logs For Git Hub Copilot In Your Environment](copilot/troubleshooting-github-copilot/viewing-logs-for-github-copilot-in-your-environment.md)
   - Using Github Copilot
@@ -1892,7 +1893,7 @@
       * [Changing The AI Model For Copilot Chat](copilot/using-github-copilot/ai-models/changing-the-ai-model-for-copilot-chat.md)
       * [Changing The AI Model For Copilot Code Completion](copilot/using-github-copilot/ai-models/changing-the-ai-model-for-copilot-code-completion.md)
       * [AI Models For Copilot](copilot/using-github-copilot/ai-models/index.md)
-      * [Using Claude 3.5 Sonnet in Copilot Chat](copilot/using-github-copilot/ai-models/using-claude-sonnet-in-github-copilot.md)
+      * [Using Claude Sonnet In Copilot Chat](copilot/using-github-copilot/ai-models/using-claude-sonnet-in-github-copilot.md)
       * [Using Gemini 2.0 Flash in Copilot Chat](copilot/using-github-copilot/ai-models/using-gemini-flash-in-github-copilot.md)
     - Code Review
       * [Configuring Coding Guidelines For Git Hub Copilot Code Review](copilot/using-github-copilot/code-review/configuring-coding-guidelines.md)
