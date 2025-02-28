@@ -1896,6 +1896,7 @@
       * [Using Claude Sonnet In Copilot Chat](copilot/using-github-copilot/ai-models/using-claude-sonnet-in-github-copilot.md)
       * [Using Gemini 2.0 Flash in Copilot Chat](copilot/using-github-copilot/ai-models/using-gemini-flash-in-github-copilot.md)
     - Code Review
+      * [Configuring Automatic Code Review By Copilot](copilot/using-github-copilot/code-review/configuring-automatic-code-review-by-copilot.md)
       * [Configuring Coding Guidelines For Git Hub Copilot Code Review](copilot/using-github-copilot/code-review/configuring-coding-guidelines.md)
       * [Code Review](copilot/using-github-copilot/code-review/index.md)
       * [Using Git Hub Copilot Code Review](copilot/using-github-copilot/code-review/using-copilot-code-review.md)
@@ -3176,6 +3177,7 @@
   - Search
     * [REST API Endpoints For Search](rest/search/search.md)
   - Secret Scanning
+    * [REST API Endpoints For Push Protection Bypass Requests](rest/secret-scanning/delegated-bypass.md)
     * [REST API Endpoints For Secret Scanning](rest/secret-scanning/secret-scanning.md)
   - Security Advisories
     * [REST API Endpoints For Global Security Advisories](rest/security-advisories/global-advisories.md)
