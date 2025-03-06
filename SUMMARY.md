@@ -519,9 +519,9 @@
       * [Ifversion Ghes Configuring Code Scanning For Your Appliance Elsif Default Setup Self Hosted Runners GHEC Configuring Self Hosted Runners For Code Scanning In Your Enterprise Endif](admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/configuring-code-scanning-for-your-appliance.md)
       * [Configuring Dependency Review For Your Appliance](admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/configuring-dependency-review-for-your-appliance.md)
       * [Configuring Secret Scanning For Your Appliance](admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/configuring-secret-scanning-for-your-appliance.md)
-      * [Enabling Git Hub Advanced Security For Your Enterprise](admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/enabling-github-advanced-security-for-your-enterprise.md)
-      * [Ifversion Ghes Setting Up Git Hub Advanced Security Features On Your Appliance Else Configuring Infrastructure For Git Hub Advanced Security Features Endif](admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/index.md)
-      * [Managing Git Hub Advanced Security Features For Your Enterprise](admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/managing-github-advanced-security-features-for-your-enterprise.md)
+      * [Enabling {% data variables.product.prodname_GHAS %} {% ifversion ghas-products %}products {% endif %}for your enterprise](admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/enabling-github-advanced-security-for-your-enterprise.md)
+      * [{% ifversion ghes %}Setting up {% data variables.product.prodname_GHAS %} features on your appliance{% else %}Configuring infrastructure for {% data variables.product.prodname_GHAS %} features{% endif %}](admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/index.md)
+      * [Managing {% data variables.product.prodname_GH_advanced_security %} features for your enterprise](admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/managing-github-advanced-security-features-for-your-enterprise.md)
     - Managing Supply Chain Security For Your Enterprise
       * [About Supply Chain Security For Your Enterprise](admin/managing-code-security/managing-supply-chain-security-for-your-enterprise/about-supply-chain-security-for-your-enterprise.md)
       * [Configuring Dependabot To Work With Limited Internet Access](admin/managing-code-security/managing-supply-chain-security-for-your-enterprise/configuring-dependabot-to-work-with-limited-internet-access.md)
@@ -1129,6 +1129,7 @@
       * [Configuring Larger Runners For Default Setup](code-security/code-scanning/managing-your-code-scanning-configuration/configuring-larger-runners-for-default-setup.md)
       * [C Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/csharp-built-in-queries.md)
       * [Editing Your Configuration Of Default Setup](code-security/code-scanning/managing-your-code-scanning-configuration/editing-your-configuration-of-default-setup.md)
+      * [Enabling Delegated Alert Dismissal For Code Scanning](code-security/code-scanning/managing-your-code-scanning-configuration/enabling-delegated-alert-dismissal-for-code-scanning.md)
       * [Go Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/go-built-in-queries.md)
       * [Managing Your Code Scanning Configuration](code-security/code-scanning/managing-your-code-scanning-configuration/index.md)
       * [Java And Kotlin Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/java-kotlin-built-in-queries.md)
@@ -1139,7 +1140,7 @@
       * [Swift Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/swift-built-in-queries.md)
       * [Viewing Code Scanning Logs](code-security/code-scanning/managing-your-code-scanning-configuration/viewing-code-scanning-logs.md)
     - Troubleshooting Code Scanning
-      * [Error Advanced Security Must Be Enabled For This Repository To Use Code Scanning](code-security/code-scanning/troubleshooting-code-scanning/advanced-security-must-be-enabled.md)
+      * [Error: "{% data variables.product.prodname_advanced_security %} must be enabled for this repository to use code scanning"](code-security/code-scanning/troubleshooting-code-scanning/advanced-security-must-be-enabled.md)
       * [Alerts Found In Generated Code](code-security/code-scanning/troubleshooting-code-scanning/alerts-in-generated-code.md)
       * [Code Scanning Analysis Takes Too Long](code-security/code-scanning/troubleshooting-code-scanning/analysis-takes-too-long.md)
       * [Automatic Build Failed For A Compiled Language](code-security/code-scanning/troubleshooting-code-scanning/automatic-build-failed.md)
@@ -1164,7 +1165,7 @@
     - Troubleshooting Sarif Uploads
       * [Upload was rejected because CodeQL default setup is enabled for {% data variables.product.prodname_code_scanning %}](code-security/code-scanning/troubleshooting-sarif-uploads/default-setup-enabled.md)
       * [SARIF Results File Is Too Large](code-security/code-scanning/troubleshooting-sarif-uploads/file-too-large.md)
-      * [Upload Fails Because Git Hub Advanced Security Is Disabled](code-security/code-scanning/troubleshooting-sarif-uploads/ghas-required.md)
+      * [Upload fails because {% data variables.product.prodname_GH_advanced_security %} is disabled](code-security/code-scanning/troubleshooting-sarif-uploads/ghas-required.md)
       * [Troubleshooting SARIF Uploads](code-security/code-scanning/troubleshooting-sarif-uploads/index.md)
       * [Git Hub Token Is Required To Upload SARIF Results](code-security/code-scanning/troubleshooting-sarif-uploads/missing-token.md)
       * [SARIF Results Exceed One Or More Limits](code-security/code-scanning/troubleshooting-sarif-uploads/results-exceed-limit.md)
@@ -1405,6 +1406,7 @@
       - Non Provider Patterns
         * [Enabling Secret Scanning For Non Provider Patterns](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/non-provider-patterns/enabling-secret-scanning-for-non-provider-patterns.md)
         * [Non Provider Patterns](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/non-provider-patterns/index.md)
+      * [Enabling Delegated Alert Dismissal For Secret Scanning](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/enabling-delegated-alert-dismissal-for-secret-scanning.md)
       * [Excluding Folders And Files From Secret Scanning](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/excluding-folders-and-files-from-secret-scanning.md)
       * [Using Advanced Secret Scanning And Push Protection Features](code-security/secret-scanning/using-advanced-secret-scanning-and-push-protection-features/index.md)
     - Working With Secret Scanning And Push Protection
@@ -1513,8 +1515,8 @@
     * [Enabling Security Features In Your Trial Enterprise](code-security/trialing-github-advanced-security/enable-security-features-trial.md)
     * [Exploring Your Enterprise Trial Of Code Scanning](code-security/trialing-github-advanced-security/explore-trial-code-scanning.md)
     * [Exploring Your Enterprise Trial Of Secret Scanning](code-security/trialing-github-advanced-security/explore-trial-secret-scanning.md)
-    * [Trialing Git Hub Advanced Security](code-security/trialing-github-advanced-security/index.md)
-    * [Planning A Trial Of Git Hub Advanced Security](code-security/trialing-github-advanced-security/planning-a-trial-of-ghas.md)
+    * [Trialing {% data variables.product.prodname_GHAS %}](code-security/trialing-github-advanced-security/index.md)
+    * [Planning a trial of {% data variables.product.prodname_GHAS %}](code-security/trialing-github-advanced-security/planning-a-trial-of-ghas.md)
   * [Code Security Documentation](code-security/index.md)
 - Codespaces
   - Customizing Your Codespace
