@@ -184,6 +184,7 @@
     * [Monitoring And Troubleshooting Workflows](actions/monitoring-and-troubleshooting-workflows/index.md)
   - Security For Github Actions
     - Security Guides
+      * [About Secrets](actions/security-for-github-actions/security-guides/about-secrets.md)
       * [Automatic Token Authentication](actions/security-for-github-actions/security-guides/automatic-token-authentication.md)
       * [Security Guides](actions/security-for-github-actions/security-guides/index.md)
       * [Security Hardening For Git Hub Actions](actions/security-for-github-actions/security-guides/security-hardening-for-github-actions.md)
@@ -431,7 +432,7 @@
     - Enforcing Policies For Your Enterprise
       * [About Enterprise Policies](admin/enforcing-policies/enforcing-policies-for-your-enterprise/about-enterprise-policies.md)
       * [Enforcing Code Governance In Your Enterprise With Rulesets](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-code-governance.md)
-      * [Enforcing Policies For Code Security And Analysis For Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-code-security-and-analysis-for-your-enterprise.md)
+      * [Enforcing Policies For Security Features In Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-code-security-and-analysis-for-your-enterprise.md)
       * [Enforcing Policies For Git Hub Actions In Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise.md)
       * [Enforcing Policies For Git Hub Codespaces In Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-codespaces-in-your-enterprise.md)
       * [Enforcing Policies For Git Hub Copilot In Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-copilot-in-your-enterprise.md)
@@ -537,7 +538,7 @@
       * [Deleting A Custom Security Configuration](admin/managing-code-security/securing-your-enterprise/deleting-a-custom-security-configuration.md)
       * [Editing A Custom Security Configuration](admin/managing-code-security/securing-your-enterprise/editing-a-custom-security-configuration.md)
       * [Securing Your Enterprise](admin/managing-code-security/securing-your-enterprise/index.md)
-    * [Managing Code Security For Your Enterprise](admin/managing-code-security/index.md)
+    * [Managing A Secure Coding Environment For Your Enterprise](admin/managing-code-security/index.md)
   - Managing Github Actions For Your Enterprise
     - Advanced Configuration And Troubleshooting
       * [Backing Up And Restoring Git Hub Enterprise Server With Git Hub Actions Enabled](admin/managing-github-actions-for-your-enterprise/advanced-configuration-and-troubleshooting/backing-up-and-restoring-github-enterprise-server-with-github-actions-enabled.md)
@@ -1358,7 +1359,7 @@
     * [Best Practices For Preventing Data Leaks In Your Organization](code-security/getting-started/best-practices-for-preventing-data-leaks-in-your-organization.md)
     * [Dependabot Quickstart Guide](code-security/getting-started/dependabot-quickstart-guide.md)
     * [Git Hub Security Features](code-security/getting-started/github-security-features.md)
-    * [Getting Started With Code Security](code-security/getting-started/index.md)
+    * [Getting Started With Secure Coding](code-security/getting-started/index.md)
     * [Quickstart For Securing Your Organization](code-security/getting-started/quickstart-for-securing-your-organization.md)
     * [Quickstart For Securing Your Repository](code-security/getting-started/quickstart-for-securing-your-repository.md)
   - Secret Scanning
@@ -1478,8 +1479,8 @@
     * [Working With Security Advisories](code-security/security-advisories/index.md)
   - Security Overview
     * [About Security Overview](code-security/security-overview/about-security-overview.md)
-    * [Assessing Adoption Of Code Security Features](code-security/security-overview/assessing-adoption-code-security.md)
-    * [Assessing Your Code Security Risk](code-security/security-overview/assessing-code-security-risk.md)
+    * [Assessing Adoption Of Security Features](code-security/security-overview/assessing-adoption-code-security.md)
+    * [Assessing The Security Risk Of Your Code](code-security/security-overview/assessing-code-security-risk.md)
     * [Enabling Security Features For Multiple Repositories](code-security/security-overview/enabling-security-features-for-multiple-repositories.md)
     * [Exporting Data From Security Overview](code-security/security-overview/exporting-data-from-security-overview.md)
     * [Filtering Alerts In Security Overview](code-security/security-overview/filtering-alerts-in-security-overview.md)
@@ -3000,7 +3001,7 @@
     * [REST API Endpoints For Code Scanning](rest/code-scanning/index.md)
   - Code Security
     * [Configurations](rest/code-security/configurations.md)
-    * [Code Security Settings](rest/code-security/index.md)
+    * [Security Settings](rest/code-security/index.md)
   - Codes Of Conduct
     * [REST API Endpoints For Codes Of Conduct](rest/codes-of-conduct/index.md)
   - Codespaces
@@ -3047,7 +3048,7 @@
     * [REST API Endpoints For Enterprise Audit Logs](rest/enterprise-admin/audit-log.md)
     * [REST API Endpoints For Enterprise Billing](rest/enterprise-admin/billing.md)
     * [REST API Endpoints For Bypass Requests](rest/enterprise-admin/bypass-requests.md)
-    * [REST API Endpoints For Enterprise Code Security And Analysis](rest/enterprise-admin/code-security-and-analysis.md)
+    * [REST API Endpoints For Enterprise Security Features For Code](rest/enterprise-admin/code-security-and-analysis.md)
     * [Custom Properties](rest/enterprise-admin/custom-properties.md)
     * [REST API Endpoints For Global Webhooks](rest/enterprise-admin/global-webhooks.md)
     * [REST API Endpoints For Git Hub Enterprise Administration](rest/enterprise-admin/index.md)
