@@ -1362,6 +1362,7 @@
     * [Getting Started With Secure Coding](code-security/getting-started/index.md)
     * [Quickstart For Securing Your Organization](code-security/getting-started/quickstart-for-securing-your-organization.md)
     * [Quickstart For Securing Your Repository](code-security/getting-started/quickstart-for-securing-your-repository.md)
+    * [Understanding Git Hub Secret Types](code-security/getting-started/understanding-github-secret-types.md)
   - Secret Scanning
     - Copilot Secret Scanning
       * [Enabling Copilot Secret Scanning S Generic Secret Detection](code-security/secret-scanning/copilot-secret-scanning/enabling-ai-powered-generic-secret-detection.md)
@@ -1914,6 +1915,7 @@
       * [Prompt Engineering For Copilot Chat](copilot/using-github-copilot/copilot-chat/prompt-engineering-for-copilot-chat.md)
     - Guides On Using Github Copilot
       * [Guides On Using Git Hub Copilot](copilot/using-github-copilot/guides-on-using-github-copilot/index.md)
+      * [Modernizing Legacy Code With Git Hub Copilot](copilot/using-github-copilot/guides-on-using-github-copilot/modernizing-legacy-code-with-github-copilot.md)
       * [Refactoring Code With Git Hub Copilot](copilot/using-github-copilot/guides-on-using-github-copilot/refactoring-code-with-github-copilot.md)
       * [Using Copilot To Migrate A Project To Another Programming Language](copilot/using-github-copilot/guides-on-using-github-copilot/using-copilot-to-migrate-a-project.md)
       * [Writing Tests With Git Hub Copilot](copilot/using-github-copilot/guides-on-using-github-copilot/writing-tests-with-github-copilot.md)
