@@ -1519,7 +1519,7 @@
     * [Exploring Your Enterprise Trial Of Secret Scanning](code-security/trialing-github-advanced-security/explore-trial-secret-scanning.md)
     * [Trialing {% data variables.product.prodname_GHAS %}](code-security/trialing-github-advanced-security/index.md)
     * [Planning a trial of {% data variables.product.prodname_GHAS %}](code-security/trialing-github-advanced-security/planning-a-trial-of-ghas.md)
-  * [Code Security Documentation](code-security/index.md)
+  * [Secure Coding Documentation](code-security/index.md)
 - Codespaces
   - Customizing Your Codespace
     * [Changing The Machine Type For Your Codespace](codespaces/customizing-your-codespace/changing-the-machine-type-for-your-codespace.md)
