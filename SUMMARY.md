@@ -1521,6 +1521,12 @@
     * [Planning a trial of {% data variables.product.prodname_GHAS %}](code-security/trialing-github-advanced-security/planning-a-trial-of-ghas.md)
   * [Secure Coding Documentation](code-security/index.md)
 - Codespaces
+  - About Codespaces
+    * [Git Hub Codespaces Features](codespaces/about-codespaces/codespaces-features.md)
+    * [Deep dive into {% data variables.product.prodname_github_codespaces %}](codespaces/about-codespaces/deep-dive.md)
+    * [Getting started with {% data variables.product.prodname_github_codespaces %}](codespaces/about-codespaces/index.md)
+    * [Understanding The Codespace Lifecycle](codespaces/about-codespaces/understanding-the-codespace-lifecycle.md)
+    * [What are {% data variables.product.prodname_github_codespaces %}?](codespaces/about-codespaces/what-are-codespaces.md)
   - Customizing Your Codespace
     * [Changing The Machine Type For Your Codespace](codespaces/customizing-your-codespace/changing-the-machine-type-for-your-codespace.md)
     * [Changing The Shell In A Codespace](codespaces/customizing-your-codespace/changing-the-shell-in-a-codespace.md)
@@ -1544,11 +1550,6 @@
     * [Using Git Hub Codespaces With Git Hub CLI](codespaces/developing-in-a-codespace/using-github-codespaces-with-github-cli.md)
     * [Using Source Control In Your Codespace](codespaces/developing-in-a-codespace/using-source-control-in-your-codespace.md)
     * [Working Collaboratively In A Codespace](codespaces/developing-in-a-codespace/working-collaboratively-in-a-codespace.md)
-  - Getting Started
-    * [Deep dive into {% data variables.product.prodname_github_codespaces %}](codespaces/getting-started/deep-dive.md)
-    * [Getting started with {% data variables.product.prodname_github_codespaces %}](codespaces/getting-started/index.md)
-    * [Quickstart for {% data variables.product.prodname_github_codespaces %}](codespaces/getting-started/quickstart.md)
-    * [Understanding The Codespace Lifecycle](codespaces/getting-started/understanding-the-codespace-lifecycle.md)
   - Managing Codespaces For Your Organization
     * [Choosing Who Owns And Pays For Codespaces In Your Organization](codespaces/managing-codespaces-for-your-organization/choosing-who-owns-and-pays-for-codespaces-in-your-organization.md)
     * [Enabling Or Disabling Git Hub Codespaces For Your Organization](codespaces/managing-codespaces-for-your-organization/enabling-or-disabling-github-codespaces-for-your-organization.md)
@@ -1627,7 +1628,7 @@
     * [Working With Support For Git Hub Codespaces](codespaces/troubleshooting/working-with-support-for-github-codespaces.md)
   * [Guides For Codespaces](codespaces/guides.md)
   * [{% data variables.product.prodname_codespaces %} documentation](codespaces/index.md)
-  * [Git Hub Codespaces Overview](codespaces/overview.md)
+  * [Quickstart For Git Hub Codespaces](codespaces/quickstart.md)
   * [The github.dev web-based editor](codespaces/the-githubdev-web-based-editor.md)
 - Communities
   - Documenting Your Project With Wikis
