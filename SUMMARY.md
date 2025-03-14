@@ -2161,6 +2161,7 @@
     * [Types Of Git Hub Accounts](get-started/learning-about-github/types-of-github-accounts.md)
   - Learning To Code
     * [Finding And Understanding Example Code](get-started/learning-to-code/finding-and-understanding-example-code.md)
+    * [Getting Started With Git](get-started/learning-to-code/getting-started-with-git.md)
     * [Learning To Code](get-started/learning-to-code/index.md)
     * [Learning To Debug With Git Hub Copilot](get-started/learning-to-code/learning-to-debug-with-github-copilot.md)
     * [Reusing Other People S Code In Your Projects](get-started/learning-to-code/reusing-other-peoples-code-in-your-projects.md)
