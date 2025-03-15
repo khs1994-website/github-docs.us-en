@@ -725,6 +725,7 @@
     * [About Upgrades To New Releases](admin/overview/about-upgrades-to-new-releases.md)
     * [Accessing Compliance Reports For Your Enterprise](admin/overview/accessing-compliance-reports-for-your-enterprise.md)
     * [Best Practices For Enterprises](admin/overview/best-practices-for-enterprises.md)
+    * [Establishing A Governance Framework For Your Enterprise](admin/overview/establishing-a-governance-framework-for-your-enterprise.md)
     * [Feature Overview For Git Hub Enterprise Cloud](admin/overview/feature-overview-for-github-enterprise-cloud.md)
     * [Overview](admin/overview/index.md)
     * [Setting Up A Trial Of Git Hub Enterprise Cloud](admin/overview/setting-up-a-trial-of-github-enterprise-cloud.md)
