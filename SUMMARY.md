@@ -1818,6 +1818,11 @@
       * [Configuring And Auditing Content Exclusion](copilot/managing-copilot/configuring-and-auditing-content-exclusion/index.md)
       * [Reviewing Changes To Content Exclusions For Git Hub Copilot](copilot/managing-copilot/configuring-and-auditing-content-exclusion/reviewing-changes-to-content-exclusions-for-github-copilot.md)
     - Managing Copilot As An Individual Subscriber
+      - Managing Copilot Free
+        * [About Git Hub Copilot Free](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-free/about-github-copilot-free.md)
+        * [Accessing Git Hub Copilot Free](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-free/accessing-github-copilot-free.md)
+        * [Disabling Git Hub Copilot Free](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-free/disabling-github-copilot-free.md)
+        * [Managing Copilot Free](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-free/index.md)
       - Managing Your Github Copilot Pro Subscription
         * [About Billing For Copilot Pro](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-github-copilot-pro-subscription/about-billing-for-copilot-pro.md)
         * [Canceling Copilot Pro As An Individual User](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-github-copilot-pro-subscription/canceling-copilot-pro-as-an-individual-user.md)
@@ -1826,7 +1831,6 @@
         * [Managing Your Git Hub Copilot Pro Subscription](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-github-copilot-pro-subscription/index.md)
         * [Modifying Your Copilot Pro Subscription As An Individual User](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-github-copilot-pro-subscription/modifying-your-copilot-pro-subscription-as-an-individual-user.md)
         * [Subscribing To Copilot Pro As An Individual User](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-github-copilot-pro-subscription/subscribing-to-copilot-pro-as-an-individual-user.md)
-      * [About Git Hub Copilot Free](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/about-github-copilot-free.md)
       * [Extending The Capabilities Of Git Hub Copilot In Your Personal Account](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/extending-the-capabilities-of-github-copilot-in-your-personal-account.md)
       * [Managing Copilot As An Individual Subscriber](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/index.md)
       * [Managing Copilot Policies As An Individual Subscriber](copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-policies-as-an-individual-subscriber.md)
