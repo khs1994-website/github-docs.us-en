@@ -3138,6 +3138,7 @@
     * [REST API Endpoints For Custom Properties](rest/orgs/custom-properties.md)
     * [REST API Endpoints For Custom Repository Roles](rest/orgs/custom-roles.md)
     * [REST API Endpoints For Organizations](rest/orgs/orgs.md)
+    * [REST API Endpoints For Issue Types](rest/orgs/issue-types.md)
     * [REST API Endpoints For Organization Members](rest/orgs/members.md)
     * [REST API Endpoints For Network Configurations](rest/orgs/network-configurations.md)
     * [REST API Endpoints For Organization Roles](rest/orgs/organization-roles.md)
