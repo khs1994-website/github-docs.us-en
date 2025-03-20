@@ -1082,8 +1082,8 @@
   * [Billing And Payments Documentation](billing/index.md)
 - Code Security
   - Adopting Github Advanced Security At Scale
-    * [Adopting Git Hub Advanced Security At Scale](code-security/adopting-github-advanced-security-at-scale/index.md)
-    * [Introduction To Adopting Git Hub Advanced Security At Scale](code-security/adopting-github-advanced-security-at-scale/introduction-to-adopting-github-advanced-security-at-scale.md)
+    * [Adopting {% data variables.product.prodname_GHAS %} at scale](code-security/adopting-github-advanced-security-at-scale/index.md)
+    * [Introduction to adopting {% data variables.product.prodname_GHAS %} at scale](code-security/adopting-github-advanced-security-at-scale/introduction-to-adopting-github-advanced-security-at-scale.md)
     * [Phase 1 Align On Your Rollout Strategy And Goals](code-security/adopting-github-advanced-security-at-scale/phase-1-align-on-your-rollout-strategy-and-goals.md)
     * [Phase 2 Preparing To Enable At Scale](code-security/adopting-github-advanced-security-at-scale/phase-2-preparing-to-enable-at-scale.md)
     * [Phase 3 Pilot Programs](code-security/adopting-github-advanced-security-at-scale/phase-3-pilot-programs.md)
@@ -1882,8 +1882,10 @@
     * [Responsible Use Of Git Hub Copilot Text Completion](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-text-completion.md)
   - Rolling Out Github Copilot At Scale
     * [Analyzing Usage Over Time With The Copilot Metrics API](copilot/rolling-out-github-copilot-at-scale/analyzing-usage-over-time-with-the-copilot-metrics-api.md)
+    * [Choosing Your Enterprise S Plan For Git Hub Copilot](copilot/rolling-out-github-copilot-at-scale/choosing-your-enterprises-plan-for-github-copilot.md)
     * [Driving Copilot Adoption In Your Company](copilot/rolling-out-github-copilot-at-scale/driving-copilot-adoption-in-your-company.md)
     * [Rolling Out Git Hub Copilot At Scale](copilot/rolling-out-github-copilot-at-scale/index.md)
+    * [Managing Your Company S Spending On Git Hub Copilot](copilot/rolling-out-github-copilot-at-scale/managing-your-companys-spending-on-github-copilot.md)
     * [Reminding Inactive Users To Use Their Git Hub Copilot License](copilot/rolling-out-github-copilot-at-scale/reminding-inactive-users.md)
     * [Setting Up A Self Serve Process For Git Hub Copilot Licenses](copilot/rolling-out-github-copilot-at-scale/setting-up-a-self-serve-process-for-github-copilot-licenses.md)
   - Setting Up Github Copilot
