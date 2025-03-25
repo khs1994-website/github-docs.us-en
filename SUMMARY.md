@@ -1772,6 +1772,7 @@
       * [Explaining Legacy Code](copilot/copilot-chat-cookbook/documenting-code/explaining-legacy-code.md)
       * [Documenting Code](copilot/copilot-chat-cookbook/documenting-code/index.md)
       * [Syncing Documentation With Code Changes](copilot/copilot-chat-cookbook/documenting-code/syncing-documentation-with-code-changes.md)
+      * [Writing Discussions Or Blog Posts](copilot/copilot-chat-cookbook/documenting-code/writing-discussions-or-blog-posts.md)
     - Functionality Analysis And Feature Suggestions
       * [Analyzing And Incorporating User Feedback](copilot/copilot-chat-cookbook/functionality-analysis-and-feature-suggestions/analyzing-and-incorporating-user-feedback.md)
       * [Exploring Potential Feature Implementations](copilot/copilot-chat-cookbook/functionality-analysis-and-feature-suggestions/exploring-potential-feature-implementations.md)
