@@ -3255,6 +3255,7 @@
     * [Searching For Repositories](search-github/searching-on-github/searching-for-repositories.md)
     * [Searching Gists](search-github/searching-on-github/searching-gists.md)
     * [Searching Git Hub Marketplace](search-github/searching-on-github/searching-github-marketplace.md)
+    * [Searching Git Hub Models](search-github/searching-on-github/searching-github-models.md)
     * [Searching In Forks](search-github/searching-on-github/searching-in-forks.md)
     * [Searching Issues And Pull Requests](search-github/searching-on-github/searching-issues-and-pull-requests.md)
     * [Searching Topics](search-github/searching-on-github/searching-topics.md)
