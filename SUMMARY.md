@@ -3032,7 +3032,6 @@
     * [REST API Endpoints For Commit Statuses](rest/commits/statuses.md)
   - Copilot
     * [REST API Endpoints For Copilot Metrics](rest/copilot/copilot-metrics.md)
-    * [REST API Endpoints For Git Hub Copilot Usage Metrics](rest/copilot/copilot-usage.md)
     * [REST API Endpoints For Copilot User Management](rest/copilot/copilot-user-management.md)
     * [REST API Endpoints For Copilot](rest/copilot/index.md)
   - Dependabot
