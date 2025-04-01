@@ -2483,6 +2483,22 @@
       * [Understanding Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/understanding-github-enterprise-importer/index.md)
     * [Using Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/index.md)
   * [Migrations Documentation](migrations/index.md)
+- Nonprofit
+  - Contributing To Open Source For Good
+    * [Adding An Open Source Project](nonprofit/contributing-to-open-source-for-good/adding-an-open-source-project.md)
+    * [Contributing To An Open Source For Good Project](nonprofit/contributing-to-open-source-for-good/contributing-to-an-open-source-for-good-project.md)
+    * [Open Source Projects For Good](nonprofit/contributing-to-open-source-for-good/index.md)
+  - Nonprofit Enterprise Plan
+    * [Getting Started With Discounted Git Hub Enterprise Cloud](nonprofit/nonprofit-enterprise-plan/getting-started-with-discounted-github-enterprise-cloud.md)
+    * [Git Hub Enterprise Cloud For Nonprofits](nonprofit/nonprofit-enterprise-plan/index.md)
+  - Nonprofit Teams Plan
+    * [Getting Started With The Git Hub Team Plan For Nonprofits](nonprofit/nonprofit-teams-plan/getting-started-with-the-github-team-plan-for-nonprofits.md)
+    * [Git Hub Team Plan For Nonprofits](nonprofit/nonprofit-teams-plan/index.md)
+  - Troubleshooting
+    * [Cannot Find My Organization On Git Hub For Nonprofits](nonprofit/troubleshooting/cannot-find-my-organization-on-github-for-nonprofits.md)
+    * [Frequently Asked Questions](nonprofit/troubleshooting/index.md)
+  * [Git Hub For Nonprofits Documentation](nonprofit/index.md)
+  * [Quickstart For Git Hub For Nonprofits](nonprofit/quickstart.md)
 - Organizations
   - Collaborating With Groups In Organizations
     * [About Organizations](organizations/collaborating-with-groups-in-organizations/about-organizations.md)
