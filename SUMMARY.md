@@ -978,13 +978,14 @@
       * [Managing Your Spending Limit For Git Hub Actions](billing/managing-billing-for-your-products/managing-billing-for-github-actions/managing-your-spending-limit-for-github-actions.md)
       * [Viewing Your Git Hub Actions Usage](billing/managing-billing-for-your-products/managing-billing-for-github-actions/viewing-your-github-actions-usage.md)
     - Managing Billing For Github Advanced Security
-      * [About Billing For Git Hub Advanced Security](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/about-billing-for-github-advanced-security.md)
-      * [Managing Billing For Git Hub Advanced Security](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/index.md)
-      * [Managing Your Git Hub Advanced Security Licensing](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/managing-your-github-advanced-security-licensing.md)
-      * [Setting Up A Trial Of Git Hub Advanced Security](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/setting-up-a-trial-of-github-advanced-security.md)
-      * [Signing Up For Git Hub Advanced Security](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/signing-up-for-github-advanced-security.md)
-      * [Viewing Committer Information For Git Hub Advanced Security](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/viewing-committer-information-for-github-advanced-security.md)
-      * [Viewing Your Git Hub Advanced Security Usage](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/viewing-your-github-advanced-security-usage.md)
+      * [About billing for {% data variables.product.prodname_GHAS %}](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/about-billing-for-github-advanced-security.md)
+      * [Managing billing for {% data variables.product.prodname_GHAS %} products](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/index.md)
+      * [Managing volume/subscription licenses for {% data variables.product.prodname_AS %}](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/managing-your-github-advanced-security-licensing.md)
+      * [Migrating from {% data variables.product.prodname_GHAS %} to {% data variables.product.prodname_cs_and_sp %}](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/migrating-from-ghas-to-cs-and-sp.md)
+      * [Setting up a trial of {% data variables.product.prodname_GHAS %}](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/setting-up-a-trial-of-github-advanced-security.md)
+      * [Signing up for {% data variables.product.prodname_GHAS %}](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/signing-up-for-github-advanced-security.md)
+      * [Viewing Committer Information For Volume Subscription Licenses For Git Hub Advanced Security](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/viewing-committer-information-for-github-advanced-security.md)
+      * [Viewing and downloading licensed use of {% data variables.product.prodname_AS %}](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/viewing-your-github-advanced-security-usage.md)
     - Managing Billing For Github Codespaces
       * [About Billing For Git Hub Codespaces](billing/managing-billing-for-your-products/managing-billing-for-github-codespaces/about-billing-for-github-codespaces.md)
       * [Managing Billing For Git Hub Codespaces](billing/managing-billing-for-your-products/managing-billing-for-github-codespaces/index.md)
@@ -1444,12 +1445,18 @@
       * [Finding And Fixing Configuration Attachment Failures](code-security/securing-your-organization/managing-the-security-of-your-organization/finding-repositories-with-attachment-failures.md)
       * [Managing The Security Of Your Organization](code-security/securing-your-organization/managing-the-security-of-your-organization/index.md)
       * [Interpreting Security Findings](code-security/securing-your-organization/managing-the-security-of-your-organization/interpreting-security-findings.md)
-      * [Managing Your Git Hub Advanced Security License Usage](code-security/securing-your-organization/managing-the-security-of-your-organization/managing-your-github-advanced-security-license-usage.md)
+      * [Managing your paid use of {% data variables.product.prodname_AS %}](code-security/securing-your-organization/managing-the-security-of-your-organization/managing-your-github-advanced-security-license-usage.md)
     - Troubleshooting Security Configurations
       * [A Repository Is Using Advanced Setup For Code Scanning](code-security/securing-your-organization/troubleshooting-security-configurations/a-repository-is-using-advanced-setup-for-code-scanning.md)
       * [A Feature Has Disappeared From A Security Configuration](code-security/securing-your-organization/troubleshooting-security-configurations/feature-disappears.md)
       * [Troubleshooting Security Configurations](code-security/securing-your-organization/troubleshooting-security-configurations/index.md)
       * [Not Enough Git Hub Advanced Security Licenses](code-security/securing-your-organization/troubleshooting-security-configurations/not-enough-github-advanced-security-licenses.md)
+    - Understanding Your Organizations Exposure To Leaked Secrets
+      * [About The Secret Risk Assessment](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/about-secret-risk-assessment.md)
+      * [Choosing {% data variables.product.prodname_GH_secret_protection %}](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/choosing-github-secret-protection.md)
+      * [Understanding Your Organization S Exposure To Leaked Secrets](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/index.md)
+      * [Interpreting Secret Risk Assessment Results](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/interpreting-secret-risk-assessment-results.md)
+      * [Viewing The Secret Risk Assessment Report For Your Organization](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/viewing-the-secret-risk-assessment-report-for-your-organization.md)
     * [Securing Your Organization](code-security/securing-your-organization/index.md)
   - Security Advisories
     - Guidance On Reporting And Writing Information About Vulnerabilities
@@ -1516,8 +1523,8 @@
     * [Securing Your Software Supply Chain](code-security/supply-chain-security/index.md)
   - Trialing Github Advanced Security
     * [Enabling Security Features In Your Trial Enterprise](code-security/trialing-github-advanced-security/enable-security-features-trial.md)
-    * [Exploring Your Enterprise Trial Of Code Scanning](code-security/trialing-github-advanced-security/explore-trial-code-scanning.md)
-    * [Exploring Your Enterprise Trial Of Secret Scanning](code-security/trialing-github-advanced-security/explore-trial-secret-scanning.md)
+    * [Exploring your enterprise trial of {% data variables.product.prodname_GH_code_security %}](code-security/trialing-github-advanced-security/explore-trial-code-scanning.md)
+    * [Exploring your enterprise trial of {% data variables.product.prodname_GH_secret_protection %}](code-security/trialing-github-advanced-security/explore-trial-secret-scanning.md)
     * [Trialing {% data variables.product.prodname_GHAS %}](code-security/trialing-github-advanced-security/index.md)
     * [Planning a trial of {% data variables.product.prodname_GHAS %}](code-security/trialing-github-advanced-security/planning-a-trial-of-ghas.md)
   * [Secure Coding Documentation](code-security/index.md)
@@ -2173,6 +2180,7 @@
     * [Learning To Code](get-started/learning-to-code/index.md)
     * [Learning To Debug With Git Hub Copilot](get-started/learning-to-code/learning-to-debug-with-github-copilot.md)
     * [Reusing Other People S Code In Your Projects](get-started/learning-to-code/reusing-other-peoples-code-in-your-projects.md)
+    * [Storing Your Secrets Safely](get-started/learning-to-code/storing-your-secrets-safely.md)
   - Onboarding
     * [Getting Started With Git Hub Enterprise Cloud](get-started/onboarding/getting-started-with-github-enterprise-cloud.md)
     * [Getting Started With Git Hub Enterprise Server](get-started/onboarding/getting-started-with-github-enterprise-server.md)
