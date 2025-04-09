@@ -1118,6 +1118,7 @@
     - Managing Code Scanning Alerts
       * [About Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/about-code-scanning-alerts.md)
       * [Assessing Code Scanning Alerts For Your Repository](code-security/code-scanning/managing-code-scanning-alerts/assessing-code-scanning-alerts-for-your-repository.md)
+      * [Best Practices For Participating In A Security Campaign](code-security/code-scanning/managing-code-scanning-alerts/best-practices-for-participating-in-a-security-campaign.md)
       * [Disabling Copilot Autofix For Code Scanning](code-security/code-scanning/managing-code-scanning-alerts/disabling-autofix-for-code-scanning.md)
       * [Fixing Alerts In A Security Campaign](code-security/code-scanning/managing-code-scanning-alerts/fixing-alerts-in-security-campaign.md)
       * [Managing Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/index.md)
@@ -1431,8 +1432,9 @@
     - Fixing Security Alerts At Scale
       * [About Security Campaigns](code-security/securing-your-organization/fixing-security-alerts-at-scale/about-security-campaigns.md)
       * [Best Practices For Fixing Security Alerts At Scale](code-security/securing-your-organization/fixing-security-alerts-at-scale/best-practice-fix-alerts-at-scale.md)
-      * [Creating And Tracking Security Campaigns](code-security/securing-your-organization/fixing-security-alerts-at-scale/creating-tracking-security-campaigns.md)
+      * [Creating And Managing Security Campaigns](code-security/securing-your-organization/fixing-security-alerts-at-scale/creating-managing-security-campaigns.md)
       * [Fixing Security Alerts At Scale](code-security/securing-your-organization/fixing-security-alerts-at-scale/index.md)
+      * [Tracking Security Campaigns](code-security/securing-your-organization/fixing-security-alerts-at-scale/tracking-security-campaigns.md)
     - Introduction To Securing Your Organization At Scale
       * [About Enabling Security Features At Scale](code-security/securing-your-organization/introduction-to-securing-your-organization-at-scale/about-enabling-security-features-at-scale.md)
       * [Choosing A Security Configuration For Your Repositories](code-security/securing-your-organization/introduction-to-securing-your-organization-at-scale/choosing-a-security-configuration-for-your-repositories.md)
@@ -3033,6 +3035,8 @@
     * [REST API Endpoints For Protected Branches](rest/branches/branch-protection.md)
     * [REST API Endpoints For Branches](rest/branches/branches.md)
     * [REST API Endpoints For Branches And Their Settings](rest/branches/index.md)
+  - Campaigns
+    * [REST API Endpoints For Security Campaigns](rest/campaigns/index.md)
   - Checks
     * [REST API Endpoints For Checks](rest/checks/index.md)
     * [REST API Endpoints For Check Runs](rest/checks/runs.md)
