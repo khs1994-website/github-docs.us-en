@@ -1927,7 +1927,7 @@
       * [Comparing AI Models Using Different Tasks](copilot/using-github-copilot/ai-models/comparing-ai-models-using-different-tasks.md)
       * [AI Models For Copilot](copilot/using-github-copilot/ai-models/index.md)
       * [Using Claude Sonnet In Copilot Chat](copilot/using-github-copilot/ai-models/using-claude-sonnet-in-github-copilot.md)
-      * [Using Gemini 2.0 Flash in Copilot Chat](copilot/using-github-copilot/ai-models/using-gemini-flash-in-github-copilot.md)
+      * [Using Gemini In Copilot Chat](copilot/using-github-copilot/ai-models/using-gemini-in-github-copilot.md)
     - Code Review
       * [Configuring Automatic Code Review By Copilot](copilot/using-github-copilot/code-review/configuring-automatic-code-review-by-copilot.md)
       * [Configuring Coding Guidelines For Git Hub Copilot Code Review](copilot/using-github-copilot/code-review/configuring-coding-guidelines.md)
