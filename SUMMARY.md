@@ -1147,7 +1147,7 @@
       * [Swift Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/swift-built-in-queries.md)
       * [Viewing Code Scanning Logs](code-security/code-scanning/managing-your-code-scanning-configuration/viewing-code-scanning-logs.md)
     - Troubleshooting Code Scanning
-      * [Error: "{% data variables.product.prodname_advanced_security %} must be enabled for this repository to use code scanning"](code-security/code-scanning/troubleshooting-code-scanning/advanced-security-must-be-enabled.md)
+      * [Error: "{% data variables.product.prodname_GHAS_or_code_security %} must be enabled for this repository to use code scanning"](code-security/code-scanning/troubleshooting-code-scanning/advanced-security-must-be-enabled.md)
       * [Alerts Found In Generated Code](code-security/code-scanning/troubleshooting-code-scanning/alerts-in-generated-code.md)
       * [Code Scanning Analysis Takes Too Long](code-security/code-scanning/troubleshooting-code-scanning/analysis-takes-too-long.md)
       * [Automatic Build Failed For A Compiled Language](code-security/code-scanning/troubleshooting-code-scanning/automatic-build-failed.md)
@@ -1895,6 +1895,7 @@
     * [Responsible Use Of Git Hub Copilot Chat In Git Hub](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-github.md)
     * [Responsible Use Of Git Hub Copilot Chat In Your IDE](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-your-ide.md)
     * [Responsible Use Of Git Hub Copilot Code Review](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-code-review.md)
+    * [Responsible Use Of Git Hub Copilot In Git Hub Desktop](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-in-github-desktop.md)
     * [Responsible Use Of Git Hub Copilot In The CLI](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-in-the-cli.md)
     * [Responsible Use Of Git Hub Copilot In Windows Terminal](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-in-windows-terminal.md)
     * [Responsible Use Of Git Hub Copilot Pull Request Summaries](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-pull-request-summaries.md)
@@ -1929,6 +1930,8 @@
       * [Using Claude Sonnet In Copilot Chat](copilot/using-github-copilot/ai-models/using-claude-sonnet-in-github-copilot.md)
       * [Using Gemini In Copilot Chat](copilot/using-github-copilot/ai-models/using-gemini-in-github-copilot.md)
       * [Using OpenAI GPT-4.1 in Copilot Chat](copilot/using-github-copilot/ai-models/using-openai-gpt-41-in-github-copilot.md)
+      * [Using Open AI O 3 In Copilot Chat](copilot/using-github-copilot/ai-models/using-openai-o3-in-github-copilot.md)
+      * [Using Open AI O 4 Mini In Copilot Chat](copilot/using-github-copilot/ai-models/using-openai-o4-mini-in-github-copilot.md)
     - Code Review
       * [Configuring Automatic Code Review By Copilot](copilot/using-github-copilot/code-review/configuring-automatic-code-review-by-copilot.md)
       * [Configuring Coding Guidelines For Git Hub Copilot Code Review](copilot/using-github-copilot/code-review/configuring-coding-guidelines.md)
