@@ -594,6 +594,7 @@
       * [Configuring Authentication And Provisioning With Ping Federate](admin/managing-iam/provisioning-user-accounts-with-scim/configuring-authentication-and-provisioning-with-pingfederate.md)
       * [Configuring SCIM Provisioning Ifversion Ghec For Enterprise Managed Users Else To Manage Users Endif](admin/managing-iam/provisioning-user-accounts-with-scim/configuring-scim-provisioning-for-users.md)
       * [Configuring Ifversion Ghec SCIM Else Authentication And Endif Provisioning With Okta](admin/managing-iam/provisioning-user-accounts-with-scim/configuring-scim-provisioning-with-okta.md)
+      * [Disabling SCIM Provisioning For Users](admin/managing-iam/provisioning-user-accounts-with-scim/disabling-scim-provisioning-for-users.md)
       * [Provisioning Accounts Ifversion Ghec For Enterprise Managed Users Else With SCIM Endif](admin/managing-iam/provisioning-user-accounts-with-scim/index.md)
       * [Managing Team Memberships With Identity Provider Groups](admin/managing-iam/provisioning-user-accounts-with-scim/managing-team-memberships-with-identity-provider-groups.md)
       * [Provisioning Users And Groups With SCIM Using The REST API](admin/managing-iam/provisioning-user-accounts-with-scim/provisioning-users-and-groups-with-scim-using-the-rest-api.md)
@@ -3236,6 +3237,7 @@
   - Search
     * [REST API Endpoints For Search](rest/search/search.md)
   - Secret Scanning
+    * [Alert Dismissal Requests](rest/secret-scanning/alert-dismissal-requests.md)
     * [REST API Endpoints For Push Protection Bypass Requests](rest/secret-scanning/delegated-bypass.md)
     * [REST API Endpoints For Secret Scanning](rest/secret-scanning/secret-scanning.md)
   - Security Advisories
