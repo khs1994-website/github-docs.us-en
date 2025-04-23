@@ -716,6 +716,7 @@
       * [Setting Up External Monitoring](admin/monitoring-and-managing-your-instance/monitoring-your-instance/setting-up-external-monitoring.md)
       * [Troubleshooting Resource Allocation Problems](admin/monitoring-and-managing-your-instance/monitoring-your-instance/troubleshooting-resource-allocation-problems.md)
     - Updating The Virtual Machine And Physical Resources
+      * [Changing Your Platform](admin/monitoring-and-managing-your-instance/updating-the-virtual-machine-and-physical-resources/changing-your-platform.md)
       * [Increasing CPU Or Memory Resources](admin/monitoring-and-managing-your-instance/updating-the-virtual-machine-and-physical-resources/increasing-cpu-or-memory-resources.md)
       * [Increasing Storage Capacity](admin/monitoring-and-managing-your-instance/updating-the-virtual-machine-and-physical-resources/increasing-storage-capacity.md)
       * [Updating The Virtual Machine And Physical Resources](admin/monitoring-and-managing-your-instance/updating-the-virtual-machine-and-physical-resources/index.md)
