@@ -2199,6 +2199,7 @@
     * [Learning To Code](get-started/learning-to-code/index.md)
     * [Learning To Debug With Git Hub Copilot](get-started/learning-to-code/learning-to-debug-with-github-copilot.md)
     * [Reusing Other People S Code In Your Projects](get-started/learning-to-code/reusing-other-peoples-code-in-your-projects.md)
+    * [Setting Up Copilot For Learning To Code](get-started/learning-to-code/setting-up-copilot-for-learning-to-code.md)
     * [Storing Your Secrets Safely](get-started/learning-to-code/storing-your-secrets-safely.md)
   - Onboarding
     * [Getting Started With Git Hub Enterprise Cloud](get-started/onboarding/getting-started-with-github-enterprise-cloud.md)
