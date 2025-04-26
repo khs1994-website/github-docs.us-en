@@ -858,7 +858,7 @@
       * [Using O Auth Apps](apps/oauth-apps/using-oauth-apps/index.md)
       * [Installing An O Auth App In Your Organization](apps/oauth-apps/using-oauth-apps/installing-an-oauth-app-in-your-organization.md)
       * [Installing An O Auth App In Your Personal Account](apps/oauth-apps/using-oauth-apps/installing-an-oauth-app-in-your-personal-account.md)
-      * [Internal O Auth Apps](apps/oauth-apps/using-oauth-apps/internal-oauth-apps.md)
+      * [Privileged O Auth Apps](apps/oauth-apps/using-oauth-apps/privileged-oauth-apps.md)
       * [Reviewing Your Authorized O Auth Apps](apps/oauth-apps/using-oauth-apps/reviewing-your-authorized-oauth-apps.md)
     * [O Auth Apps](apps/oauth-apps/index.md)
   - Sharing Github Apps
@@ -876,7 +876,7 @@
     * [Installing A Git Hub App From Git Hub Marketplace For Your Organizations](apps/using-github-apps/installing-a-github-app-from-github-marketplace-for-your-organizations.md)
     * [Installing A Git Hub App From Git Hub Marketplace For Your Personal Account](apps/using-github-apps/installing-a-github-app-from-github-marketplace-for-your-personal-account.md)
     * [Installing Your Own Git Hub App](apps/using-github-apps/installing-your-own-github-app.md)
-    * [Internal Git Hub Apps](apps/using-github-apps/internal-github-apps.md)
+    * [Privileged Git Hub Apps](apps/using-github-apps/privileged-github-apps.md)
     * [Requesting A Git Hub App From Your Organization Owner](apps/using-github-apps/requesting-a-github-app-from-your-organization-owner.md)
     * [Reviewing And Modifying Installed Git Hub Apps](apps/using-github-apps/reviewing-and-modifying-installed-github-apps.md)
     * [Reviewing And Revoking Authorization Of Git Hub Apps](apps/using-github-apps/reviewing-and-revoking-authorization-of-github-apps.md)
