@@ -1360,6 +1360,7 @@
       * [Working With Dependabot](code-security/dependabot/working-with-dependabot/index.md)
       * [Keeping Your Actions Up To Date With Dependabot](code-security/dependabot/working-with-dependabot/keeping-your-actions-up-to-date-with-dependabot.md)
       * [Managing Pull Requests For Dependency Updates](code-security/dependabot/working-with-dependabot/managing-pull-requests-for-dependency-updates.md)
+      * [Setting Up Dependabot To Run On Self Hosted Action Runners Using The Actions Runner Controller](code-security/dependabot/working-with-dependabot/setting-dependabot-to-run-on-self-hosted-runners-using-arc.md)
     * [Keeping Your Supply Chain Secure With Dependabot](code-security/dependabot/index.md)
   - Getting Started
     * [Adding A Security Policy To Your Repository](code-security/getting-started/adding-a-security-policy-to-your-repository.md)
@@ -1903,13 +1904,21 @@
     * [Responsible Use Of Git Hub Copilot Pull Request Summaries](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-pull-request-summaries.md)
     * [Responsible Use Of Git Hub Copilot Text Completion](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-text-completion.md)
   - Rolling Out Github Copilot At Scale
-    * [Analyzing Usage Over Time With The Copilot Metrics API](copilot/rolling-out-github-copilot-at-scale/analyzing-usage-over-time-with-the-copilot-metrics-api.md)
-    * [Choosing Your Enterprise S Plan For Git Hub Copilot](copilot/rolling-out-github-copilot-at-scale/choosing-your-enterprises-plan-for-github-copilot.md)
-    * [Driving Copilot Adoption In Your Company](copilot/rolling-out-github-copilot-at-scale/driving-copilot-adoption-in-your-company.md)
+    - Assigning Licenses
+      * [Assigning Git Hub Copilot Licenses In Your Enterprise](copilot/rolling-out-github-copilot-at-scale/assigning-licenses/index.md)
+      * [Managing Your Company S Spending On Git Hub Copilot](copilot/rolling-out-github-copilot-at-scale/assigning-licenses/managing-your-companys-spending-on-github-copilot.md)
+      * [Reminding Inactive Users To Use Their Git Hub Copilot License](copilot/rolling-out-github-copilot-at-scale/assigning-licenses/reminding-inactive-users.md)
+      * [Setting Up A Self Serve Process For Git Hub Copilot Licenses](copilot/rolling-out-github-copilot-at-scale/assigning-licenses/setting-up-a-self-serve-process-for-github-copilot-licenses.md)
+    - Enabling Developers
+      * [Driving Copilot Adoption In Your Company](copilot/rolling-out-github-copilot-at-scale/enabling-developers/driving-copilot-adoption-in-your-company.md)
+      * [Enabling Developers To Use Git Hub Copilot](copilot/rolling-out-github-copilot-at-scale/enabling-developers/index.md)
+    - Measuring Adoption
+      * [Analyzing Usage Over Time With The Copilot Metrics API](copilot/rolling-out-github-copilot-at-scale/measuring-adoption/analyzing-usage-over-time-with-the-copilot-metrics-api.md)
+      * [Measuring Adoption And Usage Of Git Hub Copilot](copilot/rolling-out-github-copilot-at-scale/measuring-adoption/index.md)
+    - Planning Your Rollout
+      * [Choosing Your Enterprise S Plan For Git Hub Copilot](copilot/rolling-out-github-copilot-at-scale/planning-your-rollout/choosing-your-enterprises-plan-for-github-copilot.md)
+      * [Planning A Rollout Of Git Hub Copilot](copilot/rolling-out-github-copilot-at-scale/planning-your-rollout/index.md)
     * [Rolling Out Git Hub Copilot At Scale](copilot/rolling-out-github-copilot-at-scale/index.md)
-    * [Managing Your Company S Spending On Git Hub Copilot](copilot/rolling-out-github-copilot-at-scale/managing-your-companys-spending-on-github-copilot.md)
-    * [Reminding Inactive Users To Use Their Git Hub Copilot License](copilot/rolling-out-github-copilot-at-scale/reminding-inactive-users.md)
-    * [Setting Up A Self Serve Process For Git Hub Copilot Licenses](copilot/rolling-out-github-copilot-at-scale/setting-up-a-self-serve-process-for-github-copilot-licenses.md)
   - Setting Up Github Copilot
     * [Setting Up Git Hub Copilot](copilot/setting-up-github-copilot/index.md)
     * [Setting Up Git Hub Copilot For Your Enterprise](copilot/setting-up-github-copilot/setting-up-github-copilot-for-your-enterprise.md)
@@ -3081,6 +3090,9 @@
     * [REST API Endpoints For Copilot Metrics](rest/copilot/copilot-metrics.md)
     * [REST API Endpoints For Copilot User Management](rest/copilot/copilot-user-management.md)
     * [REST API Endpoints For Copilot](rest/copilot/index.md)
+  - Credentials
+    * [Credentials](rest/credentials/index.md)
+    * [Revocation](rest/credentials/revoke.md)
   - Dependabot
     * [REST API endpoints for {% data variables.product.prodname_dependabot_alerts %}](rest/dependabot/alerts.md)
     * [REST API endpoints for {% data variables.product.prodname_dependabot %}](rest/dependabot/index.md)
