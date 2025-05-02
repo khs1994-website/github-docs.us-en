@@ -2945,6 +2945,7 @@
       * [Configuring Tag Protection Rules](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/configuring-tag-protection-rules.md)
       * [Enabling Anonymous Git Read Access For A Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/enabling-anonymous-git-read-access-for-a-repository.md)
       * [Managing Repository Settings](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/index.md)
+      * [Managing The Automatic Closing Of Issues In Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-auto-closing-issues.md)
       * [Managing Git LFS Objects In Archives Of Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-git-lfs-objects-in-archives-of-your-repository.md)
       * [Managing Pull Request Reviews In Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-pull-request-reviews-in-your-repository.md)
       * [Managing Teams And People With Access To Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository.md)
