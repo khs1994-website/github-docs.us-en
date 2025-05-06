@@ -1034,6 +1034,24 @@
     * [Upgrading Your Account S Plan](billing/managing-the-plan-for-your-github-account/upgrading-your-accounts-plan.md)
     * [Viewing And Managing Pending Changes To Your Plan](billing/managing-the-plan-for-your-github-account/viewing-and-managing-pending-changes-to-your-plan.md)
     * [Viewing The Subscription And Usage For Your Enterprise Account](billing/managing-the-plan-for-your-github-account/viewing-the-subscription-and-usage-for-your-enterprise-account.md)
+  - Managing Your Billing
+    * [About Billing For Your Enterprise](billing/managing-your-billing/about-billing-for-your-enterprise.md)
+    * [About Billing On Git Hub](billing/managing-your-billing/about-billing-on-github.md)
+    * [About The Billing Cycle](billing/managing-your-billing/about-the-billing-cycle.md)
+    * [About The New Billing Platform](billing/managing-your-billing/about-the-new-billing-platform.md)
+    * [About Usage Based Billing For Licenses](billing/managing-your-billing/about-usage-based-billing-for-licenses.md)
+    * [Adding Licenses To An Organization](billing/managing-your-billing/adding-licenses-to-an-organization.md)
+    * [Automating Usage Reporting With The REST API](billing/managing-your-billing/automating-usage-reporting.md)
+    * [Charging Business Units](billing/managing-your-billing/charging-business-units.md)
+    * [Estimating Spending](billing/managing-your-billing/estimating-spending.md)
+    * [Gathering Insights On Your Spending](billing/managing-your-billing/gathering-insights-on-your-spending.md)
+    * [Managing Your Billing](billing/managing-your-billing/index.md)
+    * [Managing Your Payment And Billing Information](billing/managing-your-billing/managing-your-payment-and-billing-information.md)
+    * [Preventing Overspending](billing/managing-your-billing/preventing-overspending.md)
+    * [Redeeming A Coupon](billing/managing-your-billing/redeeming-a-coupon.md)
+    * [Roles For The New Billing Platform](billing/managing-your-billing/roles-for-the-new-billing-platform.md)
+    * [Troubleshooting A Declined Credit Card Charge](billing/managing-your-billing/troubleshooting-a-declined-credit-card-charge.md)
+    * [Unlocking A Locked Account](billing/managing-your-billing/unlocking-a-locked-account.md)
   - Managing Your License For Github Enterprise
     * [About Licenses For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/about-licenses-for-github-enterprise.md)
     * [Downloading Your License For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/downloading-your-license-for-github-enterprise.md)
@@ -1056,35 +1074,6 @@
       * [Renewing Your Client S Paid Organization](billing/setting-up-paid-accounts-for-procurement-companies/setting-up-paid-organizations-for-procurement-companies/renewing-your-clients-paid-organization.md)
       * [Upgrading Or Downgrading Your Client S Paid Organization](billing/setting-up-paid-accounts-for-procurement-companies/setting-up-paid-organizations-for-procurement-companies/upgrading-or-downgrading-your-clients-paid-organization.md)
     * [Setting Up Paid Accounts For Procurement Companies](billing/setting-up-paid-accounts-for-procurement-companies/index.md)
-  - Using The Billing Platform
-    * [About Billing For Your Enterprise](billing/using-the-billing-platform/about-billing-for-your-enterprise.md)
-    * [About Billing On Git Hub](billing/using-the-billing-platform/about-billing-on-github.md)
-    * [Adding A Sales Tax Certificate](billing/using-the-billing-platform/adding-a-sales-tax-certificate.md)
-    * [Adding Information To Your Receipts](billing/using-the-billing-platform/adding-information-to-your-receipts.md)
-    * [Adding Or Editing A Payment Method](billing/using-the-billing-platform/adding-or-editing-a-payment-method.md)
-    * [Changing The Duration Of Your Billing Cycle](billing/using-the-billing-platform/changing-the-duration-of-your-billing-cycle.md)
-    * [Using The Billing Platform](billing/using-the-billing-platform/index.md)
-    * [Redeeming A Coupon](billing/using-the-billing-platform/redeeming-a-coupon.md)
-    * [Setting Your Billing Email](billing/using-the-billing-platform/setting-your-billing-email.md)
-    * [Troubleshooting A Declined Credit Card Charge](billing/using-the-billing-platform/troubleshooting-a-declined-credit-card-charge.md)
-    * [Unlocking A Locked Account](billing/using-the-billing-platform/unlocking-a-locked-account.md)
-    * [Viewing Your Payment History And Receipts](billing/using-the-billing-platform/viewing-your-payment-history-and-receipts.md)
-    * [Viewing Your Subscriptions And Billing Date](billing/using-the-billing-platform/viewing-your-subscriptions-and-billing-date.md)
-  - Using The New Billing Platform
-    * [About Billing For Git Large File Storage](billing/using-the-new-billing-platform/about-billing-for-git-large-file-storage.md)
-    * [About The Billing Cycle](billing/using-the-new-billing-platform/about-the-billing-cycle.md)
-    * [About The New Billing Platform](billing/using-the-new-billing-platform/about-the-new-billing-platform.md)
-    * [About Usage Based Billing For Licenses](billing/using-the-new-billing-platform/about-usage-based-billing-for-licenses.md)
-    * [Automating Usage Reporting With The REST API](billing/using-the-new-billing-platform/automating-usage-reporting.md)
-    * [Charging Business Units](billing/using-the-new-billing-platform/charging-business-units.md)
-    * [Estimating Spending](billing/using-the-new-billing-platform/estimating-spending.md)
-    * [Gathering Insights On Your Spending](billing/using-the-new-billing-platform/gathering-insights-on-your-spending.md)
-    * [Getting Started With The New Billing Platform](billing/using-the-new-billing-platform/getting-started-with-the-new-billing-platform.md)
-    * [Using The New Billing Platform](billing/using-the-new-billing-platform/index.md)
-    * [Managing Licenses Ifversion Fpt And Plans Endif For Your Account](billing/using-the-new-billing-platform/managing-licenses-and-plans-for-your-account.md)
-    * [Managing Your Payment And Billing Information](billing/using-the-new-billing-platform/managing-your-payment-and-billing-information.md)
-    * [Preventing Overspending](billing/using-the-new-billing-platform/preventing-overspending.md)
-    * [Roles For The New Billing Platform](billing/using-the-new-billing-platform/roles-for-the-new-billing-platform.md)
   * [Billing And Payments Documentation](billing/index.md)
 - Code Security
   - Adopting Github Advanced Security At Scale
@@ -1129,7 +1118,6 @@
       * [Managing Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/index.md)
       * [Resolving Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/resolving-code-scanning-alerts.md)
       * [Responsible Use Of Copilot Autofix For Code Scanning](code-security/code-scanning/managing-code-scanning-alerts/responsible-use-autofix-code-scanning.md)
-      * [Tracking Code Scanning Alerts In Issues Using Task Lists](code-security/code-scanning/managing-code-scanning-alerts/tracking-code-scanning-alerts-in-issues-using-task-lists.md)
       * [Triaging Code Scanning Alerts In Pull Requests](code-security/code-scanning/managing-code-scanning-alerts/triaging-code-scanning-alerts-in-pull-requests.md)
     - Managing Your Code Scanning Configuration
       * [About The Tool Status Page For Code Scanning](code-security/code-scanning/managing-your-code-scanning-configuration/about-the-tool-status-page.md)
@@ -2057,29 +2045,29 @@
   * [{% data variables.product.prodname_discussions %} documentation](discussions/index.md)
   * [Quickstart For Git Hub Discussions](discussions/quickstart.md)
 - Education
+  - About Github Education
+    - Github Education For Students
+      * [About Git Hub Community Exchange](education/about-github-education/github-education-for-students/about-github-community-exchange.md)
+      * [About Git Hub Education For Students](education/about-github-education/github-education-for-students/about-github-education-for-students.md)
+      * [Apply To Git Hub Education As A Student](education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student.md)
+      * [Git Hub Education For Students](education/about-github-education/github-education-for-students/index.md)
+      * [Solving Problems With Your Git Hub Education Access](education/about-github-education/github-education-for-students/solving-problems-with-your-github-education-access.md)
+    - Github Education For Teachers
+      * [About Git Hub Education For Teachers](education/about-github-education/github-education-for-teachers/about-github-education-for-teachers.md)
+      * [Apply To Git Hub Education As A Teacher](education/about-github-education/github-education-for-teachers/apply-to-github-education-as-a-teacher.md)
+      * [Git Hub Education For Teachers](education/about-github-education/github-education-for-teachers/index.md)
+      * [Why Wasn T My Application To Git Hub Education For Teachers Approved](education/about-github-education/github-education-for-teachers/why-wasnt-my-application-to-github-education-for-teachers-approved.md)
+    - Use Github At Your Educational Institution
+      * [About Git Hub Campus Experts](education/about-github-education/use-github-at-your-educational-institution/about-github-campus-experts.md)
+      * [About Git Hub Campus Program](education/about-github-education/use-github-at-your-educational-institution/about-github-campus-program.md)
+      * [Applying To Be A Git Hub Campus Expert](education/about-github-education/use-github-at-your-educational-institution/applying-to-be-a-github-campus-expert.md)
+      * [Use Git Hub At Your Educational Institution](education/about-github-education/use-github-at-your-educational-institution/index.md)
+    * [About Git Hub Education](education/about-github-education/index.md)
   - Contribute With Github Community Exchange
     * [Getting Started With Git Hub Community Exchange](education/contribute-with-github-community-exchange/getting-started-with-github-community-exchange.md)
     * [Contribute With Git Hub Community Exchange](education/contribute-with-github-community-exchange/index.md)
     * [Managing Your Submissions To Git Hub Community Exchange](education/contribute-with-github-community-exchange/managing-your-submissions-to-github-community-exchange.md)
     * [Submitting Your Repository To Git Hub Community Exchange](education/contribute-with-github-community-exchange/submitting-your-repository-to-github-community-exchange.md)
-  - Explore The Benefits Of Teaching And Learning With Github Education
-    - Github Education For Students
-      * [About Git Hub Community Exchange](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/about-github-community-exchange.md)
-      * [About Git Hub Education For Students](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/about-github-education-for-students.md)
-      * [Apply To Git Hub Education As A Student](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/apply-to-github-education-as-a-student.md)
-      * [Git Hub Education For Students](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/index.md)
-      * [Why Wasn T My Application To Git Hub Education For Students Approved](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/why-wasnt-my-application-to-github-education-for-students-approved.md)
-    - Github Education For Teachers
-      * [About Git Hub Education For Teachers](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-teachers/about-github-education-for-teachers.md)
-      * [Apply To Git Hub Education As A Teacher](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-teachers/apply-to-github-education-as-a-teacher.md)
-      * [Git Hub Education For Teachers](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-teachers/index.md)
-      * [Why Wasn T My Application To Git Hub Education For Teachers Approved](education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-teachers/why-wasnt-my-application-to-github-education-for-teachers-approved.md)
-    - Use Github At Your Educational Institution
-      * [About Git Hub Campus Experts](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/about-github-campus-experts.md)
-      * [About Git Hub Campus Program](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/about-github-campus-program.md)
-      * [Applying To Be A Git Hub Campus Expert](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/applying-to-be-a-github-campus-expert.md)
-      * [Use Git Hub At Your Educational Institution](education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-at-your-educational-institution/index.md)
-    * [Explore The Benefits Of Teaching And Learning With Git Hub Education](education/explore-the-benefits-of-teaching-and-learning-with-github-education/index.md)
   - Manage Coursework With Github Classroom
     - Get Started With Github Classroom
       * [About Git Hub Classroom](education/manage-coursework-with-github-classroom/get-started-with-github-classroom/about-github-classroom.md)
