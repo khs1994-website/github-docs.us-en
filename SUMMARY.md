@@ -444,7 +444,6 @@
       * [Enforcing Policies For Projects In Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-projects-in-your-enterprise.md)
       * [Enforcing Policies For Security Settings In Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-security-settings-in-your-enterprise.md)
       * [Enforcing Repository Management Policies In Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-repository-management-policies-in-your-enterprise.md)
-      * [Enforcing Team Policies In Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-team-policies-in-your-enterprise.md)
       * [Enforcing Policies For Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/index.md)
       * [Managing Code Rulesets For Repositories In Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/managing-policies-for-code-governance.md)
       * [Restricting Email Notifications For Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/restricting-email-notifications-for-your-enterprise.md)
@@ -2246,11 +2245,6 @@
     * [About Versions Of Git Hub Docs](get-started/using-github-docs/about-versions-of-github-docs.md)
     * [Using Git Hub Docs](get-started/using-github-docs/index.md)
     * [Using Hover Cards On Git Hub Docs](get-started/using-github-docs/using-hover-cards-on-github-docs.md)
-  - Working With Subversion On Github
-    * [Working With Subversion On Git Hub](get-started/working-with-subversion-on-github/index.md)
-    * [Subversion Properties Supported By Git Hub](get-started/working-with-subversion-on-github/subversion-properties-supported-by-github.md)
-    * [Support For Subversion Clients](get-started/working-with-subversion-on-github/support-for-subversion-clients.md)
-    * [What Are The Differences Between Subversion And Git](get-started/working-with-subversion-on-github/what-are-the-differences-between-subversion-and-git.md)
   - Writing On Github
     - Editing And Sharing Content With Gists
       * [Creating Gists](get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists.md)
@@ -2319,7 +2313,6 @@
     * [Overview](graphql/overview/index.md)
     * [Public Schema](graphql/overview/public-schema.md)
     * [Rate Limits And Node Limits For The Graph QL API](graphql/overview/rate-limits-and-node-limits-for-the-graphql-api.md)
-    * [Schema Previews](graphql/overview/schema-previews.md)
   - Reference
     * [Enums](graphql/reference/enums.md)
     * [Reference](graphql/reference/index.md)
@@ -2536,12 +2529,6 @@
     * [Collaborating With Groups In Organizations](organizations/collaborating-with-groups-in-organizations/index.md)
     * [Viewing Git Hub Actions Metrics For Your Organization](organizations/collaborating-with-groups-in-organizations/viewing-github-actions-metrics-for-your-organization.md)
     * [Viewing Insights For Dependencies In Your Organization](organizations/collaborating-with-groups-in-organizations/viewing-insights-for-dependencies-in-your-organization.md)
-  - Collaborating With Your Team
-    * [About Team Discussions](organizations/collaborating-with-your-team/about-team-discussions.md)
-    * [Creating A Team Discussion](organizations/collaborating-with-your-team/creating-a-team-discussion.md)
-    * [Editing Or Deleting A Team Discussion](organizations/collaborating-with-your-team/editing-or-deleting-a-team-discussion.md)
-    * [Collaborating With Your Team](organizations/collaborating-with-your-team/index.md)
-    * [Pinning A Team Discussion](organizations/collaborating-with-your-team/pinning-a-team-discussion.md)
   - Granting Access To Your Organization With Saml Single Sign On
     * [About Two Factor Authentication And SAML Single Sign On](organizations/granting-access-to-your-organization-with-saml-single-sign-on/about-two-factor-authentication-and-saml-single-sign-on.md)
     * [Granting Access To Your Organization With SAML Single Sign On](organizations/granting-access-to-your-organization-with-saml-single-sign-on/index.md)
@@ -2703,7 +2690,6 @@
     * [Configuring Team Notifications](organizations/organizing-members-into-teams/configuring-team-notifications.md)
     * [Creating A Team](organizations/organizing-members-into-teams/creating-a-team.md)
     * [Deleting A Team](organizations/organizing-members-into-teams/deleting-a-team.md)
-    * [Disabling Team Discussions For Your Organization](organizations/organizing-members-into-teams/disabling-team-discussions-for-your-organization.md)
     * [Organizing Members Into Teams](organizations/organizing-members-into-teams/index.md)
     * [Managing Code Review Settings For Your Team](organizations/organizing-members-into-teams/managing-code-review-settings-for-your-team.md)
     * [Managing Scheduled Reminders For Your Team](organizations/organizing-members-into-teams/managing-scheduled-reminders-for-your-team.md)
