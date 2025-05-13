@@ -1347,6 +1347,7 @@
       * [Working With Dependabot](code-security/dependabot/working-with-dependabot/index.md)
       * [Keeping Your Actions Up To Date With Dependabot](code-security/dependabot/working-with-dependabot/keeping-your-actions-up-to-date-with-dependabot.md)
       * [Managing Pull Requests For Dependency Updates](code-security/dependabot/working-with-dependabot/managing-pull-requests-for-dependency-updates.md)
+      * [Setting Up Dependabot To Run On Github Hosted Action Runners Using The Azure Private Network](code-security/dependabot/working-with-dependabot/setting-dependabot-to-run-on-github-hosted-runners-using-vnet.md)
       * [Setting Up Dependabot To Run On Self Hosted Action Runners Using The Actions Runner Controller](code-security/dependabot/working-with-dependabot/setting-dependabot-to-run-on-self-hosted-runners-using-arc.md)
     * [Keeping Your Supply Chain Secure With Dependabot](code-security/dependabot/index.md)
   - Getting Started
