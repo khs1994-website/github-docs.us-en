@@ -1131,6 +1131,7 @@
       * [Triaging Code Scanning Alerts In Pull Requests](code-security/code-scanning/managing-code-scanning-alerts/triaging-code-scanning-alerts-in-pull-requests.md)
     - Managing Your Code Scanning Configuration
       * [About The Tool Status Page For Code Scanning](code-security/code-scanning/managing-your-code-scanning-configuration/about-the-tool-status-page.md)
+      * [Actions Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/actions-built-in-queries.md)
       * [C And C Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/c-cpp-built-in-queries.md)
       * [Code QL Query Suites](code-security/code-scanning/managing-your-code-scanning-configuration/codeql-query-suites.md)
       * [Configuring Larger Runners For Default Setup](code-security/code-scanning/managing-your-code-scanning-configuration/configuring-larger-runners-for-default-setup.md)
@@ -3178,6 +3179,10 @@
     * [REST API Endpoints For Organization Migrations](rest/migrations/orgs.md)
     * [REST API Endpoints For Source Imports](rest/migrations/source-imports.md)
     * [REST API Endpoints For User Migrations](rest/migrations/users.md)
+  - Models
+    * [REST API Endpoints For Models Catalog](rest/models/catalog.md)
+    * [Models](rest/models/index.md)
+    * [REST API Endpoints For Models Inference](rest/models/inference.md)
   - Oauth Authorizations
     * [REST API Endpoints For O Auth App Authorizations](rest/oauth-authorizations/oauth-authorizations.md)
   - Orgs
