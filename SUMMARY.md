@@ -1820,7 +1820,10 @@
     * [Adding Personal Custom Instructions For Git Hub Copilot](copilot/customizing-copilot/adding-personal-custom-instructions-for-github-copilot.md)
     * [Adding Repository Custom Instructions For Git Hub Copilot](copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot.md)
     * [Creating A Custom Model For Git Hub Copilot](copilot/customizing-copilot/creating-a-custom-model-for-github-copilot.md)
+    * [Customizing Or Disabling The Firewall For Copilot Coding Agent](copilot/customizing-copilot/customizing-or-disabling-the-firewall-for-copilot-coding-agent.md)
+    * [Customizing The Development Environment For Copilot Coding Agent](copilot/customizing-copilot/customizing-the-development-environment-for-copilot-coding-agent.md)
     * [Extending Copilot Chat With The Model Context Protocol MCP](copilot/customizing-copilot/extending-copilot-chat-with-mcp.md)
+    * [Extending Copilot Coding Agent With The Model Context Protocol MCP](copilot/customizing-copilot/extending-copilot-coding-agent-with-mcp.md)
     * [Extending The Capabilities Of Git Hub Copilot In Your Organization](copilot/customizing-copilot/extending-the-capabilities-of-github-copilot-in-your-organization.md)
     * [Customizing Copilot](copilot/customizing-copilot/index.md)
     * [Managing Copilot Knowledge Bases](copilot/customizing-copilot/managing-copilot-knowledge-bases.md)
@@ -1868,6 +1871,7 @@
         * [Subscribing To Copilot For Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-the-copilot-plan-for-your-enterprise/subscribing-to-copilot-for-your-enterprise.md)
         * [Upgrading Copilot For Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-the-copilot-plan-for-your-enterprise/upgrading-copilot-for-your-enterprise.md)
       * [Managing Git Hub Copilot In Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/index.md)
+      * [Making {% data variables.copilot.copilot_coding_agent %} available to enterprise members](copilot/managing-copilot/managing-copilot-for-your-enterprise/making-copilot-coding-agent-available-to-enterprise.md)
       * [Managing Policies And Features For Copilot In Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise.md)
     - Managing Github Copilot In Your Organization
       - Managing Access To Github Copilot In Your Organization
@@ -1885,6 +1889,7 @@
         * [Reviewing Activity Related To Git Hub Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/reviewing-activity-related-to-github-copilot-in-your-organization/index.md)
         * [Reviewing Audit Logs For Copilot Business](copilot/managing-copilot/managing-github-copilot-in-your-organization/reviewing-activity-related-to-github-copilot-in-your-organization/reviewing-audit-logs-for-copilot-business.md)
         * [Reviewing User Activity Data For Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/reviewing-activity-related-to-github-copilot-in-your-organization/reviewing-user-activity-data-for-copilot-in-your-organization.md)
+      * [Adding {% data variables.copilot.copilot_coding_agent %} to your organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/adding-copilot-coding-agent-to-organization.md)
       * [Configuring Your Proxy Server Or Firewall For Copilot](copilot/managing-copilot/managing-github-copilot-in-your-organization/configuring-your-proxy-server-or-firewall-for-copilot.md)
       * [Managing Git Hub Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/index.md)
       * [Managing Policies For Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-policies-for-copilot-in-your-organization.md)
@@ -1895,6 +1900,7 @@
     * [Managing Copilot](copilot/managing-copilot/index.md)
   - Responsible Use Of Github Copilot Features
     * [Responsible Use Of Git Hub Copilot Features](copilot/responsible-use-of-github-copilot-features/index.md)
+    * [Responsible use of Copilot coding agent on GitHub.com](copilot/responsible-use-of-github-copilot-features/responsible-use-of-copilot-coding-agent-on-githubcom.md)
     * [Responsible Use Of Git Hub Copilot Chat In Git Hub Mobile](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-github-mobile.md)
     * [Responsible Use Of Git Hub Copilot Chat In Git Hub](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-github.md)
     * [Responsible Use Of Git Hub Copilot Chat In Your IDE](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-your-ide.md)
@@ -1913,6 +1919,8 @@
     - Enabling Developers
       * [Driving Copilot Adoption In Your Company](copilot/rolling-out-github-copilot-at-scale/enabling-developers/driving-copilot-adoption-in-your-company.md)
       * [Enabling Developers To Use Git Hub Copilot](copilot/rolling-out-github-copilot-at-scale/enabling-developers/index.md)
+      * [Integrating Agentic AI Into Your Enterprise S Software Development Lifecycle](copilot/rolling-out-github-copilot-at-scale/enabling-developers/integrating-agentic-ai.md)
+      * [Using {% data variables.copilot.copilot_coding_agent %} effectively in your organization](copilot/rolling-out-github-copilot-at-scale/enabling-developers/using-copilot-coding-agent-in-org.md)
     - Measuring Adoption
       * [Analyzing Usage Over Time With The Copilot Metrics API](copilot/rolling-out-github-copilot-at-scale/measuring-adoption/analyzing-usage-over-time-with-the-copilot-metrics-api.md)
       * [Measuring Adoption And Usage Of Git Hub Copilot](copilot/rolling-out-github-copilot-at-scale/measuring-adoption/index.md)
@@ -1959,11 +1967,23 @@
       * [Indexing Repositories For Copilot Chat](copilot/using-github-copilot/copilot-chat/indexing-repositories-for-copilot-chat.md)
       * [Prompt Engineering For Copilot Chat](copilot/using-github-copilot/copilot-chat/prompt-engineering-for-copilot-chat.md)
     - Guides On Using Github Copilot
+      * [Choosing The Right AI Tool For Your Task](copilot/using-github-copilot/guides-on-using-github-copilot/choosing-the-right-ai-tool-for-your-task.md)
       * [Guides On Using Git Hub Copilot](copilot/using-github-copilot/guides-on-using-github-copilot/index.md)
       * [Modernizing Legacy Code With Git Hub Copilot](copilot/using-github-copilot/guides-on-using-github-copilot/modernizing-legacy-code-with-github-copilot.md)
       * [Refactoring Code With Git Hub Copilot](copilot/using-github-copilot/guides-on-using-github-copilot/refactoring-code-with-github-copilot.md)
+      * [Upgrading Java Projects With Git Hub Copilot](copilot/using-github-copilot/guides-on-using-github-copilot/upgrading-java-projects-with-github-copilot.md)
       * [Using Copilot To Migrate A Project To Another Programming Language](copilot/using-github-copilot/guides-on-using-github-copilot/using-copilot-to-migrate-a-project.md)
       * [Writing Tests With Git Hub Copilot](copilot/using-github-copilot/guides-on-using-github-copilot/writing-tests-with-github-copilot.md)
+    - Using Copilot Coding Agent To Work On Tasks
+      * [About Assigning Tasks To Copilot](copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/about-assigning-tasks-to-copilot.md)
+      * [Asking Copilot To Create A Pull Request](copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/asking-copilot-to-create-a-pull-request.md)
+      * [Best Practices For Using Copilot To Work On Tasks](copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/best-practices-for-using-copilot-to-work-on-tasks.md)
+      * [Enabling Copilot Coding Agent](copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/enabling-copilot-coding-agent.md)
+      * [Using Copilot To Work On Tasks](copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/index.md)
+      * [Reviewing A Pull Request Created By Copilot](copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/reviewing-a-pull-request-created-by-copilot.md)
+      * [Troubleshooting Copilot Coding Agent](copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/troubleshooting-copilot-coding-agent.md)
+      * [Using Copilot To Work On An Issue](copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/using-copilot-to-work-on-an-issue.md)
+      * [Using The Copilot Coding Agent Logs](copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/using-the-copilot-coding-agent-logs.md)
     - Using Github Copilot For Pull Requests
       * [Creating A Pull Request Summary With Git Hub Copilot](copilot/using-github-copilot/using-github-copilot-for-pull-requests/creating-a-pull-request-summary-with-github-copilot.md)
       * [Using Git Hub Copilot For Pull Requests](copilot/using-github-copilot/using-github-copilot-for-pull-requests/index.md)
@@ -1976,6 +1996,7 @@
     * [Using Copilot Text Completion](copilot/using-github-copilot/using-copilot-text-completion.md)
     * [Using Extensions To Integrate External Tools With Copilot Chat](copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat.md)
     * [Using Git Hub Copilot In The Command Line](copilot/using-github-copilot/using-github-copilot-in-the-command-line.md)
+    * [Using Git Hub Copilot To Create Issues](copilot/using-github-copilot/using-github-copilot-to-create-issues.md)
   * [{% data variables.product.prodname_copilot %} documentation](copilot/index.md)
   * [Quickstart For Git Hub Copilot](copilot/quickstart.md)
 - Desktop
@@ -2303,9 +2324,19 @@
     * [Using The Git Hub CLI Across Git Hub Platforms](github-cli/github-cli/using-multiple-accounts.md)
   * [{% data variables.product.prodname_cli %} documentation](github-cli/index.md)
 - Github Models
+  - Github Models At Scale
+    * [Git Hub Models At Scale](github-models/github-models-at-scale/index.md)
+    * [Managing Your Team S Model Usage](github-models/github-models-at-scale/manage-models-at-scale.md)
+    * [Using {% data variables.product.prodname_github_models %} to develop AI-powered applications in your enterprise](github-models/github-models-at-scale/use-models-at-scale.md)
+  - Use Github Models
+    * [Evaluating AI Models](github-models/use-github-models/evaluating-ai-models.md)
+    * [Use Git Hub Models](github-models/use-github-models/index.md)
+    * [Integrating AI Models Into Your Development Workflow](github-models/use-github-models/integrating-ai-models-into-your-development-workflow.md)
+    * [Optimizing Your AI Powered App With Models](github-models/use-github-models/optimizing-your-ai-powered-app-with-github-models.md)
+    * [Prototyping With AI Models](github-models/use-github-models/prototyping-with-ai-models.md)
+    * [Storing Prompts In Git Hub Repositories](github-models/use-github-models/storing-prompts-in-github-repositories.md)
+  * [About Git Hub Models](github-models/about-github-models.md)
   * [Git Hub Models](github-models/index.md)
-  * [Integrating AI Models Into Your Development Workflow](github-models/integrating-ai-models-into-your-development-workflow.md)
-  * [Prototyping With AI Models](github-models/prototyping-with-ai-models.md)
   * [Responsible Use Of Git Hub Models](github-models/responsible-use-of-github-models.md)
 - [Graphql](graphql/README.md)
   - Guides
@@ -2617,6 +2648,7 @@
     * [Managing Custom Properties For Repositories In Your Organization](organizations/managing-organization-settings/managing-custom-properties-for-repositories-in-your-organization.md)
     * [Managing Default Labels For Repositories In Your Organization](organizations/managing-organization-settings/managing-default-labels-for-repositories-in-your-organization.md)
     * [Managing Discussion Creation For Repositories In Your Organization](organizations/managing-organization-settings/managing-discussion-creation-for-repositories-in-your-organization.md)
+    * [Managing or restricting {% data variables.product.prodname_github_models %} in your organization](organizations/managing-organization-settings/managing-or-restricting-github-models-for-your-organization.md)
     * [Managing Pull Request Reviews In Your Organization](organizations/managing-organization-settings/managing-pull-request-reviews-in-your-organization.md)
     * [Managing Rulesets For Repositories In Your Organization](organizations/managing-organization-settings/managing-rulesets-for-repositories-in-your-organization.md)
     * [Managing Scheduled Reminders For Your Organization](organizations/managing-organization-settings/managing-scheduled-reminders-for-your-organization.md)
@@ -2935,6 +2967,7 @@
       * [Managing Repository Settings](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/index.md)
       * [Managing The Automatic Closing Of Issues In Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-auto-closing-issues.md)
       * [Managing Git LFS Objects In Archives Of Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-git-lfs-objects-in-archives-of-your-repository.md)
+      * [Managing {% data variables.product.prodname_github_models %} in your repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-github-models-in-your-repository.md)
       * [Managing Pull Request Reviews In Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-pull-request-reviews-in-your-repository.md)
       * [Managing Teams And People With Access To Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository.md)
       * [Managing The Commit Signoff Policy For Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-the-commit-signoff-policy-for-your-repository.md)
