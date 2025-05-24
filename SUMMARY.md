@@ -1958,6 +1958,16 @@
       * [Configuring Coding Guidelines For Git Hub Copilot Code Review](copilot/using-github-copilot/code-review/configuring-coding-guidelines.md)
       * [Code Review](copilot/using-github-copilot/code-review/index.md)
       * [Using Git Hub Copilot Code Review](copilot/using-github-copilot/code-review/using-copilot-code-review.md)
+    - Coding Agent
+      * [About Assigning Tasks To Copilot](copilot/using-github-copilot/coding-agent/about-assigning-tasks-to-copilot.md)
+      * [Asking Copilot To Create A Pull Request](copilot/using-github-copilot/coding-agent/asking-copilot-to-create-a-pull-request.md)
+      * [Best Practices For Using Copilot To Work On Tasks](copilot/using-github-copilot/coding-agent/best-practices-for-using-copilot-to-work-on-tasks.md)
+      * [Enabling Copilot Coding Agent](copilot/using-github-copilot/coding-agent/enabling-copilot-coding-agent.md)
+      * [Coding Agent](copilot/using-github-copilot/coding-agent/index.md)
+      * [Reviewing A Pull Request Created By Copilot](copilot/using-github-copilot/coding-agent/reviewing-a-pull-request-created-by-copilot.md)
+      * [Troubleshooting Copilot Coding Agent](copilot/using-github-copilot/coding-agent/troubleshooting-copilot-coding-agent.md)
+      * [Using Copilot To Work On An Issue](copilot/using-github-copilot/coding-agent/using-copilot-to-work-on-an-issue.md)
+      * [Using The Copilot Coding Agent Logs](copilot/using-github-copilot/coding-agent/using-the-copilot-coding-agent-logs.md)
     - Copilot Chat
       * [Asking Git Hub Copilot Questions In Git Hub Mobile](copilot/using-github-copilot/copilot-chat/asking-github-copilot-questions-in-github-mobile.md)
       * [Asking Git Hub Copilot Questions In Git Hub](copilot/using-github-copilot/copilot-chat/asking-github-copilot-questions-in-github.md)
@@ -1975,16 +1985,6 @@
       * [Upgrading Java Projects With Git Hub Copilot](copilot/using-github-copilot/guides-on-using-github-copilot/upgrading-java-projects-with-github-copilot.md)
       * [Using Copilot To Migrate A Project To Another Programming Language](copilot/using-github-copilot/guides-on-using-github-copilot/using-copilot-to-migrate-a-project.md)
       * [Writing Tests With Git Hub Copilot](copilot/using-github-copilot/guides-on-using-github-copilot/writing-tests-with-github-copilot.md)
-    - Using Copilot Coding Agent To Work On Tasks
-      * [About Assigning Tasks To Copilot](copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/about-assigning-tasks-to-copilot.md)
-      * [Asking Copilot To Create A Pull Request](copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/asking-copilot-to-create-a-pull-request.md)
-      * [Best Practices For Using Copilot To Work On Tasks](copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/best-practices-for-using-copilot-to-work-on-tasks.md)
-      * [Enabling Copilot Coding Agent](copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/enabling-copilot-coding-agent.md)
-      * [Using Copilot To Work On Tasks](copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/index.md)
-      * [Reviewing A Pull Request Created By Copilot](copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/reviewing-a-pull-request-created-by-copilot.md)
-      * [Troubleshooting Copilot Coding Agent](copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/troubleshooting-copilot-coding-agent.md)
-      * [Using Copilot To Work On An Issue](copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/using-copilot-to-work-on-an-issue.md)
-      * [Using The Copilot Coding Agent Logs](copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/using-the-copilot-coding-agent-logs.md)
     - Using Github Copilot For Pull Requests
       * [Creating A Pull Request Summary With Git Hub Copilot](copilot/using-github-copilot/using-github-copilot-for-pull-requests/creating-a-pull-request-summary-with-github-copilot.md)
       * [Using Git Hub Copilot For Pull Requests](copilot/using-github-copilot/using-github-copilot-for-pull-requests/index.md)
