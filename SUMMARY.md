@@ -1977,6 +1977,12 @@
       * [Copilot Chat](copilot/using-github-copilot/copilot-chat/index.md)
       * [Indexing Repositories For Copilot Chat](copilot/using-github-copilot/copilot-chat/indexing-repositories-for-copilot-chat.md)
       * [Prompt Engineering For Copilot Chat](copilot/using-github-copilot/copilot-chat/prompt-engineering-for-copilot-chat.md)
+    - Copilot Spaces
+      * [About Organizing And Sharing Context With Copilot Spaces](copilot/using-github-copilot/copilot-spaces/about-organizing-and-sharing-context-with-copilot-spaces.md)
+      * [Collaborating With Your Team Using Copilot Spaces](copilot/using-github-copilot/copilot-spaces/collaborating-with-your-team-using-copilot-spaces.md)
+      * [Creating And Using Copilot Spaces](copilot/using-github-copilot/copilot-spaces/creating-and-using-copilot-spaces.md)
+      * [Copilot Spaces](copilot/using-github-copilot/copilot-spaces/index.md)
+      * [Speeding Up Development Work With Copilot Spaces](copilot/using-github-copilot/copilot-spaces/speeding-up-development-work-with-copilot-spaces.md)
     - Guides On Using Github Copilot
       * [Choosing The Right AI Tool For Your Task](copilot/using-github-copilot/guides-on-using-github-copilot/choosing-the-right-ai-tool-for-your-task.md)
       * [Guides On Using Git Hub Copilot](copilot/using-github-copilot/guides-on-using-github-copilot/index.md)
@@ -2085,6 +2091,7 @@
       * [About Git Hub Community Exchange](education/about-github-education/github-education-for-students/about-github-community-exchange.md)
       * [About Git Hub Education For Students](education/about-github-education/github-education-for-students/about-github-education-for-students.md)
       * [Apply To Git Hub Education As A Student](education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student.md)
+      * [Git Hub Terms And Conditions For The Student Developer Pack](education/about-github-education/github-education-for-students/github-terms-and-conditions-for-the-student-developer-pack.md)
       * [Git Hub Education For Students](education/about-github-education/github-education-for-students/index.md)
       * [Solving Problems With Your Git Hub Education Access](education/about-github-education/github-education-for-students/solving-problems-with-your-github-education-access.md)
     - Github Education For Teachers
