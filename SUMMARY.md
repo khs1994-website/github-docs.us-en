@@ -414,6 +414,7 @@
       * [Configuring Interactive Maps](admin/configuring-settings/configuring-user-applications-for-your-enterprise/configuring-interactive-maps.md)
       * [Configuring Rate Limits](admin/configuring-settings/configuring-user-applications-for-your-enterprise/configuring-rate-limits.md)
       * [Configuring Web Commit Signing](admin/configuring-settings/configuring-user-applications-for-your-enterprise/configuring-web-commit-signing.md)
+      * [Disabling Persistent Commit Verification](admin/configuring-settings/configuring-user-applications-for-your-enterprise/disabling-persistent-commit-verification.md)
       * [Configuring User Applications For Your Enterprise](admin/configuring-settings/configuring-user-applications-for-your-enterprise/index.md)
       * [Managing Git Hub Mobile For Your Enterprise](admin/configuring-settings/configuring-user-applications-for-your-enterprise/managing-github-mobile-for-your-enterprise.md)
       * [Verifying Or Approving A Domain For Your Enterprise](admin/configuring-settings/configuring-user-applications-for-your-enterprise/verifying-or-approving-a-domain-for-your-enterprise.md)
@@ -3127,6 +3128,7 @@
   - Dependabot
     * [REST API endpoints for {% data variables.product.prodname_dependabot_alerts %}](rest/dependabot/alerts.md)
     * [REST API endpoints for {% data variables.product.prodname_dependabot %}](rest/dependabot/index.md)
+    * [REST API endpoints for {% data variables.product.prodname_dependabot %} repository access](rest/dependabot/repository-access.md)
     * [REST API Endpoints For Dependabot Secrets](rest/dependabot/secrets.md)
   - Dependency Graph
     * [REST API Endpoints For Dependency Review](rest/dependency-graph/dependency-review.md)
