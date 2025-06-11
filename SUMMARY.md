@@ -1051,6 +1051,7 @@
     * [About The Billing Cycle](billing/managing-your-billing/about-the-billing-cycle.md)
     * [About The New Billing Platform](billing/managing-your-billing/about-the-new-billing-platform.md)
     * [About Usage Based Billing For Licenses](billing/managing-your-billing/about-usage-based-billing-for-licenses.md)
+    * [About Usage Reports](billing/managing-your-billing/about-usage-reports.md)
     * [Adding A Sales Tax Certificate](billing/managing-your-billing/adding-a-sales-tax-certificate.md)
     * [Adding Licenses To An Organization](billing/managing-your-billing/adding-licenses-to-an-organization.md)
     * [Automating Usage Reporting With The REST API](billing/managing-your-billing/automating-usage-reporting.md)
