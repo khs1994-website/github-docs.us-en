@@ -1991,6 +1991,7 @@
       * [Modernizing Legacy Code With Git Hub Copilot](copilot/using-github-copilot/guides-on-using-github-copilot/modernizing-legacy-code-with-github-copilot.md)
       * [Refactoring Code With Git Hub Copilot](copilot/using-github-copilot/guides-on-using-github-copilot/refactoring-code-with-github-copilot.md)
       * [Upgrading Java Projects With Git Hub Copilot](copilot/using-github-copilot/guides-on-using-github-copilot/upgrading-java-projects-with-github-copilot.md)
+      * [Using Copilot To Explore A Codebase](copilot/using-github-copilot/guides-on-using-github-copilot/using-copilot-to-explore-a-codebase.md)
       * [Using Copilot To Migrate A Project To Another Programming Language](copilot/using-github-copilot/guides-on-using-github-copilot/using-copilot-to-migrate-a-project.md)
       * [Writing Tests With Git Hub Copilot](copilot/using-github-copilot/guides-on-using-github-copilot/writing-tests-with-github-copilot.md)
     - Using Github Copilot For Pull Requests
