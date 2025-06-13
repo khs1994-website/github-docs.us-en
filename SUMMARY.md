@@ -1818,6 +1818,11 @@
       * [Testing Code](copilot/copilot-chat-cookbook/testing-code/index.md)
     * [Copilot Chat Cookbook](copilot/copilot-chat-cookbook/index.md)
   - Customizing Copilot
+    - Using Model Context Protocol
+      * [Extending Copilot Chat With The Model Context Protocol MCP](copilot/customizing-copilot/using-model-context-protocol/extending-copilot-chat-with-mcp.md)
+      * [Extending Copilot Coding Agent With The Model Context Protocol MCP](copilot/customizing-copilot/using-model-context-protocol/extending-copilot-coding-agent-with-mcp.md)
+      * [Using Model Context Protocol](copilot/customizing-copilot/using-model-context-protocol/index.md)
+      * [Using The Git Hub MCP Server](copilot/customizing-copilot/using-model-context-protocol/using-the-github-mcp-server.md)
     * [About Customizing Git Hub Copilot Chat Responses](copilot/customizing-copilot/about-customizing-github-copilot-chat-responses.md)
     * [Adding Organization Custom Instructions For Git Hub Copilot](copilot/customizing-copilot/adding-organization-custom-instructions-for-github-copilot.md)
     * [Adding Personal Custom Instructions For Git Hub Copilot](copilot/customizing-copilot/adding-personal-custom-instructions-for-github-copilot.md)
@@ -1825,8 +1830,6 @@
     * [Creating A Custom Model For Git Hub Copilot](copilot/customizing-copilot/creating-a-custom-model-for-github-copilot.md)
     * [Customizing Or Disabling The Firewall For Copilot Coding Agent](copilot/customizing-copilot/customizing-or-disabling-the-firewall-for-copilot-coding-agent.md)
     * [Customizing The Development Environment For Copilot Coding Agent](copilot/customizing-copilot/customizing-the-development-environment-for-copilot-coding-agent.md)
-    * [Extending Copilot Chat With The Model Context Protocol MCP](copilot/customizing-copilot/extending-copilot-chat-with-mcp.md)
-    * [Extending Copilot Coding Agent With The Model Context Protocol MCP](copilot/customizing-copilot/extending-copilot-coding-agent-with-mcp.md)
     * [Extending The Capabilities Of Git Hub Copilot In Your Organization](copilot/customizing-copilot/extending-the-capabilities-of-github-copilot-in-your-organization.md)
     * [Customizing Copilot](copilot/customizing-copilot/index.md)
     * [Managing Copilot Knowledge Bases](copilot/customizing-copilot/managing-copilot-knowledge-bases.md)
