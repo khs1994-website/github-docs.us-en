@@ -605,6 +605,7 @@
       * [Configuring Authentication And Provisioning With Ping Federate](admin/managing-iam/provisioning-user-accounts-with-scim/configuring-authentication-and-provisioning-with-pingfederate.md)
       * [Configuring SCIM Provisioning Ifversion Ghec For Enterprise Managed Users Else To Manage Users Endif](admin/managing-iam/provisioning-user-accounts-with-scim/configuring-scim-provisioning-for-users.md)
       * [Configuring Ifversion Ghec SCIM Else Authentication And Endif Provisioning With Okta](admin/managing-iam/provisioning-user-accounts-with-scim/configuring-scim-provisioning-with-okta.md)
+      * [Deprovisioning And Reinstating Users With SCIM](admin/managing-iam/provisioning-user-accounts-with-scim/deprovisioning-and-reinstating-users.md)
       * [Disabling SCIM Provisioning For Users](admin/managing-iam/provisioning-user-accounts-with-scim/disabling-scim-provisioning-for-users.md)
       * [Provisioning Accounts Ifversion Ghec For Enterprise Managed Users Else With SCIM Endif](admin/managing-iam/provisioning-user-accounts-with-scim/index.md)
       * [Managing Team Memberships With Identity Provider Groups](admin/managing-iam/provisioning-user-accounts-with-scim/managing-team-memberships-with-identity-provider-groups.md)
@@ -2239,6 +2240,7 @@
     * [Learning About Git Hub](get-started/learning-about-github/index.md)
     * [Types Of Git Hub Accounts](get-started/learning-about-github/types-of-github-accounts.md)
   - Learning To Code
+    * [Developing Your Project Locally](get-started/learning-to-code/developing-your-project-locally.md)
     * [Finding And Fixing Your First Code Vulnerability](get-started/learning-to-code/finding-and-fixing-your-first-code-vulnerability.md)
     * [Finding And Understanding Example Code](get-started/learning-to-code/finding-and-understanding-example-code.md)
     * [Getting Started With Git](get-started/learning-to-code/getting-started-with-git.md)
