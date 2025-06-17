@@ -2242,6 +2242,7 @@
   - Learning To Code
     * [Developing Your Project Locally](get-started/learning-to-code/developing-your-project-locally.md)
     * [Finding And Fixing Your First Code Vulnerability](get-started/learning-to-code/finding-and-fixing-your-first-code-vulnerability.md)
+    * [Finding And Fixing Your First Dependency Vulnerability](get-started/learning-to-code/finding-and-fixing-your-first-dependency-vulnerability.md)
     * [Finding And Understanding Example Code](get-started/learning-to-code/finding-and-understanding-example-code.md)
     * [Getting Started With Git](get-started/learning-to-code/getting-started-with-git.md)
     * [Learning To Code](get-started/learning-to-code/index.md)
