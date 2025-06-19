@@ -1821,7 +1821,6 @@
   - Customizing Copilot
     - Using Model Context Protocol
       * [Extending Copilot Chat With The Model Context Protocol MCP](copilot/customizing-copilot/using-model-context-protocol/extending-copilot-chat-with-mcp.md)
-      * [Extending Copilot Coding Agent With The Model Context Protocol MCP](copilot/customizing-copilot/using-model-context-protocol/extending-copilot-coding-agent-with-mcp.md)
       * [Using Model Context Protocol](copilot/customizing-copilot/using-model-context-protocol/index.md)
       * [Using The Git Hub MCP Server](copilot/customizing-copilot/using-model-context-protocol/using-the-github-mcp-server.md)
     * [About Customizing Git Hub Copilot Chat Responses](copilot/customizing-copilot/about-customizing-github-copilot-chat-responses.md)
@@ -1900,10 +1899,10 @@
       * [Configuring Your Proxy Server Or Firewall For Copilot](copilot/managing-copilot/managing-github-copilot-in-your-organization/configuring-your-proxy-server-or-firewall-for-copilot.md)
       * [Managing Git Hub Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/index.md)
       * [Managing Policies For Copilot In Your Organization](copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-policies-for-copilot-in-your-organization.md)
-    - Monitoring Usage And Entitlements
-      * [About Premium Requests](copilot/managing-copilot/monitoring-usage-and-entitlements/about-premium-requests.md)
-      * [Monitoring Usage And Entitlements](copilot/managing-copilot/monitoring-usage-and-entitlements/index.md)
-      * [Monitoring Your Copilot Usage And Entitlements](copilot/managing-copilot/monitoring-usage-and-entitlements/monitoring-your-copilot-usage-and-entitlements.md)
+    - Understanding And Managing Copilot Usage
+      * [Understanding And Managing Copilot Usage](copilot/managing-copilot/understanding-and-managing-copilot-usage/index.md)
+      * [Monitoring Your Copilot Usage And Entitlements](copilot/managing-copilot/understanding-and-managing-copilot-usage/monitoring-your-copilot-usage-and-entitlements.md)
+      * [Understanding And Managing Requests In Copilot](copilot/managing-copilot/understanding-and-managing-copilot-usage/understanding-and-managing-requests-in-copilot.md)
     * [Managing Copilot](copilot/managing-copilot/index.md)
   - Responsible Use Of Github Copilot Features
     * [Responsible Use Of Git Hub Copilot Features](copilot/responsible-use-of-github-copilot-features/index.md)
@@ -1911,6 +1910,7 @@
     * [Responsible Use Of Git Hub Copilot Chat In Git Hub Mobile](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-github-mobile.md)
     * [Responsible Use Of Git Hub Copilot Chat In Git Hub](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-github.md)
     * [Responsible Use Of Git Hub Copilot Chat In Your IDE](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-your-ide.md)
+    * [Responsible Use Of Git Hub Copilot Code Completion](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-code-completion.md)
     * [Responsible Use Of Git Hub Copilot Code Review](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-code-review.md)
     * [Responsible Use Of Git Hub Copilot In Git Hub Desktop](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-in-github-desktop.md)
     * [Responsible Use Of Git Hub Copilot In The CLI](copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-in-the-cli.md)
@@ -1942,6 +1942,7 @@
     * [Setting Up Git Hub Copilot For Yourself](copilot/setting-up-github-copilot/setting-up-github-copilot-for-yourself.md)
   - Troubleshooting Github Copilot
     * [Troubleshooting Git Hub Copilot](copilot/troubleshooting-github-copilot/index.md)
+    * [Rate Limits For Git Hub Copilot](copilot/troubleshooting-github-copilot/rate-limits-for-github-copilot.md)
     * [Troubleshooting Common Issues With Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-common-issues-with-github-copilot.md)
     * [Troubleshooting Firewall Settings For Git Hub Copilot](copilot/troubleshooting-github-copilot/troubleshooting-firewall-settings-for-github-copilot.md)
     * [Troubleshooting Issues With Git Hub Copilot Chat](copilot/troubleshooting-github-copilot/troubleshooting-issues-with-github-copilot-chat.md)
@@ -1969,6 +1970,7 @@
       * [Asking Copilot To Create A Pull Request](copilot/using-github-copilot/coding-agent/asking-copilot-to-create-a-pull-request.md)
       * [Best Practices For Using Copilot To Work On Tasks](copilot/using-github-copilot/coding-agent/best-practices-for-using-copilot-to-work-on-tasks.md)
       * [Enabling Copilot Coding Agent](copilot/using-github-copilot/coding-agent/enabling-copilot-coding-agent.md)
+      * [Extending Copilot Coding Agent With The Model Context Protocol MCP](copilot/using-github-copilot/coding-agent/extending-copilot-coding-agent-with-mcp.md)
       * [Coding Agent](copilot/using-github-copilot/coding-agent/index.md)
       * [Reviewing A Pull Request Created By Copilot](copilot/using-github-copilot/coding-agent/reviewing-a-pull-request-created-by-copilot.md)
       * [Troubleshooting Copilot Coding Agent](copilot/using-github-copilot/coding-agent/troubleshooting-copilot-coding-agent.md)
@@ -2244,6 +2246,7 @@
     * [Finding And Fixing Your First Code Vulnerability](get-started/learning-to-code/finding-and-fixing-your-first-code-vulnerability.md)
     * [Finding And Fixing Your First Dependency Vulnerability](get-started/learning-to-code/finding-and-fixing-your-first-dependency-vulnerability.md)
     * [Finding And Understanding Example Code](get-started/learning-to-code/finding-and-understanding-example-code.md)
+    * [Getting Feedback On Your Code From Git Hub Copilot](get-started/learning-to-code/getting-feedback-on-your-code-from-github-copilot.md)
     * [Getting Started With Git](get-started/learning-to-code/getting-started-with-git.md)
     * [Learning To Code](get-started/learning-to-code/index.md)
     * [Learning To Debug With Git Hub Copilot](get-started/learning-to-code/learning-to-debug-with-github-copilot.md)
