@@ -988,40 +988,21 @@
       * [Downgrading Git Large File Storage](billing/managing-billing-for-your-products/managing-billing-for-git-large-file-storage/downgrading-git-large-file-storage.md)
       * [Managing Billing For Git Large File Storage](billing/managing-billing-for-your-products/managing-billing-for-git-large-file-storage/index.md)
       * [Upgrading Git Large File Storage](billing/managing-billing-for-your-products/managing-billing-for-git-large-file-storage/upgrading-git-large-file-storage.md)
-      * [Viewing Your Git Large File Storage Usage](billing/managing-billing-for-your-products/managing-billing-for-git-large-file-storage/viewing-your-git-large-file-storage-usage.md)
-    - Managing Billing For Github Actions
-      * [About Billing For Git Hub Actions](billing/managing-billing-for-your-products/managing-billing-for-github-actions/about-billing-for-github-actions.md)
-      * [Managing Billing For Git Hub Actions](billing/managing-billing-for-your-products/managing-billing-for-github-actions/index.md)
-      * [Managing Your Spending Limit For Git Hub Actions](billing/managing-billing-for-your-products/managing-billing-for-github-actions/managing-your-spending-limit-for-github-actions.md)
-      * [Viewing Your Git Hub Actions Usage](billing/managing-billing-for-your-products/managing-billing-for-github-actions/viewing-your-github-actions-usage.md)
     - Managing Billing For Github Advanced Security
       * [About billing for {% data variables.product.prodname_GHAS %}](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/about-billing-for-github-advanced-security.md)
+      * [Downloading licensed use of {% data variables.product.prodname_AS %}](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/downloading-your-github-advanced-security-usage.md)
       * [Managing billing for {% data variables.product.prodname_GHAS %} products](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/index.md)
       * [Managing volume/subscription licenses for {% data variables.product.prodname_AS %}](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/managing-your-github-advanced-security-licensing.md)
       * [Migrating from {% data variables.product.prodname_GHAS %} to {% data variables.product.prodname_cs_and_sp %}](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/migrating-from-ghas-to-cs-and-sp.md)
       * [Setting up a trial of {% data variables.product.prodname_GHAS %}](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/setting-up-a-trial-of-github-advanced-security.md)
       * [Signing up for {% data variables.product.prodname_GHAS %}](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/signing-up-for-github-advanced-security.md)
       * [Viewing Committer Information For Volume Subscription Licenses For Git Hub Advanced Security](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/viewing-committer-information-for-github-advanced-security.md)
-      * [Viewing and downloading licensed use of {% data variables.product.prodname_AS %}](billing/managing-billing-for-your-products/managing-billing-for-github-advanced-security/viewing-your-github-advanced-security-usage.md)
-    - Managing Billing For Github Codespaces
-      * [About Billing For Git Hub Codespaces](billing/managing-billing-for-your-products/managing-billing-for-github-codespaces/about-billing-for-github-codespaces.md)
-      * [Managing Billing For Git Hub Codespaces](billing/managing-billing-for-your-products/managing-billing-for-github-codespaces/index.md)
-      * [Managing The Spending Limit For Git Hub Codespaces](billing/managing-billing-for-your-products/managing-billing-for-github-codespaces/managing-the-spending-limit-for-github-codespaces.md)
-      * [Viewing Your Git Hub Codespaces Usage](billing/managing-billing-for-your-products/managing-billing-for-github-codespaces/viewing-your-github-codespaces-usage.md)
-    - Managing Billing For Github Copilot
-      * [About Billing For Git Hub Copilot](billing/managing-billing-for-your-products/managing-billing-for-github-copilot/about-billing-for-github-copilot.md)
-      * [Managing Billing For Git Hub Copilot](billing/managing-billing-for-your-products/managing-billing-for-github-copilot/index.md)
     - Managing Billing For Github Marketplace Apps
       * [About Billing For Git Hub Marketplace](billing/managing-billing-for-your-products/managing-billing-for-github-marketplace-apps/about-billing-for-github-marketplace.md)
       * [Canceling A Git Hub Marketplace App](billing/managing-billing-for-your-products/managing-billing-for-github-marketplace-apps/canceling-a-github-marketplace-app.md)
       * [Downgrading The Billing Plan For A Git Hub Marketplace App](billing/managing-billing-for-your-products/managing-billing-for-github-marketplace-apps/downgrading-the-billing-plan-for-a-github-marketplace-app.md)
       * [Managing Billing For Git Hub Marketplace Apps](billing/managing-billing-for-your-products/managing-billing-for-github-marketplace-apps/index.md)
       * [Upgrading The Billing Plan For A Git Hub Marketplace App](billing/managing-billing-for-your-products/managing-billing-for-github-marketplace-apps/upgrading-the-billing-plan-for-a-github-marketplace-app.md)
-    - Managing Billing For Github Packages
-      * [About Billing For Git Hub Packages](billing/managing-billing-for-your-products/managing-billing-for-github-packages/about-billing-for-github-packages.md)
-      * [Managing Billing For Git Hub Packages](billing/managing-billing-for-your-products/managing-billing-for-github-packages/index.md)
-      * [Managing Your Spending Limit For Git Hub Packages](billing/managing-billing-for-your-products/managing-billing-for-github-packages/managing-your-spending-limit-for-github-packages.md)
-      * [Viewing Your Git Hub Packages Usage](billing/managing-billing-for-your-products/managing-billing-for-github-packages/viewing-your-github-packages-usage.md)
     - Managing Billing For Github Sponsors
       * [About Billing For Git Hub Sponsors](billing/managing-billing-for-your-products/managing-billing-for-github-sponsors/about-billing-for-github-sponsors.md)
       * [Downgrading A Sponsorship](billing/managing-billing-for-your-products/managing-billing-for-github-sponsors/downgrading-a-sponsorship.md)
@@ -1032,7 +1013,12 @@
       * [About Visual Studio Subscriptions With Git Hub Enterprise](billing/managing-billing-for-your-products/managing-licenses-for-visual-studio-subscriptions-with-github-enterprise/about-visual-studio-subscriptions-with-github-enterprise.md)
       * [Managing Licenses For Visual Studio Subscriptions With Git Hub Enterprise](billing/managing-billing-for-your-products/managing-licenses-for-visual-studio-subscriptions-with-github-enterprise/index.md)
       * [Setting Up Visual Studio Subscriptions With Git Hub Enterprise](billing/managing-billing-for-your-products/managing-licenses-for-visual-studio-subscriptions-with-github-enterprise/setting-up-visual-studio-subscriptions-with-github-enterprise.md)
+    * [About Billing For Git Hub Actions](billing/managing-billing-for-your-products/about-billing-for-github-actions.md)
+    * [About Billing For Git Hub Codespaces](billing/managing-billing-for-your-products/about-billing-for-github-codespaces.md)
+    * [About Billing For Git Hub Copilot](billing/managing-billing-for-your-products/about-billing-for-github-copilot.md)
+    * [About Billing For Git Hub Packages](billing/managing-billing-for-your-products/about-billing-for-github-packages.md)
     * [Managing Billing For Your Products](billing/managing-billing-for-your-products/index.md)
+    * [Viewing Your Usage Of Metered Products](billing/managing-billing-for-your-products/viewing-your-product-usage.md)
   - Managing The Plan For Your Github Account
     * [About Billing For Plans](billing/managing-the-plan-for-your-github-account/about-billing-for-plans.md)
     * [About Per User Pricing](billing/managing-the-plan-for-your-github-account/about-per-user-pricing.md)
@@ -1061,11 +1047,11 @@
     * [Gathering Insights On Your Spending](billing/managing-your-billing/gathering-insights-on-your-spending.md)
     * [Managing Your Billing](billing/managing-your-billing/index.md)
     * [Managing Your Payment And Billing Information](billing/managing-your-billing/managing-your-payment-and-billing-information.md)
-    * [Preventing Overspending](billing/managing-your-billing/preventing-overspending.md)
     * [Redeeming A Coupon](billing/managing-your-billing/redeeming-a-coupon.md)
     * [Roles For The New Billing Platform](billing/managing-your-billing/roles-for-the-new-billing-platform.md)
     * [Troubleshooting A Declined Credit Card Charge](billing/managing-your-billing/troubleshooting-a-declined-credit-card-charge.md)
     * [Unlocking A Locked Account](billing/managing-your-billing/unlocking-a-locked-account.md)
+    * [Using Budgets To Control Spending On Metered Products](billing/managing-your-billing/using-budgets-control-spending.md)
   - Managing Your License For Github Enterprise
     * [About Licenses For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/about-licenses-for-github-enterprise.md)
     * [Downloading Your License For Git Hub Enterprise](billing/managing-your-license-for-github-enterprise/downloading-your-license-for-github-enterprise.md)
@@ -1877,7 +1863,7 @@
         * [Subscribing To Copilot For Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-the-copilot-plan-for-your-enterprise/subscribing-to-copilot-for-your-enterprise.md)
         * [Upgrading Copilot For Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-the-copilot-plan-for-your-enterprise/upgrading-copilot-for-your-enterprise.md)
       * [Managing Git Hub Copilot In Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/index.md)
-      * [Making {% data variables.copilot.copilot_coding_agent %} available to enterprise members](copilot/managing-copilot/managing-copilot-for-your-enterprise/making-copilot-coding-agent-available-to-enterprise.md)
+      * [Managing {% data variables.copilot.copilot_coding_agent %} in your enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-copilot-coding-agent-in-your-enterprise.md)
       * [Managing Policies And Features For Copilot In Your Enterprise](copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise.md)
     - Managing Github Copilot In Your Organization
       - Managing Access To Github Copilot In Your Organization
