@@ -1986,12 +1986,9 @@
       * [Using Copilot To Explore A Codebase](copilot/using-github-copilot/guides-on-using-github-copilot/using-copilot-to-explore-a-codebase.md)
       * [Using Copilot To Migrate A Project To Another Programming Language](copilot/using-github-copilot/guides-on-using-github-copilot/using-copilot-to-migrate-a-project.md)
       * [Writing Tests With Git Hub Copilot](copilot/using-github-copilot/guides-on-using-github-copilot/writing-tests-with-github-copilot.md)
-    - Using Github Copilot For Pull Requests
-      * [Creating A Pull Request Summary With Git Hub Copilot](copilot/using-github-copilot/using-github-copilot-for-pull-requests/creating-a-pull-request-summary-with-github-copilot.md)
-      * [Using Git Hub Copilot For Pull Requests](copilot/using-github-copilot/using-github-copilot-for-pull-requests/index.md)
-      * [Using Copilot To Help You Work On A Pull Request](copilot/using-github-copilot/using-github-copilot-for-pull-requests/using-copilot-to-help-you-work-on-a-pull-request.md)
     * [Asking Git Hub Copilot Questions In Windows Terminal](copilot/using-github-copilot/asking-github-copilot-questions-in-windows-terminal.md)
     * [Best Practices For Using Git Hub Copilot](copilot/using-github-copilot/best-practices-for-using-github-copilot.md)
+    * [Creating A Pull Request Summary With Git Hub Copilot](copilot/using-github-copilot/creating-a-pull-request-summary-with-github-copilot.md)
     * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/using-github-copilot/finding-public-code-that-matches-github-copilot-suggestions.md)
     * [Getting Code Suggestions In Your IDE With Git Hub Copilot](copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot.md)
     * [Using Git Hub Copilot](copilot/using-github-copilot/index.md)
