@@ -111,8 +111,6 @@
       * [Monitoring And Troubleshooting Self Hosted Runners](actions/hosting-your-own-runners/managing-self-hosted-runners/monitoring-and-troubleshooting-self-hosted-runners.md)
       * [Removing Self Hosted Runners](actions/hosting-your-own-runners/managing-self-hosted-runners/removing-self-hosted-runners.md)
       * [Running Scripts Before Or After A Job](actions/hosting-your-own-runners/managing-self-hosted-runners/running-scripts-before-or-after-a-job.md)
-      * [Supported Architectures And Operating Systems For Self Hosted Runners](actions/hosting-your-own-runners/managing-self-hosted-runners/supported-architectures-and-operating-systems-for-self-hosted-runners.md)
-      * [Usage Limits For Self Hosted Runners](actions/hosting-your-own-runners/managing-self-hosted-runners/usage-limits-for-self-hosted-runners.md)
       * [Using A Proxy Server With Self Hosted Runners](actions/hosting-your-own-runners/managing-self-hosted-runners/using-a-proxy-server-with-self-hosted-runners.md)
       * [Using Labels With Self Hosted Runners](actions/hosting-your-own-runners/managing-self-hosted-runners/using-labels-with-self-hosted-runners.md)
       * [Using Self Hosted Runners In A Workflow](actions/hosting-your-own-runners/managing-self-hosted-runners/using-self-hosted-runners-in-a-workflow.md)
@@ -166,7 +164,6 @@
       * [Migrating From Git Lab With Git Hub Actions Importer](actions/migrating-to-github-actions/using-github-actions-importer-to-automate-migrations/migrating-from-gitlab-with-github-actions-importer.md)
       * [Migrating From Jenkins With Git Hub Actions Importer](actions/migrating-to-github-actions/using-github-actions-importer-to-automate-migrations/migrating-from-jenkins-with-github-actions-importer.md)
       * [Migrating From Travis CI With Git Hub Actions Importer](actions/migrating-to-github-actions/using-github-actions-importer-to-automate-migrations/migrating-from-travis-ci-with-github-actions-importer.md)
-      * [Supplemental Arguments And Settings](actions/migrating-to-github-actions/using-github-actions-importer-to-automate-migrations/supplemental-arguments-and-settings.md)
     * [Migrating To Git Hub Actions](actions/migrating-to-github-actions/index.md)
   - Monitoring And Troubleshooting Workflows
     - Monitoring Workflows
@@ -180,12 +177,24 @@
       * [Viewing Workflow Run History](actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/viewing-workflow-run-history.md)
     - Troubleshooting Workflows
       * [About Troubleshooting Workflows](actions/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/about-troubleshooting-workflows.md)
-      * [Actions Limits](actions/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/actions-limits.md)
       * [Enabling Debug Logging](actions/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/enabling-debug-logging.md)
       * [Troubleshooting Workflows](actions/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/index.md)
       * [Using Copilot To Troubleshoot Workflows](actions/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/using-copilot-to-troubleshoot-workflows.md)
       * [Working With Support For Git Hub Actions](actions/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/working-with-support-for-github-actions.md)
     * [Monitoring And Troubleshooting Workflows](actions/monitoring-and-troubleshooting-workflows/index.md)
+  - Reference
+    * [Accessing Contextual Information About Workflow Runs](actions/reference/accessing-contextual-information-about-workflow-runs.md)
+    * [Actions Limits](actions/reference/actions-limits.md)
+    * [Dockerfile Support For Git Hub Actions](actions/reference/dockerfile-support-for-github-actions.md)
+    * [Evaluate Expressions In Workflows And Actions](actions/reference/evaluate-expressions-in-workflows-and-actions.md)
+    * [Events That Trigger Workflows](actions/reference/events-that-trigger-workflows.md)
+    * [Reference For Git Hub Actions](actions/reference/index.md)
+    * [Metadata Syntax For Git Hub Actions](actions/reference/metadata-syntax-for-github-actions.md)
+    * [Supplemental Arguments And Settings](actions/reference/supplemental-arguments-and-settings.md)
+    * [Supported Architectures And Operating Systems For Self Hosted Runners](actions/reference/supported-architectures-and-operating-systems-for-self-hosted-runners.md)
+    * [Usage Limits For Self Hosted Runners](actions/reference/usage-limits-for-self-hosted-runners.md)
+    * [Workflow Commands For Git Hub Actions](actions/reference/workflow-commands-for-github-actions.md)
+    * [Workflow Syntax For Git Hub Actions](actions/reference/workflow-syntax-for-github-actions.md)
   - Security For Github Actions
     - Security Guides
       * [About Secrets](actions/security-for-github-actions/security-guides/about-secrets.md)
@@ -219,9 +228,7 @@
       * [Creating A Docker Container Action](actions/sharing-automations/creating-actions/creating-a-docker-container-action.md)
       * [Creating A Java Script Action](actions/sharing-automations/creating-actions/creating-a-javascript-action.md)
       * [Developing A Third Party CLI Action](actions/sharing-automations/creating-actions/developing-a-third-party-cli-action.md)
-      * [Dockerfile Support For Git Hub Actions](actions/sharing-automations/creating-actions/dockerfile-support-for-github-actions.md)
       * [Creating Actions](actions/sharing-automations/creating-actions/index.md)
-      * [Metadata Syntax For Git Hub Actions](actions/sharing-automations/creating-actions/metadata-syntax-for-github-actions.md)
       * [Publishing Actions In Git Hub Marketplace](actions/sharing-automations/creating-actions/publishing-actions-in-github-marketplace.md)
       * [Releasing And Maintaining Actions](actions/sharing-automations/creating-actions/releasing-and-maintaining-actions.md)
       * [Setting Exit Codes For Actions](actions/sharing-automations/creating-actions/setting-exit-codes-for-actions.md)
@@ -304,12 +311,10 @@
     * [Using Git Hub Hosted Runners](actions/using-github-hosted-runners/index.md)
   - Writing Workflows
     - Choosing What Your Workflow Does
-      * [Accessing Contextual Information About Workflow Runs](actions/writing-workflows/choosing-what-your-workflow-does/accessing-contextual-information-about-workflow-runs.md)
       * [Adding Scripts To Your Workflow](actions/writing-workflows/choosing-what-your-workflow-does/adding-scripts-to-your-workflow.md)
       * [Caching Dependencies To Speed Up Workflows](actions/writing-workflows/choosing-what-your-workflow-does/caching-dependencies-to-speed-up-workflows.md)
       * [Control The Concurrency Of Workflows And Jobs](actions/writing-workflows/choosing-what-your-workflow-does/control-the-concurrency-of-workflows-and-jobs.md)
       * [Controlling Permissions For GITHUB TOKEN](actions/writing-workflows/choosing-what-your-workflow-does/controlling-permissions-for-github_token.md)
-      * [Evaluate Expressions In Workflows And Actions](actions/writing-workflows/choosing-what-your-workflow-does/evaluate-expressions-in-workflows-and-actions.md)
       * [Choosing What Your Workflow Does](actions/writing-workflows/choosing-what-your-workflow-does/index.md)
       * [Passing Information Between Jobs](actions/writing-workflows/choosing-what-your-workflow-does/passing-information-between-jobs.md)
       * [Running Variations Of Jobs In A Workflow](actions/writing-workflows/choosing-what-your-workflow-does/running-variations-of-jobs-in-a-workflow.md)
@@ -320,9 +325,7 @@
       * [Using Git Hub CLI In Workflows](actions/writing-workflows/choosing-what-your-workflow-does/using-github-cli-in-workflows.md)
       * [Using Jobs In A Workflow](actions/writing-workflows/choosing-what-your-workflow-does/using-jobs-in-a-workflow.md)
       * [Using Pre Written Building Blocks In Your Workflow](actions/writing-workflows/choosing-what-your-workflow-does/using-pre-written-building-blocks-in-your-workflow.md)
-      * [Workflow Commands For Git Hub Actions](actions/writing-workflows/choosing-what-your-workflow-does/workflow-commands-for-github-actions.md)
     - Choosing When Your Workflow Runs
-      * [Events That Trigger Workflows](actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows.md)
       * [Choosing When Your Workflow Runs](actions/writing-workflows/choosing-when-your-workflow-runs/index.md)
       * [Triggering A Workflow](actions/writing-workflows/choosing-when-your-workflow-runs/triggering-a-workflow.md)
       * [Using Conditions To Control Job Execution](actions/writing-workflows/choosing-when-your-workflow-runs/using-conditions-to-control-job-execution.md)
@@ -334,7 +337,6 @@
     * [Writing Workflows](actions/writing-workflows/index.md)
     * [Quickstart For Git Hub Actions](actions/writing-workflows/quickstart.md)
     * [Using Workflow Templates](actions/writing-workflows/using-workflow-templates.md)
-    * [Workflow Syntax For Git Hub Actions](actions/writing-workflows/workflow-syntax-for-github-actions.md)
   * [Guides for {% data variables.product.prodname_actions %}](actions/guides.md)
   * [{% data variables.product.prodname_actions %} documentation](actions/index.md)
 - Admin
@@ -1456,6 +1458,10 @@
       * [Understanding Your Organization S Exposure To Leaked Secrets](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/index.md)
       * [Interpreting Secret Risk Assessment Results](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/interpreting-secret-risk-assessment-results.md)
       * [Viewing The Secret Risk Assessment Report For Your Organization](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/viewing-the-secret-risk-assessment-report-for-your-organization.md)
+    - Understanding Your Organizations Exposure To Vulnerabilites
+      * [About Your Exposure To Vulnerable Dependencies](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilites/about-your-exposure-to-vulnerable-dependencies.md)
+      * [Understanding Your Organization S Exposure To Vulnerabilities](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilites/index.md)
+      * [Prioritizing Dependabot Alerts Using Metrics](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilites/prioritizing-dependabot-alerts-using-metrics.md)
     * [Securing Your Organization](code-security/securing-your-organization/index.md)
   - Security Advisories
     - Guidance On Reporting And Writing Information About Vulnerabilities
@@ -1494,6 +1500,7 @@
     * [Filtering Alerts In Security Overview](code-security/security-overview/filtering-alerts-in-security-overview.md)
     * [Viewing Security Information For Your Organization Or Enterprise](code-security/security-overview/index.md)
     * [Reviewing Requests To Bypass Push Protection](code-security/security-overview/reviewing-requests-to-bypass-push-protection.md)
+    * [Viewing Metrics For Dependabot Alerts](code-security/security-overview/viewing-metrics-for-dependabot-alerts.md)
     * [Viewing Metrics For Pull Request Alerts](code-security/security-overview/viewing-metrics-for-pull-request-alerts.md)
     * [Viewing Metrics For Secret Scanning Push Protection](code-security/security-overview/viewing-metrics-for-secret-scanning-push-protection.md)
     * [Viewing Security Insights](code-security/security-overview/viewing-security-insights.md)
