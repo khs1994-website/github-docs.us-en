@@ -88,22 +88,50 @@
   * [Account And Profile Documentation](account-and-profile/index.md)
 - Actions
   - About Github Actions
-    * [About Continuous Deployment With Git Hub Actions](actions/about-github-actions/about-continuous-deployment-with-github-actions.md)
-    * [About Continuous Integration With Git Hub Actions](actions/about-github-actions/about-continuous-integration-with-github-actions.md)
     * [About Git Hub Actions](actions/about-github-actions/index.md)
     * [Understanding Git Hub Actions](actions/about-github-actions/understanding-github-actions.md)
   - Administering Github Actions
     * [Administering Git Hub Actions](actions/administering-github-actions/index.md)
     * [Making retired namespaces available on GHE.com](actions/administering-github-actions/making-retired-namespaces-available-on-ghecom.md)
     * [Sharing Workflows Secrets And Runners With Your Organization](actions/administering-github-actions/sharing-workflows-secrets-and-runners-with-your-organization.md)
-    * [Usage Limits Billing And Administration](actions/administering-github-actions/usage-limits-billing-and-administration.md)
     * [Viewing Git Hub Actions Metrics](actions/administering-github-actions/viewing-github-actions-metrics.md)
+  - Concepts
+    - Overview
+      * [About Continuous Deployment With Git Hub Actions](actions/concepts/overview/about-continuous-deployment-with-github-actions.md)
+      * [About Continuous Integration With Git Hub Actions](actions/concepts/overview/about-continuous-integration-with-github-actions.md)
+      * [Overview Of Git Hub Actions](actions/concepts/overview/index.md)
+      * [Usage Limits Billing And Administration](actions/concepts/overview/usage-limits-billing-and-administration.md)
+    - Runners
+      * [About Actions Runner Controller](actions/concepts/runners/about-actions-runner-controller.md)
+      * [About Larger Runners](actions/concepts/runners/about-larger-runners.md)
+      * [About Private Networking With Git Hub Hosted Runners](actions/concepts/runners/about-private-networking-with-github-hosted-runners.md)
+      * [About Self Hosted Runners](actions/concepts/runners/about-self-hosted-runners.md)
+      * [About Support For Actions Runner Controller](actions/concepts/runners/about-support-for-actions-runner-controller.md)
+      * [Communicating With Self Hosted Runners](actions/concepts/runners/communicating-with-self-hosted-runners.md)
+      * [Git Hub Actions Runners](actions/concepts/runners/index.md)
+    - Security
+      * [About Secrets](actions/concepts/security/about-secrets.md)
+      * [About Security Hardening With Open ID Connect](actions/concepts/security/about-security-hardening-with-openid-connect.md)
+      * [Security In Git Hub Actions](actions/concepts/security/index.md)
+    - Use Cases
+      * [About Packaging With Git Hub Actions](actions/concepts/use-cases/about-packaging-with-github-actions.md)
+      * [About Service Containers](actions/concepts/use-cases/about-service-containers.md)
+      * [Deploying With Git Hub Actions](actions/concepts/use-cases/deploying-with-github-actions.md)
+      * [Use Cases For Git Hub Actions](actions/concepts/use-cases/index.md)
+      * [Using Git Hub Actions For Project Management](actions/concepts/use-cases/using-github-actions-for-project-management.md)
+    - Workflows And Actions
+      * [About Custom Actions](actions/concepts/workflows-and-actions/about-custom-actions.md)
+      * [About Monitoring Workflows](actions/concepts/workflows-and-actions/about-monitoring-workflows.md)
+      * [About Troubleshooting Workflows](actions/concepts/workflows-and-actions/about-troubleshooting-workflows.md)
+      * [About Workflows](actions/concepts/workflows-and-actions/about-workflows.md)
+      * [Avoiding Duplication](actions/concepts/workflows-and-actions/avoiding-duplication.md)
+      * [Workflows And Actions](actions/concepts/workflows-and-actions/index.md)
+      * [Notifications For Workflow Runs](actions/concepts/workflows-and-actions/notifications-for-workflow-runs.md)
+    * [Concepts](actions/concepts/index.md)
   - Hosting Your Own Runners
     - Managing Self Hosted Runners
-      * [About Self Hosted Runners](actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners.md)
       * [Adding Self Hosted Runners](actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners.md)
       * [Autoscaling With Self Hosted Runners](actions/hosting-your-own-runners/managing-self-hosted-runners/autoscaling-with-self-hosted-runners.md)
-      * [Communicating With Self Hosted Runners](actions/hosting-your-own-runners/managing-self-hosted-runners/communicating-with-self-hosted-runners.md)
       * [Configuring The Self Hosted Runner Application As A Service](actions/hosting-your-own-runners/managing-self-hosted-runners/configuring-the-self-hosted-runner-application-as-a-service.md)
       * [Customizing The Containers Used By Jobs](actions/hosting-your-own-runners/managing-self-hosted-runners/customizing-the-containers-used-by-jobs.md)
       * [Managing Self Hosted Runners](actions/hosting-your-own-runners/managing-self-hosted-runners/index.md)
@@ -115,12 +143,9 @@
       * [Using Labels With Self Hosted Runners](actions/hosting-your-own-runners/managing-self-hosted-runners/using-labels-with-self-hosted-runners.md)
       * [Using Self Hosted Runners In A Workflow](actions/hosting-your-own-runners/managing-self-hosted-runners/using-self-hosted-runners-in-a-workflow.md)
     - Managing Self Hosted Runners With Actions Runner Controller
-      * [About Actions Runner Controller](actions/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/about-actions-runner-controller.md)
-      * [About Support For Actions Runner Controller](actions/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/about-support-for-actions-runner-controller.md)
       * [Authenticating To The Git Hub API](actions/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/authenticating-to-the-github-api.md)
       * [Deploying Runner Scale Sets With Actions Runner Controller](actions/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/deploying-runner-scale-sets-with-actions-runner-controller.md)
       * [Managing Self Hosted Runners With Actions Runner Controller](actions/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/index.md)
-      * [Quickstart For Actions Runner Controller](actions/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/quickstart-for-actions-runner-controller.md)
       * [Troubleshooting Actions Runner Controller Errors](actions/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/troubleshooting-actions-runner-controller-errors.md)
       * [Using Actions Runner Controller Runners In A Workflow](actions/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/using-actions-runner-controller-runners-in-a-workflow.md)
     * [Hosting Your Own Runners](actions/hosting-your-own-runners/index.md)
@@ -167,16 +192,13 @@
     * [Migrating To Git Hub Actions](actions/migrating-to-github-actions/index.md)
   - Monitoring And Troubleshooting Workflows
     - Monitoring Workflows
-      * [About Monitoring Workflows](actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/about-monitoring-workflows.md)
       * [Adding A Workflow Status Badge](actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/adding-a-workflow-status-badge.md)
       * [Monitoring Workflows](actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/index.md)
-      * [Notifications For Workflow Runs](actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/notifications-for-workflow-runs.md)
       * [Using The Visualization Graph](actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/using-the-visualization-graph.md)
       * [Using Workflow Run Logs](actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/using-workflow-run-logs.md)
       * [Viewing Job Execution Time](actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/viewing-job-execution-time.md)
       * [Viewing Workflow Run History](actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/viewing-workflow-run-history.md)
     - Troubleshooting Workflows
-      * [About Troubleshooting Workflows](actions/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/about-troubleshooting-workflows.md)
       * [Enabling Debug Logging](actions/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/enabling-debug-logging.md)
       * [Troubleshooting Workflows](actions/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/index.md)
       * [Using Copilot To Troubleshoot Workflows](actions/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/using-copilot-to-troubleshoot-workflows.md)
@@ -197,14 +219,12 @@
     * [Workflow Syntax For Git Hub Actions](actions/reference/workflow-syntax-for-github-actions.md)
   - Security For Github Actions
     - Security Guides
-      * [About Secrets](actions/security-for-github-actions/security-guides/about-secrets.md)
       * [Automatic Token Authentication](actions/security-for-github-actions/security-guides/automatic-token-authentication.md)
       * [Security Guides](actions/security-for-github-actions/security-guides/index.md)
       * [Security Hardening For Git Hub Actions](actions/security-for-github-actions/security-guides/security-hardening-for-github-actions.md)
       * [Using Git Hub S Security Features To Secure Your Use Of Git Hub Actions](actions/security-for-github-actions/security-guides/using-githubs-security-features-to-secure-your-use-of-github-actions.md)
       * [Using Secrets In Git Hub Actions](actions/security-for-github-actions/security-guides/using-secrets-in-github-actions.md)
     - Security Hardening Your Deployments
-      * [About Security Hardening With Open ID Connect](actions/security-for-github-actions/security-hardening-your-deployments/about-security-hardening-with-openid-connect.md)
       * [Configuring Open ID Connect In Amazon Web Services](actions/security-for-github-actions/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services.md)
       * [Configuring Open ID Connect In Azure](actions/security-for-github-actions/security-hardening-your-deployments/configuring-openid-connect-in-azure.md)
       * [Configuring Open ID Connect In Cloud Providers](actions/security-for-github-actions/security-hardening-your-deployments/configuring-openid-connect-in-cloud-providers.md)
@@ -223,22 +243,24 @@
     * [Security For Git Hub Actions](actions/security-for-github-actions/index.md)
   - Sharing Automations
     - Creating Actions
-      * [About Custom Actions](actions/sharing-automations/creating-actions/about-custom-actions.md)
-      * [Creating A Composite Action](actions/sharing-automations/creating-actions/creating-a-composite-action.md)
-      * [Creating A Docker Container Action](actions/sharing-automations/creating-actions/creating-a-docker-container-action.md)
-      * [Creating A Java Script Action](actions/sharing-automations/creating-actions/creating-a-javascript-action.md)
       * [Developing A Third Party CLI Action](actions/sharing-automations/creating-actions/developing-a-third-party-cli-action.md)
       * [Creating Actions](actions/sharing-automations/creating-actions/index.md)
       * [Publishing Actions In Git Hub Marketplace](actions/sharing-automations/creating-actions/publishing-actions-in-github-marketplace.md)
       * [Releasing And Maintaining Actions](actions/sharing-automations/creating-actions/releasing-and-maintaining-actions.md)
       * [Setting Exit Codes For Actions](actions/sharing-automations/creating-actions/setting-exit-codes-for-actions.md)
-    * [Avoiding Duplication](actions/sharing-automations/avoiding-duplication.md)
     * [Creating Workflow Templates For Your Organization](actions/sharing-automations/creating-workflow-templates-for-your-organization.md)
     * [Sharing Automations](actions/sharing-automations/index.md)
     * [Reusing Workflows](actions/sharing-automations/reusing-workflows.md)
     * [Sharing Actions And Workflows From Your Private Repository](actions/sharing-automations/sharing-actions-and-workflows-from-your-private-repository.md)
     * [Sharing Actions And Workflows With Your Enterprise](actions/sharing-automations/sharing-actions-and-workflows-with-your-enterprise.md)
     * [Sharing Actions And Workflows With Your Organization](actions/sharing-automations/sharing-actions-and-workflows-with-your-organization.md)
+  - Tutorials
+    * [Creating A Composite Action](actions/tutorials/creating-a-composite-action.md)
+    * [Creating A Docker Container Action](actions/tutorials/creating-a-docker-container-action.md)
+    * [Creating A Java Script Action](actions/tutorials/creating-a-javascript-action.md)
+    * [Creating An Example Workflow](actions/tutorials/creating-an-example-workflow.md)
+    * [Tutorials](actions/tutorials/index.md)
+    * [Quickstart For Actions Runner Controller](actions/tutorials/quickstart-for-actions-runner-controller.md)
   - Use Cases And Examples
     - Building And Testing
       * [Building And Testing Go](actions/use-cases-and-examples/building-and-testing/building-and-testing-go.md)
@@ -265,7 +287,6 @@
       * [Deploying To Azure Kubernetes Service](actions/use-cases-and-examples/deploying/deploying-to-azure-kubernetes-service.md)
       * [Deploying To Azure Static Web App](actions/use-cases-and-examples/deploying/deploying-to-azure-static-web-app.md)
       * [Deploying To Google Kubernetes Engine](actions/use-cases-and-examples/deploying/deploying-to-google-kubernetes-engine.md)
-      * [Deploying With Git Hub Actions](actions/use-cases-and-examples/deploying/deploying-with-github-actions.md)
       * [Deploying](actions/use-cases-and-examples/deploying/index.md)
       * [Installing An Apple Certificate On Mac OS Runners For Xcode Development](actions/use-cases-and-examples/deploying/installing-an-apple-certificate-on-macos-runners-for-xcode-development.md)
     - Project Management
@@ -276,24 +297,19 @@
       * [Moving assigned issues on {% data variables.projects.projects_v1_boards %}](actions/use-cases-and-examples/project-management/moving-assigned-issues-on-project-boards.md)
       * [Removing a label when a card is added to a {% data variables.projects.projects_v1_board %} column](actions/use-cases-and-examples/project-management/removing-a-label-when-a-card-is-added-to-a-project-board-column.md)
       * [Scheduling Issue Creation](actions/use-cases-and-examples/project-management/scheduling-issue-creation.md)
-      * [Using Git Hub Actions For Project Management](actions/use-cases-and-examples/project-management/using-github-actions-for-project-management.md)
     - Publishing Packages
-      * [About Packaging With Git Hub Actions](actions/use-cases-and-examples/publishing-packages/about-packaging-with-github-actions.md)
       * [Publishing Packages](actions/use-cases-and-examples/publishing-packages/index.md)
       * [Publishing Docker Images](actions/use-cases-and-examples/publishing-packages/publishing-docker-images.md)
       * [Publishing Java Packages With Gradle](actions/use-cases-and-examples/publishing-packages/publishing-java-packages-with-gradle.md)
       * [Publishing Java Packages With Maven](actions/use-cases-and-examples/publishing-packages/publishing-java-packages-with-maven.md)
       * [Publishing Node.js packages](actions/use-cases-and-examples/publishing-packages/publishing-nodejs-packages.md)
     - Using Containerized Services
-      * [About Service Containers](actions/use-cases-and-examples/using-containerized-services/about-service-containers.md)
       * [Creating Postgre SQL Service Containers](actions/use-cases-and-examples/using-containerized-services/creating-postgresql-service-containers.md)
       * [Creating Redis Service Containers](actions/use-cases-and-examples/using-containerized-services/creating-redis-service-containers.md)
       * [Using Containerized Services](actions/use-cases-and-examples/using-containerized-services/index.md)
-    * [Creating An Example Workflow](actions/use-cases-and-examples/creating-an-example-workflow.md)
     * [Use Cases And Examples](actions/use-cases-and-examples/index.md)
   - Using Github Hosted Runners
     - Connecting To A Private Network
-      * [About Private Networking With Git Hub Hosted Runners](actions/using-github-hosted-runners/connecting-to-a-private-network/about-private-networking-with-github-hosted-runners.md)
       * [Connecting to a private network with {% data variables.product.company_short %}-hosted runners](actions/using-github-hosted-runners/connecting-to-a-private-network/index.md)
       * [Using An API Gateway With OIDC](actions/using-github-hosted-runners/connecting-to-a-private-network/using-an-api-gateway-with-oidc.md)
       * [Using Wire Guard To Create A Network Overlay](actions/using-github-hosted-runners/connecting-to-a-private-network/using-wireguard-to-create-a-network-overlay.md)
@@ -303,7 +319,6 @@
       * [Using Git Hub Hosted Runners](actions/using-github-hosted-runners/using-github-hosted-runners/index.md)
       * [Monitoring Your Current Jobs](actions/using-github-hosted-runners/using-github-hosted-runners/monitoring-your-current-jobs.md)
     - Using Larger Runners
-      * [About Larger Runners](actions/using-github-hosted-runners/using-larger-runners/about-larger-runners.md)
       * [Controlling Access To Larger Runners](actions/using-github-hosted-runners/using-larger-runners/controlling-access-to-larger-runners.md)
       * [Using Larger Runners](actions/using-github-hosted-runners/using-larger-runners/index.md)
       * [Managing Larger Runners](actions/using-github-hosted-runners/using-larger-runners/managing-larger-runners.md)
@@ -333,7 +348,6 @@
       * [Choosing The Runner For A Job](actions/writing-workflows/choosing-where-your-workflow-runs/choosing-the-runner-for-a-job.md)
       * [Choosing Where Your Workflow Runs](actions/writing-workflows/choosing-where-your-workflow-runs/index.md)
       * [Running Jobs In A Container](actions/writing-workflows/choosing-where-your-workflow-runs/running-jobs-in-a-container.md)
-    * [About Workflows](actions/writing-workflows/about-workflows.md)
     * [Writing Workflows](actions/writing-workflows/index.md)
     * [Quickstart For Git Hub Actions](actions/writing-workflows/quickstart.md)
     * [Using Workflow Templates](actions/writing-workflows/using-workflow-templates.md)
@@ -1018,6 +1032,7 @@
     * [About Billing For Git Hub Actions](billing/managing-billing-for-your-products/about-billing-for-github-actions.md)
     * [About Billing For Git Hub Codespaces](billing/managing-billing-for-your-products/about-billing-for-github-codespaces.md)
     * [About Billing For Git Hub Copilot](billing/managing-billing-for-your-products/about-billing-for-github-copilot.md)
+    * [About Billing For Git Hub Models](billing/managing-billing-for-your-products/about-billing-for-github-models.md)
     * [About Billing For Git Hub Packages](billing/managing-billing-for-your-products/about-billing-for-github-packages.md)
     * [Managing Billing For Your Products](billing/managing-billing-for-your-products/index.md)
     * [Viewing Your Usage Of Metered Products](billing/managing-billing-for-your-products/viewing-your-product-usage.md)
@@ -2335,6 +2350,7 @@
   - Github Models At Scale
     * [Git Hub Models At Scale](github-models/github-models-at-scale/index.md)
     * [Managing Your Team S Model Usage](github-models/github-models-at-scale/manage-models-at-scale.md)
+    * [Using Your Own API Keys In Git Hub Models](github-models/github-models-at-scale/set-up-custom-model-integration-models-byok.md)
     * [Using {% data variables.product.prodname_github_models %} to develop AI-powered applications in your enterprise](github-models/github-models-at-scale/use-models-at-scale.md)
   - Use Github Models
     * [Evaluating AI Models](github-models/use-github-models/evaluating-ai-models.md)
