@@ -1779,13 +1779,7 @@
     * [Indexing Repositories For Copilot Chat](copilot/concepts/indexing-repositories-for-copilot-chat.md)
     * [Prompt Engineering For Copilot Chat](copilot/concepts/prompt-engineering-for-copilot-chat.md)
   - Get Started
-    - Setting Up Github Copilot
-      * [Setting Up Git Hub Copilot](copilot/get-started/setting-up-github-copilot/index.md)
-      * [Setting Up Git Hub Copilot For Your Enterprise](copilot/get-started/setting-up-github-copilot/setting-up-github-copilot-for-your-enterprise.md)
-      * [Setting Up Git Hub Copilot For Your Organization](copilot/get-started/setting-up-github-copilot/setting-up-github-copilot-for-your-organization.md)
-      * [Setting Up Git Hub Copilot For Yourself](copilot/get-started/setting-up-github-copilot/setting-up-github-copilot-for-yourself.md)
     * [Best Practices For Using Git Hub Copilot](copilot/get-started/best-practices-for-using-github-copilot.md)
-    * [Getting Started With Prompts For Copilot Chat](copilot/get-started/getting-started-with-prompts-for-copilot-chat.md)
     * [Git Hub Copilot Features](copilot/get-started/github-copilot-features.md)
     * [Get started with {% data variables.product.prodname_copilot %}](copilot/get-started/index.md)
     * [Plans For Git Hub Copilot](copilot/get-started/plans-for-github-copilot.md)
@@ -1880,6 +1874,7 @@
       * [Asking Git Hub Copilot Questions In Git Hub](copilot/how-tos/chat/asking-github-copilot-questions-in-github.md)
       * [Asking Git Hub Copilot Questions In Windows Terminal](copilot/how-tos/chat/asking-github-copilot-questions-in-windows-terminal.md)
       * [Asking Git Hub Copilot Questions In Your IDE](copilot/how-tos/chat/asking-github-copilot-questions-in-your-ide.md)
+      * [Getting Started With Prompts For Copilot Chat](copilot/how-tos/chat/getting-started-with-prompts-for-copilot-chat.md)
       * [Copilot Chat](copilot/how-tos/chat/index.md)
     - Completions
       * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/how-tos/completions/finding-public-code-that-matches-github-copilot-suggestions.md)
@@ -1928,9 +1923,14 @@
       * [Configuring Git Hub Copilot In Your Environment](copilot/how-tos/personal-settings/configuring-github-copilot-in-your-environment.md)
       * [Configuring Network Settings For Git Hub Copilot](copilot/how-tos/personal-settings/configuring-network-settings-for-github-copilot.md)
       * [Configure Personal Settings](copilot/how-tos/personal-settings/index.md)
-      * [Installing Git Hub Copilot In The CLI](copilot/how-tos/personal-settings/installing-github-copilot-in-the-cli.md)
-      * [Installing The Git Hub Copilot Extension In Your Environment](copilot/how-tos/personal-settings/installing-the-github-copilot-extension-in-your-environment.md)
       * [Using GitHub Copilot with an account on GHE.com](copilot/how-tos/personal-settings/using-github-copilot-with-an-account-on-ghecom.md)
+    - Set Up
+      * [Setting Up Git Hub Copilot](copilot/how-tos/set-up/index.md)
+      * [Installing Git Hub Copilot In The CLI](copilot/how-tos/set-up/installing-github-copilot-in-the-cli.md)
+      * [Installing The Git Hub Copilot Extension In Your Environment](copilot/how-tos/set-up/installing-the-github-copilot-extension-in-your-environment.md)
+      * [Setting Up Git Hub Copilot For Your Enterprise](copilot/how-tos/set-up/setting-up-github-copilot-for-your-enterprise.md)
+      * [Setting Up Git Hub Copilot For Your Organization](copilot/how-tos/set-up/setting-up-github-copilot-for-your-organization.md)
+      * [Setting Up Git Hub Copilot For Yourself](copilot/how-tos/set-up/setting-up-github-copilot-for-yourself.md)
     - Troubleshoot
       * [Troubleshoot Git Hub Copilot](copilot/how-tos/troubleshoot/index.md)
       * [Rate Limits For Git Hub Copilot](copilot/how-tos/troubleshoot/rate-limits-for-github-copilot.md)
@@ -2023,7 +2023,9 @@
       * [Rolling Out Git Hub Copilot At Scale](copilot/tutorials/rolling-out-github-copilot-at-scale/index.md)
     * [Choosing The Right AI Tool For Your Task](copilot/tutorials/choosing-the-right-ai-tool-for-your-task.md)
     * [Comparing AI Models Using Different Tasks](copilot/tutorials/comparing-ai-models-using-different-tasks.md)
+    * [Enhancing Copilot Agent Mode With MCP](copilot/tutorials/enhancing-copilot-agent-mode-with-mcp.md)
     * [Tutorials for {% data variables.product.prodname_copilot %}](copilot/tutorials/index.md)
+    * [Learning A New Programming Language With Git Hub Copilot](copilot/tutorials/learning-a-new-programming-language-with-github-copilot.md)
     * [Modernizing Legacy Code With Git Hub Copilot](copilot/tutorials/modernizing-legacy-code-with-github-copilot.md)
     * [Refactoring Code With Git Hub Copilot](copilot/tutorials/refactoring-code-with-github-copilot.md)
     * [Speeding Up Development Work With Copilot Spaces](copilot/tutorials/speeding-up-development-work-with-copilot-spaces.md)
