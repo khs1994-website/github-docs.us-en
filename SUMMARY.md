@@ -1474,10 +1474,10 @@
       * [Understanding Your Organization S Exposure To Leaked Secrets](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/index.md)
       * [Interpreting Secret Risk Assessment Results](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/interpreting-secret-risk-assessment-results.md)
       * [Viewing The Secret Risk Assessment Report For Your Organization](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/viewing-the-secret-risk-assessment-report-for-your-organization.md)
-    - Understanding Your Organizations Exposure To Vulnerabilites
-      * [About Your Exposure To Vulnerable Dependencies](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilites/about-your-exposure-to-vulnerable-dependencies.md)
-      * [Understanding Your Organization S Exposure To Vulnerabilities](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilites/index.md)
-      * [Prioritizing Dependabot Alerts Using Metrics](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilites/prioritizing-dependabot-alerts-using-metrics.md)
+    - Understanding Your Organizations Exposure To Vulnerabilities
+      * [About Your Exposure To Vulnerable Dependencies](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilities/about-your-exposure-to-vulnerable-dependencies.md)
+      * [Understanding Your Organization S Exposure To Vulnerabilities](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilities/index.md)
+      * [Prioritizing Dependabot Alerts Using Metrics](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilities/prioritizing-dependabot-alerts-using-metrics.md)
     * [Securing Your Organization](code-security/securing-your-organization/index.md)
   - Security Advisories
     - Guidance On Reporting And Writing Information About Vulnerabilities
@@ -1779,7 +1779,9 @@
     * [Indexing Repositories For Copilot Chat](copilot/concepts/indexing-repositories-for-copilot-chat.md)
     * [Prompt Engineering For Copilot Chat](copilot/concepts/prompt-engineering-for-copilot-chat.md)
   - Get Started
+    * [Achieving Your Company S Engineering Goals With Git Hub Copilot](copilot/get-started/achieve-engineering-goals.md)
     * [Best Practices For Using Git Hub Copilot](copilot/get-started/best-practices-for-using-github-copilot.md)
+    * [Choosing Your Enterprise S Plan For Git Hub Copilot](copilot/get-started/choosing-your-enterprises-plan-for-github-copilot.md)
     * [Git Hub Copilot Features](copilot/get-started/github-copilot-features.md)
     * [Get started with {% data variables.product.prodname_copilot %}](copilot/get-started/index.md)
     * [Plans For Git Hub Copilot](copilot/get-started/plans-for-github-copilot.md)
@@ -2009,6 +2011,11 @@
         * [Managing Your Company S Spending On Git Hub Copilot](copilot/tutorials/rolling-out-github-copilot-at-scale/assigning-licenses/managing-your-companys-spending-on-github-copilot.md)
         * [Reminding Inactive Users To Use Their Git Hub Copilot License](copilot/tutorials/rolling-out-github-copilot-at-scale/assigning-licenses/reminding-inactive-users.md)
         * [Setting Up A Self Serve Process For Git Hub Copilot Licenses](copilot/tutorials/rolling-out-github-copilot-at-scale/assigning-licenses/setting-up-a-self-serve-process-for-github-copilot-licenses.md)
+      - Driving Downstream Impact
+        * [Accelerating Pull Requests In Your Company With Git Hub Copilot](copilot/tutorials/rolling-out-github-copilot-at-scale/driving-downstream-impact/accelerate-pull-requests.md)
+        * [Increasing Test Coverage In Your Company With Git Hub Copilot](copilot/tutorials/rolling-out-github-copilot-at-scale/driving-downstream-impact/increase-test-coverage.md)
+        * [Driving The Downstream Impact Of Git Hub Copilot](copilot/tutorials/rolling-out-github-copilot-at-scale/driving-downstream-impact/index.md)
+        * [Reducing Security Debt In Your Company With Git Hub Copilot](copilot/tutorials/rolling-out-github-copilot-at-scale/driving-downstream-impact/reduce-security-debt.md)
       - Enabling Developers
         * [Driving Copilot Adoption In Your Company](copilot/tutorials/rolling-out-github-copilot-at-scale/enabling-developers/driving-copilot-adoption-in-your-company.md)
         * [Enabling Developers To Use Git Hub Copilot](copilot/tutorials/rolling-out-github-copilot-at-scale/enabling-developers/index.md)
@@ -2017,9 +2024,6 @@
       - Measuring Adoption
         * [Analyzing Usage Over Time With The Copilot Metrics API](copilot/tutorials/rolling-out-github-copilot-at-scale/measuring-adoption/analyzing-usage-over-time-with-the-copilot-metrics-api.md)
         * [Measuring Adoption And Usage Of Git Hub Copilot](copilot/tutorials/rolling-out-github-copilot-at-scale/measuring-adoption/index.md)
-      - Planning Your Rollout
-        * [Choosing Your Enterprise S Plan For Git Hub Copilot](copilot/tutorials/rolling-out-github-copilot-at-scale/planning-your-rollout/choosing-your-enterprises-plan-for-github-copilot.md)
-        * [Planning A Rollout Of Git Hub Copilot](copilot/tutorials/rolling-out-github-copilot-at-scale/planning-your-rollout/index.md)
       * [Rolling Out Git Hub Copilot At Scale](copilot/tutorials/rolling-out-github-copilot-at-scale/index.md)
     * [Choosing The Right AI Tool For Your Task](copilot/tutorials/choosing-the-right-ai-tool-for-your-task.md)
     * [Comparing AI Models Using Different Tasks](copilot/tutorials/comparing-ai-models-using-different-tasks.md)
@@ -2029,7 +2033,7 @@
     * [Modernizing Legacy Code With Git Hub Copilot](copilot/tutorials/modernizing-legacy-code-with-github-copilot.md)
     * [Refactoring Code With Git Hub Copilot](copilot/tutorials/refactoring-code-with-github-copilot.md)
     * [Speeding Up Development Work With Copilot Spaces](copilot/tutorials/speeding-up-development-work-with-copilot-spaces.md)
-    * [Upgrading Java Projects With Git Hub Copilot](copilot/tutorials/upgrading-java-projects-with-github-copilot.md)
+    * [Upgrading Projects With Git Hub Copilot](copilot/tutorials/upgrading-projects-with-github-copilot.md)
     * [Using Copilot To Explore A Codebase](copilot/tutorials/using-copilot-to-explore-a-codebase.md)
     * [Using Copilot To Migrate A Project To Another Programming Language](copilot/tutorials/using-copilot-to-migrate-a-project.md)
     * [Writing Tests With Git Hub Copilot](copilot/tutorials/writing-tests-with-github-copilot.md)
@@ -3129,6 +3133,7 @@
   - Classroom
     * [REST API endpoints for {% data variables.product.prodname_classroom %}](rest/classroom/index.md)
   - Code Scanning
+    * [REST API endpoints for {% data variables.product.prodname_code_scanning %} alert dismissal requests](rest/code-scanning/alert-dismissal-requests.md)
     * [REST API Endpoints For Code Scanning](rest/code-scanning/index.md)
   - Code Security
     * [Configurations](rest/code-security/configurations.md)
