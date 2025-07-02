@@ -671,6 +671,7 @@
     * [Identity And Access Management](admin/managing-iam/index.md)
   - Managing Your Enterprise Account
     * [About Enterprise Accounts](admin/managing-your-enterprise-account/about-enterprise-accounts.md)
+    * [Adding And Removing Git Hub App Managers In Your Enterprise](admin/managing-your-enterprise-account/adding-and-removing-github-app-managers-in-your-enterprise.md)
     * [Changing The URL For Your Enterprise](admin/managing-your-enterprise-account/changing-the-url-for-your-enterprise.md)
     * [Creating A README For An Enterprise](admin/managing-your-enterprise-account/creating-a-readme-for-an-enterprise.md)
     * [Creating An Enterprise Account](admin/managing-your-enterprise-account/creating-an-enterprise-account.md)
@@ -904,6 +905,7 @@
     * [Installing A Git Hub App From A Third Party](apps/using-github-apps/installing-a-github-app-from-a-third-party.md)
     * [Installing A Git Hub App From Git Hub Marketplace For Your Organizations](apps/using-github-apps/installing-a-github-app-from-github-marketplace-for-your-organizations.md)
     * [Installing A Git Hub App From Git Hub Marketplace For Your Personal Account](apps/using-github-apps/installing-a-github-app-from-github-marketplace-for-your-personal-account.md)
+    * [Installing A Git Hub App On Your Enterprise](apps/using-github-apps/installing-a-github-app-on-your-enterprise.md)
     * [Installing Your Own Git Hub App](apps/using-github-apps/installing-your-own-github-app.md)
     * [Privileged Git Hub Apps](apps/using-github-apps/privileged-github-apps.md)
     * [Requesting A Git Hub App From Your Organization Owner](apps/using-github-apps/requesting-a-github-app-from-your-organization-owner.md)
@@ -1946,6 +1948,7 @@
   - Reference
     - Ai Models
       * [Choosing The Right AI Model For Your Task](copilot/reference/ai-models/choosing-the-right-ai-model-for-your-task.md)
+      * [How Copilot Serves AI Models](copilot/reference/ai-models/how-copilot-serves-ai-models.md)
       * [AI Models For Copilot](copilot/reference/ai-models/index.md)
       * [Supported AI Models In Copilot](copilot/reference/ai-models/supported-ai-models-in-copilot.md)
     - Copilot Extensions
@@ -3197,6 +3200,7 @@
     * [REST API Endpoints For Management Console](rest/enterprise-admin/management-console.md)
     * [REST API Endpoints For Enterprise Network Configurations](rest/enterprise-admin/network-configurations.md)
     * [REST API Endpoints For Organization Pre Receive Hooks](rest/enterprise-admin/org-pre-receive-hooks.md)
+    * [REST API For Managing Organization Git Hub App Installations](rest/enterprise-admin/organization-installations.md)
     * [REST API Endpoints For Enterprise Organizations](rest/enterprise-admin/orgs.md)
     * [REST API Endpoints For Pre Receive Environments](rest/enterprise-admin/pre-receive-environments.md)
     * [REST API Endpoints For Pre Receive Hooks](rest/enterprise-admin/pre-receive-hooks.md)
