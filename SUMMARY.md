@@ -128,7 +128,6 @@
     - Administering Github Actions
       * [Administering Git Hub Actions](actions/how-tos/administering-github-actions/index.md)
       * [Making retired namespaces available on GHE.com](actions/how-tos/administering-github-actions/making-retired-namespaces-available-on-ghecom.md)
-      * [Sharing Workflows Secrets And Runners With Your Organization](actions/how-tos/administering-github-actions/sharing-workflows-secrets-and-runners-with-your-organization.md)
       * [Viewing Git Hub Actions Metrics](actions/how-tos/administering-github-actions/viewing-github-actions-metrics.md)
     - Hosting Your Own Runners
       - Managing Self Hosted Runners
@@ -226,6 +225,7 @@
       - Using Artifact Attestations
         * [Enforcing Artifact Attestations With A Kubernetes Admission Controller](actions/how-tos/security-for-github-actions/using-artifact-attestations/enforcing-artifact-attestations-with-a-kubernetes-admission-controller.md)
         * [Using Artifact Attestations](actions/how-tos/security-for-github-actions/using-artifact-attestations/index.md)
+        * [Managing The Lifecycle Of Artifact Attestations](actions/how-tos/security-for-github-actions/using-artifact-attestations/managing-the-lifecycle-of-artifact-attestations.md)
         * [Using Artifact Attestations And Reusable Workflows To Achieve SLSA V 1 Build Level 3](actions/how-tos/security-for-github-actions/using-artifact-attestations/using-artifact-attestations-and-reusable-workflows-to-achieve-slsa-v1-build-level-3.md)
         * [Using Artifact Attestations To Establish Provenance For Builds](actions/how-tos/security-for-github-actions/using-artifact-attestations/using-artifact-attestations-to-establish-provenance-for-builds.md)
         * [Verifying Attestations Offline](actions/how-tos/security-for-github-actions/using-artifact-attestations/verifying-attestations-offline.md)
@@ -3140,7 +3140,7 @@
     * [REST API Endpoints For Code Scanning](rest/code-scanning/index.md)
   - Code Security
     * [Configurations](rest/code-security/configurations.md)
-    * [Security Settings](rest/code-security/index.md)
+    * [REST API Endpoints For Code Security Settings](rest/code-security/index.md)
   - Codes Of Conduct
     * [REST API Endpoints For Codes Of Conduct](rest/codes-of-conduct/index.md)
   - Codespaces
