@@ -117,8 +117,10 @@
       * [About Troubleshooting Workflows](actions/concepts/workflows-and-actions/about-troubleshooting-workflows.md)
       * [About Workflows](actions/concepts/workflows-and-actions/about-workflows.md)
       * [Avoiding Duplication](actions/concepts/workflows-and-actions/avoiding-duplication.md)
+      * [Contexts](actions/concepts/workflows-and-actions/contexts.md)
       * [Workflows And Actions](actions/concepts/workflows-and-actions/index.md)
       * [Notifications For Workflow Runs](actions/concepts/workflows-and-actions/notifications-for-workflow-runs.md)
+      * [Variables](actions/concepts/workflows-and-actions/variables.md)
     * [Concepts For Git Hub Actions](actions/concepts/index.md)
   - Get Started
     * [Get Started With Git Hub Actions](actions/get-started/index.md)
@@ -334,8 +336,8 @@
       * [Using Workflow Templates](actions/how-tos/writing-workflows/using-workflow-templates.md)
     * [How Tos For Git Hub Actions](actions/how-tos/index.md)
   - Reference
-    * [Accessing Contextual Information About Workflow Runs](actions/reference/accessing-contextual-information-about-workflow-runs.md)
     * [Actions Limits](actions/reference/actions-limits.md)
+    * [Contexts Reference](actions/reference/contexts-reference.md)
     * [Dockerfile Support For Git Hub Actions](actions/reference/dockerfile-support-for-github-actions.md)
     * [Evaluate Expressions In Workflows And Actions](actions/reference/evaluate-expressions-in-workflows-and-actions.md)
     * [Events That Trigger Workflows](actions/reference/events-that-trigger-workflows.md)
@@ -344,6 +346,7 @@
     * [Supplemental Arguments And Settings](actions/reference/supplemental-arguments-and-settings.md)
     * [Supported Architectures And Operating Systems For Self Hosted Runners](actions/reference/supported-architectures-and-operating-systems-for-self-hosted-runners.md)
     * [Usage Limits For Self Hosted Runners](actions/reference/usage-limits-for-self-hosted-runners.md)
+    * [Variables Reference](actions/reference/variables-reference.md)
     * [Workflow Commands For Git Hub Actions](actions/reference/workflow-commands-for-github-actions.md)
     * [Workflow Syntax For Git Hub Actions](actions/reference/workflow-syntax-for-github-actions.md)
   - Tutorials
@@ -1842,9 +1845,9 @@
         * [Extending Copilot Coding Agent With The Model Context Protocol MCP](copilot/how-tos/agents/copilot-coding-agent/extending-copilot-coding-agent-with-mcp.md)
         * [Coding Agent](copilot/how-tos/agents/copilot-coding-agent/index.md)
         * [Reviewing A Pull Request Created By Copilot](copilot/how-tos/agents/copilot-coding-agent/reviewing-a-pull-request-created-by-copilot.md)
+        * [Tracking Copilot S Sessions](copilot/how-tos/agents/copilot-coding-agent/tracking-copilots-sessions.md)
         * [Troubleshooting Copilot Coding Agent](copilot/how-tos/agents/copilot-coding-agent/troubleshooting-copilot-coding-agent.md)
         * [Using Copilot To Work On An Issue](copilot/how-tos/agents/copilot-coding-agent/using-copilot-to-work-on-an-issue.md)
-        * [Using The Copilot Coding Agent Logs](copilot/how-tos/agents/copilot-coding-agent/using-the-copilot-coding-agent-logs.md)
       * [Use Git Hub Copilot Agents](copilot/how-tos/agents/index.md)
     - Ai Models
       * [Changing The AI Model For Copilot Chat](copilot/how-tos/ai-models/changing-the-ai-model-for-copilot-chat.md)
@@ -2002,6 +2005,8 @@
       - Security Analysis
         * [Finding Existing Vulnerabilities In Code](copilot/tutorials/copilot-chat-cookbook/security-analysis/finding-existing-vulnerabilities-in-code.md)
         * [Security Analysis](copilot/tutorials/copilot-chat-cookbook/security-analysis/index.md)
+        * [Managing Dependency Updates](copilot/tutorials/copilot-chat-cookbook/security-analysis/managing-dependency-updates.md)
+        * [Securing Your Repository](copilot/tutorials/copilot-chat-cookbook/security-analysis/securing-your-repository.md)
       - Testing Code
         * [Create End To End Tests For A Webpage](copilot/tutorials/copilot-chat-cookbook/testing-code/create-end-to-end-tests-for-a-webpage.md)
         * [Create Mock Objects To Abstract Layers](copilot/tutorials/copilot-chat-cookbook/testing-code/create-mock-objects-to-abstract-layers.md)
@@ -3265,13 +3270,14 @@
     * [REST API Endpoints For User Migrations](rest/migrations/users.md)
   - Models
     * [REST API Endpoints For Models Catalog](rest/models/catalog.md)
+    * [REST API Endpoints For Model Embeddings](rest/models/embeddings.md)
     * [Models](rest/models/index.md)
     * [REST API Endpoints For Models Inference](rest/models/inference.md)
   - Oauth Authorizations
     * [REST API Endpoints For O Auth App Authorizations](rest/oauth-authorizations/oauth-authorizations.md)
   - Orgs
     * [REST API Endpoints For API Insights](rest/orgs/api-insights.md)
-    * [TODOCS](rest/orgs/attestations.md)
+    * [REST API Endpoints For Artifact Attestations](rest/orgs/attestations.md)
     * [REST API Endpoints For Blocking Users](rest/orgs/blocking.md)
     * [REST API Endpoints For Organization Push Rule Bypass Requests](rest/orgs/bypass-requests.md)
     * [REST API Endpoints For Custom Properties](rest/orgs/custom-properties.md)
