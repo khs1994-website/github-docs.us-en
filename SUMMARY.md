@@ -95,6 +95,7 @@
       * [Usage Limits Billing And Administration](actions/concepts/overview/usage-limits-billing-and-administration.md)
     - Runners
       * [About Actions Runner Controller](actions/concepts/runners/about-actions-runner-controller.md)
+      * [About Git Hub Hosted Runners](actions/concepts/runners/about-github-hosted-runners.md)
       * [About Larger Runners](actions/concepts/runners/about-larger-runners.md)
       * [About Private Networking With Git Hub Hosted Runners](actions/concepts/runners/about-private-networking-with-github-hosted-runners.md)
       * [About Self Hosted Runners](actions/concepts/runners/about-self-hosted-runners.md)
@@ -102,9 +103,9 @@
       * [Communicating With Self Hosted Runners](actions/concepts/runners/communicating-with-self-hosted-runners.md)
       * [Git Hub Actions Runners](actions/concepts/runners/index.md)
     - Security
-      * [About Secrets](actions/concepts/security/about-secrets.md)
       * [About Security Hardening With Open ID Connect](actions/concepts/security/about-security-hardening-with-openid-connect.md)
       * [Security In Git Hub Actions](actions/concepts/security/index.md)
+      * [Secrets](actions/concepts/security/secrets.md)
     - Use Cases
       * [About Packaging With Git Hub Actions](actions/concepts/use-cases/about-packaging-with-github-actions.md)
       * [About Service Containers](actions/concepts/use-cases/about-service-containers.md)
@@ -299,17 +300,14 @@
         * [Connecting to a private network with {% data variables.product.company_short %}-hosted runners](actions/how-tos/using-github-hosted-runners/connecting-to-a-private-network/index.md)
         * [Using An API Gateway With OIDC](actions/how-tos/using-github-hosted-runners/connecting-to-a-private-network/using-an-api-gateway-with-oidc.md)
         * [Using Wire Guard To Create A Network Overlay](actions/how-tos/using-github-hosted-runners/connecting-to-a-private-network/using-wireguard-to-create-a-network-overlay.md)
-      - Using Github Hosted Runners
-        * [About Git Hub Hosted Runners](actions/how-tos/using-github-hosted-runners/using-github-hosted-runners/about-github-hosted-runners.md)
-        * [Customizing Git Hub Hosted Runners](actions/how-tos/using-github-hosted-runners/using-github-hosted-runners/customizing-github-hosted-runners.md)
-        * [Using Git Hub Hosted Runners](actions/how-tos/using-github-hosted-runners/using-github-hosted-runners/index.md)
-        * [Monitoring Your Current Jobs](actions/how-tos/using-github-hosted-runners/using-github-hosted-runners/monitoring-your-current-jobs.md)
       - Using Larger Runners
         * [Controlling Access To Larger Runners](actions/how-tos/using-github-hosted-runners/using-larger-runners/controlling-access-to-larger-runners.md)
         * [Using Larger Runners](actions/how-tos/using-github-hosted-runners/using-larger-runners/index.md)
         * [Managing Larger Runners](actions/how-tos/using-github-hosted-runners/using-larger-runners/managing-larger-runners.md)
         * [Running Jobs On Larger Runners](actions/how-tos/using-github-hosted-runners/using-larger-runners/running-jobs-on-larger-runners.md)
-      * [Using Git Hub Hosted Runners](actions/how-tos/using-github-hosted-runners/index.md)
+      * [Customizing Git Hub Hosted Runners](actions/how-tos/using-github-hosted-runners/customizing-github-hosted-runners.md)
+      * [Using Git Hub Hosted Runners](actions/how-tos/using-github-hosted-runners/using-github-hosted-runners.md)
+      * [Monitoring Your Current Jobs](actions/how-tos/using-github-hosted-runners/monitoring-your-current-jobs.md)
     - Writing Workflows
       - Choosing What Your Workflow Does
         * [Adding Scripts To Your Workflow](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/adding-scripts-to-your-workflow.md)
@@ -343,8 +341,10 @@
     * [Dockerfile Support For Git Hub Actions](actions/reference/dockerfile-support-for-github-actions.md)
     * [Evaluate Expressions In Workflows And Actions](actions/reference/evaluate-expressions-in-workflows-and-actions.md)
     * [Events That Trigger Workflows](actions/reference/events-that-trigger-workflows.md)
+    * [Git Hub Hosted Runners Reference](actions/reference/github-hosted-runners-reference.md)
     * [Reference For Git Hub Actions](actions/reference/index.md)
-    * [Metadata Syntax For Git Hub Actions](actions/reference/metadata-syntax-for-github-actions.md)
+    * [Metadata Syntax Reference](actions/reference/metadata-syntax-reference.md)
+    * [Secrets Reference](actions/reference/secrets-reference.md)
     * [Supplemental Arguments And Settings](actions/reference/supplemental-arguments-and-settings.md)
     * [Supported Architectures And Operating Systems For Self Hosted Runners](actions/reference/supported-architectures-and-operating-systems-for-self-hosted-runners.md)
     * [Usage Limits For Self Hosted Runners](actions/reference/usage-limits-for-self-hosted-runners.md)
@@ -925,13 +925,13 @@
     * [Authenticating With A Passkey](authentication/authenticating-with-a-passkey/index.md)
     * [Managing Your Passkeys](authentication/authenticating-with-a-passkey/managing-your-passkeys.md)
     * [Signing In With A Passkey](authentication/authenticating-with-a-passkey/signing-in-with-a-passkey.md)
-  - Authenticating With Saml Single Sign On
-    * [About Authentication With SAML Single Sign On](authentication/authenticating-with-saml-single-sign-on/about-authentication-with-saml-single-sign-on.md)
-    * [Authenticating with {% data variables.product.prodname_emus %}](authentication/authenticating-with-saml-single-sign-on/authenticating-with-a-managed-user-account.md)
-    * [Authorizing A Personal Access Token For Use With SAML Single Sign On](authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on.md)
-    * [Authorizing An SSH Key For Use With SAML Single Sign On](authentication/authenticating-with-saml-single-sign-on/authorizing-an-ssh-key-for-use-with-saml-single-sign-on.md)
-    * [Authenticating With SAML Single Sign On](authentication/authenticating-with-saml-single-sign-on/index.md)
-    * [Viewing And Managing Your Active SAML Sessions](authentication/authenticating-with-saml-single-sign-on/viewing-and-managing-your-active-saml-sessions.md)
+  - Authenticating With Single Sign On
+    * [About Authentication With Single Sign On](authentication/authenticating-with-single-sign-on/about-authentication-with-single-sign-on.md)
+    * [Authenticating with {% data variables.product.prodname_emus %}](authentication/authenticating-with-single-sign-on/authenticating-with-a-managed-user-account.md)
+    * [Authorizing A Personal Access Token For Use With Single Sign On](authentication/authenticating-with-single-sign-on/authorizing-a-personal-access-token-for-use-with-single-sign-on.md)
+    * [Authorizing An SSH Key For Use With Single Sign On](authentication/authenticating-with-single-sign-on/authorizing-an-ssh-key-for-use-with-single-sign-on.md)
+    * [Authenticating With Single Sign On](authentication/authenticating-with-single-sign-on/index.md)
+    * [Viewing And Managing Your Active SSO Sessions](authentication/authenticating-with-single-sign-on/viewing-and-managing-your-active-sso-sessions.md)
   - Connecting To Github With Ssh
     * [About SSH](authentication/connecting-to-github-with-ssh/about-ssh.md)
     * [Adding A New SSH Key To Your Git Hub Account](authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account.md)
