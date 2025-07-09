@@ -104,6 +104,7 @@
       * [Git Hub Actions Runners](actions/concepts/runners/index.md)
     - Security
       * [About Security Hardening With Open ID Connect](actions/concepts/security/about-security-hardening-with-openid-connect.md)
+      * [GITHUB TOKEN](actions/concepts/security/github_token.md)
       * [Security In Git Hub Actions](actions/concepts/security/index.md)
       * [Secrets](actions/concepts/security/secrets.md)
     - Use Cases
@@ -122,6 +123,7 @@
       * [Expressions](actions/concepts/workflows-and-actions/expressions.md)
       * [Workflows And Actions](actions/concepts/workflows-and-actions/index.md)
       * [Notifications For Workflow Runs](actions/concepts/workflows-and-actions/notifications-for-workflow-runs.md)
+      * [Reusable Workflows](actions/concepts/workflows-and-actions/reusable-workflows.md)
       * [Variables](actions/concepts/workflows-and-actions/variables.md)
     * [About Git Hub Actions Metrics](actions/concepts/about-github-actions-metrics.md)
     * [Concepts For Git Hub Actions](actions/concepts/index.md)
@@ -212,9 +214,9 @@
       * [Monitoring And Troubleshooting Workflows](actions/how-tos/monitoring-and-troubleshooting-workflows/index.md)
     - Security For Github Actions
       - Security Guides
-        * [Automatic Token Authentication](actions/how-tos/security-for-github-actions/security-guides/automatic-token-authentication.md)
         * [Security Guides](actions/how-tos/security-for-github-actions/security-guides/index.md)
         * [Security Hardening For Git Hub Actions](actions/how-tos/security-for-github-actions/security-guides/security-hardening-for-github-actions.md)
+        * [Use GITHUB TOKEN In Workflows](actions/how-tos/security-for-github-actions/security-guides/use-github_token-in-workflows.md)
         * [Using Git Hub S Security Features To Secure Your Use Of Git Hub Actions](actions/how-tos/security-for-github-actions/security-guides/using-githubs-security-features-to-secure-your-use-of-github-actions.md)
         * [Using Secrets In Git Hub Actions](actions/how-tos/security-for-github-actions/security-guides/using-secrets-in-github-actions.md)
       - Security Hardening Your Deployments
@@ -244,7 +246,7 @@
         * [Setting Exit Codes For Actions](actions/how-tos/sharing-automations/creating-actions/setting-exit-codes-for-actions.md)
       * [Creating Workflow Templates For Your Organization](actions/how-tos/sharing-automations/creating-workflow-templates-for-your-organization.md)
       * [Sharing Automations](actions/how-tos/sharing-automations/index.md)
-      * [Reusing Workflows](actions/how-tos/sharing-automations/reusing-workflows.md)
+      * [Reuse Workflows](actions/how-tos/sharing-automations/reuse-workflows.md)
       * [Sharing Actions And Workflows From Your Private Repository](actions/how-tos/sharing-automations/sharing-actions-and-workflows-from-your-private-repository.md)
       * [Sharing Actions And Workflows With Your Enterprise](actions/how-tos/sharing-automations/sharing-actions-and-workflows-with-your-enterprise.md)
       * [Sharing Actions And Workflows With Your Organization](actions/how-tos/sharing-automations/sharing-actions-and-workflows-with-your-organization.md)
@@ -341,12 +343,14 @@
     * [Dockerfile Support For Git Hub Actions](actions/reference/dockerfile-support-for-github-actions.md)
     * [Evaluate Expressions In Workflows And Actions](actions/reference/evaluate-expressions-in-workflows-and-actions.md)
     * [Events That Trigger Workflows](actions/reference/events-that-trigger-workflows.md)
+    * [GITHUB TOKEN Reference](actions/reference/github_token-reference.md)
     * [Git Hub Hosted Runners Reference](actions/reference/github-hosted-runners-reference.md)
     * [Reference For Git Hub Actions](actions/reference/index.md)
     * [Metadata Syntax Reference](actions/reference/metadata-syntax-reference.md)
+    * [Reusable Workflows Reference](actions/reference/reusable-workflows-reference.md)
     * [Secrets Reference](actions/reference/secrets-reference.md)
+    * [Self Hosted Runners Reference](actions/reference/self-hosted-runners-reference.md)
     * [Supplemental Arguments And Settings](actions/reference/supplemental-arguments-and-settings.md)
-    * [Supported Architectures And Operating Systems For Self Hosted Runners](actions/reference/supported-architectures-and-operating-systems-for-self-hosted-runners.md)
     * [Usage Limits For Self Hosted Runners](actions/reference/usage-limits-for-self-hosted-runners.md)
     * [Variables Reference](actions/reference/variables-reference.md)
     * [Workflow Commands For Git Hub Actions](actions/reference/workflow-commands-for-github-actions.md)
@@ -398,7 +402,6 @@
     * [Getting Started With Git Hub Packages For Your Enterprise](admin/configuring-packages/getting-started-with-github-packages-for-your-enterprise.md)
     * [Managing Git Hub Packages For Your Enterprise](admin/configuring-packages/index.md)
     * [Migrating Your Enterprise To The Container Registry From The Docker Registry](admin/configuring-packages/migrating-your-enterprise-to-the-container-registry-from-the-docker-registry.md)
-    * [Quickstart For Configuring Your Min IO Storage Bucket For Git Hub Packages](admin/configuring-packages/quickstart-for-configuring-your-minio-storage-bucket-for-github-packages.md)
   - Configuring Settings
     - Configuring Github Connect
       * [About Git Hub Connect](admin/configuring-settings/configuring-github-connect/about-github-connect.md)
@@ -2382,8 +2385,8 @@
   - Github Models At Scale
     * [Git Hub Models At Scale](github-models/github-models-at-scale/index.md)
     * [Managing Your Team S Model Usage](github-models/github-models-at-scale/manage-models-at-scale.md)
-    * [Using Your Own API Keys In Git Hub Models](github-models/github-models-at-scale/set-up-custom-model-integration-models-byok.md)
     * [Using {% data variables.product.prodname_github_models %} to develop AI-powered applications in your enterprise](github-models/github-models-at-scale/use-models-at-scale.md)
+    * [Using Your Own API Keys In Git Hub Models](github-models/github-models-at-scale/using-your-own-api-keys-in-github-models.md)
   - Use Github Models
     * [Evaluating AI Models](github-models/use-github-models/evaluating-ai-models.md)
     * [Use Git Hub Models](github-models/use-github-models/index.md)
