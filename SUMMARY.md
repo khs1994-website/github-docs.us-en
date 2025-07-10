@@ -90,7 +90,7 @@
   - Concepts
     - Overview
       * [About Continuous Deployment With Git Hub Actions](actions/concepts/overview/about-continuous-deployment-with-github-actions.md)
-      * [About Continuous Integration With Git Hub Actions](actions/concepts/overview/about-continuous-integration-with-github-actions.md)
+      * [Continuous Integration](actions/concepts/overview/continuous-integration.md)
       * [Overview Of Git Hub Actions](actions/concepts/overview/index.md)
       * [Usage Limits Billing And Administration](actions/concepts/overview/usage-limits-billing-and-administration.md)
     - Runners
@@ -120,6 +120,7 @@
       * [About Workflows](actions/concepts/workflows-and-actions/about-workflows.md)
       * [Avoiding Duplication](actions/concepts/workflows-and-actions/avoiding-duplication.md)
       * [Contexts](actions/concepts/workflows-and-actions/contexts.md)
+      * [Dependency Caching](actions/concepts/workflows-and-actions/dependency-caching.md)
       * [Expressions](actions/concepts/workflows-and-actions/expressions.md)
       * [Workflows And Actions](actions/concepts/workflows-and-actions/index.md)
       * [Notifications For Workflow Runs](actions/concepts/workflows-and-actions/notifications-for-workflow-runs.md)
@@ -173,6 +174,7 @@
         * [Disabling And Enabling A Workflow](actions/how-tos/managing-workflow-runs-and-deployments/managing-workflow-runs/disabling-and-enabling-a-workflow.md)
         * [Downloading Workflow Artifacts](actions/how-tos/managing-workflow-runs-and-deployments/managing-workflow-runs/downloading-workflow-artifacts.md)
         * [Managing Workflow Runs](actions/how-tos/managing-workflow-runs-and-deployments/managing-workflow-runs/index.md)
+        * [Managing Caches](actions/how-tos/managing-workflow-runs-and-deployments/managing-workflow-runs/manage-caches.md)
         * [Manually Running A Workflow](actions/how-tos/managing-workflow-runs-and-deployments/managing-workflow-runs/manually-running-a-workflow.md)
         * [Re Running Workflows And Jobs](actions/how-tos/managing-workflow-runs-and-deployments/managing-workflow-runs/re-running-workflows-and-jobs.md)
         * [Removing Workflow Artifacts](actions/how-tos/managing-workflow-runs-and-deployments/managing-workflow-runs/removing-workflow-artifacts.md)
@@ -313,7 +315,6 @@
     - Writing Workflows
       - Choosing What Your Workflow Does
         * [Adding Scripts To Your Workflow](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/adding-scripts-to-your-workflow.md)
-        * [Caching Dependencies To Speed Up Workflows](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/caching-dependencies-to-speed-up-workflows.md)
         * [Control The Concurrency Of Workflows And Jobs](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/control-the-concurrency-of-workflows-and-jobs.md)
         * [Controlling Permissions For GITHUB TOKEN](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/controlling-permissions-for-github_token.md)
         * [Choosing What Your Workflow Does](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/index.md)
@@ -340,6 +341,7 @@
   - Reference
     * [Actions Limits](actions/reference/actions-limits.md)
     * [Contexts Reference](actions/reference/contexts-reference.md)
+    * [Dependency Caching Reference](actions/reference/dependency-caching-reference.md)
     * [Dockerfile Support For Git Hub Actions](actions/reference/dockerfile-support-for-github-actions.md)
     * [Evaluate Expressions In Workflows And Actions](actions/reference/evaluate-expressions-in-workflows-and-actions.md)
     * [Events That Trigger Workflows](actions/reference/events-that-trigger-workflows.md)
@@ -1879,7 +1881,6 @@
       * [Debugging Your Git Hub Copilot Extension](copilot/how-tos/build-copilot-extensions/debugging-your-github-copilot-extension.md)
       * [Copilot Extensions](copilot/how-tos/build-copilot-extensions/index.md)
       * [Managing The Availability Of Your Copilot Extension](copilot/how-tos/build-copilot-extensions/managing-the-availability-of-your-copilot-extension.md)
-      * [Quickstart For Git Hub Copilot Extensions Using Agents](copilot/how-tos/build-copilot-extensions/quickstart-for-github-copilot-extensions-using-agents.md)
       * [Setting Up Copilot Extensions](copilot/how-tos/build-copilot-extensions/setting-up-copilot-extensions.md)
       * [Using OIDC With Git Hub Copilot Extensions](copilot/how-tos/build-copilot-extensions/using-oidc-with-github-copilot-extensions.md)
     - Chat
@@ -2045,6 +2046,7 @@
     * [Tutorials for {% data variables.product.prodname_copilot %}](copilot/tutorials/index.md)
     * [Learning A New Programming Language With Git Hub Copilot](copilot/tutorials/learning-a-new-programming-language-with-github-copilot.md)
     * [Modernizing Legacy Code With Git Hub Copilot](copilot/tutorials/modernizing-legacy-code-with-github-copilot.md)
+    * [Quickstart For Git Hub Copilot Extensions Using Agents](copilot/tutorials/quickstart-for-github-copilot-extensions-using-agents.md)
     * [Refactoring Code With Git Hub Copilot](copilot/tutorials/refactoring-code-with-github-copilot.md)
     * [Speeding Up Development Work With Copilot Spaces](copilot/tutorials/speeding-up-development-work-with-copilot-spaces.md)
     * [Upgrading Projects With Git Hub Copilot](copilot/tutorials/upgrading-projects-with-github-copilot.md)
