@@ -14,10 +14,12 @@ children:
   - /secrets-reference
   - /evaluate-expressions-in-workflows-and-actions
   - /contexts-reference
+  - /deployments-and-environments
   - /dependency-caching-reference
   - /metadata-syntax-reference
   - /actions-limits
   - /reusable-workflows-reference
+  - /openid-connect-reference
   - /github_token-reference
   - /dockerfile-support-for-github-actions
   - /github-hosted-runners-reference
