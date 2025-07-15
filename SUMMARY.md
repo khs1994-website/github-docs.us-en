@@ -98,6 +98,7 @@
       * [About Git Hub Hosted Runners](actions/concepts/runners/about-github-hosted-runners.md)
       * [About Larger Runners](actions/concepts/runners/about-larger-runners.md)
       * [About Private Networking With Git Hub Hosted Runners](actions/concepts/runners/about-private-networking-with-github-hosted-runners.md)
+      * [About Runner Scale Sets](actions/concepts/runners/about-runner-scale-sets.md)
       * [About Self Hosted Runners](actions/concepts/runners/about-self-hosted-runners.md)
       * [About Support For Actions Runner Controller](actions/concepts/runners/about-support-for-actions-runner-controller.md)
       * [Communicating With Self Hosted Runners](actions/concepts/runners/communicating-with-self-hosted-runners.md)
@@ -147,12 +148,6 @@
         * [Using A Proxy Server With Self Hosted Runners](actions/how-tos/hosting-your-own-runners/managing-self-hosted-runners/using-a-proxy-server-with-self-hosted-runners.md)
         * [Using Labels With Self Hosted Runners](actions/how-tos/hosting-your-own-runners/managing-self-hosted-runners/using-labels-with-self-hosted-runners.md)
         * [Using Self Hosted Runners In A Workflow](actions/how-tos/hosting-your-own-runners/managing-self-hosted-runners/using-self-hosted-runners-in-a-workflow.md)
-      - Managing Self Hosted Runners With Actions Runner Controller
-        * [Authenticating To The Git Hub API](actions/how-tos/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/authenticating-to-the-github-api.md)
-        * [Deploying Runner Scale Sets With Actions Runner Controller](actions/how-tos/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/deploying-runner-scale-sets-with-actions-runner-controller.md)
-        * [Managing Self Hosted Runners With Actions Runner Controller](actions/how-tos/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/index.md)
-        * [Troubleshooting Actions Runner Controller Errors](actions/how-tos/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/troubleshooting-actions-runner-controller-errors.md)
-        * [Using Actions Runner Controller Runners In A Workflow](actions/how-tos/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/using-actions-runner-controller-runners-in-a-workflow.md)
       * [Hosting Your Own Runners](actions/how-tos/hosting-your-own-runners/index.md)
     - Managing Workflow Runs And Deployments
       - Deploying To Third Party Platforms
@@ -334,6 +329,13 @@
     * [Workflow Commands For Git Hub Actions](actions/reference/workflow-commands-for-github-actions.md)
     * [Workflow Syntax For Git Hub Actions](actions/reference/workflow-syntax-for-github-actions.md)
   - Tutorials
+    - Actions Runner Controller
+      * [Authenticating ARC To The Git Hub API](actions/tutorials/actions-runner-controller/authenticating-arc-to-the-github-api.md)
+      * [Deploying Runner Scale Sets With Actions Runner Controller](actions/tutorials/actions-runner-controller/deploying-runner-scale-sets-with-actions-runner-controller.md)
+      * [Actions Runner Controller](actions/tutorials/actions-runner-controller/index.md)
+      * [Quickstart For Actions Runner Controller](actions/tutorials/actions-runner-controller/quickstart-for-actions-runner-controller.md)
+      * [Troubleshooting Actions Runner Controller Errors](actions/tutorials/actions-runner-controller/troubleshooting-actions-runner-controller-errors.md)
+      * [Using Actions Runner Controller Runners In A Workflow](actions/tutorials/actions-runner-controller/using-actions-runner-controller-runners-in-a-workflow.md)
     - Migrating To Github Actions
       - Manually Migrating To Github Actions
         * [Manually Migrating To Git Hub Actions](actions/tutorials/migrating-to-github-actions/manually-migrating-to-github-actions/index.md)
@@ -360,7 +362,6 @@
     * [Creating An Example Workflow](actions/tutorials/creating-an-example-workflow.md)
     * [Deploying With Git Hub Actions](actions/tutorials/deploying-with-github-actions.md)
     * [Tutorials For Git Hub Actions](actions/tutorials/index.md)
-    * [Quickstart For Actions Runner Controller](actions/tutorials/quickstart-for-actions-runner-controller.md)
     * [Store And Share Data With Workflow Artifacts](actions/tutorials/store-and-share-data.md)
   * [{% data variables.product.prodname_actions %} documentation](actions/index.md)
 - Admin
@@ -1775,6 +1776,7 @@
       * [About Building Copilot Extensions](copilot/concepts/build-copilot-extensions/about-building-copilot-extensions.md)
       * [About Agents For Copilot Extensions](copilot/concepts/build-copilot-extensions/agents-for-copilot-extensions.md)
       * [Concepts For Copilot Extensions](copilot/concepts/build-copilot-extensions/index.md)
+      * [Open ID Connect OIDC For Copilot Extensions](copilot/concepts/build-copilot-extensions/openid-connect.md)
       * [About Skillsets For Copilot Extensions](copilot/concepts/build-copilot-extensions/skillsets-for-copilot-extensions.md)
     - Copilot Billing
       * [About Billing For Git Hub Copilot In Your Enterprise](copilot/concepts/copilot-billing/about-billing-for-github-copilot-in-your-enterprise.md)
@@ -1786,6 +1788,7 @@
     * [About Copilot Coding Agent](copilot/concepts/about-copilot-coding-agent.md)
     * [About Customizing Git Hub Copilot Chat Responses](copilot/concepts/about-customizing-github-copilot-chat-responses.md)
     * [About Organizing And Sharing Context With Copilot Spaces](copilot/concepts/about-organizing-and-sharing-context-with-copilot-spaces.md)
+    * [Content Exclusion For Git Hub Copilot](copilot/concepts/content-exclusion-for-github-copilot.md)
     * [Concepts For Git Hub Copilot](copilot/concepts/index.md)
     * [Indexing Repositories For Copilot Chat](copilot/concepts/indexing-repositories-for-copilot-chat.md)
     * [Prompt Engineering For Copilot Chat](copilot/concepts/prompt-engineering-for-copilot-chat.md)
@@ -1832,7 +1835,6 @@
           * [Reviewing Audit Logs For Copilot Business](copilot/how-tos/administer/organizations/reviewing-activity-related-to-github-copilot-in-your-organization/reviewing-audit-logs-for-copilot-business.md)
           * [Reviewing User Activity Data For Copilot In Your Organization](copilot/how-tos/administer/organizations/reviewing-activity-related-to-github-copilot-in-your-organization/reviewing-user-activity-data-for-copilot-in-your-organization.md)
         * [Adding {% data variables.copilot.copilot_coding_agent %} to your organization](copilot/how-tos/administer/organizations/adding-copilot-coding-agent-to-organization.md)
-        * [Configuring Your Proxy Server Or Firewall For Copilot](copilot/how-tos/administer/organizations/configuring-your-proxy-server-or-firewall-for-copilot.md)
         * [Managing Git Hub Copilot In Your Organization](copilot/how-tos/administer/organizations/index.md)
         * [Managing Policies For Copilot In Your Organization](copilot/how-tos/administer/organizations/managing-policies-for-copilot-in-your-organization.md)
       * [Administer Git Hub Copilot For Your Team](copilot/how-tos/administer/index.md)
@@ -1879,8 +1881,8 @@
       * [Debugging Your Git Hub Copilot Extension](copilot/how-tos/build-copilot-extensions/debugging-your-github-copilot-extension.md)
       * [Copilot Extensions](copilot/how-tos/build-copilot-extensions/index.md)
       * [Managing The Availability Of Your Copilot Extension](copilot/how-tos/build-copilot-extensions/managing-the-availability-of-your-copilot-extension.md)
+      * [Setting Up OIDC For Your Git Hub Copilot Extension](copilot/how-tos/build-copilot-extensions/set-up-oidc.md)
       * [Setting Up Copilot Extensions](copilot/how-tos/build-copilot-extensions/setting-up-copilot-extensions.md)
-      * [Using OIDC With Git Hub Copilot Extensions](copilot/how-tos/build-copilot-extensions/using-oidc-with-github-copilot-extensions.md)
     - Chat
       * [Asking Git Hub Copilot Questions In Git Hub Mobile](copilot/how-tos/chat/asking-github-copilot-questions-in-github-mobile.md)
       * [Asking Git Hub Copilot Questions In Git Hub](copilot/how-tos/chat/asking-github-copilot-questions-in-github.md)
@@ -1965,6 +1967,7 @@
       * [Copilot Extensions](copilot/reference/copilot-extensions/index.md)
     * [Git Hub Copilot Chat Cheat Sheet](copilot/reference/github-copilot-chat-cheat-sheet.md)
     * [Reference for {% data variables.product.prodname_copilot %}](copilot/reference/index.md)
+    * [Proxy Server And Firewall Settings For Copilot](copilot/reference/proxy-server-and-firewall-settings-for-copilot.md)
   - Responsible Use Of Github Copilot Features
     * [Responsible Use Of Git Hub Copilot Features](copilot/responsible-use-of-github-copilot-features/index.md)
     * [Responsible use of Copilot coding agent on GitHub.com](copilot/responsible-use-of-github-copilot-features/responsible-use-of-copilot-coding-agent-on-githubcom.md)
