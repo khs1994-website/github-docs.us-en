@@ -112,7 +112,6 @@
       * [About Custom Actions](actions/concepts/workflows-and-actions/about-custom-actions.md)
       * [About Monitoring Workflows](actions/concepts/workflows-and-actions/about-monitoring-workflows.md)
       * [About Troubleshooting Workflows](actions/concepts/workflows-and-actions/about-troubleshooting-workflows.md)
-      * [About Workflows](actions/concepts/workflows-and-actions/about-workflows.md)
       * [Avoiding Duplication](actions/concepts/workflows-and-actions/avoiding-duplication.md)
       * [Contexts](actions/concepts/workflows-and-actions/contexts.md)
       * [Dependency Caching](actions/concepts/workflows-and-actions/dependency-caching.md)
@@ -123,6 +122,7 @@
       * [Reusable Workflows](actions/concepts/workflows-and-actions/reusable-workflows.md)
       * [Variables](actions/concepts/workflows-and-actions/variables.md)
       * [Workflow Artifacts](actions/concepts/workflows-and-actions/workflow-artifacts.md)
+      * [Workflows](actions/concepts/workflows-and-actions/workflows.md)
     * [About Git Hub Actions Metrics](actions/concepts/about-github-actions-metrics.md)
     * [Concepts For Git Hub Actions](actions/concepts/index.md)
   - Get Started
@@ -637,7 +637,7 @@
       * [Managing Team Memberships With Identity Provider Groups](admin/managing-iam/provisioning-user-accounts-with-scim/managing-team-memberships-with-identity-provider-groups.md)
       * [Provisioning Users And Groups With SCIM Using The REST API](admin/managing-iam/provisioning-user-accounts-with-scim/provisioning-users-and-groups-with-scim-using-the-rest-api.md)
       * [Troubleshooting Team Membership With Identity Provider Groups](admin/managing-iam/provisioning-user-accounts-with-scim/troubleshooting-team-membership-with-identity-provider-groups.md)
-      * [Ifversion Scim For Ghes Public Beta About Else Configuring Endif User Provisioning With SCIM On Git Hub Enterprise Server](admin/managing-iam/provisioning-user-accounts-with-scim/user-provisioning-with-scim-on-ghes.md)
+      * [About User Provisioning With SCIM On Git Hub Enterprise Server](admin/managing-iam/provisioning-user-accounts-with-scim/user-provisioning-with-scim-on-ghes.md)
     - Reconfiguring Iam For Enterprise Managed Users
       * [Reconfiguring IAM For Enterprise Managed Users](admin/managing-iam/reconfiguring-iam-for-enterprise-managed-users/index.md)
       * [Migrating From OIDC To SAML](admin/managing-iam/reconfiguring-iam-for-enterprise-managed-users/migrating-from-oidc-to-saml.md)
@@ -1778,6 +1778,11 @@
       * [Concepts For Copilot Extensions](copilot/concepts/build-copilot-extensions/index.md)
       * [Open ID Connect OIDC For Copilot Extensions](copilot/concepts/build-copilot-extensions/openid-connect.md)
       * [About Skillsets For Copilot Extensions](copilot/concepts/build-copilot-extensions/skillsets-for-copilot-extensions.md)
+    - Completions
+      * [Copilot Code Referencing](copilot/concepts/completions/code-referencing.md)
+      * [Copilot Code Suggestions In Your IDE](copilot/concepts/completions/code-suggestions.md)
+      * [Completions For Git Hub Copilot](copilot/concepts/completions/index.md)
+      * [Copilot Text Completion](copilot/concepts/completions/text-completion.md)
     - Copilot Billing
       * [About Billing For Git Hub Copilot In Your Enterprise](copilot/concepts/copilot-billing/about-billing-for-github-copilot-in-your-enterprise.md)
       * [About Billing For Git Hub Copilot In Your Organization](copilot/concepts/copilot-billing/about-billing-for-github-copilot-in-your-organization.md)
@@ -1894,7 +1899,7 @@
       * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/how-tos/completions/finding-public-code-that-matches-github-copilot-suggestions.md)
       * [Getting Code Suggestions In Your IDE With Git Hub Copilot](copilot/how-tos/completions/getting-code-suggestions-in-your-ide-with-github-copilot.md)
       * [Get Suggestions From Git Hub Copilot](copilot/how-tos/completions/index.md)
-      * [Using Copilot Text Completion](copilot/how-tos/completions/using-copilot-text-completion.md)
+      * [Writing pull request descriptions with {% data variables.copilot.copilot_autocomplete_pr %}](copilot/how-tos/completions/using-copilot-text-completion.md)
     - Content Exclusion
       * [Excluding Content From Git Hub Copilot](copilot/how-tos/content-exclusion/excluding-content-from-github-copilot.md)
       * [Configure And Audit Content Exclusion](copilot/how-tos/content-exclusion/index.md)
@@ -1938,6 +1943,10 @@
       * [Configuring Network Settings For Git Hub Copilot](copilot/how-tos/personal-settings/configuring-network-settings-for-github-copilot.md)
       * [Configure Personal Settings](copilot/how-tos/personal-settings/index.md)
       * [Using GitHub Copilot with an account on GHE.com](copilot/how-tos/personal-settings/using-github-copilot-with-an-account-on-ghecom.md)
+    - Premium Requests
+      * [Premium Requests For Copilot](copilot/how-tos/premium-requests/index.md)
+      * [Managing The Premium Request Allowance For Users In Your Enterprise](copilot/how-tos/premium-requests/manage-for-enterprise.md)
+      * [Monitoring Your Copilot Usage And Entitlements](copilot/how-tos/premium-requests/monitoring-your-copilot-usage-and-entitlements.md)
     - Set Up
       * [Setting Up Git Hub Copilot](copilot/how-tos/set-up/index.md)
       * [Installing Git Hub Copilot In The CLI](copilot/how-tos/set-up/installing-github-copilot-in-the-cli.md)
@@ -1954,7 +1963,6 @@
       * [Troubleshooting Network Errors For Git Hub Copilot](copilot/how-tos/troubleshoot/troubleshooting-network-errors-for-github-copilot.md)
       * [Viewing Logs For Git Hub Copilot In Your Environment](copilot/how-tos/troubleshoot/viewing-logs-for-github-copilot-in-your-environment.md)
     * [How Tos For Git Hub Copilot](copilot/how-tos/index.md)
-    * [Monitoring Your Copilot Usage And Entitlements](copilot/how-tos/monitoring-your-copilot-usage-and-entitlements.md)
   - Reference
     - Ai Models
       * [Choosing The Right AI Model For Your Task](copilot/reference/ai-models/choosing-the-right-ai-model-for-your-task.md)
@@ -1967,6 +1975,7 @@
       * [Copilot Extensions](copilot/reference/copilot-extensions/index.md)
     * [Git Hub Copilot Chat Cheat Sheet](copilot/reference/github-copilot-chat-cheat-sheet.md)
     * [Reference for {% data variables.product.prodname_copilot %}](copilot/reference/index.md)
+    * [Metrics Data Properties For Git Hub Copilot](copilot/reference/metrics-data.md)
     * [Proxy Server And Firewall Settings For Copilot](copilot/reference/proxy-server-and-firewall-settings-for-copilot.md)
   - Responsible Use Of Github Copilot Features
     * [Responsible Use Of Git Hub Copilot Features](copilot/responsible-use-of-github-copilot-features/index.md)
@@ -3575,4 +3584,4 @@
   * [Webhooks Documentation](webhooks/index.md)
   * [Types Of Webhooks](webhooks/types-of-webhooks.md)
   * [Webhook Events And Payloads](webhooks/webhook-events-and-payloads.md)
-* [{% data variables.product.github %}{% ifversion fpt or ghec%}.com{% endif %} Help Documentation](index.md)
+* [{% data variables.product.github %}{% ifversion fpt or ghec %}.com{% endif %} Help Documentation](index.md)
