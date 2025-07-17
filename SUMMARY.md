@@ -104,9 +104,11 @@
       * [Communicating With Self Hosted Runners](actions/concepts/runners/communicating-with-self-hosted-runners.md)
       * [Git Hub Actions Runners](actions/concepts/runners/index.md)
     - Security
+      * [Compromised Runners](actions/concepts/security/compromised-runners.md)
       * [GITHUB TOKEN](actions/concepts/security/github_token.md)
       * [Security In Git Hub Actions](actions/concepts/security/index.md)
       * [Open ID Connect](actions/concepts/security/openid-connect.md)
+      * [Script Injections](actions/concepts/security/script-injections.md)
       * [Secrets](actions/concepts/security/secrets.md)
     - Workflows And Actions
       * [About Custom Actions](actions/concepts/workflows-and-actions/about-custom-actions.md)
@@ -199,12 +201,6 @@
         * [Working With Support For Git Hub Actions](actions/how-tos/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/working-with-support-for-github-actions.md)
       * [Monitoring And Troubleshooting Workflows](actions/how-tos/monitoring-and-troubleshooting-workflows/index.md)
     - Security For Github Actions
-      - Security Guides
-        * [Security Guides](actions/how-tos/security-for-github-actions/security-guides/index.md)
-        * [Security Hardening For Git Hub Actions](actions/how-tos/security-for-github-actions/security-guides/security-hardening-for-github-actions.md)
-        * [Use GITHUB TOKEN In Workflows](actions/how-tos/security-for-github-actions/security-guides/use-github_token-in-workflows.md)
-        * [Using Git Hub S Security Features To Secure Your Use Of Git Hub Actions](actions/how-tos/security-for-github-actions/security-guides/using-githubs-security-features-to-secure-your-use-of-github-actions.md)
-        * [Using Secrets In Git Hub Actions](actions/how-tos/security-for-github-actions/security-guides/using-secrets-in-github-actions.md)
       - Security Hardening Your Deployments
         * [Configuring Open ID Connect In Amazon Web Services](actions/how-tos/security-for-github-actions/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services.md)
         * [Configuring Open ID Connect In Azure](actions/how-tos/security-for-github-actions/security-hardening-your-deployments/configuring-openid-connect-in-azure.md)
@@ -285,7 +281,6 @@
       - Choosing What Your Workflow Does
         * [Adding Scripts To Your Workflow](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/adding-scripts-to-your-workflow.md)
         * [Control The Concurrency Of Workflows And Jobs](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/control-the-concurrency-of-workflows-and-jobs.md)
-        * [Controlling Permissions For GITHUB TOKEN](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/controlling-permissions-for-github_token.md)
         * [Deploying To A Specific Environment](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/deploying-to-a-specific-environment.md)
         * [Choosing What Your Workflow Does](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/index.md)
         * [Passing Information Between Jobs](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/passing-information-between-jobs.md)
@@ -295,6 +290,7 @@
         * [Using Git Hub CLI In Workflows](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/using-github-cli-in-workflows.md)
         * [Using Jobs In A Workflow](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/using-jobs-in-a-workflow.md)
         * [Using Pre Written Building Blocks In Your Workflow](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/using-pre-written-building-blocks-in-your-workflow.md)
+        * [Using Secrets In Git Hub Actions](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/using-secrets-in-github-actions.md)
       - Choosing When Your Workflow Runs
         * [Choosing When Your Workflow Runs](actions/how-tos/writing-workflows/choosing-when-your-workflow-runs/index.md)
         * [Triggering A Workflow](actions/how-tos/writing-workflows/choosing-when-your-workflow-runs/triggering-a-workflow.md)
@@ -315,13 +311,13 @@
     * [Evaluate Expressions In Workflows And Actions](actions/reference/evaluate-expressions-in-workflows-and-actions.md)
     * [Events That Trigger Workflows](actions/reference/events-that-trigger-workflows.md)
     * [Extending Git Hub Actions Importer With Custom Transformers](actions/reference/extending-github-actions-importer-with-custom-transformers.md)
-    * [GITHUB TOKEN Reference](actions/reference/github_token-reference.md)
     * [Git Hub Hosted Runners Reference](actions/reference/github-hosted-runners-reference.md)
     * [Reference For Git Hub Actions](actions/reference/index.md)
     * [Metadata Syntax Reference](actions/reference/metadata-syntax-reference.md)
     * [Open ID Connect Reference](actions/reference/openid-connect-reference.md)
     * [Reusable Workflows Reference](actions/reference/reusable-workflows-reference.md)
     * [Secrets Reference](actions/reference/secrets-reference.md)
+    * [Secure Use Reference](actions/reference/secure-use-reference.md)
     * [Self Hosted Runners Reference](actions/reference/self-hosted-runners-reference.md)
     * [Supplemental Arguments And Settings](actions/reference/supplemental-arguments-and-settings.md)
     * [Usage Limits For Self Hosted Runners](actions/reference/usage-limits-for-self-hosted-runners.md)
@@ -363,6 +359,7 @@
     * [Deploying With Git Hub Actions](actions/tutorials/deploying-with-github-actions.md)
     * [Tutorials For Git Hub Actions](actions/tutorials/index.md)
     * [Store And Share Data With Workflow Artifacts](actions/tutorials/store-and-share-data.md)
+    * [Use GITHUB TOKEN In Workflows](actions/tutorials/use-github_token-in-workflows.md)
   * [{% data variables.product.prodname_actions %} documentation](actions/index.md)
 - Admin
   - Administering Your Instance
@@ -1794,8 +1791,10 @@
     * [About Customizing Git Hub Copilot Chat Responses](copilot/concepts/about-customizing-github-copilot-chat-responses.md)
     * [About Organizing And Sharing Context With Copilot Spaces](copilot/concepts/about-organizing-and-sharing-context-with-copilot-spaces.md)
     * [Content Exclusion For Git Hub Copilot](copilot/concepts/content-exclusion-for-github-copilot.md)
+    * [Copilot Knowledge Bases](copilot/concepts/copilot-knowledge-bases.md)
     * [Concepts For Git Hub Copilot](copilot/concepts/index.md)
     * [Indexing Repositories For Copilot Chat](copilot/concepts/indexing-repositories-for-copilot-chat.md)
+    * [Copilot Policies To Control Availability Of Features And Models](copilot/concepts/policies.md)
     * [Prompt Engineering For Copilot Chat](copilot/concepts/prompt-engineering-for-copilot-chat.md)
   - Get Started
     * [Achieving Your Company S Engineering Goals With Git Hub Copilot](copilot/get-started/achieve-engineering-goals.md)
@@ -1841,7 +1840,8 @@
           * [Reviewing User Activity Data For Copilot In Your Organization](copilot/how-tos/administer/organizations/reviewing-activity-related-to-github-copilot-in-your-organization/reviewing-user-activity-data-for-copilot-in-your-organization.md)
         * [Adding {% data variables.copilot.copilot_coding_agent %} to your organization](copilot/how-tos/administer/organizations/adding-copilot-coding-agent-to-organization.md)
         * [Managing Git Hub Copilot In Your Organization](copilot/how-tos/administer/organizations/index.md)
-        * [Managing Policies For Copilot In Your Organization](copilot/how-tos/administer/organizations/managing-policies-for-copilot-in-your-organization.md)
+        * [Managing Policies And Features For Copilot In Your Organization](copilot/how-tos/administer/organizations/managing-policies-for-copilot-in-your-organization.md)
+        * [Setting Permissions For A Copilot Extension In Your Organization](copilot/how-tos/administer/organizations/set-extension-permissions.md)
       * [Administer Git Hub Copilot For Your Team](copilot/how-tos/administer/index.md)
     - Agents
       - Copilot Code Review
@@ -1918,8 +1918,8 @@
         * [Extending Copilot Chat With The Model Context Protocol MCP](copilot/how-tos/context/model-context-protocol/extending-copilot-chat-with-mcp.md)
         * [Using Model Context Protocol](copilot/how-tos/context/model-context-protocol/index.md)
         * [Using The Git Hub MCP Server](copilot/how-tos/context/model-context-protocol/using-the-github-mcp-server.md)
+      * [Creating And Managing Copilot Knowledge Bases](copilot/how-tos/context/creating-and-managing-copilot-knowledge-bases.md)
       * [Provide Context To Git Hub Copilot](copilot/how-tos/context/index.md)
-      * [Managing Copilot Knowledge Bases](copilot/how-tos/context/managing-copilot-knowledge-bases.md)
     - Custom Instructions
       * [Adding Organization Custom Instructions For Git Hub Copilot](copilot/how-tos/custom-instructions/adding-organization-custom-instructions-for-github-copilot.md)
       * [Adding Personal Custom Instructions For Git Hub Copilot](copilot/how-tos/custom-instructions/adding-personal-custom-instructions-for-github-copilot.md)
@@ -1973,6 +1973,7 @@
       * [Copilot Extensions FAQ](copilot/reference/copilot-extensions/copilot-extensions-faq.md)
       * [Copilot Extensions Glossary](copilot/reference/copilot-extensions/copilot-extensions-glossary.md)
       * [Copilot Extensions](copilot/reference/copilot-extensions/index.md)
+    * [Feature Availability When Copilot Policies Conflict In Organizations](copilot/reference/feature-availability-enterprise.md)
     * [Git Hub Copilot Chat Cheat Sheet](copilot/reference/github-copilot-chat-cheat-sheet.md)
     * [Reference for {% data variables.product.prodname_copilot %}](copilot/reference/index.md)
     * [Metrics Data Properties For Git Hub Copilot](copilot/reference/metrics-data.md)
@@ -2045,7 +2046,6 @@
         * [Driving Copilot Adoption In Your Company](copilot/tutorials/rolling-out-github-copilot-at-scale/enabling-developers/driving-copilot-adoption-in-your-company.md)
         * [Enabling Developers To Use Git Hub Copilot](copilot/tutorials/rolling-out-github-copilot-at-scale/enabling-developers/index.md)
         * [Integrating Agentic AI Into Your Enterprise S Software Development Lifecycle](copilot/tutorials/rolling-out-github-copilot-at-scale/enabling-developers/integrating-agentic-ai.md)
-        * [Using {% data variables.copilot.copilot_coding_agent %} effectively in your organization](copilot/tutorials/rolling-out-github-copilot-at-scale/enabling-developers/using-copilot-coding-agent-in-org.md)
       - Measuring Adoption
         * [Analyzing Usage Over Time With The Copilot Metrics API](copilot/tutorials/rolling-out-github-copilot-at-scale/measuring-adoption/analyzing-usage-over-time-with-the-copilot-metrics-api.md)
         * [Measuring Adoption And Usage Of Git Hub Copilot](copilot/tutorials/rolling-out-github-copilot-at-scale/measuring-adoption/index.md)
@@ -2056,6 +2056,7 @@
     * [Tutorials for {% data variables.product.prodname_copilot %}](copilot/tutorials/index.md)
     * [Learning A New Programming Language With Git Hub Copilot](copilot/tutorials/learning-a-new-programming-language-with-github-copilot.md)
     * [Modernizing Legacy Code With Git Hub Copilot](copilot/tutorials/modernizing-legacy-code-with-github-copilot.md)
+    * [Piloting {% data variables.copilot.copilot_coding_agent %} in your organization](copilot/tutorials/pilot-copilot-coding-agent.md)
     * [Quickstart For Git Hub Copilot Extensions Using Agents](copilot/tutorials/quickstart-for-github-copilot-extensions-using-agents.md)
     * [Refactoring Code With Git Hub Copilot](copilot/tutorials/refactoring-code-with-github-copilot.md)
     * [Speeding Up Development Work With Copilot Spaces](copilot/tutorials/speeding-up-development-work-with-copilot-spaces.md)
