@@ -92,7 +92,6 @@
       * [About Continuous Deployment With Git Hub Actions](actions/concepts/overview/about-continuous-deployment-with-github-actions.md)
       * [Continuous Integration](actions/concepts/overview/continuous-integration.md)
       * [Overview Of Git Hub Actions](actions/concepts/overview/index.md)
-      * [Usage Limits Billing And Administration](actions/concepts/overview/usage-limits-billing-and-administration.md)
     - Runners
       * [About Actions Runner Controller](actions/concepts/runners/about-actions-runner-controller.md)
       * [About Git Hub Hosted Runners](actions/concepts/runners/about-github-hosted-runners.md)
@@ -115,6 +114,7 @@
       * [About Monitoring Workflows](actions/concepts/workflows-and-actions/about-monitoring-workflows.md)
       * [About Troubleshooting Workflows](actions/concepts/workflows-and-actions/about-troubleshooting-workflows.md)
       * [Avoiding Duplication](actions/concepts/workflows-and-actions/avoiding-duplication.md)
+      * [Concurrency](actions/concepts/workflows-and-actions/concurrency.md)
       * [Contexts](actions/concepts/workflows-and-actions/contexts.md)
       * [Dependency Caching](actions/concepts/workflows-and-actions/dependency-caching.md)
       * [Deployment Environments](actions/concepts/workflows-and-actions/deployment-environments.md)
@@ -126,6 +126,7 @@
       * [Workflow Artifacts](actions/concepts/workflows-and-actions/workflow-artifacts.md)
       * [Workflows](actions/concepts/workflows-and-actions/workflows.md)
     * [About Git Hub Actions Metrics](actions/concepts/about-github-actions-metrics.md)
+    * [Billing And Usage](actions/concepts/billing-and-usage.md)
     * [Concepts For Git Hub Actions](actions/concepts/index.md)
   - Get Started
     * [Get Started With Git Hub Actions](actions/get-started/index.md)
@@ -280,7 +281,6 @@
         * [Building And Testing](actions/how-tos/writing-workflows/building-and-testing/index.md)
       - Choosing What Your Workflow Does
         * [Adding Scripts To Your Workflow](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/adding-scripts-to-your-workflow.md)
-        * [Control The Concurrency Of Workflows And Jobs](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/control-the-concurrency-of-workflows-and-jobs.md)
         * [Deploying To A Specific Environment](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/deploying-to-a-specific-environment.md)
         * [Choosing What Your Workflow Does](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/index.md)
         * [Passing Information Between Jobs](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/passing-information-between-jobs.md)
@@ -292,6 +292,7 @@
         * [Using Pre Written Building Blocks In Your Workflow](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/using-pre-written-building-blocks-in-your-workflow.md)
         * [Using Secrets In Git Hub Actions](actions/how-tos/writing-workflows/choosing-what-your-workflow-does/using-secrets-in-github-actions.md)
       - Choosing When Your Workflow Runs
+        * [Control The Concurrency Of Workflows And Jobs](actions/how-tos/writing-workflows/choosing-when-your-workflow-runs/control-the-concurrency-of-workflows-and-jobs.md)
         * [Choosing When Your Workflow Runs](actions/how-tos/writing-workflows/choosing-when-your-workflow-runs/index.md)
         * [Triggering A Workflow](actions/how-tos/writing-workflows/choosing-when-your-workflow-runs/triggering-a-workflow.md)
         * [Using Conditions To Control Job Execution](actions/how-tos/writing-workflows/choosing-when-your-workflow-runs/using-conditions-to-control-job-execution.md)
@@ -320,7 +321,6 @@
     * [Secure Use Reference](actions/reference/secure-use-reference.md)
     * [Self Hosted Runners Reference](actions/reference/self-hosted-runners-reference.md)
     * [Supplemental Arguments And Settings](actions/reference/supplemental-arguments-and-settings.md)
-    * [Usage Limits For Self Hosted Runners](actions/reference/usage-limits-for-self-hosted-runners.md)
     * [Variables Reference](actions/reference/variables-reference.md)
     * [Workflow Commands For Git Hub Actions](actions/reference/workflow-commands-for-github-actions.md)
     * [Workflow Syntax For Git Hub Actions](actions/reference/workflow-syntax-for-github-actions.md)
@@ -1790,6 +1790,7 @@
     * [About Copilot Coding Agent](copilot/concepts/about-copilot-coding-agent.md)
     * [About Customizing Git Hub Copilot Chat Responses](copilot/concepts/about-customizing-github-copilot-chat-responses.md)
     * [About Organizing And Sharing Context With Copilot Spaces](copilot/concepts/about-organizing-and-sharing-context-with-copilot-spaces.md)
+    * [Choosing The Right AI Tool For Your Task](copilot/concepts/choosing-the-right-ai-tool-for-your-task.md)
     * [Content Exclusion For Git Hub Copilot](copilot/concepts/content-exclusion-for-github-copilot.md)
     * [Copilot Knowledge Bases](copilot/concepts/copilot-knowledge-bases.md)
     * [Concepts For Git Hub Copilot](copilot/concepts/index.md)
@@ -1943,10 +1944,6 @@
       * [Configuring Network Settings For Git Hub Copilot](copilot/how-tos/personal-settings/configuring-network-settings-for-github-copilot.md)
       * [Configure Personal Settings](copilot/how-tos/personal-settings/index.md)
       * [Using GitHub Copilot with an account on GHE.com](copilot/how-tos/personal-settings/using-github-copilot-with-an-account-on-ghecom.md)
-    - Premium Requests
-      * [Premium Requests For Copilot](copilot/how-tos/premium-requests/index.md)
-      * [Managing The Premium Request Allowance For Users In Your Enterprise](copilot/how-tos/premium-requests/manage-for-enterprise.md)
-      * [Monitoring Your Copilot Usage And Entitlements](copilot/how-tos/premium-requests/monitoring-your-copilot-usage-and-entitlements.md)
     - Set Up
       * [Setting Up Git Hub Copilot](copilot/how-tos/set-up/index.md)
       * [Installing Git Hub Copilot In The CLI](copilot/how-tos/set-up/installing-github-copilot-in-the-cli.md)
@@ -1954,6 +1951,11 @@
       * [Setting Up Git Hub Copilot For Your Enterprise](copilot/how-tos/set-up/setting-up-github-copilot-for-your-enterprise.md)
       * [Setting Up Git Hub Copilot For Your Organization](copilot/how-tos/set-up/setting-up-github-copilot-for-your-organization.md)
       * [Setting Up Git Hub Copilot For Yourself](copilot/how-tos/set-up/setting-up-github-copilot-for-yourself.md)
+    - Spending
+      * [Manage And Monitor Spending For Copilot](copilot/how-tos/spending/index.md)
+      * [Managing The Premium Request Allowance For Users In Your Enterprise](copilot/how-tos/spending/manage-for-enterprise.md)
+      * [Managing Your Company S Spending On Git Hub Copilot](copilot/how-tos/spending/managing-your-companys-spending-on-github-copilot.md)
+      * [Monitoring Your Copilot Usage And Entitlements](copilot/how-tos/spending/monitoring-your-copilot-usage-and-entitlements.md)
     - Troubleshoot
       * [Troubleshoot Git Hub Copilot](copilot/how-tos/troubleshoot/index.md)
       * [Rate Limits For Git Hub Copilot](copilot/how-tos/troubleshoot/rate-limits-for-github-copilot.md)
@@ -2034,7 +2036,6 @@
     - Rolling Out Github Copilot At Scale
       - Assigning Licenses
         * [Assigning Git Hub Copilot Licenses In Your Enterprise](copilot/tutorials/rolling-out-github-copilot-at-scale/assigning-licenses/index.md)
-        * [Managing Your Company S Spending On Git Hub Copilot](copilot/tutorials/rolling-out-github-copilot-at-scale/assigning-licenses/managing-your-companys-spending-on-github-copilot.md)
         * [Reminding Inactive Users To Use Their Git Hub Copilot License](copilot/tutorials/rolling-out-github-copilot-at-scale/assigning-licenses/reminding-inactive-users.md)
         * [Setting Up A Self Serve Process For Git Hub Copilot Licenses](copilot/tutorials/rolling-out-github-copilot-at-scale/assigning-licenses/setting-up-a-self-serve-process-for-github-copilot-licenses.md)
       - Driving Downstream Impact
@@ -2050,7 +2051,6 @@
         * [Analyzing Usage Over Time With The Copilot Metrics API](copilot/tutorials/rolling-out-github-copilot-at-scale/measuring-adoption/analyzing-usage-over-time-with-the-copilot-metrics-api.md)
         * [Measuring Adoption And Usage Of Git Hub Copilot](copilot/tutorials/rolling-out-github-copilot-at-scale/measuring-adoption/index.md)
       * [Rolling Out Git Hub Copilot At Scale](copilot/tutorials/rolling-out-github-copilot-at-scale/index.md)
-    * [Choosing The Right AI Tool For Your Task](copilot/tutorials/choosing-the-right-ai-tool-for-your-task.md)
     * [Comparing AI Models Using Different Tasks](copilot/tutorials/comparing-ai-models-using-different-tasks.md)
     * [Enhancing Copilot Agent Mode With MCP](copilot/tutorials/enhancing-copilot-agent-mode-with-mcp.md)
     * [Tutorials for {% data variables.product.prodname_copilot %}](copilot/tutorials/index.md)
