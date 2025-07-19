@@ -89,8 +89,9 @@
 - Actions
   - Concepts
     - Overview
-      * [About Continuous Deployment With Git Hub Actions](actions/concepts/overview/about-continuous-deployment-with-github-actions.md)
+      * [Continuous Deployment](actions/concepts/overview/continuous-deployment.md)
       * [Continuous Integration](actions/concepts/overview/continuous-integration.md)
+      * [Git Hub Actions Vs Git Hub Apps](actions/concepts/overview/github-actions-vs-github-apps.md)
       * [Overview Of Git Hub Actions](actions/concepts/overview/index.md)
     - Runners
       * [About Actions Runner Controller](actions/concepts/runners/about-actions-runner-controller.md)
@@ -100,7 +101,6 @@
       * [About Runner Scale Sets](actions/concepts/runners/about-runner-scale-sets.md)
       * [About Self Hosted Runners](actions/concepts/runners/about-self-hosted-runners.md)
       * [About Support For Actions Runner Controller](actions/concepts/runners/about-support-for-actions-runner-controller.md)
-      * [Communicating With Self Hosted Runners](actions/concepts/runners/communicating-with-self-hosted-runners.md)
       * [Git Hub Actions Runners](actions/concepts/runners/index.md)
     - Security
       * [Compromised Runners](actions/concepts/security/compromised-runners.md)
@@ -136,11 +136,11 @@
     - Administering Github Actions
       * [Administering Git Hub Actions](actions/how-tos/administering-github-actions/index.md)
       * [Making retired namespaces available on GHE.com](actions/how-tos/administering-github-actions/making-retired-namespaces-available-on-ghecom.md)
+      * [Managing Custom Actions](actions/how-tos/administering-github-actions/managing-custom-actions.md)
       * [Viewing Git Hub Actions Metrics](actions/how-tos/administering-github-actions/viewing-github-actions-metrics.md)
     - Hosting Your Own Runners
       - Managing Self Hosted Runners
         * [Adding Self Hosted Runners](actions/how-tos/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners.md)
-        * [Autoscaling With Self Hosted Runners](actions/how-tos/hosting-your-own-runners/managing-self-hosted-runners/autoscaling-with-self-hosted-runners.md)
         * [Configuring The Self Hosted Runner Application As A Service](actions/how-tos/hosting-your-own-runners/managing-self-hosted-runners/configuring-the-self-hosted-runner-application-as-a-service.md)
         * [Customizing The Containers Used By Jobs](actions/how-tos/hosting-your-own-runners/managing-self-hosted-runners/customizing-the-containers-used-by-jobs.md)
         * [Managing Self Hosted Runners](actions/how-tos/hosting-your-own-runners/managing-self-hosted-runners/index.md)
@@ -240,12 +240,6 @@
         * [Commenting On An Issue When A Label Is Added](actions/how-tos/use-cases-and-examples/project-management/commenting-on-an-issue-when-a-label-is-added.md)
         * [Managing Projects](actions/how-tos/use-cases-and-examples/project-management/index.md)
         * [Scheduling Issue Creation](actions/how-tos/use-cases-and-examples/project-management/scheduling-issue-creation.md)
-      - Publishing Packages
-        * [Publishing Packages](actions/how-tos/use-cases-and-examples/publishing-packages/index.md)
-        * [Publishing Docker Images](actions/how-tos/use-cases-and-examples/publishing-packages/publishing-docker-images.md)
-        * [Publishing Java Packages With Gradle](actions/how-tos/use-cases-and-examples/publishing-packages/publishing-java-packages-with-gradle.md)
-        * [Publishing Java Packages With Maven](actions/how-tos/use-cases-and-examples/publishing-packages/publishing-java-packages-with-maven.md)
-        * [Publishing Node.js packages](actions/how-tos/use-cases-and-examples/publishing-packages/publishing-nodejs-packages.md)
       - Using Containerized Services
         * [Creating Postgre SQL Service Containers](actions/how-tos/use-cases-and-examples/using-containerized-services/creating-postgresql-service-containers.md)
         * [Creating Redis Service Containers](actions/how-tos/use-cases-and-examples/using-containerized-services/creating-redis-service-containers.md)
@@ -351,6 +345,12 @@
         * [Migrating From Jenkins With Git Hub Actions Importer](actions/tutorials/migrating-to-github-actions/using-github-actions-importer-to-automate-migrations/migrating-from-jenkins-with-github-actions-importer.md)
         * [Migrating From Travis CI With Git Hub Actions Importer](actions/tutorials/migrating-to-github-actions/using-github-actions-importer-to-automate-migrations/migrating-from-travis-ci-with-github-actions-importer.md)
       * [Migrating To Git Hub Actions](actions/tutorials/migrating-to-github-actions/index.md)
+    - Publishing Packages
+      * [Publishing Packages](actions/tutorials/publishing-packages/index.md)
+      * [Publishing Docker Images](actions/tutorials/publishing-packages/publishing-docker-images.md)
+      * [Publishing Java Packages With Gradle](actions/tutorials/publishing-packages/publishing-java-packages-with-gradle.md)
+      * [Publishing Java Packages With Maven](actions/tutorials/publishing-packages/publishing-java-packages-with-maven.md)
+      * [Publishing Node.js packages](actions/tutorials/publishing-packages/publishing-nodejs-packages.md)
     * [Communicating With Docker Service Containers](actions/tutorials/communicating-with-docker-service-containers.md)
     * [Creating A Composite Action](actions/tutorials/creating-a-composite-action.md)
     * [Creating A Docker Container Action](actions/tutorials/creating-a-docker-container-action.md)
@@ -1795,8 +1795,10 @@
     * [Copilot Knowledge Bases](copilot/concepts/copilot-knowledge-bases.md)
     * [Concepts For Git Hub Copilot](copilot/concepts/index.md)
     * [Indexing Repositories For Copilot Chat](copilot/concepts/indexing-repositories-for-copilot-chat.md)
+    * [Network Settings For Git Hub Copilot](copilot/concepts/network-settings-for-github-copilot.md)
     * [Copilot Policies To Control Availability Of Features And Models](copilot/concepts/policies.md)
     * [Prompt Engineering For Copilot Chat](copilot/concepts/prompt-engineering-for-copilot-chat.md)
+    * [Rate Limits For Git Hub Copilot](copilot/concepts/rate-limits.md)
   - Get Started
     * [Achieving Your Company S Engineering Goals With Git Hub Copilot](copilot/get-started/achieve-engineering-goals.md)
     * [Best Practices For Using Git Hub Copilot](copilot/get-started/best-practices-for-using-github-copilot.md)
@@ -1843,6 +1845,7 @@
         * [Managing Git Hub Copilot In Your Organization](copilot/how-tos/administer/organizations/index.md)
         * [Managing Policies And Features For Copilot In Your Organization](copilot/how-tos/administer/organizations/managing-policies-for-copilot-in-your-organization.md)
         * [Setting Permissions For A Copilot Extension In Your Organization](copilot/how-tos/administer/organizations/set-extension-permissions.md)
+      * [Downloading A Copilot Activity Report For Your Organization Or Enterprise](copilot/how-tos/administer/download-activity-report.md)
       * [Administer Git Hub Copilot For Your Team](copilot/how-tos/administer/index.md)
     - Agents
       - Copilot Code Review
@@ -1939,9 +1942,9 @@
       * [Managing Copilot Policies As An Individual Subscriber](copilot/how-tos/manage-your-account/managing-copilot-policies-as-an-individual-subscriber.md)
       * [Viewing And Changing Your Copilot Plan](copilot/how-tos/manage-your-account/viewing-and-changing-your-copilot-plan.md)
     - Personal Settings
-      * [Configuring Git Hub Copilot In The CLI](copilot/how-tos/personal-settings/configuring-github-copilot-in-the-cli.md)
       * [Configuring Git Hub Copilot In Your Environment](copilot/how-tos/personal-settings/configuring-github-copilot-in-your-environment.md)
       * [Configuring Network Settings For Git Hub Copilot](copilot/how-tos/personal-settings/configuring-network-settings-for-github-copilot.md)
+      * [Customizing Git Hub Copilot In The CLI](copilot/how-tos/personal-settings/customizing-github-copilot-in-the-cli.md)
       * [Configure Personal Settings](copilot/how-tos/personal-settings/index.md)
       * [Using GitHub Copilot with an account on GHE.com](copilot/how-tos/personal-settings/using-github-copilot-with-an-account-on-ghecom.md)
     - Set Up
@@ -1958,10 +1961,8 @@
       * [Monitoring Your Copilot Usage And Entitlements](copilot/how-tos/spending/monitoring-your-copilot-usage-and-entitlements.md)
     - Troubleshoot
       * [Troubleshoot Git Hub Copilot](copilot/how-tos/troubleshoot/index.md)
-      * [Rate Limits For Git Hub Copilot](copilot/how-tos/troubleshoot/rate-limits-for-github-copilot.md)
       * [Troubleshooting Common Issues With Git Hub Copilot](copilot/how-tos/troubleshoot/troubleshooting-common-issues-with-github-copilot.md)
       * [Troubleshooting Firewall Settings For Git Hub Copilot](copilot/how-tos/troubleshoot/troubleshooting-firewall-settings-for-github-copilot.md)
-      * [Troubleshooting Issues With Git Hub Copilot Chat](copilot/how-tos/troubleshoot/troubleshooting-issues-with-github-copilot-chat.md)
       * [Troubleshooting Network Errors For Git Hub Copilot](copilot/how-tos/troubleshoot/troubleshooting-network-errors-for-github-copilot.md)
       * [Viewing Logs For Git Hub Copilot In Your Environment](copilot/how-tos/troubleshoot/viewing-logs-for-github-copilot-in-your-environment.md)
     * [How Tos For Git Hub Copilot](copilot/how-tos/index.md)
@@ -1978,6 +1979,7 @@
     * [Feature Availability When Copilot Policies Conflict In Organizations](copilot/reference/feature-availability-enterprise.md)
     * [Git Hub Copilot Chat Cheat Sheet](copilot/reference/github-copilot-chat-cheat-sheet.md)
     * [Reference for {% data variables.product.prodname_copilot %}](copilot/reference/index.md)
+    * [Keyboard Shortcuts For Git Hub Copilot In The IDE](copilot/reference/keyboard-shortcuts-for-github-copilot-in-the-ide.md)
     * [Metrics Data Properties For Git Hub Copilot](copilot/reference/metrics-data.md)
     * [Proxy Server And Firewall Settings For Copilot](copilot/reference/proxy-server-and-firewall-settings-for-copilot.md)
   - Responsible Use Of Github Copilot Features
