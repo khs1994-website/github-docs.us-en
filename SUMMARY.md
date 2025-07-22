@@ -111,8 +111,6 @@
       * [Secrets](actions/concepts/security/secrets.md)
     - Workflows And Actions
       * [About Custom Actions](actions/concepts/workflows-and-actions/about-custom-actions.md)
-      * [About Monitoring Workflows](actions/concepts/workflows-and-actions/about-monitoring-workflows.md)
-      * [About Troubleshooting Workflows](actions/concepts/workflows-and-actions/about-troubleshooting-workflows.md)
       * [Avoiding Duplication](actions/concepts/workflows-and-actions/avoiding-duplication.md)
       * [Concurrency](actions/concepts/workflows-and-actions/concurrency.md)
       * [Contexts](actions/concepts/workflows-and-actions/contexts.md)
@@ -187,20 +185,14 @@
         * [Removing Workflow Artifacts](actions/how-tos/managing-workflow-runs-and-deployments/managing-workflow-runs/removing-workflow-artifacts.md)
         * [Skipping Workflow Runs](actions/how-tos/managing-workflow-runs-and-deployments/managing-workflow-runs/skipping-workflow-runs.md)
       * [Managing Workflow Runs And Deployments](actions/how-tos/managing-workflow-runs-and-deployments/index.md)
-    - Monitoring And Troubleshooting Workflows
-      - Monitoring Workflows
-        * [Adding A Workflow Status Badge](actions/how-tos/monitoring-and-troubleshooting-workflows/monitoring-workflows/adding-a-workflow-status-badge.md)
-        * [Monitoring Workflows](actions/how-tos/monitoring-and-troubleshooting-workflows/monitoring-workflows/index.md)
-        * [Using The Visualization Graph](actions/how-tos/monitoring-and-troubleshooting-workflows/monitoring-workflows/using-the-visualization-graph.md)
-        * [Using Workflow Run Logs](actions/how-tos/monitoring-and-troubleshooting-workflows/monitoring-workflows/using-workflow-run-logs.md)
-        * [Viewing Job Execution Time](actions/how-tos/monitoring-and-troubleshooting-workflows/monitoring-workflows/viewing-job-execution-time.md)
-        * [Viewing Workflow Run History](actions/how-tos/monitoring-and-troubleshooting-workflows/monitoring-workflows/viewing-workflow-run-history.md)
-      - Troubleshooting Workflows
-        * [Enabling Debug Logging](actions/how-tos/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/enabling-debug-logging.md)
-        * [Troubleshooting Workflows](actions/how-tos/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/index.md)
-        * [Using Copilot To Troubleshoot Workflows](actions/how-tos/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/using-copilot-to-troubleshoot-workflows.md)
-        * [Working With Support For Git Hub Actions](actions/how-tos/monitoring-and-troubleshooting-workflows/troubleshooting-workflows/working-with-support-for-github-actions.md)
-      * [Monitoring And Troubleshooting Workflows](actions/how-tos/monitoring-and-troubleshooting-workflows/index.md)
+    - Monitor Workflows
+      * [Adding A Workflow Status Badge](actions/how-tos/monitor-workflows/adding-a-workflow-status-badge.md)
+      * [Enabling Debug Logging](actions/how-tos/monitor-workflows/enabling-debug-logging.md)
+      * [Monitor Workflows](actions/how-tos/monitor-workflows/index.md)
+      * [Using The Visualization Graph](actions/how-tos/monitor-workflows/using-the-visualization-graph.md)
+      * [Using Workflow Run Logs](actions/how-tos/monitor-workflows/using-workflow-run-logs.md)
+      * [Viewing Job Execution Time](actions/how-tos/monitor-workflows/viewing-job-execution-time.md)
+      * [Viewing Workflow Run History](actions/how-tos/monitor-workflows/viewing-workflow-run-history.md)
     - Security For Github Actions
       - Security Hardening Your Deployments
         * [Configuring Open ID Connect In Amazon Web Services](actions/how-tos/security-for-github-actions/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services.md)
@@ -250,14 +242,14 @@
         * [Connecting to a private network with {% data variables.product.company_short %}-hosted runners](actions/how-tos/using-github-hosted-runners/connecting-to-a-private-network/index.md)
         * [Using An API Gateway With OIDC](actions/how-tos/using-github-hosted-runners/connecting-to-a-private-network/using-an-api-gateway-with-oidc.md)
         * [Using Wire Guard To Create A Network Overlay](actions/how-tos/using-github-hosted-runners/connecting-to-a-private-network/using-wireguard-to-create-a-network-overlay.md)
-      - Using Larger Runners
-        * [Controlling Access To Larger Runners](actions/how-tos/using-github-hosted-runners/using-larger-runners/controlling-access-to-larger-runners.md)
-        * [Using Larger Runners](actions/how-tos/using-github-hosted-runners/using-larger-runners/index.md)
-        * [Managing Larger Runners](actions/how-tos/using-github-hosted-runners/using-larger-runners/managing-larger-runners.md)
-        * [Running Jobs On Larger Runners](actions/how-tos/using-github-hosted-runners/using-larger-runners/running-jobs-on-larger-runners.md)
       * [Customizing Git Hub Hosted Runners](actions/how-tos/using-github-hosted-runners/customizing-github-hosted-runners.md)
       * [Using Git Hub Hosted Runners](actions/how-tos/using-github-hosted-runners/using-github-hosted-runners.md)
-      * [Monitoring Your Current Jobs](actions/how-tos/using-github-hosted-runners/monitoring-your-current-jobs.md)
+      * [Viewing Your Current Jobs](actions/how-tos/using-github-hosted-runners/viewing-your-current-jobs.md)
+    - Using Larger Runners
+      * [Controlling Access To Larger Runners](actions/how-tos/using-larger-runners/controlling-access-to-larger-runners.md)
+      * [Using Larger Runners](actions/how-tos/using-larger-runners/index.md)
+      * [Managing Larger Runners](actions/how-tos/using-larger-runners/managing-larger-runners.md)
+      * [Running Jobs On Larger Runners](actions/how-tos/using-larger-runners/running-jobs-on-larger-runners.md)
     - Writing Workflows
       - Building And Testing
         * [Building And Testing Go](actions/how-tos/writing-workflows/building-and-testing/building-and-testing-go.md)
@@ -296,7 +288,9 @@
         * [Running Jobs In A Container](actions/how-tos/writing-workflows/choosing-where-your-workflow-runs/running-jobs-in-a-container.md)
       * [Writing Workflows](actions/how-tos/writing-workflows/index.md)
       * [Using Workflow Templates](actions/how-tos/writing-workflows/using-workflow-templates.md)
+    * [Getting Help From Git Hub Support About Git Hub Actions](actions/how-tos/getting-help-from-github-support-about-github-actions.md)
     * [How Tos For Git Hub Actions](actions/how-tos/index.md)
+    * [Troubleshooting Workflows](actions/how-tos/troubleshooting-workflows.md)
   - Reference
     * [Actions Limits](actions/reference/actions-limits.md)
     * [Contexts Reference](actions/reference/contexts-reference.md)
@@ -308,6 +302,7 @@
     * [Extending Git Hub Actions Importer With Custom Transformers](actions/reference/extending-github-actions-importer-with-custom-transformers.md)
     * [Git Hub Hosted Runners Reference](actions/reference/github-hosted-runners-reference.md)
     * [Reference For Git Hub Actions](actions/reference/index.md)
+    * [Larger Runners Reference](actions/reference/larger-runners-reference.md)
     * [Metadata Syntax Reference](actions/reference/metadata-syntax-reference.md)
     * [Open ID Connect Reference](actions/reference/openid-connect-reference.md)
     * [Reusable Workflows Reference](actions/reference/reusable-workflows-reference.md)
