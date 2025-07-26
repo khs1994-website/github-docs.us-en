@@ -7,17 +7,17 @@ introLinks:
   quickstart: /actions/get-started/quickstart
 featuredLinks:
   startHere:
-    - /actions/how-tos/writing-workflows
+    - /actions/how-tos/write-workflows
     - /actions/tutorials
     - /actions/get-started/continuous-integration
     - /packages/managing-github-packages-using-github-actions-workflows/publishing-and-installing-a-package-with-github-actions
   guideCards:
-    - /actions/how-tos/writing-workflows/using-workflow-templates
-    - /actions/tutorials/publishing-packages/publishing-nodejs-packages
-    - /actions/how-tos/writing-workflows/building-and-testing/building-and-testing-powershell
+    - /actions/how-tos/write-workflows/use-workflow-templates
+    - /actions/tutorials/publish-packages/publish-nodejs-packages
+    - /actions/tutorials/build-and-test-code/powershell
   popular:
-    - /actions/reference/workflow-syntax-for-github-actions
-    - /actions/how-tos/writing-workflows
+    - /actions/reference/workflows-and-actions/workflow-syntax
+    - /actions/how-tos/write-workflows
 changelog:
   label: actions
 redirect_from:
@@ -39,3 +39,4 @@ children:
   - /reference
   - /tutorials
 ---
+
