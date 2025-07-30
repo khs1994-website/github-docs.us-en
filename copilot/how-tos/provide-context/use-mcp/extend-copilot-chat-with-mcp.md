@@ -5,6 +5,7 @@ shortTitle: Extend Copilot Chat with MCP
 intro: 'Learn how to use the Model Context Protocol (MCP) to extend {% data variables.copilot.copilot_chat_short %}.'
 versions:
   feature: copilot
+defaultTool: vscode
 topics:
   - Copilot
 redirect_from:
@@ -29,7 +30,7 @@ For information on currently available MCP servers, see [the MCP servers reposit
 
 {% vscode %}
 
-Enterprises and organizations can choose to enable or disable use of MCP for members of their organization or enterprise. See [AUTOTITLE](/copilot/how-tos/administer/enterprises/managing-policies-and-features-for-copilot-in-your-enterprise#mcp-servers-on-githubcom). The MCP policy only applies to members with {% data variables.copilot.copilot_business_short %}, {% data variables.copilot.copilot_enterprise_short %}, or {% data variables.product.prodname_copilot_short %} licenses assigned by the organization or enterprise that configures the policy. {% data variables.copilot.copilot_free_short %}, {% data variables.copilot.copilot_pro_short %}, or {% data variables.copilot.copilot_pro_plus_short %} do not have their MCP access governed by this policy.
+{% data reusables.copilot.mcp.mcp-policy %}
 
 ## Prerequisites
 
@@ -131,7 +132,6 @@ If you already have an MCP configuration in Claude Desktop, you can use that con
 * **A compatible JetBrains IDE**. {% data variables.product.prodname_copilot %} is compatible with the following IDEs:
 
   {% data reusables.copilot.jetbrains-compatible-ides %}
-{% data reusables.copilot.jetbrains-plugin-prerequisites %}
 
 ## Configuring MCP servers in JetBrains IDEs
 
@@ -169,8 +169,6 @@ Alternatively, to access the MCP settings, once you're in "Agent Mode," click th
 ## Prerequisites
 
 {% data reusables.copilot.eclipse-prerequisites %}
-* **Latest version of the {% data variables.product.prodname_copilot %} extension**. Download this from the [Eclipse Marketplace](https://aka.ms/copiloteclipse). For more information, see [AUTOTITLE](/copilot/managing-copilot/configure-personal-settings/installing-the-github-copilot-extension-in-your-environment?tool=eclipse).
-* **Sign in to {% data variables.product.company_short %} from Eclipse**.
 
 ## Configuring MCP servers in Eclipse
 
