@@ -2439,6 +2439,7 @@
     * [Storing Prompts In Git Hub Repositories](github-models/use-github-models/storing-prompts-in-github-repositories.md)
   * [About Git Hub Models](github-models/about-github-models.md)
   * [Git Hub Models](github-models/index.md)
+  * [Quickstart For Git Hub Models](github-models/quickstart.md)
   * [Responsible Use Of Git Hub Models](github-models/responsible-use-of-github-models.md)
 - [Graphql](graphql/README.md)
   - Guides
@@ -3297,6 +3298,7 @@
     * [REST API Endpoints For Issue Comments](rest/issues/comments.md)
     * [REST API Endpoints For Issue Events](rest/issues/events.md)
     * [REST API Endpoints For Issues](rest/issues/issues.md)
+    * [REST API Endpoints For Issue Dependencies](rest/issues/issue-dependencies.md)
     * [REST API Endpoints For Labels](rest/issues/labels.md)
     * [REST API Endpoints For Milestones](rest/issues/milestones.md)
     * [REST API Endpoints For Sub Issues](rest/issues/sub-issues.md)
@@ -3387,6 +3389,7 @@
     * [Alert Dismissal Requests](rest/secret-scanning/alert-dismissal-requests.md)
     * [REST API Endpoints For Push Protection Bypass Requests](rest/secret-scanning/delegated-bypass.md)
     * [REST API Endpoints For Secret Scanning](rest/secret-scanning/secret-scanning.md)
+    * [REST API Endpoints For Secret Scanning Push Protection](rest/secret-scanning/push-protection.md)
   - Security Advisories
     * [REST API Endpoints For Global Security Advisories](rest/security-advisories/global-advisories.md)
     * [REST API Endpoints For Security Advisories](rest/security-advisories/index.md)
