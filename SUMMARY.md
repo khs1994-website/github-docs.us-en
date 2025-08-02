@@ -1,6 +1,13 @@
 # [GitHub 英文文档](https://github.com/github/docs)
 
 - Account And Profile
+  - Concepts
+    * [About Organization Membership](account-and-profile/concepts/about-organization-membership.md)
+    * [About Your Organization S Profile](account-and-profile/concepts/about-your-organizations-profile.md)
+    * [About Your Profile](account-and-profile/concepts/about-your-profile.md)
+    * [Changing Your Git Hub Username](account-and-profile/concepts/changing-your-github-username.md)
+    * [Concepts For Account And Profile](account-and-profile/concepts/index.md)
+    * [Viewing Contributions On Your Profile](account-and-profile/concepts/viewing-contributions-on-your-profile.md)
   - Managing Subscriptions And Notifications On Github
     - Managing Subscriptions For Activity On Github
       * [Managing Subscriptions For Activity On Git Hub](account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/index.md)
@@ -16,10 +23,14 @@
       * [Managing Notifications From Your Inbox](account-and-profile/managing-subscriptions-and-notifications-on-github/viewing-and-triaging-notifications/managing-notifications-from-your-inbox.md)
       * [Triaging A Single Notification](account-and-profile/managing-subscriptions-and-notifications-on-github/viewing-and-triaging-notifications/triaging-a-single-notification.md)
     * [Managing Subscriptions And Notifications On Git Hub](account-and-profile/managing-subscriptions-and-notifications-on-github/index.md)
+  - Reference
+    * [Best Practices For Leaving Your Company](account-and-profile/reference/best-practices-for-leaving-your-company.md)
+    * [Reference For Account And Profile](account-and-profile/reference/index.md)
+    * [Permission Levels For A Personal Account Repository](account-and-profile/reference/permission-levels-for-a-personal-account-repository.md)
+    * [Types Of Emails Git Hub Sends](account-and-profile/reference/types-of-emails-github-sends.md)
+    * [Why Are My Contributions Not Showing Up On My Profile](account-and-profile/reference/why-are-my-contributions-not-showing-up-on-my-profile.md)
   - Setting Up And Managing Your Github Profile
     - Customizing Your Profile
-      * [About Your Organization S Profile](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/about-your-organizations-profile.md)
-      * [About Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/about-your-profile.md)
       * [Customizing Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/index.md)
       * [Managing Your Profile README](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme.md)
       * [Personalizing Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile.md)
@@ -32,8 +43,6 @@
       * [Showing An Overview Of Your Activity On Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/showing-an-overview-of-your-activity-on-your-profile.md)
       * [Showing Your Private Contributions Ifversion Hide Individual Achievements And Achievements Endif On Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/showing-your-private-contributions-and-achievements-on-your-profile.md)
       * [Troubleshooting Commits On Your Timeline](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/troubleshooting-commits-on-your-timeline.md)
-      * [Viewing Contributions On Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/viewing-contributions-on-your-profile.md)
-      * [Why Are My Contributions Not Showing Up On My Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/why-are-my-contributions-not-showing-up-on-my-profile.md)
     * [Setting Up And Managing Your Git Hub Profile](account-and-profile/setting-up-and-managing-your-github-profile/index.md)
   - Setting Up And Managing Your Personal Account On Github
     - Managing Access To Your Personal Repositories
@@ -51,12 +60,10 @@
       * [Remembering Your Git Hub Username Or Email](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/remembering-your-github-username-or-email.md)
       * [Setting A Backup Email Address](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-a-backup-email-address.md)
       * [Setting Your Commit Email Address](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address.md)
-      * [Types Of Emails Git Hub Sends](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/types-of-emails-github-sends.md)
       * [Verifying Your Email Address](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/verifying-your-email-address.md)
     - Managing User Account Settings
       * [About Available For Hire](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/about-available-for-hire.md)
       * [About Your Personal Dashboard](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/about-your-personal-dashboard.md)
-      * [Changing Your Git Hub Username](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/changing-your-github-username.md)
       * [Managing User Account Settings](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/index.md)
       * [Integrating Jira With Your Personal Projects](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/integrating-jira-with-your-personal-projects.md)
       * [Managing access to your personal account's {% data variables.projects.projects_v1_boards %}](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/managing-access-to-your-personal-accounts-project-boards.md)
@@ -65,10 +72,8 @@
       * [Managing The Default Branch Name For Your Repositories](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/managing-the-default-branch-name-for-your-repositories.md)
       * [Managing Your Cookie Preferences For Git Hub S Enterprise Marketing Pages](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/managing-your-cookie-preferences-for-githubs-enterprise-marketing-pages.md)
       * [Managing Your Tab Size Rendering Preference](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/managing-your-tab-size-rendering-preference.md)
-      * [Permission Levels For A Personal Account Repository](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/permission-levels-for-a-personal-account-repository.md)
       * [Permission levels for a {% data variables.projects.projects_v1_board %} owned by a personal account](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/permission-levels-for-a-project-board-owned-by-a-personal-account.md)
     - Managing Your Membership In Organizations
-      * [About Organization Membership](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/about-organization-membership.md)
       * [Accessing An Organization](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/accessing-an-organization.md)
       * [Managing Your Membership In Organizations](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/index.md)
       * [Managing Your Scheduled Reminders](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/managing-your-scheduled-reminders.md)
@@ -77,7 +82,6 @@
       * [Requesting Organization Approval For O Auth Apps](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/requesting-organization-approval-for-oauth-apps.md)
       * [Viewing People S Roles In An Organization](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/viewing-peoples-roles-in-an-organization.md)
     - Managing Your Personal Account
-      * [Best Practices For Leaving Your Company](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-personal-account/best-practices-for-leaving-your-company.md)
       * [Converting A User Into An Organization](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-personal-account/converting-a-user-into-an-organization.md)
       * [Deleting Your Personal Account](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-personal-account/deleting-your-personal-account.md)
       * [Managing Your Personal Account](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-personal-account/index.md)
@@ -1484,6 +1488,7 @@
       * [A Feature Has Disappeared From A Security Configuration](code-security/securing-your-organization/troubleshooting-security-configurations/feature-disappears.md)
       * [Troubleshooting Security Configurations](code-security/securing-your-organization/troubleshooting-security-configurations/index.md)
       * [Not Enough Git Hub Advanced Security Licenses](code-security/securing-your-organization/troubleshooting-security-configurations/not-enough-github-advanced-security-licenses.md)
+      * [Default Setup For Code Scanning Overrides Advanced Setup](code-security/securing-your-organization/troubleshooting-security-configurations/unexpected-default-setup.md)
     - Understanding Your Organizations Exposure To Leaked Secrets
       * [About The Secret Risk Assessment](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/about-secret-risk-assessment.md)
       * [Choosing {% data variables.product.prodname_GH_secret_protection %}](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/choosing-github-secret-protection.md)
@@ -1777,13 +1782,12 @@
 - Copilot
   - Concepts
     - Billing
-      * [About Billing For Git Hub Copilot In Your Enterprise](copilot/concepts/billing/billing-for-enterprises.md)
       * [About Billing For Individual Copilot Plans](copilot/concepts/billing/billing-for-individuals.md)
-      * [About Billing For Git Hub Copilot In Your Organization](copilot/concepts/billing/billing-for-organizations.md)
       * [About Billing For Git Hub Spark](copilot/concepts/billing/billing-for-spark.md)
       * [Requests In Git Hub Copilot](copilot/concepts/billing/copilot-requests.md)
       * [Git Hub Copilot Billing](copilot/concepts/billing/index.md)
       * [About Individual Copilot Plans And Benefits](copilot/concepts/billing/individual-plans.md)
+      * [About Billing For Git Hub Copilot In Organizations And Enterprises](copilot/concepts/billing/organizations-and-enterprises.md)
     - Code Review
       * [About Copilot Code Review](copilot/concepts/code-review/code-review.md)
       * [About Coding Guidelines For Git Hub Copilot Code Review](copilot/concepts/code-review/coding-guidelines.md)
