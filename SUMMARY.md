@@ -8,6 +8,10 @@
     * [Changing Your Git Hub Username](account-and-profile/concepts/changing-your-github-username.md)
     * [Concepts For Account And Profile](account-and-profile/concepts/index.md)
     * [Viewing Contributions On Your Profile](account-and-profile/concepts/viewing-contributions-on-your-profile.md)
+  - Get Started
+    * [About Your Personal Dashboard](account-and-profile/get-started/about-your-personal-dashboard.md)
+    * [Get Started With Your Git Hub Account And Profile](account-and-profile/get-started/index.md)
+    * [Personalizing Your Profile](account-and-profile/get-started/personalizing-your-profile.md)
   - Managing Subscriptions And Notifications On Github
     - Managing Subscriptions For Activity On Github
       * [Managing Subscriptions For Activity On Git Hub](account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/index.md)
@@ -33,10 +37,8 @@
     - Customizing Your Profile
       * [Customizing Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/index.md)
       * [Managing Your Profile README](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme.md)
-      * [Personalizing Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile.md)
       * [Pinning Items To Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/pinning-items-to-your-profile.md)
       * [Setting Your Profile To Private](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/setting-your-profile-to-private.md)
-      * [Using Your Git Hub Profile To Enhance Your Resume](account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/using-your-github-profile-to-enhance-your-resume.md)
     - Managing Contribution Settings On Your Profile
       * [Managing Contribution Settings On Your Profile](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/index.md)
       * [Sharing Contributions From Git Hub Enterprise Server](account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/sharing-contributions-from-github-enterprise-server.md)
@@ -63,14 +65,11 @@
       * [Verifying Your Email Address](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/verifying-your-email-address.md)
     - Managing User Account Settings
       * [About Available For Hire](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/about-available-for-hire.md)
-      * [About Your Personal Dashboard](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/about-your-personal-dashboard.md)
       * [Managing User Account Settings](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/index.md)
       * [Integrating Jira With Your Personal Projects](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/integrating-jira-with-your-personal-projects.md)
       * [Managing access to your personal account's {% data variables.projects.projects_v1_boards %}](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/managing-access-to-your-personal-accounts-project-boards.md)
       * [Managing Accessibility Settings](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/managing-accessibility-settings.md)
-      * [Managing Security And Analysis Settings For Your Personal Account](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/managing-security-and-analysis-settings-for-your-personal-account.md)
       * [Managing The Default Branch Name For Your Repositories](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/managing-the-default-branch-name-for-your-repositories.md)
-      * [Managing Your Cookie Preferences For Git Hub S Enterprise Marketing Pages](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/managing-your-cookie-preferences-for-githubs-enterprise-marketing-pages.md)
       * [Managing Your Tab Size Rendering Preference](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/managing-your-tab-size-rendering-preference.md)
       * [Permission levels for a {% data variables.projects.projects_v1_board %} owned by a personal account](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/permission-levels-for-a-project-board-owned-by-a-personal-account.md)
     - Managing Your Membership In Organizations
@@ -89,6 +88,11 @@
       * [Merging Multiple Personal Accounts](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-personal-account/merging-multiple-personal-accounts.md)
       * [Unlinking Your Email Address From A Locked Account](account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-personal-account/unlinking-your-email-address-from-a-locked-account.md)
     * [Setting Up And Managing Your Personal Account On Git Hub](account-and-profile/setting-up-and-managing-your-personal-account-on-github/index.md)
+  - Tutorials
+    * [Tutorials For Your Git Hub Account And Profile](account-and-profile/tutorials/index.md)
+    * [Managing Security And Analysis Settings For Your Personal Account](account-and-profile/tutorials/managing-security-and-analysis-settings-for-your-personal-account.md)
+    * [Managing Your Cookie Preferences For Git Hub S Enterprise Marketing Pages](account-and-profile/tutorials/managing-your-cookie-preferences-for-githubs-enterprise-marketing-pages.md)
+    * [Using Your Git Hub Profile To Enhance Your Resume](account-and-profile/tutorials/using-your-github-profile-to-enhance-your-resume.md)
   * [Account And Profile Documentation](account-and-profile/index.md)
 - Actions
   - Concepts
@@ -1452,6 +1456,7 @@
     - Working With Secret Scanning And Push Protection
       * [Working With Secret Scanning And Push Protection](code-security/secret-scanning/working-with-secret-scanning-and-push-protection/index.md)
       * [Push Protection For Users](code-security/secret-scanning/working-with-secret-scanning-and-push-protection/push-protection-for-users.md)
+      * [Remediating A Leaked Secret In Your Repository](code-security/secret-scanning/working-with-secret-scanning-and-push-protection/remediating-a-leaked-secret.md)
       * [Working With Push Protection From The Command Line](code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line.md)
       * [Working With Push Protection From The REST API](code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-rest-api.md)
       * [Working With Push Protection In The Git Hub UI](code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-in-the-github-ui.md)
