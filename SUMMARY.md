@@ -2555,6 +2555,7 @@
     - Administering Issues
       * [Closing An Issue](issues/tracking-your-work-with-issues/administering-issues/closing-an-issue.md)
       * [Deleting An Issue](issues/tracking-your-work-with-issues/administering-issues/deleting-an-issue.md)
+      * [Duplicating An Issue](issues/tracking-your-work-with-issues/administering-issues/duplicating-an-issue.md)
       * [Administering Issues](issues/tracking-your-work-with-issues/administering-issues/index.md)
       * [Marking Issues Or Pull Requests As A Duplicate](issues/tracking-your-work-with-issues/administering-issues/marking-issues-or-pull-requests-as-a-duplicate.md)
       * [Pinning An Issue To Your Repository](issues/tracking-your-work-with-issues/administering-issues/pinning-an-issue-to-your-repository.md)
