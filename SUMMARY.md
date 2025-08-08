@@ -1163,6 +1163,7 @@
       * [Java Script And Type Script Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/javascript-typescript-built-in-queries.md)
       * [Python Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/python-built-in-queries.md)
       * [Ruby Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/ruby-built-in-queries.md)
+      * [Rust Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/rust-built-in-queries.md)
       * [Set Code Scanning Merge Protection](code-security/code-scanning/managing-your-code-scanning-configuration/set-code-scanning-merge-protection.md)
       * [Swift Queries For Code QL Analysis](code-security/code-scanning/managing-your-code-scanning-configuration/swift-built-in-queries.md)
       * [Viewing Code Scanning Logs](code-security/code-scanning/managing-your-code-scanning-configuration/viewing-code-scanning-logs.md)
