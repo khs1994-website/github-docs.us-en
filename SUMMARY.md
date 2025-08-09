@@ -1025,6 +1025,7 @@
       * [Git Hub Marketplace App Subscriptions](billing/concepts/third-party-payments/github-marketplace-apps.md)
       * [Git Hub Sponsors Billing](billing/concepts/third-party-payments/github-sponsors.md)
       * [Payments To Third Parties Using Your Git Hub Account](billing/concepts/third-party-payments/index.md)
+    * [Azure Subscription Payments](billing/concepts/azure-subscriptions.md)
     * [Billing Cycles](billing/concepts/billing-cycles.md)
     * [Discounted Plans For Git Hub Accounts](billing/concepts/discounted-plans.md)
     * [Impact Of Changing Your Plan On Billing](billing/concepts/impact-of-plan-changes.md)
@@ -1057,6 +1058,7 @@
       * [Uploading A New License To Git Hub Enterprise Server](billing/how-tos/manage-server-licenses/upload-new-license.md)
     - Pay Third Parties
       * [Canceling A Git Hub Marketplace App](billing/how-tos/pay-third-parties/cancel-marketplace-app.md)
+      * [Canceling A Sponsorship](billing/how-tos/pay-third-parties/cancel-sponsorship.md)
       * [Downgrading The Billing Plan For A Git Hub Marketplace App](billing/how-tos/pay-third-parties/downgrade-marketplace-app.md)
       * [Downgrading A Sponsorship](billing/how-tos/pay-third-parties/downgrade-sponsorship.md)
       * [Setting An End Date To A Sponsorship](billing/how-tos/pay-third-parties/end-sponsorship.md)
@@ -1084,16 +1086,19 @@
       * [Redeeming A Coupon](billing/how-tos/set-up-payment/redeem-coupon.md)
       * [Setting Up Visual Studio Subscriptions With Git Hub Enterprise](billing/how-tos/set-up-payment/set-up-vs-subscription.md)
     - Troubleshooting
+      * [Troubleshooting Azure Subscription Connection Problems](billing/how-tos/troubleshooting/azure-sub-connection.md)
       * [Troubleshooting A Declined Credit Card Charge](billing/how-tos/troubleshooting/declined-card.md)
       * [Troubleshooting License Usage For Git Hub Enterprise](billing/how-tos/troubleshooting/enterprise-license-usage.md)
       * [Billing Troubleshooting](billing/how-tos/troubleshooting/index.md)
       * [Unlocking A Locked Account](billing/how-tos/troubleshooting/locked-account.md)
     * [How Tos For Billing](billing/how-tos/index.md)
   - Reference
+    * [Azure Subscription Reference](billing/reference/azure-subscription.md)
     * [Roles For The New Billing Platform](billing/reference/billing-roles.md)
     * [Reference For Billing](billing/reference/index.md)
     * [License Usage For Git Hub Enterprise](billing/reference/license-usage-calculation.md)
     * [Product Usage Included With Each Plan](billing/reference/product-usage-included.md)
+    * [Supported Payment Methods For Git Hub](billing/reference/supported-payment-methods.md)
     * [Usage Reports Reference](billing/reference/usage-reports.md)
   - Tutorials
     * [Automating Usage Reporting With The REST API](billing/tutorials/automate-usage-reporting.md)
