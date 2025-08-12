@@ -1007,8 +1007,10 @@
 - Billing
   - Concepts
     - Enterprise Billing
+      * [Combined Use Of Git Hub Enterprise And Azure Dev Ops](billing/concepts/enterprise-billing/azure-devops-licenses.md)
       * [Billing For Git Hub Enterprise](billing/concepts/enterprise-billing/billing-for-enterprises.md)
       * [Combined Git Hub Enterprise Cloud And Server Use](billing/concepts/enterprise-billing/combined-enterprise-use.md)
+      * [License Files For Git Hub Enterprise Server](billing/concepts/enterprise-billing/ghes-license-files.md)
       * [Enterprise Billing](billing/concepts/enterprise-billing/index.md)
       * [Usage Based Billing For Enterprise Licenses](billing/concepts/enterprise-billing/usage-based-licenses.md)
       * [About Visual Studio Subscriptions With Git Hub Enterprise](billing/concepts/enterprise-billing/visual-studio-subs.md)
@@ -2035,6 +2037,7 @@
         * [Securing Your Repository](copilot/tutorials/copilot-chat-cookbook/analyze-security/secure-your-repository.md)
       - Communicate Effectively
         * [Creating Diagrams](copilot/tutorials/copilot-chat-cookbook/communicate-effectively/creating-diagrams.md)
+        * [Extracting Information](copilot/tutorials/copilot-chat-cookbook/communicate-effectively/extracting-information.md)
         * [Communicate Effectively](copilot/tutorials/copilot-chat-cookbook/communicate-effectively/index.md)
       - Debug Errors
         * [Debugging Invalid JSON](copilot/tutorials/copilot-chat-cookbook/debug-errors/debug-invalid-json.md)
