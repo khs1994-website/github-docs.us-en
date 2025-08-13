@@ -7,6 +7,7 @@
     * [About Your Profile](account-and-profile/concepts/about-your-profile.md)
     * [Changing Your Git Hub Username](account-and-profile/concepts/changing-your-github-username.md)
     * [Concepts For Account And Profile](account-and-profile/concepts/index.md)
+    * [Scheduled Reminders](account-and-profile/concepts/scheduled-reminders.md)
     * [Viewing Contributions On Your Profile](account-and-profile/concepts/viewing-contributions-on-your-profile.md)
   - Get Started
     * [About Your Personal Dashboard](account-and-profile/get-started/about-your-personal-dashboard.md)
@@ -1032,7 +1033,6 @@
     * [Discounted Plans For Git Hub Accounts](billing/concepts/discounted-plans.md)
     * [Impact Of Changing Your Plan On Billing](billing/concepts/impact-of-plan-changes.md)
     * [Concepts For Git Hub Billing](billing/concepts/index.md)
-    * [License Consumption By Organization Members](billing/concepts/license-consumption.md)
   - Get Started
     * [How Git Hub Billing Works](billing/get-started/how-billing-works.md)
     * [Get Started With Billing](billing/get-started/index.md)
@@ -1047,10 +1047,10 @@
       * [Renewing Your Client S Enterprise Account](billing/how-tos/manage-for-client/renew-client-enterprise.md)
       * [Renewing Your Client S Paid Organization](billing/how-tos/manage-for-client/renew-client-organization.md)
     - Manage Plan And Licenses
-      * [Adding Licenses To An Organization](billing/how-tos/manage-plan-and-licenses/add-licenses.md)
       * [Downgrading Your Account S Plan](billing/how-tos/manage-plan-and-licenses/downgrade-plan.md)
       * [Managing Your Plan And Git Hub Licenses](billing/how-tos/manage-plan-and-licenses/index.md)
       * [Viewing And Managing Pending Changes To Your Plan](billing/how-tos/manage-plan-and-licenses/manage-pending-changes.md)
+      * [Managing User Licenses For An Organization Or Enterprise](billing/how-tos/manage-plan-and-licenses/manage-user-licenses.md)
       * [Upgrading Your Account S Plan](billing/how-tos/manage-plan-and-licenses/upgrade-plan.md)
       * [Viewing Usage For Your Git Hub Enterprise Plan](billing/how-tos/manage-plan-and-licenses/view-enterprise-usage.md)
     - Manage Server Licenses
@@ -1096,10 +1096,12 @@
     * [How Tos For Billing](billing/how-tos/index.md)
   - Reference
     * [Azure Subscription Reference](billing/reference/azure-subscription.md)
-    * [Roles For The New Billing Platform](billing/reference/billing-roles.md)
+    * [Roles For The Billing Platform](billing/reference/billing-roles.md)
+    * [License Troubleshooting Information For Git Hub Enterprise](billing/reference/enterprise-license-troubleshooting.md)
     * [Reference For Billing](billing/reference/index.md)
-    * [License Usage For Git Hub Enterprise](billing/reference/license-usage-calculation.md)
+    * [People Who Consume A License In An Organization](billing/reference/license-consumption.md)
     * [Product Usage Included With Each Plan](billing/reference/product-usage-included.md)
+    * [Roles for {% data variables.visual_studio.prodname_vss_ghe %} reference](billing/reference/roles-for-visual-studio.md)
     * [Supported Payment Methods For Git Hub](billing/reference/supported-payment-methods.md)
     * [Usage Reports Reference](billing/reference/usage-reports.md)
   - Tutorials
@@ -3057,7 +3059,7 @@
     - Customizing Your Repository
       * [About CITATION Files](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files.md)
       * [About Code Owners](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners.md)
-      * [About READM Es](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes.md)
+      * [About The Repository README File](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes.md)
       * [About Repository Languages](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-repository-languages.md)
       * [Classifying Your Repository With Topics](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics.md)
       * [Customizing Your Repository S Social Media Preview](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview.md)
