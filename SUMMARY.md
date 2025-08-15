@@ -8,6 +8,7 @@
     * [Changing Your Git Hub Username](account-and-profile/concepts/changing-your-github-username.md)
     * [Email Addresses](account-and-profile/concepts/email-addresses.md)
     * [Concepts For Account And Profile](account-and-profile/concepts/index.md)
+    * [Personal Repository Access And Collaboration](account-and-profile/concepts/personal-repository-access-and-collaboration.md)
     * [Scheduled Reminders](account-and-profile/concepts/scheduled-reminders.md)
     * [Viewing Contributions On Your Profile](account-and-profile/concepts/viewing-contributions-on-your-profile.md)
   - Get Started
@@ -1021,7 +1022,7 @@
     - Product Billing
       * [Git Large File Storage Billing](billing/concepts/product-billing/git-lfs.md)
       * [Git Hub Actions Billing](billing/concepts/product-billing/github-actions.md)
-      * [{% data variables.product.prodname_GHAS %} billing](billing/concepts/product-billing/github-advanced-security.md)
+      * [{% data variables.product.prodname_GHAS %} license billing](billing/concepts/product-billing/github-advanced-security.md)
       * [Git Hub Codespaces Billing](billing/concepts/product-billing/github-codespaces.md)
       * [Git Hub Copilot Billing](billing/concepts/product-billing/github-copilot.md)
       * [Git Hub Models Billing](billing/concepts/product-billing/github-models.md)
@@ -1096,11 +1097,13 @@
       * [Unlocking A Locked Account](billing/how-tos/troubleshooting/locked-account.md)
     * [How Tos For Billing](billing/how-tos/index.md)
   - Reference
+    * [Actions Minute Multiplier Reference](billing/reference/actions-minute-multipliers.md)
     * [Azure Subscription Reference](billing/reference/azure-subscription.md)
     * [Roles For The Billing Platform](billing/reference/billing-roles.md)
     * [License Troubleshooting Information For Git Hub Enterprise](billing/reference/enterprise-license-troubleshooting.md)
     * [Reference For Billing](billing/reference/index.md)
     * [People Who Consume A License In An Organization](billing/reference/license-consumption.md)
+    * [Costs And Multipliers For Using Git Hub Models Directly](billing/reference/models-multipliers-and-costs.md)
     * [Product Usage Included With Each Plan](billing/reference/product-usage-included.md)
     * [Roles for {% data variables.visual_studio.prodname_vss_ghe %} reference](billing/reference/roles-for-visual-studio.md)
     * [Supported Payment Methods For Git Hub](billing/reference/supported-payment-methods.md)
@@ -3124,7 +3127,6 @@
     - Managing Large Files
       * [About Git Large File Storage](repositories/working-with-files/managing-large-files/about-git-large-file-storage.md)
       * [About Large Files On Git Hub](repositories/working-with-files/managing-large-files/about-large-files-on-github.md)
-      * [About Storage And Bandwidth Usage](repositories/working-with-files/managing-large-files/about-storage-and-bandwidth-usage.md)
       * [Collaboration With Git Large File Storage](repositories/working-with-files/managing-large-files/collaboration-with-git-large-file-storage.md)
       * [Configuring Git Large File Storage](repositories/working-with-files/managing-large-files/configuring-git-large-file-storage.md)
       * [Managing Large Files](repositories/working-with-files/managing-large-files/index.md)
