@@ -6,11 +6,11 @@
     * [About Your Organization S Profile](account-and-profile/concepts/about-your-organizations-profile.md)
     * [About Your Profile](account-and-profile/concepts/about-your-profile.md)
     * [Changing Your Git Hub Username](account-and-profile/concepts/changing-your-github-username.md)
+    * [Contributions Visible On Your Profile](account-and-profile/concepts/contributions-visible-on-your-profile.md)
     * [Email Addresses](account-and-profile/concepts/email-addresses.md)
     * [Concepts For Account And Profile](account-and-profile/concepts/index.md)
     * [Personal Repository Access And Collaboration](account-and-profile/concepts/personal-repository-access-and-collaboration.md)
     * [Scheduled Reminders](account-and-profile/concepts/scheduled-reminders.md)
-    * [Viewing Contributions On Your Profile](account-and-profile/concepts/viewing-contributions-on-your-profile.md)
   - Get Started
     * [About Your Personal Dashboard](account-and-profile/get-started/about-your-personal-dashboard.md)
     * [Get Started With Your Git Hub Account And Profile](account-and-profile/get-started/index.md)
@@ -28,6 +28,7 @@
         * [Showing An Overview Of Your Activity On Your Profile](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/showing-an-overview-of-your-activity-on-your-profile.md)
         * [Showing Your Private Contributions Ifversion Hide Individual Achievements And Achievements Endif On Your Profile](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/showing-your-private-contributions-and-achievements-on-your-profile.md)
         * [Troubleshooting Commits On Your Timeline](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/troubleshooting-commits-on-your-timeline.md)
+        * [Viewing Contributions On Your Profile](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/viewing-contributions-on-your-profile.md)
       * [Setting Up And Managing Your Git Hub Profile](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/index.md)
     - Setting Up And Managing Your Personal Account On Github
       - Managing Access To Your Personal Repositories
@@ -1034,6 +1035,8 @@
       * [Payments To Third Parties Using Your Git Hub Account](billing/concepts/third-party-payments/index.md)
     * [Azure Subscription Payments](billing/concepts/azure-subscriptions.md)
     * [Billing Cycles](billing/concepts/billing-cycles.md)
+    * [Budgets And Alerts](billing/concepts/budgets-and-alerts.md)
+    * [Cost Centers](billing/concepts/cost-centers.md)
     * [Discounted Plans For Git Hub Accounts](billing/concepts/discounted-plans.md)
     * [Impact Of Changing Your Plan On Billing](billing/concepts/impact-of-plan-changes.md)
     * [Concepts For Git Hub Billing](billing/concepts/index.md)
@@ -1100,6 +1103,7 @@
     * [Actions Minute Multiplier Reference](billing/reference/actions-minute-multipliers.md)
     * [Azure Subscription Reference](billing/reference/azure-subscription.md)
     * [Roles For The Billing Platform](billing/reference/billing-roles.md)
+    * [Cost Center Allocation For Different Products](billing/reference/cost-center-allocation.md)
     * [License Troubleshooting Information For Git Hub Enterprise](billing/reference/enterprise-license-troubleshooting.md)
     * [Reference For Billing](billing/reference/index.md)
     * [People Who Consume A License In An Organization](billing/reference/license-consumption.md)
@@ -2307,6 +2311,7 @@
     * [Exploring Integrations](get-started/exploring-integrations/index.md)
   - Exploring Projects On Github
     * [Contributing To A Project](get-started/exploring-projects-on-github/contributing-to-a-project.md)
+    * [Contributing To Open Source](get-started/exploring-projects-on-github/contributing-to-open-source.md)
     * [Finding Ways To Contribute To Open Source On Git Hub](get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github.md)
     * [Following Organizations](get-started/exploring-projects-on-github/following-organizations.md)
     * [Following People](get-started/exploring-projects-on-github/following-people.md)
