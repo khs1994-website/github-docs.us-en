@@ -12,8 +12,8 @@
     * [Personal Repository Access And Collaboration](account-and-profile/concepts/personal-repository-access-and-collaboration.md)
     * [Scheduled Reminders](account-and-profile/concepts/scheduled-reminders.md)
   - Get Started
-    * [About Your Personal Dashboard](account-and-profile/get-started/about-your-personal-dashboard.md)
     * [Get Started With Your Git Hub Account And Profile](account-and-profile/get-started/index.md)
+    * [Quickstart For Your Personal Dashboard](account-and-profile/get-started/personal-dashboard-quickstart.md)
     * [Personalizing Your Profile](account-and-profile/get-started/personalizing-your-profile.md)
   - How Tos
     - Setting Up And Managing Your Github Profile
@@ -79,6 +79,7 @@
     * [Email Addresses Reference](account-and-profile/reference/email-addresses-reference.md)
     * [Reference For Account And Profile](account-and-profile/reference/index.md)
     * [Permission Levels For A Personal Account Repository](account-and-profile/reference/permission-levels-for-a-personal-account-repository.md)
+    * [Personal Dashboard](account-and-profile/reference/personal-dashboard.md)
     * [Types Of Emails Git Hub Sends](account-and-profile/reference/types-of-emails-github-sends.md)
     * [Why Are My Contributions Not Showing Up On My Profile](account-and-profile/reference/why-are-my-contributions-not-showing-up-on-my-profile.md)
   - Tutorials
@@ -1073,16 +1074,12 @@
       * [Upgrading The Billing Plan For A Git Hub Marketplace App](billing/how-tos/pay-third-parties/upgrade-marketplace-app.md)
       * [Upgrading A Sponsorship](billing/how-tos/pay-third-parties/upgrade-sponsorship.md)
     - Products
-      * [Adding Git Hub Advanced Security To Your Organization Or Enterprise](billing/how-tos/products/add-advanced-security.md)
-      * [Downgrading Git Large File Storage](billing/how-tos/products/downgrade-git-lfs-storage.md)
-      * [Downloading Licensed Use Of Advanced Security](billing/how-tos/products/download-ghas-license-use.md)
+      * [Buying Advanced Security For Your Organization Or Enterprise](billing/how-tos/products/add-advanced-security.md)
+      * [Downloading License Use For Your Enterprise Or Organization](billing/how-tos/products/download-ghas-license-use.md)
       * [View And Manage Paid Use Of Git Hub Products](billing/how-tos/products/index.md)
       * [Managing Volume Licenses For Git Hub Advanced Security](billing/how-tos/products/manage-ghas-license.md)
-      * [Migrating From GHAS To Code Security And Secret Protection](billing/how-tos/products/migrate-from-ghas.md)
-      * [Setting Up A Trial Of Git Hub Advanced Security](billing/how-tos/products/trial-advanced-security.md)
-      * [Upgrading Git Large File Storage](billing/how-tos/products/upgrade-git-lfs-storage.md)
       * [Viewing Committer Information For Advanced Security Licenses](billing/how-tos/products/view-ghas-committers.md)
-      * [Viewing Your Usage Of Metered Products](billing/how-tos/products/view-product-use.md)
+      * [Viewing Your Usage Of Metered Products And Licenses](billing/how-tos/products/view-product-use.md)
     - Set Up Payment
       * [Adding A Sales Tax Certificate](billing/how-tos/set-up-payment/add-sales-tax-certificate.md)
       * [Connecting An Azure Subscription](billing/how-tos/set-up-payment/connect-azure-sub.md)
@@ -1107,6 +1104,7 @@
     * [License Troubleshooting Information For Git Hub Enterprise](billing/reference/enterprise-license-troubleshooting.md)
     * [Reference For Billing](billing/reference/index.md)
     * [People Who Consume A License In An Organization](billing/reference/license-consumption.md)
+    * [License Reports Reference](billing/reference/license-reports.md)
     * [Costs And Multipliers For Using Git Hub Models Directly](billing/reference/models-multipliers-and-costs.md)
     * [Product Usage Included With Each Plan](billing/reference/product-usage-included.md)
     * [Roles for {% data variables.visual_studio.prodname_vss_ghe %} reference](billing/reference/roles-for-visual-studio.md)
@@ -1577,10 +1575,11 @@
     * [Securing Your Software Supply Chain](code-security/supply-chain-security/index.md)
   - Trialing Github Advanced Security
     * [Enabling Security Features In Your Trial Enterprise](code-security/trialing-github-advanced-security/enable-security-features-trial.md)
-    * [Exploring your enterprise trial of {% data variables.product.prodname_GH_code_security %}](code-security/trialing-github-advanced-security/explore-trial-code-scanning.md)
-    * [Exploring your enterprise trial of {% data variables.product.prodname_GH_secret_protection %}](code-security/trialing-github-advanced-security/explore-trial-secret-scanning.md)
+    * [Exploring your enterprise trial of {% data variables.product.prodname_GH_code_security_always %}](code-security/trialing-github-advanced-security/explore-trial-code-scanning.md)
+    * [Exploring your enterprise trial of {% data variables.product.prodname_GH_secret_protection_always %}](code-security/trialing-github-advanced-security/explore-trial-secret-scanning.md)
     * [Trialing {% data variables.product.prodname_GHAS %}](code-security/trialing-github-advanced-security/index.md)
     * [Planning a trial of {% data variables.product.prodname_GHAS %}](code-security/trialing-github-advanced-security/planning-a-trial-of-ghas.md)
+    * [Setting Up A Trial Of Git Hub Advanced Security](code-security/trialing-github-advanced-security/trial-advanced-security.md)
   * [Secure Coding Documentation](code-security/index.md)
 - Codespaces
   - About Codespaces
