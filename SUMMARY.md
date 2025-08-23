@@ -1902,7 +1902,7 @@
     - Manage And Track Spending
       * [Manage And Monitor Spending For Git Hub Copilot](copilot/how-tos/manage-and-track-spending/index.md)
       * [Managing Your Company S Spending On Git Hub Copilot](copilot/how-tos/manage-and-track-spending/manage-company-spending.md)
-      * [Managing The Premium Request Allowance For Users In Your Enterprise](copilot/how-tos/manage-and-track-spending/manage-for-your-enterprise.md)
+      * [Managing The Premium Request Allowance For Your Organization Or Enterprise](copilot/how-tos/manage-and-track-spending/manage-request-allowances.md)
       * [Monitoring Your Git Hub Copilot Usage And Entitlements](copilot/how-tos/manage-and-track-spending/monitor-premium-requests.md)
     - Manage Your Account
       * [Disabling Git Hub Copilot Free](copilot/how-tos/manage-your-account/disable-copilot-free.md)
@@ -2470,8 +2470,8 @@
     * [Migrating From REST To Graph QL](graphql/guides/migrating-from-rest-to-graphql.md)
     * [Migrating Graph QL Global Node I Ds](graphql/guides/migrating-graphql-global-node-ids.md)
     * [Using Global Node I Ds](graphql/guides/using-global-node-ids.md)
+    * [Using Graph QL Clients](graphql/guides/using-graphql-clients.md)
     * [Using Pagination In The Graph QL API](graphql/guides/using-pagination-in-the-graphql-api.md)
-    * [Using The Explorer](graphql/guides/using-the-explorer.md)
     * [Using The Graph QL API For Discussions](graphql/guides/using-the-graphql-api-for-discussions.md)
   - Overview
     * [About The Graph QL API](graphql/overview/about-the-graphql-api.md)
