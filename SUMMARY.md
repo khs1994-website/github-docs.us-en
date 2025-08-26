@@ -783,6 +783,7 @@
       * [Migrating from GitHub Enterprise 11.10.x to 2.1.23](admin/upgrading-your-instance/performing-an-upgrade/migrating-from-github-enterprise-1110x-to-2123.md)
       * [Preparing for the Elasticsearch upgrade in {% data variables.product.prodname_ghe_server %} 3.13](admin/upgrading-your-instance/performing-an-upgrade/preparing-for-the-elasticsearch-upgrade.md)
     - Preparing To Upgrade
+      * [Check System Capacity Before Upgrading](admin/upgrading-your-instance/preparing-to-upgrade/check-system-capacity-before-upgrading.md)
       * [Enabling Automatic Update Checks](admin/upgrading-your-instance/preparing-to-upgrade/enabling-automatic-update-checks.md)
       * [Preparing To Upgrade](admin/upgrading-your-instance/preparing-to-upgrade/index.md)
     - Troubleshooting Upgrades
