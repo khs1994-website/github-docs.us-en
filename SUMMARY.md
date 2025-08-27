@@ -1570,9 +1570,12 @@
       * [Enforcing Dependency Review Across An Organization](code-security/supply-chain-security/understanding-your-software-supply-chain/enforcing-dependency-review-across-an-organization.md)
       * [Exploring The Dependencies Of A Repository](code-security/supply-chain-security/understanding-your-software-supply-chain/exploring-the-dependencies-of-a-repository.md)
       * [Exporting A Software Bill Of Materials For Your Repository](code-security/supply-chain-security/understanding-your-software-supply-chain/exporting-a-software-bill-of-materials-for-your-repository.md)
+      * [Immutable Releases](code-security/supply-chain-security/understanding-your-software-supply-chain/immutable-releases.md)
       * [Understanding Your Software Supply Chain](code-security/supply-chain-security/understanding-your-software-supply-chain/index.md)
+      * [Preventing Changes To Your Releases](code-security/supply-chain-security/understanding-your-software-supply-chain/preventing-changes-to-your-releases.md)
       * [Troubleshooting The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/troubleshooting-the-dependency-graph.md)
       * [Using The Dependency Submission API](code-security/supply-chain-security/understanding-your-software-supply-chain/using-the-dependency-submission-api.md)
+      * [Verifying The Integrity Of A Release](code-security/supply-chain-security/understanding-your-software-supply-chain/verifying-the-integrity-of-a-release.md)
     * [Securing Your Software Supply Chain](code-security/supply-chain-security/index.md)
   - Trialing Github Advanced Security
     * [Enabling Security Features In Your Trial Enterprise](code-security/trialing-github-advanced-security/enable-security-features-trial.md)
@@ -2539,10 +2542,8 @@
     - Learning About Projects
       * [About {% data variables.product.prodname_projects_v2 %}](issues/planning-and-tracking-with-projects/learning-about-projects/about-projects.md)
       * [Best practices for {% data variables.product.prodname_projects_v2 %}](issues/planning-and-tracking-with-projects/learning-about-projects/best-practices-for-projects.md)
-      * [Finding your {% data variables.projects.projects_v2 %}](issues/planning-and-tracking-with-projects/learning-about-projects/finding-your-projects.md)
       * [Learning about {% data variables.product.prodname_projects_v2 %}](issues/planning-and-tracking-with-projects/learning-about-projects/index.md)
       * [Quickstart for {% data variables.product.prodname_projects_v2 %}](issues/planning-and-tracking-with-projects/learning-about-projects/quickstart-for-projects.md)
-      * [Sharing {% data variables.projects.project_v2 %} updates](issues/planning-and-tracking-with-projects/learning-about-projects/sharing-project-updates.md)
     - Managing Items In Your Project
       * [Adding items to your {% data variables.projects.project_v2 %}](issues/planning-and-tracking-with-projects/managing-items-in-your-project/adding-items-to-your-project.md)
       * [Archiving items from your {% data variables.projects.project_v2 %}](issues/planning-and-tracking-with-projects/managing-items-in-your-project/archiving-items-from-your-project.md)
@@ -2562,8 +2563,10 @@
       * [About Date Fields](issues/planning-and-tracking-with-projects/understanding-fields/about-date-fields.md)
       * [About Iteration Fields](issues/planning-and-tracking-with-projects/understanding-fields/about-iteration-fields.md)
       * [About Parent Issue And Sub Issue Progress Fields](issues/planning-and-tracking-with-projects/understanding-fields/about-parent-issue-and-sub-issue-progress-fields.md)
+      * [About Pull Request Fields](issues/planning-and-tracking-with-projects/understanding-fields/about-pull-request-fields.md)
       * [About Single Select Fields](issues/planning-and-tracking-with-projects/understanding-fields/about-single-select-fields.md)
       * [About Text And Number Fields](issues/planning-and-tracking-with-projects/understanding-fields/about-text-and-number-fields.md)
+      * [About The Issue Type Field](issues/planning-and-tracking-with-projects/understanding-fields/about-the-issue-type-field.md)
       * [Deleting Custom Fields](issues/planning-and-tracking-with-projects/understanding-fields/deleting-custom-fields.md)
       * [Understanding Fields](issues/planning-and-tracking-with-projects/understanding-fields/index.md)
       * [Renaming Custom Fields](issues/planning-and-tracking-with-projects/understanding-fields/renaming-custom-fields.md)
@@ -2572,7 +2575,9 @@
       * [Configuring Charts](issues/planning-and-tracking-with-projects/viewing-insights-from-your-project/configuring-charts.md)
       * [Creating Charts](issues/planning-and-tracking-with-projects/viewing-insights-from-your-project/creating-charts.md)
       * [Viewing insights from your {% data variables.projects.project_v2 %}](issues/planning-and-tracking-with-projects/viewing-insights-from-your-project/index.md)
+    * [Finding your {% data variables.projects.projects_v2 %}](issues/planning-and-tracking-with-projects/finding-your-projects.md)
     * [Planning and tracking with {% data variables.product.prodname_projects_v2 %}](issues/planning-and-tracking-with-projects/index.md)
+    * [Sharing {% data variables.projects.project_v2 %} updates](issues/planning-and-tracking-with-projects/sharing-project-updates.md)
   - Tracking Your Work With Issues
     - Administering Issues
       * [Closing An Issue](issues/tracking-your-work-with-issues/administering-issues/closing-an-issue.md)
@@ -2582,11 +2587,11 @@
       * [Marking Issues Or Pull Requests As A Duplicate](issues/tracking-your-work-with-issues/administering-issues/marking-issues-or-pull-requests-as-a-duplicate.md)
       * [Pinning An Issue To Your Repository](issues/tracking-your-work-with-issues/administering-issues/pinning-an-issue-to-your-repository.md)
       * [Transferring An Issue To Another Repository](issues/tracking-your-work-with-issues/administering-issues/transferring-an-issue-to-another-repository.md)
-    - Configuring Issues
-      * [Configuring Issues](issues/tracking-your-work-with-issues/configuring-issues/index.md)
-      * [Managing Issue Types In An Organization](issues/tracking-your-work-with-issues/configuring-issues/managing-issue-types-in-an-organization.md)
-      * [Planning And Tracking Work For Your Team Or Project](issues/tracking-your-work-with-issues/configuring-issues/planning-and-tracking-work-for-your-team-or-project.md)
-      * [Quickstart For Git Hub Issues](issues/tracking-your-work-with-issues/configuring-issues/quickstart.md)
+    - Learning About Issues
+      * [About Issues](issues/tracking-your-work-with-issues/learning-about-issues/about-issues.md)
+      * [Learning About Issues](issues/tracking-your-work-with-issues/learning-about-issues/index.md)
+      * [Planning And Tracking Work For Your Team Or Project](issues/tracking-your-work-with-issues/learning-about-issues/planning-and-tracking-work-for-your-team-or-project.md)
+      * [Quickstart For Git Hub Issues](issues/tracking-your-work-with-issues/learning-about-issues/quickstart.md)
     - Using Issues
       * [About Slash Commands](issues/tracking-your-work-with-issues/using-issues/about-slash-commands.md)
       * [Adding Sub Issues](issues/tracking-your-work-with-issues/using-issues/adding-sub-issues.md)
@@ -2599,8 +2604,8 @@
       * [Filtering And Searching Issues And Pull Requests](issues/tracking-your-work-with-issues/using-issues/filtering-and-searching-issues-and-pull-requests.md)
       * [Using Issues](issues/tracking-your-work-with-issues/using-issues/index.md)
       * [Linking A Pull Request To An Issue](issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue.md)
+      * [Managing Issue Types In An Organization](issues/tracking-your-work-with-issues/using-issues/managing-issue-types-in-an-organization.md)
       * [Viewing All Issues And Pull Requests](issues/tracking-your-work-with-issues/using-issues/viewing-all-of-your-issues-and-pull-requests.md)
-    * [About Issues](issues/tracking-your-work-with-issues/about-issues.md)
     * [Tracking Your Work With Issues](issues/tracking-your-work-with-issues/index.md)
   - Using Labels And Milestones To Track Work
     * [About Milestones](issues/using-labels-and-milestones-to-track-work/about-milestones.md)
