@@ -1860,6 +1860,7 @@
           * [Subscribing To Git Hub Copilot For Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-plan/subscribe.md)
           * [Upgrading Git Hub Copilot For Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-plan/upgrade-plan.md)
         * [Managing Git Hub Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/index.md)
+        * [Managing Git Hub Copilot Code Review In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-copilot-code-review.md)
         * [Managing Git Hub Copilot Coding Agent In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-copilot-coding-agent.md)
         * [Managing Policies And Features For Git Hub Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-enterprise-policies.md)
       - Manage For Organization
@@ -2484,7 +2485,7 @@
     * [Explorer](graphql/overview/explorer.md)
     * [Overview](graphql/overview/index.md)
     * [Public Schema](graphql/overview/public-schema.md)
-    * [Rate Limits And Node Limits For The Graph QL API](graphql/overview/rate-limits-and-node-limits-for-the-graphql-api.md)
+    * [Rate Limits And Query Limits For The Graph QL API](graphql/overview/rate-limits-and-query-limits-for-the-graphql-api.md)
   - Reference
     * [Enums](graphql/reference/enums.md)
     * [Reference](graphql/reference/index.md)
@@ -2587,6 +2588,7 @@
       * [Marking Issues Or Pull Requests As A Duplicate](issues/tracking-your-work-with-issues/administering-issues/marking-issues-or-pull-requests-as-a-duplicate.md)
       * [Pinning An Issue To Your Repository](issues/tracking-your-work-with-issues/administering-issues/pinning-an-issue-to-your-repository.md)
       * [Transferring An Issue To Another Repository](issues/tracking-your-work-with-issues/administering-issues/transferring-an-issue-to-another-repository.md)
+      * [Triaging An Issue With AI](issues/tracking-your-work-with-issues/administering-issues/triaging-an-issue-with-ai.md)
     - Learning About Issues
       * [About Issues](issues/tracking-your-work-with-issues/learning-about-issues/about-issues.md)
       * [Learning About Issues](issues/tracking-your-work-with-issues/learning-about-issues/index.md)
