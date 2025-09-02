@@ -2055,6 +2055,7 @@
         * [Creating Diagrams](copilot/tutorials/copilot-chat-cookbook/communicate-effectively/creating-diagrams.md)
         * [Extracting Information](copilot/tutorials/copilot-chat-cookbook/communicate-effectively/extracting-information.md)
         * [Communicate Effectively](copilot/tutorials/copilot-chat-cookbook/communicate-effectively/index.md)
+        * [Synthesizing Research](copilot/tutorials/copilot-chat-cookbook/communicate-effectively/synthesizing-research.md)
       - Debug Errors
         * [Debugging Invalid JSON](copilot/tutorials/copilot-chat-cookbook/debug-errors/debug-invalid-json.md)
         * [Handling API Rate Limits](copilot/tutorials/copilot-chat-cookbook/debug-errors/handle-api-rate-limits.md)
