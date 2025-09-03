@@ -9,6 +9,7 @@
     * [Contributions Visible On Your Profile](account-and-profile/concepts/contributions-visible-on-your-profile.md)
     * [Email Addresses](account-and-profile/concepts/email-addresses.md)
     * [Concepts For Account And Profile](account-and-profile/concepts/index.md)
+    * [Personal Account Management](account-and-profile/concepts/personal-account-management.md)
     * [Personal Repository Access And Collaboration](account-and-profile/concepts/personal-repository-access-and-collaboration.md)
     * [Scheduled Reminders](account-and-profile/concepts/scheduled-reminders.md)
   - Get Started
@@ -79,6 +80,7 @@
     * [Email Addresses Reference](account-and-profile/reference/email-addresses-reference.md)
     * [Reference For Account And Profile](account-and-profile/reference/index.md)
     * [Permission Levels For A Personal Account Repository](account-and-profile/reference/permission-levels-for-a-personal-account-repository.md)
+    * [Personal Account Reference](account-and-profile/reference/personal-account-reference.md)
     * [Personal Dashboard](account-and-profile/reference/personal-dashboard.md)
     * [Types Of Emails Git Hub Sends](account-and-profile/reference/types-of-emails-github-sends.md)
     * [Why Are My Contributions Not Showing Up On My Profile](account-and-profile/reference/why-are-my-contributions-not-showing-up-on-my-profile.md)
@@ -1501,7 +1503,9 @@
       * [Default Setup For Code Scanning Overrides Advanced Setup](code-security/securing-your-organization/troubleshooting-security-configurations/unexpected-default-setup.md)
     - Understanding Your Organizations Exposure To Leaked Secrets
       * [About The Secret Risk Assessment](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/about-secret-risk-assessment.md)
+      * [Calculating The Cost Savings Of Push Protection](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/calculating-the-cost-savings-of-push-protection.md)
       * [Choosing {% data variables.product.prodname_GH_secret_protection %}](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/choosing-github-secret-protection.md)
+      * [Estimating The Price Of Secret Protection](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/estimating-the-price-of-secret-protection.md)
       * [Understanding Your Organization S Exposure To Leaked Secrets](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/index.md)
       * [Interpreting Secret Risk Assessment Results](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/interpreting-secret-risk-assessment-results.md)
       * [Viewing The Secret Risk Assessment Report For Your Organization](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/viewing-the-secret-risk-assessment-report-for-your-organization.md)
@@ -2085,6 +2089,27 @@
         * [Generating Unit Tests](copilot/tutorials/copilot-chat-cookbook/testing-code/generate-unit-tests.md)
         * [Testing Code](copilot/tutorials/copilot-chat-cookbook/testing-code/index.md)
       * [Git Hub Copilot Chat Cookbook](copilot/tutorials/copilot-chat-cookbook/index.md)
+    - Customization Library
+      - Custom Instructions
+        * [Accessibility Auditor](copilot/tutorials/customization-library/custom-instructions/accessibility-auditor.md)
+        * [Code Reviewer](copilot/tutorials/customization-library/custom-instructions/code-reviewer.md)
+        * [Concept Explainer](copilot/tutorials/customization-library/custom-instructions/concept-explainer.md)
+        * [Debugging Tutor](copilot/tutorials/customization-library/custom-instructions/debugging-tutor.md)
+        * [Git Hub Actions Helper](copilot/tutorials/customization-library/custom-instructions/github-actions-helper.md)
+        * [Custom Instructions](copilot/tutorials/customization-library/custom-instructions/index.md)
+        * [Issue Manager](copilot/tutorials/customization-library/custom-instructions/issue-manager.md)
+        * [Pull Request Assistant](copilot/tutorials/customization-library/custom-instructions/pull-request-assistant.md)
+        * [Testing Automation](copilot/tutorials/customization-library/custom-instructions/testing-automation.md)
+        * [Your First Custom Instructions](copilot/tutorials/customization-library/custom-instructions/your-first-custom-instructions.md)
+      - Prompt Files
+        * [Create README](copilot/tutorials/customization-library/prompt-files/create-readme.md)
+        * [Document API](copilot/tutorials/customization-library/prompt-files/document-api.md)
+        * [Generate Unit Tests](copilot/tutorials/customization-library/prompt-files/generate-unit-tests.md)
+        * [Prompt Files](copilot/tutorials/customization-library/prompt-files/index.md)
+        * [Onboarding Plan](copilot/tutorials/customization-library/prompt-files/onboarding-plan.md)
+        * [Review Code](copilot/tutorials/customization-library/prompt-files/review-code.md)
+        * [Your First Prompt File](copilot/tutorials/customization-library/prompt-files/your-first-prompt-file.md)
+      * [Customization Library](copilot/tutorials/customization-library/index.md)
     - Roll Out At Scale
       - Assign Licenses
         * [Assigning Git Hub Copilot Licenses In Your Enterprise](copilot/tutorials/roll-out-at-scale/assign-licenses/index.md)
