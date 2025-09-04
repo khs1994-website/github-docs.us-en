@@ -2057,6 +2057,7 @@
         * [Securing Your Repository](copilot/tutorials/copilot-chat-cookbook/analyze-security/secure-your-repository.md)
       - Communicate Effectively
         * [Creating Diagrams](copilot/tutorials/copilot-chat-cookbook/communicate-effectively/creating-diagrams.md)
+        * [Creating Templates](copilot/tutorials/copilot-chat-cookbook/communicate-effectively/creating-templates.md)
         * [Extracting Information](copilot/tutorials/copilot-chat-cookbook/communicate-effectively/extracting-information.md)
         * [Communicate Effectively](copilot/tutorials/copilot-chat-cookbook/communicate-effectively/index.md)
         * [Synthesizing Research](copilot/tutorials/copilot-chat-cookbook/communicate-effectively/synthesizing-research.md)
