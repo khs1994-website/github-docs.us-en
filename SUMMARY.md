@@ -1516,6 +1516,7 @@
       * [About Your Exposure To Vulnerable Dependencies](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilities/about-your-exposure-to-vulnerable-dependencies.md)
       * [Understanding Your Organization S Exposure To Vulnerabilities](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilities/index.md)
       * [Prioritizing Dependabot Alerts Using Metrics](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilities/prioritizing-dependabot-alerts-using-metrics.md)
+      * [Prioritizing Dependabot Alerts Using Production Context](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilities/prioritizing-dependabot-alerts-using-production-context.md)
     * [Securing Your Organization](code-security/securing-your-organization/index.md)
   - Security Advisories
     - Guidance On Reporting And Writing Information About Vulnerabilities
@@ -2058,6 +2059,7 @@
         * [Creating Diagrams](copilot/tutorials/copilot-chat-cookbook/communicate-effectively/creating-diagrams.md)
         * [Creating Templates](copilot/tutorials/copilot-chat-cookbook/communicate-effectively/creating-templates.md)
         * [Extracting Information](copilot/tutorials/copilot-chat-cookbook/communicate-effectively/extracting-information.md)
+        * [Generating Tables](copilot/tutorials/copilot-chat-cookbook/communicate-effectively/generating-tables.md)
         * [Communicate Effectively](copilot/tutorials/copilot-chat-cookbook/communicate-effectively/index.md)
         * [Synthesizing Research](copilot/tutorials/copilot-chat-cookbook/communicate-effectively/synthesizing-research.md)
       - Debug Errors
@@ -2139,6 +2141,7 @@
     * [Learning A New Programming Language With Git Hub Copilot](copilot/tutorials/learn-a-new-language.md)
     * [Using Git Hub Copilot To Migrate A Project To Another Programming Language](copilot/tutorials/migrate-a-project.md)
     * [Modernizing Legacy Code With Git Hub Copilot](copilot/tutorials/modernize-legacy-code.md)
+    * [Planning A Project With Git Hub Copilot](copilot/tutorials/plan-a-project.md)
     * [Refactoring Code With Git Hub Copilot](copilot/tutorials/refactor-code.md)
     * [Speeding Up Development Work With Git Hub Copilot Spaces](copilot/tutorials/speed-up-development-work.md)
     * [Quickstart For Git Hub Copilot Extensions Using Agents](copilot/tutorials/try-extensions.md)
@@ -3383,6 +3386,7 @@
     * [REST API Endpoints For O Auth App Authorizations](rest/oauth-authorizations/oauth-authorizations.md)
   - Orgs
     * [REST API Endpoints For API Insights](rest/orgs/api-insights.md)
+    * [Artifact Metadata](rest/orgs/artifact-metadata.md)
     * [REST API Endpoints For Artifact Attestations](rest/orgs/attestations.md)
     * [REST API Endpoints For Blocking Users](rest/orgs/blocking.md)
     * [REST API Endpoints For Organization Push Rule Bypass Requests](rest/orgs/bypass-requests.md)
