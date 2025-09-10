@@ -29,6 +29,7 @@
         * [Showing An Overview Of Your Activity On Your Profile](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/showing-an-overview-of-your-activity-on-your-profile.md)
         * [Showing Your Private Contributions Ifversion Hide Individual Achievements And Achievements Endif On Your Profile](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/showing-your-private-contributions-and-achievements-on-your-profile.md)
         * [Troubleshooting Commits On Your Timeline](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/troubleshooting-commits-on-your-timeline.md)
+        * [Troubleshooting Missing Contributions](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/troubleshooting-missing-contributions.md)
         * [Viewing Contributions On Your Profile](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/viewing-contributions-on-your-profile.md)
       * [Setting Up And Managing Your Git Hub Profile](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/index.md)
     - Setting Up And Managing Your Personal Account On Github
@@ -82,8 +83,8 @@
     * [Permission Levels For A Personal Account Repository](account-and-profile/reference/permission-levels-for-a-personal-account-repository.md)
     * [Personal Account Reference](account-and-profile/reference/personal-account-reference.md)
     * [Personal Dashboard](account-and-profile/reference/personal-dashboard.md)
+    * [Profile Contributions Reference](account-and-profile/reference/profile-contributions-reference.md)
     * [Types Of Emails Git Hub Sends](account-and-profile/reference/types-of-emails-github-sends.md)
-    * [Why Are My Contributions Not Showing Up On My Profile](account-and-profile/reference/why-are-my-contributions-not-showing-up-on-my-profile.md)
   - Tutorials
     * [Tutorials For Your Git Hub Account And Profile](account-and-profile/tutorials/index.md)
     * [Managing Security And Analysis Settings For Your Personal Account](account-and-profile/tutorials/managing-security-and-analysis-settings-for-your-personal-account.md)
@@ -146,6 +147,7 @@
       * [Publishing Actions In Git Hub Marketplace](actions/how-tos/create-and-publish-actions/publish-in-github-marketplace.md)
       * [Releasing And Maintaining Actions](actions/how-tos/create-and-publish-actions/release-and-maintain-actions.md)
       * [Setting Exit Codes For Actions](actions/how-tos/create-and-publish-actions/set-exit-codes.md)
+      * [Using Immutable Releases And Tags To Manage Your Action S Releases](actions/how-tos/create-and-publish-actions/using-immutable-releases-and-tags-to-manage-your-actions-releases.md)
     - Deploy
       - Configure And Manage Deployments
         * [Configuring Custom Deployment Protection Rules](actions/how-tos/deploy/configure-and-manage-deployments/configure-custom-protection-rules.md)
