@@ -5,13 +5,13 @@
     * [About Organization Membership](account-and-profile/concepts/about-organization-membership.md)
     * [About Your Organization S Profile](account-and-profile/concepts/about-your-organizations-profile.md)
     * [About Your Profile](account-and-profile/concepts/about-your-profile.md)
-    * [Changing Your Git Hub Username](account-and-profile/concepts/changing-your-github-username.md)
     * [Contributions Visible On Your Profile](account-and-profile/concepts/contributions-visible-on-your-profile.md)
     * [Email Addresses](account-and-profile/concepts/email-addresses.md)
     * [Concepts For Account And Profile](account-and-profile/concepts/index.md)
     * [Personal Account Management](account-and-profile/concepts/personal-account-management.md)
     * [Personal Repository Access And Collaboration](account-and-profile/concepts/personal-repository-access-and-collaboration.md)
     * [Scheduled Reminders](account-and-profile/concepts/scheduled-reminders.md)
+    * [Username Changes](account-and-profile/concepts/username-changes.md)
   - Get Started
     * [Get Started With Your Git Hub Account And Profile](account-and-profile/get-started/index.md)
     * [Quickstart For Your Personal Dashboard](account-and-profile/get-started/personal-dashboard-quickstart.md)
@@ -25,11 +25,11 @@
         * [Setting Your Profile To Private](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/customizing-your-profile/setting-your-profile-to-private.md)
       - Managing Contribution Settings On Your Profile
         * [Managing Contribution Settings On Your Profile](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/index.md)
+        * [Manage Visibility Settings For Private Contributions Ifversion Hide Individual Achievements And Achievements Endif](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/manage-visibility-settings-for-private-contributions-and-achievements.md)
         * [Sharing Contributions From Git Hub Enterprise Server](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/sharing-contributions-from-github-enterprise-server.md)
         * [Showing An Overview Of Your Activity On Your Profile](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/showing-an-overview-of-your-activity-on-your-profile.md)
-        * [Showing Your Private Contributions Ifversion Hide Individual Achievements And Achievements Endif On Your Profile](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/showing-your-private-contributions-and-achievements-on-your-profile.md)
-        * [Troubleshooting Commits On Your Timeline](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/troubleshooting-commits-on-your-timeline.md)
         * [Troubleshooting Missing Contributions](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/troubleshooting-missing-contributions.md)
+        * [Viewing Commit Details From Your Timeline](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/viewing-commit-details-from-your-timeline.md)
         * [Viewing Contributions On Your Profile](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/viewing-contributions-on-your-profile.md)
       * [Setting Up And Managing Your Git Hub Profile](account-and-profile/how-tos/setting-up-and-managing-your-github-profile/index.md)
     - Setting Up And Managing Your Personal Account On Github
@@ -68,6 +68,7 @@
         * [Requesting Organization Approval For O Auth Apps](account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/requesting-organization-approval-for-oauth-apps.md)
         * [Viewing People S Roles In An Organization](account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/viewing-peoples-roles-in-an-organization.md)
       - Managing Your Personal Account
+        * [Changing Your Username](account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-your-personal-account/changing-your-username.md)
         * [Converting A User Into An Organization](account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-your-personal-account/converting-a-user-into-an-organization.md)
         * [Deleting Your Personal Account](account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-your-personal-account/deleting-your-personal-account.md)
         * [Managing Your Personal Account](account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-your-personal-account/index.md)
@@ -85,6 +86,7 @@
     * [Personal Dashboard](account-and-profile/reference/personal-dashboard.md)
     * [Profile Contributions Reference](account-and-profile/reference/profile-contributions-reference.md)
     * [Types Of Emails Git Hub Sends](account-and-profile/reference/types-of-emails-github-sends.md)
+    * [Username Reference](account-and-profile/reference/username-reference.md)
   - Tutorials
     * [Tutorials For Your Git Hub Account And Profile](account-and-profile/tutorials/index.md)
     * [Managing Security And Analysis Settings For Your Personal Account](account-and-profile/tutorials/managing-security-and-analysis-settings-for-your-personal-account.md)
@@ -997,6 +999,7 @@
     * [Disabling Two Factor Authentication For Your Personal Account](authentication/securing-your-account-with-two-factor-authentication-2fa/disabling-two-factor-authentication-for-your-personal-account.md)
     * [Securing Your Account With Two Factor Authentication 2 FA](authentication/securing-your-account-with-two-factor-authentication-2fa/index.md)
     * [Recovering Your Account If You Lose Your 2 FA Credentials](authentication/securing-your-account-with-two-factor-authentication-2fa/recovering-your-account-if-you-lose-your-2fa-credentials.md)
+    * [Troubleshooting Two Factor Authentication Issues](authentication/securing-your-account-with-two-factor-authentication-2fa/troubleshooting-two-factor-authentication-issues.md)
   - Troubleshooting Commit Signature Verification
     * [Checking Your Commit And Tag Signature Verification Status](authentication/troubleshooting-commit-signature-verification/checking-your-commit-and-tag-signature-verification-status.md)
     * [Troubleshooting Commit Signature Verification](authentication/troubleshooting-commit-signature-verification/index.md)
@@ -1830,6 +1833,7 @@
       * [About Skillsets For Git Hub Copilot Extensions](copilot/concepts/extensions/skillsets.md)
     * [About Model Context Protocol MCP](copilot/concepts/about-mcp.md)
     * [Choosing The Right AI Tool For Your Task](copilot/concepts/ai-tools.md)
+    * [About {% data variables.product.prodname_copilot_short %} auto model selection](copilot/concepts/auto-model-selection.md)
     * [About Git Hub Copilot Chat](copilot/concepts/chat.md)
     * [About Git Hub Copilot Code Review](copilot/concepts/code-review.md)
     * [Content Exclusion For Git Hub Copilot](copilot/concepts/content-exclusion.md)
@@ -3412,6 +3416,11 @@
   - Private Registries
     * [Private Registries](rest/private-registries/index.md)
     * [Organization Configurations](rest/private-registries/organization-configurations.md)
+  - Projects
+    * [REST API Endpoints For Project Fields](rest/projects/fields.md)
+    * [Projects](rest/projects/index.md)
+    * [REST API Endpoints For Project Items](rest/projects/items.md)
+    * [REST API Endpoints For Projects](rest/projects/projects.md)
   - Projects Classic
     * [REST API endpoints for {% data variables.product.prodname_project_v1_caps %} cards](rest/projects-classic/cards.md)
     * [REST API endpoints for {% data variables.product.prodname_project_v1_caps %} collaborators](rest/projects-classic/collaborators.md)
