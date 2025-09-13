@@ -1808,6 +1808,14 @@
   * [Contributing To Git Hub Docs Documentation](contributing/index.md)
 - Copilot
   - Concepts
+    - Agents
+      - Coding Agent
+        * [About Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/about-coding-agent.md)
+        * [About Git Hub Copilot Coding Agent For Business And Enterprise](copilot/concepts/agents/coding-agent/coding-agent-for-business-and-enterprise.md)
+        * [Concepts For Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/index.md)
+        * [Model Context Protocol MCP And Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/mcp-and-coding-agent.md)
+      * [About Git Hub Copilot Code Review](copilot/concepts/agents/code-review.md)
+      * [Concepts For Git Hub Copilot Agents](copilot/concepts/agents/index.md)
     - Billing
       * [About Billing For Individual Git Hub Copilot Plans](copilot/concepts/billing/billing-for-individuals.md)
       * [About Billing For Git Hub Spark](copilot/concepts/billing/billing-for-spark.md)
@@ -1815,37 +1823,36 @@
       * [Git Hub Copilot Billing](copilot/concepts/billing/index.md)
       * [About Individual Git Hub Copilot Plans And Benefits](copilot/concepts/billing/individual-plans.md)
       * [About Billing For Git Hub Copilot In Organizations And Enterprises](copilot/concepts/billing/organizations-and-enterprises.md)
-    - Coding Agent
-      * [About Git Hub Copilot Coding Agent](copilot/concepts/coding-agent/coding-agent.md)
-      * [About Enabling Git Hub Copilot Coding Agent](copilot/concepts/coding-agent/enable-coding-agent.md)
-      * [Concepts For Git Hub Copilot Coding Agent](copilot/concepts/coding-agent/index.md)
-      * [Model Context Protocol MCP And Git Hub Copilot Coding Agent](copilot/concepts/coding-agent/mcp-and-coding-agent.md)
     - Completions
       * [Git Hub Copilot Code Referencing](copilot/concepts/completions/code-referencing.md)
       * [Git Hub Copilot Code Suggestions In Your IDE](copilot/concepts/completions/code-suggestions.md)
       * [Completions For Git Hub Copilot](copilot/concepts/completions/index.md)
       * [Git Hub Copilot Text Completion](copilot/concepts/completions/text-completion.md)
+    - Context
+      * [Content Exclusion For Git Hub Copilot](copilot/concepts/context/content-exclusion.md)
+      * [About Git Hub Copilot Extensions](copilot/concepts/context/copilot-extensions.md)
+      * [Concepts For Providing Context To Git Hub Copilot](copilot/concepts/context/index.md)
+      * [Git Hub Copilot Knowledge Bases](copilot/concepts/context/knowledge-bases.md)
+      * [About Model Context Protocol MCP](copilot/concepts/context/mcp.md)
+      * [Indexing Repositories For Git Hub Copilot Chat](copilot/concepts/context/repository-indexing.md)
+      * [About Organizing And Sharing Context With Git Hub Copilot Spaces](copilot/concepts/context/spaces.md)
     - Extensions
-      * [About Git Hub Copilot Extensions](copilot/concepts/extensions/about-extensions.md)
       * [About Agents For Git Hub Copilot Extensions](copilot/concepts/extensions/agents.md)
+      * [About Building Git Hub Copilot Extensions](copilot/concepts/extensions/build-extensions.md)
       * [Git Hub Copilot Extensions](copilot/concepts/extensions/index.md)
       * [Open ID Connect OIDC For Git Hub Copilot Extensions](copilot/concepts/extensions/openid-connect.md)
       * [About Skillsets For Git Hub Copilot Extensions](copilot/concepts/extensions/skillsets.md)
-    * [About Model Context Protocol MCP](copilot/concepts/about-mcp.md)
+    - Prompting
+      * [Concepts For Prompting Git Hub Copilot](copilot/concepts/prompting/index.md)
+      * [Prompt Engineering For Git Hub Copilot Chat](copilot/concepts/prompting/prompt-engineering.md)
+      * [About Customizing Git Hub Copilot Chat Responses](copilot/concepts/prompting/response-customization.md)
     * [Choosing The Right AI Tool For Your Task](copilot/concepts/ai-tools.md)
     * [About {% data variables.product.prodname_copilot_short %} auto model selection](copilot/concepts/auto-model-selection.md)
     * [About Git Hub Copilot Chat](copilot/concepts/chat.md)
-    * [About Git Hub Copilot Code Review](copilot/concepts/code-review.md)
-    * [Content Exclusion For Git Hub Copilot](copilot/concepts/content-exclusion.md)
     * [Concepts For Git Hub Copilot](copilot/concepts/index.md)
-    * [Git Hub Copilot Knowledge Bases](copilot/concepts/knowledge-bases.md)
     * [Network Settings For Git Hub Copilot](copilot/concepts/network-settings.md)
     * [Git Hub Copilot Policies To Control Availability Of Features And Models](copilot/concepts/policies.md)
-    * [Prompt Engineering For Git Hub Copilot Chat](copilot/concepts/prompt-engineering.md)
     * [Rate Limits For Git Hub Copilot](copilot/concepts/rate-limits.md)
-    * [Indexing Repositories For Git Hub Copilot Chat](copilot/concepts/repository-indexes.md)
-    * [About Customizing Git Hub Copilot Chat Responses](copilot/concepts/response-customization.md)
-    * [About Organizing And Sharing Context With Git Hub Copilot Spaces](copilot/concepts/spaces.md)
   - Get Started
     * [Achieving Your Company S Engineering Goals With Git Hub Copilot](copilot/get-started/achieve-company-goals.md)
     * [Best Practices For Using Git Hub Copilot](copilot/get-started/best-practices.md)
@@ -1893,8 +1900,16 @@
         * [Managing Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/index.md)
         * [Managing Policies And Features For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-policies.md)
         * [Setting Permissions For A Git Hub Copilot Extension In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/set-extension-permissions.md)
+      * [Configure MCP Server Access For Your Organization Or Enterprise](copilot/how-tos/administer-copilot/configure-mcp-server-access.md)
       * [Downloading A Git Hub Copilot Activity Report For Your Organization Or Enterprise](copilot/how-tos/administer-copilot/download-activity-report.md)
       * [Administer Git Hub Copilot For Your Team](copilot/how-tos/administer-copilot/index.md)
+    - Chat With Copilot
+      * [Asking Git Hub Copilot Questions In Git Hub](copilot/how-tos/chat-with-copilot/chat-in-github.md)
+      * [Asking Git Hub Copilot Questions In Your IDE](copilot/how-tos/chat-with-copilot/chat-in-ide.md)
+      * [Asking Git Hub Copilot Questions In Git Hub Mobile](copilot/how-tos/chat-with-copilot/chat-in-mobile.md)
+      * [Asking Git Hub Copilot Questions In Windows Terminal](copilot/how-tos/chat-with-copilot/chat-in-windows-terminal.md)
+      * [Getting Started With Prompts For Git Hub Copilot Chat](copilot/how-tos/chat-with-copilot/get-started-with-chat.md)
+      * [Git Hub Copilot Chat](copilot/how-tos/chat-with-copilot/index.md)
     - Configure Content Exclusion
       * [Excluding Content From Git Hub Copilot](copilot/how-tos/configure-content-exclusion/exclude-content-from-copilot.md)
       * [Configure And Audit Content Exclusion](copilot/how-tos/configure-content-exclusion/index.md)
@@ -1906,13 +1921,13 @@
       * [Configure Custom Instructions For Git Hub Copilot](copilot/how-tos/configure-custom-instructions/index.md)
     - Configure Personal Settings
       * [Using GitHub Copilot with an account on GHE.com](copilot/how-tos/configure-personal-settings/authenticate-to-ghecom.md)
-      * [Configuring Git Hub Copilot In Your Environment](copilot/how-tos/configure-personal-settings/configure-in-your-environment.md)
+      * [Configuring Git Hub Copilot In Your Environment](copilot/how-tos/configure-personal-settings/configure-in-ide.md)
       * [Configuring Network Settings For Git Hub Copilot](copilot/how-tos/configure-personal-settings/configure-network-settings.md)
       * [Customizing Git Hub Copilot In The CLI](copilot/how-tos/configure-personal-settings/customize-copilot-in-the-cli.md)
       * [Configure Personal Settings](copilot/how-tos/configure-personal-settings/index.md)
     - Get Code Suggestions
       * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/how-tos/get-code-suggestions/find-matching-code.md)
-      * [Getting Code Suggestions In Your IDE With Git Hub Copilot](copilot/how-tos/get-code-suggestions/get-code-suggestions.md)
+      * [Getting Code Suggestions In Your IDE With Git Hub Copilot](copilot/how-tos/get-code-suggestions/get-ide-code-suggestions.md)
       * [Get Suggestions From Git Hub Copilot](copilot/how-tos/get-code-suggestions/index.md)
       * [Writing Pull Request Descriptions With Git Hub Copilot Text Completion](copilot/how-tos/get-code-suggestions/write-pr-descriptions.md)
     - Manage And Track Spending
@@ -1963,13 +1978,6 @@
       * [Configuring Access To AI Models In Git Hub Copilot](copilot/how-tos/use-ai-models/configure-access-to-ai-models.md)
       * [Creating A Custom Model For Git Hub Copilot](copilot/how-tos/use-ai-models/create-a-custom-model.md)
       * [AI Models For Git Hub Copilot](copilot/how-tos/use-ai-models/index.md)
-    - Use Chat
-      * [Getting Started With Prompts For Git Hub Copilot Chat](copilot/how-tos/use-chat/get-started-with-chat.md)
-      * [Git Hub Copilot Chat](copilot/how-tos/use-chat/index.md)
-      * [Asking Git Hub Copilot Questions In Git Hub](copilot/how-tos/use-chat/use-chat-in-github.md)
-      * [Asking Git Hub Copilot Questions In Your IDE](copilot/how-tos/use-chat/use-chat-in-ide.md)
-      * [Asking Git Hub Copilot Questions In Git Hub Mobile](copilot/how-tos/use-chat/use-chat-in-mobile.md)
-      * [Asking Git Hub Copilot Questions In Windows Terminal](copilot/how-tos/use-chat/use-chat-in-windows-terminal.md)
     - Use Copilot Agents
       - Coding Agent
         * [Using Git Hub Copilot To Work On An Issue](copilot/how-tos/use-copilot-agents/coding-agent/assign-copilot-to-an-issue.md)
@@ -1993,14 +2001,12 @@
         * [Building A Git Hub Copilot Agent For Your Git Hub Copilot Extension](copilot/how-tos/use-copilot-extensions/build-a-copilot-agent/index.md)
         * [Context Passing For Your Agent](copilot/how-tos/use-copilot-extensions/build-a-copilot-agent/use-context-passing.md)
         * [Using Git Hub Copilot S LLM For Your Agent](copilot/how-tos/use-copilot-extensions/build-a-copilot-agent/use-copilots-llm.md)
-      - Build A Copilot Skillset
-        * [Building Git Hub Copilot Skillsets](copilot/how-tos/use-copilot-extensions/build-a-copilot-skillset/build-copilot-skillsets.md)
-        * [Building A Git Hub Copilot Skillset For Your Git Hub Copilot Extension](copilot/how-tos/use-copilot-extensions/build-a-copilot-skillset/index.md)
       - Create A Copilot Extension
         * [Configuring Your Git Hub App For Your Git Hub Copilot Extension](copilot/how-tos/use-copilot-extensions/create-a-copilot-extension/configure-app-for-extension.md)
         * [Creating A Git Hub App For Your Git Hub Copilot Extension](copilot/how-tos/use-copilot-extensions/create-a-copilot-extension/create-github-app.md)
         * [Configuring Your Server To Host Your Git Hub Copilot Extension](copilot/how-tos/use-copilot-extensions/create-a-copilot-extension/host-your-extension.md)
         * [Creating A Git Hub Copilot Extension](copilot/how-tos/use-copilot-extensions/create-a-copilot-extension/index.md)
+      * [Building Git Hub Copilot Skillsets](copilot/how-tos/use-copilot-extensions/build-copilot-skillsets.md)
       * [Debugging Your Git Hub Copilot Extension](copilot/how-tos/use-copilot-extensions/debug-copilot-extension.md)
       * [Git Hub Copilot Extensions](copilot/how-tos/use-copilot-extensions/index.md)
       * [Managing The Availability Of Your Git Hub Copilot Extension](copilot/how-tos/use-copilot-extensions/manage-extension-availability.md)
@@ -2371,7 +2377,7 @@
     * [Set Up Git](get-started/git-basics/set-up-git.md)
     * [Setting Your Username In Git](get-started/git-basics/setting-your-username-in-git.md)
     * [Updating Credentials From The Mac OS Keychain](get-started/git-basics/updating-credentials-from-the-macos-keychain.md)
-    * [Why Is Git Always Asking For My Password](get-started/git-basics/why-is-git-always-asking-for-my-password.md)
+    * [Why Is Git Always Asking For My Credentials](get-started/git-basics/why-is-git-always-asking-for-my-credentials.md)
   - Learning About Github
     * [About Git Hub Advanced Security](get-started/learning-about-github/about-github-advanced-security.md)
     * [Access Permissions On Git Hub](get-started/learning-about-github/access-permissions-on-github.md)
