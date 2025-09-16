@@ -15,7 +15,7 @@
   - Get Started
     * [Get Started With Your Git Hub Account And Profile](account-and-profile/get-started/index.md)
     * [Quickstart For Your Personal Dashboard](account-and-profile/get-started/personal-dashboard-quickstart.md)
-    * [Personalizing Your Profile](account-and-profile/get-started/personalizing-your-profile.md)
+    * [Profile](account-and-profile/get-started/profile.md)
   - How Tos
     - Setting Up And Managing Your Github Profile
       - Customizing Your Profile
@@ -85,12 +85,14 @@
     * [Personal Account Reference](account-and-profile/reference/personal-account-reference.md)
     * [Personal Dashboard](account-and-profile/reference/personal-dashboard.md)
     * [Profile Contributions Reference](account-and-profile/reference/profile-contributions-reference.md)
+    * [Profile Reference](account-and-profile/reference/profile-reference.md)
     * [Types Of Emails Git Hub Sends](account-and-profile/reference/types-of-emails-github-sends.md)
     * [Username Reference](account-and-profile/reference/username-reference.md)
   - Tutorials
     * [Tutorials For Your Git Hub Account And Profile](account-and-profile/tutorials/index.md)
     * [Managing Security And Analysis Settings For Your Personal Account](account-and-profile/tutorials/managing-security-and-analysis-settings-for-your-personal-account.md)
     * [Managing Your Cookie Preferences For Git Hub S Enterprise Marketing Pages](account-and-profile/tutorials/managing-your-cookie-preferences-for-githubs-enterprise-marketing-pages.md)
+    * [Personalize Your Profile](account-and-profile/tutorials/personalize-your-profile.md)
     * [Using Your Git Hub Profile To Enhance Your Resume](account-and-profile/tutorials/using-your-github-profile-to-enhance-your-resume.md)
   * [Account And Profile Documentation](account-and-profile/index.md)
 - Actions
