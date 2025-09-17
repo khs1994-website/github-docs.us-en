@@ -3319,6 +3319,7 @@
     * [REST API Endpoints For Bypass Requests](rest/enterprise-admin/bypass-requests.md)
     * [REST API Endpoints For Enterprise Security Features For Code](rest/enterprise-admin/code-security-and-analysis.md)
     * [Custom Properties](rest/enterprise-admin/custom-properties.md)
+    * [REST API Endpoints For Enterprise Access Verification](rest/enterprise-admin/enterprises.md)
     * [REST API Endpoints For Global Webhooks](rest/enterprise-admin/global-webhooks.md)
     * [REST API Endpoints For Git Hub Enterprise Administration](rest/enterprise-admin/index.md)
     * [REST API Endpoints For LDAP](rest/enterprise-admin/ldap.md)
@@ -3335,6 +3336,10 @@
     * [REST API Endpoints For Rules](rest/enterprise-admin/rules.md)
     * [REST API Endpoints For SCIM](rest/enterprise-admin/scim.md)
     * [REST API Endpoints For Enterprise Users](rest/enterprise-admin/users.md)
+  - Enterprise Teams
+    * [REST API Endpoints For Enterprise Team Memberships](rest/enterprise-teams/enterprise-team-members.md)
+    * [REST API Endpoints For Enterprise Team Members](rest/enterprise-teams/enterprise-teams.md)
+    * [Enterprise Teams](rest/enterprise-teams/index.md)
   - Gists
     * [REST API Endpoints For Gist Comments](rest/gists/comments.md)
     * [REST API Endpoints For Gists](rest/gists/gists.md)
