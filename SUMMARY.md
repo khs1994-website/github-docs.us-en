@@ -53,11 +53,13 @@
       - Managing User Account Settings
         * [Managing User Account Settings](account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/index.md)
         * [Integrating Jira With Your Personal Projects](account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/integrating-jira-with-your-personal-projects.md)
+        * [Manage Cookie Preferences](account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/manage-cookie-preferences.md)
         * [Managing access to your personal account's {% data variables.projects.projects_v1_boards %}](account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/managing-access-to-your-personal-accounts-project-boards.md)
         * [Managing Accessibility Settings](account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/managing-accessibility-settings.md)
         * [Managing Security And Analysis Features](account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/managing-security-and-analysis-features.md)
         * [Managing Your Tab Size Rendering Preference](account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/managing-your-tab-size-rendering-preference.md)
         * [Permission levels for a {% data variables.projects.projects_v1_board %} owned by a personal account](account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/permission-levels-for-a-project-board-owned-by-a-personal-account.md)
+        * [Prepare For Job Change](account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/prepare-for-job-change.md)
         * [Set Your Hiring Status](account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/set-your-hiring-status.md)
       - Managing Your Membership In Organizations
         * [Accessing An Organization](account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/accessing-an-organization.md)
@@ -78,7 +80,6 @@
       * [Setting Up And Managing Your Personal Account On Git Hub](account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/index.md)
     * [How Tos For Your Git Hub Account And Profile](account-and-profile/how-tos/index.md)
   - Reference
-    * [Best Practices For Leaving Your Company](account-and-profile/reference/best-practices-for-leaving-your-company.md)
     * [Email Addresses Reference](account-and-profile/reference/email-addresses-reference.md)
     * [Reference For Account And Profile](account-and-profile/reference/index.md)
     * [Permission Levels For A Personal Account Repository](account-and-profile/reference/permission-levels-for-a-personal-account-repository.md)
@@ -90,7 +91,6 @@
     * [Username Reference](account-and-profile/reference/username-reference.md)
   - Tutorials
     * [Tutorials For Your Git Hub Account And Profile](account-and-profile/tutorials/index.md)
-    * [Managing Your Cookie Preferences For Git Hub S Enterprise Marketing Pages](account-and-profile/tutorials/managing-your-cookie-preferences-for-githubs-enterprise-marketing-pages.md)
     * [Personalize Your Profile](account-and-profile/tutorials/personalize-your-profile.md)
     * [Using Your Git Hub Profile To Enhance Your Resume](account-and-profile/tutorials/using-your-github-profile-to-enhance-your-resume.md)
   * [Account And Profile Documentation](account-and-profile/index.md)
@@ -1987,6 +1987,7 @@
         * [Customizing Or Disabling The Firewall For Git Hub Copilot Coding Agent](copilot/how-tos/use-copilot-agents/coding-agent/customize-the-agent-firewall.md)
         * [Extending Git Hub Copilot Coding Agent With The Model Context Protocol MCP](copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp.md)
         * [Git Hub Copilot Coding Agent](copilot/how-tos/use-copilot-agents/coding-agent/index.md)
+        * [Integrating Copilot Coding Agent With Teams](copilot/how-tos/use-copilot-agents/coding-agent/integrate-coding-agent-with-teams.md)
         * [Reviewing A Pull Request Created By Git Hub Copilot](copilot/how-tos/use-copilot-agents/coding-agent/review-copilot-prs.md)
         * [Tracking Git Hub Copilot S Sessions](copilot/how-tos/use-copilot-agents/coding-agent/track-copilot-sessions.md)
         * [Troubleshooting Git Hub Copilot Coding Agent](copilot/how-tos/use-copilot-agents/coding-agent/troubleshoot-coding-agent.md)
