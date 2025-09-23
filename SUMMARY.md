@@ -1854,6 +1854,7 @@
     * [Network Settings For Git Hub Copilot](copilot/concepts/network-settings.md)
     * [Git Hub Copilot Policies To Control Availability Of Features And Models](copilot/concepts/policies.md)
     * [Rate Limits For Git Hub Copilot](copilot/concepts/rate-limits.md)
+    * [About Git Hub Spark](copilot/concepts/spark.md)
   - Get Started
     * [Achieving Your Company S Engineering Goals With Git Hub Copilot](copilot/get-started/achieve-company-goals.md)
     * [Best Practices For Using Git Hub Copilot](copilot/get-started/best-practices.md)
@@ -1972,6 +1973,7 @@
       * [Troubleshooting Common Issues With Git Hub Copilot](copilot/how-tos/troubleshoot-copilot/troubleshoot-common-issues.md)
       * [Troubleshooting Firewall Settings For Git Hub Copilot](copilot/how-tos/troubleshoot-copilot/troubleshoot-firewall-settings.md)
       * [Troubleshooting Network Errors For Git Hub Copilot](copilot/how-tos/troubleshoot-copilot/troubleshoot-network-errors.md)
+      * [Troubleshooting Common Issues With Git Hub Spark](copilot/how-tos/troubleshoot-copilot/troubleshoot-spark.md)
       * [Viewing Logs For Git Hub Copilot In Your Environment](copilot/how-tos/troubleshoot-copilot/view-logs.md)
     - Use Ai Models
       * [Changing The AI Model For Git Hub Copilot Chat](copilot/how-tos/use-ai-models/change-the-chat-model.md)
@@ -2144,9 +2146,12 @@
         * [Analyzing Usage Over Time With The Git Hub Copilot Metrics API](copilot/tutorials/roll-out-at-scale/measure-adoption/analyze-usage-over-time.md)
         * [Measuring Adoption And Usage Of Git Hub Copilot](copilot/tutorials/roll-out-at-scale/measure-adoption/index.md)
       * [Rolling Out Git Hub Copilot At Scale](copilot/tutorials/roll-out-at-scale/index.md)
-    * [Building And Deploying AI Powered Apps With Git Hub Spark](copilot/tutorials/build-apps-with-spark.md)
+    - Spark
+      * [Building And Deploying AI Powered Apps With Git Hub Spark](copilot/tutorials/spark/build-apps-with-spark.md)
+      * [Building Apps With Git Hub Spark](copilot/tutorials/spark/index.md)
+      * [Write Effective Prompts And Provide Useful Context For Spark](copilot/tutorials/spark/prompt-tips.md)
+      * [Your First Spark](copilot/tutorials/spark/your-first-spark.md)
     * [Comparing AI Models Using Different Tasks](copilot/tutorials/compare-ai-models.md)
-    * [Building Your First App In Minutes With Git Hub Spark](copilot/tutorials/easy-apps-with-spark.md)
     * [Enhancing Git Hub Copilot Agent Mode With MCP](copilot/tutorials/enhance-agent-mode-with-mcp.md)
     * [Using Git Hub Copilot To Explore A Codebase](copilot/tutorials/explore-a-codebase.md)
     * [Using Git Hub Copilot To Explore Issues And Discussions](copilot/tutorials/explore-issues-and-discussions.md)
