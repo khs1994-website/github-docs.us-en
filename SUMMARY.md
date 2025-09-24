@@ -1166,7 +1166,7 @@
     - Managing Code Scanning Alerts
       * [About Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/about-code-scanning-alerts.md)
       * [Assessing Code Scanning Alerts For Your Repository](code-security/code-scanning/managing-code-scanning-alerts/assessing-code-scanning-alerts-for-your-repository.md)
-      * [Best Practices For Participating In A Security Campaign](code-security/code-scanning/managing-code-scanning-alerts/best-practices-for-participating-in-a-security-campaign.md)
+      * [Best Practices For Participating In A Code Security Campaign](code-security/code-scanning/managing-code-scanning-alerts/best-practices-for-participating-in-a-security-campaign.md)
       * [Disabling Copilot Autofix For Code Scanning](code-security/code-scanning/managing-code-scanning-alerts/disabling-autofix-for-code-scanning.md)
       * [Fixing Alerts In A Security Campaign](code-security/code-scanning/managing-code-scanning-alerts/fixing-alerts-in-security-campaign.md)
       * [Managing Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/index.md)
@@ -2052,6 +2052,7 @@
     * [Responsible Use Of Git Hub Copilot In Git Hub Desktop](copilot/responsible-use/copilot-in-github-desktop.md)
     * [Responsible Use Of Git Hub Copilot In The CLI](copilot/responsible-use/copilot-in-the-cli.md)
     * [Responsible Use Of Git Hub Copilot In Windows Terminal](copilot/responsible-use/copilot-in-windows-terminal.md)
+    * [Responsible Use Of Git Hub Copilot Spaces](copilot/responsible-use/copilot-spaces.md)
     * [Responsible Use Of Git Hub Copilot Text Completion](copilot/responsible-use/copilot-text-completion.md)
     * [Responsible Use Of Git Hub Copilot Features](copilot/responsible-use/index.md)
     * [Responsible Use Of Git Hub Copilot Pull Request Summaries](copilot/responsible-use/pull-request-summaries.md)
