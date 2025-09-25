@@ -1952,8 +1952,9 @@
         * [Using Extensions To Integrate External Tools With Git Hub Copilot Chat](copilot/how-tos/provide-context/install-copilot-extensions/use-copilot-extensions.md)
       - Use Copilot Spaces
         * [Collaborating With Your Team Using Git Hub Copilot Spaces](copilot/how-tos/provide-context/use-copilot-spaces/collaborate-with-your-team.md)
-        * [Creating And Using Git Hub Copilot Spaces](copilot/how-tos/provide-context/use-copilot-spaces/create-and-use-copilot-spaces.md)
+        * [Creating Git Hub Copilot Spaces](copilot/how-tos/provide-context/use-copilot-spaces/create-copilot-spaces.md)
         * [Git Hub Copilot Spaces](copilot/how-tos/provide-context/use-copilot-spaces/index.md)
+        * [Using Git Hub Copilot Spaces](copilot/how-tos/provide-context/use-copilot-spaces/use-copilot-spaces.md)
       - Use Mcp
         * [Extending Git Hub Copilot Chat With The Model Context Protocol MCP](copilot/how-tos/provide-context/use-mcp/extend-copilot-chat-with-mcp.md)
         * [Using Model Context Protocol](copilot/how-tos/provide-context/use-mcp/index.md)
