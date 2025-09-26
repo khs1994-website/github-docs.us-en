@@ -1815,6 +1815,7 @@
         * [About Git Hub Copilot Coding Agent For Business And Enterprise](copilot/concepts/agents/coding-agent/coding-agent-for-business-and-enterprise.md)
         * [Concepts For Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/index.md)
         * [Model Context Protocol MCP And Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/mcp-and-coding-agent.md)
+      * [About Git Hub Copilot CLI](copilot/concepts/agents/about-copilot-cli.md)
       * [About Git Hub Copilot Code Review](copilot/concepts/agents/code-review.md)
       * [Concepts For Git Hub Copilot Agents](copilot/concepts/agents/index.md)
     - Billing
@@ -1925,7 +1926,6 @@
       * [Using GitHub Copilot with an account on GHE.com](copilot/how-tos/configure-personal-settings/authenticate-to-ghecom.md)
       * [Configuring Git Hub Copilot In Your Environment](copilot/how-tos/configure-personal-settings/configure-in-ide.md)
       * [Configuring Network Settings For Git Hub Copilot](copilot/how-tos/configure-personal-settings/configure-network-settings.md)
-      * [Customizing Git Hub Copilot In The CLI](copilot/how-tos/configure-personal-settings/customize-copilot-in-the-cli.md)
       * [Configure Personal Settings](copilot/how-tos/configure-personal-settings/index.md)
     - Get Code Suggestions
       * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/how-tos/get-code-suggestions/find-matching-code.md)
@@ -1964,8 +1964,8 @@
       * [Using Knowledge Bases](copilot/how-tos/provide-context/use-knowledge-bases.md)
     - Set Up
       * [Setting Up Git Hub Copilot](copilot/how-tos/set-up/index.md)
+      * [Installing Git Hub Copilot CLI](copilot/how-tos/set-up/install-copilot-cli.md)
       * [Installing The Git Hub Copilot Extension In Your Environment](copilot/how-tos/set-up/install-copilot-extension.md)
-      * [Installing Git Hub Copilot In The CLI](copilot/how-tos/set-up/install-copilot-in-the-cli.md)
       * [Setting Up Git Hub Copilot For Your Enterprise](copilot/how-tos/set-up/set-up-for-enterprise.md)
       * [Setting Up Git Hub Copilot For Your Organization](copilot/how-tos/set-up/set-up-for-organization.md)
       * [Setting Up Git Hub Copilot For Yourself](copilot/how-tos/set-up/set-up-for-self.md)
@@ -1999,6 +1999,7 @@
         * [Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/index.md)
         * [Using Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review.md)
       * [Use Git Hub Copilot Agents](copilot/how-tos/use-copilot-agents/index.md)
+      * [Using Git Hub Copilot CLI](copilot/how-tos/use-copilot-agents/use-copilot-cli.md)
     - Use Copilot Extensions
       - Build A Copilot Agent
         * [Configuring Your Git Hub Copilot Agent To Communicate With The Git Hub Copilot Platform](copilot/how-tos/use-copilot-extensions/build-a-copilot-agent/communicate-with-copilot-platform.md)
@@ -2020,7 +2021,7 @@
     - Use Copilot For Common Tasks
       * [Creating A Pull Request Summary With Git Hub Copilot](copilot/how-tos/use-copilot-for-common-tasks/create-a-pr-summary.md)
       * [Use Git Hub Copilot For Common Tasks](copilot/how-tos/use-copilot-for-common-tasks/index.md)
-      * [Using Git Hub Copilot In The Command Line](copilot/how-tos/use-copilot-for-common-tasks/use-copilot-in-the-cli.md)
+      * [Using The Git Hub CLI Copilot Extension](copilot/how-tos/use-copilot-for-common-tasks/use-copilot-in-the-cli.md)
       * [Using Git Hub Copilot To Create Issues](copilot/how-tos/use-copilot-for-common-tasks/use-copilot-to-create-issues.md)
     * [How Tos For Git Hub Copilot](copilot/how-tos/index.md)
   - Reference
@@ -2047,11 +2048,11 @@
     * [Responsible Use Of Git Hub Copilot Chat In Git Hub](copilot/responsible-use/chat-in-github.md)
     * [Responsible Use Of Git Hub Copilot Chat In Your IDE](copilot/responsible-use/chat-in-your-ide.md)
     * [Responsible Use Of Git Hub Copilot Code Review](copilot/responsible-use/code-review.md)
+    * [Responsible Use Of Git Hub Copilot CLI](copilot/responsible-use/copilot-cli.md)
     * [Responsible Use Of Git Hub Copilot Code Completion](copilot/responsible-use/copilot-code-completion.md)
     * [Responsible use of GitHub Copilot coding agent on GitHub.com](copilot/responsible-use/copilot-coding-agent.md)
     * [Responsible Use Of Git Hub Copilot Commit Message Generation](copilot/responsible-use/copilot-commit-message-generation.md)
     * [Responsible Use Of Git Hub Copilot In Git Hub Desktop](copilot/responsible-use/copilot-in-github-desktop.md)
-    * [Responsible Use Of Git Hub Copilot In The CLI](copilot/responsible-use/copilot-in-the-cli.md)
     * [Responsible Use Of Git Hub Copilot In Windows Terminal](copilot/responsible-use/copilot-in-windows-terminal.md)
     * [Responsible Use Of Git Hub Copilot Spaces](copilot/responsible-use/copilot-spaces.md)
     * [Responsible Use Of Git Hub Copilot Text Completion](copilot/responsible-use/copilot-text-completion.md)
