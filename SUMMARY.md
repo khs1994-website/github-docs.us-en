@@ -1812,8 +1812,8 @@
     - Agents
       - Coding Agent
         * [About Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/about-coding-agent.md)
-        * [About Git Hub Copilot Coding Agent For Business And Enterprise](copilot/concepts/agents/coding-agent/coding-agent-for-business-and-enterprise.md)
         * [Concepts For Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/index.md)
+        * [Managing Access To Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/managing-access.md)
         * [Model Context Protocol MCP And Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/mcp-and-coding-agent.md)
       * [About Git Hub Copilot CLI](copilot/concepts/agents/about-copilot-cli.md)
       * [About Git Hub Copilot Code Review](copilot/concepts/agents/code-review.md)
@@ -1837,7 +1837,7 @@
       * [Git Hub Copilot Knowledge Bases](copilot/concepts/context/knowledge-bases.md)
       * [About Model Context Protocol MCP](copilot/concepts/context/mcp.md)
       * [Indexing Repositories For Git Hub Copilot Chat](copilot/concepts/context/repository-indexing.md)
-      * [About Organizing And Sharing Context With Git Hub Copilot Spaces](copilot/concepts/context/spaces.md)
+      * [About Git Hub Copilot Spaces](copilot/concepts/context/spaces.md)
     - Extensions
       * [About Agents For Git Hub Copilot Extensions](copilot/concepts/extensions/agents.md)
       * [About Building Git Hub Copilot Extensions](copilot/concepts/extensions/build-extensions.md)
@@ -3638,6 +3638,7 @@
   - Receiving Sponsorships Through Github Sponsors
     * [About Git Hub Sponsors For Open Source Contributors](sponsors/receiving-sponsorships-through-github-sponsors/about-github-sponsors-for-open-source-contributors.md)
     * [Contacting Your Sponsors](sponsors/receiving-sponsorships-through-github-sponsors/contacting-your-sponsors.md)
+    * [Deleting A Stripe Connect Account](sponsors/receiving-sponsorships-through-github-sponsors/delete-stripe-account.md)
     * [Disabling Your Git Hub Sponsors Account](sponsors/receiving-sponsorships-through-github-sponsors/disabling-your-github-sponsors-account.md)
     * [Editing Your Profile Details For Git Hub Sponsors](sponsors/receiving-sponsorships-through-github-sponsors/editing-your-profile-details-for-github-sponsors.md)
     * [Enabling Sponsorships Through Patreon](sponsors/receiving-sponsorships-through-github-sponsors/enabling-sponsorships-through-patreon.md)
