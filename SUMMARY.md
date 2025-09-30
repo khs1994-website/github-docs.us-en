@@ -776,6 +776,7 @@
     * [About Git Hub Enterprise Cloud](admin/overview/about-github-enterprise-cloud.md)
     * [About Git Hub Enterprise Server](admin/overview/about-github-enterprise-server.md)
     * [About Git Hub For Enterprises](admin/overview/about-github-for-enterprises.md)
+    * [About Teams In An Enterprise](admin/overview/about-teams.md)
     * [About The Git Hub Enterprise API](admin/overview/about-the-github-enterprise-api.md)
     * [About Upgrades To New Releases](admin/overview/about-upgrades-to-new-releases.md)
     * [Accessing Compliance Reports For Your Enterprise](admin/overview/accessing-compliance-reports-for-your-enterprise.md)
@@ -1110,6 +1111,7 @@
   - Reference
     * [Actions Minute Multiplier Reference](billing/reference/actions-minute-multipliers.md)
     * [Azure Subscription Reference](billing/reference/azure-subscription.md)
+    * [Billing Reports Reference](billing/reference/billing-reports.md)
     * [Roles For The Billing Platform](billing/reference/billing-roles.md)
     * [Cost Center Allocation For Different Products](billing/reference/cost-center-allocation.md)
     * [Costs And Multipliers For Using Git Hub Models Directly](billing/reference/costs-for-github-models.md)
@@ -1120,7 +1122,6 @@
     * [Product Usage Included With Each Plan](billing/reference/product-usage-included.md)
     * [Roles for {% data variables.visual_studio.prodname_vss_ghe %} reference](billing/reference/roles-for-visual-studio.md)
     * [Supported Payment Methods For Git Hub](billing/reference/supported-payment-methods.md)
-    * [Usage Reports Reference](billing/reference/usage-reports.md)
   - Tutorials
     * [Automating Usage Reporting With The REST API](billing/tutorials/automate-usage-reporting.md)
     * [Estimating Spending](billing/tutorials/estimate-spending.md)
