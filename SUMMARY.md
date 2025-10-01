@@ -1885,6 +1885,7 @@
         * [Managing Git Hub Copilot Code Review In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-copilot-code-review.md)
         * [Managing Git Hub Copilot Coding Agent In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-copilot-coding-agent.md)
         * [Managing Policies And Features For Git Hub Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-enterprise-policies.md)
+        * [Managing Git Hub Spark In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-spark.md)
       - Manage For Organization
         - Manage Access
           * [Granting Access To Git Hub Copilot For Members Of Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-access/grant-access.md)
@@ -1985,7 +1986,6 @@
       * [AI Models For Git Hub Copilot](copilot/how-tos/use-ai-models/index.md)
     - Use Copilot Agents
       - Coding Agent
-        * [Using Git Hub Copilot To Work On An Issue](copilot/how-tos/use-copilot-agents/coding-agent/assign-copilot-to-an-issue.md)
         * [Asking Git Hub Copilot To Create A Pull Request](copilot/how-tos/use-copilot-agents/coding-agent/create-a-pr.md)
         * [Customizing The Development Environment For Git Hub Copilot Coding Agent](copilot/how-tos/use-copilot-agents/coding-agent/customize-the-agent-environment.md)
         * [Customizing Or Disabling The Firewall For Git Hub Copilot Coding Agent](copilot/how-tos/use-copilot-agents/coding-agent/customize-the-agent-firewall.md)
