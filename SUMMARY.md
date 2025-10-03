@@ -2087,6 +2087,7 @@
         * [Handling API Rate Limits](copilot/tutorials/copilot-chat-cookbook/debug-errors/handle-api-rate-limits.md)
         * [Debug Errors](copilot/tutorials/copilot-chat-cookbook/debug-errors/index.md)
       - Document Code
+        * [Creating Issues](copilot/tutorials/copilot-chat-cookbook/document-code/creating-issues.md)
         * [Documenting Legacy Code](copilot/tutorials/copilot-chat-cookbook/document-code/document-legacy-code.md)
         * [Explaining Complex Algorithms Or Logic](copilot/tutorials/copilot-chat-cookbook/document-code/explain-complex-logic.md)
         * [Explaining Legacy Code](copilot/tutorials/copilot-chat-cookbook/document-code/explain-legacy-code.md)
