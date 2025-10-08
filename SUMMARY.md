@@ -1044,6 +1044,7 @@
       * [Git Hub Copilot Billing](billing/concepts/product-billing/github-copilot.md)
       * [Git Hub Models Billing](billing/concepts/product-billing/github-models.md)
       * [Git Hub Packages Billing](billing/concepts/product-billing/github-packages.md)
+      * [Git Hub Spark Billing](billing/concepts/product-billing/github-spark.md)
       * [Product Billing](billing/concepts/product-billing/index.md)
     - Third Party Payments
       * [Git Hub Marketplace App Subscriptions](billing/concepts/third-party-payments/github-marketplace-apps.md)
@@ -1825,7 +1826,6 @@
       * [Concepts For Git Hub Copilot Agents](copilot/concepts/agents/index.md)
     - Billing
       * [About Billing For Individual Git Hub Copilot Plans](copilot/concepts/billing/billing-for-individuals.md)
-      * [About Billing For Git Hub Spark](copilot/concepts/billing/billing-for-spark.md)
       * [Requests In Git Hub Copilot](copilot/concepts/billing/copilot-requests.md)
       * [Git Hub Copilot Billing](copilot/concepts/billing/index.md)
       * [About Individual Git Hub Copilot Plans And Benefits](copilot/concepts/billing/individual-plans.md)
