@@ -404,6 +404,22 @@
       * [Understanding The Snapshot File Structure](admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/understanding-the-snapshot-file-structure.md)
     * [Configuring Backups On Your Instance Using Backup Utilities](admin/backing-up-and-restoring-your-instance/configuring-backups-on-your-instance.md)
     * [Backing Up And Restoring Your Instance](admin/backing-up-and-restoring-your-instance/index.md)
+  - Concepts
+    - Enterprise Fundamentals
+      * [Enterprise Accounts](admin/concepts/enterprise-fundamentals/enterprise-accounts.md)
+      * [Enterprise Fundamentals](admin/concepts/enterprise-fundamentals/index.md)
+      * [Roles In An Enterprise](admin/concepts/enterprise-fundamentals/roles-in-an-enterprise.md)
+      * [Teams In An Enterprise](admin/concepts/enterprise-fundamentals/teams-in-an-enterprise.md)
+    - Identity And Access Management
+      * [About {% data variables.product.prodname_emus %}](admin/concepts/identity-and-access-management/enterprise-managed-users.md)
+      * [Identity And Access Management Fundamentals](admin/concepts/identity-and-access-management/identity-and-access-management-fundamentals.md)
+      * [Identity And Access Management](admin/concepts/identity-and-access-management/index.md)
+    - Security And Compliance
+      * [Audit Log For An Enterprise](admin/concepts/security-and-compliance/audit-log-for-an-enterprise.md)
+      * [Enterprise Policies](admin/concepts/security-and-compliance/enterprise-policies.md)
+      * [Security And Compliance](admin/concepts/security-and-compliance/index.md)
+    * [Best Practices For Enterprises](admin/concepts/best-practices-for-enterprises.md)
+    * [Concepts For Enterprises](admin/concepts/index.md)
   - Configuring Packages
     * [Configuring Package Ecosystem Support For Your Enterprise](admin/configuring-packages/configuring-package-ecosystem-support-for-your-enterprise.md)
     * [Enabling Git Hub Packages With AWS](admin/configuring-packages/enabling-github-packages-with-aws.md)
@@ -480,7 +496,6 @@
     * [Resolving issues with your enterprise on GHE.com](admin/data-residency/resolving-issues-with-your-enterprise-on-ghecom.md)
   - Enforcing Policies
     - Enforcing Policies For Your Enterprise
-      * [About Enterprise Policies](admin/enforcing-policies/enforcing-policies-for-your-enterprise/about-enterprise-policies.md)
       * [Enforcing Code Governance In Your Enterprise With Rulesets](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-code-governance.md)
       * [Enforcing Policies For Code Security And Analysis For Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-code-security-and-analysis-for-your-enterprise.md)
       * [Enforcing Policies For Git Hub Actions In Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise.md)
@@ -622,6 +637,11 @@
       * [Setting Up The Tool Cache On Self Hosted Runners Without Internet Access](admin/managing-github-actions-for-your-enterprise/managing-access-to-actions-from-githubcom/setting-up-the-tool-cache-on-self-hosted-runners-without-internet-access.md)
       * [Using The Latest Version Of The Official Bundled Actions](admin/managing-github-actions-for-your-enterprise/managing-access-to-actions-from-githubcom/using-the-latest-version-of-the-official-bundled-actions.md)
     * [Managing Git Hub Actions For Your Enterprise](admin/managing-github-actions-for-your-enterprise/index.md)
+  - Managing Github Apps For Your Enterprise
+    * [Adding And Removing Git Hub App Managers In Your Enterprise](admin/managing-github-apps-for-your-enterprise/adding-and-removing-github-app-managers-in-your-enterprise.md)
+    * [Automating App Installations In Your Enterprise S Organizations](admin/managing-github-apps-for-your-enterprise/automate-installations.md)
+    * [Creating Git Hub Apps For Your Enterprise](admin/managing-github-apps-for-your-enterprise/creating-github-apps-for-your-enterprise.md)
+    * [Managing Git Hub Apps For Your Enterprise](admin/managing-github-apps-for-your-enterprise/index.md)
   - Managing Iam
     - Configuring Authentication For Enterprise Managed Users
       * [About Support For Your Id P S Conditional Access Policy](admin/managing-iam/configuring-authentication-for-enterprise-managed-users/about-support-for-your-idps-conditional-access-policy.md)
@@ -658,8 +678,6 @@
       * [Migrating Your Enterprise To A New Identity Provider Or Tenant](admin/managing-iam/reconfiguring-iam-for-enterprise-managed-users/migrating-your-enterprise-to-a-new-identity-provider-or-tenant.md)
     - Understanding Iam For Enterprises
       * [Abilities And Restrictions Of Managed User Accounts](admin/managing-iam/understanding-iam-for-enterprises/abilities-and-restrictions-of-managed-user-accounts.md)
-      * [About {% data variables.product.prodname_emus %}](admin/managing-iam/understanding-iam-for-enterprises/about-enterprise-managed-users.md)
-      * [About Identity And Access Management](admin/managing-iam/understanding-iam-for-enterprises/about-identity-and-access-management.md)
       * [About SAML For Enterprise IAM](admin/managing-iam/understanding-iam-for-enterprises/about-saml-for-enterprise-iam.md)
       * [Allowing Built In Authentication For Users Outside Your Provider](admin/managing-iam/understanding-iam-for-enterprises/allowing-built-in-authentication-for-users-outside-your-provider.md)
       * [Changing Authentication Methods](admin/managing-iam/understanding-iam-for-enterprises/changing-authentication-methods.md)
@@ -692,12 +710,9 @@
       * [Updating A User S SAML Name ID](admin/managing-iam/using-saml-for-enterprise-iam/updating-a-users-saml-nameid.md)
     * [Identity And Access Management](admin/managing-iam/index.md)
   - Managing Your Enterprise Account
-    * [About Enterprise Accounts](admin/managing-your-enterprise-account/about-enterprise-accounts.md)
-    * [Adding And Removing Git Hub App Managers In Your Enterprise](admin/managing-your-enterprise-account/adding-and-removing-github-app-managers-in-your-enterprise.md)
     * [Changing The URL For Your Enterprise](admin/managing-your-enterprise-account/changing-the-url-for-your-enterprise.md)
     * [Creating A README For An Enterprise](admin/managing-your-enterprise-account/creating-a-readme-for-an-enterprise.md)
     * [Creating An Enterprise Account](admin/managing-your-enterprise-account/creating-an-enterprise-account.md)
-    * [Creating Git Hub Apps For Your Enterprise](admin/managing-your-enterprise-account/creating-github-apps-for-your-enterprise.md)
     * [Deleting An Enterprise Account](admin/managing-your-enterprise-account/deleting-an-enterprise-account.md)
     * [Managing Your Enterprise Account](admin/managing-your-enterprise-account/index.md)
   - Monitoring Activity In Your Enterprise
@@ -714,7 +729,6 @@
       * [Managing Global Webhooks](admin/monitoring-activity-in-your-enterprise/exploring-user-activity-in-your-enterprise/managing-global-webhooks.md)
       * [Viewing Push Logs](admin/monitoring-activity-in-your-enterprise/exploring-user-activity-in-your-enterprise/viewing-push-logs.md)
     - Reviewing Audit Logs For Your Enterprise
-      * [About The Audit Log For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/about-the-audit-log-for-your-enterprise.md)
       * [Accessing The Audit Log For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/accessing-the-audit-log-for-your-enterprise.md)
       * [Audit Log Events For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/audit-log-events-for-your-enterprise.md)
       * [Configuring The Audit Log For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/configuring-the-audit-log-for-your-enterprise.md)
@@ -778,12 +792,9 @@
     * [About Git Hub Enterprise Cloud](admin/overview/about-github-enterprise-cloud.md)
     * [About Git Hub Enterprise Server](admin/overview/about-github-enterprise-server.md)
     * [About Git Hub For Enterprises](admin/overview/about-github-for-enterprises.md)
-    * [About Roles In An Enterprise](admin/overview/about-roles.md)
-    * [About Teams In An Enterprise](admin/overview/about-teams.md)
     * [About The Git Hub Enterprise API](admin/overview/about-the-github-enterprise-api.md)
     * [About Upgrades To New Releases](admin/overview/about-upgrades-to-new-releases.md)
     * [Accessing Compliance Reports For Your Enterprise](admin/overview/accessing-compliance-reports-for-your-enterprise.md)
-    * [Best Practices For Enterprises](admin/overview/best-practices-for-enterprises.md)
     * [Establishing A Governance Framework For Your Enterprise](admin/overview/establishing-a-governance-framework-for-your-enterprise.md)
     * [Feature Overview For Git Hub Enterprise Cloud](admin/overview/feature-overview-for-github-enterprise-cloud.md)
     * [Overview](admin/overview/index.md)
@@ -1965,6 +1976,7 @@
       - Use Mcp
         * [Extending Git Hub Copilot Chat With The Model Context Protocol MCP](copilot/how-tos/provide-context/use-mcp/extend-copilot-chat-with-mcp.md)
         * [Using Model Context Protocol](copilot/how-tos/provide-context/use-mcp/index.md)
+        * [Setting Up The Git Hub MCP Server](copilot/how-tos/provide-context/use-mcp/set-up-the-github-mcp-server.md)
         * [Using The Git Hub MCP Server](copilot/how-tos/provide-context/use-mcp/use-the-github-mcp-server.md)
       * [Creating And Managing Git Hub Copilot Knowledge Bases](copilot/how-tos/provide-context/create-knowledge-bases.md)
       * [Provide Context To Git Hub Copilot](copilot/how-tos/provide-context/index.md)
