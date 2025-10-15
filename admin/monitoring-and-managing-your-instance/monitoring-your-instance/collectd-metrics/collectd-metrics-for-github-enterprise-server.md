@@ -15,9 +15,11 @@ redirect_from:
   - /admin/monitoring-managing-and-updating-your-instance/monitoring-your-instance/collectd-metrics-for-github-enterprise-server
 ---
 
+{% data reusables.enterprise.collectd-metrics-future %}
+
 ## About `collectd` metrics
 
-By default, `collectd` on {% data variables.location.product_location %} gathers metrics related to the instance's performance. For more information, see [AUTOTITLE](/admin/monitoring-and-managing-your-instance/monitoring-your-instance/configuring-collectd-for-your-instance).
+By default, `collectd` on {% data variables.location.product_location %} gathers metrics related to the instance's performance.
 
 You can learn more about the type of data that `collectd` gathers, and you can download a CSV file that contains a full list of metrics.
 

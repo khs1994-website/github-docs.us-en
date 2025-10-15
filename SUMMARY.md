@@ -412,6 +412,7 @@
       * [Teams In An Enterprise](admin/concepts/enterprise-fundamentals/teams-in-an-enterprise.md)
     - Identity And Access Management
       * [About {% data variables.product.prodname_emus %}](admin/concepts/identity-and-access-management/enterprise-managed-users.md)
+      * [Enterprise Types For Git Hub Enterprise Cloud](admin/concepts/identity-and-access-management/enterprise-types-for-github-enterprise-cloud.md)
       * [Identity And Access Management Fundamentals](admin/concepts/identity-and-access-management/identity-and-access-management-fundamentals.md)
       * [Identity And Access Management](admin/concepts/identity-and-access-management/index.md)
     - Security And Compliance
@@ -681,7 +682,6 @@
       * [About SAML For Enterprise IAM](admin/managing-iam/understanding-iam-for-enterprises/about-saml-for-enterprise-iam.md)
       * [Allowing Built In Authentication For Users Outside Your Provider](admin/managing-iam/understanding-iam-for-enterprises/allowing-built-in-authentication-for-users-outside-your-provider.md)
       * [Changing Authentication Methods](admin/managing-iam/understanding-iam-for-enterprises/changing-authentication-methods.md)
-      * [Choosing An Enterprise Type For Git Hub Enterprise Cloud](admin/managing-iam/understanding-iam-for-enterprises/choosing-an-enterprise-type-for-github-enterprise-cloud.md)
       * [Getting started with {% data variables.product.prodname_emus %}](admin/managing-iam/understanding-iam-for-enterprises/getting-started-with-enterprise-managed-users.md)
       * [Understanding IAM For Enterprises](admin/managing-iam/understanding-iam-for-enterprises/index.md)
       * [Troubleshooting Identity And Access Management For Your Enterprise](admin/managing-iam/understanding-iam-for-enterprises/troubleshooting-identity-and-access-management-for-your-enterprise.md)
@@ -770,16 +770,25 @@
       * [Recovering A High Availability Configuration](admin/monitoring-and-managing-your-instance/configuring-high-availability/recovering-a-high-availability-configuration.md)
       * [Removing A High Availability Replica](admin/monitoring-and-managing-your-instance/configuring-high-availability/removing-a-high-availability-replica.md)
     - Monitoring Your Instance
+      - Collectd Metrics
+        * [About Collectd Metrics](admin/monitoring-and-managing-your-instance/monitoring-your-instance/collectd-metrics/about-collectd-metrics.md)
+        * [Collectd Metrics For Git Hub Enterprise Server](admin/monitoring-and-managing-your-instance/monitoring-your-instance/collectd-metrics/collectd-metrics-for-github-enterprise-server.md)
+        * [Exporting And Scraping Prometheus Metrics](admin/monitoring-and-managing-your-instance/monitoring-your-instance/collectd-metrics/exporting-and-scraping-prometheus-metrics.md)
+        * [Collectd Metrics](admin/monitoring-and-managing-your-instance/monitoring-your-instance/collectd-metrics/index.md)
+        * [Setting Up External Monitoring With Collectd](admin/monitoring-and-managing-your-instance/monitoring-your-instance/collectd-metrics/setting-up-external-monitoring-with-collectd.md)
+      - Opentelemetry Metrics
+        * [About Open Telemetry Metrics](admin/monitoring-and-managing-your-instance/monitoring-your-instance/opentelemetry-metrics/about-opentelemetry-metrics.md)
+        * [Configuring Open Telemetry For Your Instance](admin/monitoring-and-managing-your-instance/monitoring-your-instance/opentelemetry-metrics/configuring-opentelemetry-for-your-instance.md)
+        * [Enabling Advanced Dashboards Of Open Telemetry Metrics](admin/monitoring-and-managing-your-instance/monitoring-your-instance/opentelemetry-metrics/enable-advanced-dashboards.md)
+        * [Open Telemetry Metrics](admin/monitoring-and-managing-your-instance/monitoring-your-instance/opentelemetry-metrics/index.md)
+        * [Setting Up External Monitoring With Open Telemetry](admin/monitoring-and-managing-your-instance/monitoring-your-instance/opentelemetry-metrics/setting-up-external-monitoring-with-opentelemetry.md)
+      * [About Monitoring Your Instance](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-monitoring-your-instance.md)
       * [About System Logs](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-system-logs.md)
       * [About the monitor {% ifversion ghes > 3.15 %}dashboards{% else %}dashboard{% endif %}](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-the-monitor-dashboards.md)
-      * [Collectd Metrics For Git Hub Enterprise Server](admin/monitoring-and-managing-your-instance/monitoring-your-instance/collectd-metrics-for-github-enterprise-server.md)
-      * [Configuring Collectd For Your Instance](admin/monitoring-and-managing-your-instance/monitoring-your-instance/configuring-collectd-for-your-instance.md)
-      * [Exporting And Scraping Prometheus Metrics](admin/monitoring-and-managing-your-instance/monitoring-your-instance/exporting-and-scraping-prometheus-metrics.md)
       * [Generating A Health Check For Your Enterprise](admin/monitoring-and-managing-your-instance/monitoring-your-instance/generating-a-health-check-for-your-enterprise.md)
       * [Monitoring Your Instance](admin/monitoring-and-managing-your-instance/monitoring-your-instance/index.md)
       * [Monitoring Using SNMP](admin/monitoring-and-managing-your-instance/monitoring-your-instance/monitoring-using-snmp.md)
       * [Recommended Alert Thresholds](admin/monitoring-and-managing-your-instance/monitoring-your-instance/recommended-alert-thresholds.md)
-      * [Setting Up External Monitoring](admin/monitoring-and-managing-your-instance/monitoring-your-instance/setting-up-external-monitoring.md)
       * [Troubleshooting Resource Allocation Problems](admin/monitoring-and-managing-your-instance/monitoring-your-instance/troubleshooting-resource-allocation-problems.md)
     - Updating The Virtual Machine And Physical Resources
       * [Changing Your Platform](admin/monitoring-and-managing-your-instance/updating-the-virtual-machine-and-physical-resources/changing-your-platform.md)

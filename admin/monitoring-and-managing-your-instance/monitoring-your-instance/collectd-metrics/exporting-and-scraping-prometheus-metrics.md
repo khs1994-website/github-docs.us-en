@@ -11,7 +11,11 @@ topics:
   - Infrastructure
   - Monitoring
   - Performance
+redirect_from:
+  - /admin/monitoring-and-managing-your-instance/monitoring-your-instance/exporting-and-scraping-prometheus-metrics
 ---
+
+{% data reusables.enterprise.collectd-metrics-future %}
 
 {% data variables.product.prodname_ghe_server %} includes a Prometheus metrics exporter to simplify observability and monitoring. This feature allows metrics to be scraped directly from the appliance, eliminating the need to forward `collectd` metrics to an external `collectd` server for transformation before sending them to a Prometheus system. By supporting Prometheus-compatible metrics natively, the exporter enables seamless integration with external monitoring dashboards and alerting systems.
 
@@ -35,8 +39,10 @@ To enable the Prometheus metrics exporter, SSH into the {% data variables.produc
 
 ```shell
 ghe-config app.prometheus.enabled true
-# Specify a comma-separated list of trusted IPv4/IPv6 addresses or CIDR blocks.
-ghe-config app.prometheus.trusted-ips "10.0.0.1, 192.168.1.0/8"
+# Specify a comma-separated list of 
+# trusted IPv4/IPv6 addresses or CIDR blocks.
+ghe-config app.prometheus.trusted-ips \
+  "10.0.0.1, 192.168.1.0/8"
 ghe-config-apply
 ```
 
@@ -45,7 +51,10 @@ ghe-config-apply
 You can enable the Prometheus metrics exporter using the API by sending a `PUT` request to update the configuration settings.
 
 ```shell
-curl -L -H "Content-Type: application/json" -X PUT -u "api_key:xxxxxxx" https://<hostname>/manage/v1/config/settings -d '{"prometheus": {"enabled": true, "trusted_ips": "10.0.0.1, 192.168.1.0/8"}}'
+curl -L -H "Content-Type: application/json" \
+  -X PUT -u "api_key:xxxxxxx" \
+  https://<hostname>/manage/v1/config/settings \
+  -d '{"prometheus": {"enabled": true, "trusted_ips": "10.0.0.1, 192.168.1.0/8"}}'
 ```
 
 ## Verifying the Prometheus metrics exporter is enabled
