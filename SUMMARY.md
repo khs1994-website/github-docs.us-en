@@ -2193,6 +2193,7 @@
     * [Modernizing Legacy Code With Git Hub Copilot](copilot/tutorials/modernize-legacy-code.md)
     * [Planning A Project With Git Hub Copilot](copilot/tutorials/plan-a-project.md)
     * [Refactoring Code With Git Hub Copilot](copilot/tutorials/refactor-code.md)
+    * [Review AI Generated Code](copilot/tutorials/review-ai-generated-code.md)
     * [Speeding Up Development Work With Git Hub Copilot Spaces](copilot/tutorials/speed-up-development-work.md)
     * [Quickstart For Git Hub Copilot Extensions Using Agents](copilot/tutorials/try-extensions.md)
     * [Upgrading Projects With Git Hub Copilot](copilot/tutorials/upgrade-projects.md)
