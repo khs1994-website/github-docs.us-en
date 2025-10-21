@@ -3437,7 +3437,7 @@
     * [REST API Endpoints For O Auth App Authorizations](rest/oauth-authorizations/oauth-authorizations.md)
   - Orgs
     * [REST API Endpoints For API Insights](rest/orgs/api-insights.md)
-    * [Artifact Metadata](rest/orgs/artifact-metadata.md)
+    * [REST API Endpoints For Artifact Metadata](rest/orgs/artifact-metadata.md)
     * [REST API Endpoints For Artifact Attestations](rest/orgs/attestations.md)
     * [REST API Endpoints For Blocking Users](rest/orgs/blocking.md)
     * [REST API Endpoints For Organization Push Rule Bypass Requests](rest/orgs/bypass-requests.md)
