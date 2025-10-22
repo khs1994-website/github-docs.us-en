@@ -1859,7 +1859,7 @@
     - Prompting
       * [Concepts For Prompting Git Hub Copilot](copilot/concepts/prompting/index.md)
       * [Prompt Engineering For Git Hub Copilot Chat](copilot/concepts/prompting/prompt-engineering.md)
-      * [About Customizing Git Hub Copilot Chat Responses](copilot/concepts/prompting/response-customization.md)
+      * [About Customizing Git Hub Copilot Responses](copilot/concepts/prompting/response-customization.md)
     * [Choosing The Right AI Tool For Your Task](copilot/concepts/ai-tools.md)
     * [About {% data variables.product.prodname_copilot_short %} auto model selection](copilot/concepts/auto-model-selection.md)
     * [About Git Hub Copilot Chat](copilot/concepts/chat.md)
