@@ -3605,6 +3605,7 @@
     * [Git Hub Community Guidelines](site-policy/github-terms/github-community-guidelines.md)
     * [Git Hub Copilot Extension Developer Policy](site-policy/github-terms/github-copilot-extension-developer-policy.md)
     * [Git Hub Corporate Terms Of Service](site-policy/github-terms/github-corporate-terms-of-service.md)
+    * [Git Hub DPA Covered Previews](site-policy/github-terms/github-dpa-previews.md)
     * [Git Hub Educational Use Agreement](site-policy/github-terms/github-educational-use-agreement.md)
     * [Git Hub Event Code Of Conduct](site-policy/github-terms/github-event-code-of-conduct.md)
     * [Git Hub Event Terms](site-policy/github-terms/github-event-terms.md)
