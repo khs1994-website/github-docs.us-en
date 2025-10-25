@@ -405,7 +405,7 @@
       * [Audit Log For An Enterprise](admin/concepts/security-and-compliance/audit-log-for-an-enterprise.md)
       * [Enterprise Policies](admin/concepts/security-and-compliance/enterprise-policies.md)
       * [Security And Compliance](admin/concepts/security-and-compliance/index.md)
-    * [Best Practices For Enterprises](admin/concepts/best-practices-for-enterprises.md)
+    * [Best Practices For Organizing Work In Your Enterprise](admin/concepts/best-practices.md)
     * [Concepts For Enterprises](admin/concepts/index.md)
   - Configuring Packages
     * [Configuring Package Ecosystem Support For Your Enterprise](admin/configuring-packages/configuring-package-ecosystem-support-for-your-enterprise.md)
@@ -521,7 +521,6 @@
       * [Communicating Information To Users In Your Enterprise](admin/managing-accounts-and-repositories/communicating-information-to-users-in-your-enterprise/index.md)
     - Managing Organizations In Your Enterprise
       * [Adding Organizations To Your Enterprise](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/adding-organizations-to-your-enterprise.md)
-      * [Best Practices For Structuring Organizations In Your Enterprise](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/best-practices-for-structuring-organizations-in-your-enterprise.md)
       * [Configuring Visibility For Organization Membership](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/configuring-visibility-for-organization-membership.md)
       * [Managing Organizations In Your Enterprise](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/index.md)
       * [Managing Projects Using Jira](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/managing-projects-using-jira.md)
@@ -793,7 +792,6 @@
     * [About Upgrades To New Releases](admin/overview/about-upgrades-to-new-releases.md)
     * [Accessing Compliance Reports For Your Enterprise](admin/overview/accessing-compliance-reports-for-your-enterprise.md)
     * [Establishing A Governance Framework For Your Enterprise](admin/overview/establishing-a-governance-framework-for-your-enterprise.md)
-    * [Feature Overview For Git Hub Enterprise Cloud](admin/overview/feature-overview-for-github-enterprise-cloud.md)
     * [Overview](admin/overview/index.md)
     * [Setting Up A Trial Of Git Hub Enterprise Cloud](admin/overview/setting-up-a-trial-of-github-enterprise-cloud.md)
     * [Setting Up A Trial Of Git Hub Enterprise Server](admin/overview/setting-up-a-trial-of-github-enterprise-server.md)
