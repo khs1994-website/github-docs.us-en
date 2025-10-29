@@ -173,6 +173,7 @@
         * [Controlling Access To Larger Runners](actions/how-tos/manage-runners/larger-runners/control-access.md)
         * [Using Larger Runners](actions/how-tos/manage-runners/larger-runners/index.md)
         * [Managing Larger Runners](actions/how-tos/manage-runners/larger-runners/manage-larger-runners.md)
+        * [Using Custom Images](actions/how-tos/manage-runners/larger-runners/use-custom-images.md)
         * [Running Jobs On Larger Runners](actions/how-tos/manage-runners/larger-runners/use-larger-runners.md)
       - Self Hosted Runners
         * [Adding Self Hosted Runners](actions/how-tos/manage-runners/self-hosted-runners/add-runners.md)
@@ -185,8 +186,8 @@
         * [Removing Self Hosted Runners](actions/how-tos/manage-runners/self-hosted-runners/remove-runners.md)
         * [Running Scripts Before Or After A Job](actions/how-tos/manage-runners/self-hosted-runners/run-scripts.md)
         * [Using Self Hosted Runners In A Workflow](actions/how-tos/manage-runners/self-hosted-runners/use-in-a-workflow.md)
-        * [Using A Proxy Server With Self Hosted Runners](actions/how-tos/manage-runners/self-hosted-runners/use-proxy-servers.md)
       * [Manage Runners](actions/how-tos/manage-runners/index.md)
+      * [Using Proxy Servers With A Runner](actions/how-tos/manage-runners/use-proxy-servers.md)
     - Manage Workflow Runs
       * [Approving Workflow Runs From Forks](actions/how-tos/manage-workflow-runs/approve-runs-from-forks.md)
       * [Canceling A Workflow Run](actions/how-tos/manage-workflow-runs/cancel-a-workflow-run.md)
@@ -398,7 +399,6 @@
       * [Teams In An Enterprise](admin/concepts/enterprise-fundamentals/teams-in-an-enterprise.md)
     - Identity And Access Management
       * [About {% data variables.product.prodname_emus %}](admin/concepts/identity-and-access-management/enterprise-managed-users.md)
-      * [Enterprise Types For Git Hub Enterprise Cloud](admin/concepts/identity-and-access-management/enterprise-types-for-github-enterprise-cloud.md)
       * [Identity And Access Management Fundamentals](admin/concepts/identity-and-access-management/identity-and-access-management-fundamentals.md)
       * [Identity And Access Management](admin/concepts/identity-and-access-management/index.md)
     - Security And Compliance
@@ -468,11 +468,6 @@
       * [Restricting Network Traffic To Your Enterprise With An IP Allow List](admin/configuring-settings/hardening-security-for-your-enterprise/restricting-network-traffic-to-your-enterprise-with-an-ip-allow-list.md)
       * [Troubleshooting TLS Errors](admin/configuring-settings/hardening-security-for-your-enterprise/troubleshooting-tls-errors.md)
     * [Configuring Git Hub Enterprise](admin/configuring-settings/index.md)
-  - Copilot Business Only
-    * [About Enterprise Accounts For Copilot Business](admin/copilot-business-only/about-enterprise-accounts-for-copilot-business.md)
-    * [Using A Dedicated Enterprise Account For Copilot Business](admin/copilot-business-only/index.md)
-    * [Setting up a dedicated enterprise for Copilot Business ({% data variables.product.prodname_emus %})](admin/copilot-business-only/setting-up-a-dedicated-enterprise-for-copilot-business-managed-users.md)
-    * [Setting Up A Dedicated Enterprise For Copilot Business Personal Accounts](admin/copilot-business-only/setting-up-a-dedicated-enterprise-for-copilot-business-personal-accounts.md)
   - Data Residency
     * [About Git Hub Enterprise Cloud With Data Residency](admin/data-residency/about-github-enterprise-cloud-with-data-residency.md)
     * [About Storage Of Your Data With Data Residency](admin/data-residency/about-storage-of-your-data-with-data-residency.md)
@@ -483,6 +478,7 @@
     * [Resolving issues with your enterprise on GHE.com](admin/data-residency/resolving-issues-with-your-enterprise-on-ghecom.md)
   - Enforcing Policies
     - Enforcing Policies For Your Enterprise
+      * [Controlling User Offboarding With The Unaffiliated Users Policy](admin/enforcing-policies/enforcing-policies-for-your-enterprise/control-offboarding.md)
       * [Enforcing Code Governance In Your Enterprise With Rulesets](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-code-governance.md)
       * [Enforcing Policies For Code Security And Analysis For Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-code-security-and-analysis-for-your-enterprise.md)
       * [Enforcing Policies For Git Hub Actions In Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise.md)
@@ -522,9 +518,11 @@
     - Managing Organizations In Your Enterprise
       * [Adding Organizations To Your Enterprise](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/adding-organizations-to-your-enterprise.md)
       * [Configuring Visibility For Organization Membership](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/configuring-visibility-for-organization-membership.md)
+      * [Custom Properties](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/custom-properties.md)
       * [Managing Organizations In Your Enterprise](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/index.md)
+      * [Managing Custom Properties For Organizations](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/managing-custom-properties-for-organizations.md)
       * [Managing Projects Using Jira](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/managing-projects-using-jira.md)
-      * [Managing Requests For Copilot Business From Organizations In Your Enterprise](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/managing-requests-for-copilot-business-from-organizations-in-your-enterprise.md)
+      * [Managing Requests For Copilot Business](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/managing-requests-for-copilot-business.md)
       * [Managing Your Role In An Organization Owned By Your Enterprise](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/managing-your-role-in-an-organization-owned-by-your-enterprise.md)
       * [Preventing Users From Creating Organizations](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/preventing-users-from-creating-organizations.md)
       * [Removing Organizations From Your Enterprise](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/removing-organizations-from-your-enterprise.md)
@@ -1046,6 +1044,7 @@
       * [Git Large File Storage Billing](billing/concepts/product-billing/git-lfs.md)
       * [Git Hub Actions Billing](billing/concepts/product-billing/github-actions.md)
       * [{% data variables.product.prodname_GHAS %} license billing](billing/concepts/product-billing/github-advanced-security.md)
+      * [{% data variables.product.prodname_code_quality %} billing](billing/concepts/product-billing/github-code-quality.md)
       * [Git Hub Codespaces Billing](billing/concepts/product-billing/github-codespaces.md)
       * [Git Hub Copilot Licenses](billing/concepts/product-billing/github-copilot-licenses.md)
       * [Git Hub Copilot Premium Requests](billing/concepts/product-billing/github-copilot-premium-requests.md)
@@ -1152,6 +1151,32 @@
     * [Phase 4 Create Internal Documentation](code-security/adopting-github-advanced-security-at-scale/phase-4-create-internal-documentation.md)
     * [Phase 5 Rollout And Scale Code Scanning](code-security/adopting-github-advanced-security-at-scale/phase-5-rollout-and-scale-code-scanning.md)
     * [Phase 6 Rollout And Scale Secret Scanning](code-security/adopting-github-advanced-security-at-scale/phase-6-rollout-and-scale-secret-scanning.md)
+  - Code Quality
+    - Concepts
+      * [About Git Hub Code Quality](code-security/code-quality/concepts/about-code-quality.md)
+      * [Concepts For Git Hub Code Quality](code-security/code-quality/concepts/index.md)
+    - Get Started
+      * [Get Started With Git Hub Code Quality](code-security/code-quality/get-started/index.md)
+      * [Quickstart For Git Hub Code Quality](code-security/code-quality/get-started/quickstart.md)
+    - How Tos
+      * [Allowing use of {% data variables.product.prodname_code_quality %} in your enterprise](code-security/code-quality/how-tos/allow-in-enterprise.md)
+      * [Enabling {% data variables.product.prodname_code_quality %}](code-security/code-quality/how-tos/enable-code-quality.md)
+      * [How To Guides For Git Hub Code Quality](code-security/code-quality/how-tos/index.md)
+      * [Interpreting The Code Quality Results For Your Repository](code-security/code-quality/how-tos/interpret-results.md)
+      * [Setting Code Quality Thresholds For Pull Requests](code-security/code-quality/how-tos/set-pr-thresholds.md)
+      * [Resolving A Block On Your Pull Request](code-security/code-quality/how-tos/unblock-your-pr.md)
+    - Reference
+      * [Code QL Detection Of Code Quality Problems](code-security/code-quality/reference/codeql-detection.md)
+      * [Reference For Git Hub Code Quality](code-security/code-quality/reference/index.md)
+      * [Metrics And Ratings Reference](code-security/code-quality/reference/metrics-and-ratings.md)
+    - Responsible Use
+      * [Responsible Use Of Git Hub Code Quality](code-security/code-quality/responsible-use/index.md)
+    - Tutorials
+      * [Fixing Code Quality Findings Before Merging Your Pull Request](code-security/code-quality/tutorials/fix-findings-in-prs.md)
+      * [Improving The Quality Of Recently Merged Code With AI](code-security/code-quality/tutorials/improve-recent-merges.md)
+      * [Improving The Quality Of Your Repository S Code](code-security/code-quality/tutorials/improve-your-codebase.md)
+      * [Tutorials For Git Hub Code Quality](code-security/code-quality/tutorials/index.md)
+    * [Git Hub Code Quality Documentation](code-security/code-quality/index.md)
   - Code Scanning
     - Creating An Advanced Setup For Code Scanning
       * [Code QL Code Scanning For Compiled Languages](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/codeql-code-scanning-for-compiled-languages.md)
@@ -1180,7 +1205,7 @@
       * [About Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/about-code-scanning-alerts.md)
       * [Assessing Code Scanning Alerts For Your Repository](code-security/code-scanning/managing-code-scanning-alerts/assessing-code-scanning-alerts-for-your-repository.md)
       * [Best Practices For Participating In A Code Security Campaign](code-security/code-scanning/managing-code-scanning-alerts/best-practices-for-participating-in-a-security-campaign.md)
-      * [Disabling Copilot Autofix For Code Scanning](code-security/code-scanning/managing-code-scanning-alerts/disabling-autofix-for-code-scanning.md)
+      * [Disabling Copilot Autofix For Code Scanning Security Alerts](code-security/code-scanning/managing-code-scanning-alerts/disabling-autofix-for-code-scanning.md)
       * [Fixing Alerts In A Security Campaign](code-security/code-scanning/managing-code-scanning-alerts/fixing-alerts-in-security-campaign.md)
       * [Managing Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/index.md)
       * [Resolving Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/resolving-code-scanning-alerts.md)
@@ -1441,6 +1466,7 @@
       * [Responsible Detection Of Generic Secrets With Copilot Secret Scanning](code-security/secret-scanning/copilot-secret-scanning/responsible-ai-generic-secrets.md)
       * [Responsible Generation Of Regular Expressions With Copilot Secret Scanning](code-security/secret-scanning/copilot-secret-scanning/responsible-ai-regex-generator.md)
     - Enabling Secret Scanning Features
+      * [Enabling Extended Metadata Checks For Your Repository](code-security/secret-scanning/enabling-secret-scanning-features/enabling-extended-metadata-checks-for-your-repository.md)
       * [Enabling Push Protection For Your Repository](code-security/secret-scanning/enabling-secret-scanning-features/enabling-push-protection-for-your-repository.md)
       * [Enabling Secret Scanning For Your Repository](code-security/secret-scanning/enabling-secret-scanning-features/enabling-secret-scanning-for-your-repository.md)
       * [Enabling Validity Checks For Your Repository](code-security/secret-scanning/enabling-secret-scanning-features/enabling-validity-checks-for-your-repository.md)
@@ -1611,7 +1637,7 @@
     * [Trialing {% data variables.product.prodname_GHAS %}](code-security/trialing-github-advanced-security/index.md)
     * [Planning a trial of {% data variables.product.prodname_GHAS %}](code-security/trialing-github-advanced-security/planning-a-trial-of-ghas.md)
     * [Setting Up A Trial Of Git Hub Advanced Security](code-security/trialing-github-advanced-security/trial-advanced-security.md)
-  * [Secure Coding Documentation](code-security/index.md)
+  * [Security And Code Quality Documentation](code-security/index.md)
 - Codespaces
   - About Codespaces
     * [Git Hub Codespaces Features](codespaces/about-codespaces/codespaces-features.md)
@@ -1825,12 +1851,16 @@
     - Agents
       - Coding Agent
         * [About Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/about-coding-agent.md)
+        * [About Custom Agents](copilot/concepts/agents/coding-agent/about-custom-agents.md)
+        * [Managing Access To Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/access-management.md)
+        * [About Agent Management](copilot/concepts/agents/coding-agent/agent-management.md)
         * [Concepts For Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/index.md)
-        * [Managing Access To Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/managing-access.md)
         * [Model Context Protocol MCP And Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/mcp-and-coding-agent.md)
       * [About Git Hub Copilot CLI](copilot/concepts/agents/about-copilot-cli.md)
       * [About Git Hub Copilot Code Review](copilot/concepts/agents/code-review.md)
+      * [Agent Management For Enterprises](copilot/concepts/agents/enterprise-management.md)
       * [Concepts For Git Hub Copilot Agents](copilot/concepts/agents/index.md)
+      * [Open AI Codex](copilot/concepts/agents/openai-codex.md)
     - Billing
       * [About Billing For Individual Git Hub Copilot Plans](copilot/concepts/billing/billing-for-individuals.md)
       * [Requests In Git Hub Copilot](copilot/concepts/billing/copilot-requests.md)
@@ -1860,9 +1890,14 @@
       * [Concepts For Prompting Git Hub Copilot](copilot/concepts/prompting/index.md)
       * [Prompt Engineering For Git Hub Copilot Chat](copilot/concepts/prompting/prompt-engineering.md)
       * [About Customizing Git Hub Copilot Responses](copilot/concepts/prompting/response-customization.md)
-    * [Choosing The Right AI Tool For Your Task](copilot/concepts/ai-tools.md)
+    - Tools
+      * [About Copilot Integrations](copilot/concepts/tools/about-copilot-integrations.md)
+      * [Choosing The Right AI Tool For Your Task](copilot/concepts/tools/ai-tools.md)
+      * [Concepts For AI Tools](copilot/concepts/tools/index.md)
+    * [About Enterprise Accounts For Copilot Business](copilot/concepts/about-enterprise-accounts-for-copilot-business.md)
     * [About {% data variables.product.prodname_copilot_short %} auto model selection](copilot/concepts/auto-model-selection.md)
     * [About Git Hub Copilot Chat](copilot/concepts/chat.md)
+    * [Git Hub Copilot Usage Metrics](copilot/concepts/copilot-metrics.md)
     * [Concepts For Git Hub Copilot](copilot/concepts/index.md)
     * [Network Settings For Git Hub Copilot](copilot/concepts/network-settings.md)
     * [Git Hub Copilot Policies To Control Availability Of Features And Models](copilot/concepts/policies.md)
@@ -1886,6 +1921,12 @@
           * [Managing Access To Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-access/index.md)
           * [Managing Git Hub Copilot Access To Your Enterprise S Network](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-access/manage-network-access.md)
           * [Viewing Copilot License Usage In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-access/view-license-usage.md)
+        - Manage Agents
+          * [Managing Agents In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/index.md)
+          * [Managing Git Hub Copilot Code Review In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/manage-copilot-code-review.md)
+          * [Managing Git Hub Copilot Coding Agent In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/manage-copilot-coding-agent.md)
+          * [Monitoring Agentic Activity In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/monitor-agentic-activity.md)
+          * [Preparing To Use Custom Agents In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/prepare-for-custom-agents.md)
         - Manage Plan
           * [Canceling Git Hub Copilot For Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-plan/cancel-plan.md)
           * [Downgrading Git Hub Copilot For Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-plan/downgrade-subscription.md)
@@ -1893,10 +1934,9 @@
           * [Subscribing To Git Hub Copilot For Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-plan/subscribe.md)
           * [Upgrading Git Hub Copilot For Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-plan/upgrade-plan.md)
         * [Managing Git Hub Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/index.md)
-        * [Managing Git Hub Copilot Code Review In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-copilot-code-review.md)
-        * [Managing Git Hub Copilot Coding Agent In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-copilot-coding-agent.md)
         * [Managing Policies And Features For Git Hub Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-enterprise-policies.md)
         * [Managing Git Hub Spark In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-spark.md)
+        * [Viewing The Copilot Usage Metrics Dashboard](copilot/how-tos/administer-copilot/manage-for-enterprise/view-usage-and-adoption.md)
       - Manage For Organization
         - Manage Access
           * [Granting Access To Git Hub Copilot For Members Of Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-access/grant-access.md)
@@ -1915,6 +1955,7 @@
         * [Adding Git Hub Copilot Coding Agent To Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/add-copilot-coding-agent.md)
         * [Managing Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/index.md)
         * [Managing Policies And Features For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-policies.md)
+        * [Preparing To Use Custom Agents In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/prepare-for-custom-agents.md)
         * [Setting Permissions For A Git Hub Copilot Extension In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/set-extension-permissions.md)
       * [Configure MCP Server Access For Your Organization Or Enterprise](copilot/how-tos/administer-copilot/configure-mcp-server-access.md)
       * [Downloading A Git Hub Copilot Activity Report For Your Organization Or Enterprise](copilot/how-tos/administer-copilot/download-activity-report.md)
@@ -1969,7 +2010,8 @@
         * [Git Hub Copilot Spaces](copilot/how-tos/provide-context/use-copilot-spaces/index.md)
         * [Using Git Hub Copilot Spaces](copilot/how-tos/provide-context/use-copilot-spaces/use-copilot-spaces.md)
       - Use Mcp
-        * [Extending Git Hub Copilot Chat With The Model Context Protocol MCP](copilot/how-tos/provide-context/use-mcp/extend-copilot-chat-with-mcp.md)
+        * [Changing Your MCP Registry In Your IDE](copilot/how-tos/provide-context/use-mcp/change-mcp-registry.md)
+        * [Extending Git Hub Copilot Chat With Model Context Protocol MCP Servers](copilot/how-tos/provide-context/use-mcp/extend-copilot-chat-with-mcp.md)
         * [Using Model Context Protocol](copilot/how-tos/provide-context/use-mcp/index.md)
         * [Setting Up The Git Hub MCP Server](copilot/how-tos/provide-context/use-mcp/set-up-the-github-mcp-server.md)
         * [Using The Git Hub MCP Server](copilot/how-tos/provide-context/use-mcp/use-the-github-mcp-server.md)
@@ -1980,6 +2022,7 @@
       * [Setting Up Git Hub Copilot](copilot/how-tos/set-up/index.md)
       * [Installing Git Hub Copilot CLI](copilot/how-tos/set-up/install-copilot-cli.md)
       * [Installing The Git Hub Copilot Extension In Your Environment](copilot/how-tos/set-up/install-copilot-extension.md)
+      * [Setting Up A Dedicated Enterprise For Git Hub Copilot Business](copilot/how-tos/set-up/set-up-a-dedicated-enterprise-for-copilot-business.md)
       * [Setting Up Git Hub Copilot For Your Enterprise](copilot/how-tos/set-up/set-up-for-enterprise.md)
       * [Setting Up Git Hub Copilot For Your Organization](copilot/how-tos/set-up/set-up-for-organization.md)
       * [Setting Up Git Hub Copilot For Yourself](copilot/how-tos/set-up/set-up-for-self.md)
@@ -1999,11 +2042,15 @@
     - Use Copilot Agents
       - Coding Agent
         * [Asking Git Hub Copilot To Create A Pull Request](copilot/how-tos/use-copilot-agents/coding-agent/create-a-pr.md)
+        * [Creating Custom Agents](copilot/how-tos/use-copilot-agents/coding-agent/create-custom-agents.md)
         * [Customizing The Development Environment For Git Hub Copilot Coding Agent](copilot/how-tos/use-copilot-agents/coding-agent/customize-the-agent-environment.md)
         * [Customizing Or Disabling The Firewall For Git Hub Copilot Coding Agent](copilot/how-tos/use-copilot-agents/coding-agent/customize-the-agent-firewall.md)
         * [Extending Git Hub Copilot Coding Agent With The Model Context Protocol MCP](copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp.md)
         * [Git Hub Copilot Coding Agent](copilot/how-tos/use-copilot-agents/coding-agent/index.md)
+        * [Integrating Copilot Coding Agent With Linear](copilot/how-tos/use-copilot-agents/coding-agent/integrate-coding-agent-with-linear.md)
+        * [Integrating Copilot Coding Agent With Slack](copilot/how-tos/use-copilot-agents/coding-agent/integrate-coding-agent-with-slack.md)
         * [Integrating Copilot Coding Agent With Teams](copilot/how-tos/use-copilot-agents/coding-agent/integrate-coding-agent-with-teams.md)
+        * [Asking Git Hub Copilot To Make Changes To An Existing Pull Request](copilot/how-tos/use-copilot-agents/coding-agent/make-changes-to-an-existing-pr.md)
         * [Reviewing A Pull Request Created By Git Hub Copilot](copilot/how-tos/use-copilot-agents/coding-agent/review-copilot-prs.md)
         * [Tracking Git Hub Copilot S Sessions](copilot/how-tos/use-copilot-agents/coding-agent/track-copilot-sessions.md)
         * [Troubleshooting Git Hub Copilot Coding Agent](copilot/how-tos/use-copilot-agents/coding-agent/troubleshoot-coding-agent.md)
@@ -2012,6 +2059,7 @@
         * [Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/index.md)
         * [Using Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review.md)
       * [Use Git Hub Copilot Agents](copilot/how-tos/use-copilot-agents/index.md)
+      * [Managing Copilot Coding Agents](copilot/how-tos/use-copilot-agents/manage-agents.md)
       * [Using Git Hub Copilot CLI](copilot/how-tos/use-copilot-agents/use-copilot-cli.md)
     - Use Copilot Extensions
       - Build A Copilot Agent
@@ -2049,13 +2097,18 @@
       * [Git Hub Copilot Billing](copilot/reference/copilot-billing/index.md)
       * [Making Changes To Your Git Hub Copilot License](copilot/reference/copilot-billing/license-changes.md)
       * [Git Hub Copilot Seat Assignment](copilot/reference/copilot-billing/seat-assignment.md)
+    * [Audit Log Events For Agents](copilot/reference/agentic-audit-log-events.md)
     * [Allowlist Reference](copilot/reference/allowlist-reference.md)
     * [Git Hub Copilot Chat Cheat Sheet](copilot/reference/cheat-sheet.md)
+    * [Data Available In Copilot Usage Metrics](copilot/reference/copilot-usage-metrics.md)
+    * [Custom Agents Configuration](copilot/reference/custom-agents-configuration.md)
     * [Git Hub Copilot Extensions Glossary](copilot/reference/extensions-glossary.md)
     * [Reference for {% data variables.product.prodname_copilot %}](copilot/reference/index.md)
+    * [Interpreting Usage And Adoption Metrics For Git Hub Copilot](copilot/reference/interpret-copilot-metrics.md)
     * [Keyboard Shortcuts For Git Hub Copilot In The IDE](copilot/reference/keyboard-shortcuts.md)
     * [Metrics Data Properties For Git Hub Copilot](copilot/reference/metrics-data.md)
     * [Feature Availability When Git Hub Copilot Policies Conflict In Organizations](copilot/reference/policy-conflicts.md)
+    * [Reconciling Copilot Usage Metrics Across Dashboards AP Is And Reports](copilot/reference/reconciling-usage-metrics.md)
   - Responsible Use
     * [Responsible Use Of Git Hub Copilot Chat In Git Hub Mobile](copilot/responsible-use/chat-in-github-mobile.md)
     * [Responsible Use Of Git Hub Copilot Chat In Git Hub](copilot/responsible-use/chat-in-github.md)
@@ -2125,6 +2178,12 @@
         * [Testing Code](copilot/tutorials/copilot-chat-cookbook/testing-code/index.md)
       * [Git Hub Copilot Chat Cookbook](copilot/tutorials/copilot-chat-cookbook/index.md)
     - Customization Library
+      - Custom Agents
+        * [Bug Fix Teammate](copilot/tutorials/customization-library/custom-agents/bug-fix-teammate.md)
+        * [Cleanup Specialist](copilot/tutorials/customization-library/custom-agents/cleanup-specialist.md)
+        * [Implementation Planner](copilot/tutorials/customization-library/custom-agents/implementation-planner.md)
+        * [Custom Agents](copilot/tutorials/customization-library/custom-agents/index.md)
+        * [Your First Custom Agent](copilot/tutorials/customization-library/custom-agents/your-first-custom-agent.md)
       - Custom Instructions
         * [Accessibility Auditor](copilot/tutorials/customization-library/custom-instructions/accessibility-auditor.md)
         * [Code Reviewer](copilot/tutorials/customization-library/custom-instructions/code-reviewer.md)
@@ -2150,6 +2209,7 @@
         * [Assigning Git Hub Copilot Licenses In Your Enterprise](copilot/tutorials/roll-out-at-scale/assign-licenses/index.md)
         * [Reminding Inactive Users To Use Their Git Hub Copilot License](copilot/tutorials/roll-out-at-scale/assign-licenses/remind-inactive-users.md)
         * [Setting Up A Self Serve Process For Git Hub Copilot Licenses](copilot/tutorials/roll-out-at-scale/assign-licenses/set-up-self-serve-licenses.md)
+        * [Tracking License Activation And Initial Usage With Copilot Usage Metrics](copilot/tutorials/roll-out-at-scale/assign-licenses/track-usage-and-adoption.md)
       - Drive Downstream Impact
         * [Accelerating Pull Requests In Your Company With Git Hub Copilot](copilot/tutorials/roll-out-at-scale/drive-downstream-impact/accelerate-pull-requests.md)
         * [Increasing Test Coverage In Your Company With Git Hub Copilot](copilot/tutorials/roll-out-at-scale/drive-downstream-impact/increase-test-coverage.md)
@@ -2159,10 +2219,8 @@
         * [Driving Git Hub Copilot Adoption In Your Company](copilot/tutorials/roll-out-at-scale/enable-developers/drive-adoption.md)
         * [Enabling Developers To Use Git Hub Copilot](copilot/tutorials/roll-out-at-scale/enable-developers/index.md)
         * [Integrating Agentic AI Into Your Enterprise S Software Development Lifecycle](copilot/tutorials/roll-out-at-scale/enable-developers/integrate-ai-agents.md)
-      - Measure Adoption
-        * [Analyzing Usage Over Time With The Git Hub Copilot Metrics API](copilot/tutorials/roll-out-at-scale/measure-adoption/analyze-usage-over-time.md)
-        * [Measuring Adoption And Usage Of Git Hub Copilot](copilot/tutorials/roll-out-at-scale/measure-adoption/index.md)
       * [Rolling Out Git Hub Copilot At Scale](copilot/tutorials/roll-out-at-scale/index.md)
+      * [Measuring The Success Of A Git Hub Copilot Trial](copilot/tutorials/roll-out-at-scale/measure-success.md)
     - Spark
       * [Building And Deploying AI Powered Apps With Git Hub Spark](copilot/tutorials/spark/build-apps-with-spark.md)
       * [Building Apps With Git Hub Spark](copilot/tutorials/spark/index.md)
@@ -2327,36 +2385,41 @@
   * [{% data variables.product.prodname_education %} documentation](education/index.md)
   * [Quickstart For Git Hub Educators](education/quickstart.md)
 - Enterprise Onboarding
-  - Feature Enhancements
-    * [About Access Permissions On Git Hub](enterprise-onboarding/feature-enhancements/about-access-permissions-on-github.md)
-    * [About Enterprise Security](enterprise-onboarding/feature-enhancements/about-enterprise-security.md)
-    * [About Rulesets](enterprise-onboarding/feature-enhancements/about-rulesets.md)
-    * [About The Audit Log For Your Enterprise](enterprise-onboarding/feature-enhancements/about-the-audit-log-for-your-enterprise.md)
-    * [Create A README For Your Enterprise](enterprise-onboarding/feature-enhancements/create-a-readme-for-your-enterprise.md)
-    * [Feature Enhancements](enterprise-onboarding/feature-enhancements/index.md)
   - Getting Started With Your Enterprise
     * [About Enterprise Billing](enterprise-onboarding/getting-started-with-your-enterprise/about-enterprise-billing.md)
     * [About Migrating To Git Hub Enterprise Cloud](enterprise-onboarding/getting-started-with-your-enterprise/about-migrating-to-github-enterprise-cloud.md)
-    * [Ending A Trial Of Git Hub Enterprise](enterprise-onboarding/getting-started-with-your-enterprise/ending-a-trial-of-github-enterprise.md)
+    * [Adding Users To Your Enterprise](enterprise-onboarding/getting-started-with-your-enterprise/adding-users-to-your-enterprise.md)
+    * [Choosing An Enterprise Type For Git Hub Enterprise Cloud](enterprise-onboarding/getting-started-with-your-enterprise/choose-an-enterprise-type.md)
     * [Getting Started With Your Enterprise](enterprise-onboarding/getting-started-with-your-enterprise/index.md)
-    * [Securing Enterprise Resources With Single Sign On](enterprise-onboarding/getting-started-with-your-enterprise/securing-enterprise-resources-with-single-sign-on.md)
-    * [Securing Your Enterprise With Managed Users](enterprise-onboarding/getting-started-with-your-enterprise/securing-your-enterprise-with-managed-users.md)
     * [Setting Up A Trial Of Git Hub Enterprise](enterprise-onboarding/getting-started-with-your-enterprise/setting-up-a-trial-of-github-enterprise.md)
   - Github Actions For Your Enterprise
-    * [About Billing For Git Hub Actions](enterprise-onboarding/github-actions-for-your-enterprise/about-billing-for-github-actions.md)
     * [About Git Hub Actions For Enterprises](enterprise-onboarding/github-actions-for-your-enterprise/about-github-actions-for-enterprises.md)
+    * [Understanding The Components Of Git Hub Actions](enterprise-onboarding/github-actions-for-your-enterprise/actions-components.md)
     * [Getting Started With Git Hub Actions For Git Hub Enterprise Cloud](enterprise-onboarding/github-actions-for-your-enterprise/getting-started-with-github-actions-for-github-enterprise-cloud.md)
-    * [Git Hub Actions For Your Enterprise](enterprise-onboarding/github-actions-for-your-enterprise/index.md)
-    * [Introducing Git Hub Actions To Your Enterprise](enterprise-onboarding/github-actions-for-your-enterprise/introducing-github-actions-to-your-enterprise.md)
+    * [Setting Up CI CD With Git Hub Actions](enterprise-onboarding/github-actions-for-your-enterprise/index.md)
     * [Migrating Your Enterprise To Git Hub Actions](enterprise-onboarding/github-actions-for-your-enterprise/migrating-your-enterprise-to-github-actions.md)
-    * [Security Hardening For Git Hub Actions](enterprise-onboarding/github-actions-for-your-enterprise/security-hardening-for-github-actions.md)
-    * [Understanding Git Hub Actions](enterprise-onboarding/github-actions-for-your-enterprise/understanding-github-actions.md)
+    * [Planning A Rollout Of Git Hub Actions](enterprise-onboarding/github-actions-for-your-enterprise/planning-a-rollout-of-github-actions.md)
+  - Github Apps
+    * [Creating Enterprise Apps](enterprise-onboarding/github-apps/create-enterprise-apps.md)
+    * [Automating Processes With Git Hub Apps](enterprise-onboarding/github-apps/index.md)
+    * [Installing Enterprise Apps](enterprise-onboarding/github-apps/install-enterprise-apps.md)
+  - Govern People And Repositories
+    * [About Enterprise Policies](enterprise-onboarding/govern-people-and-repositories/about-enterprise-policies.md)
+    * [About Enterprise Security](enterprise-onboarding/govern-people-and-repositories/about-enterprise-security.md)
+    * [Creating Custom Properties For Repositories In Your Enterprise](enterprise-onboarding/govern-people-and-repositories/create-custom-properties.md)
+    * [Defining Policies For Repositories In Your Enterprise](enterprise-onboarding/govern-people-and-repositories/create-repository-policies.md)
+    * [Governing People And Repositories](enterprise-onboarding/govern-people-and-repositories/index.md)
+    * [Protecting Branches In Your Enterprise With Rulesets](enterprise-onboarding/govern-people-and-repositories/protect-branches.md)
+    * [Using The Audit Log For Your Enterprise](enterprise-onboarding/govern-people-and-repositories/using-the-audit-log-for-your-enterprise.md)
   - Setting Up Organizations And Teams
-    * [Best Practices For Organizations In Your Enterprise](enterprise-onboarding/setting-up-organizations-and-teams/best-practices-for-organizations-in-your-enterprise.md)
-    * [Creating Teams](enterprise-onboarding/setting-up-organizations-and-teams/creating-teams.md)
+    * [About Roles In An Enterprise](enterprise-onboarding/setting-up-organizations-and-teams/about-roles-in-an-enterprise.md)
+    * [About Teams In An Enterprise](enterprise-onboarding/setting-up-organizations-and-teams/about-teams-in-an-enterprise.md)
+    * [Assigning Roles To Teams And Users](enterprise-onboarding/setting-up-organizations-and-teams/assigning-roles-to-teams-and-users.md)
+    * [Best Practices For Organizing Work In Your Enterprise](enterprise-onboarding/setting-up-organizations-and-teams/best-practices.md)
+    * [Creating Custom Roles](enterprise-onboarding/setting-up-organizations-and-teams/creating-custom-roles.md)
+    * [Creating Enterprise Teams](enterprise-onboarding/setting-up-organizations-and-teams/creating-teams.md)
+    * [Identifying The Roles Required By Your Enterprise](enterprise-onboarding/setting-up-organizations-and-teams/identify-role-requirements.md)
     * [Setting Up Organizations And Teams In Your Enterprise](enterprise-onboarding/setting-up-organizations-and-teams/index.md)
-    * [Managing Organization Members](enterprise-onboarding/setting-up-organizations-and-teams/managing-organization-members.md)
-    * [Managing Your Organizations](enterprise-onboarding/setting-up-organizations-and-teams/managing-your-organizations.md)
     * [Setting Up An Organization](enterprise-onboarding/setting-up-organizations-and-teams/setting-up-an-organization.md)
   - Support For Your Enterprise
     * [Creating A Support Model For Your Enterprise](enterprise-onboarding/support-for-your-enterprise/index.md)
@@ -2374,12 +2437,6 @@
     * [Archiving Your Git Hub Personal Account And Public Repositories](get-started/archiving-your-github-personal-account-and-public-repositories/index.md)
     * [Opting Into Or Out Of The Git Hub Archive Program For Your Public Repository](get-started/archiving-your-github-personal-account-and-public-repositories/opting-into-or-out-of-the-github-archive-program-for-your-public-repository.md)
     * [Requesting an archive of your personal account’s data](get-started/archiving-your-github-personal-account-and-public-repositories/requesting-an-archive-of-your-personal-accounts-data.md)
-  - Exploring Integrations
-    * [About Building Integrations](get-started/exploring-integrations/about-building-integrations.md)
-    * [About Using Integrations](get-started/exploring-integrations/about-using-integrations.md)
-    * [Featured Git Hub Integrations](get-started/exploring-integrations/featured-github-integrations.md)
-    * [Git Hub Developer Program](get-started/exploring-integrations/github-developer-program.md)
-    * [Exploring Integrations](get-started/exploring-integrations/index.md)
   - Exploring Projects On Github
     * [Contributing To A Project](get-started/exploring-projects-on-github/contributing-to-a-project.md)
     * [Contributing To Open Source](get-started/exploring-projects-on-github/contributing-to-open-source.md)
@@ -2563,6 +2620,30 @@
     * [Scalars](graphql/reference/scalars.md)
     * [Unions](graphql/reference/unions.md)
   * [Git Hub Graph QL API Documentation](graphql/index.md)
+- Integrations
+  - Concepts
+    * [About Building Integrations](integrations/concepts/about-building-integrations.md)
+    * [About Git Hub Integrations](integrations/concepts/about-integrations.md)
+    * [Featured Git Hub Integrations](integrations/concepts/featured-github-integrations.md)
+    * [Git Hub Developer Program](integrations/concepts/github-developer-program.md)
+    * [Concepts For Git Hub Integrations](integrations/concepts/index.md)
+  - How Tos
+    - Slack
+      * [Customizing Notifications For Git Hub In Slack](integrations/how-tos/slack/customize-notifications.md)
+      * [Git Hub Integration In Slack](integrations/how-tos/slack/index.md)
+      * [Integrating Git Hub With Slack](integrations/how-tos/slack/integrate-github-with-slack.md)
+      * [Using Git Hub In Slack](integrations/how-tos/slack/use-github-in-slack.md)
+    * [How Tos For Git Hub Integrations](integrations/how-tos/index.md)
+  - Reference
+    * [Reference For Git Hub Integrations](integrations/reference/index.md)
+    * [Permissions For Git Hub In Slack](integrations/reference/slack-permissions.md)
+  - Tutorials
+    - Slack
+      * [Creating Issues With The Git Hub Integration In Slack](integrations/tutorials/slack/create-issues.md)
+      * [Tutorials For The Git Hub Slack Integration](integrations/tutorials/slack/index.md)
+      * [Managing Issues With The Git Hub Integration In Slack](integrations/tutorials/slack/manage-issues.md)
+    * [Tutorials For Git Hub Integrations](integrations/tutorials/index.md)
+  * [Git Hub Integrations](integrations/index.md)
 - Issues
   - Organizing Your Work With Project Boards
     - Managing Project Boards
@@ -3350,7 +3431,9 @@
     * [REST API Endpoints For Enterprise Billing](rest/enterprise-admin/billing.md)
     * [REST API Endpoints For Bypass Requests](rest/enterprise-admin/bypass-requests.md)
     * [REST API Endpoints For Enterprise Security Features For Code](rest/enterprise-admin/code-security-and-analysis.md)
+    * [REST API For Organization Custom Properties In An Enterprise](rest/enterprise-admin/custom-properties-for-orgs.md)
     * [Custom Properties](rest/enterprise-admin/custom-properties.md)
+    * [REST API Endpoints For Enterprise Roles](rest/enterprise-admin/enterprise-roles.md)
     * [REST API Endpoints For Enterprise Access Verification](rest/enterprise-admin/enterprises.md)
     * [REST API Endpoints For Global Webhooks](rest/enterprise-admin/global-webhooks.md)
     * [REST API Endpoints For Git Hub Enterprise Administration](rest/enterprise-admin/index.md)
@@ -3370,6 +3453,7 @@
     * [REST API Endpoints For Enterprise Users](rest/enterprise-admin/users.md)
   - Enterprise Teams
     * [REST API Endpoints For Enterprise Team Memberships](rest/enterprise-teams/enterprise-team-members.md)
+    * [REST API Endpoints For Enterprise Team Organizations](rest/enterprise-teams/enterprise-team-organizations.md)
     * [REST API Endpoints For Enterprise Team Members](rest/enterprise-teams/enterprise-teams.md)
     * [Enterprise Teams](rest/enterprise-teams/index.md)
   - Gists
@@ -3441,6 +3525,7 @@
     * [REST API Endpoints For Artifact Attestations](rest/orgs/attestations.md)
     * [REST API Endpoints For Blocking Users](rest/orgs/blocking.md)
     * [REST API Endpoints For Organization Push Rule Bypass Requests](rest/orgs/bypass-requests.md)
+    * [REST API Endpoints For An Organization S Custom Property Values](rest/orgs/custom-properties-for-orgs.md)
     * [REST API Endpoints For Custom Properties](rest/orgs/custom-properties.md)
     * [REST API Endpoints For Custom Repository Roles](rest/orgs/custom-roles.md)
     * [REST API Endpoints For Organizations](rest/orgs/orgs.md)
