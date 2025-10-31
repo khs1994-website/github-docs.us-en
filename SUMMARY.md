@@ -1119,7 +1119,7 @@
       * [Unlocking A Locked Account](billing/how-tos/troubleshooting/locked-account.md)
     * [How Tos For Billing](billing/how-tos/index.md)
   - Reference
-    * [Actions Minute Multiplier Reference](billing/reference/actions-minute-multipliers.md)
+    * [Actions Runner Pricing](billing/reference/actions-runner-pricing.md)
     * [Billing Through Azure Subscriptions](billing/reference/azure-billing.md)
     * [Azure Subscription Reference](billing/reference/azure-subscription.md)
     * [Billing Reports Reference](billing/reference/billing-reports.md)
