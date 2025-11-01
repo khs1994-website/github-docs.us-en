@@ -1551,11 +1551,14 @@
       * [Default Setup For Code Scanning Overrides Advanced Setup](code-security/securing-your-organization/troubleshooting-security-configurations/unexpected-default-setup.md)
     - Understanding Your Organizations Exposure To Leaked Secrets
       * [About The Secret Risk Assessment](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/about-secret-risk-assessment.md)
+      * [Running The Secret Risk Assessment For Your Organization](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/assess-your-secret-risk.md)
       * [Calculating The Cost Savings Of Push Protection](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/calculating-the-cost-savings-of-push-protection.md)
       * [Choosing {% data variables.product.prodname_GH_secret_protection %}](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/choosing-github-secret-protection.md)
       * [Estimating The Price Of Secret Protection](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/estimating-the-price-of-secret-protection.md)
+      * [Exporting The Secret Risk Assessment Report To CSV](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/export-risk-report-csv.md)
       * [Understanding Your Organization S Exposure To Leaked Secrets](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/index.md)
       * [Interpreting Secret Risk Assessment Results](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/interpreting-secret-risk-assessment-results.md)
+      * [Contents Of The Secret Risk Assessment Report CSV](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/risk-report-csv-contents.md)
       * [Viewing The Secret Risk Assessment Report For Your Organization](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/viewing-the-secret-risk-assessment-report-for-your-organization.md)
     - Understanding Your Organizations Exposure To Vulnerabilities
       * [About Your Exposure To Vulnerable Dependencies](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilities/about-your-exposure-to-vulnerable-dependencies.md)
@@ -2219,6 +2222,7 @@
         * [Driving Git Hub Copilot Adoption In Your Company](copilot/tutorials/roll-out-at-scale/enable-developers/drive-adoption.md)
         * [Enabling Developers To Use Git Hub Copilot](copilot/tutorials/roll-out-at-scale/enable-developers/index.md)
         * [Integrating Agentic AI Into Your Enterprise S Software Development Lifecycle](copilot/tutorials/roll-out-at-scale/enable-developers/integrate-ai-agents.md)
+      * [Establishing AI Managers In Your Enterprise](copilot/tutorials/roll-out-at-scale/establish-ai-managers.md)
       * [Rolling Out Git Hub Copilot At Scale](copilot/tutorials/roll-out-at-scale/index.md)
       * [Measuring The Success Of A Git Hub Copilot Trial](copilot/tutorials/roll-out-at-scale/measure-success.md)
     - Spark
