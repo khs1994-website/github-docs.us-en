@@ -1136,6 +1136,7 @@
     * [Supported Payment Methods For Git Hub](billing/reference/supported-payment-methods.md)
   - Tutorials
     * [Automating Usage Reporting With The REST API](billing/tutorials/automate-usage-reporting.md)
+    * [Controlling And Tracking Costs At Scale](billing/tutorials/control-costs-at-scale.md)
     * [Estimating Spending](billing/tutorials/estimate-spending.md)
     * [Gathering Insights On Your Spending](billing/tutorials/gather-insights.md)
     * [Tutorials For Billing](billing/tutorials/index.md)
@@ -2087,7 +2088,7 @@
       * [Creating A Pull Request Summary With Git Hub Copilot](copilot/how-tos/use-copilot-for-common-tasks/create-a-pr-summary.md)
       * [Use Git Hub Copilot For Common Tasks](copilot/how-tos/use-copilot-for-common-tasks/index.md)
       * [Using The Git Hub CLI Copilot Extension](copilot/how-tos/use-copilot-for-common-tasks/use-copilot-in-the-cli.md)
-      * [Using Git Hub Copilot To Create Issues](copilot/how-tos/use-copilot-for-common-tasks/use-copilot-to-create-issues.md)
+      * [Using Git Hub Copilot To Create Or Update Issues](copilot/how-tos/use-copilot-for-common-tasks/use-copilot-to-create-or-update-issues.md)
     * [How Tos For Git Hub Copilot](copilot/how-tos/index.md)
   - Reference
     - Ai Models
