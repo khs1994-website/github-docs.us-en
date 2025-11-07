@@ -2057,6 +2057,7 @@
         * [Integrating Copilot Coding Agent With Teams](copilot/how-tos/use-copilot-agents/coding-agent/integrate-coding-agent-with-teams.md)
         * [Asking Git Hub Copilot To Make Changes To An Existing Pull Request](copilot/how-tos/use-copilot-agents/coding-agent/make-changes-to-an-existing-pr.md)
         * [Reviewing A Pull Request Created By Git Hub Copilot](copilot/how-tos/use-copilot-agents/coding-agent/review-copilot-prs.md)
+        * [Testing and releasing {% data variables.copilot.custom_agents_short %} in your organization or enterprise](copilot/how-tos/use-copilot-agents/coding-agent/test-custom-agents.md)
         * [Tracking Git Hub Copilot S Sessions](copilot/how-tos/use-copilot-agents/coding-agent/track-copilot-sessions.md)
         * [Troubleshooting Git Hub Copilot Coding Agent](copilot/how-tos/use-copilot-agents/coding-agent/troubleshoot-coding-agent.md)
       - Request A Code Review
