@@ -1879,18 +1879,11 @@
       * [Git Hub Copilot Text Completion](copilot/concepts/completions/text-completion.md)
     - Context
       * [Content Exclusion For Git Hub Copilot](copilot/concepts/context/content-exclusion.md)
-      * [About Git Hub Copilot Extensions](copilot/concepts/context/copilot-extensions.md)
       * [Concepts For Providing Context To Git Hub Copilot](copilot/concepts/context/index.md)
       * [Git Hub Copilot Knowledge Bases](copilot/concepts/context/knowledge-bases.md)
       * [About Model Context Protocol MCP](copilot/concepts/context/mcp.md)
       * [Indexing Repositories For Git Hub Copilot Chat](copilot/concepts/context/repository-indexing.md)
       * [About Git Hub Copilot Spaces](copilot/concepts/context/spaces.md)
-    - Extensions
-      * [About Agents For Git Hub Copilot Extensions](copilot/concepts/extensions/agents.md)
-      * [About Building Git Hub Copilot Extensions](copilot/concepts/extensions/build-extensions.md)
-      * [Git Hub Copilot Extensions](copilot/concepts/extensions/index.md)
-      * [Open ID Connect OIDC For Git Hub Copilot Extensions](copilot/concepts/extensions/openid-connect.md)
-      * [About Skillsets For Git Hub Copilot Extensions](copilot/concepts/extensions/skillsets.md)
     - Prompting
       * [Concepts For Prompting Git Hub Copilot](copilot/concepts/prompting/index.md)
       * [Prompt Engineering For Git Hub Copilot Chat](copilot/concepts/prompting/prompt-engineering.md)
@@ -1961,7 +1954,6 @@
         * [Managing Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/index.md)
         * [Managing Policies And Features For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-policies.md)
         * [Preparing To Use Custom Agents In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/prepare-for-custom-agents.md)
-        * [Setting Permissions For A Git Hub Copilot Extension In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/set-extension-permissions.md)
       * [Configure MCP Server Access For Your Organization Or Enterprise](copilot/how-tos/administer-copilot/configure-mcp-server-access.md)
       * [Downloading A Git Hub Copilot Activity Report For Your Organization Or Enterprise](copilot/how-tos/administer-copilot/download-activity-report.md)
       * [Administer Git Hub Copilot For Your Team](copilot/how-tos/administer-copilot/index.md)
@@ -2004,11 +1996,6 @@
       * [Managing Git Hub Copilot Policies As An Individual Subscriber](copilot/how-tos/manage-your-account/manage-policies.md)
       * [Viewing And Changing Your Git Hub Copilot Plan](copilot/how-tos/manage-your-account/view-and-change-your-copilot-plan.md)
     - Provide Context
-      - Install Copilot Extensions
-        * [Install Git Hub Copilot Extensions](copilot/how-tos/provide-context/install-copilot-extensions/index.md)
-        * [Extending The Capabilities Of Git Hub Copilot In Your Organization](copilot/how-tos/provide-context/install-copilot-extensions/install-extensions.md)
-        * [Extending The Capabilities Of Git Hub Copilot In Your Personal Account](copilot/how-tos/provide-context/install-copilot-extensions/install-personal-extensions.md)
-        * [Using Extensions To Integrate External Tools With Git Hub Copilot Chat](copilot/how-tos/provide-context/install-copilot-extensions/use-copilot-extensions.md)
       - Use Copilot Spaces
         * [Collaborating With Your Team Using Git Hub Copilot Spaces](copilot/how-tos/provide-context/use-copilot-spaces/collaborate-with-your-team.md)
         * [Creating Git Hub Copilot Spaces](copilot/how-tos/provide-context/use-copilot-spaces/create-copilot-spaces.md)
@@ -2067,24 +2054,6 @@
       * [Use Git Hub Copilot Agents](copilot/how-tos/use-copilot-agents/index.md)
       * [Managing Copilot Coding Agents](copilot/how-tos/use-copilot-agents/manage-agents.md)
       * [Using Git Hub Copilot CLI](copilot/how-tos/use-copilot-agents/use-copilot-cli.md)
-    - Use Copilot Extensions
-      - Build A Copilot Agent
-        * [Configuring Your Git Hub Copilot Agent To Communicate With The Git Hub Copilot Platform](copilot/how-tos/use-copilot-extensions/build-a-copilot-agent/communicate-with-copilot-platform.md)
-        * [Configuring Your Git Hub Copilot Agent To Communicate With Git Hub](copilot/how-tos/use-copilot-extensions/build-a-copilot-agent/communicate-with-github.md)
-        * [Building A Git Hub Copilot Agent For Your Git Hub Copilot Extension](copilot/how-tos/use-copilot-extensions/build-a-copilot-agent/index.md)
-        * [Context Passing For Your Agent](copilot/how-tos/use-copilot-extensions/build-a-copilot-agent/use-context-passing.md)
-        * [Using Git Hub Copilot S LLM For Your Agent](copilot/how-tos/use-copilot-extensions/build-a-copilot-agent/use-copilots-llm.md)
-      - Create A Copilot Extension
-        * [Configuring Your Git Hub App For Your Git Hub Copilot Extension](copilot/how-tos/use-copilot-extensions/create-a-copilot-extension/configure-app-for-extension.md)
-        * [Creating A Git Hub App For Your Git Hub Copilot Extension](copilot/how-tos/use-copilot-extensions/create-a-copilot-extension/create-github-app.md)
-        * [Configuring Your Server To Host Your Git Hub Copilot Extension](copilot/how-tos/use-copilot-extensions/create-a-copilot-extension/host-your-extension.md)
-        * [Creating A Git Hub Copilot Extension](copilot/how-tos/use-copilot-extensions/create-a-copilot-extension/index.md)
-      * [Building Git Hub Copilot Skillsets](copilot/how-tos/use-copilot-extensions/build-copilot-skillsets.md)
-      * [Debugging Your Git Hub Copilot Extension](copilot/how-tos/use-copilot-extensions/debug-copilot-extension.md)
-      * [Git Hub Copilot Extensions](copilot/how-tos/use-copilot-extensions/index.md)
-      * [Managing The Availability Of Your Git Hub Copilot Extension](copilot/how-tos/use-copilot-extensions/manage-extension-availability.md)
-      * [Setting Up Git Hub Copilot Extensions](copilot/how-tos/use-copilot-extensions/set-up-copilot-extensions.md)
-      * [Setting Up OIDC For Your Git Hub Copilot Extension](copilot/how-tos/use-copilot-extensions/set-up-oidc.md)
     - Use Copilot For Common Tasks
       * [Creating A Pull Request Summary With Git Hub Copilot](copilot/how-tos/use-copilot-for-common-tasks/create-a-pr-summary.md)
       * [Use Git Hub Copilot For Common Tasks](copilot/how-tos/use-copilot-for-common-tasks/index.md)
@@ -2113,7 +2082,6 @@
     * [Allowlist Reference](copilot/reference/allowlist-reference.md)
     * [Git Hub Copilot Chat Cheat Sheet](copilot/reference/cheat-sheet.md)
     * [Custom Agents Configuration](copilot/reference/custom-agents-configuration.md)
-    * [Git Hub Copilot Extensions Glossary](copilot/reference/extensions-glossary.md)
     * [Reference for {% data variables.product.prodname_copilot %}](copilot/reference/index.md)
     * [Keyboard Shortcuts For Git Hub Copilot In The IDE](copilot/reference/keyboard-shortcuts.md)
     * [Metrics Data Properties For Git Hub Copilot](copilot/reference/metrics-data.md)
@@ -2250,7 +2218,6 @@
     * [Refactoring Code With Git Hub Copilot](copilot/tutorials/refactor-code.md)
     * [Review AI Generated Code](copilot/tutorials/review-ai-generated-code.md)
     * [Speeding Up Development Work With Git Hub Copilot Spaces](copilot/tutorials/speed-up-development-work.md)
-    * [Quickstart For Git Hub Copilot Extensions Using Agents](copilot/tutorials/try-extensions.md)
     * [Upgrading Projects With Git Hub Copilot](copilot/tutorials/upgrade-projects.md)
     * [Writing Tests With Git Hub Copilot](copilot/tutorials/write-tests.md)
   * [{% data variables.product.prodname_copilot %} documentation](copilot/index.md)
@@ -2592,7 +2559,6 @@
   - Use Github Models
     * [Evaluating AI Models](github-models/use-github-models/evaluating-ai-models.md)
     * [Use Git Hub Models](github-models/use-github-models/index.md)
-    * [Integrating AI Models Into Your Development Workflow](github-models/use-github-models/integrating-ai-models-into-your-development-workflow.md)
     * [Optimizing Your AI Powered App With Models](github-models/use-github-models/optimizing-your-ai-powered-app-with-github-models.md)
     * [Prototyping With AI Models](github-models/use-github-models/prototyping-with-ai-models.md)
     * [Storing Prompts In Git Hub Repositories](github-models/use-github-models/storing-prompts-in-github-repositories.md)
@@ -3558,6 +3524,7 @@
     * [Private Registries](rest/private-registries/index.md)
     * [Organization Configurations](rest/private-registries/organization-configurations.md)
   - Projects
+    * [REST API Endpoints For Draft Project Items](rest/projects/drafts.md)
     * [REST API Endpoints For Project Fields](rest/projects/fields.md)
     * [Projects](rest/projects/index.md)
     * [REST API Endpoints For Project Items](rest/projects/items.md)
