@@ -2582,7 +2582,6 @@
     * [About The Graph QL API](graphql/overview/about-the-graphql-api.md)
     * [Breaking Changes](graphql/overview/breaking-changes.md)
     * [Changelog](graphql/overview/changelog.md)
-    * [Explorer](graphql/overview/explorer.md)
     * [Overview](graphql/overview/index.md)
     * [Public Schema](graphql/overview/public-schema.md)
     * [Rate Limits And Query Limits For The Graph QL API](graphql/overview/rate-limits-and-query-limits-for-the-graphql-api.md)
