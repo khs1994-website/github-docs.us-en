@@ -953,6 +953,7 @@
     * [About Authentication With Single Sign On](authentication/authenticating-with-single-sign-on/about-authentication-with-single-sign-on.md)
     * [Authenticating with {% data variables.product.prodname_emus %}](authentication/authenticating-with-single-sign-on/authenticating-with-a-managed-user-account.md)
     * [Authorizing A Personal Access Token For Use With Single Sign On](authentication/authenticating-with-single-sign-on/authorizing-a-personal-access-token-for-use-with-single-sign-on.md)
+    * [Authorizing An App For Single Sign On](authentication/authenticating-with-single-sign-on/authorizing-an-app-for-single-sign-on.md)
     * [Authorizing An SSH Key For Use With Single Sign On](authentication/authenticating-with-single-sign-on/authorizing-an-ssh-key-for-use-with-single-sign-on.md)
     * [Authenticating With Single Sign On](authentication/authenticating-with-single-sign-on/index.md)
     * [Viewing And Managing Your Active SSO Sessions](authentication/authenticating-with-single-sign-on/viewing-and-managing-your-active-sso-sessions.md)
@@ -2027,7 +2028,7 @@
       * [Viewing Logs For Git Hub Copilot In Your Environment](copilot/how-tos/troubleshoot-copilot/view-logs.md)
     - Use Ai Models
       * [Changing The AI Model For Git Hub Copilot Chat](copilot/how-tos/use-ai-models/change-the-chat-model.md)
-      * [Changing The AI Model For Git Hub Copilot Code Completion](copilot/how-tos/use-ai-models/change-the-completion-model.md)
+      * [Changing The AI Model For Git Hub Copilot Inline Suggestions](copilot/how-tos/use-ai-models/change-the-completion-model.md)
       * [Configuring Access To AI Models In Git Hub Copilot](copilot/how-tos/use-ai-models/configure-access-to-ai-models.md)
       * [Creating A Custom Model For Git Hub Copilot](copilot/how-tos/use-ai-models/create-a-custom-model.md)
       * [AI Models For Git Hub Copilot](copilot/how-tos/use-ai-models/index.md)
@@ -2092,7 +2093,7 @@
     * [Responsible Use Of Git Hub Copilot Chat In Your IDE](copilot/responsible-use/chat-in-your-ide.md)
     * [Responsible Use Of Git Hub Copilot Code Review](copilot/responsible-use/code-review.md)
     * [Responsible Use Of Git Hub Copilot CLI](copilot/responsible-use/copilot-cli.md)
-    * [Responsible Use Of Git Hub Copilot Code Completion](copilot/responsible-use/copilot-code-completion.md)
+    * [Responsible Use Of Git Hub Copilot Inline Suggestions](copilot/responsible-use/copilot-code-completion.md)
     * [Responsible use of GitHub Copilot coding agent on GitHub.com](copilot/responsible-use/copilot-coding-agent.md)
     * [Responsible Use Of Git Hub Copilot Commit Message Generation](copilot/responsible-use/copilot-commit-message-generation.md)
     * [Responsible Use Of Git Hub Copilot In Git Hub Desktop](copilot/responsible-use/copilot-in-github-desktop.md)
@@ -2743,6 +2744,12 @@
   * [Guides For Issues](issues/guides.md)
   * [{% data variables.product.prodname_github_issues %} documentation](issues/index.md)
 - Migrations
+  - Ado
+    * [About Migrations From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/ado/about-migrations-from-azure-devops-to-github-enterprise-cloud.md)
+    * [Migrating From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/ado/index.md)
+    * [Managing Access For A Migration From Azure Dev Ops](migrations/ado/managing-access-for-a-migration-from-azure-devops.md)
+    * [Migrating Repositories From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/ado/migrating-repositories-from-azure-devops-to-github-enterprise-cloud.md)
+    * [Overview Of A Migration From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/ado/overview-of-a-migration-from-azure-devops-to-github-enterprise-cloud.md)
   - Importing Source Code
     - Using Github Importer
       * [About Git Hub Importer](migrations/importing-source-code/using-github-importer/about-github-importer.md)
@@ -2785,12 +2792,6 @@
       * [Migrating Repositories From Git Hub Enterprise Server To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-between-github-products/migrating-repositories-from-github-enterprise-server-to-github-enterprise-cloud.md)
       * [Migrating repositories from GitHub.com to GitHub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-between-github-products/migrating-repositories-from-githubcom-to-github-enterprise-cloud.md)
       * [Overview Of A Migration Between Git Hub Products](migrations/using-github-enterprise-importer/migrating-between-github-products/overview-of-a-migration-between-github-products.md)
-    - Migrating From Azure Devops To Github Enterprise Cloud
-      * [About Migrations From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-from-azure-devops-to-github-enterprise-cloud/about-migrations-from-azure-devops-to-github-enterprise-cloud.md)
-      * [Migrating From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-from-azure-devops-to-github-enterprise-cloud/index.md)
-      * [Managing Access For A Migration From Azure Dev Ops](migrations/using-github-enterprise-importer/migrating-from-azure-devops-to-github-enterprise-cloud/managing-access-for-a-migration-from-azure-devops.md)
-      * [Migrating Repositories From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-from-azure-devops-to-github-enterprise-cloud/migrating-repositories-from-azure-devops-to-github-enterprise-cloud.md)
-      * [Overview Of A Migration From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-from-azure-devops-to-github-enterprise-cloud/overview-of-a-migration-from-azure-devops-to-github-enterprise-cloud.md)
     - Migrating From Bitbucket Server To Github Enterprise Cloud
       * [About Migrations From Bitbucket Server To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-from-bitbucket-server-to-github-enterprise-cloud/about-migrations-from-bitbucket-server-to-github-enterprise-cloud.md)
       * [Migrating From Bitbucket Server To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-from-bitbucket-server-to-github-enterprise-cloud/index.md)
