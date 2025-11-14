@@ -748,6 +748,7 @@
     - Configuring High Availability
       * [About Geo Replication](admin/monitoring-and-managing-your-instance/configuring-high-availability/about-geo-replication.md)
       * [About High Availability Configuration](admin/monitoring-and-managing-your-instance/configuring-high-availability/about-high-availability-configuration.md)
+      * [Answers To Common Questions About High Availability Replicas](admin/monitoring-and-managing-your-instance/configuring-high-availability/answers-to-common-questions-about-high-availability-replicas.md)
       * [Creating A High Availability Replica](admin/monitoring-and-managing-your-instance/configuring-high-availability/creating-a-high-availability-replica.md)
       * [Configuring High Availability](admin/monitoring-and-managing-your-instance/configuring-high-availability/index.md)
       * [Initiating A Failover To Your Replica Appliance](admin/monitoring-and-managing-your-instance/configuring-high-availability/initiating-a-failover-to-your-replica-appliance.md)
@@ -2220,6 +2221,7 @@
     * [Review AI Generated Code](copilot/tutorials/review-ai-generated-code.md)
     * [Speeding Up Development Work With Git Hub Copilot Spaces](copilot/tutorials/speed-up-development-work.md)
     * [Upgrading Projects With Git Hub Copilot](copilot/tutorials/upgrade-projects.md)
+    * [Using Custom Instructions To Unlock The Power Of Copilot Code Review](copilot/tutorials/use-custom-instructions.md)
     * [Writing Tests With Git Hub Copilot](copilot/tutorials/write-tests.md)
   * [{% data variables.product.prodname_copilot %} documentation](copilot/index.md)
 - Desktop
@@ -3376,6 +3378,7 @@
     * [REST API Endpoints For Commit Statuses](rest/commits/statuses.md)
   - Copilot
     * [REST API Endpoints For Copilot Metrics](rest/copilot/copilot-metrics.md)
+    * [REST API Endpoints For Copilot Usage Metrics](rest/copilot/copilot-usage-metrics.md)
     * [REST API Endpoints For Copilot User Management](rest/copilot/copilot-user-management.md)
     * [REST API Endpoints For Copilot](rest/copilot/index.md)
   - Credentials
@@ -3431,7 +3434,7 @@
   - Enterprise Teams
     * [REST API Endpoints For Enterprise Team Memberships](rest/enterprise-teams/enterprise-team-members.md)
     * [REST API Endpoints For Enterprise Team Organizations](rest/enterprise-teams/enterprise-team-organizations.md)
-    * [REST API Endpoints For Enterprise Team Members](rest/enterprise-teams/enterprise-teams.md)
+    * [REST API Endpoints For Enterprise Teams](rest/enterprise-teams/enterprise-teams.md)
     * [Enterprise Teams](rest/enterprise-teams/index.md)
   - Gists
     * [REST API Endpoints For Gist Comments](rest/gists/comments.md)
