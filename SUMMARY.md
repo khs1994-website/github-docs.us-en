@@ -2204,6 +2204,7 @@
       * [Measuring The Success Of A Git Hub Copilot Trial](copilot/tutorials/roll-out-at-scale/measure-success.md)
     - Spark
       * [Building And Deploying AI Powered Apps With Git Hub Spark](copilot/tutorials/spark/build-apps-with-spark.md)
+      * [Deploy Your Spark App From The Command Line](copilot/tutorials/spark/deploy-from-cli.md)
       * [Building Apps With Git Hub Spark](copilot/tutorials/spark/index.md)
       * [Write Effective Prompts And Provide Useful Context For Spark](copilot/tutorials/spark/prompt-tips.md)
       * [Your First Spark](copilot/tutorials/spark/your-first-spark.md)
