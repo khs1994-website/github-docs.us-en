@@ -1899,6 +1899,7 @@
     * [About Git Hub Copilot Chat](copilot/concepts/chat.md)
     * [Git Hub Copilot Usage Metrics](copilot/concepts/copilot-metrics.md)
     * [Concepts For Git Hub Copilot](copilot/concepts/index.md)
+    * [MCP Server Usage In Your Company](copilot/concepts/mcp-management.md)
     * [Network Settings For Git Hub Copilot](copilot/concepts/network-settings.md)
     * [Git Hub Copilot Policies To Control Availability Of Features And Models](copilot/concepts/policies.md)
     * [Rate Limits For Git Hub Copilot](copilot/concepts/rate-limits.md)
@@ -1956,7 +1957,10 @@
         * [Managing Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/index.md)
         * [Managing Policies And Features For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-policies.md)
         * [Preparing To Use Custom Agents In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/prepare-for-custom-agents.md)
-      * [Configure MCP Server Access For Your Organization Or Enterprise](copilot/how-tos/administer-copilot/configure-mcp-server-access.md)
+      - Manage Mcp Usage
+        * [Configure An MCP Registry For Your Organization Or Enterprise](copilot/how-tos/administer-copilot/manage-mcp-usage/configure-mcp-registry.md)
+        * [Configure MCP Server Access For Your Organization Or Enterprise](copilot/how-tos/administer-copilot/manage-mcp-usage/configure-mcp-server-access.md)
+        * [Managing MCP Usage In Your Company](copilot/how-tos/administer-copilot/manage-mcp-usage/index.md)
       * [Downloading A Git Hub Copilot Activity Report For Your Organization Or Enterprise](copilot/how-tos/administer-copilot/download-activity-report.md)
       * [Administer Git Hub Copilot For Your Team](copilot/how-tos/administer-copilot/index.md)
     - Chat With Copilot
@@ -2081,11 +2085,12 @@
       * [Lines Of Code Metrics](copilot/reference/copilot-usage-metrics/lines-of-code-metrics.md)
       * [Reconciling Copilot Usage Metrics Across Dashboards AP Is And Reports](copilot/reference/copilot-usage-metrics/reconciling-usage-metrics.md)
     * [Audit Log Events For Agents](copilot/reference/agentic-audit-log-events.md)
-    * [Allowlist Reference](copilot/reference/allowlist-reference.md)
     * [Git Hub Copilot Chat Cheat Sheet](copilot/reference/cheat-sheet.md)
+    * [Copilot Allowlist Reference](copilot/reference/copilot-allowlist-reference.md)
     * [Custom Agents Configuration](copilot/reference/custom-agents-configuration.md)
     * [Reference for {% data variables.product.prodname_copilot %}](copilot/reference/index.md)
     * [Keyboard Shortcuts For Git Hub Copilot In The IDE](copilot/reference/keyboard-shortcuts.md)
+    * [MCP Allowlist Enforcement](copilot/reference/mcp-allowlist-enforcement.md)
     * [Metrics Data Properties For Git Hub Copilot](copilot/reference/metrics-data.md)
     * [Feature Availability When Git Hub Copilot Policies Conflict In Organizations](copilot/reference/policy-conflicts.md)
   - Responsible Use
