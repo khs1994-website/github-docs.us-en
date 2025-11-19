@@ -1565,10 +1565,10 @@
       * [Contents Of The Secret Risk Assessment Report CSV](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/risk-report-csv-contents.md)
       * [Viewing The Secret Risk Assessment Report For Your Organization](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/viewing-the-secret-risk-assessment-report-for-your-organization.md)
     - Understanding Your Organizations Exposure To Vulnerabilities
-      * [About Your Exposure To Vulnerable Dependencies](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilities/about-your-exposure-to-vulnerable-dependencies.md)
+      * [About Exposure To Vulnerabilities In Your Code And In Dependencies](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilities/about-your-exposure-to-vulnerable-dependencies.md)
+      * [Prioritizing Dependabot And Code Scanning Alerts Using Production Context](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilities/alerts-in-production-code.md)
       * [Understanding Your Organization S Exposure To Vulnerabilities](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilities/index.md)
       * [Prioritizing Dependabot Alerts Using Metrics](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilities/prioritizing-dependabot-alerts-using-metrics.md)
-      * [Prioritizing Dependabot Alerts Using Production Context](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilities/prioritizing-dependabot-alerts-using-production-context.md)
     * [Securing Your Organization](code-security/securing-your-organization/index.md)
   - Security Advisories
     - Guidance On Reporting And Writing Information About Vulnerabilities
@@ -3347,7 +3347,9 @@
     * [Permissions Required For Git Hub Apps](rest/authentication/permissions-required-for-github-apps.md)
   - Billing
     * [REST API Endpoints For Billing](rest/billing/index.md)
-    * [Enhanced Billing Platform](rest/billing/enhanced-billing.md)
+    * [Budgets](rest/billing/budgets.md)
+    * [Cost Centers](rest/billing/cost-centers.md)
+    * [Billing Usage](rest/billing/usage.md)
   - Branches
     * [REST API Endpoints For Protected Branches](rest/branches/branch-protection.md)
     * [REST API Endpoints For Branches](rest/branches/branches.md)
@@ -3414,7 +3416,6 @@
     * [REST API Endpoints For Admin Stats](rest/enterprise-admin/admin-stats.md)
     * [REST API Endpoints For Global Announcements](rest/enterprise-admin/announcement.md)
     * [REST API Endpoints For Enterprise Audit Logs](rest/enterprise-admin/audit-log.md)
-    * [REST API Endpoints For Enterprise Billing](rest/enterprise-admin/billing.md)
     * [REST API Endpoints For Bypass Requests](rest/enterprise-admin/bypass-requests.md)
     * [REST API Endpoints For Enterprise Security Features For Code](rest/enterprise-admin/code-security-and-analysis.md)
     * [REST API For Organization Custom Properties In An Enterprise](rest/enterprise-admin/custom-properties-for-orgs.md)
@@ -3424,7 +3425,7 @@
     * [REST API Endpoints For Global Webhooks](rest/enterprise-admin/global-webhooks.md)
     * [REST API Endpoints For Git Hub Enterprise Administration](rest/enterprise-admin/index.md)
     * [REST API Endpoints For LDAP](rest/enterprise-admin/ldap.md)
-    * [REST API Endpoints For Enterprise Licenses](rest/enterprise-admin/license.md)
+    * [Licensing](rest/enterprise-admin/licensing.md)
     * [REST API Endpoints For Managing Git Hub Enterprise Server](rest/enterprise-admin/manage-ghes.md)
     * [REST API Endpoints For Management Console](rest/enterprise-admin/management-console.md)
     * [REST API Endpoints For Enterprise Network Configurations](rest/enterprise-admin/network-configurations.md)
