@@ -1937,6 +1937,7 @@
         * [Managing Git Hub Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/index.md)
         * [Managing Policies And Features For Git Hub Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-enterprise-policies.md)
         * [Managing Git Hub Spark In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-spark.md)
+        * [Using Your LLM Provider API Keys With Copilot](copilot/how-tos/administer-copilot/manage-for-enterprise/use-your-own-api-keys.md)
         * [Viewing The Copilot Usage Metrics Dashboard](copilot/how-tos/administer-copilot/manage-for-enterprise/view-usage-and-adoption.md)
       - Manage For Organization
         - Manage Access
@@ -1957,6 +1958,7 @@
         * [Managing Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/index.md)
         * [Managing Policies And Features For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-policies.md)
         * [Preparing To Use Custom Agents In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/prepare-for-custom-agents.md)
+        * [Using Your LLM Provider API Keys With Copilot](copilot/how-tos/administer-copilot/manage-for-organization/use-your-own-api-keys.md)
       - Manage Mcp Usage
         * [Configure An MCP Registry For Your Organization Or Enterprise](copilot/how-tos/administer-copilot/manage-mcp-usage/configure-mcp-registry.md)
         * [Configure MCP Server Access For Your Organization Or Enterprise](copilot/how-tos/administer-copilot/manage-mcp-usage/configure-mcp-server-access.md)
@@ -2056,6 +2058,7 @@
       - Request A Code Review
         * [Configuring Automatic Code Review By Git Hub Copilot](copilot/how-tos/use-copilot-agents/request-a-code-review/configure-automatic-review.md)
         * [Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/index.md)
+        * [Managing Static Analysis Tools In Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/manage-tools.md)
         * [Using Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review.md)
       * [Use Git Hub Copilot Agents](copilot/how-tos/use-copilot-agents/index.md)
       * [Managing Copilot Coding Agents](copilot/how-tos/use-copilot-agents/manage-agents.md)
