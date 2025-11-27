@@ -1882,7 +1882,6 @@
     - Context
       * [Content Exclusion For Git Hub Copilot](copilot/concepts/context/content-exclusion.md)
       * [Concepts For Providing Context To Git Hub Copilot](copilot/concepts/context/index.md)
-      * [Git Hub Copilot Knowledge Bases](copilot/concepts/context/knowledge-bases.md)
       * [About Model Context Protocol MCP](copilot/concepts/context/mcp.md)
       * [Indexing Repositories For Git Hub Copilot Chat](copilot/concepts/context/repository-indexing.md)
       * [About Git Hub Copilot Spaces](copilot/concepts/context/spaces.md)
@@ -2015,9 +2014,7 @@
         * [Using Model Context Protocol](copilot/how-tos/provide-context/use-mcp/index.md)
         * [Setting Up The Git Hub MCP Server](copilot/how-tos/provide-context/use-mcp/set-up-the-github-mcp-server.md)
         * [Using The Git Hub MCP Server](copilot/how-tos/provide-context/use-mcp/use-the-github-mcp-server.md)
-      * [Creating And Managing Git Hub Copilot Knowledge Bases](copilot/how-tos/provide-context/create-knowledge-bases.md)
       * [Provide Context To Git Hub Copilot](copilot/how-tos/provide-context/index.md)
-      * [Using Knowledge Bases](copilot/how-tos/provide-context/use-knowledge-bases.md)
     - Set Up
       * [Setting Up Git Hub Copilot](copilot/how-tos/set-up/index.md)
       * [Installing Git Hub Copilot CLI](copilot/how-tos/set-up/install-copilot-cli.md)
@@ -2096,6 +2093,7 @@
     * [MCP Allowlist Enforcement](copilot/reference/mcp-allowlist-enforcement.md)
     * [Metrics Data Properties For Git Hub Copilot](copilot/reference/metrics-data.md)
     * [Feature Availability When Git Hub Copilot Policies Conflict In Organizations](copilot/reference/policy-conflicts.md)
+    * [Files excluded from {% data variables.copilot.copilot_code-review %}](copilot/reference/review-excluded-files.md)
   - Responsible Use
     * [Responsible Use Of Git Hub Copilot Chat In Git Hub Mobile](copilot/responsible-use/chat-in-github-mobile.md)
     * [Responsible Use Of Git Hub Copilot Chat In Git Hub](copilot/responsible-use/chat-in-github.md)
@@ -2225,6 +2223,7 @@
     * [Learning A New Programming Language With Git Hub Copilot](copilot/tutorials/learn-a-new-language.md)
     * [Using Git Hub Copilot To Migrate A Project To Another Programming Language](copilot/tutorials/migrate-a-project.md)
     * [Modernizing Legacy Code With Git Hub Copilot](copilot/tutorials/modernize-legacy-code.md)
+    * [Build an optimized review process with {% data variables.product.prodname_copilot_short %}](copilot/tutorials/optimize-code-reviews.md)
     * [Planning A Project With Git Hub Copilot](copilot/tutorials/plan-a-project.md)
     * [Using Git Hub Copilot To Reduce Technical Debt](copilot/tutorials/reduce-technical-debt.md)
     * [Refactoring Code With Git Hub Copilot](copilot/tutorials/refactor-code.md)
