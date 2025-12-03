@@ -460,6 +460,7 @@
       * [Configuring Host Keys For Your Instance](admin/configuring-settings/hardening-security-for-your-enterprise/configuring-host-keys-for-your-instance.md)
       * [Configuring SSH Connections To Your Instance](admin/configuring-settings/hardening-security-for-your-enterprise/configuring-ssh-connections-to-your-instance.md)
       * [Configuring The Referrer Policy For Your Enterprise](admin/configuring-settings/hardening-security-for-your-enterprise/configuring-the-referrer-policy-for-your-enterprise.md)
+      * [Configuring TLS And SSH Ciphers](admin/configuring-settings/hardening-security-for-your-enterprise/configuring-tls-and-ssh-ciphers.md)
       * [Configuring TLS](admin/configuring-settings/hardening-security-for-your-enterprise/configuring-tls.md)
       * [Enabling Private Mode](admin/configuring-settings/hardening-security-for-your-enterprise/enabling-private-mode.md)
       * [Enabling Subdomain Isolation](admin/configuring-settings/hardening-security-for-your-enterprise/enabling-subdomain-isolation.md)
@@ -1102,6 +1103,7 @@
       * [Downloading License Use For Your Enterprise Or Organization](billing/how-tos/products/download-license-use.md)
       * [View And Manage Paid Use Of Git Hub Products](billing/how-tos/products/index.md)
       * [Managing Volume Licenses For Git Hub Advanced Security](billing/how-tos/products/manage-ghas-licenses.md)
+      * [Using Cost Centers To Allocate Costs To Business Units](billing/how-tos/products/use-cost-centers.md)
       * [Viewing Committer Information For Advanced Security Licenses](billing/how-tos/products/view-ghas-committers.md)
       * [Viewing Your Usage Of Metered Products And Licenses](billing/how-tos/products/view-productlicense-use.md)
     - Set Up Payment
@@ -1143,7 +1145,6 @@
     * [Gathering Insights On Your Spending](billing/tutorials/gather-insights.md)
     * [Tutorials For Billing](billing/tutorials/index.md)
     * [Setting Up Budgets To Control Spending On Metered Products](billing/tutorials/set-up-budgets.md)
-    * [Using Cost Centers To Allocate Costs To Business Units](billing/tutorials/use-cost-centers.md)
   * [Billing And Payments Documentation](billing/index.md)
 - Code Security
   - Adopting Github Advanced Security At Scale
@@ -2004,7 +2005,7 @@
       * [Viewing And Changing Your Git Hub Copilot Plan](copilot/how-tos/manage-your-account/view-and-change-your-copilot-plan.md)
     - Provide Context
       - Use Copilot Spaces
-        * [Collaborating With Your Team Using Git Hub Copilot Spaces](copilot/how-tos/provide-context/use-copilot-spaces/collaborate-with-your-team.md)
+        * [Collaborating With Others Using Git Hub Copilot Spaces](copilot/how-tos/provide-context/use-copilot-spaces/collaborate-with-others.md)
         * [Creating Git Hub Copilot Spaces](copilot/how-tos/provide-context/use-copilot-spaces/create-copilot-spaces.md)
         * [Git Hub Copilot Spaces](copilot/how-tos/provide-context/use-copilot-spaces/index.md)
         * [Using Git Hub Copilot Spaces](copilot/how-tos/provide-context/use-copilot-spaces/use-copilot-spaces.md)
