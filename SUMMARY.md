@@ -1938,6 +1938,7 @@
         * [Managing Policies And Features For Git Hub Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-enterprise-policies.md)
         * [Managing Git Hub Spark In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-spark.md)
         * [Using Your LLM Provider API Keys With Copilot](copilot/how-tos/administer-copilot/manage-for-enterprise/use-your-own-api-keys.md)
+        * [Viewing The Code Generation Dashboard](copilot/how-tos/administer-copilot/manage-for-enterprise/view-code-generation.md)
         * [Viewing The Copilot Usage Metrics Dashboard](copilot/how-tos/administer-copilot/manage-for-enterprise/view-usage-and-adoption.md)
       - Manage For Organization
         - Manage Access
@@ -3812,6 +3813,7 @@
   - Learning About Github Support
     * [About Copilot In Git Hub Support](support/learning-about-github-support/about-copilot-in-github-support.md)
     * [About Git Hub Premium Support](support/learning-about-github-support/about-github-premium-support.md)
+    * [About Git Hub Special Events Support](support/learning-about-github-support/about-github-special-events-support.md)
     * [About Git Hub Support](support/learning-about-github-support/about-github-support.md)
     * [About Ticket Priority](support/learning-about-github-support/about-ticket-priority.md)
     * [Git Hub Marketplace Support](support/learning-about-github-support/github-marketplace-support.md)
