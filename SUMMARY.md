@@ -1802,7 +1802,6 @@
     * [Configuring Issue Templates For Your Repository](communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository.md)
     * [Creating A Pull Request Template For Your Repository](communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository.md)
     * [Using Templates To Encourage Useful Issues And Pull Requests](communities/using-templates-to-encourage-useful-issues-and-pull-requests/index.md)
-    * [Manually Creating A Single Issue Template For Your Repository](communities/using-templates-to-encourage-useful-issues-and-pull-requests/manually-creating-a-single-issue-template-for-your-repository.md)
     * [Syntax For Git Hub S Form Schema](communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema.md)
     * [Syntax For Issue Forms](communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms.md)
   * [Building Communities Documentation](communities/index.md)
