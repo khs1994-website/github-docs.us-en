@@ -2035,7 +2035,6 @@
       * [Changing The AI Model For Git Hub Copilot Chat](copilot/how-tos/use-ai-models/change-the-chat-model.md)
       * [Changing The AI Model For Git Hub Copilot Inline Suggestions](copilot/how-tos/use-ai-models/change-the-completion-model.md)
       * [Configuring Access To AI Models In Git Hub Copilot](copilot/how-tos/use-ai-models/configure-access-to-ai-models.md)
-      * [Creating A Custom Model For Git Hub Copilot](copilot/how-tos/use-ai-models/create-a-custom-model.md)
       * [AI Models For Git Hub Copilot](copilot/how-tos/use-ai-models/index.md)
     - Use Copilot Agents
       - Coding Agent
