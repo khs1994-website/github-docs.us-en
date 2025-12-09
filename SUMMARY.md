@@ -2038,6 +2038,7 @@
       * [AI Models For Git Hub Copilot](copilot/how-tos/use-ai-models/index.md)
     - Use Copilot Agents
       - Coding Agent
+        * [Changing The AI Model For Git Hub Copilot Coding Agent](copilot/how-tos/use-copilot-agents/coding-agent/changing-the-ai-model.md)
         * [Asking Git Hub Copilot To Create A Pull Request](copilot/how-tos/use-copilot-agents/coding-agent/create-a-pr.md)
         * [Creating Custom Agents](copilot/how-tos/use-copilot-agents/coding-agent/create-custom-agents.md)
         * [Customizing The Development Environment For Git Hub Copilot Coding Agent](copilot/how-tos/use-copilot-agents/coding-agent/customize-the-agent-environment.md)
@@ -2231,6 +2232,7 @@
     * [Speeding Up Development Work With Git Hub Copilot Spaces](copilot/tutorials/speed-up-development-work.md)
     * [Upgrading Projects With Git Hub Copilot](copilot/tutorials/upgrade-projects.md)
     * [Using Custom Instructions To Unlock The Power Of Copilot Code Review](copilot/tutorials/use-custom-instructions.md)
+    * [Vibe Coding With Git Hub Copilot](copilot/tutorials/vibe-coding.md)
     * [Writing Tests With Git Hub Copilot](copilot/tutorials/write-tests.md)
   * [{% data variables.product.prodname_copilot %} documentation](copilot/index.md)
 - Desktop
