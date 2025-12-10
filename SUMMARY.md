@@ -392,6 +392,10 @@
     * [Configuring Backups On Your Instance Using Backup Utilities](admin/backing-up-and-restoring-your-instance/configuring-backups-on-your-instance.md)
     * [Backing Up And Restoring Your Instance](admin/backing-up-and-restoring-your-instance/index.md)
   - Concepts
+    - Enterprise Best Practices
+      * [Best Practices For Enterprises](admin/concepts/enterprise-best-practices/index.md)
+      * [Best Practices For Organizing Work In Your Enterprise](admin/concepts/enterprise-best-practices/organize-work.md)
+      * [Using Innersource In Your Enterprise](admin/concepts/enterprise-best-practices/use-innersource.md)
     - Enterprise Fundamentals
       * [Enterprise Accounts](admin/concepts/enterprise-fundamentals/enterprise-accounts.md)
       * [Enterprise Fundamentals](admin/concepts/enterprise-fundamentals/index.md)
@@ -405,7 +409,6 @@
       * [Audit Log For An Enterprise](admin/concepts/security-and-compliance/audit-log-for-an-enterprise.md)
       * [Enterprise Policies](admin/concepts/security-and-compliance/enterprise-policies.md)
       * [Security And Compliance](admin/concepts/security-and-compliance/index.md)
-    * [Best Practices For Organizing Work In Your Enterprise](admin/concepts/best-practices.md)
     * [Concepts For Enterprises](admin/concepts/index.md)
   - Configuring Packages
     * [Configuring Package Ecosystem Support For Your Enterprise](admin/configuring-packages/configuring-package-ecosystem-support-for-your-enterprise.md)
@@ -1067,6 +1070,7 @@
     * [Impact Of Changing Your Plan On Billing](billing/concepts/impact-of-plan-changes.md)
     * [Concepts For Git Hub Billing](billing/concepts/index.md)
   - Get Started
+    * [Billing Manager Onboarding](billing/get-started/billing-manager-onboard.md)
     * [How Git Hub Billing Works](billing/get-started/how-billing-works.md)
     * [Get Started With Billing](billing/get-started/index.md)
     * [Introduction To Billing And Licensing](billing/get-started/introduction-to-billing.md)
@@ -2163,6 +2167,7 @@
         * [Creating Mock Objects To Abstract Layers](copilot/tutorials/copilot-chat-cookbook/testing-code/create-mock-objects.md)
         * [Generating Unit Tests](copilot/tutorials/copilot-chat-cookbook/testing-code/generate-unit-tests.md)
         * [Testing Code](copilot/tutorials/copilot-chat-cookbook/testing-code/index.md)
+        * [Updating Unit Tests To Match Code Changes](copilot/tutorials/copilot-chat-cookbook/testing-code/update-unit-tests.md)
       * [Git Hub Copilot Chat Cookbook](copilot/tutorials/copilot-chat-cookbook/index.md)
     - Customization Library
       - Custom Agents
@@ -2413,6 +2418,7 @@
     * [Identifying The Roles Required By Your Enterprise](enterprise-onboarding/setting-up-organizations-and-teams/identify-role-requirements.md)
     * [Setting Up Organizations And Teams In Your Enterprise](enterprise-onboarding/setting-up-organizations-and-teams/index.md)
     * [Setting Up An Organization](enterprise-onboarding/setting-up-organizations-and-teams/setting-up-an-organization.md)
+    * [Using Innersource In Your Enterprise](enterprise-onboarding/setting-up-organizations-and-teams/use-innersource.md)
   - Support For Your Enterprise
     * [Creating A Support Model For Your Enterprise](enterprise-onboarding/support-for-your-enterprise/index.md)
     * [Managing Support Entitlements](enterprise-onboarding/support-for-your-enterprise/managing-support-entitlements.md)
@@ -3398,6 +3404,7 @@
     * [Credentials](rest/credentials/index.md)
     * [Revocation](rest/credentials/revoke.md)
   - Dependabot
+    * [REST API endpoints for {% data variables.product.prodname_dependabot %} alert dismissal requests](rest/dependabot/alert-dismissal-requests.md)
     * [REST API endpoints for {% data variables.product.prodname_dependabot_alerts %}](rest/dependabot/alerts.md)
     * [REST API endpoints for {% data variables.product.prodname_dependabot %}](rest/dependabot/index.md)
     * [REST API endpoints for {% data variables.product.prodname_dependabot %} repository access](rest/dependabot/repository-access.md)
@@ -3563,6 +3570,7 @@
     * [REST API Endpoints For Releases And Release Assets](rest/releases/index.md)
     * [REST API Endpoints For Releases](rest/releases/releases.md)
   - Repos
+    * [REST API Endpoints For Repository Attestations](rest/repos/attestations.md)
     * [REST API Endpoints For Repository Autolinks](rest/repos/autolinks.md)
     * [REST API Endpoints For Repository Push Rule Bypass Requests](rest/repos/bypass-requests.md)
     * [REST API Endpoints For Repository Contents](rest/repos/contents.md)

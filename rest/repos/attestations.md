@@ -1,7 +1,7 @@
 ---
-title: REST API endpoints for Projects
-shortTitle: Projects
-intro: Use the REST API to manage Projects
+title: REST API endpoints for repository attestations
+shortTitle: Attestations
+intro: Use the REST API to manage repository attestations.
 versions: # DO NOT MANUALLY EDIT. CHANGES WILL BE OVERWRITTEN BY A 🤖
   fpt: '*'
   ghec: '*'
