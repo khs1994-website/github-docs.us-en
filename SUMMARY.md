@@ -1175,7 +1175,15 @@
       * [Setting Code Quality Thresholds For Pull Requests](code-security/code-quality/how-tos/set-pr-thresholds.md)
       * [Resolving A Block On Your Pull Request](code-security/code-quality/how-tos/unblock-your-pr.md)
     - Reference
-      * [Code QL Detection Of Code Quality Problems](code-security/code-quality/reference/codeql-detection.md)
+      - Codeql Queries
+        * [C Code QL Queries For Code Quality](code-security/code-quality/reference/codeql-queries/csharp-queries.md)
+        * [Go Code QL Queries For Code Quality](code-security/code-quality/reference/codeql-queries/go-queries.md)
+        * [Queries For Code QL Detection](code-security/code-quality/reference/codeql-queries/index.md)
+        * [Java Code QL Queries For Code Quality](code-security/code-quality/reference/codeql-queries/java-queries.md)
+        * [Java Script Code QL Queries For Code Quality](code-security/code-quality/reference/codeql-queries/javascript-queries.md)
+        * [Python Code QL Queries For Code Quality](code-security/code-quality/reference/codeql-queries/python-queries.md)
+        * [Ruby Code QL Queries For Code Quality](code-security/code-quality/reference/codeql-queries/ruby-queries.md)
+      * [Code QL Powered Analysis For Code Quality](code-security/code-quality/reference/codeql-detection.md)
       * [Reference For Git Hub Code Quality](code-security/code-quality/reference/index.md)
       * [Metrics And Ratings Reference](code-security/code-quality/reference/metrics-and-ratings.md)
     - Responsible Use
@@ -3218,6 +3226,7 @@
     * [Restoring A Deleted Repository](repositories/creating-and-managing-repositories/restoring-a-deleted-repository.md)
     * [Transferring A Repository](repositories/creating-and-managing-repositories/transferring-a-repository.md)
     * [Troubleshooting Cloning Errors](repositories/creating-and-managing-repositories/troubleshooting-cloning-errors.md)
+    * [Viewing All Repositories](repositories/creating-and-managing-repositories/viewing-all-your-repositories.md)
   - Managing Your Repositorys Settings And Features
     - Customizing Your Repository
       * [About CITATION Files](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files.md)
