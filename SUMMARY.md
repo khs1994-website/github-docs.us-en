@@ -2023,6 +2023,8 @@
         * [Using Git Hub Copilot Spaces](copilot/how-tos/provide-context/use-copilot-spaces/use-copilot-spaces.md)
       - Use Mcp
         * [Changing Your MCP Registry In Your IDE](copilot/how-tos/provide-context/use-mcp/change-mcp-registry.md)
+        * [Configuring Toolsets For The Git Hub MCP Server](copilot/how-tos/provide-context/use-mcp/configure-toolsets.md)
+        * [Configuring The Git Hub MCP Server For Git Hub Enterprise](copilot/how-tos/provide-context/use-mcp/enterprise-configuration.md)
         * [Extending Git Hub Copilot Chat With Model Context Protocol MCP Servers](copilot/how-tos/provide-context/use-mcp/extend-copilot-chat-with-mcp.md)
         * [Using Model Context Protocol](copilot/how-tos/provide-context/use-mcp/index.md)
         * [Setting Up The Git Hub MCP Server](copilot/how-tos/provide-context/use-mcp/set-up-the-github-mcp-server.md)
