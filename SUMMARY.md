@@ -358,6 +358,7 @@
     * [Use GITHUB TOKEN For Authentication In Workflows](actions/tutorials/authenticate-with-github_token.md)
     * [Creating An Example Workflow](actions/tutorials/create-an-example-workflow.md)
     * [Tutorials For Git Hub Actions](actions/tutorials/index.md)
+    * [Migrating From Self Hosted Runners To Git Hub Hosted Runners](actions/tutorials/migrate-to-github-runners.md)
     * [Store And Share Data With Workflow Artifacts](actions/tutorials/store-and-share-data.md)
   * [{% data variables.product.prodname_actions %} documentation](actions/index.md)
 - Admin
@@ -1145,6 +1146,7 @@
   - Tutorials
     * [Automating Usage Reporting With The REST API](billing/tutorials/automate-usage-reporting.md)
     * [Controlling And Tracking Costs At Scale](billing/tutorials/control-costs-at-scale.md)
+    * [Estimating The Cost Of Using Git Hub Actions On Different Types Of Runners](billing/tutorials/estimate-actions-costs.md)
     * [Estimating Spending](billing/tutorials/estimate-spending.md)
     * [Gathering Insights On Your Spending](billing/tutorials/gather-insights.md)
     * [Tutorials For Billing](billing/tutorials/index.md)
@@ -2238,6 +2240,7 @@
     * [Tutorials for {% data variables.product.prodname_copilot %}](copilot/tutorials/index.md)
     * [Learning A New Programming Language With Git Hub Copilot](copilot/tutorials/learn-a-new-language.md)
     * [Using Git Hub Copilot To Migrate A Project To Another Programming Language](copilot/tutorials/migrate-a-project.md)
+    * [Modernizing Java Applications With Git Hub Copilot](copilot/tutorials/modernize-java-applications.md)
     * [Modernizing Legacy Code With Git Hub Copilot](copilot/tutorials/modernize-legacy-code.md)
     * [Build an optimized review process with {% data variables.product.prodname_copilot_short %}](copilot/tutorials/optimize-code-reviews.md)
     * [Planning A Project With Git Hub Copilot](copilot/tutorials/plan-a-project.md)
@@ -3730,7 +3733,7 @@
     * [Guidelines For Legal Requests Of User Data](site-policy/other-site-policies/guidelines-for-legal-requests-of-user-data.md)
     * [Other Site Policies](site-policy/other-site-policies/index.md)
   - Privacy Policies
-    * [Git Hub Candidate Privacy Policy](site-policy/privacy-policies/github-candidate-privacy-policy.md)
+    * [Git Hub Global Data Privacy Notice For Candidates](site-policy/privacy-policies/github-candidate-privacy-policy.md)
     * [Git Hub Codespaces Privacy Statement](site-policy/privacy-policies/github-codespaces-privacy-statement.md)
     * [Git Hub Cookies](site-policy/privacy-policies/github-cookies.md)
     * [Git Hub General Privacy Statement](site-policy/privacy-policies/github-general-privacy-statement.md)
