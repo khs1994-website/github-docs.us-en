@@ -58,6 +58,7 @@
       * [Accessing An Organization](account-and-profile/how-tos/organization-membership/accessing-an-organization.md)
       * [Managing Your Membership In Organizations](account-and-profile/how-tos/organization-membership/index.md)
       * [Publicizing Or Hiding Organization Membership](account-and-profile/how-tos/organization-membership/publicizing-or-hiding-organization-membership.md)
+      * [Removing Yourself From An Enterprise](account-and-profile/how-tos/organization-membership/removing-yourself-from-an-enterprise.md)
       * [Removing Yourself From An Organization](account-and-profile/how-tos/organization-membership/removing-yourself-from-an-organization.md)
       * [Requesting Organization Approval For O Auth Apps](account-and-profile/how-tos/organization-membership/requesting-organization-approval-for-oauth-apps.md)
       * [Viewing People S Roles In An Organization](account-and-profile/how-tos/organization-membership/viewing-peoples-roles-in-an-organization.md)
@@ -1146,7 +1147,6 @@
   - Tutorials
     * [Automating Usage Reporting With The REST API](billing/tutorials/automate-usage-reporting.md)
     * [Controlling And Tracking Costs At Scale](billing/tutorials/control-costs-at-scale.md)
-    * [Estimating The Cost Of Using Git Hub Actions On Different Types Of Runners](billing/tutorials/estimate-actions-costs.md)
     * [Estimating Spending](billing/tutorials/estimate-spending.md)
     * [Gathering Insights On Your Spending](billing/tutorials/gather-insights.md)
     * [Tutorials For Billing](billing/tutorials/index.md)
