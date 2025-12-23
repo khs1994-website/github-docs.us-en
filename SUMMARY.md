@@ -2981,7 +2981,7 @@
     * [About Programmatic Access In Your Organization](organizations/managing-programmatic-access-to-your-organization/about-programmatic-access-in-your-organization.md)
     * [Adding And Removing Git Hub App Managers In Your Organization](organizations/managing-programmatic-access-to-your-organization/adding-and-removing-github-app-managers-in-your-organization.md)
     * [Managing Programmatic Access To Your Organization](organizations/managing-programmatic-access-to-your-organization/index.md)
-    * [Limiting O Auth App And Git Hub App Access Requests](organizations/managing-programmatic-access-to-your-organization/limiting-oauth-app-and-github-app-access-requests.md)
+    * [Limiting O Auth App And Git Hub App Access Requests And Installations](organizations/managing-programmatic-access-to-your-organization/limiting-oauth-app-and-github-app-access-requests-and-installations.md)
     * [Managing Requests For Personal Access Tokens In Your Organization](organizations/managing-programmatic-access-to-your-organization/managing-requests-for-personal-access-tokens-in-your-organization.md)
     * [Reviewing And Revoking Personal Access Tokens In Your Organization](organizations/managing-programmatic-access-to-your-organization/reviewing-and-revoking-personal-access-tokens-in-your-organization.md)
     * [Reviewing Git Hub Apps Installed In Your Organization](organizations/managing-programmatic-access-to-your-organization/reviewing-github-apps-installed-in-your-organization.md)
