@@ -3618,8 +3618,6 @@
     * [REST API Endpoints For Security Advisories](rest/security-advisories/index.md)
     * [REST API Endpoints For Repository Security Advisories](rest/security-advisories/repository-advisories.md)
   - Teams
-    * [REST API Endpoints For Team Discussion Comments](rest/teams/discussion-comments.md)
-    * [REST API Endpoints For Team Discussions](rest/teams/discussions.md)
     * [REST API Endpoints For External Groups](rest/teams/external-groups.md)
     * [REST API Endpoints For Teams](rest/teams/teams.md)
     * [REST API Endpoints For Team Members](rest/teams/members.md)
