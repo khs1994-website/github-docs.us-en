@@ -1107,6 +1107,7 @@
     - Products
       * [Buying Advanced Security For Your Organization Or Enterprise](billing/how-tos/products/buy-advanced-security.md)
       * [Downloading License Use For Your Enterprise Or Organization](billing/how-tos/products/download-license-use.md)
+      * [Viewing And Estimating Your Spending](billing/how-tos/products/estimate-spending.md)
       * [View And Manage Paid Use Of Git Hub Products](billing/how-tos/products/index.md)
       * [Managing Volume Licenses For Git Hub Advanced Security](billing/how-tos/products/manage-ghas-licenses.md)
       * [Using Cost Centers To Allocate Costs To Business Units](billing/how-tos/products/use-cost-centers.md)
@@ -1147,7 +1148,6 @@
   - Tutorials
     * [Automating Usage Reporting With The REST API](billing/tutorials/automate-usage-reporting.md)
     * [Controlling And Tracking Costs At Scale](billing/tutorials/control-costs-at-scale.md)
-    * [Estimating Spending](billing/tutorials/estimate-spending.md)
     * [Gathering Insights On Your Spending](billing/tutorials/gather-insights.md)
     * [Tutorials For Billing](billing/tutorials/index.md)
     * [Setting Up Budgets To Control Spending On Metered Products](billing/tutorials/set-up-budgets.md)
@@ -1416,27 +1416,44 @@
       * [Testing Code QL Queries In Visual Studio Code](code-security/codeql-for-vs-code/using-the-advanced-functionality-of-the-codeql-for-vs-code-extension/testing-codeql-queries-in-vs-code.md)
       * [Using The Code QL Model Editor](code-security/codeql-for-vs-code/using-the-advanced-functionality-of-the-codeql-for-vs-code-extension/using-the-codeql-model-editor.md)
     * [Use Code QL Inside Visual Studio Code](code-security/codeql-for-vs-code/index.md)
+  - Concepts
+    - Supply Chain Security
+      * [About Dependabot Alerts](code-security/concepts/supply-chain-security/about-dependabot-alerts.md)
+      * [About Dependabot Auto Triage Rules](code-security/concepts/supply-chain-security/about-dependabot-auto-triage-rules.md)
+      * [About Dependabot On Git Hub Actions Runners](code-security/concepts/supply-chain-security/about-dependabot-on-github-actions-runners.md)
+      * [About Dependabot Security Updates](code-security/concepts/supply-chain-security/about-dependabot-security-updates.md)
+      * [About Dependabot Version Updates](code-security/concepts/supply-chain-security/about-dependabot-version-updates.md)
+      * [About Dependency Review](code-security/concepts/supply-chain-security/about-dependency-review.md)
+      * [About Supply Chain Security](code-security/concepts/supply-chain-security/about-supply-chain-security.md)
+      * [About The Dependency Graph](code-security/concepts/supply-chain-security/about-the-dependency-graph.md)
+      * [Best Practices For Maintaining Dependencies](code-security/concepts/supply-chain-security/best-practices-for-maintaining-dependencies.md)
+      * [Immutable Releases](code-security/concepts/supply-chain-security/immutable-releases.md)
+      * [Supply Chain Security](code-security/concepts/supply-chain-security/index.md)
+    - Vulnerability Reporting And Management
+      * [About Coordinated Disclosure Of Security Vulnerabilities](code-security/concepts/vulnerability-reporting-and-management/about-coordinated-disclosure-of-security-vulnerabilities.md)
+      * [About Global Security Advisories](code-security/concepts/vulnerability-reporting-and-management/about-global-security-advisories.md)
+      * [About Repository Security Advisories](code-security/concepts/vulnerability-reporting-and-management/about-repository-security-advisories.md)
+      * [About The Git Hub Advisory Database](code-security/concepts/vulnerability-reporting-and-management/about-the-github-advisory-database.md)
+      * [About Exposure To Vulnerabilities In Your Code And In Dependencies](code-security/concepts/vulnerability-reporting-and-management/about-your-exposure-to-vulnerabilities-in-your-code-and-in-dependencies.md)
+      * [Concepts For Vulnerability Reporting And Management](code-security/concepts/vulnerability-reporting-and-management/index.md)
+    * [Index](code-security/concepts/index.md)
   - Dependabot
     - Dependabot Alerts
-      * [About Dependabot Alerts](code-security/dependabot/dependabot-alerts/about-dependabot-alerts.md)
       * [Configuring Dependabot Alerts](code-security/dependabot/dependabot-alerts/configuring-dependabot-alerts.md)
       * [Configuring Notifications For Dependabot Alerts](code-security/dependabot/dependabot-alerts/configuring-notifications-for-dependabot-alerts.md)
       * [Enabling Delegated Alert Dismissal For Dependabot](code-security/dependabot/dependabot-alerts/enable-delegated-alert-dismissal.md)
       * [Identifying Vulnerabilities In Your Project S Dependencies With Dependabot Alerts](code-security/dependabot/dependabot-alerts/index.md)
       * [Viewing And Updating Dependabot Alerts](code-security/dependabot/dependabot-alerts/viewing-and-updating-dependabot-alerts.md)
     - Dependabot Auto Triage Rules
-      * [About Dependabot Auto Triage Rules](code-security/dependabot/dependabot-auto-triage-rules/about-dependabot-auto-triage-rules.md)
       * [Customizing Auto Triage Rules To Prioritize Dependabot Alerts](code-security/dependabot/dependabot-auto-triage-rules/customizing-auto-triage-rules-to-prioritize-dependabot-alerts.md)
       * [Prioritizing Dependabot Alerts With Dependabot Auto Triage Rules](code-security/dependabot/dependabot-auto-triage-rules/index.md)
       * [Managing Alerts That Have Been Automatically Dismissed By A Dependabot Auto Triage Rule](code-security/dependabot/dependabot-auto-triage-rules/managing-automatically-dismissed-alerts.md)
       * [Using Git Hub Preset Rules To Prioritize Dependabot Alerts](code-security/dependabot/dependabot-auto-triage-rules/using-github-preset-rules-to-prioritize-dependabot-alerts.md)
     - Dependabot Security Updates
-      * [About Dependabot Security Updates](code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates.md)
       * [Configuring Dependabot Security Updates](code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates.md)
       * [Customizing Pull Requests For Dependabot Security Updates](code-security/dependabot/dependabot-security-updates/customizing-dependabot-security-prs.md)
       * [Automatically Updating Dependencies With Known Vulnerabilities With Dependabot Security Updates](code-security/dependabot/dependabot-security-updates/index.md)
     - Dependabot Version Updates
-      * [About Dependabot Version Updates](code-security/dependabot/dependabot-version-updates/about-dependabot-version-updates.md)
       * [Configuring Dependabot Version Updates](code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates.md)
       * [Controlling Which Dependencies Are Updated By Dependabot](code-security/dependabot/dependabot-version-updates/controlling-dependencies-updated.md)
       * [Customizing Dependabot Pull Requests To Fit Your Processes](code-security/dependabot/dependabot-version-updates/customizing-dependabot-prs.md)
@@ -1447,7 +1464,6 @@
       * [Optimizing Java Packages For Dependabot Updates](code-security/dependabot/ecosystems-supported-by-dependabot/optimizing-java-packages-dependabot.md)
       * [Dependabot Supported Ecosystems And Repositories](code-security/dependabot/ecosystems-supported-by-dependabot/supported-ecosystems-and-repositories.md)
     - Maintain Dependencies
-      * [Best Practices For Maintaining Dependencies](code-security/dependabot/maintain-dependencies/best-practices-for-maintaining-dependencies.md)
       * [Maintaining Dependencies At Scale](code-security/dependabot/maintain-dependencies/index.md)
       * [Managing Dependabot On Self Hosted Runners](code-security/dependabot/maintain-dependencies/managing-dependabot-on-self-hosted-runners.md)
       * [Removing Dependabot Access To Public Registries](code-security/dependabot/maintain-dependencies/removing-dependabot-access-to-public-registries.md)
@@ -1460,7 +1476,6 @@
       * [Troubleshooting The Detection Of Vulnerable Dependencies](code-security/dependabot/troubleshooting-dependabot/troubleshooting-the-detection-of-vulnerable-dependencies.md)
       * [Viewing Dependabot Job Logs](code-security/dependabot/troubleshooting-dependabot/viewing-dependabot-job-logs.md)
     - Working With Dependabot
-      * [About Dependabot On Git Hub Actions Runners](code-security/dependabot/working-with-dependabot/about-dependabot-on-github-actions-runners.md)
       * [Automating Dependabot With Git Hub Actions](code-security/dependabot/working-with-dependabot/automating-dependabot-with-github-actions.md)
       * [Configuring Access To Private Registries For Dependabot](code-security/dependabot/working-with-dependabot/configuring-access-to-private-registries-for-dependabot.md)
       * [Configuring Multi Ecosystem Updates For Dependabot](code-security/dependabot/working-with-dependabot/configuring-multi-ecosystem-updates.md)
@@ -1482,6 +1497,12 @@
     * [Quickstart For Securing Your Organization](code-security/getting-started/quickstart-for-securing-your-organization.md)
     * [Quickstart For Securing Your Repository](code-security/getting-started/quickstart-for-securing-your-repository.md)
     * [Understanding Git Hub Secret Types](code-security/getting-started/understanding-github-secret-types.md)
+  - How Tos
+    * [How Tos For Security And Code Quality](code-security/how-tos/index.md)
+  - Reference
+    * [Reference For Security And Code Quality](code-security/reference/index.md)
+  - Responsible Use
+    * [Responsible use of {% data variables.product.github %}'s security and code quality features](code-security/responsible-use/index.md)
   - Secret Scanning
     - Copilot Secret Scanning
       * [Enabling Copilot Secret Scanning S Generic Secret Detection](code-security/secret-scanning/copilot-secret-scanning/enabling-ai-powered-generic-secret-detection.md)
@@ -1586,26 +1607,21 @@
       * [Contents Of The Secret Risk Assessment Report CSV](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/risk-report-csv-contents.md)
       * [Viewing The Secret Risk Assessment Report For Your Organization](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/viewing-the-secret-risk-assessment-report-for-your-organization.md)
     - Understanding Your Organizations Exposure To Vulnerabilities
-      * [About Exposure To Vulnerabilities In Your Code And In Dependencies](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilities/about-your-exposure-to-vulnerable-dependencies.md)
       * [Prioritizing Dependabot And Code Scanning Alerts Using Production Context](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilities/alerts-in-production-code.md)
       * [Understanding Your Organization S Exposure To Vulnerabilities](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilities/index.md)
       * [Prioritizing Dependabot Alerts Using Metrics](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilities/prioritizing-dependabot-alerts-using-metrics.md)
     * [Securing Your Organization](code-security/securing-your-organization/index.md)
   - Security Advisories
     - Guidance On Reporting And Writing Information About Vulnerabilities
-      * [About Coordinated Disclosure Of Security Vulnerabilities](code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/about-coordinated-disclosure-of-security-vulnerabilities.md)
       * [Best Practices For Writing Repository Security Advisories](code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/best-practices-for-writing-repository-security-advisories.md)
       * [Guidance On Reporting And Writing Information About Vulnerabilities](code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/index.md)
       * [Managing Privately Reported Security Vulnerabilities](code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/managing-privately-reported-security-vulnerabilities.md)
       * [Privately Reporting A Security Vulnerability](code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability.md)
     - Working With Global Security Advisories From The Github Advisory Database
-      * [About Global Security Advisories](code-security/security-advisories/working-with-global-security-advisories-from-the-github-advisory-database/about-global-security-advisories.md)
-      * [About The Git Hub Advisory Database](code-security/security-advisories/working-with-global-security-advisories-from-the-github-advisory-database/about-the-github-advisory-database.md)
       * [Browsing Security Advisories In The Git Hub Advisory Database](code-security/security-advisories/working-with-global-security-advisories-from-the-github-advisory-database/browsing-security-advisories-in-the-github-advisory-database.md)
       * [Editing Security Advisories In The Git Hub Advisory Database](code-security/security-advisories/working-with-global-security-advisories-from-the-github-advisory-database/editing-security-advisories-in-the-github-advisory-database.md)
       * [Working With Global Security Advisories From The Git Hub Advisory Database](code-security/security-advisories/working-with-global-security-advisories-from-the-github-advisory-database/index.md)
     - Working With Repository Security Advisories
-      * [About Repository Security Advisories](code-security/security-advisories/working-with-repository-security-advisories/about-repository-security-advisories.md)
       * [Adding A Collaborator To A Repository Security Advisory](code-security/security-advisories/working-with-repository-security-advisories/adding-a-collaborator-to-a-repository-security-advisory.md)
       * [Collaborating In A Temporary Private Fork To Resolve A Repository Security Vulnerability](code-security/security-advisories/working-with-repository-security-advisories/collaborating-in-a-temporary-private-fork-to-resolve-a-repository-security-vulnerability.md)
       * [Configuring Private Vulnerability Reporting For A Repository](code-security/security-advisories/working-with-repository-security-advisories/configuring-private-vulnerability-reporting-for-a-repository.md)
@@ -1641,9 +1657,6 @@
       * [Best Practices For Securing Your Build System](code-security/supply-chain-security/end-to-end-supply-chain/securing-builds.md)
       * [Best Practices For Securing Code In Your Supply Chain](code-security/supply-chain-security/end-to-end-supply-chain/securing-code.md)
     - Understanding Your Software Supply Chain
-      * [About Dependency Review](code-security/supply-chain-security/understanding-your-software-supply-chain/about-dependency-review.md)
-      * [About Supply Chain Security](code-security/supply-chain-security/understanding-your-software-supply-chain/about-supply-chain-security.md)
-      * [About The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph.md)
       * [Configuring Automatic Dependency Submission For Your Repository](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-automatic-dependency-submission-for-your-repository.md)
       * [Configuring The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-the-dependency-graph.md)
       * [Configuring The Dependency Review Action](code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-the-dependency-review-action.md)
@@ -1652,7 +1665,6 @@
       * [Enforcing Dependency Review Across An Organization](code-security/supply-chain-security/understanding-your-software-supply-chain/enforcing-dependency-review-across-an-organization.md)
       * [Exploring The Dependencies Of A Repository](code-security/supply-chain-security/understanding-your-software-supply-chain/exploring-the-dependencies-of-a-repository.md)
       * [Exporting A Software Bill Of Materials For Your Repository](code-security/supply-chain-security/understanding-your-software-supply-chain/exporting-a-software-bill-of-materials-for-your-repository.md)
-      * [Immutable Releases](code-security/supply-chain-security/understanding-your-software-supply-chain/immutable-releases.md)
       * [Understanding Your Software Supply Chain](code-security/supply-chain-security/understanding-your-software-supply-chain/index.md)
       * [Preventing Changes To Your Releases](code-security/supply-chain-security/understanding-your-software-supply-chain/preventing-changes-to-your-releases.md)
       * [Troubleshooting The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/troubleshooting-the-dependency-graph.md)
@@ -1666,6 +1678,8 @@
     * [Trialing {% data variables.product.prodname_GHAS %}](code-security/trialing-github-advanced-security/index.md)
     * [Planning a trial of {% data variables.product.prodname_GHAS %}](code-security/trialing-github-advanced-security/planning-a-trial-of-ghas.md)
     * [Setting Up A Trial Of Git Hub Advanced Security](code-security/trialing-github-advanced-security/trial-advanced-security.md)
+  - Tutorials
+    * [Tutorials For Security And Code Quality](code-security/tutorials/index.md)
   * [Security And Code Quality Documentation](code-security/index.md)
 - Codespaces
   - About Codespaces
