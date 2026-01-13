@@ -1,7 +1,7 @@
 ---
-title: 'Tutorials for security and code quality'
+title: Tutorials for security and code quality
 shortTitle: Tutorials
-intro: 'Build skills and knowledge about {% data variables.product.github %}''s security and code quality features through examples and hands-on activities.'
+intro: Build skills and knowledge about {% data variables.product.github %}'s security and code quality features through examples and hands-on activities.
 versions:
   fpt: '*'
   ghes: '*'
@@ -17,4 +17,8 @@ topics:
 contentType: tutorials
 children:
   - secure-your-organization
+  - trialing-github-advanced-security
+  - adopting-github-advanced-security-at-scale
+  - manage-security-alerts
 ---
+

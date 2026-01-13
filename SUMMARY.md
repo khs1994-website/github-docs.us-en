@@ -23,6 +23,7 @@
       * [Managing Your Personal Account](account-and-profile/how-tos/account-management/index.md)
       * [Managing Multiple Accounts](account-and-profile/how-tos/account-management/managing-multiple-accounts.md)
       * [Merging Multiple Personal Accounts](account-and-profile/how-tos/account-management/merging-multiple-personal-accounts.md)
+      * [Moving Your Work To An Organization](account-and-profile/how-tos/account-management/moving-your-work-to-an-organization.md)
       * [Unlinking Your Email Address From A Locked Account](account-and-profile/how-tos/account-management/unlinking-your-email-address-from-a-locked-account.md)
     - Account Settings
       * [Managing User Account Settings](account-and-profile/how-tos/account-settings/index.md)
@@ -577,25 +578,8 @@
     * [Managing Accounts And Repositories](admin/managing-accounts-and-repositories/index.md)
   - Managing Code Security
     - Managing Github Advanced Security For Your Enterprise
-      * [Ifversion Ghes Configuring Code Scanning For Your Appliance Elsif Default Setup Self Hosted Runners GHEC Configuring Self Hosted Runners For Code Scanning In Your Enterprise Endif](admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/configuring-code-scanning-for-your-appliance.md)
-      * [Configuring Dependency Review For Your Appliance](admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/configuring-dependency-review-for-your-appliance.md)
-      * [Configuring Secret Scanning For Your Appliance](admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/configuring-secret-scanning-for-your-appliance.md)
-      * [Enabling {% data variables.product.prodname_GHAS %} {% ifversion ghas-products %}products {% endif %}for your enterprise](admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/enabling-github-advanced-security-for-your-enterprise.md)
-      * [{% ifversion ghes %}Setting up {% data variables.product.prodname_GHAS %} features on your appliance{% else %}Configuring infrastructure for {% data variables.product.prodname_GHAS %} features{% endif %}](admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/index.md)
+      * [Setting up {% data variables.product.prodname_GHAS %} features on your appliance](admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/index.md)
       * [Managing {% data variables.product.prodname_GHAS %} features for your enterprise](admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/managing-github-advanced-security-features-for-your-enterprise.md)
-    - Managing Supply Chain Security For Your Enterprise
-      * [Configuring Dependabot To Work With Limited Internet Access](admin/managing-code-security/managing-supply-chain-security-for-your-enterprise/configuring-dependabot-to-work-with-limited-internet-access.md)
-      * [Enabling The Dependency Graph For Your Enterprise](admin/managing-code-security/managing-supply-chain-security-for-your-enterprise/enabling-the-dependency-graph-for-your-enterprise.md)
-      * [Managing Supply Chain Security For Your Enterprise](admin/managing-code-security/managing-supply-chain-security-for-your-enterprise/index.md)
-      * [Viewing The Vulnerability Data For Your Enterprise](admin/managing-code-security/managing-supply-chain-security-for-your-enterprise/viewing-the-vulnerability-data-for-your-enterprise.md)
-    - Securing Your Enterprise
-      * [Applying A Custom Security Configuration To Your Enterprise](admin/managing-code-security/securing-your-enterprise/applying-a-custom-security-configuration-to-your-enterprise.md)
-      * [Applying The Git Hub Recommended Security Configuration To Your Enterprise](admin/managing-code-security/securing-your-enterprise/applying-the-github-recommended-security-configuration-to-your-enterprise.md)
-      * [Configuring Additional Secret Scanning Settings For Your Enterprise](admin/managing-code-security/securing-your-enterprise/configuring-additional-secret-scanning-settings-for-your-enterprise.md)
-      * [Creating A Custom Security Configuration For Your Enterprise](admin/managing-code-security/securing-your-enterprise/creating-a-custom-security-configuration-for-your-enterprise.md)
-      * [Deleting A Custom Security Configuration](admin/managing-code-security/securing-your-enterprise/deleting-a-custom-security-configuration.md)
-      * [Editing A Custom Security Configuration](admin/managing-code-security/securing-your-enterprise/editing-a-custom-security-configuration.md)
-      * [Securing Your Enterprise](admin/managing-code-security/securing-your-enterprise/index.md)
     * [Managing A Secure Coding Environment For Your Enterprise](admin/managing-code-security/index.md)
   - Managing Github Actions For Your Enterprise
     - Advanced Configuration And Troubleshooting
@@ -1152,21 +1136,11 @@
     * [Setting Up Budgets To Control Spending On Metered Products](billing/tutorials/set-up-budgets.md)
   * [Billing And Payments Documentation](billing/index.md)
 - Code Security
-  - Adopting Github Advanced Security At Scale
-    * [Adopting {% data variables.product.prodname_GHAS %} at scale](code-security/adopting-github-advanced-security-at-scale/index.md)
-    * [Introduction to adopting {% data variables.product.prodname_GHAS %} at scale](code-security/adopting-github-advanced-security-at-scale/introduction-to-adopting-github-advanced-security-at-scale.md)
-    * [Phase 1 Align On Your Rollout Strategy And Goals](code-security/adopting-github-advanced-security-at-scale/phase-1-align-on-your-rollout-strategy-and-goals.md)
-    * [Phase 2 Preparing To Enable At Scale](code-security/adopting-github-advanced-security-at-scale/phase-2-preparing-to-enable-at-scale.md)
-    * [Phase 3 Pilot Programs](code-security/adopting-github-advanced-security-at-scale/phase-3-pilot-programs.md)
-    * [Phase 4 Create Internal Documentation](code-security/adopting-github-advanced-security-at-scale/phase-4-create-internal-documentation.md)
-    * [Phase 5 Rollout And Scale Code Scanning](code-security/adopting-github-advanced-security-at-scale/phase-5-rollout-and-scale-code-scanning.md)
-    * [Phase 6 Rollout And Scale Secret Scanning](code-security/adopting-github-advanced-security-at-scale/phase-6-rollout-and-scale-secret-scanning.md)
   - Code Quality
     - Get Started
       * [Get Started With Git Hub Code Quality](code-security/code-quality/get-started/index.md)
       * [Quickstart For Git Hub Code Quality](code-security/code-quality/get-started/quickstart.md)
     - How Tos
-      * [Allowing use of {% data variables.product.prodname_code_quality %} in your enterprise](code-security/code-quality/how-tos/allow-in-enterprise.md)
       * [Enabling {% data variables.product.prodname_code_quality %}](code-security/code-quality/how-tos/enable-code-quality.md)
       * [How To Guides For Git Hub Code Quality](code-security/code-quality/how-tos/index.md)
       * [Interpreting The Code Quality Results For Your Repository](code-security/code-quality/how-tos/interpret-results.md)
@@ -1195,14 +1169,12 @@
   - Code Scanning
     - Creating An Advanced Setup For Code Scanning
       * [Code QL Code Scanning For Compiled Languages](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/codeql-code-scanning-for-compiled-languages.md)
-      * [Configuring Advanced Setup For Code Scanning With Code QL At Scale](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/configuring-advanced-setup-for-code-scanning-with-codeql-at-scale.md)
       * [Configuring Advanced Setup For Code Scanning](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/configuring-advanced-setup-for-code-scanning.md)
       * [Customizing Your Advanced Setup For Code Scanning](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/customizing-your-advanced-setup-for-code-scanning.md)
       * [Creating an advanced setup for {% data variables.product.prodname_code_scanning %}](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/index.md)
       * [Recommended Hardware Resources For Running Code QL](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/recommended-hardware-resources-for-running-codeql.md)
       * [Running Code QL Code Scanning In A Container](code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/running-codeql-code-scanning-in-a-container.md)
     - Enabling Code Scanning
-      * [Configuring Default Setup For Code Scanning At Scale](code-security/code-scanning/enabling-code-scanning/configuring-default-setup-for-code-scanning-at-scale.md)
       * [Configuring Default Setup For Code Scanning](code-security/code-scanning/enabling-code-scanning/configuring-default-setup-for-code-scanning.md)
       * [Enabling Code Scanning](code-security/code-scanning/enabling-code-scanning/index.md)
     - Integrating With Code Scanning
@@ -1212,7 +1184,6 @@
       * [Using Code Scanning With Your Existing CI System](code-security/code-scanning/integrating-with-code-scanning/using-code-scanning-with-your-existing-ci-system.md)
     - Managing Code Scanning Alerts
       * [Assessing Code Scanning Alerts For Your Repository](code-security/code-scanning/managing-code-scanning-alerts/assessing-code-scanning-alerts-for-your-repository.md)
-      * [Best Practices For Participating In A Code Security Campaign](code-security/code-scanning/managing-code-scanning-alerts/best-practices-for-participating-in-a-security-campaign.md)
       * [Disabling Copilot Autofix For Code Scanning Security Alerts](code-security/code-scanning/managing-code-scanning-alerts/disabling-autofix-for-code-scanning.md)
       * [Fixing Alerts In A Security Campaign](code-security/code-scanning/managing-code-scanning-alerts/fixing-alerts-in-security-campaign.md)
       * [Managing Code Scanning Alerts](code-security/code-scanning/managing-code-scanning-alerts/index.md)
@@ -1491,6 +1462,63 @@
     * [Quickstart For Securing Your Repository](code-security/getting-started/quickstart-for-securing-your-repository.md)
     * [Understanding Git Hub Secret Types](code-security/getting-started/understanding-github-secret-types.md)
   - How Tos
+    - Secure At Scale
+      - Configure Enterprise Security
+        - Configure Specific Tools
+          * [Allowing use of {% data variables.product.prodname_code_quality %} in your enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/configure-specific-tools/allow-github-code-quality-in-enterprise.md)
+          * [Ifversion Ghes Configuring Code Scanning For Your Appliance Elsif Default Setup Self Hosted Runners GHEC Configuring Self Hosted Runners For Code Scanning In Your Enterprise Endif](code-security/how-tos/secure-at-scale/configure-enterprise-security/configure-specific-tools/configuring-code-scanning-for-your-appliance.md)
+          * [Configuring Dependabot To Work With Limited Internet Access](code-security/how-tos/secure-at-scale/configure-enterprise-security/configure-specific-tools/configuring-dependabot-to-work-with-limited-internet-access.md)
+          * [Configuring Dependency Review For Your Appliance](code-security/how-tos/secure-at-scale/configure-enterprise-security/configure-specific-tools/configuring-dependency-review-for-your-appliance.md)
+          * [Configuring Secret Scanning For Your Appliance](code-security/how-tos/secure-at-scale/configure-enterprise-security/configure-specific-tools/configuring-secret-scanning-for-your-appliance.md)
+          * [Enabling The Dependency Graph For Your Enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/configure-specific-tools/enabling-the-dependency-graph-for-your-enterprise.md)
+          * [Configure Specific Tools](code-security/how-tos/secure-at-scale/configure-enterprise-security/configure-specific-tools/index.md)
+          * [Viewing The Vulnerability Data For Your Enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/configure-specific-tools/viewing-the-vulnerability-data-for-your-enterprise.md)
+        - Establish Complete Coverage
+          * [Applying A Custom Security Configuration To Your Enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/applying-a-custom-security-configuration-to-your-enterprise.md)
+          * [Applying The Git Hub Recommended Security Configuration To Your Enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/applying-the-github-recommended-security-configuration-to-your-enterprise.md)
+          * [Configuring Additional Secret Scanning Settings For Your Enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/configuring-additional-secret-scanning-settings-for-your-enterprise.md)
+          * [Creating A Custom Security Configuration For Your Enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/creating-a-custom-security-configuration-for-your-enterprise.md)
+          * [Enabling {% data variables.product.prodname_GHAS %} {% ifversion ghas-products %}products {% endif %}for your enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/enabling-github-advanced-security-for-your-enterprise.md)
+          * [Establish Complete Coverage](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/index.md)
+        - Manage Your Coverage
+          * [Deleting A Custom Security Configuration](code-security/how-tos/secure-at-scale/configure-enterprise-security/manage-your-coverage/deleting-a-custom-security-configuration.md)
+          * [Editing A Custom Security Configuration](code-security/how-tos/secure-at-scale/configure-enterprise-security/manage-your-coverage/editing-a-custom-security-configuration.md)
+          * [Manage Your Coverage](code-security/how-tos/secure-at-scale/configure-enterprise-security/manage-your-coverage/index.md)
+        * [Configure Enterprise Security](code-security/how-tos/secure-at-scale/configure-enterprise-security/index.md)
+      - Configure Organization Security
+        - Configure Specific Tools
+          * [Running The Secret Risk Assessment For Your Organization](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/assess-your-secret-risk.md)
+          * [Calculating The Cost Savings Of Push Protection](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/calculating-the-cost-savings-of-push-protection.md)
+          * [Configuring Advanced Setup For Code Scanning With Code QL At Scale](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/configuring-advanced-setup-for-code-scanning-with-codeql-at-scale.md)
+          * [Configuring Default Setup For Code Scanning At Scale](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/configuring-default-setup-for-code-scanning-at-scale.md)
+          * [Configure Specific Tools](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/index.md)
+          * [Pricing and enabling {% data variables.product.prodname_GH_secret_protection %}](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/protect-your-secrets.md)
+          * [Viewing The Secret Risk Assessment Report For Your Organization](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/viewing-the-secret-risk-assessment-report-for-your-organization.md)
+        - Establish Complete Coverage
+          * [Applying A Custom Security Configuration](code-security/how-tos/secure-at-scale/configure-organization-security/establish-complete-coverage/applying-a-custom-security-configuration.md)
+          * [Applying The Git Hub Recommended Security Configuration In Your Organization](code-security/how-tos/secure-at-scale/configure-organization-security/establish-complete-coverage/applying-the-github-recommended-security-configuration-in-your-organization.md)
+          * [Configuring Global Security Settings For Your Organization](code-security/how-tos/secure-at-scale/configure-organization-security/establish-complete-coverage/configuring-global-security-settings-for-your-organization.md)
+          * [Creating A Custom Security Configuration](code-security/how-tos/secure-at-scale/configure-organization-security/establish-complete-coverage/creating-a-custom-security-configuration.md)
+          * [Establish Complete Coverage](code-security/how-tos/secure-at-scale/configure-organization-security/establish-complete-coverage/index.md)
+        - Manage Usage And Access
+          * [Giving Security Features Access To Private Registries](code-security/how-tos/secure-at-scale/configure-organization-security/manage-usage-and-access/giving-org-access-private-registries.md)
+          * [Manage Usage And Access](code-security/how-tos/secure-at-scale/configure-organization-security/manage-usage-and-access/index.md)
+          * [Managing your paid use of {% data variables.product.prodname_AS %}](code-security/how-tos/secure-at-scale/configure-organization-security/manage-usage-and-access/managing-your-github-advanced-security-license-usage.md)
+        - Manage Your Coverage
+          * [Deleting A Custom Security Configuration](code-security/how-tos/secure-at-scale/configure-organization-security/manage-your-coverage/deleting-a-custom-security-configuration.md)
+          * [Detaching Repositories From Their Security Configurations](code-security/how-tos/secure-at-scale/configure-organization-security/manage-your-coverage/detaching-repositories-from-their-security-configurations.md)
+          * [Editing A Custom Security Configuration](code-security/how-tos/secure-at-scale/configure-organization-security/manage-your-coverage/editing-a-custom-security-configuration.md)
+          * [Filtering Repositories In Your Organization Using The Repository Table](code-security/how-tos/secure-at-scale/configure-organization-security/manage-your-coverage/filtering-repositories-in-your-organization-using-the-repository-table.md)
+          * [Manage Your Coverage](code-security/how-tos/secure-at-scale/configure-organization-security/manage-your-coverage/index.md)
+        * [Configure Organization Security](code-security/how-tos/secure-at-scale/configure-organization-security/index.md)
+      - Troubleshoot Security Configurations
+        * [A Repository Is Using Advanced Setup For Code Scanning](code-security/how-tos/secure-at-scale/troubleshoot-security-configurations/a-repository-is-using-advanced-setup-for-code-scanning.md)
+        * [A Feature Has Disappeared From A Security Configuration](code-security/how-tos/secure-at-scale/troubleshoot-security-configurations/feature-disappears.md)
+        * [Finding And Fixing Configuration Attachment Failures](code-security/how-tos/secure-at-scale/troubleshoot-security-configurations/finding-repositories-with-attachment-failures.md)
+        * [Troubleshoot Security Configurations](code-security/how-tos/secure-at-scale/troubleshoot-security-configurations/index.md)
+        * [Not Enough Git Hub Advanced Security Licenses](code-security/how-tos/secure-at-scale/troubleshoot-security-configurations/not-enough-github-advanced-security-licenses.md)
+        * [Default Setup For Code Scanning Overrides Advanced Setup](code-security/how-tos/secure-at-scale/troubleshoot-security-configurations/unexpected-default-setup.md)
+      * [Secure At Scale](code-security/how-tos/secure-at-scale/index.md)
     - Secure Your Supply Chain
       - Establish Provenance And Integrity
         * [Exporting A Software Bill Of Materials For Your Repository](code-security/how-tos/secure-your-supply-chain/establish-provenance-and-integrity/exporting-a-software-bill-of-materials-for-your-repository.md)
@@ -1584,13 +1612,6 @@
       * [Working With Push Protection In The Git Hub UI](code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-in-the-github-ui.md)
     * [Keeping Secrets Secure With Secret Scanning](code-security/secret-scanning/index.md)
   - Securing Your Organization
-    - Enabling Security Features In Your Organization
-      * [Applying A Custom Security Configuration](code-security/securing-your-organization/enabling-security-features-in-your-organization/applying-a-custom-security-configuration.md)
-      * [Applying The Git Hub Recommended Security Configuration In Your Organization](code-security/securing-your-organization/enabling-security-features-in-your-organization/applying-the-github-recommended-security-configuration-in-your-organization.md)
-      * [Configuring Global Security Settings For Your Organization](code-security/securing-your-organization/enabling-security-features-in-your-organization/configuring-global-security-settings-for-your-organization.md)
-      * [Creating A Custom Security Configuration](code-security/securing-your-organization/enabling-security-features-in-your-organization/creating-a-custom-security-configuration.md)
-      * [Giving Security Features Access To Private Registries](code-security/securing-your-organization/enabling-security-features-in-your-organization/giving-org-access-private-registries.md)
-      * [Enabling Security Features In Your Organization](code-security/securing-your-organization/enabling-security-features-in-your-organization/index.md)
     - Fixing Security Alerts At Scale
       * [Creating And Managing Security Campaigns](code-security/securing-your-organization/fixing-security-alerts-at-scale/creating-managing-security-campaigns.md)
       * [Fixing Security Alerts At Scale](code-security/securing-your-organization/fixing-security-alerts-at-scale/index.md)
@@ -1599,33 +1620,14 @@
       * [Choosing A Security Configuration For Your Repositories](code-security/securing-your-organization/introduction-to-securing-your-organization-at-scale/choosing-a-security-configuration-for-your-repositories.md)
       * [Introduction To Securing Your Organization At Scale](code-security/securing-your-organization/introduction-to-securing-your-organization-at-scale/index.md)
     - Managing The Security Of Your Organization
-      * [Deleting A Custom Security Configuration](code-security/securing-your-organization/managing-the-security-of-your-organization/deleting-a-custom-security-configuration.md)
-      * [Detaching Repositories From Their Security Configurations](code-security/securing-your-organization/managing-the-security-of-your-organization/detaching-repositories-from-their-security-configurations.md)
-      * [Editing A Custom Security Configuration](code-security/securing-your-organization/managing-the-security-of-your-organization/editing-a-custom-security-configuration.md)
-      * [Filtering Repositories In Your Organization Using The Repository Table](code-security/securing-your-organization/managing-the-security-of-your-organization/filtering-repositories-in-your-organization-using-the-repository-table.md)
-      * [Finding And Fixing Configuration Attachment Failures](code-security/securing-your-organization/managing-the-security-of-your-organization/finding-repositories-with-attachment-failures.md)
       * [Managing The Security Of Your Organization](code-security/securing-your-organization/managing-the-security-of-your-organization/index.md)
       * [Interpreting Security Findings](code-security/securing-your-organization/managing-the-security-of-your-organization/interpreting-security-findings.md)
-      * [Managing your paid use of {% data variables.product.prodname_AS %}](code-security/securing-your-organization/managing-the-security-of-your-organization/managing-your-github-advanced-security-license-usage.md)
-    - Troubleshooting Security Configurations
-      * [A Repository Is Using Advanced Setup For Code Scanning](code-security/securing-your-organization/troubleshooting-security-configurations/a-repository-is-using-advanced-setup-for-code-scanning.md)
-      * [A Feature Has Disappeared From A Security Configuration](code-security/securing-your-organization/troubleshooting-security-configurations/feature-disappears.md)
-      * [Troubleshooting Security Configurations](code-security/securing-your-organization/troubleshooting-security-configurations/index.md)
-      * [Not Enough Git Hub Advanced Security Licenses](code-security/securing-your-organization/troubleshooting-security-configurations/not-enough-github-advanced-security-licenses.md)
-      * [Default Setup For Code Scanning Overrides Advanced Setup](code-security/securing-your-organization/troubleshooting-security-configurations/unexpected-default-setup.md)
     - Understanding Your Organizations Exposure To Leaked Secrets
-      * [Running The Secret Risk Assessment For Your Organization](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/assess-your-secret-risk.md)
-      * [Calculating The Cost Savings Of Push Protection](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/calculating-the-cost-savings-of-push-protection.md)
       * [Estimating The Price Of Secret Protection](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/estimating-the-price-of-secret-protection.md)
       * [Exporting The Secret Risk Assessment Report To CSV](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/export-risk-report-csv.md)
       * [Understanding Your Organization S Exposure To Leaked Secrets](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/index.md)
       * [Organizing Remediation Efforts For Leaked Secrets](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/organizing-remediation-efforts-for-leaked-secrets.md)
-      * [Pricing and enabling {% data variables.product.prodname_GH_secret_protection %}](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/protect-your-secrets.md)
       * [Contents Of The Secret Risk Assessment Report CSV](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/risk-report-csv-contents.md)
-      * [Viewing The Secret Risk Assessment Report For Your Organization](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/viewing-the-secret-risk-assessment-report-for-your-organization.md)
-    - Understanding Your Organizations Exposure To Vulnerabilities
-      * [Understanding Your Organization S Exposure To Vulnerabilities](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilities/index.md)
-      * [Prioritizing Dependabot Alerts Using Metrics](code-security/securing-your-organization/understanding-your-organizations-exposure-to-vulnerabilities/prioritizing-dependabot-alerts-using-metrics.md)
     * [Securing Your Organization](code-security/securing-your-organization/index.md)
   - Security Advisories
     - Guidance On Reporting And Writing Information About Vulnerabilities
@@ -1678,20 +1680,33 @@
       * [Understanding Your Software Supply Chain](code-security/supply-chain-security/understanding-your-software-supply-chain/index.md)
       * [Troubleshooting The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/troubleshooting-the-dependency-graph.md)
     * [Securing Your Software Supply Chain](code-security/supply-chain-security/index.md)
-  - Trialing Github Advanced Security
-    * [Enabling Security Features In Your Trial Enterprise](code-security/trialing-github-advanced-security/enable-security-features-trial.md)
-    * [Exploring your enterprise trial of {% data variables.product.prodname_GH_code_security_always %}](code-security/trialing-github-advanced-security/explore-trial-code-scanning.md)
-    * [Exploring your enterprise trial of {% data variables.product.prodname_GH_secret_protection_always %}](code-security/trialing-github-advanced-security/explore-trial-secret-scanning.md)
-    * [Trialing {% data variables.product.prodname_GHAS %}](code-security/trialing-github-advanced-security/index.md)
-    * [Planning a trial of {% data variables.product.prodname_GHAS %}](code-security/trialing-github-advanced-security/planning-a-trial-of-ghas.md)
-    * [Setting Up A Trial Of Git Hub Advanced Security](code-security/trialing-github-advanced-security/trial-advanced-security.md)
   - Tutorials
+    - Adopting Github Advanced Security At Scale
+      * [Adopting {% data variables.product.prodname_GHAS %} at scale](code-security/tutorials/adopting-github-advanced-security-at-scale/index.md)
+      * [Introduction to adopting {% data variables.product.prodname_GHAS %} at scale](code-security/tutorials/adopting-github-advanced-security-at-scale/introduction-to-adopting-github-advanced-security-at-scale.md)
+      * [Phase 1 Align On Your Rollout Strategy And Goals](code-security/tutorials/adopting-github-advanced-security-at-scale/phase-1-align-on-your-rollout-strategy-and-goals.md)
+      * [Phase 2 Preparing To Enable At Scale](code-security/tutorials/adopting-github-advanced-security-at-scale/phase-2-preparing-to-enable-at-scale.md)
+      * [Phase 3 Pilot Programs](code-security/tutorials/adopting-github-advanced-security-at-scale/phase-3-pilot-programs.md)
+      * [Phase 4 Create Internal Documentation](code-security/tutorials/adopting-github-advanced-security-at-scale/phase-4-create-internal-documentation.md)
+      * [Phase 5 Rollout And Scale Code Scanning](code-security/tutorials/adopting-github-advanced-security-at-scale/phase-5-rollout-and-scale-code-scanning.md)
+      * [Phase 6 Rollout And Scale Secret Scanning](code-security/tutorials/adopting-github-advanced-security-at-scale/phase-6-rollout-and-scale-secret-scanning.md)
+    - Manage Security Alerts
+      * [Best Practices For Participating In A Code Security Campaign](code-security/tutorials/manage-security-alerts/best-practices-for-participating-in-a-security-campaign.md)
+      * [Manage Security Alerts](code-security/tutorials/manage-security-alerts/index.md)
+      * [Prioritizing Dependabot Alerts Using Metrics](code-security/tutorials/manage-security-alerts/prioritizing-dependabot-alerts-using-metrics.md)
     - Secure Your Organization
       * [Best Practices For Fixing Security Alerts At Scale](code-security/tutorials/secure-your-organization/best-practice-fix-alerts-at-scale.md)
       * [Best Practices For Preventing Data Leaks In Your Organization](code-security/tutorials/secure-your-organization/best-practices-for-preventing-data-leaks-in-your-organization.md)
       * [Securing Your Organization](code-security/tutorials/secure-your-organization/index.md)
       * [Interpreting Secret Risk Assessment Results](code-security/tutorials/secure-your-organization/interpreting-secret-risk-assessment-results.md)
       * [Prioritizing Dependabot And Code Scanning Alerts Using Production Context](code-security/tutorials/secure-your-organization/prioritize-alerts-in-production-code.md)
+    - Trialing Github Advanced Security
+      * [Enabling Security Features In Your Trial Enterprise](code-security/tutorials/trialing-github-advanced-security/enable-security-features-trial.md)
+      * [Exploring your enterprise trial of {% data variables.product.prodname_GH_code_security_always %}](code-security/tutorials/trialing-github-advanced-security/explore-trial-code-scanning.md)
+      * [Exploring your enterprise trial of {% data variables.product.prodname_GH_secret_protection_always %}](code-security/tutorials/trialing-github-advanced-security/explore-trial-secret-scanning.md)
+      * [Trialing {% data variables.product.prodname_GHAS %}](code-security/tutorials/trialing-github-advanced-security/index.md)
+      * [Planning a trial of {% data variables.product.prodname_GHAS %}](code-security/tutorials/trialing-github-advanced-security/planning-a-trial-of-ghas.md)
+      * [Setting Up A Trial Of Git Hub Advanced Security](code-security/tutorials/trialing-github-advanced-security/trial-advanced-security.md)
     * [Tutorials For Security And Code Quality](code-security/tutorials/index.md)
   * [Security And Code Quality Documentation](code-security/index.md)
 - Codespaces
@@ -2140,6 +2155,7 @@
     * [Git Hub Copilot Chat Cheat Sheet](copilot/reference/cheat-sheet.md)
     * [Copilot Allowlist Reference](copilot/reference/copilot-allowlist-reference.md)
     * [Custom Agents Configuration](copilot/reference/custom-agents-configuration.md)
+    * [Support For Different Types Of Custom Instructions](copilot/reference/custom-instructions-support.md)
     * [Reference for {% data variables.product.prodname_copilot %}](copilot/reference/index.md)
     * [Keyboard Shortcuts For Git Hub Copilot In The IDE](copilot/reference/keyboard-shortcuts.md)
     * [MCP Allowlist Enforcement](copilot/reference/mcp-allowlist-enforcement.md)
