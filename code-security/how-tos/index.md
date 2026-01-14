@@ -17,5 +17,9 @@ topics:
 contentType: how-tos
 children:
   - /secure-at-scale
+  - /secure-your-secrets
+  - /scan-code-for-vulnerabilities
   - /secure-your-supply-chain
+  - /maintain-quality-code
+  - /report-and-fix-vulnerabilities
 ---
