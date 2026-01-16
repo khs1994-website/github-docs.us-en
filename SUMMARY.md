@@ -1137,29 +1137,6 @@
     * [Setting Up Budgets To Control Spending On Metered Products](billing/tutorials/set-up-budgets.md)
   * [Billing And Payments Documentation](billing/index.md)
 - Code Security
-  - Code Quality
-    - Get Started
-      * [Get Started With Git Hub Code Quality](code-security/code-quality/get-started/index.md)
-      * [Quickstart For Git Hub Code Quality](code-security/code-quality/get-started/quickstart.md)
-    - Reference
-      - Codeql Queries
-        * [C Code QL Queries For Code Quality](code-security/code-quality/reference/codeql-queries/csharp-queries.md)
-        * [Go Code QL Queries For Code Quality](code-security/code-quality/reference/codeql-queries/go-queries.md)
-        * [Queries For Code QL Detection](code-security/code-quality/reference/codeql-queries/index.md)
-        * [Java Code QL Queries For Code Quality](code-security/code-quality/reference/codeql-queries/java-queries.md)
-        * [Java Script Code QL Queries For Code Quality](code-security/code-quality/reference/codeql-queries/javascript-queries.md)
-        * [Python Code QL Queries For Code Quality](code-security/code-quality/reference/codeql-queries/python-queries.md)
-        * [Ruby Code QL Queries For Code Quality](code-security/code-quality/reference/codeql-queries/ruby-queries.md)
-      * [Code QL Powered Analysis For Code Quality](code-security/code-quality/reference/codeql-detection.md)
-      * [Reference For Git Hub Code Quality](code-security/code-quality/reference/index.md)
-      * [Metrics And Ratings Reference](code-security/code-quality/reference/metrics-and-ratings.md)
-    * [Git Hub Code Quality Documentation](code-security/code-quality/index.md)
-  - Codeql For Vs Code
-    - Troubleshooting Codeql For Vs Code
-      * [Accessing Logs](code-security/codeql-for-vs-code/troubleshooting-codeql-for-vs-code/accessing-logs.md)
-      * [Troubleshooting Code QL For VS Code](code-security/codeql-for-vs-code/troubleshooting-codeql-for-vs-code/index.md)
-      * [Problem With Controller Repository](code-security/codeql-for-vs-code/troubleshooting-codeql-for-vs-code/warning-problem-with-controller-repository.md)
-    * [Use Code QL Inside Visual Studio Code](code-security/codeql-for-vs-code/index.md)
   - Concepts
     - Code Scanning
       - Codeql
@@ -1192,6 +1169,7 @@
       * [About Security Overview](code-security/concepts/security-at-scale/about-security-overview.md)
       * [About Supply Chain Security For Your Enterprise](code-security/concepts/security-at-scale/about-supply-chain-security-for-your-enterprise.md)
       * [Auditing Security Alerts](code-security/concepts/security-at-scale/auditing-security-alerts.md)
+      * [Choosing A Security Configuration For Your Repositories](code-security/concepts/security-at-scale/choosing-a-security-configuration-for-your-repositories.md)
       * [Concepts For Security At Scale](code-security/concepts/security-at-scale/index.md)
     - Supply Chain Security
       * [About Dependabot Alerts](code-security/concepts/supply-chain-security/about-dependabot-alerts.md)
@@ -1214,14 +1192,6 @@
       * [Concepts For Vulnerability Reporting And Management](code-security/concepts/vulnerability-reporting-and-management/index.md)
     * [About Git Hub Code Quality](code-security/concepts/about-code-quality.md)
     * [Index](code-security/concepts/index.md)
-  - Dependabot
-    - Troubleshooting Dependabot
-      * [Troubleshooting Dependabot](code-security/dependabot/troubleshooting-dependabot/index.md)
-      * [Troubleshooting Dependabot On Git Hub Actions](code-security/dependabot/troubleshooting-dependabot/troubleshooting-dependabot-on-github-actions.md)
-    - Working With Dependabot
-      * [Working With Dependabot](code-security/dependabot/working-with-dependabot/index.md)
-      * [Setting Up Dependabot To Run On Github Hosted Action Runners Using The Azure Private Network](code-security/dependabot/working-with-dependabot/setting-dependabot-to-run-on-github-hosted-runners-using-vnet.md)
-    * [Keeping Your Supply Chain Secure With Dependabot](code-security/dependabot/index.md)
   - Getting Started
     * [Git Hub Security Features](code-security/getting-started/github-security-features.md)
     * [Getting Started With Secure Coding](code-security/getting-started/index.md)
@@ -1258,6 +1228,7 @@
         * [Filtering Alerts In Security Overview](code-security/how-tos/manage-security-alerts/remediate-alerts-at-scale/filtering-alerts-in-security-overview.md)
         * [Fixing Alerts In A Security Campaign](code-security/how-tos/manage-security-alerts/remediate-alerts-at-scale/fixing-alerts-in-security-campaign.md)
         * [Remediate Alerts At Scale](code-security/how-tos/manage-security-alerts/remediate-alerts-at-scale/index.md)
+        * [Reviewing Alert Dismissal Requests](code-security/how-tos/manage-security-alerts/remediate-alerts-at-scale/review-alert-dismissal-requests.md)
         * [Tracking Security Campaigns](code-security/how-tos/manage-security-alerts/remediate-alerts-at-scale/tracking-security-campaigns.md)
       * [Managing Security Alerts](code-security/how-tos/manage-security-alerts/index.md)
     - Report And Fix Vulnerabilities
@@ -1345,6 +1316,10 @@
           * [Two Code QL Workflows](code-security/how-tos/scan-code-for-vulnerabilities/troubleshooting/troubleshooting-analysis-errors/two-codeql-workflows.md)
           * [Unclear What Triggered A Workflow Run](code-security/how-tos/scan-code-for-vulnerabilities/troubleshooting/troubleshooting-analysis-errors/unclear-what-triggered-a-workflow.md)
           * [Warning 1 Issue Was Detected With This Workflow Git Checkout HEAD 2 Is No Longer Necessary](code-security/how-tos/scan-code-for-vulnerabilities/troubleshooting/troubleshooting-analysis-errors/unnecessary-step-found.md)
+        - Troubleshooting Codeql For Vs Code
+          * [Accessing Logs](code-security/how-tos/scan-code-for-vulnerabilities/troubleshooting/troubleshooting-codeql-for-vs-code/accessing-logs.md)
+          * [Troubleshooting Code QL For VS Code](code-security/how-tos/scan-code-for-vulnerabilities/troubleshooting/troubleshooting-codeql-for-vs-code/index.md)
+          * [Problem With Controller Repository](code-security/how-tos/scan-code-for-vulnerabilities/troubleshooting/troubleshooting-codeql-for-vs-code/warning-problem-with-controller-repository.md)
         - Troubleshooting Sarif Uploads
           * [Upload was rejected because CodeQL default setup is enabled for {% data variables.product.prodname_code_scanning %}](code-security/how-tos/scan-code-for-vulnerabilities/troubleshooting/troubleshooting-sarif-uploads/default-setup-enabled.md)
           * [SARIF Results File Is Too Large](code-security/how-tos/scan-code-for-vulnerabilities/troubleshooting/troubleshooting-sarif-uploads/file-too-large.md)
@@ -1365,6 +1340,7 @@
           * [Configuring Secret Scanning For Your Appliance](code-security/how-tos/secure-at-scale/configure-enterprise-security/configure-specific-tools/configuring-secret-scanning-for-your-appliance.md)
           * [Enabling The Dependency Graph For Your Enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/configure-specific-tools/enabling-the-dependency-graph-for-your-enterprise.md)
           * [Configure Specific Tools](code-security/how-tos/secure-at-scale/configure-enterprise-security/configure-specific-tools/index.md)
+          * [Setting Up Dependabot To Run On Github Hosted Action Runners Using The Azure Private Network](code-security/how-tos/secure-at-scale/configure-enterprise-security/configure-specific-tools/setting-dependabot-to-run-on-github-hosted-runners-using-vnet.md)
           * [Viewing The Vulnerability Data For Your Enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/configure-specific-tools/viewing-the-vulnerability-data-for-your-enterprise.md)
         - Establish Complete Coverage
           * [Applying A Custom Security Configuration To Your Enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/applying-a-custom-security-configuration-to-your-enterprise.md)
@@ -1385,6 +1361,9 @@
           * [Calculating The Cost Savings Of Push Protection](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/calculating-the-cost-savings-of-push-protection.md)
           * [Configuring Advanced Setup For Code Scanning With Code QL At Scale](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/configuring-advanced-setup-for-code-scanning-with-codeql-at-scale.md)
           * [Configuring Default Setup For Code Scanning At Scale](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/configuring-default-setup-for-code-scanning-at-scale.md)
+          * [Configuring Private Vulnerability Reporting For An Organization](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/configuring-private-vulnerability-reporting-for-an-organization.md)
+          * [Enforcing Dependency Review Across An Organization](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/enforcing-dependency-review-across-an-organization.md)
+          * [Estimating The Price Of Secret Protection](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/estimating-the-price-of-secret-protection.md)
           * [Configure Specific Tools](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/index.md)
           * [Pricing and enabling {% data variables.product.prodname_GH_secret_protection %}](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/protect-your-secrets.md)
           * [Viewing The Secret Risk Assessment Report For Your Organization](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/viewing-the-secret-risk-assessment-report-for-your-organization.md)
@@ -1441,6 +1420,7 @@
         * [Working With Push Protection From The Command Line](code-security/how-tos/secure-your-secrets/work-with-leak-prevention/working-with-push-protection-from-the-command-line.md)
         * [Working With Push Protection In The Git Hub UI](code-security/how-tos/secure-your-secrets/work-with-leak-prevention/working-with-push-protection-in-the-github-ui.md)
       * [How Tos For Securing Secrets](code-security/how-tos/secure-your-secrets/index.md)
+      * [Troubleshooting Secret Scanning](code-security/how-tos/secure-your-secrets/troubleshooting-secret-scanning.md)
     - Secure Your Supply Chain
       - Establish Provenance And Integrity
         * [Exporting A Software Bill Of Materials For Your Repository](code-security/how-tos/secure-your-supply-chain/establish-provenance-and-integrity/exporting-a-software-bill-of-materials-for-your-repository.md)
@@ -1476,6 +1456,8 @@
         * [Dependabot Update Pull Requests No Longer Generated](code-security/how-tos/secure-your-supply-chain/troubleshoot-dependency-security/dependabot-updates-stopped.md)
         * [Troubleshooting Dependency Security](code-security/how-tos/secure-your-supply-chain/troubleshoot-dependency-security/index.md)
         * [Troubleshooting Dependabot Errors](code-security/how-tos/secure-your-supply-chain/troubleshoot-dependency-security/troubleshooting-dependabot-errors.md)
+        * [Troubleshooting Dependabot On Git Hub Actions](code-security/how-tos/secure-your-supply-chain/troubleshoot-dependency-security/troubleshooting-dependabot-on-github-actions.md)
+        * [Troubleshooting The Dependency Graph](code-security/how-tos/secure-your-supply-chain/troubleshoot-dependency-security/troubleshooting-the-dependency-graph.md)
         * [Troubleshooting The Detection Of Vulnerable Dependencies](code-security/how-tos/secure-your-supply-chain/troubleshoot-dependency-security/troubleshooting-the-detection-of-vulnerable-dependencies.md)
       * [Securing Your Supply Chain](code-security/how-tos/secure-your-supply-chain/index.md)
     - View And Interpret Data
@@ -1496,6 +1478,18 @@
       * [Viewing Dependabot Job Logs](code-security/how-tos/view-and-interpret-data/viewing-dependabot-job-logs.md)
     * [How Tos For Security And Code Quality](code-security/how-tos/index.md)
   - Reference
+    - Code Quality
+      - Codeql Queries
+        * [C Code QL Queries For Code Quality](code-security/reference/code-quality/codeql-queries/csharp-queries.md)
+        * [Go Code QL Queries For Code Quality](code-security/reference/code-quality/codeql-queries/go-queries.md)
+        * [Reference For Code QL Queries](code-security/reference/code-quality/codeql-queries/index.md)
+        * [Java Code QL Queries For Code Quality](code-security/reference/code-quality/codeql-queries/java-queries.md)
+        * [Java Script Code QL Queries For Code Quality](code-security/reference/code-quality/codeql-queries/javascript-queries.md)
+        * [Python Code QL Queries For Code Quality](code-security/reference/code-quality/codeql-queries/python-queries.md)
+        * [Ruby Code QL Queries For Code Quality](code-security/reference/code-quality/codeql-queries/ruby-queries.md)
+      * [Code QL Powered Analysis For Code Quality](code-security/reference/code-quality/codeql-detection.md)
+      * [Reference For Code Quality](code-security/reference/code-quality/index.md)
+      * [Metrics And Ratings Reference](code-security/reference/code-quality/metrics-and-ratings.md)
     - Code Scanning
       - Codeql
         - Codeql Cli
@@ -1618,34 +1612,6 @@
     * [Responsible Detection Of Generic Secrets With Copilot Secret Scanning](code-security/responsible-use/responsible-ai-generic-secrets.md)
     * [Responsible Generation Of Regular Expressions With Copilot Secret Scanning](code-security/responsible-use/responsible-ai-regex-generator.md)
     * [Responsible Use Of Copilot Autofix For Code Scanning](code-security/responsible-use/responsible-use-autofix-code-scanning.md)
-  - Secret Scanning
-    - Troubleshooting Secret Scanning And Push Protection
-      * [Troubleshooting Secret Scanning And Push Protection](code-security/secret-scanning/troubleshooting-secret-scanning-and-push-protection/index.md)
-      * [Troubleshooting Secret Scanning](code-security/secret-scanning/troubleshooting-secret-scanning-and-push-protection/troubleshooting-secret-scanning.md)
-    * [Keeping Secrets Secure With Secret Scanning](code-security/secret-scanning/index.md)
-  - Securing Your Organization
-    - Introduction To Securing Your Organization At Scale
-      * [Choosing A Security Configuration For Your Repositories](code-security/securing-your-organization/introduction-to-securing-your-organization-at-scale/choosing-a-security-configuration-for-your-repositories.md)
-      * [Introduction To Securing Your Organization At Scale](code-security/securing-your-organization/introduction-to-securing-your-organization-at-scale/index.md)
-    - Understanding Your Organizations Exposure To Leaked Secrets
-      * [Estimating The Price Of Secret Protection](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/estimating-the-price-of-secret-protection.md)
-      * [Understanding Your Organization S Exposure To Leaked Secrets](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/index.md)
-      * [Organizing Remediation Efforts For Leaked Secrets](code-security/securing-your-organization/understanding-your-organizations-exposure-to-leaked-secrets/organizing-remediation-efforts-for-leaked-secrets.md)
-    * [Securing Your Organization](code-security/securing-your-organization/index.md)
-  - Security Advisories
-    - Working With Repository Security Advisories
-      * [Configuring Private Vulnerability Reporting For An Organization](code-security/security-advisories/working-with-repository-security-advisories/configuring-private-vulnerability-reporting-for-an-organization.md)
-      * [Working With Repository Security Advisories](code-security/security-advisories/working-with-repository-security-advisories/index.md)
-    * [Working With Security Advisories](code-security/security-advisories/index.md)
-  - Security Overview
-    * [Viewing Security Information For Your Organization Or Enterprise](code-security/security-overview/index.md)
-    * [Reviewing Alert Dismissal Requests](code-security/security-overview/review-alert-dismissal-requests.md)
-  - Supply Chain Security
-    - Understanding Your Software Supply Chain
-      * [Enforcing Dependency Review Across An Organization](code-security/supply-chain-security/understanding-your-software-supply-chain/enforcing-dependency-review-across-an-organization.md)
-      * [Understanding Your Software Supply Chain](code-security/supply-chain-security/understanding-your-software-supply-chain/index.md)
-      * [Troubleshooting The Dependency Graph](code-security/supply-chain-security/understanding-your-software-supply-chain/troubleshooting-the-dependency-graph.md)
-    * [Securing Your Software Supply Chain](code-security/supply-chain-security/index.md)
   - Tutorials
     - Adopting Github Advanced Security At Scale
       * [Adopting {% data variables.product.prodname_GHAS %} at scale](code-security/tutorials/adopting-github-advanced-security-at-scale/index.md)
@@ -1682,6 +1648,7 @@
       * [Improving The Quality Of Recently Merged Code With AI](code-security/tutorials/improve-code-quality/improve-recent-merges.md)
       * [Improving The Quality Of Your Repository S Code](code-security/tutorials/improve-code-quality/improve-your-codebase.md)
       * [Improving The Quality Of Your Code](code-security/tutorials/improve-code-quality/index.md)
+      * [Quickstart For Git Hub Code Quality](code-security/tutorials/improve-code-quality/quickstart.md)
     - Manage Security Alerts
       * [Best Practices For Participating In A Code Security Campaign](code-security/tutorials/manage-security-alerts/best-practices-for-participating-in-a-security-campaign.md)
       * [Manage Security Alerts](code-security/tutorials/manage-security-alerts/index.md)
@@ -1704,6 +1671,7 @@
       * [Best Practices For Preventing Data Leaks In Your Organization](code-security/tutorials/secure-your-organization/best-practices-for-preventing-data-leaks-in-your-organization.md)
       * [Securing Your Organization](code-security/tutorials/secure-your-organization/index.md)
       * [Interpreting Secret Risk Assessment Results](code-security/tutorials/secure-your-organization/interpreting-secret-risk-assessment-results.md)
+      * [Organizing Remediation Efforts For Leaked Secrets](code-security/tutorials/secure-your-organization/organizing-remediation-efforts-for-leaked-secrets.md)
       * [Prioritizing Dependabot And Code Scanning Alerts Using Production Context](code-security/tutorials/secure-your-organization/prioritize-alerts-in-production-code.md)
     - Trialing Github Advanced Security
       * [Enabling Security Features In Your Trial Enterprise](code-security/tutorials/trialing-github-advanced-security/enable-security-features-trial.md)
@@ -1928,6 +1896,7 @@
       - Coding Agent
         * [About Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/about-coding-agent.md)
         * [About Custom Agents](copilot/concepts/agents/coding-agent/about-custom-agents.md)
+        * [About Hooks](copilot/concepts/agents/coding-agent/about-hooks.md)
         * [Managing Access To Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/access-management.md)
         * [About Agent Management](copilot/concepts/agents/coding-agent/agent-management.md)
         * [Concepts For Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/index.md)
@@ -1935,6 +1904,7 @@
       * [About Agent Skills](copilot/concepts/agents/about-agent-skills.md)
       * [About Git Hub Copilot CLI](copilot/concepts/agents/about-copilot-cli.md)
       * [About Git Hub Copilot Code Review](copilot/concepts/agents/code-review.md)
+      * [About Agentic Memory For Git Hub Copilot](copilot/concepts/agents/copilot-memory.md)
       * [Agent Management For Enterprises](copilot/concepts/agents/enterprise-management.md)
       * [Concepts For Git Hub Copilot Agents](copilot/concepts/agents/index.md)
       * [Open AI Codex](copilot/concepts/agents/openai-codex.md)
@@ -2125,11 +2095,13 @@
         * [Testing and releasing {% data variables.copilot.custom_agents_short %} in your organization or enterprise](copilot/how-tos/use-copilot-agents/coding-agent/test-custom-agents.md)
         * [Tracking Git Hub Copilot S Sessions](copilot/how-tos/use-copilot-agents/coding-agent/track-copilot-sessions.md)
         * [Troubleshooting Git Hub Copilot Coding Agent](copilot/how-tos/use-copilot-agents/coding-agent/troubleshoot-coding-agent.md)
+        * [Using Hooks With Git Hub Copilot Agents](copilot/how-tos/use-copilot-agents/coding-agent/use-hooks.md)
       - Request A Code Review
         * [Configuring Automatic Code Review By Git Hub Copilot](copilot/how-tos/use-copilot-agents/request-a-code-review/configure-automatic-review.md)
         * [Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/index.md)
         * [Managing Static Analysis Tools In Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/manage-tools.md)
         * [Using Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review.md)
+      * [Enabling And Curating Copilot Memory](copilot/how-tos/use-copilot-agents/copilot-memory.md)
       * [Use Git Hub Copilot Agents](copilot/how-tos/use-copilot-agents/index.md)
       * [Managing Copilot Coding Agents](copilot/how-tos/use-copilot-agents/manage-agents.md)
       * [Using Git Hub Copilot CLI](copilot/how-tos/use-copilot-agents/use-copilot-cli.md)
@@ -2162,6 +2134,7 @@
     * [Copilot Allowlist Reference](copilot/reference/copilot-allowlist-reference.md)
     * [Custom Agents Configuration](copilot/reference/custom-agents-configuration.md)
     * [Support For Different Types Of Custom Instructions](copilot/reference/custom-instructions-support.md)
+    * [Hooks Configuration](copilot/reference/hooks-configuration.md)
     * [Reference for {% data variables.product.prodname_copilot %}](copilot/reference/index.md)
     * [Keyboard Shortcuts For Git Hub Copilot In The IDE](copilot/reference/keyboard-shortcuts.md)
     * [MCP Allowlist Enforcement](copilot/reference/mcp-allowlist-enforcement.md)
