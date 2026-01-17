@@ -409,6 +409,7 @@
       * [About {% data variables.product.prodname_emus %}](admin/concepts/identity-and-access-management/enterprise-managed-users.md)
       * [Identity And Access Management Fundamentals](admin/concepts/identity-and-access-management/identity-and-access-management-fundamentals.md)
       * [Identity And Access Management](admin/concepts/identity-and-access-management/index.md)
+      * [About user offboarding on {% data variables.product.prodname_ghe_cloud %}](admin/concepts/identity-and-access-management/user-offboarding.md)
     - Security And Compliance
       * [Audit Log For An Enterprise](admin/concepts/security-and-compliance/audit-log-for-an-enterprise.md)
       * [Enterprise Policies](admin/concepts/security-and-compliance/enterprise-policies.md)
@@ -765,6 +766,9 @@
       * [Monitoring Using SNMP](admin/monitoring-and-managing-your-instance/monitoring-your-instance/monitoring-using-snmp.md)
       * [Recommended Alert Thresholds](admin/monitoring-and-managing-your-instance/monitoring-your-instance/recommended-alert-thresholds.md)
       * [Troubleshooting Resource Allocation Problems](admin/monitoring-and-managing-your-instance/monitoring-your-instance/troubleshooting-resource-allocation-problems.md)
+    - Multiple Data Disks
+      * [Configuring Multiple Data Disks](admin/monitoring-and-managing-your-instance/multiple-data-disks/configuring-multiple-data-disks.md)
+      * [Multiple Data Disks](admin/monitoring-and-managing-your-instance/multiple-data-disks/index.md)
     - Updating The Virtual Machine And Physical Resources
       * [Changing Your Platform](admin/monitoring-and-managing-your-instance/updating-the-virtual-machine-and-physical-resources/changing-your-platform.md)
       * [Increasing CPU Or Memory Resources](admin/monitoring-and-managing-your-instance/updating-the-virtual-machine-and-physical-resources/increasing-cpu-or-memory-resources.md)
