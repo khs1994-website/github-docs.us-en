@@ -401,6 +401,7 @@
       * [Best Practices For Organizing Work In Your Enterprise](admin/concepts/enterprise-best-practices/organize-work.md)
       * [Using Innersource In Your Enterprise](admin/concepts/enterprise-best-practices/use-innersource.md)
     - Enterprise Fundamentals
+      * [Automations In Your Enterprise](admin/concepts/enterprise-fundamentals/automations-in-your-enterprise.md)
       * [Enterprise Accounts](admin/concepts/enterprise-fundamentals/enterprise-accounts.md)
       * [Enterprise Fundamentals](admin/concepts/enterprise-fundamentals/index.md)
       * [Roles In An Enterprise](admin/concepts/enterprise-fundamentals/roles-in-an-enterprise.md)
@@ -2136,6 +2137,7 @@
     * [Audit Log Events For Agents](copilot/reference/agentic-audit-log-events.md)
     * [Git Hub Copilot Chat Cheat Sheet](copilot/reference/cheat-sheet.md)
     * [Copilot Allowlist Reference](copilot/reference/copilot-allowlist-reference.md)
+    * [Copilot Feature Matrix](copilot/reference/copilot-feature-matrix.md)
     * [Custom Agents Configuration](copilot/reference/custom-agents-configuration.md)
     * [Support For Different Types Of Custom Instructions](copilot/reference/custom-instructions-support.md)
     * [Hooks Configuration](copilot/reference/hooks-configuration.md)
@@ -2444,6 +2446,7 @@
     * [Migrating Your Enterprise To Git Hub Actions](enterprise-onboarding/github-actions-for-your-enterprise/migrating-your-enterprise-to-github-actions.md)
     * [Planning A Rollout Of Git Hub Actions](enterprise-onboarding/github-actions-for-your-enterprise/planning-a-rollout-of-github-actions.md)
   - Github Apps
+    * [Automations In Your Enterprise](enterprise-onboarding/github-apps/automations-in-your-enterprise.md)
     * [Creating Enterprise Apps](enterprise-onboarding/github-apps/create-enterprise-apps.md)
     * [Automating Processes With Git Hub Apps](enterprise-onboarding/github-apps/index.md)
     * [Installing Enterprise Apps](enterprise-onboarding/github-apps/install-enterprise-apps.md)
