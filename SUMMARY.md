@@ -1188,6 +1188,7 @@
       * [Best Practices For Maintaining Dependencies](code-security/concepts/supply-chain-security/best-practices-for-maintaining-dependencies.md)
       * [Immutable Releases](code-security/concepts/supply-chain-security/immutable-releases.md)
       * [Supply Chain Security](code-security/concepts/supply-chain-security/index.md)
+      * [About Linked Artifacts](code-security/concepts/supply-chain-security/linked-artifacts.md)
     - Vulnerability Reporting And Management
       * [About Coordinated Disclosure Of Security Vulnerabilities](code-security/concepts/vulnerability-reporting-and-management/about-coordinated-disclosure-of-security-vulnerabilities.md)
       * [About Global Security Advisories](code-security/concepts/vulnerability-reporting-and-management/about-global-security-advisories.md)
@@ -1431,6 +1432,9 @@
         * [Exporting A Software Bill Of Materials For Your Repository](code-security/how-tos/secure-your-supply-chain/establish-provenance-and-integrity/exporting-a-software-bill-of-materials-for-your-repository.md)
         * [Establishing Provenance And Integrity For Your Projects](code-security/how-tos/secure-your-supply-chain/establish-provenance-and-integrity/index.md)
         * [Preventing Changes To Your Releases](code-security/how-tos/secure-your-supply-chain/establish-provenance-and-integrity/preventing-changes-to-your-releases.md)
+        * [Removing artifacts from the {% data variables.product.virtual_registry %}](code-security/how-tos/secure-your-supply-chain/establish-provenance-and-integrity/remove-linked-artifacts.md)
+        * [Uploading storage and deployment data to the {% data variables.product.virtual_registry %}](code-security/how-tos/secure-your-supply-chain/establish-provenance-and-integrity/upload-linked-artifacts.md)
+        * [Auditing your organization's builds on the {% data variables.product.virtual_registry %}](code-security/how-tos/secure-your-supply-chain/establish-provenance-and-integrity/view-linked-artifacts.md)
       - Manage Your Dependency Security
         * [Configuring Access To Private Registries For Dependabot](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/configuring-access-to-private-registries-for-dependabot.md)
         * [Configuring Notifications For Dependabot Alerts](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/configuring-notifications-for-dependabot-alerts.md)
