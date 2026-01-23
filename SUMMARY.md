@@ -755,8 +755,8 @@
         * [Setting Up External Monitoring With Collectd](admin/monitoring-and-managing-your-instance/monitoring-your-instance/collectd-metrics/setting-up-external-monitoring-with-collectd.md)
       - Opentelemetry Metrics
         * [About Open Telemetry Metrics](admin/monitoring-and-managing-your-instance/monitoring-your-instance/opentelemetry-metrics/about-opentelemetry-metrics.md)
+        * [Advanced Dashboards Of Open Telemetry Metrics](admin/monitoring-and-managing-your-instance/monitoring-your-instance/opentelemetry-metrics/advanced-dashboards.md)
         * [Configuring Open Telemetry For Your Instance](admin/monitoring-and-managing-your-instance/monitoring-your-instance/opentelemetry-metrics/configuring-opentelemetry-for-your-instance.md)
-        * [Enabling Advanced Dashboards Of Open Telemetry Metrics](admin/monitoring-and-managing-your-instance/monitoring-your-instance/opentelemetry-metrics/enable-advanced-dashboards.md)
         * [Open Telemetry Metrics](admin/monitoring-and-managing-your-instance/monitoring-your-instance/opentelemetry-metrics/index.md)
         * [Setting Up External Monitoring With Open Telemetry](admin/monitoring-and-managing-your-instance/monitoring-your-instance/opentelemetry-metrics/setting-up-external-monitoring-with-opentelemetry.md)
       * [About Monitoring Your Instance](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-monitoring-your-instance.md)
@@ -1140,6 +1140,7 @@
     * [Gathering Insights On Your Spending](billing/tutorials/gather-insights.md)
     * [Tutorials For Billing](billing/tutorials/index.md)
     * [Setting Up Budgets To Control Spending On Metered Products](billing/tutorials/set-up-budgets.md)
+    * [Start Monitoring Costs With Soft Budgets](billing/tutorials/soft-budgets.md)
   * [Billing And Payments Documentation](billing/index.md)
 - Code Security
   - Concepts
@@ -1164,6 +1165,7 @@
       * [About Secret Scanning For Partners](code-security/concepts/secret-security/about-secret-scanning-for-partners.md)
       * [About Secret Scanning](code-security/concepts/secret-security/about-secret-scanning.md)
       * [About Secret Security With Git Hub](code-security/concepts/secret-security/about-secret-security-with-github.md)
+      * [Git Hub Secret Types](code-security/concepts/secret-security/github-secret-types.md)
       * [Concepts For Secret Security](code-security/concepts/secret-security/index.md)
       * [Working With Push Protection And The Git Hub MCP Server](code-security/concepts/secret-security/working-with-push-protection-and-the-github-mcp-server.md)
       * [Working With Push Protection From The REST API](code-security/concepts/secret-security/working-with-push-protection-from-the-rest-api.md)
