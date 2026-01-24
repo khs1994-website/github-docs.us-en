@@ -1117,6 +1117,7 @@
       * [Billing Troubleshooting](billing/how-tos/troubleshooting/index.md)
       * [Unlocking A Locked Account](billing/how-tos/troubleshooting/locked-account.md)
     * [How Tos For Billing](billing/how-tos/index.md)
+    * [Setting Up Budgets To Control Spending On Metered Products](billing/how-tos/set-up-budgets.md)
   - Reference
     * [Actions Runner Pricing](billing/reference/actions-runner-pricing.md)
     * [Billing Through Azure Subscriptions](billing/reference/azure-billing.md)
@@ -1139,7 +1140,6 @@
     * [Controlling And Tracking Costs At Scale](billing/tutorials/control-costs-at-scale.md)
     * [Gathering Insights On Your Spending](billing/tutorials/gather-insights.md)
     * [Tutorials For Billing](billing/tutorials/index.md)
-    * [Setting Up Budgets To Control Spending On Metered Products](billing/tutorials/set-up-budgets.md)
     * [Start Monitoring Costs With Soft Budgets](billing/tutorials/soft-budgets.md)
   * [Billing And Payments Documentation](billing/index.md)
 - Code Security
@@ -1156,8 +1156,8 @@
       * [About Code Scanning Alerts](code-security/concepts/code-scanning/about-code-scanning-alerts.md)
       * [About Code Scanning](code-security/concepts/code-scanning/about-code-scanning.md)
       * [About Integration With Code Scanning](code-security/concepts/code-scanning/about-integration-with-code-scanning.md)
-      * [Evaluating Default Setup For Code Scanning](code-security/concepts/code-scanning/evaluating-default-setup-for-code-scanning.md)
       * [Concepts For Code Scanning](code-security/concepts/code-scanning/index.md)
+      * [About Setup Types For Code Scanning](code-security/concepts/code-scanning/setup-types.md)
     - Secret Security
       * [About Secret Scanning Alerts](code-security/concepts/secret-security/about-alerts.md)
       * [About Delegated Bypass For Push Protection](code-security/concepts/secret-security/about-delegated-bypass-for-push-protection.md)
@@ -1167,6 +1167,7 @@
       * [About Secret Security With Git Hub](code-security/concepts/secret-security/about-secret-security-with-github.md)
       * [Git Hub Secret Types](code-security/concepts/secret-security/github-secret-types.md)
       * [Concepts For Secret Security](code-security/concepts/secret-security/index.md)
+      * [Push Protection From The Command Line](code-security/concepts/secret-security/push-protection-from-the-command-line.md)
       * [Working With Push Protection And The Git Hub MCP Server](code-security/concepts/secret-security/working-with-push-protection-and-the-github-mcp-server.md)
       * [Working With Push Protection From The REST API](code-security/concepts/secret-security/working-with-push-protection-from-the-rest-api.md)
     - Security At Scale
@@ -1186,6 +1187,7 @@
       * [About Dependabot Version Updates](code-security/concepts/supply-chain-security/about-dependabot-version-updates.md)
       * [About Dependency Review](code-security/concepts/supply-chain-security/about-dependency-review.md)
       * [About Supply Chain Security](code-security/concepts/supply-chain-security/about-supply-chain-security.md)
+      * [About the dependabot.yml file](code-security/concepts/supply-chain-security/about-the-dependabot-yml-file.md)
       * [About The Dependency Graph](code-security/concepts/supply-chain-security/about-the-dependency-graph.md)
       * [Best Practices For Maintaining Dependencies](code-security/concepts/supply-chain-security/best-practices-for-maintaining-dependencies.md)
       * [Immutable Releases](code-security/concepts/supply-chain-security/immutable-releases.md)
@@ -1605,18 +1607,24 @@
         * [Telemetry In Code QL For Visual Studio Code](code-security/reference/code-scanning/codeql/telemetry-in-codeql-for-visual-studio-code.md)
       * [Reference For Code Scanning](code-security/reference/code-scanning/index.md)
       * [SARIF Support For Code Scanning](code-security/reference/code-scanning/sarif-support-for-code-scanning.md)
+    - Permissions
+      * [Permissions For Security Features](code-security/reference/permissions/index.md)
+      * [Repository Security Advisories](code-security/reference/permissions/permission-levels-for-repository-security-advisories.md)
+      * [Security Overview Permissions](code-security/reference/permissions/security-overview-permissions.md)
     - Secret Security
       * [Secret Security](code-security/reference/secret-security/index.md)
       * [Contents Of The Secret Risk Assessment Report CSV](code-security/reference/secret-security/risk-report-csv-contents.md)
       * [Supported Secret Scanning Patterns](code-security/reference/secret-security/supported-secret-scanning-patterns.md)
       * [Understanding Git Hub Secret Types](code-security/reference/secret-security/understanding-github-secret-types.md)
     - Supply Chain Security
+      * [Dependabot Alert Filters](code-security/reference/supply-chain-security/dependabot-alerts-filters.md)
       * [Dependabot Options Reference](code-security/reference/supply-chain-security/dependabot-options-reference.md)
+      * [Dependabot Pull Request Comment Commands](code-security/reference/supply-chain-security/dependabot-pull-request-comment-commands.md)
       * [Dependency Graph Supported Package Ecosystems](code-security/reference/supply-chain-security/dependency-graph-supported-package-ecosystems.md)
       * [Reference For Supply Chain Security](code-security/reference/supply-chain-security/index.md)
+      * [Supported Ecosystems And Manifests For Dependency Scope](code-security/reference/supply-chain-security/supported-ecosystems-and-manifests-for-dependency-scope.md)
       * [Dependabot Supported Ecosystems And Repositories](code-security/reference/supply-chain-security/supported-ecosystems-and-repositories.md)
     * [Reference For Security And Code Quality](code-security/reference/index.md)
-    * [Permission Levels For Repository Security Advisories](code-security/reference/permission-levels-for-repository-security-advisories.md)
   - Responsible Use
     * [Responsible Use Of Git Hub Code Quality](code-security/responsible-use/code-quality.md)
     * [Responsible use of {% data variables.product.github %}'s security and code quality features](code-security/responsible-use/index.md)
@@ -1638,6 +1646,7 @@
       * [Creating And Working With Code QL Packs](code-security/tutorials/customize-code-scanning/creating-and-working-with-codeql-packs.md)
       * [Creating Code QL Query Suites](code-security/tutorials/customize-code-scanning/creating-codeql-query-suites.md)
       * [Customizing Analysis With Code QL Packs](code-security/tutorials/customize-code-scanning/customizing-analysis-with-codeql-packs.md)
+      * [Evaluating Default Setup For Code Scanning](code-security/tutorials/customize-code-scanning/evaluating-default-setup-for-code-scanning.md)
       * [Customize Code Scanning](code-security/tutorials/customize-code-scanning/index.md)
       * [Preparing Your Code For Code QL Analysis](code-security/tutorials/customize-code-scanning/preparing-your-code-for-codeql-analysis.md)
       * [Publishing And Using Code QL Packs](code-security/tutorials/customize-code-scanning/publishing-and-using-codeql-packs.md)
