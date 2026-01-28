@@ -1161,6 +1161,7 @@
       * [About Setup Types For Code Scanning](code-security/concepts/code-scanning/setup-types.md)
     - Secret Security
       * [About Secret Scanning Alerts](code-security/concepts/secret-security/about-alerts.md)
+      * [About Bypass Requests For Push Protection](code-security/concepts/secret-security/about-bypass-requests-for-push-protection.md)
       * [About Delegated Bypass For Push Protection](code-security/concepts/secret-security/about-delegated-bypass-for-push-protection.md)
       * [About Push Protection](code-security/concepts/secret-security/about-push-protection.md)
       * [About Secret Scanning For Partners](code-security/concepts/secret-security/about-secret-scanning-for-partners.md)
