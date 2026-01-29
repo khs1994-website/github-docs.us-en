@@ -2152,6 +2152,7 @@
       * [Interpreting Usage And Adoption Metrics For Git Hub Copilot](copilot/reference/copilot-usage-metrics/interpret-copilot-metrics.md)
       * [Lines Of Code Metrics](copilot/reference/copilot-usage-metrics/lines-of-code-metrics.md)
       * [Reconciling Copilot Usage Metrics Across Dashboards AP Is And Reports](copilot/reference/copilot-usage-metrics/reconciling-usage-metrics.md)
+    * [Copilot CLI ACP Server](copilot/reference/acp-server.md)
     * [Audit Log Events For Agents](copilot/reference/agentic-audit-log-events.md)
     * [Git Hub Copilot Chat Cheat Sheet](copilot/reference/cheat-sheet.md)
     * [Copilot Allowlist Reference](copilot/reference/copilot-allowlist-reference.md)
@@ -2205,6 +2206,7 @@
         * [Synthesizing Research](copilot/tutorials/copilot-chat-cookbook/communicate-effectively/synthesizing-research.md)
       - Debug Errors
         * [Debugging Invalid JSON](copilot/tutorials/copilot-chat-cookbook/debug-errors/debug-invalid-json.md)
+        * [Diagnosing Test Failures](copilot/tutorials/copilot-chat-cookbook/debug-errors/diagnose-test-failures.md)
         * [Handling API Rate Limits](copilot/tutorials/copilot-chat-cookbook/debug-errors/handle-api-rate-limits.md)
         * [Debug Errors](copilot/tutorials/copilot-chat-cookbook/debug-errors/index.md)
       - Document Code
