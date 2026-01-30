@@ -1396,7 +1396,7 @@
           * [Editing A Custom Security Configuration](code-security/how-tos/secure-at-scale/configure-organization-security/manage-your-coverage/editing-a-custom-security-configuration.md)
           * [Filtering Repositories In Your Organization Using The Repository Table](code-security/how-tos/secure-at-scale/configure-organization-security/manage-your-coverage/filtering-repositories-in-your-organization-using-the-repository-table.md)
           * [Manage Your Coverage](code-security/how-tos/secure-at-scale/configure-organization-security/manage-your-coverage/index.md)
-        * [Configure Organization Security](code-security/how-tos/secure-at-scale/configure-organization-security/index.md)
+        * [Configuring Security Features In Your Organization](code-security/how-tos/secure-at-scale/configure-organization-security/index.md)
       - Troubleshoot Security Configurations
         * [A Repository Is Using Advanced Setup For Code Scanning](code-security/how-tos/secure-at-scale/troubleshoot-security-configurations/a-repository-is-using-advanced-setup-for-code-scanning.md)
         * [A Feature Has Disappeared From A Security Configuration](code-security/how-tos/secure-at-scale/troubleshoot-security-configurations/feature-disappears.md)
@@ -1462,7 +1462,7 @@
         * [Configuring Dependabot Alerts](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/configuring-dependabot-alerts.md)
         * [Configuring Dependabot Security Updates](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/configuring-dependabot-security-updates.md)
         * [Configuring Dependabot Version Updates](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/configuring-dependabot-version-updates.md)
-        * [Configuring The Dependency Graph](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/configuring-the-dependency-graph.md)
+        * [Enabling The Dependency Graph](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/enabling-the-dependency-graph.md)
         * [Exploring The Dependencies Of A Repository](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/exploring-the-dependencies-of-a-repository.md)
         * [Securing Your Dependencies](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/index.md)
         * [Keeping Your Actions Up To Date With Dependabot](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/keeping-your-actions-up-to-date-with-dependabot.md)
