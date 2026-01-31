@@ -227,6 +227,7 @@
         * [Configuring Open ID Connect In Google Cloud Platform](actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-google-cloud-platform.md)
         * [Configuring Open ID Connect In Hashi Corp Vault](actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-hashicorp-vault.md)
         * [Configuring Open ID Connect In J Frog](actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-jfrog.md)
+        * [Configuring Open ID Connect In Octopus Deploy](actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-octopus-deploy.md)
         * [Configuring Open ID Connect In Py PI](actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-pypi.md)
         * [Using Open ID Connect With Reusable Workflows](actions/how-tos/secure-your-work/security-harden-deployments/oidc-with-reusable-workflows.md)
       - Use Artifact Attestations
@@ -645,6 +646,7 @@
       * [Disabling SCIM Provisioning For Users](admin/managing-iam/provisioning-user-accounts-with-scim/disabling-scim-provisioning-for-users.md)
       * [Provisioning Accounts Ifversion Ghec For Enterprise Managed Users Else With SCIM Endif](admin/managing-iam/provisioning-user-accounts-with-scim/index.md)
       * [Managing Team Memberships With Identity Provider Groups](admin/managing-iam/provisioning-user-accounts-with-scim/managing-team-memberships-with-identity-provider-groups.md)
+      * [Migrating From LDAP To SAML With SCIM](admin/managing-iam/provisioning-user-accounts-with-scim/migrating-from-ldap-to-saml-with-scim.md)
       * [Provisioning Users And Groups With SCIM Using The REST API](admin/managing-iam/provisioning-user-accounts-with-scim/provisioning-users-and-groups-with-scim-using-the-rest-api.md)
       * [Troubleshooting Team Membership With Identity Provider Groups](admin/managing-iam/provisioning-user-accounts-with-scim/troubleshooting-team-membership-with-identity-provider-groups.md)
       * [About User Provisioning With SCIM On Git Hub Enterprise Server](admin/managing-iam/provisioning-user-accounts-with-scim/user-provisioning-with-scim-on-ghes.md)
@@ -1443,6 +1445,8 @@
         * [Uploading storage and deployment data to the {% data variables.product.virtual_registry %}](code-security/how-tos/secure-your-supply-chain/establish-provenance-and-integrity/upload-linked-artifacts.md)
         * [Auditing your organization's builds on the {% data variables.product.virtual_registry %}](code-security/how-tos/secure-your-supply-chain/establish-provenance-and-integrity/view-linked-artifacts.md)
       - Manage Your Dependency Security
+        * [Configuring Dependabot On Git Hub Hosted Runners](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/configure-on-github-hosted-runners.md)
+        * [Configuring Dependabot On Self Hosted Runners](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/configure-on-self-hosted-runners.md)
         * [Configuring Access To Private Registries For Dependabot](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/configuring-access-to-private-registries-for-dependabot.md)
         * [Configuring Notifications For Dependabot Alerts](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/configuring-notifications-for-dependabot-alerts.md)
         * [Configuring The Dependency Review Action](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/configuring-the-dependency-review-action.md)
@@ -1452,9 +1456,9 @@
         * [Guidance For The Configuration Of Private Registries For Dependabot](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/guidance-for-the-configuration-of-private-registries-for-dependabot.md)
         * [Managing Your Dependency Security](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/index.md)
         * [Listing Dependencies Configured For Version Updates](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/listing-dependencies-configured-for-version-updates.md)
-        * [Managing Dependabot On Self Hosted Runners](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/managing-dependabot-on-self-hosted-runners.md)
         * [Managing Pull Requests For Dependency Updates](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/managing-pull-requests-for-dependency-updates.md)
         * [Optimizing Java Packages For Dependabot Updates](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/optimizing-java-packages-dependabot.md)
+        * [Re Running Dependabot Jobs On Git Hub Actions](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/re-run-dependabot-jobs.md)
         * [Removing Dependabot Access To Public Registries](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/removing-dependabot-access-to-public-registries.md)
         * [Using Git Hub Preset Rules To Prioritize Dependabot Alerts](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/using-github-preset-rules-to-prioritize-dependabot-alerts.md)
       - Secure Your Dependencies
@@ -1488,6 +1492,7 @@
         * [Viewing Metrics For Pull Request Alerts](code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-metrics-for-pull-request-alerts.md)
         * [Viewing Metrics For Secret Scanning Push Protection](code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-metrics-for-secret-scanning-push-protection.md)
         * [Viewing Security Insights](code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-security-insights.md)
+      * [Changing The Used By Data For A Repository](code-security/how-tos/view-and-interpret-data/change-used-by-data.md)
       * [How Tos For Viewing And Interpreting Security Results](code-security/how-tos/view-and-interpret-data/index.md)
       * [Metrics For Custom Patterns](code-security/how-tos/view-and-interpret-data/metrics-for-custom-patterns.md)
       * [Viewing Code Scanning Logs](code-security/how-tos/view-and-interpret-data/viewing-code-scanning-logs.md)
@@ -1621,6 +1626,7 @@
       * [Understanding Git Hub Secret Types](code-security/reference/secret-security/understanding-github-secret-types.md)
     - Supply Chain Security
       * [Dependabot Alert Filters](code-security/reference/supply-chain-security/dependabot-alerts-filters.md)
+      * [Dependabot On Git Hub Actions](code-security/reference/supply-chain-security/dependabot-on-actions.md)
       * [Dependabot Options Reference](code-security/reference/supply-chain-security/dependabot-options-reference.md)
       * [Dependabot Pull Request Comment Commands](code-security/reference/supply-chain-security/dependabot-pull-request-comment-commands.md)
       * [Dependency Graph Supported Package Ecosystems](code-security/reference/supply-chain-security/dependency-graph-supported-package-ecosystems.md)
