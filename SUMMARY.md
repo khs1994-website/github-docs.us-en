@@ -2055,6 +2055,14 @@
       * [Configuring Git Hub Copilot In Your Environment](copilot/how-tos/configure-personal-settings/configure-in-ide.md)
       * [Configuring Network Settings For Git Hub Copilot](copilot/how-tos/configure-personal-settings/configure-network-settings.md)
       * [Configure Personal Settings](copilot/how-tos/configure-personal-settings/index.md)
+    - Copilot Cli
+      * [Adding Repository Custom Instructions](copilot/how-tos/copilot-cli/add-repository-instructions.md)
+      * [Best Practices For Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-best-practices.md)
+      * [Getting Started With Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-getting-started.md)
+      * [Git Hub Copilot CLI](copilot/how-tos/copilot-cli/index.md)
+      * [Installing Git Hub Copilot CLI](copilot/how-tos/copilot-cli/install-copilot-cli.md)
+      * [Using Git Hub Copilot CLI](copilot/how-tos/copilot-cli/use-copilot-cli.md)
+      * [Using Hooks With Git Hub Copilot CLI](copilot/how-tos/copilot-cli/use-hooks.md)
     - Get Code Suggestions
       * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/how-tos/get-code-suggestions/find-matching-code.md)
       * [Getting Code Suggestions In Your IDE With Git Hub Copilot](copilot/how-tos/get-code-suggestions/get-ide-code-suggestions.md)
@@ -2089,7 +2097,6 @@
       * [Provide Context To Git Hub Copilot](copilot/how-tos/provide-context/index.md)
     - Set Up
       * [Setting Up Git Hub Copilot](copilot/how-tos/set-up/index.md)
-      * [Installing Git Hub Copilot CLI](copilot/how-tos/set-up/install-copilot-cli.md)
       * [Installing The Git Hub Copilot Extension In Your Environment](copilot/how-tos/set-up/install-copilot-extension.md)
       * [Setting Up A Dedicated Enterprise For Git Hub Copilot Business](copilot/how-tos/set-up/set-up-a-dedicated-enterprise-for-copilot-business.md)
       * [Setting Up Git Hub Copilot For Your Enterprise](copilot/how-tos/set-up/set-up-for-enterprise.md)
@@ -2133,7 +2140,6 @@
       * [Enabling And Curating Copilot Memory](copilot/how-tos/use-copilot-agents/copilot-memory.md)
       * [Use Git Hub Copilot Agents](copilot/how-tos/use-copilot-agents/index.md)
       * [Managing Copilot Coding Agents](copilot/how-tos/use-copilot-agents/manage-agents.md)
-      * [Using Git Hub Copilot CLI](copilot/how-tos/use-copilot-agents/use-copilot-cli.md)
     - Use Copilot For Common Tasks
       * [Creating A Pull Request Summary With Git Hub Copilot](copilot/how-tos/use-copilot-for-common-tasks/create-a-pr-summary.md)
       * [Use Git Hub Copilot For Common Tasks](copilot/how-tos/use-copilot-for-common-tasks/index.md)
@@ -2161,6 +2167,7 @@
     * [Copilot CLI ACP Server](copilot/reference/acp-server.md)
     * [Audit Log Events For Agents](copilot/reference/agentic-audit-log-events.md)
     * [Git Hub Copilot Chat Cheat Sheet](copilot/reference/cheat-sheet.md)
+    * [Git Hub Copilot CLI Command Reference](copilot/reference/cli-command-reference.md)
     * [Copilot Allowlist Reference](copilot/reference/copilot-allowlist-reference.md)
     * [Copilot Feature Matrix](copilot/reference/copilot-feature-matrix.md)
     * [Custom Agents Configuration](copilot/reference/custom-agents-configuration.md)
