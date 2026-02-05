@@ -1932,6 +1932,8 @@
         * [Model Context Protocol MCP And Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/mcp-and-coding-agent.md)
       * [About Agent Skills](copilot/concepts/agents/about-agent-skills.md)
       * [About Git Hub Copilot CLI](copilot/concepts/agents/about-copilot-cli.md)
+      * [About Third Party Agents](copilot/concepts/agents/about-third-party-agents.md)
+      * [Anthropic Claude](copilot/concepts/agents/anthropic-claude.md)
       * [About Git Hub Copilot Code Review](copilot/concepts/agents/code-review.md)
       * [About Agentic Memory For Git Hub Copilot](copilot/concepts/agents/copilot-memory.md)
       * [Agent Management For Enterprises](copilot/concepts/agents/enterprise-management.md)
@@ -2140,7 +2142,7 @@
         * [Using Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review.md)
       * [Enabling And Curating Copilot Memory](copilot/how-tos/use-copilot-agents/copilot-memory.md)
       * [Use Git Hub Copilot Agents](copilot/how-tos/use-copilot-agents/index.md)
-      * [Managing Copilot Coding Agents](copilot/how-tos/use-copilot-agents/manage-agents.md)
+      * [Managing Coding Agents](copilot/how-tos/use-copilot-agents/manage-agents.md)
     - Use Copilot For Common Tasks
       * [Creating A Pull Request Summary With Git Hub Copilot](copilot/how-tos/use-copilot-for-common-tasks/create-a-pr-summary.md)
       * [Use Git Hub Copilot For Common Tasks](copilot/how-tos/use-copilot-for-common-tasks/index.md)
@@ -2199,6 +2201,7 @@
   - Tutorials
     - Coding Agent
       * [Best Practices For Using Git Hub Copilot To Work On Tasks](copilot/tutorials/coding-agent/get-the-best-results.md)
+      * [Using Git Hub Copilot Coding Agent To Improve A Project](copilot/tutorials/coding-agent/improve-a-project.md)
       * [Git Hub Copilot Coding Agent](copilot/tutorials/coding-agent/index.md)
       * [Piloting Git Hub Copilot Coding Agent In Your Organization](copilot/tutorials/coding-agent/pilot-coding-agent.md)
     - Copilot Chat Cookbook
