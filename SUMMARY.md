@@ -1191,6 +1191,7 @@
       * [About Dependabot Security Updates](code-security/concepts/supply-chain-security/about-dependabot-security-updates.md)
       * [About Dependabot Version Updates](code-security/concepts/supply-chain-security/about-dependabot-version-updates.md)
       * [About Dependency Review](code-security/concepts/supply-chain-security/about-dependency-review.md)
+      * [About Metrics For Dependabot Alerts](code-security/concepts/supply-chain-security/about-metrics-for-dependabot-alerts.md)
       * [About Supply Chain Security](code-security/concepts/supply-chain-security/about-supply-chain-security.md)
       * [About the dependabot.yml file](code-security/concepts/supply-chain-security/about-the-dependabot-yml-file.md)
       * [About The Dependency Graph](code-security/concepts/supply-chain-security/about-the-dependency-graph.md)
@@ -2058,7 +2059,7 @@
       * [Configuring Network Settings For Git Hub Copilot](copilot/how-tos/configure-personal-settings/configure-network-settings.md)
       * [Configure Personal Settings](copilot/how-tos/configure-personal-settings/index.md)
     - Copilot Cli
-      * [Adding Repository Custom Instructions](copilot/how-tos/copilot-cli/add-repository-instructions.md)
+      * [Adding Custom Instructions For Copilot CLI](copilot/how-tos/copilot-cli/add-custom-instructions.md)
       * [Best Practices For Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-best-practices.md)
       * [Getting Started With Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-getting-started.md)
       * [Git Hub Copilot CLI](copilot/how-tos/copilot-cli/index.md)
