@@ -1160,6 +1160,7 @@
       * [About Code Scanning](code-security/concepts/code-scanning/about-code-scanning.md)
       * [About Integration With Code Scanning](code-security/concepts/code-scanning/about-integration-with-code-scanning.md)
       * [Concepts For Code Scanning](code-security/concepts/code-scanning/index.md)
+      * [About SARIF Files For Code Scanning](code-security/concepts/code-scanning/sarif-files.md)
       * [About Setup Types For Code Scanning](code-security/concepts/code-scanning/setup-types.md)
     - Secret Security
       * [About Secret Scanning Alerts](code-security/concepts/secret-security/about-alerts.md)
@@ -1623,6 +1624,7 @@
     - Secret Security
       * [Secret Security](code-security/reference/secret-security/index.md)
       * [Contents Of The Secret Risk Assessment Report CSV](code-security/reference/secret-security/risk-report-csv-contents.md)
+      * [Secret Scanning Pattern Configuration Data](code-security/reference/secret-security/secret-scanning-pattern-configuration-data.md)
       * [Supported Secret Scanning Patterns](code-security/reference/secret-security/supported-secret-scanning-patterns.md)
       * [Understanding Git Hub Secret Types](code-security/reference/secret-security/understanding-github-secret-types.md)
     - Supply Chain Security
@@ -1957,6 +1959,8 @@
       * [About Model Context Protocol MCP](copilot/concepts/context/mcp.md)
       * [Indexing Repositories For Git Hub Copilot Chat](copilot/concepts/context/repository-indexing.md)
       * [About Git Hub Copilot Spaces](copilot/concepts/context/spaces.md)
+    - Copilot Usage Metrics
+      * [Git Hub Copilot Usage Metrics](copilot/concepts/copilot-usage-metrics/index.md)
     - Prompting
       * [Concepts For Prompting Git Hub Copilot](copilot/concepts/prompting/index.md)
       * [Prompt Engineering For Git Hub Copilot Chat](copilot/concepts/prompting/prompt-engineering.md)
@@ -1968,7 +1972,6 @@
     * [About Enterprise Accounts For Copilot Business](copilot/concepts/about-enterprise-accounts-for-copilot-business.md)
     * [About {% data variables.product.prodname_copilot_short %} auto model selection](copilot/concepts/auto-model-selection.md)
     * [About Git Hub Copilot Chat](copilot/concepts/chat.md)
-    * [Git Hub Copilot Usage Metrics](copilot/concepts/copilot-metrics.md)
     * [Concepts For Git Hub Copilot](copilot/concepts/index.md)
     * [MCP Server Usage In Your Company](copilot/concepts/mcp-management.md)
     * [Network Settings For Git Hub Copilot](copilot/concepts/network-settings.md)
