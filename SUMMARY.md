@@ -411,6 +411,7 @@
       * [About {% data variables.product.prodname_emus %}](admin/concepts/identity-and-access-management/enterprise-managed-users.md)
       * [Identity And Access Management Fundamentals](admin/concepts/identity-and-access-management/identity-and-access-management-fundamentals.md)
       * [Identity And Access Management](admin/concepts/identity-and-access-management/index.md)
+      * [Setup User](admin/concepts/identity-and-access-management/setup-user.md)
       * [About user offboarding on {% data variables.product.prodname_ghe_cloud %}](admin/concepts/identity-and-access-management/user-offboarding.md)
     - Security And Compliance
       * [Audit Log For An Enterprise](admin/concepts/security-and-compliance/audit-log-for-an-enterprise.md)
@@ -1178,12 +1179,11 @@
     - Security At Scale
       * [About Enabling Security Features At Scale](code-security/concepts/security-at-scale/about-enabling-security-features-at-scale.md)
       * [About Security Campaigns](code-security/concepts/security-at-scale/about-security-campaigns.md)
-      * [About Security Configurations](code-security/concepts/security-at-scale/about-security-configurations.md)
       * [About Security Overview](code-security/concepts/security-at-scale/about-security-overview.md)
       * [About Supply Chain Security For Your Enterprise](code-security/concepts/security-at-scale/about-supply-chain-security-for-your-enterprise.md)
       * [Auditing Security Alerts](code-security/concepts/security-at-scale/auditing-security-alerts.md)
-      * [Choosing A Security Configuration For Your Repositories](code-security/concepts/security-at-scale/choosing-a-security-configuration-for-your-repositories.md)
       * [Concepts For Security At Scale](code-security/concepts/security-at-scale/index.md)
+      * [Security Configurations](code-security/concepts/security-at-scale/security-configurations.md)
     - Supply Chain Security
       * [About Dependabot Alerts](code-security/concepts/supply-chain-security/about-dependabot-alerts.md)
       * [About Dependabot Auto Triage Rules](code-security/concepts/supply-chain-security/about-dependabot-auto-triage-rules.md)
@@ -1437,7 +1437,6 @@
         * [Working With Push Protection From The Command Line](code-security/how-tos/secure-your-secrets/work-with-leak-prevention/working-with-push-protection-from-the-command-line.md)
         * [Working With Push Protection In The Git Hub UI](code-security/how-tos/secure-your-secrets/work-with-leak-prevention/working-with-push-protection-in-the-github-ui.md)
       * [How Tos For Securing Secrets](code-security/how-tos/secure-your-secrets/index.md)
-      * [Troubleshooting Secret Scanning](code-security/how-tos/secure-your-secrets/troubleshooting-secret-scanning.md)
     - Secure Your Supply Chain
       - Establish Provenance And Integrity
         * [Exporting A Software Bill Of Materials For Your Repository](code-security/how-tos/secure-your-supply-chain/establish-provenance-and-integrity/exporting-a-software-bill-of-materials-for-your-repository.md)
@@ -1477,7 +1476,6 @@
       - Troubleshoot Dependency Security
         * [Dependabot Update Pull Requests No Longer Generated](code-security/how-tos/secure-your-supply-chain/troubleshoot-dependency-security/dependabot-updates-stopped.md)
         * [Troubleshooting Dependency Security](code-security/how-tos/secure-your-supply-chain/troubleshoot-dependency-security/index.md)
-        * [Troubleshooting Dependabot Errors](code-security/how-tos/secure-your-supply-chain/troubleshoot-dependency-security/troubleshooting-dependabot-errors.md)
         * [Troubleshooting Dependabot On Git Hub Actions](code-security/how-tos/secure-your-supply-chain/troubleshoot-dependency-security/troubleshooting-dependabot-on-github-actions.md)
         * [Troubleshooting The Dependency Graph](code-security/how-tos/secure-your-supply-chain/troubleshoot-dependency-security/troubleshooting-the-dependency-graph.md)
         * [Troubleshooting The Detection Of Vulnerable Dependencies](code-security/how-tos/secure-your-supply-chain/troubleshoot-dependency-security/troubleshooting-the-detection-of-vulnerable-dependencies.md)
@@ -1624,11 +1622,13 @@
     - Secret Security
       * [Secret Security](code-security/reference/secret-security/index.md)
       * [Contents Of The Secret Risk Assessment Report CSV](code-security/reference/secret-security/risk-report-csv-contents.md)
+      * [Secret Scanning Detection Scope](code-security/reference/secret-security/secret-scanning-detection-scope.md)
       * [Secret Scanning Pattern Configuration Data](code-security/reference/secret-security/secret-scanning-pattern-configuration-data.md)
       * [Supported Secret Scanning Patterns](code-security/reference/secret-security/supported-secret-scanning-patterns.md)
       * [Understanding Git Hub Secret Types](code-security/reference/secret-security/understanding-github-secret-types.md)
     - Supply Chain Security
       * [Dependabot Alert Filters](code-security/reference/supply-chain-security/dependabot-alerts-filters.md)
+      * [Dependabot Errors](code-security/reference/supply-chain-security/dependabot-errors.md)
       * [Dependabot On Git Hub Actions](code-security/reference/supply-chain-security/dependabot-on-actions.md)
       * [Dependabot Options Reference](code-security/reference/supply-chain-security/dependabot-options-reference.md)
       * [Dependabot Pull Request Comment Commands](code-security/reference/supply-chain-security/dependabot-pull-request-comment-commands.md)
@@ -1948,6 +1948,7 @@
       * [Git Hub Copilot Billing](copilot/concepts/billing/index.md)
       * [About Individual Git Hub Copilot Plans And Benefits](copilot/concepts/billing/individual-plans.md)
       * [About Billing For Git Hub Copilot In Organizations And Enterprises](copilot/concepts/billing/organizations-and-enterprises.md)
+      * [Management Methods For Premium Request Usage In An Enterprise](copilot/concepts/billing/premium-request-management.md)
     - Completions
       * [Git Hub Copilot Code Referencing](copilot/concepts/completions/code-referencing.md)
       * [Git Hub Copilot Code Suggestions In Your IDE](copilot/concepts/completions/code-suggestions.md)
