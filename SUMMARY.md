@@ -1161,6 +1161,7 @@
       * [About Code Scanning](code-security/concepts/code-scanning/about-code-scanning.md)
       * [About Integration With Code Scanning](code-security/concepts/code-scanning/about-integration-with-code-scanning.md)
       * [Concepts For Code Scanning](code-security/concepts/code-scanning/index.md)
+      * [Code Scanning Merge Protection](code-security/concepts/code-scanning/merge-protection.md)
       * [About SARIF Files For Code Scanning](code-security/concepts/code-scanning/sarif-files.md)
       * [About Setup Types For Code Scanning](code-security/concepts/code-scanning/setup-types.md)
     - Secret Security
@@ -1197,6 +1198,7 @@
       * [About the dependabot.yml file](code-security/concepts/supply-chain-security/about-the-dependabot-yml-file.md)
       * [About The Dependency Graph](code-security/concepts/supply-chain-security/about-the-dependency-graph.md)
       * [Best Practices For Maintaining Dependencies](code-security/concepts/supply-chain-security/best-practices-for-maintaining-dependencies.md)
+      * [Dependabot Job Logs](code-security/concepts/supply-chain-security/dependabot-job-logs.md)
       * [Immutable Releases](code-security/concepts/supply-chain-security/immutable-releases.md)
       * [Supply Chain Security](code-security/concepts/supply-chain-security/index.md)
       * [About Linked Artifacts](code-security/concepts/supply-chain-security/linked-artifacts.md)
@@ -2130,6 +2132,7 @@
         * [Customizing Or Disabling The Firewall For Git Hub Copilot Coding Agent](copilot/how-tos/use-copilot-agents/coding-agent/customize-the-agent-firewall.md)
         * [Extending Git Hub Copilot Coding Agent With The Model Context Protocol MCP](copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp.md)
         * [Git Hub Copilot Coding Agent](copilot/how-tos/use-copilot-agents/coding-agent/index.md)
+        * [Integrating Copilot Coding Agent With Azure Boards](copilot/how-tos/use-copilot-agents/coding-agent/integrate-coding-agent-with-azure-boards.md)
         * [Integrating Copilot Coding Agent With Linear](copilot/how-tos/use-copilot-agents/coding-agent/integrate-coding-agent-with-linear.md)
         * [Integrating Copilot Coding Agent With Slack](copilot/how-tos/use-copilot-agents/coding-agent/integrate-coding-agent-with-slack.md)
         * [Integrating Copilot Coding Agent With Teams](copilot/how-tos/use-copilot-agents/coding-agent/integrate-coding-agent-with-teams.md)
