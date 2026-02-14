@@ -690,6 +690,7 @@
     * [Identity And Access Management](admin/managing-iam/index.md)
   - Managing Your Enterprise Account
     * [Changing The URL For Your Enterprise](admin/managing-your-enterprise-account/changing-the-url-for-your-enterprise.md)
+    * [Configuring User Display Names For Your Enterprise](admin/managing-your-enterprise-account/configuring-user-display-names-for-your-enterprise.md)
     * [Creating A README For An Enterprise](admin/managing-your-enterprise-account/creating-a-readme-for-an-enterprise.md)
     * [Creating An Enterprise Account](admin/managing-your-enterprise-account/creating-an-enterprise-account.md)
     * [Deleting An Enterprise Account](admin/managing-your-enterprise-account/deleting-an-enterprise-account.md)
@@ -3328,6 +3329,7 @@
     - Enabling Features For Your Repository
       * [Disabling Issues](repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/disabling-issues.md)
       * [Disabling Projects In A Repository](repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/disabling-projects-in-a-repository.md)
+      * [Disabling Pull Requests](repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/disabling-pull-requests.md)
       * [Enabling Or Disabling Git Hub Discussions For A Repository](repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/enabling-or-disabling-github-discussions-for-a-repository.md)
       * [Enabling Features For Your Repository](repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/index.md)
       * [Managing Git Hub Actions Settings For A Repository](repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository.md)

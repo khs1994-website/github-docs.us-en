@@ -13,8 +13,8 @@ topics:
   - Enterprise
 category:
   - Copilot usage metrics
-  - Manage Copilot for a team
   - Understand available data
+  - Track Copilot usage
 ---
 
 {% data reusables.copilot.usage-metrics-preview %}

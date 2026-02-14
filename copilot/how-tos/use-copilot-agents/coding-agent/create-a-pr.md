@@ -42,7 +42,7 @@ You can ask {% data variables.product.prodname_copilot_short %} to create a new 
 * The [{% data variables.product.prodname_cli %}](#asking-copilot-to-create-a-pull-request-from-the-github-cli)
 * On [{% data variables.product.prodname_mobile %}](#asking-copilot-to-create-a-pull-request-from-github-mobile)
 * Your preferred IDE or agentic coding tool with [Model Context Protocol (MCP)](#asking-copilot-to-create-a-pull-request-from-the-github-mcp-server) support
-* The [Raycast](#asking-copilot-to-create-a-pull-request-from-raycast) launcher on macOS
+* The [Raycast](#asking-copilot-to-create-a-pull-request-from-raycast) launcher
 * The ["New repository" form](#asking-copilot-to-create-a-pull-request-from-the-new-repository-page) on {% data variables.product.github %}
 
 {% data variables.product.prodname_copilot_short %} will start working on the task, raise a pull request, then request a review from you when it's finished working. For more information, see [AUTOTITLE](/copilot/using-github-copilot/coding-agent/about-assigning-tasks-to-copilot).
@@ -56,6 +56,7 @@ You can assign an issue to {% data variables.product.prodname_copilot_short %}:
 * On {% data variables.product.prodname_dotcom_the_website %} (see the [next section](#assigning-an-issue-to-copilot-on-githubcom))
 * On [{% data variables.product.prodname_mobile %}](#assigning-an-issue-to-copilot-on-github-mobile)
 * Via the {% data variables.product.github %} API (see [later in this article](#assigning-an-issue-to-copilot-via-the-github-api))
+* Using the [Raycast launcher](#assigning-an-issue-to-copilot-from-raycast)
 * Using {% data variables.product.prodname_cli %} (see [`gh issue edit`](https://cli.github.com/manual/gh_issue_edit))
 
 ### Assigning an issue to {% data variables.product.prodname_copilot_short %} on {% data variables.product.prodname_dotcom_the_website %}
@@ -96,7 +97,7 @@ You can assign an issue to {% data variables.product.prodname_copilot_short %}:
    > [!TIP]
    > When you assign an issue to {% data variables.product.prodname_copilot_short %}, it gets sent the issue title, description, any comments that currently exist, and any additional instructions you provide. After assigning the issue, {% data variables.product.prodname_copilot_short %} will not be aware of, and therefore won't react to, any further comments that are added to the issue. If you have more information, or changes to the original requirement, add this as a comment in the pull request that {% data variables.product.prodname_copilot_short %} raises.
 
-{% data reusables.copilot.optional-select-custom-agent %}
+{% data reusables.copilot.optional-select-custom-agent-dotcom %}
 {% data reusables.copilot.optional-select-copilot-coding-agent-model %}
 
 You can also assign issues to {% data variables.product.prodname_copilot_short %} from other places on {% data variables.product.prodname_dotcom_the_website %}:
@@ -418,6 +419,26 @@ gh api \
 }'
 ```
 
+### Assigning an issue to {% data variables.product.prodname_copilot_short %} from Raycast
+
+{% data reusables.copilot.coding-agent.raycast-intro %}
+
+{% data reusables.copilot.coding-agent.raycast-setup %}
+1. Open Raycast, search for "{% data variables.product.prodname_copilot_short %}," find the **Assign Issues to {% data variables.product.prodname_copilot_short %}** command, then press <kbd>Enter</kbd>.
+1. Click **Sign in with {% data variables.product.github %}**, then complete the authentication flow. Raycast will re-open.
+1. Select the repository you want {% data variables.product.prodname_copilot_short %} to work in.
+1. Select the issue you want to assign to {% data variables.product.prodname_copilot_short %}.
+1. Optionally, select a base branch for {% data variables.product.prodname_copilot_short %}'s pull request. {% data variables.product.prodname_copilot_short %} will create a new branch based on this branch, then push the changes to a pull request targeting that branch.
+{% data reusables.copilot.optional-select-custom-agent-generic %}
+{% data reusables.copilot.optional-select-copilot-coding-agent-model %}
+1. Optionally, provide additional instructions. These will be passed to {% data variables.product.prodname_copilot_short %} alongside your issue contents.
+1. Press <kbd>Command</kbd>+<kbd>Enter</kbd> to assign the issue.
+
+    {% data variables.product.prodname_copilot_short %} will start a new session. {% data variables.product.prodname_copilot_short %} will work on the task and push changes to its pull request, then add you as a reviewer when it has finished, triggering a notification.
+
+
+{% data reusables.copilot.coding-agent.raycast-oauth-access-restrictions %}
+
 ## Asking {% data variables.product.prodname_copilot_short %} to create a pull request from the agents tab or panel
 
 You can ask {% data variables.product.prodname_copilot_short %} to open a pull request from either the agents tab or the agents panel. The only difference is the entry point - once you see the "New agent task" form, the steps are the same.
@@ -437,7 +458,7 @@ You can ask {% data variables.product.prodname_copilot_short %} to open a pull r
     For example, `Implement a user friendly message for common errors.`
 
 1. Optionally, select a base branch for {% data variables.product.prodname_copilot_short %}'s pull request. {% data variables.product.prodname_copilot_short %} will create a new branch based on this branch, then push the changes to a pull request.
-{% data reusables.copilot.optional-select-custom-agent %}
+{% data reusables.copilot.optional-select-custom-agent-dotcom %}
 1. Click **{% octicon "paper-airplane" aria-label="Send now" %} Send now** or press <kbd>Return</kbd>.
 
    You will be taken to the agents tab, and {% data variables.product.prodname_copilot_short %} will start a new session, which will appear in the "Recent sessions" list below the prompt box. {% data variables.product.prodname_copilot_short %} will work on the task and push changes to its pull request, then add you as a reviewer when it has finished, triggering a notification.
@@ -521,7 +542,7 @@ You can ask {% data variables.product.prodname_copilot_short %} to open a pull r
    For example, `/task Put backticks around file names and variables in output.`
 
 1. Optionally, select a base branch for {% data variables.product.prodname_copilot_short %}'s pull request. {% data variables.product.prodname_copilot_short %} will create a new branch based on this branch, then push the changes to a pull request targeting that branch.
-{% data reusables.copilot.optional-select-custom-agent %}
+{% data reusables.copilot.optional-select-custom-agent-dotcom %}
 1. Click **{% octicon "paper-airplane" aria-label="Start task" %}** or press <kbd>Enter</kbd>.
 
    {% data variables.product.prodname_copilot_short %} will start a new session, which will appear in the list below the prompt box. {% data variables.product.prodname_copilot_short %} will work on the task and push changes to its pull request, then add you as a reviewer when it has finished, triggering a notification.
@@ -592,14 +613,14 @@ To see all of the available options, run `gh agent-task create --help`.
     For example, `Implement a user friendly message for common errors.`
 1. Select the repository you want {% data variables.product.prodname_copilot_short %} to work in.
 1. Optionally, select a base branch for {% data variables.product.prodname_copilot_short %}'s pull request. {% data variables.product.prodname_copilot_short %} will create a new branch based on this branch, then push the changes to a pull request targeting that branch.
+{% data reusables.copilot.optional-select-custom-agent-generic %}
 {% data reusables.copilot.optional-select-copilot-coding-agent-model %}
 1. Press <kbd>Command</kbd>+<kbd>Enter</kbd> to start the task.
 
     {% data variables.product.prodname_copilot_short %} will start a new session. {% data variables.product.prodname_copilot_short %} will work on the task and push changes to its pull request, then add you as a reviewer when it has finished, triggering a notification.
 
-> [!NOTE]
->
-> If you are unable to select a specific repository when starting a task, the organization that owns the repository may have enabled {% data variables.product.prodname_oauth_app %} access restrictions. To learn how to request approval for the "{% data variables.product.prodname_copilot %} for Raycast" {% data variables.product.prodname_oauth_app %}, see [AUTOTITLE](/account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/requesting-organization-approval-for-oauth-apps).
+
+{% data reusables.copilot.coding-agent.raycast-oauth-access-restrictions %}
 
 ## Asking {% data variables.product.prodname_copilot_short %} to create a pull request from the "New repository" page
 
