@@ -1295,6 +1295,7 @@
         * [Scan From The Command Line](code-security/how-tos/scan-code-for-vulnerabilities/scan-from-the-command-line/index.md)
         * [Setting Up The Code QL CLI](code-security/how-tos/scan-code-for-vulnerabilities/scan-from-the-command-line/setting-up-the-codeql-cli.md)
         * [Specifying Command Options In A Code QL Configuration File](code-security/how-tos/scan-code-for-vulnerabilities/scan-from-the-command-line/specifying-command-options-in-a-codeql-configuration-file.md)
+        * [Testing Custom Queries](code-security/how-tos/scan-code-for-vulnerabilities/scan-from-the-command-line/testing-custom-queries.md)
         * [Testing Query Help Files](code-security/how-tos/scan-code-for-vulnerabilities/scan-from-the-command-line/testing-query-help-files.md)
         * [Using Custom Queries With The Code QL CLI](code-security/how-tos/scan-code-for-vulnerabilities/scan-from-the-command-line/using-custom-queries-with-the-codeql-cli.md)
       - Scan From Vs Code
@@ -1666,7 +1667,6 @@
       * [Preparing Your Code For Code QL Analysis](code-security/tutorials/customize-code-scanning/preparing-your-code-for-codeql-analysis.md)
       * [Publishing And Using Code QL Packs](code-security/tutorials/customize-code-scanning/publishing-and-using-codeql-packs.md)
       * [Running Code QL Code Scanning In A Container](code-security/tutorials/customize-code-scanning/running-codeql-code-scanning-in-a-container.md)
-      * [Testing Custom Queries](code-security/tutorials/customize-code-scanning/testing-custom-queries.md)
       * [Uploading Code QL Analysis Results To Git Hub](code-security/tutorials/customize-code-scanning/uploading-codeql-analysis-results-to-github.md)
     - Fix Reported Vulnerabilities
       * [Collaborating In A Temporary Private Fork To Resolve A Repository Security Vulnerability](code-security/tutorials/fix-reported-vulnerabilities/collaborate-in-a-fork.md)
@@ -1936,8 +1936,11 @@
         * [About Agent Management](copilot/concepts/agents/coding-agent/agent-management.md)
         * [Concepts For Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/index.md)
         * [Model Context Protocol MCP And Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/mcp-and-coding-agent.md)
+      - Copilot Cli
+        * [About Git Hub Copilot CLI](copilot/concepts/agents/copilot-cli/about-copilot-cli.md)
+        * [Comparing Git Hub Copilot CLI Customization Features](copilot/concepts/agents/copilot-cli/comparing-cli-features.md)
+        * [Concepts For Git Hub Copilot CLI](copilot/concepts/agents/copilot-cli/index.md)
       * [About Agent Skills](copilot/concepts/agents/about-agent-skills.md)
-      * [About Git Hub Copilot CLI](copilot/concepts/agents/about-copilot-cli.md)
       * [About Third Party Agents](copilot/concepts/agents/about-third-party-agents.md)
       * [Anthropic Claude](copilot/concepts/agents/anthropic-claude.md)
       * [About Git Hub Copilot Code Review](copilot/concepts/agents/code-review.md)
@@ -2066,13 +2069,18 @@
       * [Configuring Network Settings For Git Hub Copilot](copilot/how-tos/configure-personal-settings/configure-network-settings.md)
       * [Configure Personal Settings](copilot/how-tos/configure-personal-settings/index.md)
     - Copilot Cli
-      * [Adding Custom Instructions For Copilot CLI](copilot/how-tos/copilot-cli/add-custom-instructions.md)
+      - Customize Copilot
+        * [Adding custom instructions for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/add-custom-instructions.md)
+        * [Creating and using custom agents for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/create-custom-agents-for-cli.md)
+        * [Creating agent skills for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/create-skills.md)
+        * [Customize Git Hub Copilot CLI](copilot/how-tos/copilot-cli/customize-copilot/index.md)
+        * [Overview of customizing {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/quickstart-for-customizing.md)
+        * [Using hooks with {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/use-hooks.md)
       * [Best Practices For Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-best-practices.md)
       * [Getting Started With Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-getting-started.md)
       * [Git Hub Copilot CLI](copilot/how-tos/copilot-cli/index.md)
       * [Installing Git Hub Copilot CLI](copilot/how-tos/copilot-cli/install-copilot-cli.md)
       * [Using Git Hub Copilot CLI](copilot/how-tos/copilot-cli/use-copilot-cli.md)
-      * [Using Hooks With Git Hub Copilot CLI](copilot/how-tos/copilot-cli/use-hooks.md)
     - Get Code Suggestions
       * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/how-tos/get-code-suggestions/find-matching-code.md)
       * [Getting Code Suggestions In Your IDE With Git Hub Copilot](copilot/how-tos/get-code-suggestions/get-ide-code-suggestions.md)
@@ -2128,7 +2136,8 @@
       - Coding Agent
         * [Changing The AI Model For Git Hub Copilot Coding Agent](copilot/how-tos/use-copilot-agents/coding-agent/changing-the-ai-model.md)
         * [Asking Git Hub Copilot To Create A Pull Request](copilot/how-tos/use-copilot-agents/coding-agent/create-a-pr.md)
-        * [Creating Custom Agents](copilot/how-tos/use-copilot-agents/coding-agent/create-custom-agents.md)
+        * [Creating custom agents for {% data variables.copilot.copilot_coding_agent %}](copilot/how-tos/use-copilot-agents/coding-agent/create-custom-agents.md)
+        * [Creating agent skills for {% data variables.product.prodname_copilot %}](copilot/how-tos/use-copilot-agents/coding-agent/create-skills.md)
         * [Customizing The Development Environment For Git Hub Copilot Coding Agent](copilot/how-tos/use-copilot-agents/coding-agent/customize-the-agent-environment.md)
         * [Customizing Or Disabling The Firewall For Git Hub Copilot Coding Agent](copilot/how-tos/use-copilot-agents/coding-agent/customize-the-agent-firewall.md)
         * [Extending Git Hub Copilot Coding Agent With The Model Context Protocol MCP](copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp.md)

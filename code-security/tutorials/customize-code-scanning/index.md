@@ -20,7 +20,7 @@ children:
   - /running-codeql-code-scanning-in-a-container
   - /customizing-analysis-with-codeql-packs
   - /creating-codeql-query-suites
-  - /testing-custom-queries
   - /creating-and-working-with-codeql-packs
   - /publishing-and-using-codeql-packs
 ---
+
