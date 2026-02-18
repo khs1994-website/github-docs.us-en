@@ -656,6 +656,10 @@
       * [Migrating From OIDC To SAML](admin/managing-iam/reconfiguring-iam-for-enterprise-managed-users/migrating-from-oidc-to-saml.md)
       * [Migrating From SAML To OIDC](admin/managing-iam/reconfiguring-iam-for-enterprise-managed-users/migrating-from-saml-to-oidc.md)
       * [Migrating Your Enterprise To A New Identity Provider Or Tenant](admin/managing-iam/reconfiguring-iam-for-enterprise-managed-users/migrating-your-enterprise-to-a-new-identity-provider-or-tenant.md)
+    - Respond To Incidents
+      * [Responding To Security Incidents In Your Enterprise](admin/managing-iam/respond-to-incidents/index.md)
+      * [Locking Down Single Sign On In Your Enterprise](admin/managing-iam/respond-to-incidents/lock-down-sso.md)
+      * [Revoking SSO Authorizations Or Deleting Credentials In Your Enterprise](admin/managing-iam/respond-to-incidents/revoke-authorizations-or-tokens.md)
     - Understanding Iam For Enterprises
       * [Abilities And Restrictions Of Managed User Accounts](admin/managing-iam/understanding-iam-for-enterprises/abilities-and-restrictions-of-managed-user-accounts.md)
       * [About SAML For Enterprise IAM](admin/managing-iam/understanding-iam-for-enterprises/about-saml-for-enterprise-iam.md)
@@ -2076,10 +2080,13 @@
         * [Customize Git Hub Copilot CLI](copilot/how-tos/copilot-cli/customize-copilot/index.md)
         * [Overview of customizing {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/quickstart-for-customizing.md)
         * [Using hooks with {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/use-hooks.md)
+      - Set Up Copilot Cli
+        * [Configure Git Hub Copilot CLI](copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli.md)
+        * [Setting Up Git Hub Copilot CLI](copilot/how-tos/copilot-cli/set-up-copilot-cli/index.md)
+        * [Installing Git Hub Copilot CLI](copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli.md)
       * [Best Practices For Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-best-practices.md)
       * [Getting Started With Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-getting-started.md)
       * [Git Hub Copilot CLI](copilot/how-tos/copilot-cli/index.md)
-      * [Installing Git Hub Copilot CLI](copilot/how-tos/copilot-cli/install-copilot-cli.md)
       * [Using Git Hub Copilot CLI](copilot/how-tos/copilot-cli/use-copilot-cli.md)
     - Get Code Suggestions
       * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/how-tos/get-code-suggestions/find-matching-code.md)
@@ -2324,6 +2331,7 @@
       * [Write Effective Prompts And Provide Useful Context For Spark](copilot/tutorials/spark/prompt-tips.md)
       * [Your First Spark](copilot/tutorials/spark/your-first-spark.md)
     * [Comparing AI Models Using Different Tasks](copilot/tutorials/compare-ai-models.md)
+    * [Using Hooks With Copilot CLI For Predictable Policy Compliant Execution](copilot/tutorials/copilot-cli-hooks.md)
     * [Enhancing Git Hub Copilot Agent Mode With MCP](copilot/tutorials/enhance-agent-mode-with-mcp.md)
     * [Using Git Hub Copilot To Explore A Codebase](copilot/tutorials/explore-a-codebase.md)
     * [Using Git Hub Copilot To Explore Issues And Discussions](copilot/tutorials/explore-issues-and-discussions.md)
