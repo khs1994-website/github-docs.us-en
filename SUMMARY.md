@@ -1941,6 +1941,7 @@
         * [Concepts For Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/index.md)
         * [Model Context Protocol MCP And Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/mcp-and-coding-agent.md)
       - Copilot Cli
+        * [About plugins for {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/about-cli-plugins.md)
         * [About Git Hub Copilot CLI](copilot/concepts/agents/copilot-cli/about-copilot-cli.md)
         * [Comparing Git Hub Copilot CLI Customization Features](copilot/concepts/agents/copilot-cli/comparing-cli-features.md)
         * [Concepts For Git Hub Copilot CLI](copilot/concepts/agents/copilot-cli/index.md)
@@ -1963,7 +1964,6 @@
       * [Git Hub Copilot Code Referencing](copilot/concepts/completions/code-referencing.md)
       * [Git Hub Copilot Code Suggestions In Your IDE](copilot/concepts/completions/code-suggestions.md)
       * [Completions For Git Hub Copilot](copilot/concepts/completions/index.md)
-      * [Git Hub Copilot Text Completion](copilot/concepts/completions/text-completion.md)
     - Context
       * [Content Exclusion For Git Hub Copilot](copilot/concepts/context/content-exclusion.md)
       * [Concepts For Providing Context To Git Hub Copilot](copilot/concepts/context/index.md)
@@ -2078,6 +2078,9 @@
         * [Creating and using custom agents for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/create-custom-agents-for-cli.md)
         * [Creating agent skills for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/create-skills.md)
         * [Customize Git Hub Copilot CLI](copilot/how-tos/copilot-cli/customize-copilot/index.md)
+        * [Creating a plugin for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/plugins-creating.md)
+        * [Finding and installing plugins for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/plugins-finding-installing.md)
+        * [Creating a plugin marketplace for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/plugins-marketplace.md)
         * [Overview of customizing {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/quickstart-for-customizing.md)
         * [Using hooks with {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/use-hooks.md)
       - Set Up Copilot Cli
@@ -2092,7 +2095,6 @@
       * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/how-tos/get-code-suggestions/find-matching-code.md)
       * [Getting Code Suggestions In Your IDE With Git Hub Copilot](copilot/how-tos/get-code-suggestions/get-ide-code-suggestions.md)
       * [Get Suggestions From Git Hub Copilot](copilot/how-tos/get-code-suggestions/index.md)
-      * [Writing Pull Request Descriptions With Git Hub Copilot Text Completion](copilot/how-tos/get-code-suggestions/write-pr-descriptions.md)
     - Manage And Track Spending
       * [Manage And Monitor Spending For Git Hub Copilot](copilot/how-tos/manage-and-track-spending/index.md)
       * [Managing Your Company S Spending On Git Hub Copilot](copilot/how-tos/manage-and-track-spending/manage-company-spending.md)
@@ -2196,6 +2198,7 @@
     * [Audit Log Events For Agents](copilot/reference/agentic-audit-log-events.md)
     * [Git Hub Copilot Chat Cheat Sheet](copilot/reference/cheat-sheet.md)
     * [Git Hub Copilot CLI Command Reference](copilot/reference/cli-command-reference.md)
+    * [Git Hub Copilot CLI Plugin Reference](copilot/reference/cli-plugin-reference.md)
     * [Copilot Allowlist Reference](copilot/reference/copilot-allowlist-reference.md)
     * [Copilot Feature Matrix](copilot/reference/copilot-feature-matrix.md)
     * [Custom Agents Configuration](copilot/reference/custom-agents-configuration.md)
@@ -2219,7 +2222,6 @@
     * [Responsible Use Of Git Hub Copilot In Git Hub Desktop](copilot/responsible-use/copilot-in-github-desktop.md)
     * [Responsible Use Of Git Hub Copilot In Windows Terminal](copilot/responsible-use/copilot-in-windows-terminal.md)
     * [Responsible Use Of Git Hub Copilot Spaces](copilot/responsible-use/copilot-spaces.md)
-    * [Responsible Use Of Git Hub Copilot Text Completion](copilot/responsible-use/copilot-text-completion.md)
     * [Responsible Use Of Git Hub Copilot Features](copilot/responsible-use/index.md)
     * [Responsible Use Of Git Hub Copilot Pull Request Summaries](copilot/responsible-use/pull-request-summaries.md)
     * [Responsible Use Of Git Hub Spark](copilot/responsible-use/spark.md)
@@ -3475,6 +3477,7 @@
     * [REST API Endpoints For Billing](rest/billing/index.md)
     * [Budgets](rest/billing/budgets.md)
     * [Cost Centers](rest/billing/cost-centers.md)
+    * [Usage Reports](rest/billing/usage-reports.md)
     * [Billing Usage](rest/billing/usage.md)
   - Branches
     * [REST API Endpoints For Protected Branches](rest/branches/branch-protection.md)
