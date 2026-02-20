@@ -1640,6 +1640,7 @@
       * [Dependabot On Git Hub Actions](code-security/reference/supply-chain-security/dependabot-on-actions.md)
       * [Dependabot Options Reference](code-security/reference/supply-chain-security/dependabot-options-reference.md)
       * [Dependabot Pull Request Comment Commands](code-security/reference/supply-chain-security/dependabot-pull-request-comment-commands.md)
+      * [Dependabot Security Updates Reference](code-security/reference/supply-chain-security/dependabot-security-updates.md)
       * [Dependency Graph Supported Package Ecosystems](code-security/reference/supply-chain-security/dependency-graph-supported-package-ecosystems.md)
       * [Reference For Supply Chain Security](code-security/reference/supply-chain-security/index.md)
       * [Supported Ecosystems And Manifests For Dependency Scope](code-security/reference/supply-chain-security/supported-ecosystems-and-manifests-for-dependency-scope.md)
@@ -2091,6 +2092,9 @@
       * [Getting Started With Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-getting-started.md)
       * [Git Hub Copilot CLI](copilot/how-tos/copilot-cli/index.md)
       * [Using Git Hub Copilot CLI](copilot/how-tos/copilot-cli/use-copilot-cli.md)
+    - Copilot Sdk
+      * [Git Hub Copilot SDK](copilot/how-tos/copilot-sdk/index.md)
+      * [Getting Started With Copilot SDK](copilot/how-tos/copilot-sdk/sdk-getting-started.md)
     - Get Code Suggestions
       * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/how-tos/get-code-suggestions/find-matching-code.md)
       * [Getting Code Suggestions In Your IDE With Git Hub Copilot](copilot/how-tos/get-code-suggestions/get-ide-code-suggestions.md)
@@ -2164,8 +2168,8 @@
         * [Using Hooks With Git Hub Copilot Agents](copilot/how-tos/use-copilot-agents/coding-agent/use-hooks.md)
       - Request A Code Review
         * [Configuring Automatic Code Review By Git Hub Copilot](copilot/how-tos/use-copilot-agents/request-a-code-review/configure-automatic-review.md)
+        * [Configuring Self Hosted Runners For Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/configure-self-hosted-runners.md)
         * [Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/index.md)
-        * [Managing Static Analysis Tools In Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/manage-tools.md)
         * [Using Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review.md)
       * [Enabling And Curating Copilot Memory](copilot/how-tos/use-copilot-agents/copilot-memory.md)
       * [Use Git Hub Copilot Agents](copilot/how-tos/use-copilot-agents/index.md)
@@ -2879,11 +2883,16 @@
   * [{% data variables.product.prodname_github_issues %} documentation](issues/index.md)
 - Migrations
   - Ado
-    * [About Migrations From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/ado/about-migrations-from-azure-devops-to-github-enterprise-cloud.md)
-    * [Migrating From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/ado/index.md)
-    * [Managing Access For A Migration From Azure Dev Ops](migrations/ado/managing-access-for-a-migration-from-azure-devops.md)
-    * [Migrating Repositories From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/ado/migrating-repositories-from-azure-devops-to-github-enterprise-cloud.md)
-    * [Overview Of A Migration From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/ado/overview-of-a-migration-from-azure-devops-to-github-enterprise-cloud.md)
+    * [Granting The Migrator Role](migrations/ado/granting-the-migrator-role.md)
+    * [Migrating From Azure Dev Ops To Git Hub](migrations/ado/index.md)
+    * [Key Differences Between Azure Dev Ops And Git Hub](migrations/ado/key-differences-between-azure-devops-and-github.md)
+    * [Phase 1. Understand migrations from Azure DevOps to GitHub](migrations/ado/phase-1-understand-migrations-from-azure-devops-to-github.md)
+    * [Phase 2. Manage access](migrations/ado/phase-2-manage-access.md)
+    * [Phase 3. Install and configure GitHub Enterprise Importer](migrations/ado/phase-3-install-and-configure-github-enterprise-importer.md)
+    * [Phase 4. Prepare for your migration from Azure DevOps to GitHub](migrations/ado/phase-4-prepare-for-your-migration-from-azure-devops-to-github.md)
+    * [Phase 5. Migrate your repositories from Azure DevOps to Github](migrations/ado/phase-5-migrate-your-repositories-from-azure-devops-to-github.md)
+    * [Phase 6. Follow-up tasks](migrations/ado/phase-6-follow-up-tasks.md)
+    * [Use Graph QL To Migrate Repositories From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/ado/use-graphql-to-migrate-repositories-from-azure-devops-to-github-enterprise-cloud.md)
   - Importing Source Code
     - Using Github Importer
       * [About Git Hub Importer](migrations/importing-source-code/using-github-importer/about-github-importer.md)
