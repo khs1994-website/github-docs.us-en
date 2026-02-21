@@ -1634,6 +1634,9 @@
       * [Secret Scanning Pattern Configuration Data](code-security/reference/secret-security/secret-scanning-pattern-configuration-data.md)
       * [Supported Secret Scanning Patterns](code-security/reference/secret-security/supported-secret-scanning-patterns.md)
       * [Understanding Git Hub Secret Types](code-security/reference/secret-security/understanding-github-secret-types.md)
+    - Security Alert Management
+      * [Available Filters For Security Overview](code-security/reference/security-alert-management/available-filters-for-security-overview.md)
+      * [Security Alert Management](code-security/reference/security-alert-management/index.md)
     - Supply Chain Security
       * [Dependabot Alert Filters](code-security/reference/supply-chain-security/dependabot-alerts-filters.md)
       * [Dependabot Errors](code-security/reference/supply-chain-security/dependabot-errors.md)
@@ -2024,8 +2027,6 @@
         * [Managing Policies And Features For Git Hub Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-enterprise-policies.md)
         * [Managing Git Hub Spark In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-spark.md)
         * [Using Your LLM Provider API Keys With Copilot](copilot/how-tos/administer-copilot/manage-for-enterprise/use-your-own-api-keys.md)
-        * [Viewing The Code Generation Dashboard](copilot/how-tos/administer-copilot/manage-for-enterprise/view-code-generation.md)
-        * [Viewing The Copilot Usage Metrics Dashboard](copilot/how-tos/administer-copilot/manage-for-enterprise/view-usage-and-adoption.md)
       - Manage For Organization
         - Manage Access
           * [Granting Access To Git Hub Copilot For Members Of Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-access/grant-access.md)
@@ -2052,6 +2053,8 @@
         * [Managing MCP Usage In Your Company](copilot/how-tos/administer-copilot/manage-mcp-usage/index.md)
       * [Downloading A Git Hub Copilot Activity Report For Your Organization Or Enterprise](copilot/how-tos/administer-copilot/download-activity-report.md)
       * [Administer Git Hub Copilot For Your Team](copilot/how-tos/administer-copilot/index.md)
+      * [Viewing The Code Generation Dashboard](copilot/how-tos/administer-copilot/view-code-generation.md)
+      * [Viewing The Copilot Usage Metrics Dashboard](copilot/how-tos/administer-copilot/view-usage-and-adoption.md)
     - Chat With Copilot
       * [Asking Git Hub Copilot Questions In Git Hub](copilot/how-tos/chat-with-copilot/chat-in-github.md)
       * [Asking Git Hub Copilot Questions In Your IDE](copilot/how-tos/chat-with-copilot/chat-in-ide.md)
