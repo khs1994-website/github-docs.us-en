@@ -10,5 +10,6 @@ children:
   - /set-up-copilot-cli
   - /customize-copilot
   - /use-copilot-cli
+  - /automate-with-actions
 contentType: how-tos
 ---
