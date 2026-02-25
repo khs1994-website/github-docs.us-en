@@ -9,7 +9,8 @@ topics:
   - CLI
 contentType: concepts
 category:
-  - Learn about Copilot CLI
+  - Learn about Copilot CLI # Copilot CLI bespoke page
+  - Learn about Copilot # Copilot discovery page
 ---
 
 ## Overview

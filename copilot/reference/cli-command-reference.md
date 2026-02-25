@@ -5,9 +5,10 @@ intro: 'Find commands and keyboard shortcuts to help you use {% data variables.c
 versions:
   feature: copilot
 category:
-  - Author and optimize with Copilot
+  - Author and optimize with Copilot # Copilot discovery page
+  - Build with Copilot CLI # Copilot CLI bespoke landing page
 topics:
-  - Copilot
+  - Copilot 
 contentType: reference
 ---
 

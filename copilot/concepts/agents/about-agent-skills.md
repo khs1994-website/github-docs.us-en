@@ -9,6 +9,7 @@ topics:
   - Copilot
 category:
   - Learn about Copilot
+  - Learn about Copilot CLI
 ---
 
 > [!NOTE]
