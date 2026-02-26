@@ -386,7 +386,10 @@
   - Backing Up And Restoring Your Instance
     - Backup Service For Github Enterprise Server
       * [About The Backup Service For Git Hub Enterprise Server](admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/about-the-backup-service-for-github-enterprise-server.md)
+      * [Backup From Replica In High Availability](admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/backup-from-replica-in-high-availability.md)
+      * [Backup In Clustering Mode](admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/backup-in-clustering-mode.md)
       * [Backup Service Settings Reference](admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/backup-service-settings-reference.md)
+      * [Configuring Remote Archives For Backups](admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/configuring-remote-archives-for-backups.md)
       * [Configuring The Backup Service](admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/configuring-the-backup-service.md)
       * [Creating And Monitoring Backups](admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/creating-and-monitoring-backups.md)
       * [Backup Service For Git Hub Enterprise Server](admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/index.md)
@@ -1138,7 +1141,6 @@
     * [People Who Consume A License In An Organization](billing/reference/github-license-users.md)
     * [Reference For Billing](billing/reference/index.md)
     * [License Reports Reference](billing/reference/license-reports.md)
-    * [Migrating From The Endpoints Used For The Previous Billing Platform](billing/reference/previous-billing-platform-endpoints.md)
     * [Git Hub Product And SKU Names](billing/reference/product-and-sku-names.md)
     * [Product Usage Included With Each Plan](billing/reference/product-usage-included.md)
     * [Roles for {% data variables.visual_studio.prodname_vss_ghe %} reference](billing/reference/roles-for-visual-studio.md)
@@ -1957,6 +1959,7 @@
         * [About Git Hub Copilot CLI](copilot/concepts/agents/copilot-cli/about-copilot-cli.md)
         * [Allowing Git Hub Copilot CLI To Work Autonomously](copilot/concepts/agents/copilot-cli/autopilot.md)
         * [Comparing Git Hub Copilot CLI Customization Features](copilot/concepts/agents/copilot-cli/comparing-cli-features.md)
+        * [Running Tasks In Parallel With The Fleet Command](copilot/concepts/agents/copilot-cli/fleet.md)
         * [Concepts For Git Hub Copilot CLI](copilot/concepts/agents/copilot-cli/index.md)
       * [About Agent Skills](copilot/concepts/agents/about-agent-skills.md)
       * [About Third Party Agents](copilot/concepts/agents/about-third-party-agents.md)
@@ -2097,13 +2100,17 @@
         * [Overview of customizing {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/quickstart-for-customizing.md)
         * [Using hooks with {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/use-hooks.md)
       - Set Up Copilot Cli
+        * [Authenticating Git Hub Copilot CLI](copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli.md)
         * [Configure Git Hub Copilot CLI](copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli.md)
         * [Setting Up Git Hub Copilot CLI](copilot/how-tos/copilot-cli/set-up-copilot-cli/index.md)
         * [Installing Git Hub Copilot CLI](copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli.md)
+        * [Troubleshooting Git Hub Copilot CLI Authentication](copilot/how-tos/copilot-cli/set-up-copilot-cli/troubleshoot-copilot-cli-auth.md)
+      * [Administering Copilot CLI For Your Enterprise](copilot/how-tos/copilot-cli/administer-copilot-cli-for-your-enterprise.md)
       * [Automating Tasks With Copilot CLI And Git Hub Actions](copilot/how-tos/copilot-cli/automate-with-actions.md)
       * [Best Practices For Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-best-practices.md)
       * [Getting Started With Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-getting-started.md)
       * [{% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/index.md)
+      * [Speeding Up Task Completion With The Fleet Command](copilot/how-tos/copilot-cli/speeding-up-task-completion.md)
       * [Using Git Hub Copilot CLI](copilot/how-tos/copilot-cli/use-copilot-cli.md)
     - Copilot Sdk
       * [Git Hub Copilot SDK](copilot/how-tos/copilot-sdk/index.md)
@@ -2181,7 +2188,6 @@
         * [Using Hooks With Git Hub Copilot Agents](copilot/how-tos/use-copilot-agents/coding-agent/use-hooks.md)
       - Request A Code Review
         * [Configuring Automatic Code Review By Git Hub Copilot](copilot/how-tos/use-copilot-agents/request-a-code-review/configure-automatic-review.md)
-        * [Configuring Self Hosted Runners For Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/configure-self-hosted-runners.md)
         * [Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/index.md)
         * [Using Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review.md)
       * [Enabling And Curating Copilot Memory](copilot/how-tos/use-copilot-agents/copilot-memory.md)
