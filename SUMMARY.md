@@ -770,6 +770,7 @@
         * [Configuring Open Telemetry For Your Instance](admin/monitoring-and-managing-your-instance/monitoring-your-instance/opentelemetry-metrics/configuring-opentelemetry-for-your-instance.md)
         * [Open Telemetry Metrics](admin/monitoring-and-managing-your-instance/monitoring-your-instance/opentelemetry-metrics/index.md)
         * [Setting Up External Monitoring With Open Telemetry](admin/monitoring-and-managing-your-instance/monitoring-your-instance/opentelemetry-metrics/setting-up-external-monitoring-with-opentelemetry.md)
+        * [Using Grafana To Analyze Open Telemetry Metrics](admin/monitoring-and-managing-your-instance/monitoring-your-instance/opentelemetry-metrics/using-grafana-to-analyze-opentelemetry-metrics.md)
       * [About Monitoring Your Instance](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-monitoring-your-instance.md)
       * [About System Logs](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-system-logs.md)
       * [About the monitor {% ifversion ghes > 3.15 %}dashboards{% else %}dashboard{% endif %}](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-the-monitor-dashboards.md)
@@ -1703,7 +1704,7 @@
       * [Improving The Quality Of Your Code](code-security/tutorials/improve-code-quality/index.md)
       * [Quickstart For Git Hub Code Quality](code-security/tutorials/improve-code-quality/quickstart.md)
     - Manage Security Alerts
-      * [Best Practices For Participating In A Code Security Campaign](code-security/tutorials/manage-security-alerts/best-practices-for-participating-in-a-security-campaign.md)
+      * [Participating In A Code Security Campaign](code-security/tutorials/manage-security-alerts/best-practices-for-participating-in-a-security-campaign.md)
       * [Manage Security Alerts](code-security/tutorials/manage-security-alerts/index.md)
       * [Prioritizing Dependabot Alerts Using Metrics](code-security/tutorials/manage-security-alerts/prioritizing-dependabot-alerts-using-metrics.md)
     - Remediate Leaked Secrets
@@ -2091,6 +2092,7 @@
     - Copilot Cli
       - Customize Copilot
         * [Adding custom instructions for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/add-custom-instructions.md)
+        * [Adding MCP servers for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/add-mcp-servers.md)
         * [Creating and using custom agents for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/create-custom-agents-for-cli.md)
         * [Creating agent skills for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/create-skills.md)
         * [Customize Git Hub Copilot CLI](copilot/how-tos/copilot-cli/customize-copilot/index.md)
@@ -3543,6 +3545,8 @@
     * [REST API Endpoints For Commits](rest/commits/index.md)
     * [REST API Endpoints For Commit Statuses](rest/commits/statuses.md)
   - Copilot
+    * [REST API Endpoints For Copilot Content Exclusion Management](rest/copilot/copilot-content-exclusion-management.md)
+    * [REST API Endpoints For Copilot Custom Agents](rest/copilot/copilot-custom-agents.md)
     * [REST API Endpoints For Copilot Metrics](rest/copilot/copilot-metrics.md)
     * [REST API Endpoints For Copilot Usage Metrics](rest/copilot/copilot-usage-metrics.md)
     * [REST API Endpoints For Copilot User Management](rest/copilot/copilot-user-management.md)
