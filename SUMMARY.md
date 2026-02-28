@@ -2190,6 +2190,7 @@
         * [Using Hooks With Git Hub Copilot Agents](copilot/how-tos/use-copilot-agents/coding-agent/use-hooks.md)
       - Request A Code Review
         * [Configuring Automatic Code Review By Git Hub Copilot](copilot/how-tos/use-copilot-agents/request-a-code-review/configure-automatic-review.md)
+        * [Configuring Self Hosted Runners For Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/configure-self-hosted-runners.md)
         * [Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/index.md)
         * [Using Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review.md)
       * [Enabling And Curating Copilot Memory](copilot/how-tos/use-copilot-agents/copilot-memory.md)
