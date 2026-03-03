@@ -1912,7 +1912,6 @@
   - Style Guide And Content Model
     * [About Combining Multiple Content Types](contributing/style-guide-and-content-model/about-combining-multiple-content-types.md)
     * [About The Content Model](contributing/style-guide-and-content-model/about-the-content-model.md)
-    * [About Topics](contributing/style-guide-and-content-model/about-topics.md)
     * [Conceptual Content Type](contributing/style-guide-and-content-model/conceptual-content-type.md)
     * [Contents Of A Git Hub Docs Article](contributing/style-guide-and-content-model/contents-of-a-github-docs-article.md)
     * [Style Guide And Content Model](contributing/style-guide-and-content-model/index.md)
@@ -1962,6 +1961,7 @@
         * [Comparing Git Hub Copilot CLI Customization Features](copilot/concepts/agents/copilot-cli/comparing-cli-features.md)
         * [Running Tasks In Parallel With The Fleet Command](copilot/concepts/agents/copilot-cli/fleet.md)
         * [Concepts For Git Hub Copilot CLI](copilot/concepts/agents/copilot-cli/index.md)
+        * [Researching with {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/research.md)
       * [About Agent Skills](copilot/concepts/agents/about-agent-skills.md)
       * [About Third Party Agents](copilot/concepts/agents/about-third-party-agents.md)
       * [Anthropic Claude](copilot/concepts/agents/anthropic-claude.md)
