@@ -814,7 +814,6 @@
       * [Troubleshooting Upgrades](admin/upgrading-your-instance/troubleshooting-upgrades/index.md)
       * [Known Issues With Upgrades To Your Instance](admin/upgrading-your-instance/troubleshooting-upgrades/known-issues-with-upgrades-to-your-instance.md)
   * [Git Hub Enterprise Server Releases](admin/all-releases.md)
-  * [Guides For Git Hub Enterprise](admin/guides.md)
   * [Enterprise Administrator Documentation](admin/index.md)
   * [Release Notes](admin/release-notes.md)
 - Apps
@@ -1461,7 +1460,7 @@
         * [Viewing Security Insights](code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-security-insights.md)
       * [Changing The Used By Data For A Repository](code-security/how-tos/view-and-interpret-data/change-used-by-data.md)
       * [How Tos For Viewing And Interpreting Security Results](code-security/how-tos/view-and-interpret-data/index.md)
-      * [Metrics For Custom Patterns](code-security/how-tos/view-and-interpret-data/metrics-for-custom-patterns.md)
+      * [Viewing Metrics For Custom Patterns](code-security/how-tos/view-and-interpret-data/view-custom-pattern-metrics.md)
       * [Viewing Code Scanning Logs](code-security/how-tos/view-and-interpret-data/viewing-code-scanning-logs.md)
       * [Viewing Dependabot Job Logs](code-security/how-tos/view-and-interpret-data/viewing-dependabot-job-logs.md)
     * [How Tos For Security And Code Quality](code-security/how-tos/index.md)
@@ -1641,6 +1640,7 @@
         * [Default Setup For Code Scanning Overrides Advanced Setup](code-security/reference/security-at-scale/troubleshoot-security-configurations/unexpected-default-setup.md)
       * [Available Filters For Security Overview](code-security/reference/security-at-scale/available-filters-for-security-overview.md)
       * [Reference For Security At Scale](code-security/reference/security-at-scale/index.md)
+      * [Security Configuration Enforcement](code-security/reference/security-at-scale/security-configuration-enforcement.md)
     - Supply Chain Security
       - Troubleshoot Dependabot
         * [Dependabot Errors](code-security/reference/supply-chain-security/troubleshoot-dependabot/dependabot-errors.md)
@@ -1721,7 +1721,7 @@
       * [Optimizing The Creation Of Pull Requests For Dependabot Version Updates](code-security/tutorials/secure-your-dependencies/optimizing-pr-creation-version-updates.md)
       * [Setting Up Dependabot To Run On Self Hosted Action Runners Using The Actions Runner Controller](code-security/tutorials/secure-your-dependencies/setting-dependabot-to-run-on-self-hosted-runners-using-arc.md)
     - Secure Your Organization
-      * [Best Practices For Fixing Security Alerts At Scale](code-security/tutorials/secure-your-organization/best-practice-fix-alerts-at-scale.md)
+      * [Running A Security Campaign To Fix Alerts At Scale](code-security/tutorials/secure-your-organization/best-practice-fix-alerts-at-scale.md)
       * [Best Practices For Preventing Data Leaks In Your Organization](code-security/tutorials/secure-your-organization/best-practices-for-preventing-data-leaks-in-your-organization.md)
       * [Securing Your Organization](code-security/tutorials/secure-your-organization/index.md)
       * [Interpreting Secret Risk Assessment Results](code-security/tutorials/secure-your-organization/interpreting-secret-risk-assessment-results.md)
@@ -2107,13 +2107,19 @@
         * [Setting Up Git Hub Copilot CLI](copilot/how-tos/copilot-cli/set-up-copilot-cli/index.md)
         * [Installing Git Hub Copilot CLI](copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli.md)
         * [Troubleshooting Git Hub Copilot CLI Authentication](copilot/how-tos/copilot-cli/set-up-copilot-cli/troubleshoot-copilot-cli-auth.md)
+      - Use Copilot Cli Agents
+        * [Requesting a code review with {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli-agents/agentic-code-review.md)
+        * [Delegating tasks to {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli-agents/delegate-tasks-to-cca.md)
+        * [Use {% data variables.copilot.copilot_cli %} agents](copilot/how-tos/copilot-cli/use-copilot-cli-agents/index.md)
+        * [Invoking Custom Agents](copilot/how-tos/copilot-cli/use-copilot-cli-agents/invoke-custom-agents.md)
+        * [Using Git Hub Copilot CLI](copilot/how-tos/copilot-cli/use-copilot-cli-agents/overview.md)
+        * [Steering agents in {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli-agents/steer-agents.md)
       * [Administering Copilot CLI For Your Enterprise](copilot/how-tos/copilot-cli/administer-copilot-cli-for-your-enterprise.md)
       * [Automating Tasks With Copilot CLI And Git Hub Actions](copilot/how-tos/copilot-cli/automate-with-actions.md)
       * [Best Practices For Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-best-practices.md)
       * [Getting Started With Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-getting-started.md)
       * [{% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/index.md)
       * [Speeding Up Task Completion With The Fleet Command](copilot/how-tos/copilot-cli/speeding-up-task-completion.md)
-      * [Using Git Hub Copilot CLI](copilot/how-tos/copilot-cli/use-copilot-cli.md)
     - Copilot Sdk
       * [Git Hub Copilot SDK](copilot/how-tos/copilot-sdk/index.md)
       * [Getting Started With Copilot SDK](copilot/how-tos/copilot-sdk/sdk-getting-started.md)
@@ -2606,7 +2612,7 @@
     * [FAQ about changes to GitHub’s plans](get-started/learning-about-github/faq-about-changes-to-githubs-plans.md)
     * [Git Hub Glossary](get-started/learning-about-github/github-glossary.md)
     * [Git Hub Language Support](get-started/learning-about-github/github-language-support.md)
-    * [GitHub’s plans](get-started/learning-about-github/githubs-plans.md)
+    * [Git Hub S Plans](get-started/learning-about-github/githubs-plans.md)
     * [Learning About Git Hub](get-started/learning-about-github/index.md)
     * [Types Of Git Hub Accounts](get-started/learning-about-github/types-of-github-accounts.md)
   - Learning To Code
