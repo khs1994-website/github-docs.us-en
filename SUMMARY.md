@@ -1105,6 +1105,7 @@
       * [Upgrading A Sponsorship](billing/how-tos/pay-third-parties/upgrade-sponsorship.md)
     - Products
       * [Buying Advanced Security For Your Organization Or Enterprise](billing/how-tos/products/buy-advanced-security.md)
+      * [Disabling Git Hub Advanced Security For Your Enterprise](billing/how-tos/products/disable-ghas-for-enterprise.md)
       * [Downloading License Use For Your Enterprise Or Organization](billing/how-tos/products/download-license-use.md)
       * [Viewing And Estimating Your Spending](billing/how-tos/products/estimate-spending.md)
       * [View And Manage Paid Use Of Git Hub Products](billing/how-tos/products/index.md)
@@ -1301,8 +1302,9 @@
         * [Set Code Scanning Merge Protection](code-security/how-tos/scan-code-for-vulnerabilities/manage-your-configuration/set-code-scanning-merge-protection.md)
         * [Use The Tool Status Page For Code Scanning](code-security/how-tos/scan-code-for-vulnerabilities/manage-your-configuration/use-the-tools-status-page-for-code-scanning.md)
       - Scan From The Command Line
-        * [Advanced Setup Of The Code QL CLI](code-security/how-tos/scan-code-for-vulnerabilities/scan-from-the-command-line/advanced-setup-of-the-codeql-cli.md)
+        * [Checking Out The Code QL CLI Source Code](code-security/how-tos/scan-code-for-vulnerabilities/scan-from-the-command-line/check-out-source-code.md)
         * [Creating Code QL CLI Database Bundles](code-security/how-tos/scan-code-for-vulnerabilities/scan-from-the-command-line/creating-database-bundle-for-troubleshooting.md)
+        * [Downloading Code QL Databases From Git Hub](code-security/how-tos/scan-code-for-vulnerabilities/scan-from-the-command-line/download-databases.md)
         * [Scan From The Command Line](code-security/how-tos/scan-code-for-vulnerabilities/scan-from-the-command-line/index.md)
         * [Setting Up The Code QL CLI](code-security/how-tos/scan-code-for-vulnerabilities/scan-from-the-command-line/setting-up-the-codeql-cli.md)
         * [Specifying Command Options In A Code QL Configuration File](code-security/how-tos/scan-code-for-vulnerabilities/scan-from-the-command-line/specifying-command-options-in-a-codeql-configuration-file.md)
@@ -1310,6 +1312,7 @@
         * [Testing Query Help Files](code-security/how-tos/scan-code-for-vulnerabilities/scan-from-the-command-line/testing-query-help-files.md)
         * [Writing And Sharing Custom Queries For The Code QL CLI](code-security/how-tos/scan-code-for-vulnerabilities/scan-from-the-command-line/writing-and-sharing-custom-queries-for-the-codeql-cli.md)
       - Scan From Vs Code
+        * [Accessing logs for {% data variables.product.prodname_codeql %} in {% data variables.product.prodname_vscode %}](code-security/how-tos/scan-code-for-vulnerabilities/scan-from-vs-code/accessing-logs.md)
         * [Managing The Code QL CLI In The VS Code Extension](code-security/how-tos/scan-code-for-vulnerabilities/scan-from-vs-code/configuring-access-to-the-codeql-cli.md)
         * [Creating A Custom Query](code-security/how-tos/scan-code-for-vulnerabilities/scan-from-vs-code/creating-a-custom-query.md)
         * [Customizing Settings](code-security/how-tos/scan-code-for-vulnerabilities/scan-from-vs-code/customizing-settings.md)
@@ -1356,7 +1359,6 @@
           * [Calculating The Cost Savings Of Push Protection](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/calculating-the-cost-savings-of-push-protection.md)
           * [Configuring Advanced Setup For Code Scanning With Code QL At Scale](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/configuring-advanced-setup-for-code-scanning-with-codeql-at-scale.md)
           * [Configuring Default Setup For Code Scanning At Scale](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/configuring-default-setup-for-code-scanning-at-scale.md)
-          * [Configuring Private Vulnerability Reporting For An Organization](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/configuring-private-vulnerability-reporting-for-an-organization.md)
           * [Enforcing Dependency Review Across An Organization](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/enforcing-dependency-review-across-an-organization.md)
           * [Estimating The Price Of Secret Protection](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/estimating-the-price-of-secret-protection.md)
           * [Configure Specific Tools](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/index.md)
@@ -1460,8 +1462,8 @@
         * [Viewing Security Insights](code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-security-insights.md)
       * [Changing The Used By Data For A Repository](code-security/how-tos/view-and-interpret-data/change-used-by-data.md)
       * [How Tos For Viewing And Interpreting Security Results](code-security/how-tos/view-and-interpret-data/index.md)
+      * [Viewing Code Scanning Logs From Git Hub Actions](code-security/how-tos/view-and-interpret-data/view-code-scanning-logs.md)
       * [Viewing Metrics For Custom Patterns](code-security/how-tos/view-and-interpret-data/view-custom-pattern-metrics.md)
-      * [Viewing Code Scanning Logs](code-security/how-tos/view-and-interpret-data/viewing-code-scanning-logs.md)
       * [Viewing Dependabot Job Logs](code-security/how-tos/view-and-interpret-data/viewing-dependabot-job-logs.md)
     * [How Tos For Security And Code Quality](code-security/how-tos/index.md)
   - Reference
@@ -1564,7 +1566,6 @@
           * [Test Run](code-security/reference/code-scanning/codeql/codeql-cli-manual/test-run.md)
           * [Version](code-security/reference/code-scanning/codeql/codeql-cli-manual/version.md)
         - Codeql For Vs Code
-          * [Accessing Logs](code-security/reference/code-scanning/codeql/codeql-for-vs-code/accessing-logs.md)
           * [Code QL For Visual Studio Code Reference](code-security/reference/code-scanning/codeql/codeql-for-vs-code/index.md)
           * [Telemetry In Code QL For Visual Studio Code](code-security/reference/code-scanning/codeql/codeql-for-vs-code/telemetry-in-codeql-for-visual-studio-code.md)
           * [Problem With Controller Repository](code-security/reference/code-scanning/codeql/codeql-for-vs-code/warning-problem-with-controller-repository.md)
@@ -1617,6 +1618,7 @@
         * [Two Code QL Workflows](code-security/reference/code-scanning/troubleshoot-analysis-errors/two-codeql-workflows.md)
         * [Unclear What Triggered A Workflow Run](code-security/reference/code-scanning/troubleshoot-analysis-errors/unclear-what-triggered-a-workflow.md)
         * [Warning 1 Issue Was Detected With This Workflow Git Checkout HEAD 2 Is No Longer Necessary](code-security/reference/code-scanning/troubleshoot-analysis-errors/unnecessary-step-found.md)
+      * [Code Scanning Logs](code-security/reference/code-scanning/code-scanning-logs.md)
       * [Reference For Code Scanning](code-security/reference/code-scanning/index.md)
     - Permissions
       * [Permissions For Security Features](code-security/reference/permissions/index.md)
@@ -2184,6 +2186,7 @@
         * [Extending Git Hub Copilot Coding Agent With The Model Context Protocol MCP](copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp.md)
         * [Git Hub Copilot Coding Agent](copilot/how-tos/use-copilot-agents/coding-agent/index.md)
         * [Integrating Copilot Coding Agent With Azure Boards](copilot/how-tos/use-copilot-agents/coding-agent/integrate-coding-agent-with-azure-boards.md)
+        * [Integrating Copilot Coding Agent With Jira](copilot/how-tos/use-copilot-agents/coding-agent/integrate-coding-agent-with-jira.md)
         * [Integrating Copilot Coding Agent With Linear](copilot/how-tos/use-copilot-agents/coding-agent/integrate-coding-agent-with-linear.md)
         * [Integrating Copilot Coding Agent With Slack](copilot/how-tos/use-copilot-agents/coding-agent/integrate-coding-agent-with-slack.md)
         * [Integrating Copilot Coding Agent With Teams](copilot/how-tos/use-copilot-agents/coding-agent/integrate-coding-agent-with-teams.md)
@@ -2199,7 +2202,7 @@
         * [Configuring Self Hosted Runners For Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/configure-self-hosted-runners.md)
         * [Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/index.md)
         * [Using Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review.md)
-      * [Enabling And Curating Copilot Memory](copilot/how-tos/use-copilot-agents/copilot-memory.md)
+      * [Managing And Curating Copilot Memory](copilot/how-tos/use-copilot-agents/copilot-memory.md)
       * [Use Git Hub Copilot Agents](copilot/how-tos/use-copilot-agents/index.md)
       * [Managing Coding Agents](copilot/how-tos/use-copilot-agents/manage-agents.md)
     - Use Copilot For Common Tasks
