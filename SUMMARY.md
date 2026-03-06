@@ -1212,6 +1212,7 @@
       * [About The Dependency Graph](code-security/concepts/supply-chain-security/about-the-dependency-graph.md)
       * [Best Practices For Maintaining Dependencies](code-security/concepts/supply-chain-security/best-practices-for-maintaining-dependencies.md)
       * [Dependabot Job Logs](code-security/concepts/supply-chain-security/dependabot-job-logs.md)
+      * [How The Dependency Graph Recognizes Dependencies](code-security/concepts/supply-chain-security/dependency-graph-data.md)
       * [Immutable Releases](code-security/concepts/supply-chain-security/immutable-releases.md)
       * [Supply Chain Security](code-security/concepts/supply-chain-security/index.md)
       * [About Linked Artifacts](code-security/concepts/supply-chain-security/linked-artifacts.md)
@@ -1279,16 +1280,12 @@
         * [Managing Privately Reported Security Vulnerabilities](code-security/how-tos/report-and-fix-vulnerabilities/fix-reported-vulnerabilities/managing-privately-reported-security-vulnerabilities.md)
         * [Publishing A Repository Security Advisory](code-security/how-tos/report-and-fix-vulnerabilities/fix-reported-vulnerabilities/publishing-a-repository-security-advisory.md)
         * [Removing A Collaborator From A Repository Security Advisory](code-security/how-tos/report-and-fix-vulnerabilities/fix-reported-vulnerabilities/removing-a-collaborator-from-a-repository-security-advisory.md)
-      - Report A Vulnerability
-        * [Evaluating The Security Settings Of A Repository](code-security/how-tos/report-and-fix-vulnerabilities/report-a-vulnerability/evaluating-the-security-settings-of-a-repository.md)
-        * [How Tos For Reporting Vulnerabilities](code-security/how-tos/report-and-fix-vulnerabilities/report-a-vulnerability/index.md)
-        * [Privately Reporting A Security Vulnerability](code-security/how-tos/report-and-fix-vulnerabilities/report-a-vulnerability/privately-reporting-a-security-vulnerability.md)
       * [How Tos For Reporting And Fixing Vulnerabilities](code-security/how-tos/report-and-fix-vulnerabilities/index.md)
+      * [Privately Reporting A Security Vulnerability](code-security/how-tos/report-and-fix-vulnerabilities/privately-reporting-a-security-vulnerability.md)
     - Scan Code For Vulnerabilities
       - Configure Code Scanning
         * [Configuring Advanced Setup For Code Scanning](code-security/how-tos/scan-code-for-vulnerabilities/configure-code-scanning/configuring-advanced-setup-for-code-scanning.md)
         * [Configuring Default Setup For Code Scanning](code-security/how-tos/scan-code-for-vulnerabilities/configure-code-scanning/configuring-default-setup-for-code-scanning.md)
-        * [Customizing Your Advanced Setup For Code Scanning](code-security/how-tos/scan-code-for-vulnerabilities/configure-code-scanning/customizing-your-advanced-setup-for-code-scanning.md)
         * [Configure Code Scanning](code-security/how-tos/scan-code-for-vulnerabilities/configure-code-scanning/index.md)
       - Integrate With Existing Tools
         * [Integrate With Existing Tools](code-security/how-tos/scan-code-for-vulnerabilities/integrate-with-existing-tools/index.md)
@@ -1356,7 +1353,6 @@
       - Configure Organization Security
         - Configure Specific Tools
           * [Running The Secret Risk Assessment For Your Organization](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/assess-your-secret-risk.md)
-          * [Calculating The Cost Savings Of Push Protection](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/calculating-the-cost-savings-of-push-protection.md)
           * [Configuring Advanced Setup For Code Scanning With Code QL At Scale](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/configuring-advanced-setup-for-code-scanning-with-codeql-at-scale.md)
           * [Configuring Default Setup For Code Scanning At Scale](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/configuring-default-setup-for-code-scanning-at-scale.md)
           * [Enforcing Dependency Review Across An Organization](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/enforcing-dependency-review-across-an-organization.md)
@@ -1454,8 +1450,8 @@
         * [Exploring Git Hub Code Quality Results In Your Organization](code-security/how-tos/view-and-interpret-data/analyze-organization-data/explore-code-quality.md)
         * [Exporting The Secret Risk Assessment Report To CSV](code-security/how-tos/view-and-interpret-data/analyze-organization-data/export-risk-report-csv.md)
         * [Exporting Data From Security Overview](code-security/how-tos/view-and-interpret-data/analyze-organization-data/exporting-data-from-security-overview.md)
+        * [Finding Repositories With Security Alerts Using Security Overview](code-security/how-tos/view-and-interpret-data/analyze-organization-data/find-insecure-repositories.md)
         * [How Tos For Analyzing Security Data For An Organization](code-security/how-tos/view-and-interpret-data/analyze-organization-data/index.md)
-        * [Interpreting Security Findings](code-security/how-tos/view-and-interpret-data/analyze-organization-data/interpreting-security-findings.md)
         * [Viewing Metrics For Dependabot Alerts](code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-metrics-for-dependabot-alerts.md)
         * [Viewing Metrics For Pull Request Alerts](code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-metrics-for-pull-request-alerts.md)
         * [Viewing Metrics For Secret Scanning Push Protection](code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-metrics-for-secret-scanning-push-protection.md)
@@ -1620,6 +1616,7 @@
         * [Warning 1 Issue Was Detected With This Workflow Git Checkout HEAD 2 Is No Longer Necessary](code-security/reference/code-scanning/troubleshoot-analysis-errors/unnecessary-step-found.md)
       * [Code Scanning Logs](code-security/reference/code-scanning/code-scanning-logs.md)
       * [Reference For Code Scanning](code-security/reference/code-scanning/index.md)
+      * [Workflow Configuration Options For Code Scanning](code-security/reference/code-scanning/workflow-configuration-options.md)
     - Permissions
       * [Permissions For Security Features](code-security/reference/permissions/index.md)
       * [Repository Security Advisories](code-security/reference/permissions/permission-levels-for-repository-security-advisories.md)
@@ -1710,6 +1707,7 @@
       * [Manage Security Alerts](code-security/tutorials/manage-security-alerts/index.md)
       * [Prioritizing Dependabot Alerts Using Metrics](code-security/tutorials/manage-security-alerts/prioritizing-dependabot-alerts-using-metrics.md)
     - Remediate Leaked Secrets
+      * [Calculating The Cost Savings Of Push Protection](code-security/tutorials/remediate-leaked-secrets/calculating-the-cost-savings-of-push-protection.md)
       * [Evaluating Alerts From Secret Scanning](code-security/tutorials/remediate-leaked-secrets/evaluating-alerts.md)
       * [Remediate Leaked Secrets](code-security/tutorials/remediate-leaked-secrets/index.md)
       * [Remediating A Leaked Secret In Your Repository](code-security/tutorials/remediate-leaked-secrets/remediating-a-leaked-secret.md)
@@ -2780,15 +2778,27 @@
       * [Git Hub Integration In Slack](integrations/how-tos/slack/index.md)
       * [Integrating Git Hub With Slack](integrations/how-tos/slack/integrate-github-with-slack.md)
       * [Using Git Hub In Slack](integrations/how-tos/slack/use-github-in-slack.md)
+    - Teams
+      * [Customizing notifications for {% data variables.product.github %} in Teams](integrations/how-tos/teams/customize-notifications.md)
+      * [{% data variables.product.github %} integration in Teams](integrations/how-tos/teams/index.md)
+      * [Integrating {% data variables.product.github %} with Teams](integrations/how-tos/teams/integrate-github-with-teams.md)
+      * [Scheduling Pull Request Reminders In Teams](integrations/how-tos/teams/schedule-reminders.md)
+      * [Using {% data variables.product.github %} in Teams](integrations/how-tos/teams/use-github-in-teams.md)
     * [How Tos For Git Hub Integrations](integrations/how-tos/index.md)
   - Reference
-    * [Reference For Git Hub Integrations](integrations/reference/index.md)
+    * [Reference for {% data variables.product.github %} integrations](integrations/reference/index.md)
     * [Permissions For Git Hub In Slack](integrations/reference/slack-permissions.md)
+    * [Command reference for the {% data variables.product.github %} integration in Teams](integrations/reference/teams-command-reference.md)
+    * [Permissions for {% data variables.product.github %} in Teams](integrations/reference/teams-permissions.md)
   - Tutorials
     - Slack
       * [Creating Issues With The Git Hub Integration In Slack](integrations/tutorials/slack/create-issues.md)
       * [Tutorials For The Git Hub Slack Integration](integrations/tutorials/slack/index.md)
       * [Managing Issues With The Git Hub Integration In Slack](integrations/tutorials/slack/manage-issues.md)
+    - Teams
+      * [Creating Issues With The Git Hub Integration In Teams](integrations/tutorials/teams/create-issues.md)
+      * [Tutorials For The Git Hub Teams Integration](integrations/tutorials/teams/index.md)
+      * [Managing Issues With The Git Hub Integration In Teams](integrations/tutorials/teams/manage-issues.md)
     * [Tutorials For Git Hub Integrations](integrations/tutorials/index.md)
   * [Git Hub Integrations](integrations/index.md)
 - Issues
