@@ -1158,6 +1158,7 @@
     - Code Scanning
       - Codeql
         * [About Code Scanning With Code QL](code-security/concepts/code-scanning/codeql/about-code-scanning-with-codeql.md)
+        * [About Code QL Code Scanning For Compiled Languages](code-security/concepts/code-scanning/codeql/about-codeql-code-scanning-for-compiled-languages.md)
         * [About Code QL For VS Code](code-security/concepts/code-scanning/codeql/about-codeql-for-vs-code.md)
         * [About Code QL Workspaces](code-security/concepts/code-scanning/codeql/about-codeql-workspaces.md)
         * [About The Code QL CLI](code-security/concepts/code-scanning/codeql/about-the-codeql-cli.md)
@@ -1581,6 +1582,7 @@
           * [Ruby Queries For Code QL Analysis](code-security/reference/code-scanning/codeql/codeql-queries/ruby-built-in-queries.md)
           * [Rust Queries For Code QL Analysis](code-security/reference/code-scanning/codeql/codeql-queries/rust-built-in-queries.md)
           * [Swift Queries For Code QL Analysis](code-security/reference/code-scanning/codeql/codeql-queries/swift-built-in-queries.md)
+        * [Code QL Build Options And Steps For Compiled Languages](code-security/reference/code-scanning/codeql/codeql-build-options-and-steps-for-compiled-languages.md)
         * [Reference For Code Scanning With Code QL](code-security/reference/code-scanning/codeql/index.md)
         * [Recommended Hardware Resources For Running Code QL](code-security/reference/code-scanning/codeql/recommended-hardware-resources-for-running-codeql.md)
       - Sarif Files
@@ -1609,7 +1611,7 @@
         * [Logs Are Not Detailed Enough](code-security/reference/code-scanning/troubleshoot-analysis-errors/logs-not-detailed-enough.md)
         * [Error No Source Code Was Seen During The Build](code-security/reference/code-scanning/troubleshoot-analysis-errors/no-source-code-seen-during-build.md)
         * [Error: "is not a .ql file, .qls file, a directory, or a query pack specification"](code-security/reference/code-scanning/troubleshoot-analysis-errors/not-recognized.md)
-        * [Error Out Of Disk Or Error Out Of Memory](code-security/reference/code-scanning/troubleshoot-analysis-errors/out-of-disk-or-memory.md)
+        * [Out Of Disk And Out Of Memory Errors](code-security/reference/code-scanning/troubleshoot-analysis-errors/out-of-disk-or-memory.md)
         * [Error 403 Resource Not Accessible By Integration](code-security/reference/code-scanning/troubleshoot-analysis-errors/resource-not-accessible.md)
         * [Results Are Different Than Expected](code-security/reference/code-scanning/troubleshoot-analysis-errors/results-different-than-expected.md)
         * [Error Server Error](code-security/reference/code-scanning/troubleshoot-analysis-errors/server-error.md)
@@ -1651,6 +1653,7 @@
         * [Troubleshooting Dependabot On Git Hub Actions](code-security/reference/supply-chain-security/troubleshoot-dependabot/troubleshooting-dependabot-on-github-actions.md)
         * [Troubleshooting The Dependency Graph](code-security/reference/supply-chain-security/troubleshoot-dependabot/troubleshooting-the-dependency-graph.md)
         * [Vulnerable Dependency Detection](code-security/reference/supply-chain-security/troubleshoot-dependabot/vulnerable-dependency-detection.md)
+      * [Automatic Dependency Submission](code-security/reference/supply-chain-security/automatic-dependency-submission.md)
       * [CW Es Used By Git Hub S Preset Dependabot Rules](code-security/reference/supply-chain-security/criteria-for-preset-rules.md)
       * [Dependabot Alert Filters](code-security/reference/supply-chain-security/dependabot-alerts-filters.md)
       * [Dependabot On Git Hub Actions](code-security/reference/supply-chain-security/dependabot-on-actions.md)
