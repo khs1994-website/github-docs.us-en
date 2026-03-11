@@ -1174,6 +1174,7 @@
       * [Concepts For Code Scanning](code-security/concepts/code-scanning/index.md)
       * [Code Scanning Merge Protection](code-security/concepts/code-scanning/merge-protection.md)
       * [Multi Repository Variant Analysis](code-security/concepts/code-scanning/multi-repository-variant-analysis.md)
+      * [Code QL Pull Request Alert Metrics](code-security/concepts/code-scanning/pull-request-alert-metrics.md)
       * [About SARIF Files For Code Scanning](code-security/concepts/code-scanning/sarif-files.md)
       * [About Setup Types For Code Scanning](code-security/concepts/code-scanning/setup-types.md)
       * [About The Tool Status Page](code-security/concepts/code-scanning/tool-status-page.md)
@@ -1190,6 +1191,7 @@
       * [Git Hub Secret Types](code-security/concepts/secret-security/github-secret-types.md)
       * [Concepts For Secret Security](code-security/concepts/secret-security/index.md)
       * [Push Protection From The Command Line](code-security/concepts/secret-security/push-protection-from-the-command-line.md)
+      * [Secret Scanning Push Protection Metrics](code-security/concepts/secret-security/push-protection-metrics.md)
       * [Working With Push Protection And The Git Hub MCP Server](code-security/concepts/secret-security/working-with-push-protection-and-the-github-mcp-server.md)
       * [Working With Push Protection From The REST API](code-security/concepts/secret-security/working-with-push-protection-from-the-rest-api.md)
     - Security At Scale
@@ -1404,9 +1406,9 @@
       - Prevent Future Leaks
         * [Enabling Push Protection For Your Repository](code-security/how-tos/secure-your-secrets/prevent-future-leaks/enabling-push-protection-for-your-repository.md)
         * [How Tos For Leak Prevention](code-security/how-tos/secure-your-secrets/prevent-future-leaks/index.md)
-        * [Push Protection For Users](code-security/how-tos/secure-your-secrets/prevent-future-leaks/push-protection-for-users.md)
+        * [Managing Push Protection For Users](code-security/how-tos/secure-your-secrets/prevent-future-leaks/manage-user-push-protection.md)
       - Work With Leak Prevention
-        * [How Tos For Push Protection](code-security/how-tos/secure-your-secrets/work-with-leak-prevention/index.md)
+        * [How Tos For Working With Leak Prevention](code-security/how-tos/secure-your-secrets/work-with-leak-prevention/index.md)
         * [Working With Push Protection From The Command Line](code-security/how-tos/secure-your-secrets/work-with-leak-prevention/working-with-push-protection-from-the-command-line.md)
         * [Working With Push Protection In The Git Hub UI](code-security/how-tos/secure-your-secrets/work-with-leak-prevention/working-with-push-protection-in-the-github-ui.md)
       * [How Tos For Securing Secrets](code-security/how-tos/secure-your-secrets/index.md)
@@ -2229,6 +2231,7 @@
       * [Git Hub Copilot Seat Assignment](copilot/reference/copilot-billing/seat-assignment.md)
     - Copilot Usage Metrics
       * [Data Available In Copilot Usage Metrics](copilot/reference/copilot-usage-metrics/copilot-usage-metrics.md)
+      * [Example Schema For Copilot Usage Metrics](copilot/reference/copilot-usage-metrics/example-schema.md)
       * [Git Hub Copilot Usage Metrics](copilot/reference/copilot-usage-metrics/index.md)
       * [Interpreting Usage And Adoption Metrics For Git Hub Copilot](copilot/reference/copilot-usage-metrics/interpret-copilot-metrics.md)
       * [Lines Of Code Metrics](copilot/reference/copilot-usage-metrics/lines-of-code-metrics.md)
@@ -2589,7 +2592,7 @@
   - Archiving Your Github Personal Account And Public Repositories
     * [Archiving Your Git Hub Personal Account And Public Repositories](get-started/archiving-your-github-personal-account-and-public-repositories/index.md)
     * [Opting Into Or Out Of The Git Hub Archive Program For Your Public Repository](get-started/archiving-your-github-personal-account-and-public-repositories/opting-into-or-out-of-the-github-archive-program-for-your-public-repository.md)
-    * [Requesting an archive of your personal account’s data](get-started/archiving-your-github-personal-account-and-public-repositories/requesting-an-archive-of-your-personal-accounts-data.md)
+    * [Requesting An Archive Of Your Personal Account S Data](get-started/archiving-your-github-personal-account-and-public-repositories/requesting-an-archive-of-your-personal-accounts-data.md)
   - Exploring Projects On Github
     * [Contributing To A Project](get-started/exploring-projects-on-github/contributing-to-a-project.md)
     * [Contributing To Open Source](get-started/exploring-projects-on-github/contributing-to-open-source.md)
@@ -2616,7 +2619,7 @@
   - Learning About Github
     * [About Git Hub Advanced Security](get-started/learning-about-github/about-github-advanced-security.md)
     * [Access Permissions On Git Hub](get-started/learning-about-github/access-permissions-on-github.md)
-    * [FAQ about changes to GitHub’s plans](get-started/learning-about-github/faq-about-changes-to-githubs-plans.md)
+    * [FAQ About Changes To Git Hub S Plans](get-started/learning-about-github/faq-about-changes-to-githubs-plans.md)
     * [Git Hub Glossary](get-started/learning-about-github/github-glossary.md)
     * [Git Hub Language Support](get-started/learning-about-github/github-language-support.md)
     * [Git Hub S Plans](get-started/learning-about-github/githubs-plans.md)
@@ -3014,7 +3017,7 @@
   - Collaborating With Groups In Organizations
     * [About Organizations](organizations/collaborating-with-groups-in-organizations/about-organizations.md)
     * [About Your Organization Dashboard](organizations/collaborating-with-groups-in-organizations/about-your-organization-dashboard.md)
-    * [About your organization’s news feed](organizations/collaborating-with-groups-in-organizations/about-your-organizations-news-feed.md)
+    * [About Your Organization S News Feed](organizations/collaborating-with-groups-in-organizations/about-your-organizations-news-feed.md)
     * [Accessing Your Organization S Settings](organizations/collaborating-with-groups-in-organizations/accessing-your-organizations-settings.md)
     * [Best Practices For Organizations](organizations/collaborating-with-groups-in-organizations/best-practices-for-organizations.md)
     * [Creating A New Organization From Scratch](organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch.md)
@@ -3047,9 +3050,9 @@
     * [Keeping Your Organization Secure](organizations/keeping-your-organization-secure/index.md)
   - Managing Access To Your Organizations Project Boards
     * [Adding an outside collaborator to a {% data variables.product.prodname_project_v1 %} in your organization](organizations/managing-access-to-your-organizations-project-boards/adding-an-outside-collaborator-to-a-project-board-in-your-organization.md)
-    * [Managing access to your organization’s {% data variables.product.prodname_projects_v1 %}](organizations/managing-access-to-your-organizations-project-boards/index.md)
+    * [Managing access to your organization's {% data variables.product.prodname_projects_v1 %}](organizations/managing-access-to-your-organizations-project-boards/index.md)
     * [Managing access to a {% data variables.product.prodname_project_v1 %} for organization members](organizations/managing-access-to-your-organizations-project-boards/managing-access-to-a-project-board-for-organization-members.md)
-    * [Managing an individual’s access to an organization {% data variables.product.prodname_project_v1 %}](organizations/managing-access-to-your-organizations-project-boards/managing-an-individuals-access-to-an-organization-project-board.md)
+    * [Managing an individual's access to an organization {% data variables.product.prodname_project_v1 %}](organizations/managing-access-to-your-organizations-project-boards/managing-an-individuals-access-to-an-organization-project-board.md)
     * [Managing team access to an organization {% data variables.product.prodname_project_v1 %}](organizations/managing-access-to-your-organizations-project-boards/managing-team-access-to-an-organization-project-board.md)
     * [{% data variables.product.prodname_project_v1_caps %} permissions for an organization](organizations/managing-access-to-your-organizations-project-boards/project-board-permissions-for-an-organization.md)
     * [Removing an outside collaborator from an organization {% data variables.product.prodname_project_v1 %}](organizations/managing-access-to-your-organizations-project-boards/removing-an-outside-collaborator-from-an-organization-project-board.md)
@@ -3188,7 +3191,7 @@
     * [Organizing Members Into Teams](organizations/organizing-members-into-teams/index.md)
     * [Managing Code Review Settings For Your Team](organizations/organizing-members-into-teams/managing-code-review-settings-for-your-team.md)
     * [Managing Scheduled Reminders For Your Team](organizations/organizing-members-into-teams/managing-scheduled-reminders-for-your-team.md)
-    * [Moving a team in your organization’s hierarchy](organizations/organizing-members-into-teams/moving-a-team-in-your-organizations-hierarchy.md)
+    * [Moving A Team In Your Organization S Hierarchy](organizations/organizing-members-into-teams/moving-a-team-in-your-organizations-hierarchy.md)
     * [Removing Organization Members From A Team](organizations/organizing-members-into-teams/removing-organization-members-from-a-team.md)
     * [Renaming A Team](organizations/organizing-members-into-teams/renaming-a-team.md)
     * [Requesting To Add A Child Team](organizations/organizing-members-into-teams/requesting-to-add-a-child-team.md)
@@ -3434,7 +3437,7 @@
       * [Permission Levels For A Personal Account Repository](repositories/managing-your-repositorys-settings-and-features/repository-access-and-collaboration/permission-levels-for-a-personal-account-repository.md)
       * [Removing A Collaborator From A Personal Repository](repositories/managing-your-repositorys-settings-and-features/repository-access-and-collaboration/removing-a-collaborator-from-a-personal-repository.md)
       * [Removing Yourself From A Collaborator S Repository](repositories/managing-your-repositorys-settings-and-features/repository-access-and-collaboration/removing-yourself-from-a-collaborators-repository.md)
-    * [Managing your repository’s settings and features](repositories/managing-your-repositorys-settings-and-features/index.md)
+    * [Managing Your Repository S Settings And Features](repositories/managing-your-repositorys-settings-and-features/index.md)
   - Releasing Projects On Github
     * [About Releases](repositories/releasing-projects-on-github/about-releases.md)
     * [Automatically Generated Release Notes](repositories/releasing-projects-on-github/automatically-generated-release-notes.md)
