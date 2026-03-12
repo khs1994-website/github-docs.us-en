@@ -728,6 +728,9 @@
       * [Using The Audit Log API For Your Enterprise](admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/using-the-audit-log-api-for-your-enterprise.md)
     * [Monitoring Activity In Your Enterprise](admin/monitoring-activity-in-your-enterprise/index.md)
   - Monitoring And Managing Your Instance
+    - Additional Nodes
+      * [Adding Nodes To A High Availability Configuration](admin/monitoring-and-managing-your-instance/additional-nodes/configuring-additional-nodes.md)
+      * [Additional Nodes](admin/monitoring-and-managing-your-instance/additional-nodes/index.md)
     - Caching Repositories
       * [About Repository Caching](admin/monitoring-and-managing-your-instance/caching-repositories/about-repository-caching.md)
       * [Configuring A Repository Cache](admin/monitoring-and-managing-your-instance/caching-repositories/configuring-a-repository-cache.md)
@@ -3672,6 +3675,7 @@
     * [REST API Endpoints For Issue Events](rest/issues/events.md)
     * [REST API Endpoints For Issues](rest/issues/issues.md)
     * [REST API Endpoints For Issue Dependencies](rest/issues/issue-dependencies.md)
+    * [REST API Endpoints For Issue Field Values](rest/issues/issue-field-values.md)
     * [REST API Endpoints For Labels](rest/issues/labels.md)
     * [REST API Endpoints For Milestones](rest/issues/milestones.md)
     * [REST API Endpoints For Sub Issues](rest/issues/sub-issues.md)
@@ -3709,6 +3713,7 @@
     * [REST API Endpoints For Custom Properties](rest/orgs/custom-properties.md)
     * [REST API Endpoints For Custom Repository Roles](rest/orgs/custom-roles.md)
     * [REST API Endpoints For Organizations](rest/orgs/orgs.md)
+    * [REST API Endpoints For Issue Fields](rest/orgs/issue-fields.md)
     * [REST API Endpoints For Issue Types](rest/orgs/issue-types.md)
     * [REST API Endpoints For Organization Members](rest/orgs/members.md)
     * [REST API Endpoints For Network Configurations](rest/orgs/network-configurations.md)
