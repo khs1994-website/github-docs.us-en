@@ -13,6 +13,8 @@ versions:
   fpt: '*'
   ghes: '*'
   ghec: '*'
+category:
+  - Write workflows
 ---
 
 ## About events that trigger workflows
@@ -997,7 +999,7 @@ jobs:
 > * {% data reusables.actions.schedule-delay %}
 > * {% data reusables.actions.branch-requirement %}
 > * Scheduled workflows will only run on the default branch.
-> * In a public repository, scheduled workflows are automatically disabled when no repository activity has occurred in 60 days. For information on re-enabling a disabled workflow, see [AUTOTITLE](/enterprise-server/actions/using-workflows/disabling-and-enabling-a-workflow#enabling-a-workflow).
+> * In a public repository, scheduled workflows are automatically disabled when no repository activity has occurred in 60 days. For information on re-enabling a disabled workflow, see [AUTOTITLE](/actions/how-tos/manage-workflow-runs/disable-and-enable-workflows#enabling-a-workflow).
 
 The `schedule` event allows you to trigger a workflow at a scheduled time.
 
