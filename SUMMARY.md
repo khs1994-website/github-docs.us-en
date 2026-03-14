@@ -1230,6 +1230,7 @@
       * [Immutable Releases](code-security/concepts/supply-chain-security/immutable-releases.md)
       * [Supply Chain Security](code-security/concepts/supply-chain-security/index.md)
       * [About Linked Artifacts](code-security/concepts/supply-chain-security/linked-artifacts.md)
+      * [Multi Ecosystem Updates](code-security/concepts/supply-chain-security/multi-ecosystem-updates.md)
     - Vulnerability Reporting And Management
       * [About Coordinated Disclosure Of Security Vulnerabilities](code-security/concepts/vulnerability-reporting-and-management/about-coordinated-disclosure-of-security-vulnerabilities.md)
       * [About Global Security Advisories](code-security/concepts/vulnerability-reporting-and-management/about-global-security-advisories.md)
@@ -1450,6 +1451,7 @@
         * [Configuring Dependabot Alerts](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/configuring-dependabot-alerts.md)
         * [Configuring Dependabot Security Updates](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/configuring-dependabot-security-updates.md)
         * [Configuring Dependabot Version Updates](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/configuring-dependabot-version-updates.md)
+        * [Configuring Multi Ecosystem Updates For Dependabot](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/configuring-multi-ecosystem-updates.md)
         * [Enabling The Dependency Graph](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/enabling-the-dependency-graph.md)
         * [Exploring The Dependencies Of A Repository](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/exploring-the-dependencies-of-a-repository.md)
         * [Securing Your Dependencies](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/index.md)
@@ -1730,7 +1732,6 @@
       * [Remediating A Leaked Secret In Your Repository](code-security/tutorials/remediate-leaked-secrets/remediating-a-leaked-secret.md)
     - Secure Your Dependencies
       * [Automating Dependabot With Git Hub Actions](code-security/tutorials/secure-your-dependencies/automating-dependabot-with-github-actions.md)
-      * [Configuring Multi Ecosystem Updates For Dependabot](code-security/tutorials/secure-your-dependencies/configuring-multi-ecosystem-updates.md)
       * [Customizing Dependabot Pull Requests To Fit Your Processes](code-security/tutorials/secure-your-dependencies/customizing-dependabot-prs.md)
       * [Customizing Your Dependency Review Action Configuration](code-security/tutorials/secure-your-dependencies/customizing-your-dependency-review-action-configuration.md)
       * [Dependabot Quickstart Guide](code-security/tutorials/secure-your-dependencies/dependabot-quickstart-guide.md)
@@ -2198,6 +2199,7 @@
     - Use Copilot Agents
       - Coding Agent
         * [Changing The AI Model For Git Hub Copilot Coding Agent](copilot/how-tos/use-copilot-agents/coding-agent/changing-the-ai-model.md)
+        * [Configuring Settings For Git Hub Copilot Coding Agent](copilot/how-tos/use-copilot-agents/coding-agent/configuring-agent-settings.md)
         * [Asking Git Hub Copilot To Create A Pull Request](copilot/how-tos/use-copilot-agents/coding-agent/create-a-pr.md)
         * [Creating custom agents for {% data variables.copilot.copilot_coding_agent %}](copilot/how-tos/use-copilot-agents/coding-agent/create-custom-agents.md)
         * [Creating agent skills for {% data variables.product.prodname_copilot %}](copilot/how-tos/use-copilot-agents/coding-agent/create-skills.md)
