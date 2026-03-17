@@ -1184,6 +1184,7 @@
       * [Code Scanning Merge Protection](code-security/concepts/code-scanning/merge-protection.md)
       * [Multi Repository Variant Analysis](code-security/concepts/code-scanning/multi-repository-variant-analysis.md)
       * [Code QL Pull Request Alert Metrics](code-security/concepts/code-scanning/pull-request-alert-metrics.md)
+      * [Repository properties for {% data variables.product.prodname_code_scanning %}](code-security/concepts/code-scanning/repository-properties.md)
       * [About SARIF Files For Code Scanning](code-security/concepts/code-scanning/sarif-files.md)
       * [About Setup Types For Code Scanning](code-security/concepts/code-scanning/setup-types.md)
       * [About The Tool Status Page](code-security/concepts/code-scanning/tool-status-page.md)
@@ -1658,6 +1659,7 @@
       * [Available Filters For Security Overview](code-security/reference/security-at-scale/available-filters-for-security-overview.md)
       * [Reference For Security At Scale](code-security/reference/security-at-scale/index.md)
       * [Security Configuration Enforcement](code-security/reference/security-at-scale/security-configuration-enforcement.md)
+      * [Security Overview Dashboard Metrics](code-security/reference/security-at-scale/security-overview-dashboard-metrics.md)
     - Supply Chain Security
       - Troubleshoot Dependabot
         * [Dependabot Errors](code-security/reference/supply-chain-security/troubleshoot-dependabot/dependabot-errors.md)
