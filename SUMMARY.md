@@ -1212,7 +1212,6 @@
       * [Auditing Security Alerts](code-security/concepts/security-at-scale/auditing-security-alerts.md)
       * [Delegated Alert Dismissal](code-security/concepts/security-at-scale/delegated-alert-dismissal.md)
       * [Concepts For Security At Scale](code-security/concepts/security-at-scale/index.md)
-      * [Security Configurations](code-security/concepts/security-at-scale/security-configurations.md)
     - Supply Chain Security
       * [About Dependabot Alerts](code-security/concepts/supply-chain-security/about-dependabot-alerts.md)
       * [About Dependabot Auto Triage Rules](code-security/concepts/supply-chain-security/about-dependabot-auto-triage-rules.md)
@@ -1356,7 +1355,6 @@
           * [Viewing The Vulnerability Data For Your Enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/configure-specific-tools/viewing-the-vulnerability-data-for-your-enterprise.md)
         - Establish Complete Coverage
           * [Applying A Custom Security Configuration To Your Enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/applying-a-custom-security-configuration-to-your-enterprise.md)
-          * [Applying The Git Hub Recommended Security Configuration To Your Enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/applying-the-github-recommended-security-configuration-to-your-enterprise.md)
           * [Configuring Additional Secret Scanning Settings For Your Enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/configuring-additional-secret-scanning-settings-for-your-enterprise.md)
           * [Creating A Custom Security Configuration For Your Enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/creating-a-custom-security-configuration-for-your-enterprise.md)
           * [Enabling {% data variables.product.prodname_GHAS %} {% ifversion ghas-products %}products {% endif %}for your enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/enabling-github-advanced-security-for-your-enterprise.md)
@@ -1379,7 +1377,6 @@
           * [Viewing The Secret Risk Assessment Report For Your Organization](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/viewing-the-secret-risk-assessment-report-for-your-organization.md)
         - Establish Complete Coverage
           * [Applying A Custom Security Configuration](code-security/how-tos/secure-at-scale/configure-organization-security/establish-complete-coverage/applying-a-custom-security-configuration.md)
-          * [Applying The Git Hub Recommended Security Configuration In Your Organization](code-security/how-tos/secure-at-scale/configure-organization-security/establish-complete-coverage/applying-the-github-recommended-security-configuration-in-your-organization.md)
           * [Configuring Global Security Settings For Your Organization](code-security/how-tos/secure-at-scale/configure-organization-security/establish-complete-coverage/configuring-global-security-settings-for-your-organization.md)
           * [Creating A Custom Security Configuration](code-security/how-tos/secure-at-scale/configure-organization-security/establish-complete-coverage/creating-a-custom-security-configuration.md)
           * [Establish Complete Coverage](code-security/how-tos/secure-at-scale/configure-organization-security/establish-complete-coverage/index.md)
@@ -1978,6 +1975,7 @@
         * [About plugins for {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/about-cli-plugins.md)
         * [About Git Hub Copilot CLI](copilot/concepts/agents/copilot-cli/about-copilot-cli.md)
         * [Allowing Git Hub Copilot CLI To Work Autonomously](copilot/concepts/agents/copilot-cli/autopilot.md)
+        * [About {% data variables.copilot.copilot_cli %} session data](copilot/concepts/agents/copilot-cli/chronicle.md)
         * [Comparing Git Hub Copilot CLI Customization Features](copilot/concepts/agents/copilot-cli/comparing-cli-features.md)
         * [Running Tasks In Parallel With The Fleet Command](copilot/concepts/agents/copilot-cli/fleet.md)
         * [Concepts For Git Hub Copilot CLI](copilot/concepts/agents/copilot-cli/index.md)
@@ -2005,7 +2003,7 @@
       * [Content Exclusion For Git Hub Copilot](copilot/concepts/context/content-exclusion.md)
       * [Concepts For Providing Context To Git Hub Copilot](copilot/concepts/context/index.md)
       * [About Model Context Protocol MCP](copilot/concepts/context/mcp.md)
-      * [Indexing Repositories For Git Hub Copilot Chat](copilot/concepts/context/repository-indexing.md)
+      * [Indexing Repositories For Git Hub Copilot](copilot/concepts/context/repository-indexing.md)
       * [About Git Hub Copilot Spaces](copilot/concepts/context/spaces.md)
     - Copilot Usage Metrics
       * [Git Hub Copilot Usage Metrics](copilot/concepts/copilot-usage-metrics/index.md)
@@ -2034,6 +2032,7 @@
     * [Get started with {% data variables.product.prodname_copilot %}](copilot/get-started/index.md)
     * [Plans For Git Hub Copilot](copilot/get-started/plans.md)
     * [Quickstart For Git Hub Copilot](copilot/get-started/quickstart.md)
+    * [Resources For Getting Approval Of Git Hub Copilot](copilot/get-started/resources-for-approval.md)
     * [What Is Git Hub Copilot](copilot/get-started/what-is-github-copilot.md)
   - How Tos
     - Administer Copilot
@@ -2140,6 +2139,7 @@
         * [Using Git Hub Copilot CLI](copilot/how-tos/copilot-cli/use-copilot-cli-agents/overview.md)
         * [Steering agents in {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli-agents/steer-agents.md)
       * [Administering Copilot CLI For Your Enterprise](copilot/how-tos/copilot-cli/administer-copilot-cli-for-your-enterprise.md)
+      * [Using {% data variables.copilot.copilot_cli %} session data](copilot/how-tos/copilot-cli/chronicle.md)
       * [Best Practices For Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-best-practices.md)
       * [Getting Started With Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-getting-started.md)
       * [{% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/index.md)
@@ -2389,6 +2389,7 @@
         * [Integrating Agentic AI Into Your Enterprise S Software Development Lifecycle](copilot/tutorials/roll-out-at-scale/enable-developers/integrate-ai-agents.md)
       * [Establishing AI Managers In Your Enterprise](copilot/tutorials/roll-out-at-scale/establish-ai-managers.md)
       * [Rolling Out Git Hub Copilot At Scale](copilot/tutorials/roll-out-at-scale/index.md)
+      * [Maintaining Codebase Standards In A Git Hub Copilot Rollout](copilot/tutorials/roll-out-at-scale/maintain-codebase-standards.md)
       * [Measuring The Success Of A Git Hub Copilot Trial](copilot/tutorials/roll-out-at-scale/measure-success.md)
     - Spark
       * [Building And Deploying AI Powered Apps With Git Hub Spark](copilot/tutorials/spark/build-apps-with-spark.md)
@@ -2447,6 +2448,7 @@
     * [Pushing Changes To Git Hub From Git Hub Desktop](desktop/making-changes-in-a-branch/pushing-changes-to-github-from-github-desktop.md)
     * [Stashing Changes In Git Hub Desktop](desktop/making-changes-in-a-branch/stashing-changes-in-github-desktop.md)
     * [Viewing The Branch History In Git Hub Desktop](desktop/making-changes-in-a-branch/viewing-the-branch-history-in-github-desktop.md)
+    * [Working With Git Hooks In Git Hub Desktop](desktop/making-changes-in-a-branch/working-with-git-hooks-in-github-desktop.md)
   - Managing Commits
     * [Amending A Commit In Git Hub Desktop](desktop/managing-commits/amending-a-commit-in-github-desktop.md)
     * [Checking Out A Commit In Git Hub Desktop](desktop/managing-commits/checking-out-a-commit-in-github-desktop.md)
@@ -3911,6 +3913,7 @@
     * [Git Hub Pre Release License Terms](site-policy/github-terms/github-pre-release-license-terms.md)
     * [Git Hub Registered Developer Agreement](site-policy/github-terms/github-registered-developer-agreement.md)
     * [Git Hub Research Program Terms](site-policy/github-terms/github-research-program-terms.md)
+    * [Git Hub Secret Scanning Partner Program Agreement](site-policy/github-terms/github-secret-scanning-partner-program-agreement.md)
     * [Git Hub Sponsors Additional Terms](site-policy/github-terms/github-sponsors-additional-terms.md)
     * [Git Hub Terms For Additional Products And Features](site-policy/github-terms/github-terms-for-additional-products-and-features.md)
     * [Git Hub Terms Of Service](site-policy/github-terms/github-terms-of-service.md)
