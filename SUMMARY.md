@@ -2018,6 +2018,7 @@
     * [About Enterprise Accounts For Copilot Business](copilot/concepts/about-enterprise-accounts-for-copilot-business.md)
     * [About {% data variables.product.prodname_copilot_short %} auto model selection](copilot/concepts/auto-model-selection.md)
     * [About Git Hub Copilot Chat](copilot/concepts/chat.md)
+    * [Base And Long Term Support LTS Models](copilot/concepts/fallback-and-lts-models.md)
     * [Concepts For Git Hub Copilot](copilot/concepts/index.md)
     * [MCP Server Usage In Your Company](copilot/concepts/mcp-management.md)
     * [Network Settings For Git Hub Copilot](copilot/concepts/network-settings.md)
@@ -3601,6 +3602,7 @@
     * [REST API Endpoints For Commits](rest/commits/index.md)
     * [REST API Endpoints For Commit Statuses](rest/commits/statuses.md)
   - Copilot
+    * [REST API Endpoints For Copilot Coding Agent Management](rest/copilot/copilot-coding-agent-management.md)
     * [REST API Endpoints For Copilot Content Exclusion Management](rest/copilot/copilot-content-exclusion-management.md)
     * [REST API Endpoints For Copilot Custom Agents](rest/copilot/copilot-custom-agents.md)
     * [REST API Endpoints For Copilot Metrics](rest/copilot/copilot-metrics.md)
