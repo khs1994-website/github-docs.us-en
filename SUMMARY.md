@@ -188,6 +188,11 @@
         * [Removing Self Hosted Runners](actions/how-tos/manage-runners/self-hosted-runners/remove-runners.md)
         * [Running Scripts Before Or After A Job](actions/how-tos/manage-runners/self-hosted-runners/run-scripts.md)
         * [Using Self Hosted Runners In A Workflow](actions/how-tos/manage-runners/self-hosted-runners/use-in-a-workflow.md)
+      - Use Actions Runner Controller
+        * [Authenticating ARC To The Git Hub API](actions/how-tos/manage-runners/use-actions-runner-controller/authenticate-to-the-api.md)
+        * [Deploying Runner Scale Sets With Actions Runner Controller](actions/how-tos/manage-runners/use-actions-runner-controller/deploy-runner-scale-sets.md)
+        * [Use Actions Runner Controller](actions/how-tos/manage-runners/use-actions-runner-controller/index.md)
+        * [Using Actions Runner Controller Runners In A Workflow](actions/how-tos/manage-runners/use-actions-runner-controller/use-arc-in-a-workflow.md)
       * [Manage Runners](actions/how-tos/manage-runners/index.md)
       * [Using Proxy Servers With A Runner](actions/how-tos/manage-runners/use-proxy-servers.md)
     - Manage Workflow Runs
@@ -347,12 +352,9 @@
       * [Publishing Java Packages With Maven](actions/tutorials/publish-packages/publish-java-packages-with-maven.md)
       * [Publishing Node.js packages](actions/tutorials/publish-packages/publish-nodejs-packages.md)
     - Use Actions Runner Controller
-      * [Authenticating ARC To The Git Hub API](actions/tutorials/use-actions-runner-controller/authenticate-to-the-api.md)
-      * [Deploying Runner Scale Sets With Actions Runner Controller](actions/tutorials/use-actions-runner-controller/deploy-runner-scale-sets.md)
-      * [Use Actions Runner Controller](actions/tutorials/use-actions-runner-controller/index.md)
-      * [Quickstart For Actions Runner Controller](actions/tutorials/use-actions-runner-controller/quickstart.md)
+      * [Get Started With Actions Runner Controller](actions/tutorials/use-actions-runner-controller/get-started.md)
+      * [Actions Runner Controller](actions/tutorials/use-actions-runner-controller/index.md)
       * [Troubleshooting Actions Runner Controller Errors](actions/tutorials/use-actions-runner-controller/troubleshoot.md)
-      * [Using Actions Runner Controller Runners In A Workflow](actions/tutorials/use-actions-runner-controller/use-arc-in-a-workflow.md)
     - Use Containerized Services
       * [Creating A Docker Container Action](actions/tutorials/use-containerized-services/create-a-docker-container-action.md)
       * [Creating Postgre SQL Service Containers](actions/tutorials/use-containerized-services/create-postgresql-service-containers.md)
@@ -1226,6 +1228,7 @@
       * [About The Dependency Graph](code-security/concepts/supply-chain-security/about-the-dependency-graph.md)
       * [Best Practices For Maintaining Dependencies](code-security/concepts/supply-chain-security/best-practices-for-maintaining-dependencies.md)
       * [Dependabot Job Logs](code-security/concepts/supply-chain-security/dependabot-job-logs.md)
+      * [Dependabot Malware Alerts](code-security/concepts/supply-chain-security/dependabot-malware-alerts.md)
       * [How The Dependency Graph Recognizes Dependencies](code-security/concepts/supply-chain-security/dependency-graph-data.md)
       * [Immutable Releases](code-security/concepts/supply-chain-security/immutable-releases.md)
       * [Supply Chain Security](code-security/concepts/supply-chain-security/index.md)
@@ -1263,6 +1266,7 @@
       - Manage Dependabot Alerts
         * [Enabling Delegated Alert Dismissal For Dependabot](code-security/how-tos/manage-security-alerts/manage-dependabot-alerts/enable-delegated-alert-dismissal.md)
         * [Manage Dependabot Alerts](code-security/how-tos/manage-security-alerts/manage-dependabot-alerts/index.md)
+        * [Managing Dependabot Malware Alerts](code-security/how-tos/manage-security-alerts/manage-dependabot-alerts/manage-malware-alerts.md)
         * [Managing Alerts That Have Been Automatically Dismissed By A Dependabot Auto Triage Rule](code-security/how-tos/manage-security-alerts/manage-dependabot-alerts/managing-automatically-dismissed-alerts.md)
         * [Viewing And Updating Dependabot Alerts](code-security/how-tos/manage-security-alerts/manage-dependabot-alerts/viewing-and-updating-dependabot-alerts.md)
       - Manage Secret Scanning Alerts
@@ -1445,6 +1449,7 @@
         * [Removing Dependabot Access To Public Registries](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/removing-dependabot-access-to-public-registries.md)
         * [Using Git Hub Preset Rules To Prioritize Dependabot Alerts](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/using-github-preset-rules-to-prioritize-dependabot-alerts.md)
       - Secure Your Dependencies
+        * [Configuring Dependabot Malware Alerts](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/configure-malware-alerts.md)
         * [Configuring Automatic Dependency Submission For Your Repository](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/configuring-automatic-dependency-submission-for-your-repository.md)
         * [Configuring Dependabot Alerts](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/configuring-dependabot-alerts.md)
         * [Configuring Dependabot Security Updates](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/configuring-dependabot-security-updates.md)
@@ -1860,7 +1865,6 @@
     * [Troubleshooting Prebuilds](codespaces/troubleshooting/troubleshooting-prebuilds.md)
     * [Troubleshooting Your Connection To Git Hub Codespaces](codespaces/troubleshooting/troubleshooting-your-connection-to-github-codespaces.md)
     * [Working With Support For Git Hub Codespaces](codespaces/troubleshooting/working-with-support-for-github-codespaces.md)
-  * [Guides For Codespaces](codespaces/guides.md)
   * [{% data variables.product.prodname_codespaces %} documentation](codespaces/index.md)
   * [Quickstart For Git Hub Codespaces](codespaces/quickstart.md)
   * [The github.dev web-based editor](codespaces/the-githubdev-web-based-editor.md)
