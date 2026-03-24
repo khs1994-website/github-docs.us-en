@@ -2144,6 +2144,7 @@
         * [Using Git Hub Copilot CLI](copilot/how-tos/copilot-cli/use-copilot-cli-agents/overview.md)
         * [Steering agents in {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli-agents/steer-agents.md)
       * [Administering Copilot CLI For Your Enterprise](copilot/how-tos/copilot-cli/administer-copilot-cli-for-your-enterprise.md)
+      * [Allowing And Denying Tool Use](copilot/how-tos/copilot-cli/allowing-tools.md)
       * [Using {% data variables.copilot.copilot_cli %} session data](copilot/how-tos/copilot-cli/chronicle.md)
       * [Best Practices For Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-best-practices.md)
       * [Getting Started With Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-getting-started.md)
@@ -2228,7 +2229,7 @@
         * [Using Hooks With Git Hub Copilot Agents](copilot/how-tos/use-copilot-agents/coding-agent/use-hooks.md)
       - Request A Code Review
         * [Configuring Automatic Code Review By Git Hub Copilot](copilot/how-tos/use-copilot-agents/request-a-code-review/configure-automatic-review.md)
-        * [Configuring Self Hosted Runners For Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/configure-self-hosted-runners.md)
+        * [Configuring Runners For Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/configure-runners.md)
         * [Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/index.md)
         * [Using Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review.md)
       * [Managing And Curating Copilot Memory](copilot/how-tos/use-copilot-agents/copilot-memory.md)
