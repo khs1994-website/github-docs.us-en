@@ -462,6 +462,7 @@
       * [Configuring Private Networking For Hosted Compute Products](admin/configuring-settings/configuring-private-networking-for-hosted-compute-products/index.md)
       * [Troubleshooting Azure Private Network Configurations For Git Hub Hosted Runners In Your Enterprise](admin/configuring-settings/configuring-private-networking-for-hosted-compute-products/troubleshooting-azure-private-network-configurations-for-github-hosted-runners-in-your-enterprise.md)
     - Configuring User Applications For Your Enterprise
+      * [Best Practices For Configuring API Rate Limits](admin/configuring-settings/configuring-user-applications-for-your-enterprise/best-practices-for-configuring-api-rate-limits.md)
       * [Configuring Applications](admin/configuring-settings/configuring-user-applications-for-your-enterprise/configuring-applications.md)
       * [Configuring Email For Notifications](admin/configuring-settings/configuring-user-applications-for-your-enterprise/configuring-email-for-notifications.md)
       * [Configuring Git Hub Pages For Your Enterprise](admin/configuring-settings/configuring-user-applications-for-your-enterprise/configuring-github-pages-for-your-enterprise.md)
@@ -777,6 +778,7 @@
         * [Setting Up External Monitoring With Open Telemetry](admin/monitoring-and-managing-your-instance/monitoring-your-instance/opentelemetry-metrics/setting-up-external-monitoring-with-opentelemetry.md)
         * [Using Grafana To Analyze Open Telemetry Metrics](admin/monitoring-and-managing-your-instance/monitoring-your-instance/opentelemetry-metrics/using-grafana-to-analyze-opentelemetry-metrics.md)
       * [About Monitoring Your Instance](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-monitoring-your-instance.md)
+      * [About Support Bundles For Git Hub Enterprise Server](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-support-bundles.md)
       * [About System Logs](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-system-logs.md)
       * [About the monitor {% ifversion ghes > 3.15 %}dashboards{% else %}dashboard{% endif %}](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-the-monitor-dashboards.md)
       * [Generating A Health Check For Your Enterprise](admin/monitoring-and-managing-your-instance/monitoring-your-instance/generating-a-health-check-for-your-enterprise.md)
