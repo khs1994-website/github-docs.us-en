@@ -1244,7 +1244,7 @@
       * [About Exposure To Vulnerabilities In Your Code And In Dependencies](code-security/concepts/vulnerability-reporting-and-management/about-your-exposure-to-vulnerabilities-in-your-code-and-in-dependencies.md)
       * [Concepts For Vulnerability Reporting And Management](code-security/concepts/vulnerability-reporting-and-management/index.md)
     * [About Git Hub Code Quality](code-security/concepts/about-code-quality.md)
-    * [Index](code-security/concepts/index.md)
+    * [Concepts For Security And Code Quality](code-security/concepts/index.md)
   - Getting Started
     * [Git Hub Security Features](code-security/getting-started/github-security-features.md)
     * [Getting Started With Secure Coding](code-security/getting-started/index.md)
@@ -2065,6 +2065,7 @@
         * [Managing Git Hub Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/index.md)
         * [Managing Policies And Features For Git Hub Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-enterprise-policies.md)
         * [Managing Git Hub Spark In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-spark.md)
+        * [Reviewing Audit Logs For Git Hub Copilot](copilot/how-tos/administer-copilot/manage-for-enterprise/review-audit-logs.md)
         * [Using Your LLM Provider API Keys With Copilot](copilot/how-tos/administer-copilot/manage-for-enterprise/use-your-own-api-keys.md)
       - Manage For Organization
         - Manage Access
@@ -2079,7 +2080,6 @@
           * [Subscribing To Git Hub Copilot For Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-plan/subscribe.md)
         - Review Activity
           * [Reviewing Activity Related To Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/review-activity/index.md)
-          * [Reviewing Audit Logs For Git Hub Copilot Business](copilot/how-tos/administer-copilot/manage-for-organization/review-activity/review-audit-logs.md)
           * [Reviewing User Activity Data For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/review-activity/review-user-activity-data.md)
         * [Adding Git Hub Copilot Coding Agent To Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/add-copilot-coding-agent.md)
         * [Managing Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/index.md)
@@ -2150,6 +2150,7 @@
       * [Using {% data variables.copilot.copilot_cli %} session data](copilot/how-tos/copilot-cli/chronicle.md)
       * [Best Practices For Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-best-practices.md)
       * [Getting Started With Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-getting-started.md)
+      * [Connecting {% data variables.copilot.copilot_cli %} to {% data variables.product.prodname_vscode_shortname %}](copilot/how-tos/copilot-cli/connecting-vs-code.md)
       * [{% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/index.md)
       * [Speeding Up Task Completion With The Fleet Command](copilot/how-tos/copilot-cli/speeding-up-task-completion.md)
     - Copilot Sdk
