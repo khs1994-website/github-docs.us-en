@@ -1977,6 +1977,7 @@
         * [About Agent Management](copilot/concepts/agents/coding-agent/agent-management.md)
         * [Concepts For Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/index.md)
         * [Model Context Protocol MCP And Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/mcp-and-coding-agent.md)
+        * [Risks And Mitigations For Git Hub Copilot Coding Agent](copilot/concepts/agents/coding-agent/risks-and-mitigations.md)
       - Copilot Cli
         * [About plugins for {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/about-cli-plugins.md)
         * [About Git Hub Copilot CLI](copilot/concepts/agents/copilot-cli/about-copilot-cli.md)
