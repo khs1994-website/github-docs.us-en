@@ -1206,6 +1206,7 @@
       * [Concepts For Secret Security](code-security/concepts/secret-security/index.md)
       * [Push Protection From The Command Line](code-security/concepts/secret-security/push-protection-from-the-command-line.md)
       * [Secret Scanning Push Protection Metrics](code-security/concepts/secret-security/push-protection-metrics.md)
+      * [Secret Leakage Risks](code-security/concepts/secret-security/secret-leakage-risks.md)
       * [Working With Push Protection And The Git Hub MCP Server](code-security/concepts/secret-security/working-with-push-protection-and-the-github-mcp-server.md)
       * [Working With Push Protection From The REST API](code-security/concepts/secret-security/working-with-push-protection-from-the-rest-api.md)
     - Security At Scale
@@ -3171,6 +3172,7 @@
   - Managing Programmatic Access To Your Organization
     * [About Programmatic Access In Your Organization](organizations/managing-programmatic-access-to-your-organization/about-programmatic-access-in-your-organization.md)
     * [Adding And Removing Git Hub App Managers In Your Organization](organizations/managing-programmatic-access-to-your-organization/adding-and-removing-github-app-managers-in-your-organization.md)
+    * [Git Hub Credential Types Reference](organizations/managing-programmatic-access-to-your-organization/github-credential-types.md)
     * [Managing Programmatic Access To Your Organization](organizations/managing-programmatic-access-to-your-organization/index.md)
     * [Limiting O Auth App And Git Hub App Access Requests And Installations](organizations/managing-programmatic-access-to-your-organization/limiting-oauth-app-and-github-app-access-requests-and-installations.md)
     * [Managing Requests For Personal Access Tokens In Your Organization](organizations/managing-programmatic-access-to-your-organization/managing-requests-for-personal-access-tokens-in-your-organization.md)
