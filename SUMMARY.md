@@ -1415,6 +1415,7 @@
         * [How Tos For Detecting Secret Leaks](code-security/how-tos/secure-your-secrets/detect-secret-leaks/index.md)
       - Manage Bypass Requests
         * [Enabling Delegated Bypass For Push Protection](code-security/how-tos/secure-your-secrets/manage-bypass-requests/enabling-delegated-bypass-for-push-protection.md)
+        * [Exempting Trusted Actors From Push Protection](code-security/how-tos/secure-your-secrets/manage-bypass-requests/grant-exemptions.md)
         * [How Tos For Bypass Requests](code-security/how-tos/secure-your-secrets/manage-bypass-requests/index.md)
         * [Managing Requests To Bypass Push Protection](code-security/how-tos/secure-your-secrets/manage-bypass-requests/managing-requests-to-bypass-push-protection.md)
         * [Reviewing Requests To Bypass Push Protection](code-security/how-tos/secure-your-secrets/manage-bypass-requests/reviewing-requests-to-bypass-push-protection.md)
@@ -2156,6 +2157,27 @@
       * [{% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/index.md)
       * [Speeding Up Task Completion With The Fleet Command](copilot/how-tos/copilot-cli/speeding-up-task-completion.md)
     - Copilot Sdk
+      - Observability
+        * [Observability For Copilot SDK](copilot/how-tos/copilot-sdk/observability/index.md)
+        * [Open Telemetry Instrumentation For Copilot SDK](copilot/how-tos/copilot-sdk/observability/opentelemetry.md)
+      - Use Copilot Sdk
+        * [Custom Agents And Sub Agent Orchestration](copilot/how-tos/copilot-sdk/use-copilot-sdk/custom-agents.md)
+        * [Using Custom Skills With The Copilot SDK](copilot/how-tos/copilot-sdk/use-copilot-sdk/custom-skills.md)
+        * [Using Image Input With The Copilot SDK](copilot/how-tos/copilot-sdk/use-copilot-sdk/image-input.md)
+        * [Use Copilot SDK](copilot/how-tos/copilot-sdk/use-copilot-sdk/index.md)
+        * [Using MCP Servers With The Copilot SDK](copilot/how-tos/copilot-sdk/use-copilot-sdk/mcp-servers.md)
+        * [Session Persistence In The Copilot SDK](copilot/how-tos/copilot-sdk/use-copilot-sdk/session-persistence.md)
+        * [Steering And Queueing Messages In The Copilot SDK](copilot/how-tos/copilot-sdk/use-copilot-sdk/steering-and-queueing.md)
+        * [Streaming Events In The Copilot SDK](copilot/how-tos/copilot-sdk/use-copilot-sdk/streaming-events.md)
+        * [Working With Hooks](copilot/how-tos/copilot-sdk/use-copilot-sdk/working-with-hooks.md)
+      - Use Hooks
+        * [Error Handling Hook](copilot/how-tos/copilot-sdk/use-hooks/error-handling.md)
+        * [Use Hooks](copilot/how-tos/copilot-sdk/use-hooks/index.md)
+        * [Post Tool Use Hook](copilot/how-tos/copilot-sdk/use-hooks/post-tool-use.md)
+        * [Pre Tool Use Hook](copilot/how-tos/copilot-sdk/use-hooks/pre-tool-use.md)
+        * [Quickstart For Hooks](copilot/how-tos/copilot-sdk/use-hooks/quickstart.md)
+        * [Session Lifecycle Hooks](copilot/how-tos/copilot-sdk/use-hooks/session-lifecycle.md)
+        * [User Prompt Submitted Hook](copilot/how-tos/copilot-sdk/use-hooks/user-prompt-submitted.md)
       * [Git Hub Copilot SDK](copilot/how-tos/copilot-sdk/index.md)
       * [Getting Started With Copilot SDK](copilot/how-tos/copilot-sdk/sdk-getting-started.md)
     - Get Code Suggestions
@@ -2261,6 +2283,7 @@
     - Copilot Cli Reference
       * [Copilot CLI ACP Server](copilot/reference/copilot-cli-reference/acp-server.md)
       * [Git Hub Copilot CLI Command Reference](copilot/reference/copilot-cli-reference/cli-command-reference.md)
+      * [Git Hub Copilot CLI Configuration Directory](copilot/reference/copilot-cli-reference/cli-config-dir-reference.md)
       * [Git Hub Copilot CLI Plugin Reference](copilot/reference/copilot-cli-reference/cli-plugin-reference.md)
       * [Git Hub Copilot CLI Programmatic Reference](copilot/reference/copilot-cli-reference/cli-programmatic-reference.md)
       * [{% data variables.copilot.copilot_cli_short %} reference](copilot/reference/copilot-cli-reference/index.md)
