@@ -1215,6 +1215,7 @@
       * [About Security Overview](code-security/concepts/security-at-scale/about-security-overview.md)
       * [About Supply Chain Security For Your Enterprise](code-security/concepts/security-at-scale/about-supply-chain-security-for-your-enterprise.md)
       * [Auditing Security Alerts](code-security/concepts/security-at-scale/auditing-security-alerts.md)
+      * [Best Practices For Selecting Pilot Repositories](code-security/concepts/security-at-scale/best-practices-for-selecting-pilot-repositories.md)
       * [Delegated Alert Dismissal](code-security/concepts/security-at-scale/delegated-alert-dismissal.md)
       * [Concepts For Security At Scale](code-security/concepts/security-at-scale/index.md)
     - Supply Chain Security
@@ -1983,6 +1984,7 @@
       - Copilot Cli
         * [About plugins for {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/about-cli-plugins.md)
         * [About Git Hub Copilot CLI](copilot/concepts/agents/copilot-cli/about-copilot-cli.md)
+        * [About Custom Agents](copilot/concepts/agents/copilot-cli/about-custom-agents.md)
         * [Allowing Git Hub Copilot CLI To Work Autonomously](copilot/concepts/agents/copilot-cli/autopilot.md)
         * [About {% data variables.copilot.copilot_cli %} session data](copilot/concepts/agents/copilot-cli/chronicle.md)
         * [Comparing Git Hub Copilot CLI Customization Features](copilot/concepts/agents/copilot-cli/comparing-cli-features.md)
@@ -2161,6 +2163,9 @@
         * [Authenticating With Copilot SDK](copilot/how-tos/copilot-sdk/authenticate-copilot-sdk/authenticate-copilot-sdk.md)
         * [Bring Your Own Key BYOK](copilot/how-tos/copilot-sdk/authenticate-copilot-sdk/bring-your-own-key.md)
         * [Authenticating With The Copilot SDK](copilot/how-tos/copilot-sdk/authenticate-copilot-sdk/index.md)
+      - Integrations
+        * [Copilot SDK Integrations](copilot/how-tos/copilot-sdk/integrations/index.md)
+        * [Microsoft Agent Framework Integration](copilot/how-tos/copilot-sdk/integrations/microsoft-agent-framework.md)
       - Observability
         * [Observability For Copilot SDK](copilot/how-tos/copilot-sdk/observability/index.md)
         * [Open Telemetry Instrumentation For Copilot SDK](copilot/how-tos/copilot-sdk/observability/opentelemetry.md)
@@ -2291,7 +2296,7 @@
     - Ai Models
       * [AI Models For Git Hub Copilot](copilot/reference/ai-models/index.md)
       * [AI Model Comparison](copilot/reference/ai-models/model-comparison.md)
-      * [Hosting Of Models For Git Hub Copilot Chat](copilot/reference/ai-models/model-hosting.md)
+      * [Hosting Of Models For Git Hub Copilot](copilot/reference/ai-models/model-hosting.md)
       * [Supported AI Models In Git Hub Copilot](copilot/reference/ai-models/supported-models.md)
     - Copilot Billing
       * [Git Hub Copilot Billing Through Azure](copilot/reference/copilot-billing/azure-billing.md)
@@ -3589,6 +3594,8 @@
     * [REST API Endpoints For Notifications](rest/activity/notifications.md)
     * [REST API Endpoints For Starring](rest/activity/starring.md)
     * [REST API Endpoints For Watching](rest/activity/watching.md)
+  - Agent Tasks
+    * [Agent Tasks](rest/agent-tasks/index.md)
   - Announcement Banners
     * [REST API Endpoints For Enterprise Announcement Banners](rest/announcement-banners/enterprises.md)
     * [REST API Endpoints For Announcement Banners](rest/announcement-banners/index.md)

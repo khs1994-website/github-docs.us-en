@@ -10,8 +10,7 @@ category:
   - Author and optimize with Copilot
 ---
 
-> [!NOTE]
-> {% data reusables.copilot.copilot-sdk.technical-preview-note %}
+{% data reusables.copilot.copilot-sdk.technical-preview-note %}
 
 Session lifecycle hooks let you respond to session start and end events. Use them to:
 
@@ -36,7 +35,7 @@ type SessionStartHandler = (
 >;
 ```
 
-For hook signatures in Python, Go, and .NET, see the [`github/copilot-sdk` repository](https://github.com/github/copilot-sdk/blob/main/docs/hooks/session-lifecycle.md#hook-signature).
+For hook signatures in Python, Go, and .NET, see the [`github/copilot-sdk` repository](https://github.com/github/copilot-sdk/blob/main/docs/hooks/session-lifecycle.md#hook-signature). {% data reusables.copilot.copilot-sdk.java-sdk-link %}
 
 ### Input
 
@@ -85,7 +84,7 @@ const session = await client.createSession({
 });
 ```
 
-For examples in Python, see the [`github/copilot-sdk` repository](https://github.com/github/copilot-sdk/blob/main/docs/hooks/session-lifecycle.md#add-project-context-at-start).
+For examples in Python, see the [`github/copilot-sdk` repository](https://github.com/github/copilot-sdk/blob/main/docs/hooks/session-lifecycle.md#add-project-context-at-start). {% data reusables.copilot.copilot-sdk.java-sdk-link %}
 
 #### Handle session resume
 
@@ -174,7 +173,7 @@ type SessionEndHandler = (
 >;
 ```
 
-For hook signatures in Python, Go, and .NET, see the [`github/copilot-sdk` repository](https://github.com/github/copilot-sdk/blob/main/docs/hooks/session-lifecycle.md#hook-signature-1).
+For hook signatures in Python, Go, and .NET, see the [`github/copilot-sdk` repository](https://github.com/github/copilot-sdk/blob/main/docs/hooks/session-lifecycle.md#hook-signature-1). {% data reusables.copilot.copilot-sdk.java-sdk-link %}
 
 ### Input
 
@@ -247,7 +246,7 @@ const session = await client.createSession({
 });
 ```
 
-For examples in Python, see the [`github/copilot-sdk` repository](https://github.com/github/copilot-sdk/blob/main/docs/hooks/session-lifecycle.md#track-session-metrics).
+For examples in Python, see the [`github/copilot-sdk` repository](https://github.com/github/copilot-sdk/blob/main/docs/hooks/session-lifecycle.md#track-session-metrics). {% data reusables.copilot.copilot-sdk.java-sdk-link %}
 
 #### Clean up resources
 

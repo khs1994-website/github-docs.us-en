@@ -8,8 +8,7 @@ versions:
 contentType: how-tos
 ---
 
-> [!NOTE]
-> {% data reusables.copilot.copilot-sdk.technical-preview-note %}
+{% data reusables.copilot.copilot-sdk.technical-preview-note %}
 
 ## Enable debug logging
 
@@ -23,7 +22,7 @@ const client = new CopilotClient({
 });
 ```
 
-For examples in Python, Go, and .NET, see [Debugging Guide](https://github.com/github/copilot-sdk/blob/main/docs/troubleshooting/debugging.md) in the `github/copilot-sdk` repository.
+For examples in Python, Go, and .NET, see [Debugging Guide](https://github.com/github/copilot-sdk/blob/main/docs/troubleshooting/debugging.md) in the `github/copilot-sdk` repository. {% data reusables.copilot.copilot-sdk.java-sdk-link %}
 
 ### Log directory
 
@@ -61,7 +60,7 @@ For Python and Go, which do not currently support passing extra CLI arguments, r
    });
    ```
 
-   For examples in Python, Go, and .NET, see [Debugging Guide](https://github.com/github/copilot-sdk/blob/main/docs/troubleshooting/debugging.md) in the `github/copilot-sdk` repository.
+   For examples in Python, Go, and .NET, see [Debugging Guide](https://github.com/github/copilot-sdk/blob/main/docs/troubleshooting/debugging.md) in the `github/copilot-sdk` repository. {% data reusables.copilot.copilot-sdk.java-sdk-link %}
 
 ### "Not authenticated"
 
@@ -83,7 +82,7 @@ For Python and Go, which do not currently support passing extra CLI arguments, r
    });
    ```
 
-   For examples in Python, Go, and .NET, see [Debugging Guide](https://github.com/github/copilot-sdk/blob/main/docs/troubleshooting/debugging.md) in the `github/copilot-sdk` repository.
+   For examples in Python, Go, and .NET, see [Debugging Guide](https://github.com/github/copilot-sdk/blob/main/docs/troubleshooting/debugging.md) in the `github/copilot-sdk` repository. {% data reusables.copilot.copilot-sdk.java-sdk-link %}
 
 ### "Session not found"
 

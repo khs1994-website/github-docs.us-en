@@ -10,8 +10,7 @@ category:
   - Author and optimize with Copilot
 ---
 
-> [!NOTE]
-> {% data reusables.copilot.copilot-sdk.technical-preview-note %}
+{% data reusables.copilot.copilot-sdk.technical-preview-note %}
 
 The `onPostToolUse` hook is called **after** a tool executes. Use it to:
 
@@ -30,7 +29,7 @@ type PostToolUseHandler = (
 ) => Promise<PostToolUseHookOutput | null | undefined>;
 ```
 
-For hook signatures in Python, Go, and .NET, see the [`github/copilot-sdk` repository](https://github.com/github/copilot-sdk/blob/main/docs/hooks/post-tool-use.md#hook-signature).
+For hook signatures in Python, Go, and .NET, see the [`github/copilot-sdk` repository](https://github.com/github/copilot-sdk/blob/main/docs/hooks/post-tool-use.md#hook-signature). {% data reusables.copilot.copilot-sdk.java-sdk-link %}
 
 ## Input
 
@@ -77,7 +76,7 @@ const session = await client.createSession({
 });
 ```
 
-For examples in Python, Go, and .NET, see the [`github/copilot-sdk` repository](https://github.com/github/copilot-sdk/blob/main/docs/hooks/post-tool-use.md#log-all-tool-results).
+For examples in Python, Go, and .NET, see the [`github/copilot-sdk` repository](https://github.com/github/copilot-sdk/blob/main/docs/hooks/post-tool-use.md#log-all-tool-results). {% data reusables.copilot.copilot-sdk.java-sdk-link %}
 
 ### Redact sensitive data
 

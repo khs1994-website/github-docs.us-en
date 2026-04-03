@@ -11,8 +11,7 @@ category:
   - Author and optimize with Copilot
 ---
 
-> [!NOTE]
-> {% data reusables.copilot.copilot-sdk.technical-preview-note %}
+{% data reusables.copilot.copilot-sdk.technical-preview-note %}
 
 Hooks allow you to intercept and customize the behavior of {% data variables.copilot.copilot_sdk_short %} sessions at key points in the conversation lifecycle. Use hooks to:
 
@@ -65,7 +64,7 @@ const session = await client.createSession({
 });
 ```
 
-For examples in Python, Go, and .NET, see the [`github/copilot-sdk` repository](https://github.com/github/copilot-sdk/blob/main/docs/hooks/index.md#quick-start).
+For examples in Python, Go, and .NET, see the [`github/copilot-sdk` repository](https://github.com/github/copilot-sdk/blob/main/docs/hooks/index.md#quick-start). {% data reusables.copilot.copilot-sdk.java-sdk-link %}
 
 ## Hook invocation context
 
