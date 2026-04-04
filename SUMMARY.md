@@ -598,6 +598,7 @@
       * [High Availability For Git Hub Actions](admin/managing-github-actions-for-your-enterprise/advanced-configuration-and-troubleshooting/high-availability-for-github-actions.md)
       * [Advanced Configuration And Troubleshooting](admin/managing-github-actions-for-your-enterprise/advanced-configuration-and-troubleshooting/index.md)
       * [Troubleshooting Git Hub Actions For Your Enterprise](admin/managing-github-actions-for-your-enterprise/advanced-configuration-and-troubleshooting/troubleshooting-github-actions-for-your-enterprise.md)
+      * [Updating The Credentials For Git Hub Actions Storage](admin/managing-github-actions-for-your-enterprise/advanced-configuration-and-troubleshooting/updating-the-credentials-for-github-actions-storage.md)
       * [Using A Staging Environment](admin/managing-github-actions-for-your-enterprise/advanced-configuration-and-troubleshooting/using-a-staging-environment.md)
     - Enabling Github Actions For Github Enterprise Server
       * [Enabling Git Hub Actions With Amazon S 3 Storage](admin/managing-github-actions-for-your-enterprise/enabling-github-actions-for-github-enterprise-server/enabling-github-actions-with-amazon-s3-storage.md)
@@ -2087,6 +2088,7 @@
           * [Reviewing Activity Related To Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/review-activity/index.md)
           * [Reviewing User Activity Data For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/review-activity/review-user-activity-data.md)
         * [Adding Git Hub Copilot Cloud Agent To Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/add-copilot-coding-agent.md)
+        * [Configuring Runners For Git Hub Copilot Cloud Agent In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/configure-runner-for-coding-agent.md)
         * [Managing Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/index.md)
         * [Managing Policies And Features For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-policies.md)
         * [Preparing To Use Custom Agents In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/prepare-for-custom-agents.md)
