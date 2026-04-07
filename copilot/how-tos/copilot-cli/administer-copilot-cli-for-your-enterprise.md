@@ -55,6 +55,7 @@ All other controls do **not** affect {% data variables.copilot.copilot_cli_short
 * **Model Context Protocol (MCP) server policies**: Enterprise policies that control whether MCP servers can be used, or which MCP registry servers are allowed
 * **IDE-specific policies**: Policies configured for specific IDEs or editor extensions
 * **Content exclusions**: File path-based content exclusions
+* **User-configured model providers (BYOK)**: Users can configure {% data variables.copilot.copilot_cli_short %} to use their own model providers via environment variables. This is configured at the _user level_ and cannot be controlled by enterprise policies.
 
 ## Why can't my developers access {% data variables.copilot.copilot_cli_short %}?
 

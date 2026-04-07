@@ -104,6 +104,22 @@ Use `/model` to choose from available models based on your task complexity:
 
 You can switch models mid-session with `/model` as task complexity changes.
 
+If your organization or enterprise has configured custom models using their own LLM provider API keys, those models also appear in `/model` at the bottom of the list.
+
+### Use your own model provider
+
+You can configure {% data variables.copilot.copilot_cli_short %} to use your own model provider instead of {% data variables.product.github %}-hosted models. Run `copilot help providers` for full setup instructions.
+
+**Key considerations:**
+
+* Your model must support **tool calling** (function calling) and **streaming**. {% data variables.copilot.copilot_cli_short %} returns an error if either capability is missing.
+* For best results, use a model with a context window of at least 128k tokens.
+* Built-in sub-agents (`/review`, `/task`, explore, `/fleet`) automatically inherit your provider configuration.
+* Premium request cost estimates are hidden when using your own provider. Token usage (input, output, and cache counts) is still displayed.
+* `/delegate` only works if you are also signed in to {% data variables.product.github %}. It transfers the session to {% data variables.product.github %}'s server-side {% data variables.product.prodname_copilot_short %}, not your provider.
+
+See [Using your own model provider](/copilot/concepts/agents/copilot-cli/about-copilot-cli#using-your-own-model-provider).
+
 ## 2. Plan before you code
 
 ### Plan mode

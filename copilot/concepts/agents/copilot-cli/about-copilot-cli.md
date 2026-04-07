@@ -307,6 +307,21 @@ You can change the model used by {% data variables.copilot.copilot_cli %} by usi
 
 Each time you submit a prompt to {% data variables.product.prodname_copilot_short %} in {% data variables.copilot.copilot_cli_short %}'s interactive interface, and each time you use {% data variables.copilot.copilot_cli_short %} programmatically, your monthly quota of {% data variables.product.prodname_copilot_short %} premium requests is reduced by one, multiplied by the multiplier shown in parentheses in the model list. For example, `Claude Sonnet 4.5 (1x)` indicates that with this model each time you submit a prompt your quota of premium requests is reduced by one. For information about premium requests, see [AUTOTITLE](/copilot/concepts/billing/copilot-requests).
 
+### Using your own model provider
+
+You can configure {% data variables.copilot.copilot_cli_short %} to use your own model provider instead of {% data variables.product.github %}-hosted models. This lets you connect to an OpenAI-compatible endpoint, Azure OpenAI, or Anthropic, including locally running models such as Ollama. You configure your model provider using environment variables.
+
+| Environment variable | Description |
+|---|---|
+| `COPILOT_PROVIDER_BASE_URL` | The base URL of your model provider's API endpoint. |
+| `COPILOT_PROVIDER_TYPE` | The provider type: `openai` (default), `azure`, or `anthropic`. The `openai` type works with any OpenAI-compatible endpoint, including Ollama and vLLM. |
+| `COPILOT_PROVIDER_API_KEY` | Your API key for authenticating with the provider. Not required for providers that don't use authentication, such as a local Ollama instance. |
+| `COPILOT_MODEL` | The model to use (required when using a custom provider). You can also set this with the `--model` command-line option. |
+
+Models used with {% data variables.copilot.copilot_cli_short %} must support **tool calling** (function calling) and **streaming**. If the model does not support these capabilities, {% data variables.copilot.copilot_cli_short %} will return an error. For best results, the model should have a context window of at least 128k tokens.
+
+For details on how to configure your model provider, run `copilot help providers` in your terminal.
+
 ## Use {% data variables.copilot.copilot_cli_short %} via ACP
 
 ACP (the Agent Client Protocol) is an open standard for interacting with AI agents. It allows you to use {% data variables.copilot.copilot_cli_short %} as an agent in any third-party tools, IDEs, or automation systems that support this protocol.

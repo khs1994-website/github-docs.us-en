@@ -430,7 +430,7 @@ gh api \
 {% data reusables.copilot.optional-select-custom-agent-generic %}
 {% data reusables.copilot.optional-select-copilot-coding-agent-model %}
 1. Optionally, provide additional instructions. These will be passed to {% data variables.product.prodname_copilot_short %} alongside your issue contents.
-1. Press <kbd>Command</kbd>+<kbd>Enter</kbd> to assign the issue.
+1. Press <kbd>Command</kbd>+<kbd>Enter</kbd> (macOS) or <kbd>Ctrl</kbd>+<kbd>Enter</kbd> (Windows) to assign the issue.
 
     {% data variables.product.prodname_copilot_short %} will start a new session. {% data variables.product.prodname_copilot_short %} will work on the task and push changes to its pull request, then add you as a reviewer when it has finished, triggering a notification.
 
@@ -613,7 +613,7 @@ To see all of the available options, run `gh agent-task create --help`.
 1. Optionally, select a base branch for {% data variables.product.prodname_copilot_short %}'s pull request. {% data variables.product.prodname_copilot_short %} will create a new branch based on this branch, then push the changes to a pull request targeting that branch.
 {% data reusables.copilot.optional-select-custom-agent-generic %}
 {% data reusables.copilot.optional-select-copilot-coding-agent-model %}
-1. Press <kbd>Command</kbd>+<kbd>Enter</kbd> to start the task.
+1. Press <kbd>Command</kbd>+<kbd>Enter</kbd> (macOS) or <kbd>Ctrl</kbd>+<kbd>Enter</kbd> (Windows) to start the task.
 
     {% data variables.product.prodname_copilot_short %} will start a new session. {% data variables.product.prodname_copilot_short %} will work on the task and push changes to its pull request, then add you as a reviewer when it has finished, triggering a notification.
 

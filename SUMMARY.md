@@ -2138,6 +2138,7 @@
         * [Creating a plugin for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/plugins-creating.md)
         * [Finding and installing plugins for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/plugins-finding-installing.md)
         * [Creating a plugin marketplace for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/plugins-marketplace.md)
+        * [Using Your Own LLM Models In Git Hub Copilot CLI](copilot/how-tos/copilot-cli/customize-copilot/use-byok-models.md)
         * [Using hooks with {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/use-hooks.md)
       - Set Up Copilot Cli
         * [Authenticating Git Hub Copilot CLI](copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli.md)

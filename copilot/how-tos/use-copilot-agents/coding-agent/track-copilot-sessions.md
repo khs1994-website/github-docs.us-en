@@ -57,7 +57,10 @@ To see all of the available options, run `gh agent-task list --help` or `gh agen
 {% data reusables.copilot.coding-agent.raycast-setup %}
 1. Open Raycast, search for "{% data variables.product.prodname_copilot_short %}," find the **View Tasks** command, then press <kbd>Enter</kbd>.
 1. Click **Sign in with {% data variables.product.github %}**, then complete the authentication flow. Raycast will re-open.
-1. You'll see a list of your tasks. To navigate to the linked pull request, press <kbd>Enter</kbd>. To view the session logs, press <kbd>Command</kbd>+<kbd>L</kbd>.
+1. You'll see a list of your tasks. Select a task, then use the following keyboard shortcuts:
+   * To watch the session logs live, press <kbd>Enter</kbd>. The logs update in real time, so you can monitor {% data variables.product.prodname_copilot_short %}'s progress without leaving Raycast.
+   * To open the session logs in the browser, press <kbd>Command</kbd>+<kbd>Enter</kbd> (macOS) or <kbd>Ctrl</kbd>+<kbd>Enter</kbd> (Windows).
+   * To open the linked pull request, press <kbd>Command</kbd>+<kbd>P</kbd> (macOS) or <kbd>Ctrl</kbd>+<kbd>P</kbd> (Windows).
 
 > [!NOTE]
 > If you are unable to see some tasks in Raycast, the organization that owns the repository may have enabled {% data variables.product.prodname_oauth_app %} access restrictions. To learn how to request approval for the "{% data variables.product.prodname_copilot %} for Raycast" {% data variables.product.prodname_oauth_app %}, see [AUTOTITLE](/account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/requesting-organization-approval-for-oauth-apps).
@@ -131,7 +134,7 @@ Commits from {% data variables.copilot.copilot_coding_agent %} have the followin
 
 ## Using the session logs to understand {% data variables.product.prodname_copilot_short %}'s approach
 
-You can dive into {% data variables.product.prodname_copilot_short %}'s session logs in {% data variables.product.github %} or {% data variables.product.prodname_vscode %} to understand how it approached your task.
+You can dive into {% data variables.product.prodname_copilot_short %}'s session logs in {% data variables.product.github %}, {% data variables.product.prodname_vscode %}, or Raycast to understand how it approached your task.
 
 In the session logs, you can see {% data variables.product.prodname_copilot_short %}'s internal monologue and the tools it used to understand your repository, make changes and validate its work.
 
