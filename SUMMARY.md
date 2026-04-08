@@ -1965,7 +1965,6 @@
     * [Making Content Findable In Search](contributing/writing-for-github-docs/making-content-findable-in-search.md)
     * [Templates](contributing/writing-for-github-docs/templates.md)
     * [Using Markdown And Liquid In Git Hub Docs](contributing/writing-for-github-docs/using-markdown-and-liquid-in-github-docs.md)
-    * [Using Videos In Git Hub Docs](contributing/writing-for-github-docs/using-videos-in-github-docs.md)
     * [Using YAML Frontmatter](contributing/writing-for-github-docs/using-yaml-frontmatter.md)
     * [Versioning Documentation](contributing/writing-for-github-docs/versioning-documentation.md)
     * [Writing Content To Be Translated](contributing/writing-for-github-docs/writing-content-to-be-translated.md)
@@ -1973,15 +1972,15 @@
 - Copilot
   - Concepts
     - Agents
-      - Coding Agent
-        * [About Git Hub Copilot Cloud Agent](copilot/concepts/agents/coding-agent/about-coding-agent.md)
-        * [About Custom Agents](copilot/concepts/agents/coding-agent/about-custom-agents.md)
-        * [About Hooks](copilot/concepts/agents/coding-agent/about-hooks.md)
-        * [Managing Access To Git Hub Copilot Cloud Agent](copilot/concepts/agents/coding-agent/access-management.md)
-        * [About Agent Management](copilot/concepts/agents/coding-agent/agent-management.md)
-        * [Concepts For Git Hub Copilot Cloud Agent](copilot/concepts/agents/coding-agent/index.md)
-        * [Model Context Protocol MCP And Git Hub Copilot Cloud Agent](copilot/concepts/agents/coding-agent/mcp-and-coding-agent.md)
-        * [Risks And Mitigations For Git Hub Copilot Cloud Agent](copilot/concepts/agents/coding-agent/risks-and-mitigations.md)
+      - Cloud Agent
+        * [About Git Hub Copilot Cloud Agent](copilot/concepts/agents/cloud-agent/about-cloud-agent.md)
+        * [About Custom Agents](copilot/concepts/agents/cloud-agent/about-custom-agents.md)
+        * [About Hooks](copilot/concepts/agents/cloud-agent/about-hooks.md)
+        * [Managing Access To Git Hub Copilot Cloud Agent](copilot/concepts/agents/cloud-agent/access-management.md)
+        * [About Agent Management](copilot/concepts/agents/cloud-agent/agent-management.md)
+        * [Concepts For Git Hub Copilot Cloud Agent](copilot/concepts/agents/cloud-agent/index.md)
+        * [Model Context Protocol MCP And Git Hub Copilot Cloud Agent](copilot/concepts/agents/cloud-agent/mcp-and-cloud-agent.md)
+        * [Risks And Mitigations For Git Hub Copilot Cloud Agent](copilot/concepts/agents/cloud-agent/risks-and-mitigations.md)
       - Copilot Cli
         * [About plugins for {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/about-cli-plugins.md)
         * [About Git Hub Copilot CLI](copilot/concepts/agents/copilot-cli/about-copilot-cli.md)
@@ -2058,8 +2057,8 @@
           * [Viewing Copilot License Usage In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-access/view-license-usage.md)
         - Manage Agents
           * [Managing Agents In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/index.md)
+          * [Managing Git Hub Copilot Cloud Agent In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/manage-copilot-cloud-agent.md)
           * [Managing Git Hub Copilot Code Review In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/manage-copilot-code-review.md)
-          * [Managing Git Hub Copilot Cloud Agent In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/manage-copilot-coding-agent.md)
           * [Monitoring Agentic Activity In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/monitor-agentic-activity.md)
           * [Preparing To Use Custom Agents In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/prepare-for-custom-agents.md)
         - Manage Plan
@@ -2087,7 +2086,7 @@
         - Review Activity
           * [Reviewing Activity Related To Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/review-activity/index.md)
           * [Reviewing User Activity Data For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/review-activity/review-user-activity-data.md)
-        * [Adding Git Hub Copilot Cloud Agent To Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/add-copilot-coding-agent.md)
+        * [Adding Git Hub Copilot Cloud Agent To Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/add-copilot-cloud-agent.md)
         * [Configuring Runners For Git Hub Copilot Cloud Agent In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/configure-runner-for-coding-agent.md)
         * [Managing Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/index.md)
         * [Managing Policies And Features For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-policies.md)
@@ -2258,29 +2257,29 @@
       * [Configuring Access To AI Models In Git Hub Copilot](copilot/how-tos/use-ai-models/configure-access-to-ai-models.md)
       * [AI Models For Git Hub Copilot](copilot/how-tos/use-ai-models/index.md)
     - Use Copilot Agents
-      - Coding Agent
-        * [Changing The AI Model For Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/coding-agent/changing-the-ai-model.md)
-        * [Configuring Settings For Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/coding-agent/configuring-agent-settings.md)
-        * [Asking Git Hub Copilot To Create A Pull Request](copilot/how-tos/use-copilot-agents/coding-agent/create-a-pr.md)
-        * [Creating custom agents for {% data variables.copilot.copilot_coding_agent %}](copilot/how-tos/use-copilot-agents/coding-agent/create-custom-agents.md)
-        * [Creating agent skills for {% data variables.product.prodname_copilot %}](copilot/how-tos/use-copilot-agents/coding-agent/create-skills.md)
-        * [Customizing The Development Environment For Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/coding-agent/customize-the-agent-environment.md)
-        * [Customizing Or Disabling The Firewall For Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/coding-agent/customize-the-agent-firewall.md)
-        * [Extending Git Hub Copilot Cloud Agent With The Model Context Protocol MCP](copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp.md)
-        * [Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/coding-agent/index.md)
-        * [Integrating Copilot Cloud Agent With Azure Boards](copilot/how-tos/use-copilot-agents/coding-agent/integrate-coding-agent-with-azure-boards.md)
-        * [Integrating Copilot Cloud Agent With Jira](copilot/how-tos/use-copilot-agents/coding-agent/integrate-coding-agent-with-jira.md)
-        * [Integrating Copilot Cloud Agent With Linear](copilot/how-tos/use-copilot-agents/coding-agent/integrate-coding-agent-with-linear.md)
-        * [Integrating Copilot Cloud Agent With Slack](copilot/how-tos/use-copilot-agents/coding-agent/integrate-coding-agent-with-slack.md)
-        * [Integrating Copilot Cloud Agent With Teams](copilot/how-tos/use-copilot-agents/coding-agent/integrate-coding-agent-with-teams.md)
-        * [Asking Git Hub Copilot To Make Changes To An Existing Pull Request](copilot/how-tos/use-copilot-agents/coding-agent/make-changes-to-an-existing-pr.md)
-        * [Provide Visual Inputs To Git Hub Copilot](copilot/how-tos/use-copilot-agents/coding-agent/provide-visual-inputs.md)
-        * [Research Plan And Iterate On Code Changes With Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/coding-agent/research-plan-iterate.md)
-        * [Reviewing A Pull Request Created By Git Hub Copilot](copilot/how-tos/use-copilot-agents/coding-agent/review-copilot-prs.md)
-        * [Testing and releasing {% data variables.copilot.custom_agents_short %} in your organization or enterprise](copilot/how-tos/use-copilot-agents/coding-agent/test-custom-agents.md)
-        * [Tracking Git Hub Copilot S Sessions](copilot/how-tos/use-copilot-agents/coding-agent/track-copilot-sessions.md)
-        * [Troubleshooting Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/coding-agent/troubleshoot-coding-agent.md)
-        * [Using Hooks With Git Hub Copilot Agents](copilot/how-tos/use-copilot-agents/coding-agent/use-hooks.md)
+      - Cloud Agent
+        * [Changing The AI Model For Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/changing-the-ai-model.md)
+        * [Configuring Settings For Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/configuring-agent-settings.md)
+        * [Asking Git Hub Copilot To Create A Pull Request](copilot/how-tos/use-copilot-agents/cloud-agent/create-a-pr.md)
+        * [Creating custom agents for {% data variables.copilot.copilot_cloud_agent %}](copilot/how-tos/use-copilot-agents/cloud-agent/create-custom-agents.md)
+        * [Creating agent skills for {% data variables.product.prodname_copilot %}](copilot/how-tos/use-copilot-agents/cloud-agent/create-skills.md)
+        * [Customizing The Development Environment For Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/customize-the-agent-environment.md)
+        * [Customizing Or Disabling The Firewall For Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/customize-the-agent-firewall.md)
+        * [Extending Git Hub Copilot Cloud Agent With The Model Context Protocol MCP](copilot/how-tos/use-copilot-agents/cloud-agent/extend-cloud-agent-with-mcp.md)
+        * [Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/index.md)
+        * [Integrating Copilot Cloud Agent With Azure Boards](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-azure-boards.md)
+        * [Integrating Copilot Cloud Agent With Jira](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-jira.md)
+        * [Integrating Copilot Cloud Agent With Linear](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-linear.md)
+        * [Integrating Copilot Cloud Agent With Slack](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-slack.md)
+        * [Integrating Copilot Cloud Agent With Teams](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-teams.md)
+        * [Asking Git Hub Copilot To Make Changes To An Existing Pull Request](copilot/how-tos/use-copilot-agents/cloud-agent/make-changes-to-an-existing-pr.md)
+        * [Provide Visual Inputs To Git Hub Copilot](copilot/how-tos/use-copilot-agents/cloud-agent/provide-visual-inputs.md)
+        * [Research Plan And Iterate On Code Changes With Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/research-plan-iterate.md)
+        * [Reviewing A Pull Request Created By Git Hub Copilot](copilot/how-tos/use-copilot-agents/cloud-agent/review-copilot-prs.md)
+        * [Testing and releasing {% data variables.copilot.custom_agents_short %} in your organization or enterprise](copilot/how-tos/use-copilot-agents/cloud-agent/test-custom-agents.md)
+        * [Tracking Git Hub Copilot S Sessions](copilot/how-tos/use-copilot-agents/cloud-agent/track-copilot-sessions.md)
+        * [Troubleshooting Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/troubleshoot-cloud-agent.md)
+        * [Using Hooks With Git Hub Copilot Agents](copilot/how-tos/use-copilot-agents/cloud-agent/use-hooks.md)
       - Request A Code Review
         * [Configuring Automatic Code Review By Git Hub Copilot](copilot/how-tos/use-copilot-agents/request-a-code-review/configure-automatic-review.md)
         * [Configuring Runners For Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/configure-runners.md)
@@ -2342,8 +2341,8 @@
     * [Responsible Use Of Git Hub Copilot Chat In Your IDE](copilot/responsible-use/chat-in-your-ide.md)
     * [Responsible Use Of Git Hub Copilot Code Review](copilot/responsible-use/code-review.md)
     * [Responsible Use Of Git Hub Copilot CLI](copilot/responsible-use/copilot-cli.md)
+    * [Responsible use of GitHub Copilot cloud agent on GitHub.com](copilot/responsible-use/copilot-cloud-agent.md)
     * [Responsible Use Of Git Hub Copilot Inline Suggestions](copilot/responsible-use/copilot-code-completion.md)
-    * [Responsible use of GitHub Copilot cloud agent on GitHub.com](copilot/responsible-use/copilot-coding-agent.md)
     * [Responsible Use Of Git Hub Copilot Commit Message Generation](copilot/responsible-use/copilot-commit-message-generation.md)
     * [Responsible Use Of Git Hub Copilot In Git Hub Desktop](copilot/responsible-use/copilot-in-github-desktop.md)
     * [Responsible Use Of Git Hub Copilot In Windows Terminal](copilot/responsible-use/copilot-in-windows-terminal.md)
@@ -2352,11 +2351,11 @@
     * [Responsible Use Of Git Hub Copilot Pull Request Summaries](copilot/responsible-use/pull-request-summaries.md)
     * [Responsible Use Of Git Hub Spark](copilot/responsible-use/spark.md)
   - Tutorials
-    - Coding Agent
-      * [Best Practices For Using Git Hub Copilot To Work On Tasks](copilot/tutorials/coding-agent/get-the-best-results.md)
-      * [Using Git Hub Copilot Cloud Agent To Improve A Project](copilot/tutorials/coding-agent/improve-a-project.md)
-      * [Git Hub Copilot Cloud Agent](copilot/tutorials/coding-agent/index.md)
-      * [Piloting Git Hub Copilot Cloud Agent In Your Organization](copilot/tutorials/coding-agent/pilot-coding-agent.md)
+    - Cloud Agent
+      * [Best Practices For Using Git Hub Copilot To Work On Tasks](copilot/tutorials/cloud-agent/get-the-best-results.md)
+      * [Using Git Hub Copilot Cloud Agent To Improve A Project](copilot/tutorials/cloud-agent/improve-a-project.md)
+      * [Git Hub Copilot Cloud Agent](copilot/tutorials/cloud-agent/index.md)
+      * [Piloting Git Hub Copilot Cloud Agent In Your Organization](copilot/tutorials/cloud-agent/pilot-cloud-agent.md)
     - Copilot Chat Cookbook
       - Analyze Functionality
         * [Analyzing And Incorporating User Feedback](copilot/tutorials/copilot-chat-cookbook/analyze-functionality/analyze-feedback.md)
@@ -3011,19 +3010,18 @@
     * [Using Labels And Milestones To Track Work](issues/using-labels-and-milestones-to-track-work/index.md)
     * [Managing Labels](issues/using-labels-and-milestones-to-track-work/managing-labels.md)
     * [Viewing Your Milestone S Progress](issues/using-labels-and-milestones-to-track-work/viewing-your-milestones-progress.md)
-  * [Guides For Issues](issues/guides.md)
   * [{% data variables.product.prodname_github_issues %} documentation](issues/index.md)
 - Migrations
   - Ado
+    * [Follow Up Tasks](migrations/ado/follow-up-tasks.md)
     * [Granting The Migrator Role](migrations/ado/granting-the-migrator-role.md)
-    * [Migrating From Azure Dev Ops To Git Hub](migrations/ado/index.md)
+    * [Migrating From Azure Dev Ops](migrations/ado/index.md)
+    * [Install And Configure Git Hub Enterprise Importer](migrations/ado/install-and-configure-github-enterprise-importer.md)
     * [Key Differences Between Azure Dev Ops And Git Hub](migrations/ado/key-differences-between-azure-devops-and-github.md)
-    * [Phase 1. Understand migrations from Azure DevOps to GitHub](migrations/ado/phase-1-understand-migrations-from-azure-devops-to-github.md)
-    * [Phase 2. Manage access](migrations/ado/phase-2-manage-access.md)
-    * [Phase 3. Install and configure GitHub Enterprise Importer](migrations/ado/phase-3-install-and-configure-github-enterprise-importer.md)
-    * [Phase 4. Prepare for your migration from Azure DevOps to GitHub](migrations/ado/phase-4-prepare-for-your-migration-from-azure-devops-to-github.md)
-    * [Phase 5. Migrate your repositories from Azure DevOps to Github](migrations/ado/phase-5-migrate-your-repositories-from-azure-devops-to-github.md)
-    * [Phase 6. Follow-up tasks](migrations/ado/phase-6-follow-up-tasks.md)
+    * [Manage Access](migrations/ado/manage-access.md)
+    * [Migrate Your Repositories From Azure Dev Ops To Git Hub](migrations/ado/migrate-your-repositories-from-azure-devops-to-github.md)
+    * [Prepare For Your Migration From Azure Dev Ops To Git Hub](migrations/ado/prepare-for-your-migration-from-azure-devops-to-github.md)
+    * [Understand Migrations From Azure Dev Ops To Git Hub](migrations/ado/understand-migrations-from-azure-devops-to-github.md)
     * [Use Graph QL To Migrate Repositories From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/ado/use-graphql-to-migrate-repositories-from-azure-devops-to-github-enterprise-cloud.md)
   - Importing Source Code
     - Using Github Importer
@@ -4043,7 +4041,6 @@
     * [Sponsoring An Open Source Contributor Through Git Hub](sponsors/sponsoring-open-source-contributors/sponsoring-an-open-source-contributor-through-github.md)
     * [Sponsoring An Open Source Contributor Through Patreon](sponsors/sponsoring-open-source-contributors/sponsoring-an-open-source-contributor-through-patreon.md)
     * [Unlinking Your Patreon Account From Git Hub](sponsors/sponsoring-open-source-contributors/unlinking-your-patreon-account-from-github.md)
-  * [Guides For Git Hub Sponsors](sponsors/guides.md)
   * [{% data variables.product.prodname_sponsors %} documentation](sponsors/index.md)
 - Subscriptions And Notifications
   - Concepts
@@ -4095,11 +4092,6 @@
     * [Learning About Git Hub Support](support/learning-about-github-support/index.md)
   * [Git Hub Support Documentation](support/index.md)
   * [Sharing Feedback With Git Hub](support/sharing-feedback-with-github.md)
-- Video Transcripts
-  * [Video Transcripts](video-transcripts/index.md)
-  * [Transcript Billing Git Hub Consumption Through An Azure Subscription](video-transcripts/transcript-billing-github-consumption-through-an-azure-subscription.md)
-  * [Transcript Codespaces Your Instant Dev Box In The Cloud](video-transcripts/transcript-codespaces-your-instant-dev-box-in-the-cloud.md)
-  * [Transcript Using Projects For Feature Planning](video-transcripts/transcript-using-projects-for-feature-planning.md)
 - Webhooks
   - Testing And Troubleshooting Webhooks
     * [Testing And Troubleshooting Webhooks](webhooks/testing-and-troubleshooting-webhooks/index.md)
