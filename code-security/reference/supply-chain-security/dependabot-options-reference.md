@@ -81,6 +81,9 @@ When `allow` is specified {% data variables.product.prodname_dependabot %} uses 
 |------------|---------|
 | `dependency-name` | Allow updates for dependencies with matching names, optionally using `*` to match zero or more characters. |
 | `dependency-type` | Allow updates for dependencies of specific types. |
+| {% ifversion dependabot-allow-update-types %} |
+| `update-types` | Allow updates to one or more semantic versioning levels. Supported values: `version-update:semver-patch`, `version-update:semver-minor`, and `version-update:semver-major`. |
+| {% endif %} |
 
 ### `dependency-name` (`allow`)
 
@@ -100,6 +103,26 @@ For most package managers, you should define a value that will match the depende
 | `all` | All | All explicitly defined dependencies. For `bundler`, `pip`, `composer`, `cargo`, `gomod`{% ifversion dependabot-uv-support %}, `uv`{% endif %}, also the dependencies of direct dependencies.|
 | `production` | `bundler`, `composer`, `mix`, `maven`, `npm`, `pip`{% ifversion dependabot-uv-support %}, `uv`{% endif %} (not all managers) | Only to dependencies defined by the package manager as production dependencies. |
 | `development`| `bundler`, `composer`, `mix`, `maven`, `npm`, `pip`{% ifversion dependabot-uv-support %}, `uv`{% endif %} (not all managers) | Only to dependencies defined by the package manager as development dependencies. |
+
+{% ifversion dependabot-allow-update-types %}
+
+### `update-types` (`allow`)
+
+`update-types` only affects _version_ updates, not _security updates_.
+
+Specify which semantic versions (SemVer) to allow.
+
+SemVer is an accepted standard for defining versions of software packages, in the form `x.y.z`. {% data variables.product.prodname_dependabot %} assumes that versions in this form are always `major.minor.patch`. The `update-types` value is a list of one or more strings.
+
+* Use `version-update:semver-patch` to allow patch releases.
+* Use `version-update:semver-minor` to allow minor releases.
+* Use `version-update:semver-major` to allow major releases.
+
+When `update-types` is omitted from an `allow` rule, all update types are allowed for that rule.
+
+You can combine `update-types` with `dependency-name` or `dependency-type` to further narrow allowed updates. For examples of how you can combine these options, see [AUTOTITLE](/code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/controlling-dependencies-updated#allowing-specific-semantic-versioning-levels-for-updates).
+
+{% endif %}
 
 ## `assignees` {% octicon "versions" aria-label="Version updates" height="24" %} {% octicon "shield-check" aria-label="Security updates" height="24" %}
 
@@ -308,6 +331,7 @@ When set to `dependency-name`, {% data variables.product.prodname_dependabot %} 
 **Limitations of cross-directory grouping**
 
 When using `group-by: dependency-name`:
+
 * All directories must use the same package ecosystem (for example, all `npm` or all `bundler`)
 * Applies to **version updates only**
 * If directories have incompatible version constraints for a dependency, {% data variables.product.prodname_dependabot %} will create separate pull requests
@@ -350,7 +374,7 @@ When `ignore` is used {% data variables.product.prodname_dependabot %} uses the 
 |------------|---------|
 | `dependency-name` | Ignore updates for dependencies with matching names, optionally using `*` to match zero or more characters. |
 | `versions` | Ignore specific versions or ranges of versions. |
-| `update-types` | Ignore updates to one or more semantic versioning levels. Supported values: `version-update:semver-minor`, `version-update:semver-patch`, and `version-update:semver-major`. |
+| `update-types` | Ignore updates to one or more semantic versioning levels. Supported values: `version-update:semver-patch`, `version-update:semver-minor`, and `version-update:semver-major`. |
 
 ### `dependency-name` (`ignore`)
 
@@ -537,6 +561,9 @@ Package manager | YAML value      | Supported versions |
 | Go modules     | `gomod`          | v1               |
 | Gradle        | `gradle`         | Not applicable   |
 | Maven      | `maven`          | Not applicable   |
+| {% ifversion dependabot-nix-support %} |
+| Nix flakes | `nix`            | Not applicable   |
+| {% endif %} |
 | npm            | `npm`            |  v7, v8, v9, v10   |
 | NuGet          | `nuget`          | {% ifversion fpt or ghec or ghes > 3.14 %}<=6.12.0{% endif %} |
 | {% ifversion dependabot-opentofu-support %} |
@@ -713,6 +740,7 @@ Examples : `0 9 * * *`, `every day at 5pm`
 `0 9 * * *` is equivalent to "every day at 9am". `every day at 5pm` is equivalent to `0 17 * * *`.
 
 > [!NOTE]
+>
 > * Timezones must be specified in the [`timezone`](#timezone) parameter and not in the `cronjob`.
 > * A `cronjob` type schedule is required to use a `cron` interval.
 
@@ -872,11 +900,11 @@ New version `1.2.0`
 New version `2.0.0`
 
 * `increase`: new constraint `^2.0.0`
-* `increase-if-necessary`: new constraint `^2.0.0 `
+* `increase-if-necessary`: new constraint `^2.0.0`
 * `widen`: new constraint `>=1.0.0 <3.0.0`
 
 > [!NOTE]
-> If the package manager you use does not yet support configuring the `versioning-strategy` parameter, or does not support a value you need. The strategy code is open source, so if you'd like a particular ecosystem to support a new strategy, you are always welcome to submit a pull request in https://github.com/dependabot/dependabot-core/.
+> If the package manager you use does not yet support configuring the `versioning-strategy` parameter, or does not support a value you need, the strategy code is open source, so if you'd like a particular ecosystem to support a new strategy, you are always welcome to submit a pull request in <https://github.com/dependabot/dependabot-core/>.
 
 {% ifversion dependabot-updates-supported-versioning-tags %}
 

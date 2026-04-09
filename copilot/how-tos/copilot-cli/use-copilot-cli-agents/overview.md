@@ -13,6 +13,8 @@ contentType: how-tos
 category:
   - Author and optimize with Copilot
   - Build with Copilot CLI
+docsTeamMetrics:
+  - copilot-cli
 ---
 
 The command-line interface (CLI) for {% data variables.product.prodname_copilot %} allows you to use {% data variables.product.prodname_copilot_short %} directly from your terminal. For more information, see [AUTOTITLE](/copilot/concepts/agents/about-copilot-cli).

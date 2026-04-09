@@ -10,6 +10,8 @@ category:
   - Build with Copilot CLI
   - Copilot in the CLI
   - Author and optimize with Copilot
+docsTeamMetrics:
+  - copilot-cli
 ---
 
 ## Introduction

@@ -8,6 +8,8 @@ versions:
 contentType: how-tos
 category:
   - Build with Copilot CLI
+docsTeamMetrics:
+  - copilot-cli
 ---
 
 ## Use {% data variables.copilot.custom_agents_short %}

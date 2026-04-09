@@ -1184,6 +1184,7 @@
       * [About Code Scanning Alerts](code-security/concepts/code-scanning/about-code-scanning-alerts.md)
       * [About Code Scanning](code-security/concepts/code-scanning/about-code-scanning.md)
       * [About Integration With Code Scanning](code-security/concepts/code-scanning/about-integration-with-code-scanning.md)
+      * [Code Security Risk Assessment](code-security/concepts/code-scanning/code-security-risk-assessment.md)
       * [About Copilot Autofix For Code Scanning](code-security/concepts/code-scanning/copilot-autofix-for-code-scanning.md)
       * [Concepts For Code Scanning](code-security/concepts/code-scanning/index.md)
       * [Code Scanning Merge Protection](code-security/concepts/code-scanning/merge-protection.md)
@@ -1377,13 +1378,14 @@
       - Configure Organization Security
         - Configure Specific Tools
           * [Running The Secret Risk Assessment For Your Organization](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/assess-your-secret-risk.md)
+          * [Running The Code Security Risk Assessment For Your Organization](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/assess-your-vulnerability-risk.md)
           * [Configuring Advanced Setup For Code Scanning With Code QL At Scale](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/configuring-advanced-setup-for-code-scanning-with-codeql-at-scale.md)
           * [Configuring Default Setup For Code Scanning At Scale](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/configuring-default-setup-for-code-scanning-at-scale.md)
           * [Enforcing Dependency Review Across An Organization](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/enforcing-dependency-review-across-an-organization.md)
           * [Estimating The Price Of Secret Protection](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/estimating-the-price-of-secret-protection.md)
           * [Configure Specific Tools](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/index.md)
           * [Pricing and enabling {% data variables.product.prodname_GH_secret_protection %}](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/protect-your-secrets.md)
-          * [Viewing The Secret Risk Assessment Report For Your Organization](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/viewing-the-secret-risk-assessment-report-for-your-organization.md)
+          * [Viewing Your Security Risk Assessment Reports](code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/viewing-your-security-risk-assessment-reports.md)
         - Establish Complete Coverage
           * [Applying A Custom Security Configuration](code-security/how-tos/secure-at-scale/configure-organization-security/establish-complete-coverage/applying-a-custom-security-configuration.md)
           * [Configuring Global Security Settings For Your Organization](code-security/how-tos/secure-at-scale/configure-organization-security/establish-complete-coverage/configuring-global-security-settings-for-your-organization.md)
@@ -1752,6 +1754,7 @@
       * [Running A Security Campaign To Fix Alerts At Scale](code-security/tutorials/secure-your-organization/best-practice-fix-alerts-at-scale.md)
       * [Best Practices For Preventing Data Leaks In Your Organization](code-security/tutorials/secure-your-organization/best-practices-for-preventing-data-leaks-in-your-organization.md)
       * [Securing Your Organization](code-security/tutorials/secure-your-organization/index.md)
+      * [Interpreting Code Security Risk Assessment Results](code-security/tutorials/secure-your-organization/interpreting-code-security-risk-assessment-results.md)
       * [Interpreting Secret Risk Assessment Results](code-security/tutorials/secure-your-organization/interpreting-secret-risk-assessment-results.md)
       * [Organizing Remediation Efforts For Leaked Secrets](code-security/tutorials/secure-your-organization/organizing-remediation-efforts-for-leaked-secrets.md)
       * [Prioritizing Dependabot And Code Scanning Alerts Using Production Context](code-security/tutorials/secure-your-organization/prioritize-alerts-in-production-code.md)

@@ -64,4 +64,6 @@ includedCategories:
   - Configure Copilot CLI
   - Build with Copilot CLI
   - Administer Copilot CLI
+docsTeamMetrics:
+  - copilot-cli
 ---

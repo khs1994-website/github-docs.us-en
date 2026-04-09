@@ -14,6 +14,8 @@ contentType: rai
 category:
   - Responsible use
   - Learn about Copilot CLI
+docsTeamMetrics:
+  - copilot-cli
 ---
 
 ## About {% data variables.copilot.copilot_cli %}
