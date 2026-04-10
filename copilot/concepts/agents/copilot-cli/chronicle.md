@@ -93,4 +93,4 @@ To reindex the session store, use the following slash command in an interactive 
 ## Further reading
 
 * [AUTOTITLE](/copilot/how-tos/copilot-cli/chronicle)
-* [AUTOTITLE](/copilot/reference/cli-command-reference)
+* [AUTOTITLE](/copilot/reference/copilot-cli-reference/cli-command-reference)

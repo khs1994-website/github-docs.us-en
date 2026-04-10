@@ -14,6 +14,7 @@ children:
   - /fleet
   - /research
   - /chronicle
+  - /context-management
 contentType: concepts
 docsTeamMetrics:
   - copilot-cli

@@ -279,7 +279,7 @@ Visualize your current context usage with `/context`. It shows a breakdown of:
 
 * System/tools tokens
 * Message history tokens
-* Available free space
+* Free space
 * Buffer allocation
 
 ## 4. Delegate work effectively

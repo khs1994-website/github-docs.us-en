@@ -1991,6 +1991,7 @@
         * [Allowing Git Hub Copilot CLI To Work Autonomously](copilot/concepts/agents/copilot-cli/autopilot.md)
         * [About {% data variables.copilot.copilot_cli %} session data](copilot/concepts/agents/copilot-cli/chronicle.md)
         * [Comparing Git Hub Copilot CLI Customization Features](copilot/concepts/agents/copilot-cli/comparing-cli-features.md)
+        * [Managing context in {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/context-management.md)
         * [Running Tasks In Parallel With The Fleet Command](copilot/concepts/agents/copilot-cli/fleet.md)
         * [Concepts For Git Hub Copilot CLI](copilot/concepts/agents/copilot-cli/index.md)
         * [Researching with {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/research.md)
@@ -2104,11 +2105,9 @@
       * [Viewing The Code Generation Dashboard](copilot/how-tos/administer-copilot/view-code-generation.md)
       * [Viewing The Copilot Usage Metrics Dashboard](copilot/how-tos/administer-copilot/view-usage-and-adoption.md)
     - Chat With Copilot
-      * [Asking Git Hub Copilot Questions In Git Hub](copilot/how-tos/chat-with-copilot/chat-in-github.md)
       * [Asking Git Hub Copilot Questions In Your IDE](copilot/how-tos/chat-with-copilot/chat-in-ide.md)
-      * [Asking Git Hub Copilot Questions In Git Hub Mobile](copilot/how-tos/chat-with-copilot/chat-in-mobile.md)
       * [Asking Git Hub Copilot Questions In Windows Terminal](copilot/how-tos/chat-with-copilot/chat-in-windows-terminal.md)
-      * [Getting Started With Prompts For Git Hub Copilot Chat](copilot/how-tos/chat-with-copilot/get-started-with-chat.md)
+      * [Getting Started With Prompts For Git Hub Copilot Chat In Your IDE](copilot/how-tos/chat-with-copilot/get-started-with-chat-in-your-ide.md)
       * [Git Hub Copilot Chat](copilot/how-tos/chat-with-copilot/index.md)
     - Configure Content Exclusion
       * [Excluding Content From Git Hub Copilot](copilot/how-tos/configure-content-exclusion/exclude-content-from-copilot.md)
@@ -2163,6 +2162,13 @@
       * [Connecting {% data variables.copilot.copilot_cli %} to {% data variables.product.prodname_vscode_shortname %}](copilot/how-tos/copilot-cli/connecting-vs-code.md)
       * [{% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/index.md)
       * [Speeding Up Task Completion With The Fleet Command](copilot/how-tos/copilot-cli/speeding-up-task-completion.md)
+    - Copilot On Github
+      - Chat With Copilot
+        * [Asking Git Hub Copilot Questions In Git Hub](copilot/how-tos/copilot-on-github/chat-with-copilot/chat-in-github.md)
+        * [Asking Git Hub Copilot Questions In Git Hub Mobile](copilot/how-tos/copilot-on-github/chat-with-copilot/chat-in-mobile.md)
+        * [Getting started with prompts for {% data variables.copilot.copilot_chat_short %} on {% data variables.product.github %}](copilot/how-tos/copilot-on-github/chat-with-copilot/get-started-with-chat.md)
+        * [Chat with {% data variables.product.prodname_copilot_short %}](copilot/how-tos/copilot-on-github/chat-with-copilot/index.md)
+      * [{% data variables.product.prodname_copilot %} on {% data variables.product.github %}](copilot/how-tos/copilot-on-github/index.md)
     - Copilot Sdk
       - Authenticate Copilot Sdk
         * [Authenticating With Copilot SDK](copilot/how-tos/copilot-sdk/authenticate-copilot-sdk/authenticate-copilot-sdk.md)
