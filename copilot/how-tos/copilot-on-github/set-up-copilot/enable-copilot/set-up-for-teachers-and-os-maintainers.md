@@ -1,7 +1,7 @@
 ---
-title: 'Getting free access to GitHub Copilot Pro as a teacher or maintainer'
-shortTitle: Get free access to Copilot Pro
-intro: 'Learn how to use {% data variables.copilot.copilot_pro_short %} for free as a teacher or open-source maintainer.'
+title: 'Access Copilot Pro for free as a teacher or open source maintainer'
+shortTitle: Set up for teachers and OS maintainers
+intro: 'Get free access to {% data variables.copilot.copilot_pro_short %} as a verified teacher or open-source maintainer.'
 versions:
   feature: copilot
 redirect_from:
@@ -10,6 +10,8 @@ redirect_from:
   - /copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-github-copilot-pro-subscription/getting-free-access-to-copilot-pro-as-a-student-teacher-or-maintainer
   - /copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/getting-started-with-copilot-on-your-personal-account/getting-free-access-to-copilot-pro-as-a-student-teacher-or-maintainer
   - /copilot/how-tos/manage-your-account/getting-free-access-to-copilot-pro-as-a-student-teacher-or-maintainer
+  - /copilot/how-tos/manage-your-account/get-free-access-to-copilot-pro
+  - /copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/get-free-access-to-copilot-pro
 contentType: how-tos
 category: 
   - Configure Copilot
@@ -19,8 +21,8 @@ category:
 
 There are two ways to qualify for free access to {% data variables.copilot.copilot_pro_short %}:
 
-* **As a verified teacher on {% data variables.product.prodname_education %}.** To learn about becoming a verified teacher, see [AUTOTITLE](/free-pro-team@latest/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-teachers/apply-to-github-education-as-a-teacher).
-* **As a maintainer of a popular open-source repository.** To determine if you are an eligible maintainer, see [Accessing {% data variables.copilot.copilot_pro_short %} for free](#accessing-copilot-pro-for-free).
+* **As a verified teacher on {% data variables.product.prodname_education %}.** To become a verified teacher, see [AUTOTITLE](/free-pro-team@latest/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-teachers/apply-to-github-education-as-a-teacher).
+* **As a maintainer of a popular open-source repository.** To check your eligibility, see [Accessing {% data variables.copilot.copilot_pro_short %} for free](#accessing-copilot-pro-for-free).
 
 {% data variables.product.company_short %} reevaluates your eligibility every month.
 

@@ -2,7 +2,7 @@
 title: Configuring automatic code review by GitHub Copilot
 shortTitle: Configure automatic review
 allowTitleToDifferFromFilename: true
-intro: 'Learn how to configure {% data variables.product.prodname_copilot_short %} to automatically review pull requests.'
+intro: 'Set up {% data variables.product.prodname_copilot_short %} to automatically review pull requests for you, a repository, or an organization.'
 versions:
   feature: copilot
 redirect_from:
@@ -11,6 +11,7 @@ redirect_from:
   - /copilot/how-tos/agents/copilot-code-review/automatic-code-review
   - /copilot/how-tos/agents/copilot-code-review/configure-automatic-review
   - /copilot/how-tos/agents/request-a-code-review/configure-automatic-review
+  - /copilot/how-tos/use-copilot-agents/request-a-code-review/configure-automatic-review
 contentType: how-tos
 category: 
   - Configure Copilot
@@ -18,13 +19,7 @@ category:
 
 ## Introduction
 
-This article tells you how to set up {% data variables.copilot.copilot_code-review_short %} to review pull requests automatically. For an overview of automatic pull request reviews, see [AUTOTITLE](/copilot/concepts/code-review#about-automatic-pull-request-reviews).
-
-The three sections in this article tell you how to configure automatic code review for:
-
-* [Pull requests that you create yourself](#configuring-automatic-code-review-for-your-own-pull-requests)
-* [All new pull requests in a repository](#configuring-automatic-code-review-for-a-single-repository)
-* [Pull requests in multiple repositories owned by an organization](#configuring-automatic-code-review-for-repositories-in-an-organization)
+You can configure {% data variables.copilot.copilot_code-review_short %} to review pull requests automatically. For an overview of automatic pull request reviews, see [AUTOTITLE](/copilot/concepts/code-review#about-automatic-pull-request-reviews).
 
 ## Configuring automatic code review for your own pull requests
 
@@ -54,12 +49,12 @@ The three sections in this article tell you how to configure automatic code revi
 {% data reusables.organizations.access-ruleset-settings %}
 {% data reusables.repositories.repo-new-ruleset %}
 1. Under "Target repositories," click **Add target** and choose either **Include by pattern** or **Exclude by pattern**.
-1. In the dialog box that's displayed, type a pattern that will match the names of repositories in your organization—for example, `*feature` to match all repositories with names that end in `feature`.
+1. Type a pattern that matches the repository names you want to target—for example, `*feature` to match all repositories with names ending in `feature`.
 
-   For information about pattern-matching syntax, see [AUTOTITLE](/organizations/managing-organization-settings/creating-rulesets-for-repositories-in-your-organization#using-fnmatch-syntax).
+   For pattern-matching syntax, see [AUTOTITLE](/organizations/managing-organization-settings/creating-rulesets-for-repositories-in-your-organization#using-fnmatch-syntax).
 
-1. In the dialog box, click **Add inclusion pattern** or **Add exclusion pattern**.
-1. Repeat the process for any additional patterns you want to add.
+1. Click **Add inclusion pattern** or **Add exclusion pattern**.
+1. Repeat for any additional patterns.
 
    > [!NOTE]
    > You can add multiple targeting criteria to the same ruleset. Exclusion patterns are applied after inclusion patterns. For example, you could include any repositories matching the pattern `*cat*`, and specifically exclude a repository matching the pattern `not-a-cat`.
