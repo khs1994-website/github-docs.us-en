@@ -1998,6 +1998,7 @@
         * [Managing context in {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/context-management.md)
         * [Running Tasks In Parallel With The Fleet Command](copilot/concepts/agents/copilot-cli/fleet.md)
         * [Concepts For Git Hub Copilot CLI](copilot/concepts/agents/copilot-cli/index.md)
+        * [Using LSP servers with {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/lsp-servers.md)
         * [Researching with {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/research.md)
       * [About Agent Skills](copilot/concepts/agents/about-agent-skills.md)
       * [About Third Party Agents](copilot/concepts/agents/about-third-party-agents.md)
@@ -2137,8 +2138,8 @@
       - Customize Copilot
         * [Adding custom instructions for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/add-custom-instructions.md)
         * [Adding MCP servers for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/add-mcp-servers.md)
+        * [Adding agent skills for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/add-skills.md)
         * [Creating and using custom agents for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/create-custom-agents-for-cli.md)
-        * [Creating agent skills for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/create-skills.md)
         * [Customize Git Hub Copilot CLI](copilot/how-tos/copilot-cli/customize-copilot/index.md)
         * [Overview of customizing {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/overview.md)
         * [Creating a plugin for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/plugins-creating.md)
@@ -2147,8 +2148,9 @@
         * [Using Your Own LLM Models In Git Hub Copilot CLI](copilot/how-tos/copilot-cli/customize-copilot/use-byok-models.md)
         * [Using hooks with {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/use-hooks.md)
       - Set Up Copilot Cli
+        * [Adding LSP servers for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/set-up-copilot-cli/add-lsp-servers.md)
         * [Authenticating Git Hub Copilot CLI](copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli.md)
-        * [Configure Git Hub Copilot CLI](copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli.md)
+        * [Configuring Git Hub Copilot CLI](copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli.md)
         * [Setting Up Git Hub Copilot CLI](copilot/how-tos/copilot-cli/set-up-copilot-cli/index.md)
         * [Installing Git Hub Copilot CLI](copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli.md)
         * [Troubleshooting Git Hub Copilot CLI Authentication](copilot/how-tos/copilot-cli/set-up-copilot-cli/troubleshoot-copilot-cli-auth.md)
@@ -2285,11 +2287,11 @@
       * [AI Models For Git Hub Copilot](copilot/how-tos/use-ai-models/index.md)
     - Use Copilot Agents
       - Cloud Agent
+        * [Adding agent skills for {% data variables.product.prodname_copilot %}](copilot/how-tos/use-copilot-agents/cloud-agent/add-skills.md)
         * [Changing The AI Model For Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/changing-the-ai-model.md)
         * [Configuring Settings For Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/configuring-agent-settings.md)
         * [Asking Git Hub Copilot To Create A Pull Request](copilot/how-tos/use-copilot-agents/cloud-agent/create-a-pr.md)
         * [Creating custom agents for {% data variables.copilot.copilot_cloud_agent %}](copilot/how-tos/use-copilot-agents/cloud-agent/create-custom-agents.md)
-        * [Creating agent skills for {% data variables.product.prodname_copilot %}](copilot/how-tos/use-copilot-agents/cloud-agent/create-skills.md)
         * [Customizing The Development Environment For Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/customize-the-agent-environment.md)
         * [Customizing Or Disabling The Firewall For Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/customize-the-agent-firewall.md)
         * [Extending Git Hub Copilot Cloud Agent With The Model Context Protocol MCP](copilot/how-tos/use-copilot-agents/cloud-agent/extend-cloud-agent-with-mcp.md)
