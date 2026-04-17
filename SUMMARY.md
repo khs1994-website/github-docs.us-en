@@ -3621,8 +3621,6 @@
     * [REST API Endpoints For Notifications](rest/activity/notifications.md)
     * [REST API Endpoints For Starring](rest/activity/starring.md)
     * [REST API Endpoints For Watching](rest/activity/watching.md)
-  - Agent Tasks
-    * [Agent Tasks](rest/agent-tasks/index.md)
   - Announcement Banners
     * [REST API Endpoints For Enterprise Announcement Banners](rest/announcement-banners/enterprises.md)
     * [REST API Endpoints For Announcement Banners](rest/announcement-banners/index.md)
