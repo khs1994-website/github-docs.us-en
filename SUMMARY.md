@@ -2066,8 +2066,9 @@
           * [Managing Git Hub Copilot Access To Your Enterprise S Network](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-access/manage-network-access.md)
           * [Viewing Copilot License Usage In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-access/view-license-usage.md)
         - Manage Agents
+          * [Blocking Git Hub Copilot Cloud Agent In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/block-copilot-cloud-agent.md)
+          * [Enabling Git Hub Copilot Cloud Agent In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/enable-copilot-cloud-agent.md)
           * [Managing Agents In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/index.md)
-          * [Managing Git Hub Copilot Cloud Agent In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/manage-copilot-cloud-agent.md)
           * [Managing Git Hub Copilot Code Review In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/manage-copilot-code-review.md)
           * [Monitoring Agentic Activity In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/monitor-agentic-activity.md)
           * [Preparing To Use Custom Agents In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/prepare-for-custom-agents.md)
@@ -2194,6 +2195,14 @@
         * [Configuring Automatic Code Review By Git Hub Copilot](copilot/how-tos/copilot-on-github/set-up-copilot/configure-automatic-review.md)
         * [Configuring Runners For Git Hub Copilot Code Review](copilot/how-tos/copilot-on-github/set-up-copilot/configure-runners.md)
         * [Set up {% data variables.product.prodname_copilot_short %}](copilot/how-tos/copilot-on-github/set-up-copilot/index.md)
+      - Use Copilot Agents
+        * [Using {% data variables.copilot.copilot_code-review %} on {% data variables.product.github %}](copilot/how-tos/copilot-on-github/use-copilot-agents/copilot-code-review.md)
+        * [Use {% data variables.product.prodname_copilot_short %} agents](copilot/how-tos/copilot-on-github/use-copilot-agents/index.md)
+        * [Kick off a task with {% data variables.product.prodname_copilot_short %} agents on {% data variables.product.github %}](copilot/how-tos/copilot-on-github/use-copilot-agents/kick-off-a-task.md)
+        * [Manage and track {% data variables.copilot.copilot_cloud_agent %} sessions](copilot/how-tos/copilot-on-github/use-copilot-agents/manage-and-track-agents.md)
+        * [Get started with {% data variables.product.prodname_copilot_short %} agents on {% data variables.product.github %}](copilot/how-tos/copilot-on-github/use-copilot-agents/overview.md)
+        * [Research, plan, and iterate on code changes with {% data variables.copilot.copilot_cloud_agent %}](copilot/how-tos/copilot-on-github/use-copilot-agents/research-plan-iterate.md)
+        * [Review output from {% data variables.product.prodname_copilot_short %}](copilot/how-tos/copilot-on-github/use-copilot-agents/review-copilot-output.md)
       * [{% data variables.product.prodname_copilot %} on {% data variables.product.github %}](copilot/how-tos/copilot-on-github/index.md)
     - Copilot Sdk
       - Authenticate Copilot Sdk
@@ -2301,10 +2310,6 @@
         * [Integrating Copilot Cloud Agent With Linear](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-linear.md)
         * [Integrating Copilot Cloud Agent With Slack](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-slack.md)
         * [Integrating Copilot Cloud Agent With Teams](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-teams.md)
-        * [Asking Git Hub Copilot To Make Changes To An Existing Pull Request](copilot/how-tos/use-copilot-agents/cloud-agent/make-changes-to-an-existing-pr.md)
-        * [Provide Visual Inputs To Git Hub Copilot](copilot/how-tos/use-copilot-agents/cloud-agent/provide-visual-inputs.md)
-        * [Research Plan And Iterate On Code Changes With Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/research-plan-iterate.md)
-        * [Reviewing A Pull Request Created By Git Hub Copilot](copilot/how-tos/use-copilot-agents/cloud-agent/review-copilot-prs.md)
         * [Testing and releasing {% data variables.copilot.custom_agents_short %} in your organization or enterprise](copilot/how-tos/use-copilot-agents/cloud-agent/test-custom-agents.md)
         * [Tracking Git Hub Copilot S Sessions](copilot/how-tos/use-copilot-agents/cloud-agent/track-copilot-sessions.md)
         * [Troubleshooting Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/troubleshoot-cloud-agent.md)
@@ -2314,7 +2319,6 @@
         * [Using Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review.md)
       * [Managing And Curating Copilot Memory](copilot/how-tos/use-copilot-agents/copilot-memory.md)
       * [Use Git Hub Copilot Agents](copilot/how-tos/use-copilot-agents/index.md)
-      * [Managing Cloud Agents](copilot/how-tos/use-copilot-agents/manage-agents.md)
     - Use Copilot For Common Tasks
       * [Use Git Hub Copilot For Common Tasks](copilot/how-tos/use-copilot-for-common-tasks/index.md)
       * [Using The Git Hub CLI Copilot Extension](copilot/how-tos/use-copilot-for-common-tasks/use-copilot-in-the-cli.md)
