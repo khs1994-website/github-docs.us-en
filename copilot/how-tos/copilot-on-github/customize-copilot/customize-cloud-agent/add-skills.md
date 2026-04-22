@@ -12,6 +12,7 @@ category:
 redirect_from:
   - /copilot/how-tos/use-copilot-agents/coding-agent/create-skills
   - /copilot/how-tos/use-copilot-agents/cloud-agent/create-skills
+  - /copilot/how-tos/use-copilot-agents/cloud-agent/add-skills
 ---
 
 > [!NOTE]

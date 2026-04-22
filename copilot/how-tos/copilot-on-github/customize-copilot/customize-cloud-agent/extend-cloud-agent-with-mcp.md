@@ -1,8 +1,7 @@
 ---
-title: Extending GitHub Copilot cloud agent with the Model Context Protocol (MCP)
+title: Connect agents to external tools
 shortTitle: Extend cloud agent with MCP
-allowTitleToDifferFromFilename: true
-intro: 'Learn how to use the Model Context Protocol (MCP) to extend the capabilities of {% data variables.copilot.copilot_cloud_agent %}.'
+intro: 'Connect {% data variables.copilot.copilot_cloud_agent %} to external tools and data sources through the Model Context Protocol (MCP).'
 versions:
   feature: copilot
 redirect_from:
@@ -14,6 +13,7 @@ redirect_from:
   - /copilot/how-tos/agents/copilot-coding-agent/extending-copilot-coding-agent-with-mcp
   - /copilot/how-tos/agents/copilot-coding-agent/extend-coding-agent-with-mcp
   - /copilot/how-tos/agents/coding-agent/extend-coding-agent-with-mcp
+  - /copilot/how-tos/use-copilot-agents/cloud-agent/extend-cloud-agent-with-mcp
 contentType: how-tos
 category:
   - Integrate Copilot with your tools
@@ -92,7 +92,7 @@ The configuration object can contain the following keys:
   * A substitution reference to a secret or variable in your {% data variables.product.prodname_copilot_short %} environment, such as `$COPILOT_MCP_API_KEY` or `${COPILOT_MCP_API_KEY}`. Referenced names must start with `COPILOT_MCP_`.
   * A literal string value.
 
-Note that all `string` and `string[]` fields besides `tools` & `type` support substitution with a variable or secret you have configured in your {% data variables.product.prodname_copilot_short %} environment.
+Note that all `string` and `string[]` fields besides `tools` and `type` support substitution with a variable or secret you have configured in your {% data variables.product.prodname_copilot_short %} environment.
 
 ### Variable substitution
 
@@ -107,7 +107,6 @@ The following syntax patterns are supported for referencing environment variable
 ## Example configurations
 
 The examples below show MCP server configurations for different providers.
-
 * [Sentry](#example-sentry)
 * [Notion](#example-notion)
 * [Azure](#example-azure)
@@ -129,7 +128,6 @@ The [Sentry MCP server](https://github.com/getsentry/sentry-mcp) gives {% data v
       // We can use the $SENTRY_HOST environment variable which is passed to
       // the server because of the `env` value below.
       "args": ["@sentry/mcp-server@latest", "--host=$SENTRY_HOST"],
-      "tools": ["get_issue_details", "get_issue_summary"],
       "env": {
         // We can specify an environment variable value as a string...
         "SENTRY_HOST": "https://contoso.sentry.io",

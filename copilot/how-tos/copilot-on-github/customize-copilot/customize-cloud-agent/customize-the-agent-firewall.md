@@ -11,6 +11,7 @@ redirect_from:
   - /copilot/how-tos/agents/copilot-coding-agent/customizing-or-disabling-the-firewall-for-copilot-coding-agent
   - /copilot/how-tos/agents/copilot-coding-agent/customize-the-agent-firewall
   - /copilot/how-tos/agents/coding-agent/customize-the-agent-firewall
+  - /copilot/how-tos/use-copilot-agents/cloud-agent/customize-the-agent-firewall
 contentType: how-tos
 category:
   - Configure Copilot
@@ -23,11 +24,11 @@ category:
 
 By default, {% data variables.product.prodname_copilot_short %}'s access to the internet is limited by a firewall.
 
-Limiting access to the internet helps to manage data exfiltration risks, where surprising behavior from {% data variables.product.prodname_copilot_short %}, or malicious instructions given to it, could lead to code or other sensitive information being leaked to remote locations.
+Limiting internet access helps manage data exfiltration risks. Unexpected behavior from {% data variables.product.prodname_copilot_short %}, or malicious instructions, could lead to code or other sensitive information being leaked to remote locations.
 
 The firewall always allows access to a number of hosts that {% data variables.product.prodname_copilot_short %} uses to interact with {% data variables.product.github %}. By default, a recommended allowlist is also enabled to allow the agent to download dependencies.
 
-If {% data variables.product.prodname_copilot_short %} tries to make a request which is blocked by the firewall, a warning is added to the pull request body (if {% data variables.product.prodname_copilot_short %} is creating a pull request for the first time) or to a comment (if {% data variables.product.prodname_copilot_short %} is responding to a pull request comment). The warning shows the blocked address and the command that tried to make the request.
+If {% data variables.product.prodname_copilot_short %} tries to make a request which is blocked by the firewall, a warning is added to the pull request body (for new pull requests) or to a comment (for existing pull requests). The warning shows the blocked address and the command that tried to make the request.
 
 ![Screenshot of a warning from {% data variables.product.prodname_copilot_short %} about being blocked by the firewall.](/assets/images/help/copilot/cloud-agent/firewall-warning.png)
 
@@ -39,7 +40,7 @@ The agent firewall has important limitations that affect its security coverage.
 * **Only applies within the {% data variables.product.prodname_actions %} appliance**: The firewall only operates within the {% data variables.product.prodname_actions %} appliance environment. It does not apply to processes running outside of this environment.
 * **Bypass potential**: Sophisticated attacks may bypass the firewall, potentially allowing unauthorized network access and data exfiltration.
 
-These limitations mean that the firewall provides a layer of protection for common scenarios, but should not be considered a comprehensive security solution.
+These limitations mean that the firewall provides protection for common scenarios, but should not be considered a comprehensive security solution.
 
 ## Understanding the recommended firewall allowlist
 

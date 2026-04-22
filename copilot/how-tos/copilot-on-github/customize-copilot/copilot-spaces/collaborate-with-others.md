@@ -1,7 +1,7 @@
 ---
 title: Collaborating with others using GitHub Copilot Spaces
 shortTitle: Collaborate with others
-intro: 'Learn how to share {% data variables.copilot.copilot_spaces %} to support collaboration and knowledge sharing.'
+intro: 'Share {% data variables.copilot.copilot_spaces %} to support collaboration and knowledge sharing.'
 permissions: 'Anyone with a {% data variables.product.prodname_copilot_short %} license can use {% data variables.copilot.copilot_spaces_short %}.'
 versions:
   feature: copilot
@@ -11,6 +11,7 @@ redirect_from:
   - /copilot/how-tos/context/copilot-spaces/collaborate-with-your-team
   - /copilot/how-tos/context/use-copilot-spaces/collaborate-with-your-team
   - /copilot/how-tos/provide-context/use-copilot-spaces/collaborate-with-your-team
+  - /copilot/how-tos/provide-context/use-copilot-spaces/collaborate-with-others
 contentType: how-tos
 category: 
   - Author and optimize with Copilot
@@ -29,7 +30,7 @@ category:
 * **System knowledge**: Create a space for a complex system or workflow (like authentication or CI pipelines) that other people can reference.
 * **Style guides or review checklists**: Document standards and examples in a space that {% data variables.product.prodname_copilot_short %} can reference when suggesting changes.
 
-For example, a subject matter expert creates a space called “Accessibility Reviews” that includes your team’s internal accessibility checklist, product guidelines, and WCAG documentation. Developers can ask {% data variables.product.prodname_copilot_short %} questions directly in the space to ensure they're following the latest guidelines in their work.
+For example, a subject matter expert creates a space called "Accessibility Reviews" that includes your team's internal accessibility checklist, product guidelines, and WCAG documentation. Developers can ask {% data variables.product.prodname_copilot_short %} questions directly in the space to ensure they're following the latest guidelines in their work.
 
 ## Sharing {% data variables.copilot.copilot_spaces_short %}
 
@@ -41,7 +42,7 @@ Organization-owned spaces can be shared with other organization members, and you
 
 Alternatively, you can choose to grant "No access" to organization members, and keep the space hidden.
 
-To share a organization-owned space with others:
+To share an organization-owned space with others:
 
 1. In the top right corner of the space, click **{% octicon "share" aria-hidden="true" aria-label="share" %}**.
 1. To add specific users or teams, search for them with the search bar, then choose a role for the people you added.

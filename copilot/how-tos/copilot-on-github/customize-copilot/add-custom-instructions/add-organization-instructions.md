@@ -10,6 +10,7 @@ redirect_from:
   - /copilot/customizing-copilot/adding-organization-custom-instructions-for-github-copilot
   - /copilot/how-tos/custom-instructions/adding-organization-custom-instructions-for-github-copilot
   - /copilot/how-tos/custom-instructions/add-organization-instructions
+  - /copilot/how-tos/configure-custom-instructions/add-organization-instructions
 contentType: how-tos
 category: 
   - Configure Copilot

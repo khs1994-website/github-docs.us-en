@@ -11,12 +11,11 @@ redirect_from:
   - /copilot/how-tos/context/copilot-spaces/creating-and-using-copilot-spaces
   - /copilot/how-tos/context/copilot-spaces/create-and-use-copilot-spaces
   - /copilot/how-tos/context/use-copilot-spaces/create-and-use-copilot-spaces
+  - /copilot/how-tos/provide-context/use-copilot-spaces/create-copilot-spaces
 contentType: how-tos
 category: 
   - Author and optimize with Copilot
 ---
-
-For an overview of {% data variables.copilot.copilot_spaces %}, see [AUTOTITLE](/copilot/concepts/about-organizing-and-sharing-context-with-copilot-spaces).
 
 ## Creating a space
 
@@ -24,7 +23,7 @@ For an overview of {% data variables.copilot.copilot_spaces %}, see [AUTOTITLE](
 1. Give your space a name.
 1. Choose whether the space is owned by you or by an organization you belong to. Organization-owned {% data variables.copilot.copilot_spaces_short %} can be shared using {% data variables.product.github %}’s built-in permission model.
 1. Click **Create Space**.
-1. Optionally, once you are in the space, under the space name, add a description. This does not affect the responses {% data variables.product.prodname_copilot_short %} gives in the space, but it can help others understand the context of the space.
+1. Optionally, under the space name, add a description. The description does not affect {% data variables.product.prodname_copilot_short %}'s responses, but helps others understand the purpose of the space.
 
    >[!NOTE] You can change the name and description of your space at any time by hovering over them and clicking **{% octicon "pencil" aria-hidden="true" aria-label="pencil" %}**.
 
@@ -51,9 +50,9 @@ You can add two types of context to your space:
 
 When adding sources to your space, you can choose to attach entire repositories or individual files. Understanding how each option works can help you get the best results from {% data variables.product.prodname_copilot_short %}.
 
-* **Attach a repository**: When you attach a repository, {% data variables.product.prodname_copilot_short %} doesn't load the entire project into memory. Instead, it searches the repository and retrieves only the most relevant content needed to answer your question. This is recommended for large-scale use cases (for example, answering questions across all documentation in a repository).
+* **Attach a repository**: When you attach a repository, {% data variables.product.prodname_copilot_short %} doesn't load the entire project into memory. Instead, it searches the repository and retrieves only the most relevant content for your question. This is best for large-scale use cases, such as answering questions across all documentation in a repository.
 
-* **Attach individual files**: When you attach a file, its full contents are loaded into {% data variables.product.prodname_copilot_short %}'s context window and considered for every query in that space. This is best when you want {% data variables.product.prodname_copilot_short %} to consistently prioritize a specific document or small set of files.
+* **Attach individual files**: When you attach a file, its full contents are loaded into {% data variables.product.prodname_copilot_short %}'s context window and considered for every query in that space. This is best when you want {% data variables.product.prodname_copilot_short %} to consistently prioritize a specific document or a small set of files.
 
 ## Adding context as you're working
 
@@ -67,6 +66,7 @@ You can add files to a space directly from the code view on {% data variables.pr
 
 ## Next steps
 
-* To learn more about using {% data variables.copilot.copilot_spaces_short %} in {% data variables.product.github %} and your IDE, see [AUTOTITLE](/copilot/how-tos/provide-context/use-copilot-spaces/use-copilot-spaces).
-* To learn more about how to use {% data variables.copilot.copilot_spaces_short %} to help you with development work, see [AUTOTITLE](/copilot/using-github-copilot/copilot-spaces/speeding-up-development-work-with-copilot-spaces).
-* To learn how to share your space with your team, see [AUTOTITLE](/copilot/using-github-copilot/copilot-spaces/collaborating-with-your-team-using-copilot-spaces).
+* For an overview of {% data variables.copilot.copilot_spaces %}, see [AUTOTITLE](/copilot/concepts/about-organizing-and-sharing-context-with-copilot-spaces).
+* To use {% data variables.copilot.copilot_spaces_short %} in {% data variables.product.github %} and your IDE, see [AUTOTITLE](/copilot/how-tos/provide-context/use-copilot-spaces/use-copilot-spaces).
+* To speed up development work with {% data variables.copilot.copilot_spaces_short %}, see [AUTOTITLE](/copilot/using-github-copilot/copilot-spaces/speeding-up-development-work-with-copilot-spaces).
+* To share your space with your team, see [AUTOTITLE](/copilot/using-github-copilot/copilot-spaces/collaborating-with-your-team-using-copilot-spaces).

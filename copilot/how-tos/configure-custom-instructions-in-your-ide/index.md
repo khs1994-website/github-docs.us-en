@@ -5,10 +5,6 @@ intro: 'Learn how to give {% data variables.product.prodname_copilot %} persiste
 versions:
   feature: copilot
 children:
-  - /add-personal-instructions
-  - /add-repository-instructions
-  - /add-organization-instructions
-redirect_from:
-  - /copilot/how-tos/custom-instructions
+  - /add-repository-instructions-in-your-ide
 contentType: how-tos
 ---
