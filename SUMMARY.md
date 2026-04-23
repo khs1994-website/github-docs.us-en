@@ -2045,6 +2045,7 @@
     * [MCP Server Usage In Your Company](copilot/concepts/mcp-management.md)
     * [Network Settings For Git Hub Copilot](copilot/concepts/network-settings.md)
     * [Git Hub Copilot Policies To Control Availability Of Features And Models](copilot/concepts/policies.md)
+    * [Preparing For New Features And Models](copilot/concepts/preparing-for-new-features-and-models.md)
     * [About Git Hub Spark](copilot/concepts/spark.md)
     * [Usage Limits For Git Hub Copilot](copilot/concepts/usage-limits.md)
   - Get Started
