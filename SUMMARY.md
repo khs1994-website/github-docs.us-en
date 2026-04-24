@@ -2095,7 +2095,6 @@
         - Manage Plan
           * [Canceling Git Hub Copilot For Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-plan/cancel.md)
           * [Managing The Git Hub Copilot Plan For Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-plan/index.md)
-          * [Subscribing To Git Hub Copilot For Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-plan/subscribe.md)
         - Review Activity
           * [Reviewing Activity Related To Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/review-activity/index.md)
           * [Reviewing User Activity Data For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/review-activity/review-user-activity-data.md)
@@ -3232,6 +3231,7 @@
     * [Managing Organization Settings](organizations/managing-organization-settings/index.md)
     * [Integrating Jira with your organization {% data variables.projects.projects_v1_board %}](organizations/managing-organization-settings/integrating-jira-with-your-organization-project-board.md)
     * [Managing base permissions for {% data variables.projects.projects_v2 %}](organizations/managing-organization-settings/managing-base-permissions-for-projects.md)
+    * [Managing Commit Comments For Your Organization](organizations/managing-organization-settings/managing-commit-comments-for-your-organization.md)
     * [Managing Custom Properties For Repositories In Your Organization](organizations/managing-organization-settings/managing-custom-properties-for-repositories-in-your-organization.md)
     * [Managing Default Labels For Repositories In Your Organization](organizations/managing-organization-settings/managing-default-labels-for-repositories-in-your-organization.md)
     * [Managing Discussion Creation For Repositories In Your Organization](organizations/managing-organization-settings/managing-discussion-creation-for-repositories-in-your-organization.md)
