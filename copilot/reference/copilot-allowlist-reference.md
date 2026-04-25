@@ -21,6 +21,7 @@ If your company employs security measures like a firewall or proxy server, you s
 | Domain and/or URL                                           | Purpose |
 |:------------------------------------------------------------| :--------------------------------- |
 | `https://github.com/login/*`                                | Authentication |
+| `https://github.com/copilot/*`                              | {% data variables.product.prodname_copilot_short %} on {% data variables.product.github %} |
 | `https://github.com/enterprises/YOUR-ENTERPRISE/*`          | Authentication for {% data variables.enterprise.prodname_managed_users %}, only required with {% data variables.product.prodname_emus %} |
 | `https://api.github.com/user`                               | User Management |
 | `https://api.github.com/copilot_internal/*`                 | User Management |

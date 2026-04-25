@@ -271,7 +271,7 @@ For additional information use one of the following commands in your terminal:
 
   `copilot help config`
 
-  You can adjust the configuration settings by editing the `config.json` file, which is located, by default, in the `~/.copilot` directory. This location can be changed by setting the `COPILOT_HOME` environment variable.
+  You can adjust the configuration settings by editing the `settings.json` file, which is located, by default, in the `~/.copilot` directory. This location can be changed by setting the `COPILOT_HOME` environment variable.
 
 * **Environment variables** that affect {% data variables.copilot.copilot_cli_short %}:
 

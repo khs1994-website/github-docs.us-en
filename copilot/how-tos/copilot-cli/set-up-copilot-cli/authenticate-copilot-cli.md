@@ -67,7 +67,7 @@ By default, the CLI stores your OAuth token in your operating system's keychain 
 | Windows | Credential Manager |
 | Linux | libsecret (GNOME Keyring, KWallet) |
 
-If the system keychain is unavailable—for example, on a headless Linux server without `libsecret` installed—the CLI prompts you to store the token in a plaintext configuration file at `~/.copilot/config.json`.
+If the system keychain is unavailable—for example, on a headless Linux server without `libsecret` installed—the CLI prompts you to store the token in a plaintext configuration file at `~/.copilot/settings.json`.
 
 When you run a command, {% data variables.copilot.copilot_cli_short %} checks for credentials in the following order:
 

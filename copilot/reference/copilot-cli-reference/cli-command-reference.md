@@ -102,6 +102,7 @@ COPILOT_GITHUB_TOKEN=github_pat_... copilot
 | <kbd>End</kbd>                      | Move to the end of the text.                 |
 | <kbd>Alt</kbd>+<kbd>←</kbd>/<kbd>→</kbd> (Windows/Linux)<br><kbd>Option</kbd>+<kbd>←</kbd>/<kbd>→</kbd> (Mac) | Move the cursor by a word.             |
 | <kbd>↑</kbd>/<kbd>↓</kbd>           | Navigate the command history.                |
+| <kbd>Tab</kbd> / <kbd>Ctrl</kbd>+<kbd>Y</kbd> | Accept the current inline completion suggestion. |
 
 ## Slash commands in the interactive interface
 
@@ -120,6 +121,7 @@ COPILOT_GITHUB_TOKEN=github_pat_... copilot
 | `/cwd`, `/cd [PATH]`                                | Change the working directory or display the current directory. |
 | `/delegate [PROMPT]`                                | Delegate changes to a remote repository with an AI-generated pull request. See [AUTOTITLE](/copilot/how-tos/copilot-cli/use-copilot-cli-agents/delegate-tasks-to-cca). |
 | `/diff`                                             | Review the changes made in the current directory. |
+| `/downgrade <VERSION>`                              | Download and restart into a specific CLI version. Available for team accounts. |
 | `/env`                                              | Show loaded environment details (instructions, MCP servers, skills, agents, plugins, LSPs, extensions). |
 | `/exit`, `/quit`                                    | Exit the CLI. |
 | `/experimental [on\|off\|show]`                     | Toggle, set, or show experimental features. |
@@ -144,9 +146,9 @@ COPILOT_GITHUB_TOKEN=github_pat_... copilot
 | `/research TOPIC`                                   | Run a deep research investigation using {% data variables.product.github %} search and web sources. See [AUTOTITLE](/copilot/concepts/agents/copilot-cli/research). |
 | `/reset-allowed-tools`                              | Reset the list of allowed tools. |
 | `/restart`                                          | Restart the CLI, preserving the current session. |
-| `/resume [SESSION-ID]`, `/continue [SESSION-ID]`    | Switch to a different session by choosing from a list (optionally specify a session ID). |
+| `/resume [VALUE]`, `/continue`                      | Switch to a different session by choosing from a list. Optionally specify a session ID, ID prefix, or session name to resume a specific session. |
 | `/review [PROMPT]`                                  | Run the code review agent to analyze changes. See [AUTOTITLE](/copilot/how-tos/copilot-cli/use-copilot-cli-agents/agentic-code-review). |
-| `/session [checkpoints [n]\|files\|plan\|rename NAME]`, `/sessions [checkpoints [n]\|files\|plan\|rename NAME]`  | Show session information and a workspace summary. Use the subcommands for details. |
+| `/session [info\|checkpoints [n]\|files\|plan\|rename [NAME]\|cleanup\|prune\|delete [ID]\|delete-all]`, `/sessions [info\|checkpoints [n]\|files\|plan\|rename [NAME]\|cleanup\|prune\|delete [ID]\|delete-all]`  | Show session information and manage sessions. Subcommands: `info`, `checkpoints`, `files`, `plan`, `rename`, `cleanup`, `prune`, `delete`, `delete-all`. |
 | `/share [file\|html\|gist] [session\|research] [PATH]`, `/export [file\|html\|gist] [session\|research] [PATH]` | Share the session to a Markdown file, interactive HTML file, or {% data variables.product.github %} gist. |
 | `/skills [list\|info\|add\|remove\|reload] [ARGS...]`   | Manage skills for enhanced capabilities. See [AUTOTITLE](/copilot/how-tos/copilot-cli/customize-copilot/create-skills). |
 | `/statusline`, `/footer`                            | Configure which items appear in the status line. |
@@ -182,7 +184,7 @@ For a complete list of available slash commands enter `/help` in the CLI's inter
 | `--bash-env`                       | Enable `BASH_ENV` support for bash shells. |
 | `--config-dir=PATH`         | Set the configuration directory (default: `~/.copilot`). |
 | `--connect[=SESSION-ID]`           | Connect directly to a remote session (optionally specify a session ID or task ID). Conflicts with `--resume` and `--continue`. |
-| `--continue`                       | Resume the most recent session. |
+| `--continue`                       | Resume the most recent session in the current working directory, falling back to the globally most recent session. |
 | `--deny-tool=TOOL ...`             | Tools the CLI does not have permission to use. Will not prompt for permission. For multiple tools, use a quoted, comma-separated list. |
 | `--deny-url=URL ...`               | Deny access to specific URLs or domains, takes precedence over `--allow-url`. For multiple URLs, use a quoted, comma-separated list. |
 | `--disable-builtin-mcps`           | Disable all built-in MCP servers (currently: `github-mcp-server`). |
@@ -201,6 +203,7 @@ For a complete list of available slash commands enter `/help` in the CLI's inter
 | `--mode=MODE`                      | Set the initial agent mode (choices: `interactive`, `plan`, `autopilot`). Cannot be combined with `--autopilot` or `--plan`. |
 | `--model=MODEL`                    | Set the AI model you want to use. Pass `auto` to let {% data variables.product.prodname_copilot_short %} pick the best available model automatically. |
 | `--mouse[=VALUE]`                  | Enable mouse support in alt screen mode. VALUE can be `on` (default) or `off`. When enabled, the CLI captures mouse events in alt screen mode—scroll wheel, clicks, etc. When disabled, the terminal's native mouse behavior is preserved. Once set the setting is persisted by being written to your configuration file.|
+| `-n NAME`, `--name=NAME`           | Set a name for the new session. Used by `--resume` and `/resume` to find sessions by name. |
 | `--no-ask-user`                    | Disable the `ask_user` tool (the agent works autonomously without asking questions). |
 | `--no-auto-update`                 | Disable downloading CLI updates automatically. |
 | `--no-bash-env`                    | Disable `BASH_ENV` support for bash shells. |
@@ -215,7 +218,7 @@ For a complete list of available slash commands enter `/help` in the CLI's inter
 | `--plain-diff`                     | Disable rich diff rendering (syntax highlighting via the diff tool specified by your git config). |
 | `--plugin-dir=DIRECTORY`           | Load a plugin from a local directory (can be used multiple times). |
 | `--remote`                         | Enable remote access to this session from {% data variables.product.prodname_dotcom_the_website %} and {% data variables.product.prodname_mobile %}. See [AUTOTITLE](/copilot/how-tos/copilot-cli/steer-remotely). |
-| `--resume=SESSION-ID`              | Resume a previous interactive session by choosing from a list (optionally specify a session ID or unique prefix of 7+ hex characters). |
+| `--resume[=VALUE]`                 | Resume a previous interactive session by choosing from a list. Optionally specify a session ID, ID prefix, or session name. Name matching is exact and case-insensitive; falls back to the auto-generated summary when no explicit name matches. |
 | `-s`, `--silent`                   | Output only the agent response (without usage statistics), useful for scripting with `-p`. |
 | `--screen-reader`                  | Enable screen reader optimizations. |
 | `--secret-env-vars=VAR ...`        | Redact an environment variable from shell and MCP server environments (can be used multiple times). For multiple variables, use a quoted, comma-separated list. The values in the `GITHUB_TOKEN` and `COPILOT_GITHUB_TOKEN` environment variables are redacted from output by default. |
@@ -239,37 +242,38 @@ The `--available-tools` and `--excluded-tools` options support these values:
 | Tool name | Description |
 |---|---|
 | `bash` / `powershell` | Execute commands |
-| `read_bash` / `read_powershell` | Read output from a shell session |
-| `write_bash` / `write_powershell` | Send input to a shell session |
-| `stop_bash` / `stop_powershell` | Terminate a shell session |
 | `list_bash` / `list_powershell` | List active shell sessions |
+| `read_bash` / `read_powershell` | Read output from a shell session |
+| `stop_bash` / `stop_powershell` | Terminate a shell session |
+| `write_bash` / `write_powershell` | Send input to a shell session |
 
 ### File operation tools
 
 | Tool name | Description |
 |---|---|
-| `view` | Read files or directories |
+| `apply_patch` | Apply patches (used by some models instead of `edit`/`create`) |
 | `create` | Create new files |
 | `edit` | Edit files via string replacement |
-| `apply_patch` | Apply patches (used by some models instead of `edit`/`create`) |
+| `view` | Read files or directories |
 
 ### Agent and task delegation tools
 
 | Tool name | Description |
 |---|---|
-| `task` | Run subagents |
-| `read_agent` | Check background agent status |
 | `list_agents` | List available agents |
+| `read_agent` | Check background agent status |
+| `task` | Run subagents |
 
 ### Other tools
 
 | Tool name | Description |
 |---|---|
-| `grep` (or `rg`) | Search for text in files |
-| `glob` | Find files matching patterns |
-| `web_fetch` | Fetch and parse web content |
-| `skill` | Invoke custom skills |
 | `ask_user` | Ask the user a question |
+| `glob` | Find files matching patterns |
+| `grep` (or `rg`) | Search for text in files |
+| `show_file` | Present code snippets inline in the timeline. {% data reusables.copilot.experimental %} |
+| `skill` | Invoke custom skills |
+| `web_fetch` | Fetch and parse web content |
 
 ## Tool permission patterns
 
@@ -277,12 +281,12 @@ The `--allow-tool` and `--deny-tool` options accept permission patterns in the f
 
 | Kind | Description | Example patterns |
 |------|-------------|-----------------|
-| `shell` | Shell command execution | `shell(git push)`, `shell(git:*)`, `shell` |
-| `write` | File creation or modification | `write`, `write(src/*.ts)` |
-| `read` | File or directory reads | `read`, `read(.env)` |
-| SERVER-NAME | MCP server tool invocation | `MyMCP(create_issue)`, `MyMCP` |
-| `url` | URL access via web-fetch or shell | `url(github.com)`, `url(https://*.api.com)` |
 | `memory` | Storing facts to agent memory | `memory` |
+| `read` | File or directory reads | `read`, `read(.env)` |
+| `shell` | Shell command execution | `shell(git push)`, `shell(git:*)`, `shell` |
+| `url` | URL access via web-fetch or shell | `url(github.com)`, `url(https://*.api.com)` |
+| `write` | File creation or modification | `write`, `write(src/*.ts)` |
+| SERVER-NAME | MCP server tool invocation | `MyMCP(create_issue)`, `MyMCP` |
 
 For `shell` rules, the `:*` suffix matches the command stem followed by a space, preventing partial matches. For example, `shell(git:*)` matches `git push` and `git pull` but does not match `gitea`.
 
@@ -303,86 +307,32 @@ copilot --allow-tool='MyMCP'
 
 | Variable | Description |
 |----------|-------------|
-| `COPILOT_MODEL` | Set the AI model. |
+| `COLORFGBG` | Fallback for dark/light terminal background detection. |
 | `COPILOT_ALLOW_ALL` | Set to `true` to allow all permissions automatically (equivalent to `--allow-all`). |
 | `COPILOT_AUTO_UPDATE` | Set to `false` to disable automatic updates. |
+| `COPILOT_CACHE_HOME` | Override the cache directory (used for marketplace caches, auto-update packages, and other ephemeral data). See [AUTOTITLE](/copilot/reference/copilot-cli-reference/cli-config-dir-reference#changing-the-location-of-the-configuration-directory) for platform defaults. |
 | `COPILOT_CUSTOM_INSTRUCTIONS_DIRS` | Comma-separated list of additional directories for custom instructions. |
-| `COPILOT_SKILLS_DIRS` | Comma-separated list of additional directories for skills. |
 | `COPILOT_EDITOR` | Editor command for interactive editing (checked after `$VISUAL` and `$EDITOR`). Defaults to `vi` if none are set. |
+| `COPILOT_GH_HOST` |{% data variables.product.github %} hostname for {% data variables.copilot.copilot_cli_short %} only, overriding `GH_HOST`. Use when `GH_HOST` targets {% data variables.product.prodname_ghe_server %} but {% data variables.product.prodname_copilot_short %} needs to authenticate against {% data variables.product.prodname_dotcom_the_website %} or a {% data variables.product.prodname_ghe_cloud %} hostname. |
 | `COPILOT_GITHUB_TOKEN` | Authentication token. Takes precedence over `GH_TOKEN` and `GITHUB_TOKEN`. |
 | `COPILOT_HOME` | Override the configuration and state directory. Default: `$HOME/.copilot`. |
-| `COPILOT_CACHE_HOME` | Override the cache directory (used for marketplace caches, auto-update packages, and other ephemeral data). See [AUTOTITLE](/copilot/reference/copilot-cli-reference/cli-config-dir-reference#changing-the-location-of-the-configuration-directory) for platform defaults. |
-| `COPILOT_SUBAGENT_MAX_DEPTH` | Maximum subagent nesting depth. Default: `6`. Range: `1`–`256`. |
+| `COPILOT_MODEL` | Set the AI model. |
+| `COPILOT_PROMPT_FRAME` | Set to `1` to enable the decorative UI frame around the input prompt, or `0` to disable it. Overrides the `PROMPT_FRAME` experimental feature flag for the current session. |
+| `COPILOT_SKILLS_DIRS` | Comma-separated list of additional directories for skills. |
 | `COPILOT_SUBAGENT_MAX_CONCURRENT` | Maximum concurrent subagents across the entire session tree. Default: `32`. Range: `1`–`256`. |
+| `COPILOT_SUBAGENT_MAX_DEPTH` | Maximum subagent nesting depth. Default: `6`. Range: `1`–`256`. |
+| `GH_HOST` | {% data variables.product.github %} hostname for both {% data variables.product.prodname_cli %} and {% data variables.copilot.copilot_cli_short %} (default: `github.com`). Set to your {% data variables.product.prodname_ghe_cloud %} with data residency hostname. Override with `COPILOT_GH_HOST` for {% data variables.copilot.copilot_cli_short %} only. |
 | `GH_TOKEN` | Authentication token. Takes precedence over `GITHUB_TOKEN`. |
 | `GITHUB_TOKEN` | Authentication token. |
-| `USE_BUILTIN_RIPGREP` | Set to `false` to use the system ripgrep instead of the bundled version. |
 | `PLAIN_DIFF` | Set to `true` to disable rich diff rendering. |
-| `COLORFGBG` | Fallback for dark/light terminal background detection. |
+| `USE_BUILTIN_RIPGREP` | Set to `false` to use the system ripgrep instead of the bundled version. |
 
 ## Configuration file settings
 
-Settings cascade from user to repository to local, with more specific scopes overriding more general ones. Command-line flags and environment variables always take the highest precedence.
+For detailed information about configuration file settings—including the full list of user settings, repository settings, local settings, and how they cascade—see [AUTOTITLE](/copilot/reference/copilot-cli-reference/cli-config-dir-reference#configuration-file-settings).
 
-| Scope | Location | Purpose |
-|-------|----------|---------|
-| User | `~/.copilot/config.json` | Global defaults for all repositories. Use the `COPILOT_HOME` environment variable to specify an alternative path. |
-| Repository | `.github/copilot/settings.json` | Shared repository configuration (committed to the repository). |
-| Local | `.github/copilot/settings.local.json` | Personal overrides (add this to `.gitignore`). |
-
-### User settings (`~/.copilot/config.json`)
-
-| Key | Type | Default | Description |
-|-----|------|---------|-------------|
-| `allowedUrls` | `string[]` | `[]` | URLs or domains allowed without prompting. |
-| `autoUpdate` | `boolean` | `true` | Automatically download CLI updates. |
-| `banner` | `"always"` \| `"once"` \| `"never"` | `"once"` | Animated banner display frequency. |
-| `bashEnv` | `boolean` | `false` | Enable `BASH_ENV` support for bash shells. |
-| `beep` | `boolean` | `true` | Play an audible beep when attention is required. |
-| `compactPaste` | `boolean` | `true` | Collapse large pastes into compact tokens. |
-| `custom_agents.default_local_only` | `boolean` | `false` | Only use local custom agents. |
-| `denied_urls` | `string[]` | `[]` | URLs or domains blocked (takes precedence over `allowed_urls`). |
-| `experimental` | `boolean` | `false` | Enable experimental features. |
-| `includeCoAuthoredBy` | `boolean` | `true` | Add a `Co-authored-by` trailer to git commits made by the agent. |
-| `companyAnnouncements` | `string[]` | `[]` | Custom messages shown randomly on startup. |
-| `logLevel` | `"none"` \| `"error"` \| `"warning"` \| `"info"` \| `"debug"` \| `"all"` \| `"default"` | `"default"` | Logging verbosity. |
-| `model` | `string` | varies | AI model to use (see the `/model` command). Set to `"auto"` to let {% data variables.product.prodname_copilot_short %} pick the best available model automatically. |
-| `powershellFlags` | `string[]` | `["-NoProfile", "-NoLogo"]` | Flags passed to PowerShell (`pwsh`) on startup. Windows only. |
-| `effortLevel` | `string` | `"medium"` | Reasoning effort level for extended thinking (e.g., `"low"`, `"medium"`, `"high"`, `"xhigh"`). Higher levels use more compute. |
-| `mergeStrategy` | `"rebase"` \| `"merge"` | — | Conflict resolution strategy for `/pr fix conflicts`. When set to `"rebase"`, conflicts are resolved by rebasing onto the base branch. When set to `"merge"`, the base branch is merged into the feature branch. If not configured, a picker dialog is shown. |
-| `renderMarkdown` | `boolean` | `true` | Render Markdown in terminal output. |
-| `screenReader` | `boolean` | `false` | Enable screen reader optimizations. |
-| `stream` | `boolean` | `true` | Enable streaming responses. |
-| `storeTokenPlaintext` | `boolean` | `false` | Store authentication tokens in plain text in the configuration file when no system keychain is available. |
-| `streamerMode` | `boolean` | `false` | Hide preview model names and quota details (useful when demonstrating {% data variables.copilot.copilot_cli_short %}). |
-| `theme` | `"auto"` \| `"dark"` \| `"light"` | `"auto"` | Terminal color theme. |
-| `mouse` | `boolean` | `true` | Enable mouse support in alt screen mode. |
-| `respectGitignore` | `boolean` | `true` | Exclude gitignored files from the `@` file picker. |
-| `disableAllHooks` | `boolean` | `false` | Disable all hooks. |
-| `hooks` | `object` | — | Inline user-level hook definitions. |
-| `copyOnSelect` | `boolean` | `true` (macOS), `false` (other) | Automatically copy mouse-selected text to the system clipboard in alt screen mode. |
-| `statusLine` | `object` | — | Custom status line display. `type`: must be `"command"`. `command`: path to a script that receives session JSON on stdin and prints status content to stdout. `padding`: optional left-padding spaces. |
-| `suppress_init_folders` | `string[]` | `[]` | Folders where the `/init` suggestion has been dismissed. Managed automatically by `/init suppress`. |
-| `updateTerminalTitle` | `boolean` | `true` | Show the current intent in the terminal title. |
-
-### Repository settings (`.github/copilot/settings.json`)
-
-Repository settings apply to everyone who works in the repository. Only the keys listed in the following table are supported at the repository level. Any other keys—including keys that are valid in the user configuration file—are silently ignored.
-
-| Key | Type | Merge behavior | Description |
-|-----|------|---------------|-------------|
-| `companyAnnouncements` | `string[]` | Replaced—repository takes precedence | Messages shown randomly on startup. |
-| `disableAllHooks` | `boolean` | Repository takes precedence | Disable all hooks. |
-| `enabledPlugins` | `Record<string, boolean>` | Merged—repository overrides user for same key | Declarative plugin auto-install. |
-| `extraKnownMarketplaces` | `Record<string, {...}>` | Merged—repository overrides user for same key | Plugin marketplaces available in this repository. |
-| `hooks` | `object` | Concatenated—repository hooks run after user hooks | Hook definitions scoped to this repository. See [Hooks reference](#hooks-reference). |
-| `mergeStrategy` | `"rebase"` \| `"merge"` | Repository takes precedence | Conflict resolution strategy for `/pr fix conflicts`. |
-
-### Local settings (`.github/copilot/settings.local.json`)
-
-Create `.github/copilot/settings.local.json` in the repository, for personal overrides that should not be committed. Add this file to `.gitignore`.
-
-The local configuration file uses the same schema as the repository configuration file (`.github/copilot/settings.json`) and takes precedence over it.
+> [!NOTE]
+> User settings were previously stored in `~/.copilot/config.json`. Existing settings in that location are automatically migrated to `~/.copilot/settings.json` on startup.
 
 ## Project initialization for {% data variables.product.prodname_copilot_short %}
 
@@ -402,17 +352,17 @@ The CLI looks for the `copilot-instructions.md` file on startup, and if it's mis
 
 > 💡 No copilot instructions found. Run /init to generate a copilot-instructions.md file for this project.
 
-If you don't want to create this file, you can permanently hide this startup message by using the `/init suppress` slash command, which adds a `suppress_init_folders` setting for this repository to your {% data variables.product.prodname_copilot_short %} configuration file.
+If you don't want to create this file, you can permanently hide this startup message for the current repository by using the `/init suppress` slash command.
 
 For more information, see [AUTOTITLE](/copilot/how-tos/configure-custom-instructions/add-repository-instructions).
 
 ## Hooks reference
 
-Hooks are external commands that execute at specific lifecycle points during a session, enabling custom automation, security controls, and integrations. Hook configuration files are loaded automatically from `.github/hooks/*.json` in your repository.
+Hooks are external commands, HTTP webhooks, or (on `sessionStart` only) prompt strings that execute at specific lifecycle points during a session, enabling custom automation, security controls, and integrations. Hook configuration files are loaded automatically from `.github/hooks/*.json` in your repository.
 
 ### Hook configuration format
 
-Hook configuration files use JSON format with version `1`.
+Hook configuration files use JSON format with version `1`. Each hook entry is a command hook, an HTTP hook, or (on `sessionStart` only) a prompt hook.
 
 #### Command hooks
 
@@ -438,12 +388,12 @@ Command hooks run shell scripts and are supported on all hook types.
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `type` | `"command"` | Yes | Must be `"command"`. |
 | `bash` | string | One of `bash`/`powershell` | Shell command for Unix. |
-| `powershell` | string | One of `bash`/`powershell` | Shell command for Windows. |
 | `cwd` | string | No | Working directory for the command (relative to repository root or absolute). |
 | `env` | object | No | Environment variables to set (supports variable expansion). |
+| `powershell` | string | One of `bash`/`powershell` | Shell command for Windows. |
 | `timeoutSec` | number | No | Timeout in seconds. Default: `30`. |
+| `type` | `"command"` | Yes | Must be `"command"`. |
 
 #### Prompt hooks
 
@@ -465,14 +415,80 @@ Prompt hooks auto-submit text as if the user typed it. They are only supported o
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `type` | `"prompt"` | Yes | Must be `"prompt"`. |
 | `prompt` | string | Yes | Text to submit—can be a natural language message or a slash command. |
+| `type` | `"prompt"` | Yes | Must be `"prompt"`. |
+
+#### HTTP hooks
+
+HTTP hooks POST the event payload as JSON to a configured URL and parse the JSON response body. They are supported on all hook event types and are useful for webhook-style integrations—remote policy services, audit endpoints, and approval workflows—without requiring a local executable.
+
+```json
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      {
+        "type": "http",
+        "url": "https://policy.example.com/preToolUse"
+      }
+    ]
+  }
+}
+```
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `type` | `"http"` | Yes | Must be `"http"`. |
+| `url` | string | Yes | Endpoint URL. Must use `http:` or `https:`. No env var substitution in the URL itself. |
+| `headers` | object | No | Request headers. Values support `$VAR` / `${VAR}` substitution restricted to names listed in `allowedEnvVars`. |
+| `allowedEnvVars` | string[] | No | Allowlist for header value templating. Setting to a non-empty array requires HTTPS. |
+| `timeoutSec` | number | No | Per-request timeout in seconds. Default: `30`. `timeout` is accepted as an alias; `timeoutSec` takes precedence. |
+| `matcher` | string | No | Regex filter. Supported only on `preCompact`, `subagentStart`, `permissionRequest`, and `notification`. Anchored as `^(?:pattern)$`. |
+
+The response body uses the same JSON schema as command hook stdout for each event. Respond `204 No Content` or any 2xx with empty body when no action is needed.
+
+> [!WARNING]
+> HTTP hooks have no exit-code semantics. A non-2xx response is a hook failure, not a deny decision. To deny a tool call from an HTTP `preToolUse` hook, return `200 OK` with `{"permissionDecision":"deny","permissionDecisionReason":"..."}`. To deny from an HTTP `permissionRequest` hook, return `200 OK` with `{"behavior":"deny","message":"..."}`.
+
+A hook entry with both `bash` and `url` fields parses as whichever variant matches first; the unused field is silently dropped. Always set `type` explicitly and remove command-hook fields when using HTTP hooks.
+
+##### HTTP hook security
+
+HTTPS is required in the following cases:
+
+* When `allowedEnvVars` is a non-empty array, to prevent credentials from being sent over plaintext.
+* By default for `preToolUse` and `permissionRequest` hooks, to protect the permission decision channel.
+
+The CLI enforces a default-deny SSRF policy: any URL whose hostname resolves to a loopback, private, link-local, or cloud metadata address is rejected before connection. DNS is resolved up front and all returned addresses are validated (DNS rebinding defense).
+
+The following environment variables relax these defaults for development and testing only.
+
+| Variable | Effect | Intended use |
+|----------|--------|--------------|
+| `COPILOT_HOOK_ALLOW_LOCALHOST=1` | Permits `http://` to literal `localhost`, `127.*`, or `[::1]` (HTTPS rules), and any hostname resolving entirely to loopback (SSRF rule). | Local development only |
+| `COPILOT_HOOK_ALLOW_HTTP_AUTH_HOOKS=1` | Permits `http://` for `preToolUse` and `permissionRequest` hooks anywhere. | Testing only |
+
+Both variables must be set before launching `copilot`. Do not set them globally, in CI, or in shared environments.
+
+##### HTTP hook failure semantics
+
+| Condition | Behavior |
+|-----------|----------|
+| 2xx + valid JSON body | Body parsed per event output schema. |
+| 2xx + empty or non-JSON body | No action. |
+| Non-2xx response | Hook fails. Error logged. Agent continues. |
+| 3xx redirect | Hook fails ("returned redirect"). Agent continues. |
+| Timeout | Hook fails. Error logged. Agent continues. |
+| Network, DNS, or TLS error | Hook fails. Error logged. Agent continues. |
+| Configuration validation error at load | Entire configuration file rejected; no hooks from that file register. |
+
+For `preToolUse` and `permissionRequest`, an HTTP hook failure is fail-open: the agent falls through to the default permission flow.
 
 ### Hook events
 
 | Event | Fires when | Output processed |
-|-------|-----------|-----------------|
-| `sessionStart` | A new or resumed session begins. | No |
+|-------|------------|------------------|
+| `sessionStart` | A new or resumed session begins. | Optional — can return `additionalContext` to inject session-wide context prepended to every turn. |
 | `sessionEnd` | The session terminates. | No |
 | `userPromptSubmitted` | The user submits a prompt. | No |
 | `preToolUse` | Before each tool executes. | Yes — can allow, deny, or modify. |
@@ -805,13 +821,17 @@ When configured with the PascalCase event name `PreToolUse`, the payload uses sn
 
 ### `preToolUse` decision control
 
-The `preToolUse` hook can control tool execution by writing a JSON object to stdout.
+The `preToolUse` hook can control tool execution by writing a JSON object to stdout (command hooks) or returning it in the response body (HTTP hooks).
 
 | Field | Values | Description |
 |-------|--------|-------------|
 | `permissionDecision` | `"allow"`, `"deny"`, `"ask"` | Whether the tool executes. Empty output uses default behavior. |
-| `permissionDecisionReason` | string | Reason shown to the agent. Required when decision is `"deny"`. |
-| `modifiedArgs` | object | Substitute tool arguments to use instead of the originals. |
+| `permissionDecisionReason` | string | Reason shown to the agent. Recommended when decision is `"deny"` or `"ask"`. |
+| `modifiedArgs` | unknown | Replaces the entire tool input before execution. Only valid when `permissionDecision` is not `"deny"` or `"ask"`. |
+| `additionalContext` | string | Queued as context for the next model turn. Only valid when `permissionDecision` is not `"deny"` or `"ask"`. |
+
+> [!NOTE]
+> The {% data variables.product.prodname_vscode_shortname %} alias (`PreToolUse`) also accepts nested `hookSpecificOutput.{permissionDecision, permissionDecisionReason, updatedInput, additionalContext}`. `updatedInput` is normalized to `modifiedArgs`. Top-level fields are accepted as a fallback.
 
 ### `agentStop` / `subagentStop` decision control
 
@@ -834,7 +854,7 @@ Output JSON to stdout to control the permission decision:
 | `message` | string | Reason fed back to the LLM when denying. |
 | `interrupt` | boolean | When `true` combined with `"deny"`, stops the agent entirely. |
 
-Return empty output or `{}` to fall through to the default behavior (show the user dialog, or deny in pipe mode). Exit code `2` is treated as a deny; if the hook also outputs JSON on stdout, those fields are merged with the deny decision.
+Return empty output or `{}` to fall through to the default behavior (show the user dialog, or deny in pipe mode). For command hooks, exit code `2` is treated as a deny; stdout JSON (if any) is merged with `{"behavior":"deny"}`, and stderr is ignored.
 
 ### `notification` hook
 
@@ -891,7 +911,7 @@ If `additionalContext` is returned, the text is injected into the session as a p
 | `web_fetch` | Fetch web pages. |
 | `task` | Run subagent tasks. |
 
-If multiple hooks of the same type are configured, they execute in order. For `preToolUse`, if any hook returns `"deny"`, the tool is blocked. For `postToolUseFailure` command hooks, exiting with code `2` causes stderr to be returned as recovery guidance for the assistant. Hook failures (non-zero exit codes or timeouts) are logged and skipped—they never block agent execution.
+If multiple hooks of the same type are configured, they execute in order. For `preToolUse`, if any hook returns `"deny"`, the tool is blocked. Exit codes apply to command hooks only—for HTTP hooks, see the [HTTP hook failure semantics](#http-hook-failure-semantics). For `postToolUseFailure` command hooks, exiting with code `2` causes stderr to be returned as recovery guidance for the assistant. For `permissionRequest` command hooks, exit code `2` is treated as a deny; stdout JSON (if any) is merged with `{"behavior":"deny"}`, and stderr is ignored. Hook failures (non-zero exit codes or timeouts) are logged and skipped—they never block agent execution.
 
 ## MCP server configuration
 
@@ -985,6 +1005,10 @@ The CLI includes built-in MCP servers that are available without additional setu
 | `time` | Time utilities: `get_current_time` and `convert_time`. |
 
 Use `--disable-builtin-mcps` to disable all built-in servers, or `--disable-mcp-server SERVER-NAME` to disable a specific one.
+
+### MCP server naming
+
+Server names can contain any printable characters, including spaces, Unicode characters, and punctuation. Control characters (U+0000–U+001F, U+007F) and the closing brace (`}`) are not allowed. Server names are used as prefixes for tool names—for example, a server named `my-server` produces tool names like `my-server-fetch`, and a server named `My Server` produces `My Server-fetch`.
 
 ### MCP server trust levels
 
@@ -1085,10 +1109,11 @@ Custom agents are specialized AI agents defined in Markdown files. The filename 
 | Agent | Default model | Description |
 |-------|--------------|-------------|
 | `code-review` | claude-sonnet-4.5 | High signal-to-noise code review. Analyzes diffs for bugs, security issues, and logic errors. |
-| `rubber-duck` | complementary model | Use a complementary model to provide a constructive critique of proposals, designs, implementations, or tests. Identifies weak points and suggests improvements. {% data reusables.copilot.experimental %} |
+| `configure-copilot` | varies | Built-in sub-agent for managing {% data variables.copilot.copilot_cli_short %} configuration through natural language—adding MCP servers, installing agents, and managing skills. {% data reusables.copilot.experimental %} |
 | `explore` | claude-haiku-4.5 | Fast codebase exploration. Searches files, reads code, and answers questions. Returns focused answers under 300 words. Safe to run in parallel. |
 | `general-purpose` | claude-sonnet-4.5 | Full-capability agent for complex multi-step tasks. Runs in a separate context window. |
 | `research` | claude-sonnet-4.6 | Deep research agent. Generates a report based on information in your codebase, in relevant repositories, and on the web. |
+| `rubber-duck` | complementary model | Use a complementary model to provide a constructive critique of proposals, designs, implementations, or tests. Identifies weak points and suggests improvements. When using Claude, it uses a GPT model; when using GPT, it uses Claude Opus 4.7. Never makes direct code changes. {% data reusables.copilot.experimental %} |
 | `task` | claude-haiku-4.5 | Command execution (tests, builds, lints). Returns brief summary on success, full output on failure. |
 
 ### Custom agent frontmatter fields

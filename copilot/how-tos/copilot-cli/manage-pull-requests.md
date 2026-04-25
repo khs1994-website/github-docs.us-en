@@ -156,7 +156,7 @@ When resolving conflicts, {% data variables.copilot.copilot_cli_short %} needs t
 
 To set a default merge strategy so that you are not prompted each time, add the `mergeStrategy` setting to your configuration file. You can set this in your personal user settings for {% data variables.product.prodname_copilot_short %}, or in the repository settings.
 
-* **User settings**: Add `"mergeStrategy": "rebase"` or `"mergeStrategy": "merge"` to your user-level configuration file (typically `~/.copilot/config.json`).
+* **User settings**: Add `"mergeStrategy": "rebase"` or `"mergeStrategy": "merge"` to your user-level configuration file (typically `~/.copilot/settings.json`).
 * **Repository settings**: Add the same setting to `.github/copilot/settings.json` in your repository root.
 
 ## Fixing CI failures

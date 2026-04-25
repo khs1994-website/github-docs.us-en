@@ -16,7 +16,7 @@ category:
 > [!NOTE]
 > * This feature is currently in {% data variables.release-phases.public_preview %} and subject to change.
 > * {% data variables.product.prodname_copilot %} uses AI. Check for mistakes. See [AUTOTITLE](/copilot/responsible-use/copilot-cloud-agent).
-> * You can provide feedback about the {% data variables.product.prodname_copilot %} for Jira integration in the [{% data variables.product.github %} survey](https://www.surveymonkey.com/r/CCAforJira).
+> * You can provide feedback about the {% data variables.product.prodname_copilot %} for Jira integration in the [{% data variables.product.github %} survey](https://survey.alchemer.com/s3/8816096/GC4Jira).
 
 The {% data variables.product.prodname_copilot %} integration in Jira allows you to invoke {% data variables.copilot.copilot_cloud_agent %} without leaving your Jira workspace. From within a Jira work item you can initiate {% data variables.copilot.copilot_cloud_agent_short %} sessions and open pull requests, using the context of the work item's title, description, labels, comments, and any Atlassian custom fields such as acceptance criteria.
 

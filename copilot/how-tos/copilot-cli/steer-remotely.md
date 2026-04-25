@@ -58,7 +58,7 @@ Details for accessing the session remotely are displayed when the interactive se
 
 ### Configuring remote access to always be enabled
 
-If you always want your interactive CLI sessions to be remotely accessible, add the following to your {% data variables.product.prodname_copilot_short %} configuration file (typically located at `~/.copilot/config.json`):
+If you always want your interactive CLI sessions to be remotely accessible, add the following to your {% data variables.product.prodname_copilot_short %} configuration file (typically located at `~/.copilot/settings.json`):
 
 ```json copy
 {
