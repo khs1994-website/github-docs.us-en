@@ -1741,6 +1741,7 @@
       * [Manage Security Alerts](code-security/tutorials/manage-security-alerts/index.md)
       * [Prioritizing Dependabot Alerts Using Metrics](code-security/tutorials/manage-security-alerts/prioritizing-dependabot-alerts-using-metrics.md)
     - Remediate Leaked Secrets
+      * [Assessing The Impact Of Git Hub Secret Protection](code-security/tutorials/remediate-leaked-secrets/assessing-ghsp-impact.md)
       * [Calculating The Cost Savings Of Push Protection](code-security/tutorials/remediate-leaked-secrets/calculating-the-cost-savings-of-push-protection.md)
       * [Evaluating Alerts From Secret Scanning](code-security/tutorials/remediate-leaked-secrets/evaluating-alerts.md)
       * [Remediate Leaked Secrets](code-security/tutorials/remediate-leaked-secrets/index.md)
@@ -2016,6 +2017,8 @@
       * [About Individual Git Hub Copilot Plans And Benefits](copilot/concepts/billing/individual-plans.md)
       * [About Billing For Git Hub Copilot In Organizations And Enterprises](copilot/concepts/billing/organizations-and-enterprises.md)
       * [Management Methods For Premium Request Usage In An Enterprise](copilot/concepts/billing/premium-request-management.md)
+      * [Usage Based Billing For Individuals](copilot/concepts/billing/usage-based-billing-for-individuals.md)
+      * [Usage Based Billing For Organizations And Enterprises](copilot/concepts/billing/usage-based-billing-for-organizations-and-enterprises.md)
     - Completions
       * [Git Hub Copilot Code Referencing](copilot/concepts/completions/code-referencing.md)
       * [Git Hub Copilot Code Suggestions In Your IDE](copilot/concepts/completions/code-suggestions.md)
@@ -2280,6 +2283,8 @@
       * [Managing Your Company S Spending On Git Hub Copilot](copilot/how-tos/manage-and-track-spending/manage-company-spending.md)
       * [Managing The Premium Request Allowance For Your Organization Or Enterprise](copilot/how-tos/manage-and-track-spending/manage-request-allowances.md)
       * [Monitoring Your Git Hub Copilot Usage And Entitlements](copilot/how-tos/manage-and-track-spending/monitor-premium-requests.md)
+      * [Preparing Your Organization For Usage Based Billing](copilot/how-tos/manage-and-track-spending/prepare-for-usage-based-billing.md)
+      * [Preparing For Your Move To Usage Based Billing](copilot/how-tos/manage-and-track-spending/prepare-for-your-move-to-usage-based-billing.md)
     - Manage Your Account
       * [Disabling Git Hub Copilot Free](copilot/how-tos/manage-your-account/disable-copilot-free.md)
       * [Getting Started With A Git Hub Copilot Plan](copilot/how-tos/manage-your-account/get-started-with-a-copilot-plan.md)
@@ -2348,6 +2353,7 @@
       * [Git Hub Copilot Billing Cycle](copilot/reference/copilot-billing/billing-cycle.md)
       * [Git Hub Copilot Billing](copilot/reference/copilot-billing/index.md)
       * [Making Changes To Your Git Hub Copilot License](copilot/reference/copilot-billing/license-changes.md)
+      * [Models and pricing for {% data variables.product.prodname_copilot %}](copilot/reference/copilot-billing/models-and-pricing.md)
       * [Git Hub Copilot Seat Assignment](copilot/reference/copilot-billing/seat-assignment.md)
     - Copilot Cli Reference
       * [Copilot CLI ACP Server](copilot/reference/copilot-cli-reference/acp-server.md)
