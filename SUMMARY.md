@@ -2159,7 +2159,7 @@
         * [Troubleshooting Git Hub Copilot CLI Authentication](copilot/how-tos/copilot-cli/set-up-copilot-cli/troubleshoot-copilot-cli-auth.md)
       - Use Copilot Cli Agents
         * [Requesting a code review with {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli-agents/agentic-code-review.md)
-        * [Delegating tasks to {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli-agents/delegate-tasks-to-cca.md)
+        * [Delegating tasks to {% data variables.product.prodname_copilot_short %}](copilot/how-tos/copilot-cli/use-copilot-cli-agents/delegate-tasks-to-cca.md)
         * [Use {% data variables.copilot.copilot_cli %} agents](copilot/how-tos/copilot-cli/use-copilot-cli-agents/index.md)
         * [Invoking Custom Agents](copilot/how-tos/copilot-cli/use-copilot-cli-agents/invoke-custom-agents.md)
         * [Using Git Hub Copilot CLI](copilot/how-tos/copilot-cli/use-copilot-cli-agents/overview.md)
@@ -2851,6 +2851,7 @@
     * [About Git Hub CLI](github-cli/github-cli/about-github-cli.md)
     * [Creating Git Hub CLI Extensions](github-cli/github-cli/creating-github-cli-extensions.md)
     * [Git Hub CLI Reference](github-cli/github-cli/github-cli-reference.md)
+    * [Git Hub CLI Telemetry](github-cli/github-cli/github-cli-telemetry.md)
     * [Git Hub CLI](github-cli/github-cli/index.md)
     * [Git Hub CLI Quickstart](github-cli/github-cli/quickstart.md)
     * [Using Git Hub CLI Extensions](github-cli/github-cli/using-github-cli-extensions.md)
