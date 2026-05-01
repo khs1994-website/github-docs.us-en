@@ -962,6 +962,7 @@
     * [Reviewing And Modifying Installed Git Hub Apps](apps/using-github-apps/reviewing-and-modifying-installed-github-apps.md)
     * [Reviewing And Revoking Authorization Of Git Hub Apps](apps/using-github-apps/reviewing-and-revoking-authorization-of-github-apps.md)
     * [SAML And Git Hub Apps](apps/using-github-apps/saml-and-github-apps.md)
+  * [Git Hub Authentication Discovery Endpoints](apps/github-authentication-discovery-endpoints.md)
   * [Git Hub Apps Documentation](apps/index.md)
   * [Git Hub Apps Overview](apps/overview.md)
 - Authentication
@@ -2353,6 +2354,7 @@
       * [Git Hub Copilot Billing Cycle](copilot/reference/copilot-billing/billing-cycle.md)
       * [Git Hub Copilot Billing](copilot/reference/copilot-billing/index.md)
       * [Making Changes To Your Git Hub Copilot License](copilot/reference/copilot-billing/license-changes.md)
+      * [Model Multipliers For Annual Plans Staying On Request Based Billing](copilot/reference/copilot-billing/model-multipliers-for-annual-plans.md)
       * [Models and pricing for {% data variables.product.prodname_copilot %}](copilot/reference/copilot-billing/models-and-pricing.md)
       * [Git Hub Copilot Seat Assignment](copilot/reference/copilot-billing/seat-assignment.md)
     - Copilot Cli Reference
