@@ -2324,7 +2324,6 @@
       - Cloud Agent
         * [Changing The AI Model For Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/changing-the-ai-model.md)
         * [Configuring Settings For Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/configuring-agent-settings.md)
-        * [Asking Git Hub Copilot To Create A Pull Request](copilot/how-tos/use-copilot-agents/cloud-agent/create-a-pr.md)
         * [Creating custom agents for {% data variables.copilot.copilot_cloud_agent %} in your IDE](copilot/how-tos/use-copilot-agents/cloud-agent/create-custom-agents-in-your-ide.md)
         * [Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/index.md)
         * [Integrating Copilot Cloud Agent With Azure Boards](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-azure-boards.md)
@@ -2332,6 +2331,7 @@
         * [Integrating Copilot Cloud Agent With Linear](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-linear.md)
         * [Integrating Copilot Cloud Agent With Slack](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-slack.md)
         * [Integrating Copilot Cloud Agent With Teams](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-teams.md)
+        * [Starting Git Hub Copilot Sessions](copilot/how-tos/use-copilot-agents/cloud-agent/start-copilot-sessions.md)
         * [Tracking Git Hub Copilot S Sessions](copilot/how-tos/use-copilot-agents/cloud-agent/track-copilot-sessions.md)
         * [Troubleshooting Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/troubleshoot-cloud-agent.md)
       - Request A Code Review
@@ -3729,6 +3729,9 @@
     * [REST API Endpoints For Copilot Usage Metrics](rest/copilot/copilot-usage-metrics.md)
     * [REST API Endpoints For Copilot User Management](rest/copilot/copilot-user-management.md)
     * [REST API Endpoints For Copilot](rest/copilot/index.md)
+  - Copilot Spaces
+    * [Copilot Spaces Collaborators](rest/copilot-spaces/collaborators.md)
+    * [REST API Endpoints For Copilot Spaces](rest/copilot-spaces/resources.md)
   - Credentials
     * [Credentials](rest/credentials/index.md)
     * [Revocation](rest/credentials/revoke.md)
