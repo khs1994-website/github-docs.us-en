@@ -814,7 +814,6 @@
     - Performing An Upgrade
       * [Performing An Upgrade](admin/upgrading-your-instance/performing-an-upgrade/index.md)
       * [Migrating from GitHub Enterprise 11.10.x to 2.1.23](admin/upgrading-your-instance/performing-an-upgrade/migrating-from-github-enterprise-1110x-to-2123.md)
-      * [Preparing for the Elasticsearch upgrade in {% data variables.product.prodname_ghe_server %} 3.13](admin/upgrading-your-instance/performing-an-upgrade/preparing-for-the-elasticsearch-upgrade.md)
       * [Upgrading With A Hotpatch](admin/upgrading-your-instance/performing-an-upgrade/upgrading-with-a-hotpatch.md)
       * [Upgrading With An Upgrade Package](admin/upgrading-your-instance/performing-an-upgrade/upgrading-with-an-upgrade-package.md)
     - Preparing To Upgrade
@@ -1255,7 +1254,6 @@
   - Getting Started
     * [Git Hub Security Features](code-security/getting-started/github-security-features.md)
     * [Getting Started With Secure Coding](code-security/getting-started/index.md)
-    * [Quickstart For Securing Your Organization](code-security/getting-started/quickstart-for-securing-your-organization.md)
     * [Quickstart For Securing Your Repository](code-security/getting-started/quickstart-for-securing-your-repository.md)
   - How Tos
     - Find And Fix Code Vulnerabilities
@@ -1372,7 +1370,6 @@
           * [Configuring Additional Secret Scanning Settings For Your Enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/configuring-additional-secret-scanning-settings-for-your-enterprise.md)
           * [Creating A Custom Security Configuration For Your Enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/creating-a-custom-security-configuration-for-your-enterprise.md)
           * [Enabling {% data variables.product.prodname_GHAS %} {% ifversion ghas-products %}products {% endif %}for your enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/enabling-github-advanced-security-for-your-enterprise.md)
-          * [Enabling Security Features For Multiple Repositories](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/enabling-security-features-for-multiple-repositories.md)
           * [Establish Complete Coverage](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/index.md)
         - Manage Your Coverage
           * [Deleting A Custom Security Configuration](code-security/how-tos/secure-at-scale/configure-enterprise-security/manage-your-coverage/deleting-a-custom-security-configuration.md)
@@ -1474,6 +1471,9 @@
         * [Using The Dependency Submission API](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/using-the-dependency-submission-api.md)
         * [Verifying The Integrity Of A Release](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/verifying-the-integrity-of-a-release.md)
       * [Securing Your Supply Chain](code-security/how-tos/secure-your-supply-chain/index.md)
+    - Use Ghas With Ai Coding Agents
+      * [Use Git Hub Advanced Security With AI Coding Agents](code-security/how-tos/use-ghas-with-ai-coding-agents/index.md)
+      * [Scanning For Secrets With The Git Hub MCP Server](code-security/how-tos/use-ghas-with-ai-coding-agents/scan-for-secrets-with-github-mcp-server.md)
     - View And Interpret Data
       - Analyze Organization Data
         * [Assessing Adoption Of Security Features](code-security/how-tos/view-and-interpret-data/analyze-organization-data/assessing-adoption-code-security.md)
@@ -1674,6 +1674,10 @@
       * [Reference For Security At Scale](code-security/reference/security-at-scale/index.md)
       * [Security Configuration Enforcement](code-security/reference/security-at-scale/security-configuration-enforcement.md)
       * [Security Overview Dashboard Metrics](code-security/reference/security-at-scale/security-overview-dashboard-metrics.md)
+    - Security Incident Response
+      * [Reference For Security Incident Response](code-security/reference/security-incident-response/index.md)
+      * [Common Security Incident Investigation Areas](code-security/reference/security-incident-response/investigation-areas.md)
+      * [Investigation Tools For Security Incidents](code-security/reference/security-incident-response/investigation-tools.md)
     - Supply Chain Security
       - Troubleshoot Dependabot
         * [Dependabot Errors](code-security/reference/supply-chain-security/troubleshoot-dependabot/dependabot-errors.md)
@@ -1762,7 +1766,10 @@
       * [Interpreting Code Security Risk Assessment Results](code-security/tutorials/secure-your-organization/interpreting-code-security-risk-assessment-results.md)
       * [Interpreting Secret Risk Assessment Results](code-security/tutorials/secure-your-organization/interpreting-secret-risk-assessment-results.md)
       * [Organizing Remediation Efforts For Leaked Secrets](code-security/tutorials/secure-your-organization/organizing-remediation-efforts-for-leaked-secrets.md)
+      * [Preparing For A Security Incident](code-security/tutorials/secure-your-organization/preparing-for-security-incidents.md)
       * [Prioritizing Dependabot And Code Scanning Alerts Using Production Context](code-security/tutorials/secure-your-organization/prioritize-alerts-in-production-code.md)
+      * [Protecting Against Security Threats](code-security/tutorials/secure-your-organization/protect-against-threats.md)
+      * [Responding To A Security Incident](code-security/tutorials/secure-your-organization/responding-to-security-incidents.md)
     - Trialing Github Advanced Security
       * [Enabling Security Features In Your Trial Enterprise](code-security/tutorials/trialing-github-advanced-security/enable-security-features-trial.md)
       * [Exploring your enterprise trial of {% data variables.product.prodname_GH_code_security_always %}](code-security/tutorials/trialing-github-advanced-security/explore-trial-code-scanning.md)
@@ -3111,6 +3118,10 @@
     * [Migration Paths To Git Hub](migrations/overview/migration-paths-to-github.md)
     * [Planning Your Migration To Git Hub](migrations/overview/planning-your-migration-to-github.md)
     * [Programmatically Importing Repositories](migrations/overview/programmatically-importing-repositories.md)
+  - Troubleshooting
+    * [Troubleshooting Migrations](migrations/troubleshooting/index.md)
+    * [Setting Ruleset Bypasses For Repository Migrations](migrations/troubleshooting/setting-ruleset-bypasses-for-repository-migrations.md)
+    * [Troubleshooting Your Migration With Git Hub Enterprise Importer](migrations/troubleshooting/troubleshooting-your-migration-with-github-enterprise-importer.md)
   - Using Ghe Migrator
     * [About Ghe Migrator](migrations/using-ghe-migrator/about-ghe-migrator.md)
     * [Exporting Migration Data From Git Hub Enterprise Server](migrations/using-ghe-migrator/exporting-migration-data-from-github-enterprise-server.md)
@@ -3122,7 +3133,6 @@
       * [Accessing Your Migration Logs For Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/completing-your-migration-with-github-enterprise-importer/accessing-your-migration-logs-for-github-enterprise-importer.md)
       * [Completing Your Migration With Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/completing-your-migration-with-github-enterprise-importer/index.md)
       * [Reclaiming Mannequins For Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/completing-your-migration-with-github-enterprise-importer/reclaiming-mannequins-for-github-enterprise-importer.md)
-      * [Troubleshooting Your Migration With Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/completing-your-migration-with-github-enterprise-importer/troubleshooting-your-migration-with-github-enterprise-importer.md)
     - Migrating Between Github Products
       * [About Migrations Between Git Hub Products](migrations/using-github-enterprise-importer/migrating-between-github-products/about-migrations-between-github-products.md)
       * [Migrating Between Git Hub Products](migrations/using-github-enterprise-importer/migrating-between-github-products/index.md)
@@ -3731,7 +3741,8 @@
     * [REST API Endpoints For Copilot](rest/copilot/index.md)
   - Copilot Spaces
     * [Copilot Spaces Collaborators](rest/copilot-spaces/collaborators.md)
-    * [REST API Endpoints For Copilot Spaces](rest/copilot-spaces/resources.md)
+    * [REST API Endpoints For Copilot Spaces](rest/copilot-spaces/index.md)
+    * [REST API Endpoints For Copilot Spaces Resources](rest/copilot-spaces/resources.md)
   - Credentials
     * [Credentials](rest/credentials/index.md)
     * [Revocation](rest/credentials/revoke.md)
@@ -3771,7 +3782,6 @@
     * [REST API Endpoints For LDAP](rest/enterprise-admin/ldap.md)
     * [Licensing](rest/enterprise-admin/licensing.md)
     * [REST API Endpoints For Managing Git Hub Enterprise Server](rest/enterprise-admin/manage-ghes.md)
-    * [REST API Endpoints For Management Console](rest/enterprise-admin/management-console.md)
     * [REST API Endpoints For Enterprise Network Configurations](rest/enterprise-admin/network-configurations.md)
     * [REST API Endpoints For Organization Pre Receive Hooks](rest/enterprise-admin/org-pre-receive-hooks.md)
     * [REST API For Managing Organization Git Hub App Installations](rest/enterprise-admin/organization-installations.md)
