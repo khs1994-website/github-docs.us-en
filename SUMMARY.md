@@ -2000,7 +2000,8 @@
         * [About plugins for {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/about-cli-plugins.md)
         * [About Git Hub Copilot CLI](copilot/concepts/agents/copilot-cli/about-copilot-cli.md)
         * [About Custom Agents](copilot/concepts/agents/copilot-cli/about-custom-agents.md)
-        * [About remote access to {% data variables.copilot.copilot_cli %} sessions](copilot/concepts/agents/copilot-cli/about-remote-access.md)
+        * [About enterprise-managed plugin standards for {% data variables.copilot.copilot_cli_short %}](copilot/concepts/agents/copilot-cli/about-enterprise-plugin-standards.md)
+        * [About remote control of {% data variables.copilot.copilot_cli %} sessions](copilot/concepts/agents/copilot-cli/about-remote-control.md)
         * [Allowing Git Hub Copilot CLI To Work Autonomously](copilot/concepts/agents/copilot-cli/autopilot.md)
         * [Canceling a {% data variables.copilot.copilot_cli %} operation and rolling back changes](copilot/concepts/agents/copilot-cli/cancel-and-roll-back.md)
         * [About {% data variables.copilot.copilot_cli %} session data](copilot/concepts/agents/copilot-cli/chronicle.md)
@@ -2010,6 +2011,7 @@
         * [Concepts For Git Hub Copilot CLI](copilot/concepts/agents/copilot-cli/index.md)
         * [Using LSP servers with {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/lsp-servers.md)
         * [Researching with {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/research.md)
+        * [About The Rubber Duck Agent](copilot/concepts/agents/copilot-cli/rubber-duck.md)
       * [About Agent Skills](copilot/concepts/agents/about-agent-skills.md)
       * [About Third Party Agents](copilot/concepts/agents/about-third-party-agents.md)
       * [Anthropic Claude](copilot/concepts/agents/anthropic-claude.md)
@@ -2080,6 +2082,7 @@
           * [Viewing Copilot License Usage In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-access/view-license-usage.md)
         - Manage Agents
           * [Blocking Git Hub Copilot Cloud Agent In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/block-copilot-cloud-agent.md)
+          * [Configuring enterprise plugin standards for {% data variables.copilot.copilot_cli_short %}](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/configure-enterprise-plugin-standards.md)
           * [Enabling Git Hub Copilot Cloud Agent In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/enable-copilot-cloud-agent.md)
           * [Managing Agents In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/index.md)
           * [Managing Git Hub Copilot Code Review In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/manage-copilot-code-review.md)
@@ -3654,6 +3657,7 @@
   - Actions
     * [REST API Endpoints For Git Hub Actions Artifacts](rest/actions/artifacts.md)
     * [REST API Endpoints For Git Hub Actions Cache](rest/actions/cache.md)
+    * [REST API Endpoints For Actions Concurrency Groups](rest/actions/concurrency-groups.md)
     * [Git Hub Hosted Runners](rest/actions/hosted-runners.md)
     * [REST API Endpoints For Git Hub Actions](rest/actions/index.md)
     * [REST API Endpoints For Git Hub Actions OIDC](rest/actions/oidc.md)
@@ -3672,6 +3676,8 @@
     * [REST API Endpoints For Notifications](rest/activity/notifications.md)
     * [REST API Endpoints For Starring](rest/activity/starring.md)
     * [REST API Endpoints For Watching](rest/activity/watching.md)
+  - Agent Tasks
+    * [REST API Endpoints For Agent Tasks](rest/agent-tasks/index.md)
   - Announcement Banners
     * [REST API Endpoints For Enterprise Announcement Banners](rest/announcement-banners/enterprises.md)
     * [REST API Endpoints For Announcement Banners](rest/announcement-banners/index.md)
