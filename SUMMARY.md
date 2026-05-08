@@ -2344,6 +2344,7 @@
         * [Starting Git Hub Copilot Sessions](copilot/how-tos/use-copilot-agents/cloud-agent/start-copilot-sessions.md)
         * [Tracking Git Hub Copilot S Sessions](copilot/how-tos/use-copilot-agents/cloud-agent/track-copilot-sessions.md)
         * [Troubleshooting Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/troubleshoot-cloud-agent.md)
+        * [Using Copilot Cloud Agent Via The API](copilot/how-tos/use-copilot-agents/cloud-agent/use-cloud-agent-via-the-api.md)
       - Request A Code Review
         * [Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/index.md)
         * [Using Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review.md)
@@ -3099,6 +3100,15 @@
     * [Prepare For Your Migration From Azure Dev Ops To Git Hub](migrations/ado/prepare-for-your-migration-from-azure-devops-to-github.md)
     * [Understand Migrations From Azure Dev Ops To Git Hub](migrations/ado/understand-migrations-from-azure-devops-to-github.md)
     * [Use Graph QL To Migrate Repositories From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/ado/use-graphql-to-migrate-repositories-from-azure-devops-to-github-enterprise-cloud.md)
+  - Elm
+    * [About live migrations from GitHub Enterprise Server to GHE.com](migrations/elm/about-live-migrations.md)
+    * [Completing your live migration from GitHub Enterprise Server to GHE.com](migrations/elm/complete-your-migration.md)
+    * [Enterprise Live Migrations CLI Reference](migrations/elm/elm-cli-reference.md)
+    * [Live migrations from GitHub Enterprise Server to GHE.com](migrations/elm/index.md)
+    * [Migrating Your Repository With Enterprise Live Migrations](migrations/elm/migrate-your-repository.md)
+    * [Migrated data for live migrations from GitHub Enterprise Server to GHE.com](migrations/elm/migrated-data-reference.md)
+    * [Preparing for your live migration from GitHub Enterprise Server to GHE.com](migrations/elm/prepare-for-your-migration.md)
+    * [Troubleshooting live migrations from GitHub Enterprise Server to GHE.com](migrations/elm/troubleshooting.md)
   - Importing Source Code
     - Using Github Importer
       * [About Git Hub Importer](migrations/importing-source-code/using-github-importer/about-github-importer.md)
@@ -3118,7 +3128,9 @@
     * [About Git Hub S Migration Tooling](migrations/overview/about-githubs-migration-tooling.md)
     * [About Locked Repositories](migrations/overview/about-locked-repositories.md)
     * [Overview](migrations/overview/index.md)
+    * [Mannequins And User Activity](migrations/overview/mannequins-and-user-activity.md)
     * [Migration Paths To Git Hub](migrations/overview/migration-paths-to-github.md)
+    * [About Migrations Between Git Hub Products](migrations/overview/migrations-within-github.md)
     * [Planning Your Migration To Git Hub](migrations/overview/planning-your-migration-to-github.md)
     * [Programmatically Importing Repositories](migrations/overview/programmatically-importing-repositories.md)
   - Troubleshooting
@@ -3137,7 +3149,7 @@
       * [Completing Your Migration With Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/completing-your-migration-with-github-enterprise-importer/index.md)
       * [Reclaiming Mannequins For Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/completing-your-migration-with-github-enterprise-importer/reclaiming-mannequins-for-github-enterprise-importer.md)
     - Migrating Between Github Products
-      * [About Migrations Between Git Hub Products](migrations/using-github-enterprise-importer/migrating-between-github-products/about-migrations-between-github-products.md)
+      * [About migrations between GitHub products with {% data variables.product.prodname_importer_proper_name %}](migrations/using-github-enterprise-importer/migrating-between-github-products/about-migrations-between-github-products.md)
       * [Migrating Between Git Hub Products](migrations/using-github-enterprise-importer/migrating-between-github-products/index.md)
       * [Managing Access For A Migration Between Git Hub Products](migrations/using-github-enterprise-importer/migrating-between-github-products/managing-access-for-a-migration-between-github-products.md)
       * [Migrating organizations from GitHub.com to GitHub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-between-github-products/migrating-organizations-from-githubcom-to-github-enterprise-cloud.md)
@@ -3239,6 +3251,7 @@
     * [About Networking For Hosted Compute Products In Your Organization](organizations/managing-organization-settings/about-networking-for-hosted-compute-products-in-your-organization.md)
     * [Allowing People To Delete Issues In Your Organization](organizations/managing-organization-settings/allowing-people-to-delete-issues-in-your-organization.md)
     * [Allowing Project Visibility Changes In Your Organization](organizations/managing-organization-settings/allowing-project-visibility-changes-in-your-organization.md)
+    * [Allowing Repository Admins To Rename Branches With Organization Rulesets](organizations/managing-organization-settings/allowing-repository-admins-to-rename-branches-with-organization-rulesets.md)
     * [Archiving An Organization](organizations/managing-organization-settings/archiving-an-organization.md)
     * [Changing The Visibility Of Your Organization S Dependency Insights](organizations/managing-organization-settings/changing-the-visibility-of-your-organizations-dependency-insights.md)
     * [Configuring Private Networking For Git Hub Hosted Runners In Your Organization](organizations/managing-organization-settings/configuring-private-networking-for-github-hosted-runners-in-your-organization.md)
@@ -3779,6 +3792,7 @@
     * [REST API Endpoints For Enterprise Audit Logs](rest/enterprise-admin/audit-log.md)
     * [REST API Endpoints For Bypass Requests](rest/enterprise-admin/bypass-requests.md)
     * [REST API Endpoints For Enterprise Security Features For Code](rest/enterprise-admin/code-security-and-analysis.md)
+    * [REST API Endpoints For Enterprise Credential Authorizations](rest/enterprise-admin/credential-authorizations.md)
     * [REST API For Organization Custom Properties In An Enterprise](rest/enterprise-admin/custom-properties-for-orgs.md)
     * [Custom Properties](rest/enterprise-admin/custom-properties.md)
     * [REST API Endpoints For Enterprise Roles](rest/enterprise-admin/enterprise-roles.md)
