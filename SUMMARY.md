@@ -588,11 +588,6 @@
       * [Viewing And Managing A User S SAML Access To Your Enterprise](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/viewing-and-managing-a-users-saml-access-to-your-enterprise.md)
       * [Viewing People In Your Enterprise](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/viewing-people-in-your-enterprise.md)
     * [Managing Accounts And Repositories](admin/managing-accounts-and-repositories/index.md)
-  - Managing Code Security
-    - Managing Github Advanced Security For Your Enterprise
-      * [Setting up {% data variables.product.prodname_GHAS %} features on your appliance](admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/index.md)
-      * [Managing {% data variables.product.prodname_GHAS %} features for your enterprise](admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/managing-github-advanced-security-features-for-your-enterprise.md)
-    * [Managing A Secure Coding Environment For Your Enterprise](admin/managing-code-security/index.md)
   - Managing Github Actions For Your Enterprise
     - Advanced Configuration And Troubleshooting
       * [Backing Up And Restoring Git Hub Enterprise Server With Git Hub Actions Enabled](admin/managing-github-actions-for-your-enterprise/advanced-configuration-and-troubleshooting/backing-up-and-restoring-github-enterprise-server-with-github-actions-enabled.md)
@@ -715,7 +710,6 @@
       * [Requesting Server Statistics Using The REST API](admin/monitoring-activity-in-your-enterprise/analyzing-how-your-team-works-with-server-statistics/requesting-server-statistics-using-the-rest-api.md)
     - Exploring User Activity In Your Enterprise
       * [Accessing Reports For Your Instance](admin/monitoring-activity-in-your-enterprise/exploring-user-activity-in-your-enterprise/accessing-reports-for-your-instance.md)
-      * [Activity Dashboard](admin/monitoring-activity-in-your-enterprise/exploring-user-activity-in-your-enterprise/activity-dashboard.md)
       * [Exploring User Activity In Your Enterprise](admin/monitoring-activity-in-your-enterprise/exploring-user-activity-in-your-enterprise/index.md)
       * [Log Forwarding](admin/monitoring-activity-in-your-enterprise/exploring-user-activity-in-your-enterprise/log-forwarding.md)
       * [Managing Global Webhooks](admin/monitoring-activity-in-your-enterprise/exploring-user-activity-in-your-enterprise/managing-global-webhooks.md)
@@ -782,7 +776,7 @@
       * [About Monitoring Your Instance](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-monitoring-your-instance.md)
       * [About Support Bundles For Git Hub Enterprise Server](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-support-bundles.md)
       * [About System Logs](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-system-logs.md)
-      * [About the monitor {% ifversion ghes > 3.15 %}dashboards{% else %}dashboard{% endif %}](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-the-monitor-dashboards.md)
+      * [About The Monitor Dashboards](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-the-monitor-dashboards.md)
       * [Generating A Health Check For Your Enterprise](admin/monitoring-and-managing-your-instance/monitoring-your-instance/generating-a-health-check-for-your-enterprise.md)
       * [Monitoring Your Instance](admin/monitoring-and-managing-your-instance/monitoring-your-instance/index.md)
       * [Monitoring Using SNMP](admin/monitoring-and-managing-your-instance/monitoring-your-instance/monitoring-using-snmp.md)
@@ -2209,6 +2203,7 @@
           * [{% data variables.copilot.copilot_spaces %}](copilot/how-tos/copilot-on-github/customize-copilot/copilot-spaces/index.md)
         - Customize Cloud Agent
           * [Adding agent skills for {% data variables.product.prodname_copilot %}](copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills.md)
+          * [Configure Secrets And Variables For Copilot Cloud Agent](copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/configure-secrets-and-variables.md)
           * [Creating custom agents for {% data variables.copilot.copilot_cloud_agent %}](copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/create-custom-agents.md)
           * [Configure The Development Environment](copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/customize-the-agent-environment.md)
           * [Customizing Or Disabling The Firewall For Git Hub Copilot Cloud Agent](copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/customize-the-agent-firewall.md)
@@ -3590,7 +3585,6 @@
     - Managing Repository Settings
       * [About Email Notifications For Pushes To Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/about-email-notifications-for-pushes-to-your-repository.md)
       * [Configuring Autolinks To Reference External Resources](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/configuring-autolinks-to-reference-external-resources.md)
-      * [Configuring Tag Protection Rules](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/configuring-tag-protection-rules.md)
       * [Enabling Anonymous Git Read Access For A Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/enabling-anonymous-git-read-access-for-a-repository.md)
       * [Managing Repository Settings](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/index.md)
       * [Managing The Automatic Closing Of Issues In Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-auto-closing-issues.md)
