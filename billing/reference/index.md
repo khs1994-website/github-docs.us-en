@@ -20,6 +20,6 @@ children:
   - /product-and-sku-names
   - /product-usage-included
   - /roles-for-visual-studio
-  - /supported-payment-methods
+  - /payment-methods
 contentType: reference
 ---

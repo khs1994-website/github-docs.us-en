@@ -1151,10 +1151,10 @@
     * [People Who Consume A License In An Organization](billing/reference/github-license-users.md)
     * [Reference For Billing](billing/reference/index.md)
     * [License Reports Reference](billing/reference/license-reports.md)
+    * [Payment Methods](billing/reference/payment-methods.md)
     * [Git Hub Product And SKU Names](billing/reference/product-and-sku-names.md)
     * [Product Usage Included With Each Plan](billing/reference/product-usage-included.md)
     * [Roles for {% data variables.visual_studio.prodname_vss_ghe %} reference](billing/reference/roles-for-visual-studio.md)
-    * [Supported Payment Methods For Git Hub](billing/reference/supported-payment-methods.md)
   - Tutorials
     * [Automating Usage Reporting With The REST API](billing/tutorials/automate-usage-reporting.md)
     * [Controlling And Tracking Costs At Scale](billing/tutorials/control-costs-at-scale.md)
@@ -3685,6 +3685,10 @@
     * [REST API Endpoints For Watching](rest/activity/watching.md)
   - Agent Tasks
     * [REST API Endpoints For Agent Tasks](rest/agent-tasks/index.md)
+  - Agents
+    * [REST Endpoints For Agents](rest/agents/index.md)
+    * [REST API Endpoints For Agent Secrets](rest/agents/secrets.md)
+    * [REST API Endpoints For Variables](rest/agents/variables.md)
   - Announcement Banners
     * [REST API Endpoints For Enterprise Announcement Banners](rest/announcement-banners/enterprises.md)
     * [REST API Endpoints For Announcement Banners](rest/announcement-banners/index.md)
