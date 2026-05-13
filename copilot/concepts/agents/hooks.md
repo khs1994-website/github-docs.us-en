@@ -1,8 +1,7 @@
 ---
-title: About hooks
+title: About hooks for {% data variables.product.prodname_copilot %}
 shortTitle: Hooks
 intro: 'Extend and customize {% data variables.product.prodname_copilot %} agent behavior by executing custom shell commands at key points during agent execution.'
-product: '{% data reusables.gated-features.copilot-cloud-agent %}<br><a href="https://github.com/features/copilot/plans?ref_product=copilot&ref_type=purchase&ref_style=button" target="_blank" class="btn btn-primary mt-3 mr-3 no-underline"><span>Sign up for {% data variables.product.prodname_copilot_short %}</span> {% octicon "link-external" height:16 %}</a>'
 versions:
   feature: copilot
 contentType: concepts
@@ -10,24 +9,26 @@ category:
   - Configure Copilot
 redirect_from:
   - /copilot/concepts/agents/coding-agent/about-hooks
+  - /copilot/concepts/agents/cloud-agent/about-hooks
+  - /copilot/concepts/agents/about-hooks
 ---
 
-## About hooks
+## What are hooks?
 
-Hooks enable you to execute custom shell commands at strategic points in an agent's workflow, such as when an agent session starts or ends, or before and after a prompt is entered or a tool is called.
+Hooks are a way of executing custom shell commands at strategic points in an agent's workflow, such as when an agent session starts or ends, when you enter a prompt, or when a tool is called.
 
 Hooks receive detailed information about agent actions via JSON input, enabling context-aware automation. For example, you can use hooks to:
 
 * Programmatically approve or deny tool executions.
-* Utilize built-in security features like secret scanning to prevent credential leaks.
+* Use built-in security features like secret scanning to prevent credential leaks.
 * Implement custom validation rules and audit logging for compliance.
-
-{% data variables.product.prodname_copilot_short %} agents support hooks stored in JSON files in your repository at `.github/hooks/*.json`.
 
 Hooks are available for use with:
 
-* {% data variables.copilot.copilot_cloud_agent %} on {% data variables.product.github %}
-* {% data variables.copilot.copilot_cli %} in the terminal
+* **{% data variables.copilot.copilot_cloud_agent %}** on {% data variables.product.github %}.
+* **{% data variables.copilot.copilot_cli %}** in your terminal.
+
+You define hooks in JSON files, stored in your repository at `.github/hooks/*.json`. These apply whenever {% data variables.product.prodname_copilot_short %} agents are used in the repository. {% data variables.copilot.copilot_cli_short %} also supports personal hooks that you store in your home directory at `~/.copilot/hooks/*.json`. These apply whenever you use {% data variables.copilot.copilot_cli_short %}.
 
 ## Types of hooks
 
@@ -42,7 +43,7 @@ The following types of hooks are available:
 * **subagentStop**: Executed when a subagent completes, before returning results to the parent agent.
 * **errorOccurred**: Executed when an error occurs during agent execution. Can be used to log errors for debugging, send notifications, track error patterns, and generate reports.
 
-To see a complete reference of hook types with example use cases, best practices, and advanced patterns, see [AUTOTITLE](/copilot/reference/hooks-configuration).
+To see a complete reference of hook types with example use cases, best practices, and advanced patterns, see [AUTOTITLE](/copilot/reference/hooks-reference).
 
 ## Hook configuration format
 
@@ -162,4 +163,6 @@ To ensure security is maintained when using hooks, keep the following considerat
 
 ## Next steps
 
-To start creating hooks, see [AUTOTITLE](/copilot/how-tos/use-copilot-agents/cloud-agent/use-hooks).
+To start creating hooks, see:
+* [AUTOTITLE](/copilot/how-tos/use-copilot-agents/cloud-agent/use-hooks) for {% data variables.copilot.copilot_cloud_agent %}
+* [AUTOTITLE](/copilot/how-tos/copilot-cli/customize-copilot/use-hooks) for {% data variables.copilot.copilot_cli %}
