@@ -1659,14 +1659,15 @@
     - Security At Scale
       - Troubleshoot Security Configurations
         * [A Repository Is Using Advanced Setup For Code Scanning](code-security/reference/security-at-scale/troubleshoot-security-configurations/a-repository-is-using-advanced-setup-for-code-scanning.md)
+        * [Diagnosing Security Configuration Issues](code-security/reference/security-at-scale/troubleshoot-security-configurations/diagnosing-security-configuration-issues.md)
         * [A Feature Has Disappeared From A Security Configuration](code-security/reference/security-at-scale/troubleshoot-security-configurations/feature-disappears.md)
-        * [Finding And Fixing Configuration Attachment Failures](code-security/reference/security-at-scale/troubleshoot-security-configurations/finding-repositories-with-attachment-failures.md)
         * [Troubleshoot Security Configurations](code-security/reference/security-at-scale/troubleshoot-security-configurations/index.md)
         * [Not Enough Git Hub Advanced Security Licenses](code-security/reference/security-at-scale/troubleshoot-security-configurations/not-enough-github-advanced-security-licenses.md)
         * [Default Setup For Code Scanning Overrides Advanced Setup](code-security/reference/security-at-scale/troubleshoot-security-configurations/unexpected-default-setup.md)
       * [Available Filters For Security Overview](code-security/reference/security-at-scale/available-filters-for-security-overview.md)
       * [Reference For Security At Scale](code-security/reference/security-at-scale/index.md)
       * [Security Configuration Enforcement](code-security/reference/security-at-scale/security-configuration-enforcement.md)
+      * [Security Configuration Statuses](code-security/reference/security-at-scale/security-configuration-statuses.md)
       * [Security Overview Dashboard Metrics](code-security/reference/security-at-scale/security-overview-dashboard-metrics.md)
     - Security Incident Response
       * [Reference For Security Incident Response](code-security/reference/security-incident-response/index.md)
@@ -1772,6 +1773,7 @@
       * [Planning a trial of {% data variables.product.prodname_GHAS %}](code-security/tutorials/trialing-github-advanced-security/planning-a-trial-of-ghas.md)
       * [Setting Up A Trial Of Git Hub Advanced Security](code-security/tutorials/trialing-github-advanced-security/trial-advanced-security.md)
     * [Tutorials For Security And Code Quality](code-security/tutorials/index.md)
+    * [Secure Your Secrets At Scale With Git Hub](code-security/tutorials/secret-protection-adoption-path.md)
     * [Secret Scanning Partner Program](code-security/tutorials/secret-scanning-partner-program.md)
   * [Security And Code Quality Documentation](code-security/index.md)
 - Codespaces
@@ -2009,7 +2011,7 @@
       * [About Third Party Agents](copilot/concepts/agents/about-third-party-agents.md)
       * [Anthropic Claude](copilot/concepts/agents/anthropic-claude.md)
       * [About Git Hub Copilot Code Review](copilot/concepts/agents/code-review.md)
-      * [About Agentic Memory For Git Hub Copilot](copilot/concepts/agents/copilot-memory.md)
+      * [About Git Hub Copilot Memory](copilot/concepts/agents/copilot-memory.md)
       * [Agent Management For Enterprises](copilot/concepts/agents/enterprise-management.md)
       * [About The Git Hub Copilot App](copilot/concepts/agents/github-copilot-app.md)
       * [About hooks for {% data variables.product.prodname_copilot %}](copilot/concepts/agents/hooks.md)
@@ -3759,6 +3761,7 @@
     * [REST API Endpoints For Commits](rest/commits/index.md)
     * [REST API Endpoints For Commit Statuses](rest/commits/statuses.md)
   - Copilot
+    * [REST API Endpoints For Copilot Cloud Agent Repository Management](rest/copilot/copilot-cloud-agent-management.md)
     * [REST API Endpoints For Copilot Cloud Agent Management](rest/copilot/copilot-coding-agent-management.md)
     * [REST API Endpoints For Copilot Content Exclusion Management](rest/copilot/copilot-content-exclusion-management.md)
     * [REST API Endpoints For Copilot Custom Agents](rest/copilot/copilot-custom-agents.md)
