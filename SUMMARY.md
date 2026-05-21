@@ -2047,7 +2047,7 @@
       * [Choosing The Right AI Tool For Your Task](copilot/concepts/tools/ai-tools.md)
       * [Concepts For AI Tools](copilot/concepts/tools/index.md)
     * [About Enterprise Accounts For Copilot Business](copilot/concepts/about-enterprise-accounts-for-copilot-business.md)
-    * [About {% data variables.product.prodname_copilot_short %} auto model selection](copilot/concepts/auto-model-selection.md)
+    * [About {% data variables.product.prodname_copilot_short %} {% data variables.copilot.copilot_auto_model_selection_short %}](copilot/concepts/auto-model-selection.md)
     * [About Git Hub Copilot Chat](copilot/concepts/chat.md)
     * [Base And Long Term Support LTS Models](copilot/concepts/fallback-and-lts-models.md)
     * [Fed RAMP Compliant Models For Git Hub Copilot](copilot/concepts/fedramp-models.md)
@@ -3062,9 +3062,9 @@
     * [Sharing {% data variables.projects.project_v2 %} updates](issues/planning-and-tracking-with-projects/sharing-project-updates.md)
   - Tracking Your Work With Issues
     - Administering Issues
+      * [Cloning An Issue](issues/tracking-your-work-with-issues/administering-issues/cloning-an-issue.md)
       * [Closing An Issue](issues/tracking-your-work-with-issues/administering-issues/closing-an-issue.md)
       * [Deleting An Issue](issues/tracking-your-work-with-issues/administering-issues/deleting-an-issue.md)
-      * [Duplicating An Issue](issues/tracking-your-work-with-issues/administering-issues/duplicating-an-issue.md)
       * [Administering Issues](issues/tracking-your-work-with-issues/administering-issues/index.md)
       * [Marking Issues Or Pull Requests As A Duplicate](issues/tracking-your-work-with-issues/administering-issues/marking-issues-or-pull-requests-as-a-duplicate.md)
       * [Pinning An Issue To Your Repository](issues/tracking-your-work-with-issues/administering-issues/pinning-an-issue-to-your-repository.md)
@@ -3744,6 +3744,8 @@
     * [REST API Endpoints For Check Suites](rest/checks/suites.md)
   - Classroom
     * [REST API endpoints for {% data variables.product.prodname_classroom %}](rest/classroom/index.md)
+  - [Code Quality](rest/code-quality/index.md)
+    * [REST API Endpoints For Code Quality](rest/code-quality/code-quality.md)
   - Code Scanning
     * [REST API endpoints for {% data variables.product.prodname_code_scanning %} alert dismissal requests](rest/code-scanning/alert-dismissal-requests.md)
     * [REST API Endpoints For Code Scanning](rest/code-scanning/index.md)
