@@ -2076,11 +2076,11 @@
           * [Managing Git Hub Copilot Access To Your Enterprise S Network](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-access/manage-network-access.md)
           * [Viewing Copilot License Usage In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-access/view-license-usage.md)
         - Manage Agents
-          * [Blocking Git Hub Copilot Cloud Agent In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/block-copilot-cloud-agent.md)
+          * [Blocking Agentic Features In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/block-agentic-features.md)
           * [Configuring enterprise plugin standards for {% data variables.copilot.copilot_cli_short %}](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/configure-enterprise-plugin-standards.md)
           * [Enabling Git Hub Copilot Cloud Agent In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/enable-copilot-cloud-agent.md)
+          * [Enabling Git Hub Copilot Code Review In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/enable-copilot-code-review.md)
           * [Managing Agents In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/index.md)
-          * [Managing Git Hub Copilot Code Review In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/manage-copilot-code-review.md)
           * [Monitoring Agentic Activity In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/monitor-agentic-activity.md)
           * [Preparing To Use Custom Agents In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/prepare-for-custom-agents.md)
         - Manage Plan
