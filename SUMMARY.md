@@ -1952,6 +1952,7 @@
     * [About The Content Model](contributing/style-guide-and-content-model/about-the-content-model.md)
     * [Concepts Content Type](contributing/style-guide-and-content-model/concepts-content-type.md)
     * [Contents Of A Git Hub Docs Article](contributing/style-guide-and-content-model/contents-of-a-github-docs-article.md)
+    * [Get Started Content Type](contributing/style-guide-and-content-model/get-started-content-type.md)
     * [How To Content Type](contributing/style-guide-and-content-model/how-to-content-type.md)
     * [Style Guide And Content Model](contributing/style-guide-and-content-model/index.md)
     * [Quickstart Content Type](contributing/style-guide-and-content-model/quickstart-content-type.md)
@@ -2038,6 +2039,12 @@
       * [About Git Hub Copilot Spaces](copilot/concepts/context/spaces.md)
     - Copilot Usage Metrics
       * [Git Hub Copilot Usage Metrics](copilot/concepts/copilot-usage-metrics/index.md)
+    - Models
+      * [About {% data variables.product.prodname_copilot_short %} {% data variables.copilot.copilot_auto_model_selection_short %}](copilot/concepts/models/auto-model-selection.md)
+      * [Base And Long Term Support LTS Models](copilot/concepts/models/fallback-and-lts-models.md)
+      * [Fed RAMP Compliant Models For Git Hub Copilot](copilot/concepts/models/fedramp-models.md)
+      * [Models For Git Hub Copilot](copilot/concepts/models/index.md)
+      * [Utility Models](copilot/concepts/models/utility-models.md)
     - Prompting
       * [Concepts For Prompting Git Hub Copilot](copilot/concepts/prompting/index.md)
       * [Prompt Engineering For Git Hub Copilot Chat](copilot/concepts/prompting/prompt-engineering.md)
@@ -2047,10 +2054,7 @@
       * [Choosing The Right AI Tool For Your Task](copilot/concepts/tools/ai-tools.md)
       * [Concepts For AI Tools](copilot/concepts/tools/index.md)
     * [About Enterprise Accounts For Copilot Business](copilot/concepts/about-enterprise-accounts-for-copilot-business.md)
-    * [About {% data variables.product.prodname_copilot_short %} {% data variables.copilot.copilot_auto_model_selection_short %}](copilot/concepts/auto-model-selection.md)
     * [About Git Hub Copilot Chat](copilot/concepts/chat.md)
-    * [Base And Long Term Support LTS Models](copilot/concepts/fallback-and-lts-models.md)
-    * [Fed RAMP Compliant Models For Git Hub Copilot](copilot/concepts/fedramp-models.md)
     * [Concepts For Git Hub Copilot](copilot/concepts/index.md)
     * [MCP Server Usage In Your Company](copilot/concepts/mcp-management.md)
     * [Network Settings For Git Hub Copilot](copilot/concepts/network-settings.md)
@@ -2250,7 +2254,7 @@
       - Set Up Copilot Sdk
         * [Using Azure Managed Identity With Copilot SDK](copilot/how-tos/copilot-sdk/set-up-copilot-sdk/azure-managed-identity.md)
         * [Setting Up Copilot SDK For Backend Services](copilot/how-tos/copilot-sdk/set-up-copilot-sdk/backend-services.md)
-        * [Using A Bundled CLI With Copilot SDK](copilot/how-tos/copilot-sdk/set-up-copilot-sdk/bundled-cli.md)
+        * [Default Setup Bundled CLI](copilot/how-tos/copilot-sdk/set-up-copilot-sdk/bundled-cli.md)
         * [Choosing A Setup Path For Copilot SDK](copilot/how-tos/copilot-sdk/set-up-copilot-sdk/choosing-a-setup-path.md)
         * [Using Git Hub O Auth With Copilot SDK](copilot/how-tos/copilot-sdk/set-up-copilot-sdk/github-oauth.md)
         * [Set Up Copilot SDK](copilot/how-tos/copilot-sdk/set-up-copilot-sdk/index.md)
@@ -2262,11 +2266,13 @@
         * [Troubleshooting Copilot SDK](copilot/how-tos/copilot-sdk/troubleshooting/index.md)
         * [SDK And CLI Compatibility](copilot/how-tos/copilot-sdk/troubleshooting/sdk-and-cli-compatibility.md)
       - Use Copilot Sdk
+        * [Understanding The Agent Loop](copilot/how-tos/copilot-sdk/use-copilot-sdk/agent-loop.md)
         * [Custom Agents And Sub Agent Orchestration](copilot/how-tos/copilot-sdk/use-copilot-sdk/custom-agents.md)
         * [Using Custom Skills With The Copilot SDK](copilot/how-tos/copilot-sdk/use-copilot-sdk/custom-skills.md)
         * [Using Image Input With The Copilot SDK](copilot/how-tos/copilot-sdk/use-copilot-sdk/image-input.md)
         * [Use Copilot SDK](copilot/how-tos/copilot-sdk/use-copilot-sdk/index.md)
         * [Using MCP Servers With The Copilot SDK](copilot/how-tos/copilot-sdk/use-copilot-sdk/mcp-servers.md)
+        * [Remote Sessions](copilot/how-tos/copilot-sdk/use-copilot-sdk/remote-sessions.md)
         * [Session Persistence In The Copilot SDK](copilot/how-tos/copilot-sdk/use-copilot-sdk/session-persistence.md)
         * [Steering And Queueing Messages In The Copilot SDK](copilot/how-tos/copilot-sdk/use-copilot-sdk/steering-and-queueing.md)
         * [Streaming Events In The Copilot SDK](copilot/how-tos/copilot-sdk/use-copilot-sdk/streaming-events.md)
@@ -2838,6 +2844,7 @@
     * [Troubleshooting Connectivity Problems](get-started/using-github/troubleshooting-connectivity-problems.md)
   - Using Github Docs
     * [About Versions Of Git Hub Docs](get-started/using-github-docs/about-versions-of-github-docs.md)
+    * [Git Hub Docs API](get-started/using-github-docs/github-docs-api.md)
     * [Using Git Hub Docs](get-started/using-github-docs/index.md)
     * [Using Hover Cards On Git Hub Docs](get-started/using-github-docs/using-hover-cards-on-github-docs.md)
   - Writing On Github
