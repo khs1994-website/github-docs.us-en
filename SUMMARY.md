@@ -1299,6 +1299,7 @@
       * [Maintain Quality Code](code-security/how-tos/maintain-quality-code/index.md)
       * [Interpreting The Code Quality Results For Your Repository](code-security/how-tos/maintain-quality-code/interpret-results.md)
       * [Setting Code Quality Thresholds For Pull Requests](code-security/how-tos/maintain-quality-code/set-pr-thresholds.md)
+      * [Setting Up Code Coverage For Your Repository](code-security/how-tos/maintain-quality-code/set-up-code-coverage.md)
       * [Resolving A Block On Your Pull Request](code-security/how-tos/maintain-quality-code/unblock-your-pr.md)
     - Manage Security Alerts
       - Manage Code Scanning Alerts
@@ -2094,6 +2095,7 @@
           * [Subscribing To Git Hub Copilot For Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-plan/subscribe.md)
           * [Upgrading Git Hub Copilot For Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-plan/upgrade-plan.md)
         * [Managing Git Hub Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/index.md)
+        * [Managing Availability Of Default Models](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-availability-of-default-models.md)
         * [Managing Policies And Features For Git Hub Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-enterprise-policies.md)
         * [Managing Git Hub Spark In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-spark.md)
         * [Reviewing Audit Logs For Git Hub Copilot](copilot/how-tos/administer-copilot/manage-for-enterprise/review-audit-logs.md)
@@ -2114,6 +2116,7 @@
         * [Adding Git Hub Copilot Cloud Agent To Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/add-copilot-cloud-agent.md)
         * [Configuring Runners For Git Hub Copilot Cloud Agent In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/configure-runner-for-coding-agent.md)
         * [Managing Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/index.md)
+        * [Managing Default Models](copilot/how-tos/administer-copilot/manage-for-organization/manage-default-models.md)
         * [Managing Policies And Features For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-policies.md)
         * [Preparing To Use Custom Agents In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/prepare-for-custom-agents.md)
         * [Using Your LLM Provider API Keys With Copilot](copilot/how-tos/administer-copilot/manage-for-organization/use-your-own-api-keys.md)
