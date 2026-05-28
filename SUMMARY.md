@@ -1270,6 +1270,7 @@
         * [Checking Out The Code QL CLI Source Code](code-security/how-tos/find-and-fix-code-vulnerabilities/scan-from-the-command-line/check-out-source-code.md)
         * [Creating Code QL CLI Database Bundles](code-security/how-tos/find-and-fix-code-vulnerabilities/scan-from-the-command-line/creating-database-bundle-for-troubleshooting.md)
         * [Downloading Code QL Databases From Git Hub](code-security/how-tos/find-and-fix-code-vulnerabilities/scan-from-the-command-line/download-databases.md)
+        * [Using Incremental Analysis With The Code QL CLI](code-security/how-tos/find-and-fix-code-vulnerabilities/scan-from-the-command-line/incremental-analysis.md)
         * [Scan From The Command Line](code-security/how-tos/find-and-fix-code-vulnerabilities/scan-from-the-command-line/index.md)
         * [Publishing And Using Code QL Packs](code-security/how-tos/find-and-fix-code-vulnerabilities/scan-from-the-command-line/publish-and-use-packs.md)
         * [Setting Up The Code QL CLI](code-security/how-tos/find-and-fix-code-vulnerabilities/scan-from-the-command-line/setting-up-the-codeql-cli.md)
@@ -2675,6 +2676,7 @@
   - Manage Coursework With Github Classroom
     - Get Started With Github Classroom
       * [About Git Hub Classroom](education/manage-coursework-with-github-classroom/get-started-with-github-classroom/about-github-classroom.md)
+      * [Export Or Migrate Git Hub Classroom Data](education/manage-coursework-with-github-classroom/get-started-with-github-classroom/export-or-migrate-github-classroom-data.md)
       * [Glossary](education/manage-coursework-with-github-classroom/get-started-with-github-classroom/glossary.md)
       * [Get Started With Git Hub Classroom](education/manage-coursework-with-github-classroom/get-started-with-github-classroom/index.md)
     - Integrate Github Classroom With An Ide
