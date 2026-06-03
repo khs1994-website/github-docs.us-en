@@ -144,6 +144,31 @@ Sessions sort by the following modes:
 
 Sessions already open in another window float to the top in all non-relevance sort modes. When no working-directory context is available, the `relevance` mode is skipped.
 
+## Diff mode shortcuts
+
+When diff mode is open (entered via `/diff`):
+
+| Shortcut | Purpose |
+|----------|---------|
+| <kbd>↑</kbd> / `k` | Move selection up one line. |
+| <kbd>↓</kbd> / `j` | Move selection down one line. |
+| <kbd>←</kbd> / `h` | Jump to the previous file. |
+| <kbd>→</kbd> / `l` | Jump to the next file. |
+| <kbd>Home</kbd> | Jump to the first line. |
+| <kbd>End</kbd> | Jump to the last line. |
+| <kbd>Page Up</kbd> | Scroll up one page. |
+| <kbd>Page Down</kbd> | Scroll down one page. |
+| `Click` | Select the clicked diff line (requires mouse support). |
+| Mouse scroll | Scroll up or down. |
+| `c` | Add or edit a comment on the selected line. |
+| `s` | Show comments summary (when comments exist). |
+| `b` | Toggle between unstaged changes and branch diff. |
+| <kbd>Enter</kbd> | Submit all comments (when comments exist). |
+| `r` | Refresh the diff (remote sessions only). |
+| <kbd>Esc</kbd> / <kbd>Ctrl</kbd>+<kbd>C</kbd> | Exit diff mode. |
+
+Holding <kbd>↑</kbd> or <kbd>↓</kbd> accelerates scrolling after the first 10 rapid presses. Mouse support requires `--mouse` (enabled by default in alt-screen mode). Disable with `--no-mouse`.
+
 ## Navigation shortcuts in the interactive interface
 
 | Shortcut                            | Purpose                                      |
@@ -173,7 +198,7 @@ Sessions already open in another window float to the top in all non-relevance so
 | `/ask QUESTION`                                     | Ask a quick side question without adding to the conversation history. {% data reusables.copilot.experimental %} |
 | `/allow-all [on\|off\|show]`, `/yolo [on\|off\|show]` | Enable all permissions (tools, paths, and URLs). |
 | `/changelog [summarize] [VERSION\|last N\|since VERSION]`, `/release-notes [summarize] [VERSION\|last N\|since VERSION]` | Display the CLI changelog. Optionally specify a version, a count of recent releases, or a starting version. Add the keyword `summarize` for an AI-generated summary. |
-| `/chronicle <standup\|tips\|improve\|reindex>`      | Session history tools and insights. {% data reusables.copilot.experimental %} |
+| `/chronicle <standup\|tips\|improve\|reindex>`      | Session history tools and insights. See [AUTOTITLE](/copilot/concepts/agents/copilot-cli/chronicle). |
 | `/clear [PROMPT]`, `/new [PROMPT]`, `/reset [PROMPT]` | Start a new conversation. |
 | `/clikit [COMPONENT]`                               | Preview CLI business components (for example, quota info). |
 | `/collect-debug-logs [file\|gist] [PATH]`           | Collect debug logs to an archive file or {% data variables.product.github %} gist. |
@@ -183,7 +208,7 @@ Sessions already open in another window float to the top in all non-relevance so
 | `/copy`                                             | Copy the last response to the clipboard. |
 | `/cwd`, `/cd [PATH]`                                | Change the working directory or display the current directory. |
 | `/delegate [PROMPT]`                                | Delegate changes to a remote repository with an AI-generated pull request. See [AUTOTITLE](/copilot/how-tos/copilot-cli/use-copilot-cli/delegate-tasks-to-cca). |
-| `/diff`                                             | Review the changes made in the current directory. |
+| `/diff`                                             | Review changes in the current directory; auto-switches to branch diff when the working tree is clean (experimental). |
 | `/downgrade <VERSION>`                              | Download and restart into a specific CLI version. Available for team accounts. |
 | `/env`                                              | Show loaded environment details (instructions, MCP servers, skills, agents, plugins, LSPs, extensions). |
 | `/exit`, `/quit`                                    | Exit the CLI. |
@@ -213,6 +238,7 @@ Sessions already open in another window float to the top in all non-relevance so
 | `/restart`                                          | Restart the CLI, preserving the current session. |
 | `/resume [SESSION-ID]`, `/continue [SESSION-ID]`    | Switch to a different session by choosing from a list (optionally specify a session ID). |
 | `/review [PROMPT]`                                  | Run the code review agent to analyze changes. See [AUTOTITLE](/copilot/how-tos/copilot-cli/use-copilot-cli/agentic-code-review). |
+| `/rubber-duck [PROMPT]`                             | Consult the rubber duck agent for a second opinion on plans, code, and tests. See [AUTOTITLE](/copilot/concepts/agents/copilot-cli/rubber-duck). |
 | `/sandbox [enable\|disable]`                        | Configure shell command sandboxing. |
 | `/search [QUERY]`, `/find [QUERY]`                  | Search the conversation timeline. {% data reusables.copilot.experimental %} |
 | `/session [info\|checkpoints [n]\|files\|plan\|rename [NAME]\|cleanup\|prune\|delete [ID]\|delete-all]`, `/sessions [info\|checkpoints [n]\|files\|plan\|rename [NAME]\|cleanup\|prune\|delete [ID]\|delete-all]`  | Show session information and manage sessions. Subcommands: `info`, `checkpoints`, `files`, `plan`, `rename`, `cleanup`, `prune`, `delete`, `delete-all`. |
@@ -300,6 +326,8 @@ For a complete list of commands and options, run `copilot help`.
 
 > [!NOTE]
 > The `--remote`, `--no-remote`, and `--connect` options require the remote sessions feature to be available on your account.
+
+You can use `--remote` with `--resume <TASK-ID>` to resume a remote task locally. This works even when the task was originally created outside a Git repository.
 
 ## Tool availability values
 
@@ -482,6 +510,27 @@ Use `copilot mcp` to manage MCP server configurations from the command line with
 | `timeout` | No | Tool call timeout in milliseconds. |
 | `type` | No | `"local"` or `"stdio"`. Default: `"local"`. |
 
+### Private npm registry
+
+Use `--registry` in the `args` array to pull a package from a private npm registry—for example, Artifactory or a {% data variables.product.github %} Packages feed:
+
+```json
+{
+    "mcpServers": {
+        "my-internal-server": {
+            "command": "npx",
+            "args": [
+                "--registry", "https://npm.pkg.github.com",
+                "@my-org/internal-mcp-server"
+            ],
+            "tools": ["*"]
+        }
+    }
+}
+```
+
+The `--registry` flag and other npm config flags (`--userconfig`, `--globalconfig`, `--prefix`, `--cache`, `--node-options`, `--workspace`, `-w`) are treated as value-consuming arguments when computing the server's identity fingerprint. This ensures enterprise allowlist checks and registry verification work correctly when these flags appear before the package name.
+
 ### Remote server configuration fields
 
 | Field | Required | Description |
@@ -541,12 +590,25 @@ The CLI includes built-in MCP servers that are available without additional setu
 
 | Server | Description |
 |--------|-------------|
-| `github-mcp-server` | {% data variables.product.github %} API integration: issues, pull requests, commits, code search, and {% data variables.product.prodname_actions %}. |
+| `github-mcp-server` | {% data variables.product.github %} API integration: issues, pull requests, labels, commits, code search, and {% data variables.product.prodname_actions %}. |
 | `playwright` | Browser automation: navigate, click, type, screenshot, and form handling. |
 | `fetch` | HTTP requests via the `fetch` tool. |
 | `time` | Time utilities: `get_current_time` and `convert_time`. |
 
 Use `--disable-builtin-mcps` to disable all built-in servers, or `--disable-mcp-server SERVER-NAME` to disable a specific one.
+
+#### {% data variables.product.github %} MCP server tools
+
+The `github-mcp-server` provides the following tools.
+
+| Tools | Description |
+|-------|-------------|
+| `get_file_contents`, `search_code` | Browse repository files. |
+| `list_issues`, `issue_read`, `search_issues` | Issue tracking. |
+| `get_pull_request`, `list_pull_requests`, `get_pull_request_files` | Pull requests. |
+| `list_commits`, `get_commit` | Commit history. |
+| `list_workflow_runs`, `get_workflow_run_logs` | {% data variables.product.prodname_actions %}. |
+| `get_label`, `list_label`, `label_write` | Label management. |
 
 ### MCP server naming
 

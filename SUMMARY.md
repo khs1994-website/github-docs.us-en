@@ -821,6 +821,7 @@
       * [Troubleshooting Upgrades](admin/upgrading-your-instance/troubleshooting-upgrades/index.md)
       * [Known Issues With Upgrades To Your Instance](admin/upgrading-your-instance/troubleshooting-upgrades/known-issues-with-upgrades-to-your-instance.md)
       * [Restoring From A Failed Upgrade](admin/upgrading-your-instance/troubleshooting-upgrades/restoring-from-a-failed-upgrade.md)
+      * [Rotating The Signing Key For Upgrade Packages](admin/upgrading-your-instance/troubleshooting-upgrades/rotating-the-signing-key-for-upgrade-packages.md)
   * [Git Hub Enterprise Server Releases](admin/all-releases.md)
   * [Enterprise Administrator Documentation](admin/index.md)
   * [Release Notes](admin/release-notes.md)
@@ -1057,6 +1058,7 @@
       * [Usage Based Billing For Enterprise Licenses](billing/concepts/enterprise-billing/usage-based-licenses.md)
       * [About Visual Studio Subscriptions With Git Hub Enterprise](billing/concepts/enterprise-billing/visual-studio-subs.md)
     - Product Billing
+      * [Billing for {% data variables.copilot.sandbox %}](billing/concepts/product-billing/cloud-and-local-sandboxes.md)
       * [Git Large File Storage Billing](billing/concepts/product-billing/git-lfs.md)
       * [Git Hub Actions Billing](billing/concepts/product-billing/github-actions.md)
       * [{% data variables.product.prodname_GHAS %} license billing](billing/concepts/product-billing/github-advanced-security.md)
@@ -1987,6 +1989,7 @@
   - Concepts
     - Agents
       - Cloud Agent
+        * [About Copilot Automations](copilot/concepts/agents/cloud-agent/about-automations.md)
         * [About Git Hub Copilot Cloud Agent](copilot/concepts/agents/cloud-agent/about-cloud-agent.md)
         * [About Custom Agents](copilot/concepts/agents/cloud-agent/about-custom-agents.md)
         * [Managing Access To Git Hub Copilot Cloud Agent](copilot/concepts/agents/cloud-agent/access-management.md)
@@ -2011,7 +2014,8 @@
         * [Researching with {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/research.md)
         * [About The Rubber Duck Agent](copilot/concepts/agents/copilot-cli/rubber-duck.md)
       * [About Agent Skills](copilot/concepts/agents/about-agent-skills.md)
-      * [About Third Party Agents](copilot/concepts/agents/about-third-party-agents.md)
+      * [About Third Party Coding Agents](copilot/concepts/agents/about-third-party-coding-agents.md)
+      * [About Agent Apps](copilot/concepts/agents/agent-apps.md)
       * [Anthropic Claude](copilot/concepts/agents/anthropic-claude.md)
       * [About Git Hub Copilot Code Review](copilot/concepts/agents/code-review.md)
       * [About Git Hub Copilot Memory](copilot/concepts/agents/copilot-memory.md)
@@ -2053,6 +2057,7 @@
       * [About Copilot Integrations](copilot/concepts/tools/about-copilot-integrations.md)
       * [Choosing The Right AI Tool For Your Task](copilot/concepts/tools/ai-tools.md)
       * [Concepts For AI Tools](copilot/concepts/tools/index.md)
+    * [About {% data variables.copilot.sandbox %}](copilot/concepts/about-cloud-and-local-sandboxes.md)
     * [About Enterprise Accounts For Copilot Business](copilot/concepts/about-enterprise-accounts-for-copilot-business.md)
     * [About Git Hub Copilot Chat](copilot/concepts/chat.md)
     * [Concepts For Git Hub Copilot](copilot/concepts/index.md)
@@ -2132,6 +2137,10 @@
       * [Asking Git Hub Copilot Questions In Windows Terminal](copilot/how-tos/chat-with-copilot/chat-in-windows-terminal.md)
       * [Getting Started With Prompts For Git Hub Copilot Chat In Your IDE](copilot/how-tos/chat-with-copilot/get-started-with-chat-in-your-ide.md)
       * [Git Hub Copilot Chat](copilot/how-tos/chat-with-copilot/index.md)
+    - Cloud And Local Sandboxes
+      * [Configuring Local Sandbox Settings](copilot/how-tos/cloud-and-local-sandboxes/configuring-local-sandbox-settings.md)
+      * [Enabling or disabling {% data variables.copilot.sandbox %} for your organization](copilot/how-tos/cloud-and-local-sandboxes/enabling-or-disabling-cloud-and-local-sandboxes-for-your-organization.md)
+      * [{% data variables.copilot.sandbox_caps %}](copilot/how-tos/cloud-and-local-sandboxes/index.md)
     - Configure Content Exclusion
       * [Excluding Content From Git Hub Copilot](copilot/how-tos/configure-content-exclusion/exclude-content-from-copilot.md)
       * [Configure And Audit Content Exclusion](copilot/how-tos/configure-content-exclusion/index.md)
@@ -2150,6 +2159,7 @@
         * [Automate With Git Hub Copilot CLI](copilot/how-tos/copilot-cli/automate-copilot-cli/index.md)
         * [Quickstart for automating with {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/automate-copilot-cli/quickstart.md)
         * [Running {% data variables.copilot.copilot_cli %} programmatically](copilot/how-tos/copilot-cli/automate-copilot-cli/run-cli-programmatically.md)
+        * [Scheduling prompts in {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/automate-copilot-cli/schedule-prompts.md)
       - Customize Copilot
         * [Adding custom instructions for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/add-custom-instructions.md)
         * [Adding MCP servers for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/add-mcp-servers.md)
@@ -2172,6 +2182,7 @@
       - Use Copilot Cli
         * [Requesting a code review with {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli/agentic-code-review.md)
         * [Allowing And Denying Tool Use](copilot/how-tos/copilot-cli/use-copilot-cli/allowing-tools.md)
+        * [Browsing issues, pull requests, and gists from {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli/browse-issues-prs-gists.md)
         * [Using {% data variables.copilot.copilot_cli %} session data](copilot/how-tos/copilot-cli/use-copilot-cli/chronicle.md)
         * [Connecting {% data variables.copilot.copilot_cli %} to {% data variables.product.prodname_vscode_shortname %}](copilot/how-tos/copilot-cli/use-copilot-cli/connecting-vs-code.md)
         * [Delegating tasks to {% data variables.product.prodname_copilot_short %}](copilot/how-tos/copilot-cli/use-copilot-cli/delegate-tasks-to-cca.md)
@@ -2183,6 +2194,7 @@
         * [Speeding Up Task Completion With The Fleet Command](copilot/how-tos/copilot-cli/use-copilot-cli/speed-up-task-completion.md)
         * [Steering agents in {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli/steer-agents.md)
         * [Steering a {% data variables.copilot.copilot_cli %} session from another device](copilot/how-tos/copilot-cli/use-copilot-cli/steer-remotely.md)
+        * [Use Voice Input With Copilot CLI](copilot/how-tos/copilot-cli/use-copilot-cli/voice-input.md)
       * [Administering Copilot CLI For Your Enterprise](copilot/how-tos/copilot-cli/administer-copilot-cli-for-your-enterprise.md)
       * [Best Practices For Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-best-practices.md)
       * [Getting Started With Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-getting-started.md)
@@ -2214,10 +2226,10 @@
           * [Creating custom agents for {% data variables.copilot.copilot_cloud_agent %}](copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/create-custom-agents.md)
           * [Configure The Development Environment](copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/customize-the-agent-environment.md)
           * [Customizing Or Disabling The Firewall For Git Hub Copilot Cloud Agent](copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/customize-the-agent-firewall.md)
-          * [Connect Agents To External Tools](copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/extend-cloud-agent-with-mcp.md)
           * [Customize {% data variables.copilot.copilot_cloud_agent %}](copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/index.md)
           * [Testing and releasing {% data variables.copilot.custom_agents_short %} in your organization or enterprise](copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/test-custom-agents.md)
           * [Customize Agent Workflows With Hooks](copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/use-hooks.md)
+        * [Configure MCP Servers For Your Repository](copilot/how-tos/copilot-on-github/customize-copilot/configure-mcp-servers.md)
         * [Customize {% data variables.product.prodname_copilot_short %} for your project](copilot/how-tos/copilot-on-github/customize-copilot/customize-copilot-overview.md)
         * [Customize {% data variables.product.prodname_copilot_short %}](copilot/how-tos/copilot-on-github/customize-copilot/index.md)
       - Set Up Copilot
@@ -2248,11 +2260,14 @@
         * [BYOK Bring Your Own Key](copilot/how-tos/copilot-sdk/auth/byok.md)
       - Features
         * [The Agent Loop](copilot/how-tos/copilot-sdk/features/agent-loop.md)
+        * [Cloud Sessions](copilot/how-tos/copilot-sdk/features/cloud-sessions.md)
         * [Custom Agents And Sub Agent Orchestration](copilot/how-tos/copilot-sdk/features/custom-agents.md)
+        * [Fleet Mode](copilot/how-tos/copilot-sdk/features/fleet-mode.md)
         * [Working With Hooks](copilot/how-tos/copilot-sdk/features/hooks.md)
         * [Image Input](copilot/how-tos/copilot-sdk/features/image-input.md)
         * [Features](copilot/how-tos/copilot-sdk/features/index.md)
         * [Using MCP Servers With The Git Hub Copilot SDK](copilot/how-tos/copilot-sdk/features/mcp.md)
+        * [Plugin Directories](copilot/how-tos/copilot-sdk/features/plugin-directories.md)
         * [Remote Sessions](copilot/how-tos/copilot-sdk/features/remote-sessions.md)
         * [Session Resume And Persistence](copilot/how-tos/copilot-sdk/features/session-persistence.md)
         * [Custom Skills](copilot/how-tos/copilot-sdk/features/skills.md)
@@ -2280,6 +2295,7 @@
         * [Git Hub O Auth Setup](copilot/how-tos/copilot-sdk/setup/github-oauth.md)
         * [Set Up Copilot SDK](copilot/how-tos/copilot-sdk/setup/index.md)
         * [Local CLI Setup](copilot/how-tos/copilot-sdk/setup/local-cli.md)
+        * [Multi Tenancy And Server Deployments](copilot/how-tos/copilot-sdk/setup/multi-tenancy.md)
         * [Scaling And Multi Tenancy](copilot/how-tos/copilot-sdk/setup/scaling.md)
       - Troubleshooting
         * [SDK And CLI Compatibility](copilot/how-tos/copilot-sdk/troubleshooting/compatibility.md)
@@ -2298,7 +2314,8 @@
       * [Getting Started With The Git Hub Copilot App](copilot/how-tos/github-copilot-app/getting-started.md)
       * [{% data variables.copilot.github_copilot_app %}](copilot/how-tos/github-copilot-app/index.md)
       * [Managing Issues And Pull Requests With The Git Hub Copilot App](copilot/how-tos/github-copilot-app/managing-issues-and-pull-requests.md)
-      * [Using Scheduled Workflows In The Git Hub Copilot App](copilot/how-tos/github-copilot-app/using-scheduled-workflows.md)
+      * [Using Automations In The Git Hub Copilot App](copilot/how-tos/github-copilot-app/using-automations.md)
+      * [Working With Canvas Extensions In The Git Hub Copilot App](copilot/how-tos/github-copilot-app/working-with-canvas-extensions.md)
     - Manage And Track Spending
       * [Manage And Monitor Spending For Git Hub Copilot](copilot/how-tos/manage-and-track-spending/index.md)
       * [Managing Your Company S Spending On Git Hub Copilot](copilot/how-tos/manage-and-track-spending/manage-company-spending.md)
@@ -2340,6 +2357,7 @@
       - Cloud Agent
         * [Changing The AI Model For Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/changing-the-ai-model.md)
         * [Configuring Settings For Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/configuring-agent-settings.md)
+        * [Creating Automations With Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/create-automations.md)
         * [Creating custom agents for {% data variables.copilot.copilot_cloud_agent %} in your IDE](copilot/how-tos/use-copilot-agents/cloud-agent/create-custom-agents-in-your-ide.md)
         * [Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/index.md)
         * [Integrating Copilot Cloud Agent With Azure Boards](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-azure-boards.md)
@@ -2349,6 +2367,7 @@
         * [Integrating Copilot Cloud Agent With Teams](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-teams.md)
         * [Starting Git Hub Copilot Sessions](copilot/how-tos/use-copilot-agents/cloud-agent/start-copilot-sessions.md)
         * [Troubleshooting Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/troubleshoot-cloud-agent.md)
+        * [Using Agent Apps](copilot/how-tos/use-copilot-agents/cloud-agent/use-agent-apps.md)
         * [Using Copilot Cloud Agent From The Git Hub CLI](copilot/how-tos/use-copilot-agents/cloud-agent/use-cloud-agent-from-cli.md)
         * [Using Copilot Cloud Agent From Raycast](copilot/how-tos/use-copilot-agents/cloud-agent/use-cloud-agent-from-raycast.md)
         * [Using Copilot Cloud Agent In Your IDE](copilot/how-tos/use-copilot-agents/cloud-agent/use-cloud-agent-in-your-ide.md)
@@ -2356,10 +2375,13 @@
         * [Using Copilot Cloud Agent On Git Hub Mobile](copilot/how-tos/use-copilot-agents/cloud-agent/use-cloud-agent-on-mobile.md)
         * [Using Copilot Cloud Agent Via The API](copilot/how-tos/use-copilot-agents/cloud-agent/use-cloud-agent-via-the-api.md)
         * [Using Copilot Cloud Agent Via The Git Hub MCP Server](copilot/how-tos/use-copilot-agents/cloud-agent/use-cloud-agent-with-mcp.md)
+      - Copilot Memory
+        * [Managing Copilot Memory](copilot/how-tos/use-copilot-agents/copilot-memory/index.md)
+        * [Managing Copilot Memory For An Organization Or Enterprise](copilot/how-tos/use-copilot-agents/copilot-memory/manage-as-administrator.md)
+        * [Managing Copilot Memory For Your Personal Account](copilot/how-tos/use-copilot-agents/copilot-memory/manage-for-yourself.md)
       - Request A Code Review
         * [Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/index.md)
         * [Using Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review.md)
-      * [Managing And Curating Copilot Memory](copilot/how-tos/use-copilot-agents/copilot-memory.md)
       * [Use Git Hub Copilot Agents](copilot/how-tos/use-copilot-agents/index.md)
     - Use Copilot For Common Tasks
       * [Use Git Hub Copilot For Common Tasks](copilot/how-tos/use-copilot-for-common-tasks/index.md)
