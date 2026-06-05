@@ -1699,11 +1699,8 @@
       * [Dependabot Supported Ecosystems And Repositories](code-security/reference/supply-chain-security/supported-ecosystems-and-repositories.md)
     * [Reference For Security And Code Quality](code-security/reference/index.md)
   - Responsible Use
-    * [Responsible Use Of Git Hub Code Quality](code-security/responsible-use/code-quality.md)
     * [Responsible use of {% data variables.product.github %}'s security and code quality features](code-security/responsible-use/index.md)
-    * [Responsible Detection Of Generic Secrets With Copilot Secret Scanning](code-security/responsible-use/responsible-ai-generic-secrets.md)
-    * [Responsible Generation Of Regular Expressions With Copilot Secret Scanning](code-security/responsible-use/responsible-ai-regex-generator.md)
-    * [Responsible Use Of Copilot Autofix For Code Scanning](code-security/responsible-use/responsible-use-autofix-code-scanning.md)
+    * [Application Card Git Hub Security And Quality AI Features](code-security/responsible-use/security-and-quality-ai-features.md)
   - Tutorials
     - Adopting Github Advanced Security At Scale
       * [Adopting {% data variables.product.prodname_GHAS %} at scale](code-security/tutorials/adopting-github-advanced-security-at-scale/index.md)
@@ -2438,20 +2435,10 @@
     * [Feature Availability When Git Hub Copilot Policies Conflict In Organizations](copilot/reference/policy-conflicts.md)
     * [Files excluded from {% data variables.copilot.copilot_code-review %}](copilot/reference/review-excluded-files.md)
   - Responsible Use
-    * [Responsible Use Of Git Hub Copilot Chat In Git Hub Mobile](copilot/responsible-use/chat-in-github-mobile.md)
-    * [Responsible Use Of Git Hub Copilot Chat In Git Hub](copilot/responsible-use/chat-in-github.md)
-    * [Responsible Use Of Git Hub Copilot Chat In Your IDE](copilot/responsible-use/chat-in-your-ide.md)
-    * [Responsible Use Of Git Hub Copilot Code Review](copilot/responsible-use/code-review.md)
-    * [Responsible Use Of Git Hub Copilot CLI](copilot/responsible-use/copilot-cli.md)
-    * [Responsible use of GitHub Copilot cloud agent on GitHub.com](copilot/responsible-use/copilot-cloud-agent.md)
-    * [Responsible Use Of Git Hub Copilot Inline Suggestions](copilot/responsible-use/copilot-code-completion.md)
-    * [Responsible Use Of Git Hub Copilot Commit Message Generation](copilot/responsible-use/copilot-commit-message-generation.md)
-    * [Responsible Use Of Git Hub Copilot In Git Hub Desktop](copilot/responsible-use/copilot-in-github-desktop.md)
-    * [Responsible Use Of Git Hub Copilot In Windows Terminal](copilot/responsible-use/copilot-in-windows-terminal.md)
-    * [Responsible Use Of Git Hub Copilot Spaces](copilot/responsible-use/copilot-spaces.md)
+    * [Application Card Git Hub Copilot Agents](copilot/responsible-use/agents.md)
+    * [Application Card Git Hub Copilot Chat](copilot/responsible-use/chat.md)
     * [Responsible Use Of Git Hub Copilot Features](copilot/responsible-use/index.md)
-    * [Responsible Use Of Git Hub Copilot Pull Request Summaries](copilot/responsible-use/pull-request-summaries.md)
-    * [Responsible Use Of Git Hub Spark](copilot/responsible-use/spark.md)
+    * [Application Card Git Hub Copilot Inline Suggestions](copilot/responsible-use/inline-suggestions.md)
   - Tutorials
     - Budgets
       * [Getting Started With Budget Controls](copilot/tutorials/budgets/getting-started-with-budget-controls.md)
