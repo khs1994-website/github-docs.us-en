@@ -29,11 +29,9 @@
       * [Managing User Account Settings](account-and-profile/how-tos/account-settings/index.md)
       * [Integrating Jira With Your Personal Projects](account-and-profile/how-tos/account-settings/integrating-jira-with-your-personal-projects.md)
       * [Manage Cookie Preferences](account-and-profile/how-tos/account-settings/manage-cookie-preferences.md)
-      * [Managing access to your personal account's {% data variables.projects.projects_v1_boards %}](account-and-profile/how-tos/account-settings/managing-access-to-your-personal-accounts-project-boards.md)
       * [Managing Accessibility Settings](account-and-profile/how-tos/account-settings/managing-accessibility-settings.md)
       * [Managing Security And Analysis Features](account-and-profile/how-tos/account-settings/managing-security-and-analysis-features.md)
       * [Managing Your Tab Size Rendering Preference](account-and-profile/how-tos/account-settings/managing-your-tab-size-rendering-preference.md)
-      * [Permission levels for a {% data variables.projects.projects_v1_board %} owned by a personal account](account-and-profile/how-tos/account-settings/permission-levels-for-a-project-board-owned-by-a-personal-account.md)
       * [Prepare For Job Change](account-and-profile/how-tos/account-settings/prepare-for-job-change.md)
       * [Set Your Hiring Status](account-and-profile/how-tos/account-settings/set-your-hiring-status.md)
     - Contribution Settings
@@ -1366,7 +1364,7 @@
           * [Applying A Custom Security Configuration To Your Enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/apply-custom-configuration.md)
           * [Configuring Additional Secret Scanning Settings For Your Enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/configure-additional-settings.md)
           * [Creating A Custom Security Configuration For Your Enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/create-custom-configuration.md)
-          * [Enabling {% data variables.product.prodname_GHAS %} {% ifversion ghas-products %}products {% endif %}for your enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/enabling-github-advanced-security-for-your-enterprise.md)
+          * [Enabling {% data variables.product.prodname_GHAS %} products for your enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/enabling-github-advanced-security-for-your-enterprise.md)
           * [Establish Complete Coverage](code-security/how-tos/secure-at-scale/configure-enterprise-security/establish-complete-coverage/index.md)
         - Manage Your Coverage
           * [Deleting A Custom Security Configuration](code-security/how-tos/secure-at-scale/configure-enterprise-security/manage-your-coverage/delete-custom-configuration.md)
@@ -3032,27 +3030,6 @@
     * [Tutorials For Git Hub Integrations](integrations/tutorials/index.md)
   * [Git Hub Integrations](integrations/index.md)
 - Issues
-  - Organizing Your Work With Project Boards
-    - Managing Project Boards
-      * [About automation for {% data variables.product.prodname_projects_v1 %}](issues/organizing-your-work-with-project-boards/managing-project-boards/about-automation-for-project-boards.md)
-      * [About {% data variables.product.prodname_projects_v1 %}](issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards.md)
-      * [Changing {% data variables.product.prodname_project_v1 %} visibility](issues/organizing-your-work-with-project-boards/managing-project-boards/changing-project-board-visibility.md)
-      * [Closing a {% data variables.product.prodname_project_v1 %}](issues/organizing-your-work-with-project-boards/managing-project-boards/closing-a-project-board.md)
-      * [Configuring automation for {% data variables.product.prodname_projects_v1 %}](issues/organizing-your-work-with-project-boards/managing-project-boards/configuring-automation-for-project-boards.md)
-      * [Creating a {% data variables.product.prodname_project_v1 %}](issues/organizing-your-work-with-project-boards/managing-project-boards/creating-a-project-board.md)
-      * [Deleting a {% data variables.product.prodname_project_v1 %}](issues/organizing-your-work-with-project-boards/managing-project-boards/deleting-a-project-board.md)
-      * [Editing a {% data variables.product.prodname_project_v1 %}](issues/organizing-your-work-with-project-boards/managing-project-boards/editing-a-project-board.md)
-      * [Managing {% data variables.product.prodname_projects_v1 %}](issues/organizing-your-work-with-project-boards/managing-project-boards/index.md)
-      * [Linking a repository to a {% data variables.product.prodname_project_v1 %}](issues/organizing-your-work-with-project-boards/managing-project-boards/linking-a-repository-to-a-project-board.md)
-      * [Reopening a closed {% data variables.product.prodname_project_v1 %}](issues/organizing-your-work-with-project-boards/managing-project-boards/reopening-a-closed-project-board.md)
-    - Tracking Work With Project Boards
-      * [Adding issues and pull requests to a {% data variables.product.prodname_project_v1 %}](issues/organizing-your-work-with-project-boards/tracking-work-with-project-boards/adding-issues-and-pull-requests-to-a-project-board.md)
-      * [Adding notes to a {% data variables.product.prodname_project_v1 %}](issues/organizing-your-work-with-project-boards/tracking-work-with-project-boards/adding-notes-to-a-project-board.md)
-      * [Archiving cards on a {% data variables.product.prodname_project_v1 %}](issues/organizing-your-work-with-project-boards/tracking-work-with-project-boards/archiving-cards-on-a-project-board.md)
-      * [Filtering cards on a {% data variables.product.prodname_project_v1 %}](issues/organizing-your-work-with-project-boards/tracking-work-with-project-boards/filtering-cards-on-a-project-board.md)
-      * [Tracking progress on your {% data variables.product.prodname_projects_v1 %}](issues/organizing-your-work-with-project-boards/tracking-work-with-project-boards/index.md)
-      * [Tracking progress on your {% data variables.product.prodname_project_v1 %}](issues/organizing-your-work-with-project-boards/tracking-work-with-project-boards/tracking-progress-on-your-project-board.md)
-    * [Organizing your work with {% data variables.product.prodname_projects_v1 %}](issues/organizing-your-work-with-project-boards/index.md)
   - Planning And Tracking With Projects
     - Automating Your Project
       * [Adding Items Automatically](issues/planning-and-tracking-with-projects/automating-your-project/adding-items-automatically.md)
@@ -3065,7 +3042,6 @@
       * [Copying an existing {% data variables.projects.project_v2 %}](issues/planning-and-tracking-with-projects/creating-projects/copying-an-existing-project.md)
       * [Creating a {% data variables.projects.project_v2 %}](issues/planning-and-tracking-with-projects/creating-projects/creating-a-project.md)
       * [Creating {% data variables.projects.projects_v2 %}](issues/planning-and-tracking-with-projects/creating-projects/index.md)
-      * [Migrating from {% data variables.product.prodname_projects_v1 %}](issues/planning-and-tracking-with-projects/creating-projects/migrating-from-projects-classic.md)
     - Customizing Views In Your Project
       * [Changing The Layout Of A View](issues/planning-and-tracking-with-projects/customizing-views-in-your-project/changing-the-layout-of-a-view.md)
       * [Customizing The Board Layout](issues/planning-and-tracking-with-projects/customizing-views-in-your-project/customizing-the-board-layout.md)
@@ -3285,14 +3261,6 @@
       * [Requiring Two Factor Authentication In Your Organization](organizations/keeping-your-organization-secure/managing-two-factor-authentication-for-your-organization/requiring-two-factor-authentication-in-your-organization.md)
       * [Viewing Whether Users In Your Organization Have 2 FA Enabled](organizations/keeping-your-organization-secure/managing-two-factor-authentication-for-your-organization/viewing-whether-users-in-your-organization-have-2fa-enabled.md)
     * [Keeping Your Organization Secure](organizations/keeping-your-organization-secure/index.md)
-  - Managing Access To Your Organizations Project Boards
-    * [Adding an outside collaborator to a {% data variables.product.prodname_project_v1 %} in your organization](organizations/managing-access-to-your-organizations-project-boards/adding-an-outside-collaborator-to-a-project-board-in-your-organization.md)
-    * [Managing access to your organization's {% data variables.product.prodname_projects_v1 %}](organizations/managing-access-to-your-organizations-project-boards/index.md)
-    * [Managing access to a {% data variables.product.prodname_project_v1 %} for organization members](organizations/managing-access-to-your-organizations-project-boards/managing-access-to-a-project-board-for-organization-members.md)
-    * [Managing an individual's access to an organization {% data variables.product.prodname_project_v1 %}](organizations/managing-access-to-your-organizations-project-boards/managing-an-individuals-access-to-an-organization-project-board.md)
-    * [Managing team access to an organization {% data variables.product.prodname_project_v1 %}](organizations/managing-access-to-your-organizations-project-boards/managing-team-access-to-an-organization-project-board.md)
-    * [{% data variables.product.prodname_project_v1_caps %} permissions for an organization](organizations/managing-access-to-your-organizations-project-boards/project-board-permissions-for-an-organization.md)
-    * [Removing an outside collaborator from an organization {% data variables.product.prodname_project_v1 %}](organizations/managing-access-to-your-organizations-project-boards/removing-an-outside-collaborator-from-an-organization-project-board.md)
   - Managing Git Access To Your Organizations Repositories
     * [About SSH Certificate Authorities](organizations/managing-git-access-to-your-organizations-repositories/about-ssh-certificate-authorities.md)
     * [Managing Git Access To Your Organization S Repositories](organizations/managing-git-access-to-your-organizations-repositories/index.md)
@@ -3332,7 +3300,6 @@
     * [Enabling Or Disabling Git Hub Discussions For An Organization](organizations/managing-organization-settings/enabling-or-disabling-github-discussions-for-an-organization.md)
     * [Governing How People Use Repositories In Your Organization](organizations/managing-organization-settings/governing-how-people-use-repositories-in-your-organization.md)
     * [Managing Organization Settings](organizations/managing-organization-settings/index.md)
-    * [Integrating Jira with your organization {% data variables.projects.projects_v1_board %}](organizations/managing-organization-settings/integrating-jira-with-your-organization-project-board.md)
     * [Managing base permissions for {% data variables.projects.projects_v2 %}](organizations/managing-organization-settings/managing-base-permissions-for-projects.md)
     * [Managing Commit Comments For Your Organization](organizations/managing-organization-settings/managing-commit-comments-for-your-organization.md)
     * [Managing Custom Properties For Repositories In Your Organization](organizations/managing-organization-settings/managing-custom-properties-for-repositories-in-your-organization.md)
@@ -3989,11 +3956,6 @@
     * [REST API Endpoints For Project Items](rest/projects/items.md)
     * [REST API Endpoints For Projects](rest/projects/projects.md)
     * [REST API Endpoints For Project Views](rest/projects/views.md)
-  - Projects Classic
-    * [REST API endpoints for {% data variables.product.prodname_project_v1_caps %} cards](rest/projects-classic/cards.md)
-    * [REST API endpoints for {% data variables.product.prodname_project_v1_caps %} collaborators](rest/projects-classic/collaborators.md)
-    * [REST API endpoints for {% data variables.product.prodname_project_v1_caps %} columns](rest/projects-classic/columns.md)
-    * [REST API endpoints for {% data variables.product.prodname_projects_v1_caps %}](rest/projects-classic/projects.md)
   - Pulls
     * [REST API Endpoints For Pull Request Review Comments](rest/pulls/comments.md)
     * [REST API Endpoints For Pull Requests](rest/pulls/pulls.md)
