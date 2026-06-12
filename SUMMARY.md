@@ -2008,6 +2008,7 @@
         * [About The Rubber Duck Agent](copilot/concepts/agents/copilot-cli/rubber-duck.md)
       * [About Agent Skills](copilot/concepts/agents/about-agent-skills.md)
       * [About Enterprise Managed Plugin Standards](copilot/concepts/agents/about-enterprise-plugin-standards.md)
+      * [About Git Hub Agentic Workflows](copilot/concepts/agents/about-github-agentic-workflows.md)
       * [About Third Party Coding Agents](copilot/concepts/agents/about-third-party-coding-agents.md)
       * [About Agent Apps](copilot/concepts/agents/agent-apps.md)
       * [Anthropic Claude](copilot/concepts/agents/anthropic-claude.md)
@@ -2302,6 +2303,10 @@
       * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/how-tos/get-code-suggestions/find-matching-code.md)
       * [Getting Code Suggestions In Your IDE With Git Hub Copilot](copilot/how-tos/get-code-suggestions/get-ide-code-suggestions.md)
       * [Get Suggestions From Git Hub Copilot](copilot/how-tos/get-code-suggestions/index.md)
+    - Github Agentic Workflows
+      * [Creating Git Hub Agentic Workflows](copilot/how-tos/github-agentic-workflows/creating-github-agentic-workflows.md)
+      * [Git Hub Agentic Workflows](copilot/how-tos/github-agentic-workflows/index.md)
+      * [Your First Agentic Workflow](copilot/how-tos/github-agentic-workflows/quickstart.md)
     - Github Copilot App
       * [Working With Agent Sessions In The Git Hub Copilot App](copilot/how-tos/github-copilot-app/agent-sessions.md)
       * [Customizing The Git Hub Copilot App](copilot/how-tos/github-copilot-app/customize-github-copilot-app.md)
