@@ -2082,6 +2082,7 @@
         - Manage Agents
           * [Blocking Agentic Features In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/block-agentic-features.md)
           * [Configuring Enterprise Plugin Standards](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/configure-enterprise-plugin-standards.md)
+          * [Disabling Automatic Command Approval In Copilot Clients](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/disable-automatic-commands.md)
           * [Enabling Git Hub Copilot Cloud Agent In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/enable-copilot-cloud-agent.md)
           * [Enabling Git Hub Copilot Code Review In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/enable-copilot-code-review.md)
           * [Managing Agents In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/index.md)
