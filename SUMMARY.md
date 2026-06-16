@@ -2345,6 +2345,7 @@
     - Troubleshoot Copilot
       * [Troubleshoot Git Hub Copilot](copilot/how-tos/troubleshoot-copilot/index.md)
       * [Troubleshooting Common Issues With Git Hub Copilot](copilot/how-tos/troubleshoot-copilot/troubleshoot-common-issues.md)
+      * [Troubleshooting Slow Responses From Git Hub Copilot](copilot/how-tos/troubleshoot-copilot/troubleshoot-copilot-slowness.md)
       * [Troubleshooting Firewall Settings For Git Hub Copilot](copilot/how-tos/troubleshoot-copilot/troubleshoot-firewall-settings.md)
       * [Troubleshooting Network Errors For Git Hub Copilot](copilot/how-tos/troubleshoot-copilot/troubleshoot-network-errors.md)
       * [Troubleshooting Common Issues With Git Hub Spark](copilot/how-tos/troubleshoot-copilot/troubleshoot-spark.md)
