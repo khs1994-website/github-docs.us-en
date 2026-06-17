@@ -1295,6 +1295,7 @@
         * [Using The Code QL Model Editor](code-security/how-tos/find-and-fix-code-vulnerabilities/scan-from-vs-code/use-the-model-editor.md)
       * [Find And Fix Code Vulnerabilities](code-security/how-tos/find-and-fix-code-vulnerabilities/index.md)
     - Maintain Quality Code
+      * [Disabling {% data variables.product.prodname_code_quality %}](code-security/how-tos/maintain-quality-code/disable-code-quality.md)
       * [Enabling {% data variables.product.prodname_code_quality %}](code-security/how-tos/maintain-quality-code/enable-code-quality.md)
       * [Maintain Quality Code](code-security/how-tos/maintain-quality-code/index.md)
       * [Interpreting The Code Quality Results For Your Repository](code-security/how-tos/maintain-quality-code/interpret-results.md)
@@ -2058,7 +2059,7 @@
     * [Concepts For Git Hub Copilot](copilot/concepts/index.md)
     * [MCP Server Usage In Your Company](copilot/concepts/mcp-management.md)
     * [Network Settings For Git Hub Copilot](copilot/concepts/network-settings.md)
-    * [Git Hub Copilot Policies To Control Availability Of Features And Models](copilot/concepts/policies.md)
+    * [Git Hub Copilot Policies For Enterprises And Organizations](copilot/concepts/policies.md)
     * [Preparing For New Features And Models](copilot/concepts/preparing-for-new-features-and-models.md)
     * [About Git Hub Spark](copilot/concepts/spark.md)
     * [Usage Limits For Git Hub Copilot](copilot/concepts/usage-limits.md)
@@ -2319,6 +2320,7 @@
     - Manage And Track Spending
       * [Manage And Monitor Spending For Git Hub Copilot](copilot/how-tos/manage-and-track-spending/index.md)
       * [Managing Your Company S Spending On Git Hub Copilot](copilot/how-tos/manage-and-track-spending/manage-company-spending.md)
+      * [Monitoring your {% data variables.product.prodname_ai_credits %} usage](copilot/how-tos/manage-and-track-spending/monitor-ai-usage.md)
     - Manage Your Account
       * [Disabling Git Hub Copilot Free](copilot/how-tos/manage-your-account/disable-copilot-free.md)
       * [Getting Started With A Git Hub Copilot Plan](copilot/how-tos/manage-your-account/get-started-with-a-copilot-plan.md)
@@ -2438,6 +2440,7 @@
     * [Metrics Data Properties For Git Hub Copilot](copilot/reference/metrics-data.md)
     * [Feature Availability When Git Hub Copilot Policies Conflict In Organizations](copilot/reference/policy-conflicts.md)
     * [Files excluded from {% data variables.copilot.copilot_code-review %}](copilot/reference/review-excluded-files.md)
+    * [Supported Surfaces For Git Hub Copilot Policies](copilot/reference/supported-surfaces-for-policies.md)
   - Responsible Use
     * [Application Card Git Hub Copilot Agents](copilot/responsible-use/agents.md)
     * [Application Card Git Hub Copilot Chat](copilot/responsible-use/chat.md)
