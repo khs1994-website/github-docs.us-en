@@ -71,8 +71,6 @@ If you have confirmed you need `pull_request_target`, apply these controls to li
 
 * **Ensure the underlying compute is isolated and ephemeral.** If self-hosted runners are used, you must confirm that the runner environment is properly restricted from internal resources and is not reused across {% data variables.product.prodname_actions %} runs. For more information, see [AUTOTITLE](/actions/reference/security/secure-use#hardening-for-self-hosted-runners).
 
-* **Gate runs behind approval.** `pull_request_target` workflows can be gated behind a required `label` that only users with write access can add. This is detailed in the {% data variables.product.prodname_security %} [guidance on preventing pwn requests](https://securitylab.github.com/resources/github-actions-preventing-pwn-requests/#preventing-pwn-requests).
-
 * **Enforce {% data variables.product.prodname_actions %} security best practices.** In addition to the specific risks of pwn requests, other common vulnerabilities, such as command injection, can exist and impact the code executed in this privileged event. For more information, see [Keeping your GitHub Actions and workflows secure: Untrusted input](https://securitylab.github.com/resources/github-actions-untrusted-input/) from the {% data variables.product.prodname_security %}. To identify and proactively protect against common {% data variables.product.prodname_actions %} vulnerabilities, enable {% data variables.product.prodname_codeql %} for {% data variables.product.prodname_actions %}. For more information, see [AUTOTITLE](/code-security/how-tos/find-and-fix-code-vulnerabilities/configure-code-scanning/configure-code-scanning).
 
 ## Opting out of built-in protections
@@ -81,6 +79,10 @@ If you have worked through the questions above and confirmed your workflow requi
 
 This protection only covers fork pull request refs. Checking out other untrusted code, such as an unrelated third-party repository, fetching code with `git fetch` or `gh pr checkout`, or running a downloaded artifact, is not covered by the `actions/checkout` checks.
 
+{% ifversion fpt or ghec %}
+
 ## Restricting the use of pull_request_target
 
-Repository, organization, and enterprise administrators can use Workflow execution protections to control which events and actors can trigger workflows. If a repository has no legitimate use for `pull_request_target`, restricting it removes the risk regardless of how individual workflows are written.
+If a repository has no legitimate use for `pull_request_target`, restricting the event removes the risk regardless of how individual workflows are written. Administrators can use workflow execution protections to control which events and actors can trigger workflows. For more information, see the workflow execution protections documentation for repositories ([AUTOTITLE](/repositories/managing-your-repositorys-settings-and-features/actions-policies/workflow-execution-protections)){% ifversion ghec %}, organizations ([AUTOTITLE](/organizations/managing-organization-settings/actions-policies/workflow-execution-protections)), and across your enterprise ([AUTOTITLE](/admin/enforcing-policies/enforcing-policies-for-your-enterprise/actions-policies/workflow-execution-protections)){% else %} and organizations ([AUTOTITLE](/organizations/managing-organization-settings/actions-policies/workflow-execution-protections)){% endif %}.
+
+{% endif %}

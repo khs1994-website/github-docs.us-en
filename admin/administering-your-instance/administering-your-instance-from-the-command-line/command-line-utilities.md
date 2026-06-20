@@ -1384,11 +1384,14 @@ In this example, `ghe-repl-status -vv` sends verbose status information from a r
 
 ### ghe-check-background-upgrade-jobs
 
-During an upgrade to a feature release, this utility displays the status of background jobs on {% data variables.location.product_location %}. If you're running back-to-back upgrades, you should use this utility to check that all background jobs are complete before proceeding with the next upgrade.
+During an upgrade to a feature release, this utility displays the status of background upgrade jobs, such as Elasticsearch index migrations, on {% data variables.location.product_location %}. If you're running back-to-back upgrades, you should use this utility to check that all background jobs are complete before proceeding with the next feature upgrade.
 
 ```shell
 ghe-check-background-upgrade-jobs
 ```
+
+> [!NOTE]
+> This utility only gates a **subsequent feature upgrade**. It is not a prerequisite for upgrading replica or other additional nodes to the same release.
 
 ### ghe-migrations
 

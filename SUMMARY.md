@@ -2141,7 +2141,7 @@
       * [Git Hub Copilot Chat](copilot/how-tos/chat-with-copilot/index.md)
     - Cloud And Local Sandboxes
       * [Configuring Local Sandbox Settings](copilot/how-tos/cloud-and-local-sandboxes/configuring-local-sandbox-settings.md)
-      * [Enabling or disabling {% data variables.copilot.sandbox %} for your organization](copilot/how-tos/cloud-and-local-sandboxes/enabling-or-disabling-cloud-and-local-sandboxes-for-your-organization.md)
+      * [Enabling Or Disabling Cloud Sandboxes For Your Organization](copilot/how-tos/cloud-and-local-sandboxes/enabling-or-disabling-cloud-sandboxes-for-your-organization.md)
       * [{% data variables.copilot.sandbox_caps %}](copilot/how-tos/cloud-and-local-sandboxes/index.md)
     - Configure Content Exclusion
       * [Excluding Content From Git Hub Copilot](copilot/how-tos/configure-content-exclusion/exclude-content-from-copilot.md)
