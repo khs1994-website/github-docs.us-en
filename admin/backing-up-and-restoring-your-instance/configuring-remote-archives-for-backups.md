@@ -7,6 +7,8 @@ versions:
 contentType: how-tos
 category:
   - Back up and upgrade your instance
+redirect_from:
+  - /admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/configuring-remote-archives-for-backups
 ---
 
 If you are running {% data variables.product.prodname_ghe_server %} on a cloud platform or virtualization platform that supports disk snapshots, we recommend that you use snapshots to archive your backup disk, and recreate a new backup disk for testing, restoring, or disaster recovery purposes. However, if your infrastructure does not support disk snapshots or similar solutions, you can setup a {% data variables.product.prodname_ghe_server %} backup archive on a remote {% data variables.product.prodname_ghe_server %} appliance for data replication and restoration purposes.
@@ -15,7 +17,7 @@ If you are running {% data variables.product.prodname_ghe_server %} on a cloud p
 
 Remote archives are required to be saved on a backup disk of a {% data variables.product.prodname_ghe_server %} appliance, which is used as a staging or testing {% data variables.product.prodname_ghe_server %} appliance. Follow these steps to configure remote backup archives.
 
-1. Set up a backup disk on a remote {% data variables.product.prodname_ghe_server %} appliance. See [AUTOTITLE](/admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/configuring-the-backup-service).
+1. Set up a backup disk on a remote {% data variables.product.prodname_ghe_server %} appliance. See [AUTOTITLE](/admin/backing-up-and-restoring-your-instance/configuring-the-backup-service).
 1. From the production appliance, run the following command to initiate configuration and display the SSH public key that needs to be added to the remote {% data variables.product.prodname_ghe_server %} appliance:
 
    ```bash

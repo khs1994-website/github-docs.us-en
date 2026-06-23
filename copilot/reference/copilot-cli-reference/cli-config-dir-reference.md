@@ -295,6 +295,9 @@ These settings apply across all your sessions and repositories. You can use the 
 
 Repository settings apply to everyone who works in the repository. They are committed to the repository and shared with collaborators.
 
+> [!NOTE]
+> The plugin-related keys in the repository configuration file (`enabledPlugins` and `extraKnownMarketplaces`) are also read by {% data variables.copilot.copilot_cloud_agent %}, not only {% data variables.copilot.copilot_cli_short %}. This lets you enable the same plugins for both clients from a single file. For more information about plugins, see [AUTOTITLE](/copilot/concepts/agents/about-plugins).
+
 Only the keys listed in the following table are supported at the repository level. Any other keys—including keys that are valid in the user configuration file—are silently ignored.
 
 | Key | Type | Merge behavior | Description |

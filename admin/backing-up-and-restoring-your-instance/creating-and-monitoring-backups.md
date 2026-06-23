@@ -7,6 +7,8 @@ versions:
 contentType: how-tos
 category:
   - Back up and upgrade your instance
+redirect_from:
+  - /admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/creating-and-monitoring-backups
 ---
 
 ## About backup types

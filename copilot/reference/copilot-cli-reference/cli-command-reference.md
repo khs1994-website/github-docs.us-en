@@ -233,7 +233,7 @@ Holding <kbd>↑</kbd> or <kbd>↓</kbd> accelerates scrolling after the first 1
 | `/model`, `/models [MODEL]`                         | Select the AI model you want to use. |
 | `/permissions [show\|reset]`                        | View or clear in-memory tool and path approvals for the current session. |
 | `/plan [PROMPT]`                                    | Create an implementation plan before coding. |
-| `/plugin [marketplace\|install\|uninstall\|update\|list] [ARGS...]` | Manage plugins and plugin marketplaces. See [AUTOTITLE](/copilot/concepts/agents/copilot-cli/about-cli-plugins). |
+| `/plugin [marketplace\|install\|uninstall\|update\|list] [ARGS...]` | Manage plugins and plugin marketplaces. See [AUTOTITLE](/copilot/concepts/agents/about-plugins). |
 | `/pr [view\|create\|fix\|auto]`                     | Manage pull requests for the current branch. See [AUTOTITLE](/copilot/how-tos/copilot-cli/use-copilot-cli/manage-pull-requests). |
 | `/remote [on\|off]`                                 | Show the remote control status (if no argument provided), enable remote steering (`on`), or end the remote connection (`off`). See [AUTOTITLE](/copilot/how-tos/copilot-cli/use-copilot-cli/steer-remotely). |
 | `/rename [NAME]`                                    | Rename the current session (auto-generates a name if omitted; alias for `/session rename`). |

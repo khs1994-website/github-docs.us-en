@@ -7,6 +7,8 @@ versions:
 contentType: reference
 category:
   - Back up and upgrade your instance
+redirect_from:
+  - /admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/understanding-the-snapshot-file-structure
 ---
 
 Each backup snapshot is stored in a timestamped directory (e.g., `YYYYMMDDTHHMMSS`) under the backup target path (e.g., `/data/backup/data`). Snapshots include full exports of key data stores. Git repositories, {% data variables.product.prodname_pages %}, and other components are stored using hard links to optimize storage and enable efficient point-in-time restores.

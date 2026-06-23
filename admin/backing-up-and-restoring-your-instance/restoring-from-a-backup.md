@@ -7,6 +7,8 @@ versions:
 contentType: how-tos
 category:
   - Back up and upgrade your instance
+redirect_from:
+  - /admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/restoring-from-a-backup
 ---
 
 You can restore a {% data variables.product.prodname_ghe_server %} instance from a backup using the command line. The backup service supports full instance restoration, including configuration and user data.
@@ -31,7 +33,7 @@ Before restoring a backup:
 1. **Enable maintenance mode** on the target instance. See [AUTOTITLE](/admin/configuration/configuring-your-enterprise/enabling-and-scheduling-maintenance-mode).
 1. **Verify access** to the backup storage containing the snapshot.
 1. **Pause interfering services** — if using High Availability (HA), make sure replication is stopped.
-1. **Prepare for {% data variables.product.prodname_actions %}** — if enabled, ensure the target instance is configured with the correct external storage. See [AUTOTITLE](/admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/restoring-with-github-actions-enabled) for details.
+1. **Prepare for {% data variables.product.prodname_actions %}** — if enabled, ensure the target instance is configured with the correct external storage. See [AUTOTITLE](/admin/backing-up-and-restoring-your-instance/restoring-with-github-actions-enabled) for details.
 
 ## Starting the restore operation
 

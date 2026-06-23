@@ -7,16 +7,18 @@ versions:
 contentType: how-tos
 category:
   - Back up and upgrade your instance
+redirect_from:
+  - /admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/backup-from-replica-in-high-availability
 ---
 
 ## Configuring backups from a replica node
 
 For high availability, you can designate a replica node as your backup server. To minimize latency, {% data variables.product.github %} recommends picking a replica node in the same region or datacenter as your primary node.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Backups from cache replica nodes or active geo replica nodes are not supported.
 
-To configure your backup server on a replica, run the following commands. See [AUTOTITLE](/admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/configuring-the-backup-service).
+To configure your backup server on a replica, run the following commands. See [AUTOTITLE](/admin/backing-up-and-restoring-your-instance/configuring-the-backup-service).
 
 ```shell
 ghe-storage-init-backup /dev/YOUR_DEVICE_NAME

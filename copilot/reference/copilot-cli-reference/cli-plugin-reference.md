@@ -16,6 +16,8 @@ docsTeamMetrics:
 
 {% data reusables.copilot.copilot-cli.cli-help-note %}
 
+For an overview of what plugins are and how they work across {% data variables.product.prodname_copilot_short %} clients, see [AUTOTITLE](/copilot/concepts/agents/about-plugins).
+
 ## CLI commands
 
 You can use the following commands in the terminal to manage plugins for {% data variables.copilot.copilot_cli_short %}.
@@ -258,6 +260,7 @@ The following diagram illustrates the loading order and precedence rules.
 
 ## Further reading
 
+* [AUTOTITLE](/copilot/concepts/agents/about-enterprise-plugin-standards)
 * [AUTOTITLE](/copilot/how-tos/copilot-cli)
 * [AUTOTITLE](/copilot/reference/copilot-cli-reference/cli-command-reference)
 * [AUTOTITLE](/copilot/reference/copilot-cli-reference/cli-programmatic-reference)

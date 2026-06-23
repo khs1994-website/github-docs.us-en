@@ -7,6 +7,8 @@ versions:
 contentType: concepts
 category:
   - Back up and upgrade your instance
+redirect_from:
+  - /admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/about-the-backup-service-for-github-enterprise-server
 ---
 
 {% ifversion ghes < 3.20 %}
@@ -48,7 +50,7 @@ The backup service is a disaster recovery solution. It captures full, timestampe
 
 ## Further reading
 
-* [AUTOTITLE](/admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/understanding-the-backup-service)
-* [AUTOTITLE](/admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/configuring-the-backup-service)
-* [AUTOTITLE](/admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/restoring-from-a-backup)
-* [AUTOTITLE](/admin/backing-up-and-restoring-your-instance/backup-service-for-github-enterprise-server/restoring-with-github-actions-enabled)
+* [AUTOTITLE](/admin/backing-up-and-restoring-your-instance/understanding-the-backup-service)
+* [AUTOTITLE](/admin/backing-up-and-restoring-your-instance/configuring-the-backup-service)
+* [AUTOTITLE](/admin/backing-up-and-restoring-your-instance/restoring-from-a-backup)
+* [AUTOTITLE](/admin/backing-up-and-restoring-your-instance/restoring-with-github-actions-enabled)
