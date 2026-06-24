@@ -170,8 +170,6 @@ When diff mode is open (entered via `/diff`):
 | `r` | Refresh the diff (remote sessions only). |
 | <kbd>Esc</kbd> / <kbd>Ctrl</kbd>+<kbd>C</kbd> | Exit diff mode. |
 
-Holding <kbd>↑</kbd> or <kbd>↓</kbd> accelerates scrolling after the first 10 rapid presses. Mouse support requires `--mouse` (enabled by default in alt-screen mode). Disable with `--no-mouse`.
-
 ## Navigation shortcuts in the interactive interface
 
 | Shortcut                            | Purpose                                      |
@@ -280,11 +278,15 @@ For a complete list of available slash commands enter `/help` in the CLI's inter
 | `--allow-all-urls`                 | Allow access to all URLs without confirmation. |
 | `--allow-tool=TOOL ...`            | Tools the CLI has permission to use. Will not prompt for permission. For multiple tools, use a quoted, comma-separated list. See [AUTOTITLE](/copilot/how-tos/copilot-cli/allowing-tools#allowing-or-denying-permission-for-specific-tools). |
 | `--allow-url=URL ...`              | Allow access to specific URLs or domains. For multiple URLs, use a quoted, comma-separated list. |
+| `--acp`                            | Start as Agent Client Protocol server. |
+| `--attachment PATH`                | Attach a file to the initial prompt (can be used multiple times). Image files are accepted, but sending them successfully requires the selected model and organization policy to allow vision input. |
 | `--autopilot`                      | Enable autopilot continuation in prompt mode. See [AUTOTITLE](/copilot/concepts/agents/copilot-cli/autopilot). |
 | `--available-tools=TOOL ...`       | Only these tools will be available to the model. For multiple tools, use a quoted, comma-separated list. See [AUTOTITLE](/copilot/how-tos/copilot-cli/allowing-tools). |
 | `--banner`, `--no-banner`          | Show or hide the startup banner. |
 | `--bash-env`                       | Enable `BASH_ENV` support for bash shells. |
+| `-C DIRECTORY`                     | Change working directory before doing anything else. |
 | `--connect[=SESSION-ID]`           | Connect directly to a remote session (optionally specify a session ID or task ID). Conflicts with `--resume` and `--continue`. |
+| `--context TIER`.                  | Set the context window tier (overrides the persisted setting). Choices: "default", "long_context". |
 | `--config-dir=DIRECTORY`           | This option for setting the configuration directory is deprecated. Use the `COPILOT_HOME` environment variable instead. | <!-- markdownlint-disable-line GHD046 -->
 | `--continue`                       | Resume the most recent session in the current working directory, falling back to the globally most recent session. |
 | `--deny-tool=TOOL ...`             | Tools the CLI does not have permission to use. Will not prompt for permission. For multiple tools, use a quoted, comma-separated list. |
@@ -294,9 +296,11 @@ For a complete list of available slash commands enter `/help` in the CLI's inter
 | `--disallow-temp-dir`              | Prevent automatic access to the system temporary directory. |
 | `--effort=LEVEL`, `--reasoning-effort=LEVEL` | Set the reasoning effort level (`low`, `medium`, `high`, `xhigh`, `max`). `max` is the highest-depth tier for Anthropic models. |
 | `--enable-all-github-mcp-tools`    | Enable all {% data variables.product.github %} MCP server tools, instead of the default CLI subset. Overrides the `--add-github-mcp-toolset` and `--add-github-mcp-tool` options. |
+| `--enable-memory`                  | Enable memory in prompt mode (disabled by default). |
 | `--enable-reasoning-summaries`     | Request reasoning summaries for OpenAI models that support it. |
 | `--excluded-tools=TOOL ...`        | These tools will not be available to the model. For multiple tools, use a quoted, comma-separated list. |
 | `--experimental`                   | Enable experimental features (use `--no-experimental` to disable). |
+| `--extension-sdk-path DIRECTORY`   | Override the bundled `@github/copilot-sdk` injected into extension subprocesses with a local `copilot-sdk/` folder. Invalid paths fall back to the bundled SDK. |
 | `-h`, `--help`                     | Display help. |
 | `-i PROMPT`, `--interactive=PROMPT`  | Start an interactive session and automatically execute this prompt. |
 | `--log-dir=DIRECTORY`              | Set the log file directory (default: `~/.copilot/logs/`). |
@@ -304,7 +308,7 @@ For a complete list of available slash commands enter `/help` in the CLI's inter
 | `--max-autopilot-continues=COUNT`  | Maximum number of continuation messages in autopilot mode (default: unlimited). See [AUTOTITLE](/copilot/concepts/agents/copilot-cli/autopilot). |
 | `--mode=MODE`                      | Set the initial agent mode (choices: `interactive`, `plan`, `autopilot`). Cannot be combined with `--autopilot` or `--plan`. |
 | `--model=MODEL`                    | Set the AI model you want to use. Pass `auto` to let {% data variables.product.prodname_copilot_short %} pick the best available model automatically. |
-| `--mouse[=VALUE]`                  | Enable mouse support in alt screen mode. VALUE can be `on` (default) or `off`. When enabled, the CLI captures mouse events in alt screen mode—scroll wheel, clicks, etc. When disabled, the terminal's native mouse behavior is preserved. Once set the setting is persisted by being written to your configuration file.|
+| `--mouse[=VALUE]`                  | Enable or disable mouse support in the interactive interface. VALUE can be `on` (default) or `off`. When enabled, the CLI captures mouse events—scroll wheel, clicks, and so on—to navigate its own interface, such as scrolling the timeline or clicking tabs. When disabled, the terminal's native mouse behavior, such as text selection and scrollback, is preserved. When you set this option explicitly, the value is persisted to your configuration file. |
 | `-n NAME`, `--name=NAME`           | Set a name for the new session. Used by `--resume` and `/resume` to find sessions by name. |
 | `--no-ask-user`                    | Disable the `ask_user` tool (the agent works autonomously without asking questions). |
 | `--no-auto-update`                 | Disable downloading CLI updates automatically. |
@@ -324,6 +328,7 @@ For a complete list of available slash commands enter `/help` in the CLI's inter
 | `-s`, `--silent`                   | Output only the agent response (without usage statistics), useful for scripting with `-p`. |
 | `--screen-reader`                  | Enable screen reader optimizations. |
 | `--secret-env-vars=VAR ...`        | Redact an environment variable from shell and MCP server environments (can be used multiple times). For multiple variables, use a quoted, comma-separated list. The values in the `GITHUB_TOKEN` and `COPILOT_GITHUB_TOKEN` environment variables are redacted from output by default. |
+| `--session-id ID`                  | Use an exact session or task ID when you do not want `--resume`'s broader matching by ID prefix or session name. If the ID matches an existing session or task, that session or task is resumed. If nothing matches, a new session is created only when the value is a valid UUID. Names and ID prefixes do not create new sessions. Do not combine this option with other session-selection or session-starting options such as `--resume`, `--continue`, or `--connect`, because they compete to decide which session to open or create. |
 | `--share=PATH`                     | Share a session to a Markdown file after completion of a programmatic session (default path: `./copilot-session-<ID>.md`). |
 | `--share-gist`                     | Share a session to a secret {% data variables.product.github %} gist after completion of a programmatic session. |
 | `--stream=MODE`                    | Enable or disable streaming mode, which displays {% data variables.product.prodname_copilot_short %}'s response progressively as it is generated rather than waiting for the full response to arrive (mode choices: `on` or `off`, default: `on`).

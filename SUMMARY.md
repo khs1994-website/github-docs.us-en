@@ -997,6 +997,7 @@
     * [Reviewing Your Deploy Keys](authentication/keeping-your-account-and-data-secure/reviewing-your-deploy-keys.md)
     * [Reviewing Your Security Log](authentication/keeping-your-account-and-data-secure/reviewing-your-security-log.md)
     * [Reviewing Your SSH Keys](authentication/keeping-your-account-and-data-secure/reviewing-your-ssh-keys.md)
+    * [Revoking Your Credentials](authentication/keeping-your-account-and-data-secure/revoking-your-credentials.md)
     * [Security Log Events](authentication/keeping-your-account-and-data-secure/security-log-events.md)
     * [Sudo Mode](authentication/keeping-your-account-and-data-secure/sudo-mode.md)
     * [Switching Between Accounts](authentication/keeping-your-account-and-data-secure/switching-between-accounts.md)
@@ -2318,6 +2319,7 @@
       * [Getting Started With The Git Hub Copilot App](copilot/how-tos/github-copilot-app/getting-started.md)
       * [{% data variables.copilot.github_copilot_app %}](copilot/how-tos/github-copilot-app/index.md)
       * [Managing Issues And Pull Requests With The Git Hub Copilot App](copilot/how-tos/github-copilot-app/managing-issues-and-pull-requests.md)
+      * [Using Your Own LLM Models In The Git Hub Copilot App](copilot/how-tos/github-copilot-app/use-byok-models.md)
       * [Using Automations In The Git Hub Copilot App](copilot/how-tos/github-copilot-app/using-automations.md)
       * [Working With Canvas Extensions In The Git Hub Copilot App](copilot/how-tos/github-copilot-app/working-with-canvas-extensions.md)
     - Manage And Track Spending
@@ -3815,7 +3817,6 @@
     * [REST API Endpoints For Copilot Cloud Agent Management](rest/copilot/copilot-coding-agent-management.md)
     * [REST API Endpoints For Copilot Content Exclusion Management](rest/copilot/copilot-content-exclusion-management.md)
     * [REST API Endpoints For Copilot Custom Agents](rest/copilot/copilot-custom-agents.md)
-    * [REST API Endpoints For Copilot Metrics](rest/copilot/copilot-metrics.md)
     * [REST API Endpoints For Copilot Usage Metrics](rest/copilot/copilot-usage-metrics.md)
     * [REST API Endpoints For Copilot User Management](rest/copilot/copilot-user-management.md)
     * [REST API Endpoints For Copilot](rest/copilot/index.md)
