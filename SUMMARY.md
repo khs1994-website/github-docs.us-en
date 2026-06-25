@@ -1222,6 +1222,7 @@
       * [Supply Chain Security For Your Enterprise](code-security/concepts/security-at-scale/supply-chain-security.md)
     - Supply Chain Security
       * [About the dependabot.yml file](code-security/concepts/supply-chain-security/about-the-dependabot-yml-file.md)
+      * [Automatic Dependabot access to {% data variables.product.github %}-hosted registries](code-security/concepts/supply-chain-security/automatic-dependabot-access-to-github-registries.md)
       * [Best Practices For Maintaining Dependencies](code-security/concepts/supply-chain-security/best-practices-for-maintaining-dependencies.md)
       * [Metrics For Dependabot Alerts](code-security/concepts/supply-chain-security/dependabot-alert-metrics.md)
       * [Dependabot Alerts](code-security/concepts/supply-chain-security/dependabot-alerts.md)
@@ -2087,6 +2088,7 @@
         - Manage Agents
           * [Blocking Agentic Features In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/block-agentic-features.md)
           * [Configuring Enterprise Plugin Standards](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/configure-enterprise-plugin-standards.md)
+          * [Creating a `.github-private` repository](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/create-github-private-repo.md)
           * [Disabling Automatic Command Approval In Copilot Clients](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/disable-automatic-commands.md)
           * [Enabling Git Hub Copilot Cloud Agent In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/enable-copilot-cloud-agent.md)
           * [Enabling Git Hub Copilot Code Review In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/enable-copilot-code-review.md)
@@ -2609,6 +2611,7 @@
     * [About Git Large File Storage And Git Hub Desktop](desktop/configuring-and-customizing-github-desktop/about-git-large-file-storage-and-github-desktop.md)
     * [Configuring A Default Editor In Git Hub Desktop](desktop/configuring-and-customizing-github-desktop/configuring-a-default-editor-in-github-desktop.md)
     * [Configuring Basic Settings In Git Hub Desktop](desktop/configuring-and-customizing-github-desktop/configuring-basic-settings-in-github-desktop.md)
+    * [Configuring Copilot In Git Hub Desktop](desktop/configuring-and-customizing-github-desktop/configuring-copilot-in-github-desktop.md)
     * [Configuring Git For Git Hub Desktop](desktop/configuring-and-customizing-github-desktop/configuring-git-for-github-desktop.md)
     * [Configuring And Customizing Git Hub Desktop](desktop/configuring-and-customizing-github-desktop/index.md)
     * [Setting A Theme For Git Hub Desktop](desktop/configuring-and-customizing-github-desktop/setting-a-theme-for-github-desktop.md)
@@ -2624,6 +2627,7 @@
     * [Committing And Reviewing Changes To Your Project In Git Hub Desktop](desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project-in-github-desktop.md)
     * [Making Changes In A Branch](desktop/making-changes-in-a-branch/index.md)
     * [Managing Branches In Git Hub Desktop](desktop/making-changes-in-a-branch/managing-branches-in-github-desktop.md)
+    * [Managing Worktrees In Git Hub Desktop](desktop/making-changes-in-a-branch/managing-worktrees-in-github-desktop.md)
     * [Pushing Changes To Git Hub From Git Hub Desktop](desktop/making-changes-in-a-branch/pushing-changes-to-github-from-github-desktop.md)
     * [Stashing Changes In Git Hub Desktop](desktop/making-changes-in-a-branch/stashing-changes-in-github-desktop.md)
     * [Viewing The Branch History In Git Hub Desktop](desktop/making-changes-in-a-branch/viewing-the-branch-history-in-github-desktop.md)
