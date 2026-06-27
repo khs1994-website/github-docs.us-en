@@ -594,6 +594,7 @@
       * [Backing Up And Restoring Git Hub Enterprise Server With Git Hub Actions Enabled](admin/managing-github-actions-for-your-enterprise/advanced-configuration-and-troubleshooting/backing-up-and-restoring-github-enterprise-server-with-github-actions-enabled.md)
       * [High Availability For Git Hub Actions](admin/managing-github-actions-for-your-enterprise/advanced-configuration-and-troubleshooting/high-availability-for-github-actions.md)
       * [Advanced Configuration And Troubleshooting](admin/managing-github-actions-for-your-enterprise/advanced-configuration-and-troubleshooting/index.md)
+      * [Migrating Git Hub Actions External Storage](admin/managing-github-actions-for-your-enterprise/advanced-configuration-and-troubleshooting/migrating-github-actions-external-storage.md)
       * [Troubleshooting Git Hub Actions For Your Enterprise](admin/managing-github-actions-for-your-enterprise/advanced-configuration-and-troubleshooting/troubleshooting-github-actions-for-your-enterprise.md)
       * [Updating The Credentials For Git Hub Actions Storage](admin/managing-github-actions-for-your-enterprise/advanced-configuration-and-troubleshooting/updating-the-credentials-for-github-actions-storage.md)
       * [Using A Staging Environment](admin/managing-github-actions-for-your-enterprise/advanced-configuration-and-troubleshooting/using-a-staging-environment.md)

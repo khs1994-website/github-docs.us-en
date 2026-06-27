@@ -273,6 +273,7 @@ For a complete list of available slash commands enter `/help` in the CLI's inter
 | `--additional-mcp-config=JSON`     | Add an MCP server for this session only. The server configuration can be supplied as a JSON string or a file path (prefix with `@`). Augments the configuration from `~/.copilot/mcp-config.json`. Overrides any installed MCP server configuration with the same name. See [AUTOTITLE](/copilot/how-tos/copilot-cli/customize-copilot/add-mcp-servers). |
 | `--agent=AGENT`                    | Specify a {% data variables.copilot.copilot_custom_agent_short %} to use. See [AUTOTITLE](/copilot/concepts/agents/copilot-cli/about-custom-agents). |
 | `--allow-all`                      | Enable all permissions (equivalent to `--allow-all-tools --allow-all-paths --allow-all-urls`). |
+| `--allow-all-mcp-server-instructions` | Include initialization instructions from all MCP servers in the system prompt. By default, only allowlisted server instructions are included up front; other servers' instructions are retrieved on demand. |
 | `--allow-all-paths`                | Disable file path verification and allow access to any path. |
 | `--allow-all-tools`                | Allow all tools to run automatically without confirmation. Required when using the CLI programmatically (env: `COPILOT_ALLOW_ALL`). |
 | `--allow-all-urls`                 | Allow access to all URLs without confirmation. |
