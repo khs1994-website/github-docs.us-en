@@ -808,6 +808,9 @@
     * [Setting Up A Trial Of Git Hub Enterprise Server](admin/overview/setting-up-a-trial-of-github-enterprise-server.md)
     * [System Overview](admin/overview/system-overview.md)
   - Upgrading Your Instance
+    - Automation Via Cli Api
+      * [Enterprise Server Upgrade Automation](admin/upgrading-your-instance/automation-via-cli-api/enterprise-server-upgrade-automation.md)
+      * [Upgrade Automation With API Or CLI](admin/upgrading-your-instance/automation-via-cli-api/index.md)
     - Performing An Upgrade
       * [Performing An Upgrade](admin/upgrading-your-instance/performing-an-upgrade/index.md)
       * [Migrating from GitHub Enterprise 11.10.x to 2.1.23](admin/upgrading-your-instance/performing-an-upgrade/migrating-from-github-enterprise-1110x-to-2123.md)
@@ -1242,6 +1245,7 @@
       * [About Linked Artifacts](code-security/concepts/supply-chain-security/linked-artifacts.md)
       * [Dependabot Malware Alerts](code-security/concepts/supply-chain-security/malware-alerts.md)
       * [Multi Ecosystem Updates](code-security/concepts/supply-chain-security/multi-ecosystem-updates.md)
+      * [About Open Source License Compliance](code-security/concepts/supply-chain-security/open-source-license-compliance.md)
     - Vulnerability Reporting And Management
       * [Coordinated Disclosure Of Security Vulnerabilities](code-security/concepts/vulnerability-reporting-and-management/coordinated-disclosure.md)
       * [Git Hub Advisory Database](code-security/concepts/vulnerability-reporting-and-management/github-advisory-database.md)
@@ -1449,6 +1453,7 @@
         * [Configuring Access To Private Registries For Dependabot](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/configure-access-to-private-registries.md)
         * [Configuring Notifications For Dependabot Alerts](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/configure-dependabot-notifications.md)
         * [Configuring The Dependency Review Action](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/configure-dependency-review-action.md)
+        * [Configuring Open Source License Policies](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/configure-license-policies.md)
         * [Configuring Dependabot On Git Hub Hosted Runners](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/configure-on-github-hosted-runners.md)
         * [Configuring Dependabot On Self Hosted Runners](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/configure-on-self-hosted-runners.md)
         * [Guidance For The Configuration Of Private Registries For Dependabot](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/configure-private-registries.md)
@@ -1473,7 +1478,7 @@
         * [Configuring Automatic Dependency Submission For Your Repository](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/submit-dependencies-automatically.md)
         * [Using The Dependency Submission API](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/use-dependency-submission-api.md)
         * [Verifying The Integrity Of A Release](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/verify-release-integrity.md)
-      * [Securing Your Supply Chain](code-security/how-tos/secure-your-supply-chain/index.md)
+      * [Index](code-security/how-tos/secure-your-supply-chain/index.md)
     - Use Ghas With Ai Coding Agents
       * [Use Git Hub Advanced Security With AI Coding Agents](code-security/how-tos/use-ghas-with-ai-coding-agents/index.md)
       * [Scanning For Secrets With The Git Hub MCP Server](code-security/how-tos/use-ghas-with-ai-coding-agents/scan-for-secrets-with-github-mcp-server.md)
@@ -2013,6 +2018,7 @@
         * [Using LSP servers with {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/lsp-servers.md)
         * [Researching with {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/research.md)
         * [About The Rubber Duck Agent](copilot/concepts/agents/copilot-cli/rubber-duck.md)
+        * [Loading Tools On Demand With Tool Search](copilot/concepts/agents/copilot-cli/tool-search.md)
       * [About Agent Skills](copilot/concepts/agents/about-agent-skills.md)
       * [About Enterprise Managed Plugin Standards](copilot/concepts/agents/about-enterprise-plugin-standards.md)
       * [About Git Hub Agentic Workflows](copilot/concepts/agents/about-github-agentic-workflows.md)
