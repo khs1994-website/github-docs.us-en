@@ -1206,6 +1206,7 @@
       * [Custom Patterns](code-security/concepts/secret-security/custom-patterns.md)
       * [Delegated Bypass For Push Protection](code-security/concepts/secret-security/delegated-bypass.md)
       * [Concepts For Secret Security](code-security/concepts/secret-security/index.md)
+      * [Public Monitoring For Secret Scanning](code-security/concepts/secret-security/public-monitoring.md)
       * [Working With Push Protection And The Git Hub MCP Server](code-security/concepts/secret-security/push-protection-and-the-github-mcp-server.md)
       * [Working With Push Protection From The REST API](code-security/concepts/secret-security/push-protection-from-the-rest-api.md)
       * [Secret Scanning Push Protection Metrics](code-security/concepts/secret-security/push-protection-metrics.md)
@@ -1382,6 +1383,7 @@
         - Manage Your Coverage
           * [Deleting A Custom Security Configuration](code-security/how-tos/secure-at-scale/configure-enterprise-security/manage-your-coverage/delete-custom-configuration.md)
           * [Editing A Custom Security Configuration](code-security/how-tos/secure-at-scale/configure-enterprise-security/manage-your-coverage/edit-custom-configuration.md)
+          * [Enabling Public Monitoring For Your Enterprise](code-security/how-tos/secure-at-scale/configure-enterprise-security/manage-your-coverage/enabling-public-monitoring-for-your-enterprise.md)
           * [Manage Your Coverage](code-security/how-tos/secure-at-scale/configure-enterprise-security/manage-your-coverage/index.md)
         * [Configure Enterprise Security](code-security/how-tos/secure-at-scale/configure-enterprise-security/index.md)
       - Configure Organization Security
@@ -1495,6 +1497,7 @@
         * [Viewing Metrics For Dependabot Alerts](code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-metrics-for-dependabot-alerts.md)
         * [Viewing Metrics For Pull Request Alerts](code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-metrics-for-pull-request-alerts.md)
         * [Viewing metrics for {% data variables.product.prodname_secret_scanning %} push protection](code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-metrics-for-secret-scanning-push-protection.md)
+        * [Viewing Public Monitoring Alerts](code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-public-monitoring-alerts.md)
         * [Viewing Security Insights](code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-security-insights.md)
       * [Changing The Used By Data For A Repository](code-security/how-tos/view-and-interpret-data/change-used-by-data.md)
       * [How Tos For Viewing And Interpreting Security Results](code-security/how-tos/view-and-interpret-data/index.md)
@@ -2097,9 +2100,8 @@
           * [Viewing Copilot License Usage In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-access/view-license-usage.md)
         - Manage Agents
           * [Blocking Agentic Features In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/block-agentic-features.md)
-          * [Configuring Enterprise Plugin Standards](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/configure-enterprise-plugin-standards.md)
+          * [Configuring Enterprise Managed Settings](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/configure-enterprise-managed-settings.md)
           * [Creating a `.github-private` repository](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/create-github-private-repo.md)
-          * [Disabling Automatic Command Approval In Copilot Clients](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/disable-automatic-commands.md)
           * [Enabling Git Hub Copilot Cloud Agent In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/enable-copilot-cloud-agent.md)
           * [Enabling Git Hub Copilot Code Review In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/enable-copilot-code-review.md)
           * [Managing Agents In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/index.md)
@@ -2204,6 +2206,7 @@
         * [Managing Pull Requests With The Pr Command](copilot/how-tos/copilot-cli/use-copilot-cli/manage-pull-requests.md)
         * [Using Git Hub Copilot CLI](copilot/how-tos/copilot-cli/use-copilot-cli/overview.md)
         * [Rolling back changes made during a {% data variables.copilot.copilot_cli %} session](copilot/how-tos/copilot-cli/use-copilot-cli/roll-back-changes.md)
+        * [Setting an {% data variables.product.prodname_ai_credit_singular %} session limit in {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli/set-session-limit.md)
         * [Speeding Up Task Completion With The Fleet Command](copilot/how-tos/copilot-cli/use-copilot-cli/speed-up-task-completion.md)
         * [Steering agents in {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli/steer-agents.md)
         * [Steering a {% data variables.copilot.copilot_cli %} session from another device](copilot/how-tos/copilot-cli/use-copilot-cli/steer-remotely.md)
