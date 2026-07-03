@@ -2017,6 +2017,7 @@
         * [About {% data variables.copilot.copilot_cli %} session data](copilot/concepts/agents/copilot-cli/chronicle.md)
         * [Comparing Git Hub Copilot CLI Customization Features](copilot/concepts/agents/copilot-cli/comparing-cli-features.md)
         * [Managing context in {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/context-management.md)
+        * [About Using Copilot CLI In Git Hub Actions](copilot/concepts/agents/copilot-cli/copilot-cli-in-github-actions.md)
         * [Running Tasks In Parallel With The Fleet Command](copilot/concepts/agents/copilot-cli/fleet.md)
         * [Concepts For Git Hub Copilot CLI](copilot/concepts/agents/copilot-cli/index.md)
         * [Using LSP servers with {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/lsp-servers.md)
@@ -2215,6 +2216,7 @@
       * [Best Practices For Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-best-practices.md)
       * [Getting Started With Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-getting-started.md)
       * [{% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/index.md)
+      * [Using Copilot CLI In Git Hub Actions With GITHUB TOKEN](copilot/how-tos/copilot-cli/use-copilot-cli-in-actions.md)
     - Copilot On Github
       - Chat With Copilot
         * [Asking Git Hub Copilot Questions In Git Hub](copilot/how-tos/copilot-on-github/chat-with-copilot/chat-in-github.md)
@@ -2285,6 +2287,7 @@
         * [Using MCP Servers With The Git Hub Copilot SDK](copilot/how-tos/copilot-sdk/features/mcp.md)
         * [Plugin Directories](copilot/how-tos/copilot-sdk/features/plugin-directories.md)
         * [Remote Sessions](copilot/how-tos/copilot-sdk/features/remote-sessions.md)
+        * [Session Limits](copilot/how-tos/copilot-sdk/features/session-limits.md)
         * [Session Resume And Persistence](copilot/how-tos/copilot-sdk/features/session-persistence.md)
         * [Custom Skills](copilot/how-tos/copilot-sdk/features/skills.md)
         * [Steering And Queueing](copilot/how-tos/copilot-sdk/features/steering-and-queueing.md)
