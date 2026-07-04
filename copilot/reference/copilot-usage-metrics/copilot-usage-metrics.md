@@ -282,6 +282,7 @@ Each entry in the aggregated `totals_by_ai_adoption_phase` array contains:
 | `avg_pull_requests_reviewed` | `number` | No | Average pull requests reviewed per user in this phase. |
 | `avg_pull_requests_created` | `number` | No | Average pull requests created per user in this phase. |
 | `avg_pull_requests_merged` | `number` | No | Average pull requests merged per user in this phase. |
+| `total_pull_requests_merged` | `integer` | No | Total pull requests merged by users in this phase. Applies to the organization day and enterprise day aggregated reports. |
 | `avg_pull_requests_median_minutes_to_merge` | `number` | No | Average of the per-user median minutes to merge for users in this phase. |
 
 ### Breakdown dimension values
