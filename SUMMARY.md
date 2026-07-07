@@ -808,9 +808,6 @@
     * [Setting Up A Trial Of Git Hub Enterprise Server](admin/overview/setting-up-a-trial-of-github-enterprise-server.md)
     * [System Overview](admin/overview/system-overview.md)
   - Upgrading Your Instance
-    - Automation Via Cli Api
-      * [Enterprise Server Upgrade Automation](admin/upgrading-your-instance/automation-via-cli-api/enterprise-server-upgrade-automation.md)
-      * [Upgrade Automation With API Or CLI](admin/upgrading-your-instance/automation-via-cli-api/index.md)
     - Performing An Upgrade
       * [Performing An Upgrade](admin/upgrading-your-instance/performing-an-upgrade/index.md)
       * [Migrating from GitHub Enterprise 11.10.x to 2.1.23](admin/upgrading-your-instance/performing-an-upgrade/migrating-from-github-enterprise-1110x-to-2123.md)
