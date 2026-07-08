@@ -305,15 +305,15 @@ Press <kbd>Ctrl</kbd>+<kbd>T</kbd> to show or hide the model's reasoning process
 
 ### Configure settings
 
-You can view and change {% data variables.copilot.copilot_cli_short %} settings using the `/settings` slash command.
+You can view and change your personal {% data variables.copilot.copilot_cli_short %} settings using the `/settings` slash command.
 
-* Run `/settings` to open an interactive settings dialog, where you can search for a setting by name and edit it.
-* Run `/settings KEY VALUE` to set a setting inline, where KEY is the name of the setting and VALUE is the value you want to set. This also works in scripts and in programmatic sessions started with `-p`.
-* Run `/settings reset KEY` to restore a setting to its default value.
+* Run `/settings` to open an interactive settings editor, where you can search for a setting by name and edit it. To restore a setting to its default value, highlight it in the list of settings and press <kbd>Ctrl</kbd>+<kbd>R</kbd>.
+* Run `/settings KEY VALUE` to change a setting directly in the CLI's prompt box. KEY is the name of the setting and VALUE is the value you want to set. This also works in scripts and in programmatic sessions started with `-p`.
+* Run `/settings show KEY` to display a setting's current value as text, without opening the editor.
 
-Some settings, such as the color mode, take effect immediately when you save them.
+Most settings changes take effect immediately, without needing to restart {% data variables.copilot.copilot_cli_short %}.
 
-For the full list of available settings, see [AUTOTITLE](/copilot/reference/copilot-cli-reference/cli-config-dir-reference#configuration-file-settings).
+For more information, see [AUTOTITLE](/copilot/how-tos/copilot-cli/customize-copilot/change-settings). For the full list of available settings, see [AUTOTITLE](/copilot/reference/copilot-cli-reference/cli-config-dir-reference#configuration-file-settings).
 
 ## Find out more
 
@@ -322,13 +322,11 @@ For a complete list of the command line options and slash commands that you can 
 * Enter `?` in the prompt box in an interactive session.
 * Enter `copilot help` in your terminal.
 
-For additional information use one of the following commands in your terminal:
+For additional information, use one of the following `copilot help` subcommands in your terminal:
 
 * **Configuration settings**:
 
   `copilot help config`
-
-  You can adjust the configuration settings by editing the `settings.json` file, which is located, by default, in the `~/.copilot` directory. This location can be changed by setting the `COPILOT_HOME` environment variable.
 
 * **Environment variables** that affect {% data variables.copilot.copilot_cli_short %}:
 
