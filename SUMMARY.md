@@ -2870,7 +2870,6 @@
     * [Showcase your expertise with {% data variables.product.prodname_certifications %}](get-started/showcase-your-expertise-with-github-certifications/index.md)
     * [Registering for a {% data variables.product.prodname_certifications %} exam](get-started/showcase-your-expertise-with-github-certifications/registering-for-a-github-certifications-exam.md)
   - Start Your Journey
-    * [About Git Hub And Git](get-started/start-your-journey/about-github-and-git.md)
     * [Creating An Account On Git Hub](get-started/start-your-journey/creating-an-account-on-github.md)
     * [Downloading Files From Git Hub](get-started/start-your-journey/downloading-files-from-github.md)
     * [Finding Inspiration On Git Hub](get-started/start-your-journey/finding-inspiration-on-github.md)
@@ -2879,6 +2878,7 @@
     * [Start Your Journey](get-started/start-your-journey/index.md)
     * [Setting Up Your Profile](get-started/start-your-journey/setting-up-your-profile.md)
     * [Uploading A Project To Git Hub](get-started/start-your-journey/uploading-a-project-to-github.md)
+    * [What Is Git Hub](get-started/start-your-journey/what-is-github.md)
   - Using Git
     * [About Git Rebase](get-started/using-git/about-git-rebase.md)
     * [About Git Subtree Merges](get-started/using-git/about-git-subtree-merges.md)

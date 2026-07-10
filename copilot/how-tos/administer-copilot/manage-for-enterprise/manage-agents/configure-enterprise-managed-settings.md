@@ -124,7 +124,7 @@ You can apply settings to control users' available plugin marketplaces and defau
 
 ## Setting {% data variables.product.prodname_copilot_short %} auto model selection as the default
 
-You can set auto model selection as the default model for new conversations in {% data variables.copilot.copilot_cli_short %} and {% data variables.product.prodname_vscode_shortname %}. To learn more see [AUTOTITLE](/copilot/concepts/auto-model-selection). By setting it as the default for your enterprise, you ensure new conversations start with Auto model selected.
+You can set auto model selection as the default model for new conversations in {% data variables.copilot.copilot_cli_short %} and {% data variables.product.prodname_vscode_shortname %}. To learn more see [AUTOTITLE](/copilot/concepts/models/auto-model-selection). By setting it as the default for your enterprise, you ensure new conversations start with Auto model selected.
 
 ### What setting Auto model as the default does
 
