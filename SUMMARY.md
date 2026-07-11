@@ -1418,13 +1418,13 @@
         * [Enabling Extended Metadata Checks For Your Repository](code-security/how-tos/secure-your-secrets/customize-leak-detection/enable-metadata-checks.md)
         * [Enabling Validity Checks For Your Repository](code-security/how-tos/secure-your-secrets/customize-leak-detection/enable-validity-checks.md)
         * [Excluding Folders And Files From Secret Scanning](code-security/how-tos/secure-your-secrets/customize-leak-detection/exclude-folders-and-files.md)
-        * [Generating Regular Expressions For Custom Patterns With Copilot Secret Scanning](code-security/how-tos/secure-your-secrets/customize-leak-detection/generating-regular-expressions-for-custom-patterns-with-copilot-secret-scanning.md)
+        * [Generating Regular Expressions For Custom Patterns With AI](code-security/how-tos/secure-your-secrets/customize-leak-detection/generating-regular-expressions-for-custom-patterns-with-ai.md)
         * [How Tos For Customizing Secret Leak Detection](code-security/how-tos/secure-your-secrets/customize-leak-detection/index.md)
         * [Managing Custom Patterns](code-security/how-tos/secure-your-secrets/customize-leak-detection/manage-custom-patterns.md)
       - Detect Secret Leaks
         * [Enabling Secret Scanning For Your Repository](code-security/how-tos/secure-your-secrets/detect-secret-leaks/enable-secret-scanning.md)
-        * [Enabling Copilot Secret Scanning S Generic Secret Detection](code-security/how-tos/secure-your-secrets/detect-secret-leaks/enabling-ai-powered-generic-secret-detection.md)
-        * [Enabling Secret Scanning For Non Provider Patterns](code-security/how-tos/secure-your-secrets/detect-secret-leaks/enabling-secret-scanning-for-non-provider-patterns.md)
+        * [Enabling Generic Secret Detection For AI Detected Secrets](code-security/how-tos/secure-your-secrets/detect-secret-leaks/enabling-secret-scanning-for-ai-detected-secrets.md)
+        * [Enabling Secret Scanning For Generic Patterns](code-security/how-tos/secure-your-secrets/detect-secret-leaks/enabling-secret-scanning-for-generic-patterns.md)
         * [How Tos For Detecting Secret Leaks](code-security/how-tos/secure-your-secrets/detect-secret-leaks/index.md)
       - Manage Bypass Requests
         * [Enabling Delegated Bypass For Push Protection](code-security/how-tos/secure-your-secrets/manage-bypass-requests/enable-delegated-bypass.md)
