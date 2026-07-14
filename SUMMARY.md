@@ -2060,6 +2060,7 @@
       * [Git Hub Copilot Usage Metrics](copilot/concepts/copilot-usage-metrics/index.md)
     - Models
       * [About {% data variables.product.prodname_copilot_short %} {% data variables.copilot.copilot_auto_model_selection_short %}](copilot/concepts/models/auto-model-selection.md)
+      * [Bring Your Own Key For Git Hub Copilot](copilot/concepts/models/bring-your-own-key.md)
       * [Base And Long Term Support LTS Models](copilot/concepts/models/fallback-and-lts-models.md)
       * [Fed RAMP Compliant Models For Git Hub Copilot](copilot/concepts/models/fedramp-models.md)
       * [Models For Git Hub Copilot](copilot/concepts/models/index.md)
@@ -2114,12 +2115,12 @@
           * [Managing The Git Hub Copilot Plan For Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-plan/index.md)
           * [Subscribing To Git Hub Copilot For Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-plan/subscribe.md)
           * [Upgrading Git Hub Copilot For Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-plan/upgrade-plan.md)
+        * [Enabling Custom Models For Git Hub Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/enable-custom-models.md)
         * [Managing Git Hub Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/index.md)
         * [Managing Availability Of Default Models](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-availability-of-default-models.md)
         * [Managing Policies And Features For Git Hub Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-enterprise-policies.md)
         * [Managing Git Hub Spark In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-spark.md)
         * [Reviewing Audit Logs For Git Hub Copilot](copilot/how-tos/administer-copilot/manage-for-enterprise/review-audit-logs.md)
-        * [Using Your LLM Provider API Keys With Copilot](copilot/how-tos/administer-copilot/manage-for-enterprise/use-your-own-api-keys.md)
       - Manage For Organization
         - Manage Access
           * [Granting Access To Git Hub Copilot For Members Of Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-access/grant-access.md)
@@ -2135,11 +2136,11 @@
           * [Reviewing User Activity Data For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/review-activity/review-user-activity-data.md)
         * [Adding Git Hub Copilot Cloud Agent To Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/add-copilot-cloud-agent.md)
         * [Configuring Runners For Git Hub Copilot Cloud Agent In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/configure-runner-for-coding-agent.md)
+        * [Enabling Custom Models For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/enable-custom-models.md)
         * [Managing Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/index.md)
         * [Managing Default Models](copilot/how-tos/administer-copilot/manage-for-organization/manage-default-models.md)
         * [Managing Policies And Features For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-policies.md)
         * [Preparing To Use Custom Agents In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/prepare-for-custom-agents.md)
-        * [Using Your LLM Provider API Keys With Copilot](copilot/how-tos/administer-copilot/manage-for-organization/use-your-own-api-keys.md)
       - Manage Mcp Usage
         * [Configure An MCP Registry For Your Organization Or Enterprise](copilot/how-tos/administer-copilot/manage-mcp-usage/configure-mcp-registry.md)
         * [Configure MCP Server Access For Your Organization Or Enterprise](copilot/how-tos/administer-copilot/manage-mcp-usage/configure-mcp-server-access.md)
@@ -2618,6 +2619,7 @@
     * [Speeding Up Development Work With Git Hub Copilot Spaces](copilot/tutorials/speed-up-development-work.md)
     * [Upgrading Projects With Git Hub Copilot](copilot/tutorials/upgrade-projects.md)
     * [Using Copilot CLI As Your AI SME](copilot/tutorials/use-an-ai-sme.md)
+    * [Use Git Hub Copilot Code Review Across The Pull Request Lifecycle](copilot/tutorials/use-copilot-code-review-across-the-pull-request-lifecycle.md)
     * [Vibe Coding With Git Hub Copilot](copilot/tutorials/vibe-coding.md)
     * [Writing Tests With Git Hub Copilot](copilot/tutorials/write-tests.md)
   * [{% data variables.product.prodname_copilot %} documentation](copilot/index.md)
