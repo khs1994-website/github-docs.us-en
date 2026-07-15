@@ -1182,10 +1182,11 @@
         * [Concepts For Code QL](code-security/concepts/code-scanning/codeql/index.md)
         * [Code QL Query Packs](code-security/concepts/code-scanning/codeql/query-packs.md)
         * [Query Reference Files](code-security/concepts/code-scanning/codeql/query-reference-files.md)
+      * [AI Powered Security Detections In Pull Requests](code-security/concepts/code-scanning/ai-powered-security-detections.md)
       * [Code Scanning Alert Tracking Using Issues](code-security/concepts/code-scanning/alert-tracking-with-issues.md)
+      * [About Autofix For Code Scanning](code-security/concepts/code-scanning/autofix-for-code-scanning.md)
       * [Code Scanning Alerts](code-security/concepts/code-scanning/code-scanning-alerts.md)
       * [Code Scanning](code-security/concepts/code-scanning/code-scanning.md)
-      * [About Copilot Autofix For Code Scanning](code-security/concepts/code-scanning/copilot-autofix-for-code-scanning.md)
       * [Concepts For Code Scanning](code-security/concepts/code-scanning/index.md)
       * [Integration With Code Scanning](code-security/concepts/code-scanning/integration-with-code-scanning.md)
       * [Code Scanning Merge Protection](code-security/concepts/code-scanning/merge-protection.md)
@@ -1316,7 +1317,7 @@
     - Manage Security Alerts
       - Manage Code Scanning Alerts
         * [Assessing Code Scanning Alerts For Your Repository](code-security/how-tos/manage-security-alerts/manage-code-scanning-alerts/assess-alerts.md)
-        * [Disabling Copilot Autofix For Code Scanning Security Alerts](code-security/how-tos/manage-security-alerts/manage-code-scanning-alerts/disabling-autofix-for-code-scanning.md)
+        * [Disabling Autofix For Code Scanning Security Alerts](code-security/how-tos/manage-security-alerts/manage-code-scanning-alerts/disabling-autofix-for-code-scanning.md)
         * [Enabling Delegated Alert Dismissal For Code Scanning](code-security/how-tos/manage-security-alerts/manage-code-scanning-alerts/enable-delegated-alert-dismissal.md)
         * [Manage Code Scanning Alerts](code-security/how-tos/manage-security-alerts/manage-code-scanning-alerts/index.md)
         * [Resolving Code Scanning Alerts](code-security/how-tos/manage-security-alerts/manage-code-scanning-alerts/resolve-alerts.md)
@@ -4039,6 +4040,7 @@
     * [REST API Endpoints For Search](rest/search/search.md)
   - Secret Scanning
     * [Alert Dismissal Requests](rest/secret-scanning/alert-dismissal-requests.md)
+    * [REST API Endpoints For Secret Scanning Custom Patterns](rest/secret-scanning/custom-patterns.md)
     * [REST API Endpoints For Push Protection Bypass Requests](rest/secret-scanning/delegated-bypass.md)
     * [REST API Endpoints For Secret Scanning](rest/secret-scanning/secret-scanning.md)
     * [REST API Endpoints For Secret Scanning Push Protection](rest/secret-scanning/push-protection.md)
