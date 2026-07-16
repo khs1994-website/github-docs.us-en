@@ -405,6 +405,7 @@
       * [Using Innersource In Your Enterprise](admin/concepts/enterprise-best-practices/use-innersource.md)
     - Enterprise Fundamentals
       * [Automations In Your Enterprise](admin/concepts/enterprise-fundamentals/automations-in-your-enterprise.md)
+      * [Choosing An Enterprise Type For Git Hub Enterprise Cloud](admin/concepts/enterprise-fundamentals/choose-an-enterprise-type.md)
       * [Enterprise Accounts](admin/concepts/enterprise-fundamentals/enterprise-accounts.md)
       * [Enterprise Fundamentals](admin/concepts/enterprise-fundamentals/index.md)
       * [Roles In An Enterprise](admin/concepts/enterprise-fundamentals/roles-in-an-enterprise.md)
@@ -780,6 +781,7 @@
       * [About Support Bundles For Git Hub Enterprise Server](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-support-bundles.md)
       * [About System Logs](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-system-logs.md)
       * [About The Monitor Dashboards](admin/monitoring-and-managing-your-instance/monitoring-your-instance/about-the-monitor-dashboards.md)
+      * [Analyzing Git traffic on your {% data variables.product.prodname_ghe_server %} instance](admin/monitoring-and-managing-your-instance/monitoring-your-instance/analyze-git-traffic.md)
       * [Generating A Health Check For Your Enterprise](admin/monitoring-and-managing-your-instance/monitoring-your-instance/generating-a-health-check-for-your-enterprise.md)
       * [Monitoring Your Instance](admin/monitoring-and-managing-your-instance/monitoring-your-instance/index.md)
       * [Monitoring Using SNMP](admin/monitoring-and-managing-your-instance/monitoring-your-instance/monitoring-using-snmp.md)
@@ -2774,7 +2776,6 @@
     * [About Enterprise Billing](enterprise-onboarding/getting-started-with-your-enterprise/about-enterprise-billing.md)
     * [About Migrating To Git Hub Enterprise Cloud](enterprise-onboarding/getting-started-with-your-enterprise/about-migrating-to-github-enterprise-cloud.md)
     * [Adding Users To Your Enterprise](enterprise-onboarding/getting-started-with-your-enterprise/adding-users-to-your-enterprise.md)
-    * [Choosing An Enterprise Type For Git Hub Enterprise Cloud](enterprise-onboarding/getting-started-with-your-enterprise/choose-an-enterprise-type.md)
     * [Getting Started With Your Enterprise](enterprise-onboarding/getting-started-with-your-enterprise/index.md)
     * [Setting Up A Trial Of Git Hub Enterprise](enterprise-onboarding/getting-started-with-your-enterprise/setting-up-a-trial-of-github-enterprise.md)
   - Github Apps
