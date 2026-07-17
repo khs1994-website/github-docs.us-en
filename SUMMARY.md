@@ -2248,12 +2248,12 @@
           * [Configure Secrets And Variables For Copilot Cloud Agent](copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/configure-secrets-and-variables.md)
           * [Creating custom agents for {% data variables.copilot.copilot_cloud_agent %}](copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/create-custom-agents.md)
           * [Configure The Development Environment](copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/customize-the-agent-environment.md)
-          * [Customizing Or Disabling The Firewall For Git Hub Copilot Cloud Agent](copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/customize-the-agent-firewall.md)
           * [Customize {% data variables.copilot.copilot_cloud_agent %}](copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/index.md)
           * [Testing and releasing {% data variables.copilot.custom_agents_short %} in your organization or enterprise](copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/test-custom-agents.md)
           * [Customize Agent Workflows With Hooks](copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/use-hooks.md)
         * [Configure MCP Servers For Your Repository](copilot/how-tos/copilot-on-github/customize-copilot/configure-mcp-servers.md)
         * [Customize {% data variables.product.prodname_copilot_short %} for your project](copilot/how-tos/copilot-on-github/customize-copilot/customize-copilot-overview.md)
+        * [Customizing Or Disabling The Firewall For Git Hub Copilot](copilot/how-tos/copilot-on-github/customize-copilot/customize-the-firewall.md)
         * [Customize {% data variables.product.prodname_copilot_short %}](copilot/how-tos/copilot-on-github/customize-copilot/index.md)
       - Set Up Copilot
         - Enable Copilot
@@ -2785,7 +2785,6 @@
     * [Installing Enterprise Apps](enterprise-onboarding/github-apps/install-enterprise-apps.md)
   - Govern People And Repositories
     * [About Enterprise Policies](enterprise-onboarding/govern-people-and-repositories/about-enterprise-policies.md)
-    * [About Enterprise Security](enterprise-onboarding/govern-people-and-repositories/about-enterprise-security.md)
     * [Creating Custom Properties For Repositories In Your Enterprise](enterprise-onboarding/govern-people-and-repositories/create-custom-properties.md)
     * [Defining Policies For Repositories In Your Enterprise](enterprise-onboarding/govern-people-and-repositories/create-repository-policies.md)
     * [Governing People And Repositories](enterprise-onboarding/govern-people-and-repositories/index.md)
@@ -2802,11 +2801,6 @@
     * [Setting Up Organizations And Teams In Your Enterprise](enterprise-onboarding/setting-up-organizations-and-teams/index.md)
     * [Setting Up An Organization](enterprise-onboarding/setting-up-organizations-and-teams/setting-up-an-organization.md)
     * [Using Innersource In Your Enterprise](enterprise-onboarding/setting-up-organizations-and-teams/use-innersource.md)
-  - Support For Your Enterprise
-    * [Creating A Support Model For Your Enterprise](enterprise-onboarding/support-for-your-enterprise/index.md)
-    * [Managing Support Entitlements](enterprise-onboarding/support-for-your-enterprise/managing-support-entitlements.md)
-    * [Understanding Enterprise Support](enterprise-onboarding/support-for-your-enterprise/understanding-support.md)
-    * [Using The Support Portal](enterprise-onboarding/support-for-your-enterprise/using-the-support-portal.md)
   * [Enterprise Onboarding](enterprise-onboarding/index.md)
 - Get Started
   - Accessibility
