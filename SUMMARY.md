@@ -1922,6 +1922,7 @@
     * [Viewing Users Who Are Blocked From Your Organization](communities/maintaining-your-safety-on-github/viewing-users-who-are-blocked-from-your-organization.md)
     * [Viewing Users You Ve Blocked From Your Personal Account](communities/maintaining-your-safety-on-github/viewing-users-youve-blocked-from-your-personal-account.md)
   - Moderating Comments And Conversations
+    * [Archive Pull Requests](communities/moderating-comments-and-conversations/archive-pull-requests.md)
     * [Moderating Comments And Conversations](communities/moderating-comments-and-conversations/index.md)
     * [Limiting Interactions For Your Personal Account](communities/moderating-comments-and-conversations/limiting-interactions-for-your-personal-account.md)
     * [Limiting Interactions In Your Organization](communities/moderating-comments-and-conversations/limiting-interactions-in-your-organization.md)
