@@ -1172,6 +1172,10 @@
   * [Billing And Payments Documentation](billing/index.md)
 - Code Security
   - Concepts
+    - Code Quality
+      * [Git Hub Code Quality](code-security/concepts/code-quality/code-quality.md)
+      * [Code Quality Enablement Across Organizations And Enterprises](code-security/concepts/code-quality/enablement-at-scale.md)
+      * [Concepts For Code Quality](code-security/concepts/code-quality/index.md)
     - Code Scanning
       - Codeql
         * [Code QL CLI](code-security/concepts/code-scanning/codeql/codeql-cli.md)
@@ -1255,7 +1259,6 @@
       * [Innersource Advisories](code-security/concepts/vulnerability-reporting-and-management/innersource-advisories.md)
       * [Repository Security Advisories](code-security/concepts/vulnerability-reporting-and-management/repository-security-advisories.md)
       * [Exposure To Vulnerabilities In Your Code And In Dependencies](code-security/concepts/vulnerability-reporting-and-management/vulnerability-exposure.md)
-    * [About Git Hub Code Quality](code-security/concepts/about-code-quality.md)
     * [Concepts For Security And Code Quality](code-security/concepts/index.md)
   - Getting Started
     * [Git Hub Security Features](code-security/getting-started/github-security-features.md)
@@ -1310,12 +1313,19 @@
     - Maintain Quality Code
       * [Disabling {% data variables.product.prodname_code_quality %}](code-security/how-tos/maintain-quality-code/disable-code-quality.md)
       * [Enabling {% data variables.product.prodname_code_quality %}](code-security/how-tos/maintain-quality-code/enable-code-quality.md)
+      * [Exploring Git Hub Code Quality Results In Your Organization](code-security/how-tos/maintain-quality-code/explore-code-quality.md)
+      * [Fixing Code Quality Findings In Your Repository Backlog](code-security/how-tos/maintain-quality-code/fix-backlog-findings.md)
+      * [Fixing Code Quality Findings In Recently Merged Files](code-security/how-tos/maintain-quality-code/fix-findings-in-recent-merges.md)
+      * [Fixing Code Quality Findings On A Pull Request](code-security/how-tos/maintain-quality-code/fix-findings-on-a-pr.md)
       * [Maintain Quality Code](code-security/how-tos/maintain-quality-code/index.md)
       * [Interpreting The Code Quality Results For Your Repository](code-security/how-tos/maintain-quality-code/interpret-results.md)
-      * [Restricting Code Coverage On Pull Requests](code-security/how-tos/maintain-quality-code/restrict-code-coverage.md)
+      * [Setting Code Coverage Thresholds For Pull Requests](code-security/how-tos/maintain-quality-code/restrict-code-coverage.md)
+      * [Rolling out {% data variables.product.prodname_code_quality %} at scale](code-security/how-tos/maintain-quality-code/roll-out-at-scale.md)
       * [Setting Code Quality Thresholds For Pull Requests](code-security/how-tos/maintain-quality-code/set-pr-thresholds.md)
       * [Setting Up Code Coverage For Your Repository](code-security/how-tos/maintain-quality-code/set-up-code-coverage.md)
       * [Resolving A Block On Your Pull Request](code-security/how-tos/maintain-quality-code/unblock-your-pr.md)
+      * [Viewing and managing {% data variables.product.prodname_code_quality %} costs](code-security/how-tos/maintain-quality-code/view-and-manage-cost.md)
+      * [Viewing Code Coverage On Pull Requests](code-security/how-tos/maintain-quality-code/view-coverage-on-prs.md)
     - Manage Security Alerts
       - Manage Code Scanning Alerts
         * [Assessing Code Scanning Alerts For Your Repository](code-security/how-tos/manage-security-alerts/manage-code-scanning-alerts/assess-alerts.md)
@@ -1491,7 +1501,6 @@
       - Analyze Organization Data
         * [Assessing Adoption Of Security Features](code-security/how-tos/view-and-interpret-data/analyze-organization-data/assessing-adoption-code-security.md)
         * [Assessing The Security Risk Of Your Code](code-security/how-tos/view-and-interpret-data/analyze-organization-data/assessing-code-security-risk.md)
-        * [Exploring Git Hub Code Quality Results In Your Organization](code-security/how-tos/view-and-interpret-data/analyze-organization-data/explore-code-quality.md)
         * [Exporting Data From Security Overview](code-security/how-tos/view-and-interpret-data/analyze-organization-data/export-data.md)
         * [Exporting The Secret Risk Assessment Report To CSV](code-security/how-tos/view-and-interpret-data/analyze-organization-data/export-risk-report-csv.md)
         * [Finding Repositories With Security Alerts Using Security Overview](code-security/how-tos/view-and-interpret-data/analyze-organization-data/find-insecure-repositories.md)
@@ -1517,9 +1526,10 @@
         * [Java Script Code QL Queries For Code Quality](code-security/reference/code-quality/codeql-queries/javascript-queries.md)
         * [Python Code QL Queries For Code Quality](code-security/reference/code-quality/codeql-queries/python-queries.md)
         * [Ruby Code QL Queries For Code Quality](code-security/reference/code-quality/codeql-queries/ruby-queries.md)
+      * [Code Coverage Reference](code-security/reference/code-quality/code-coverage.md)
       * [Code QL Powered Analysis For Code Quality](code-security/reference/code-quality/codeql-detection.md)
       * [Reference For Code Quality](code-security/reference/code-quality/index.md)
-      * [Metrics And Ratings Reference](code-security/reference/code-quality/metrics-and-ratings.md)
+      * [Metrics And Scores Reference](code-security/reference/code-quality/metrics-and-ratings.md)
     - Code Scanning
       - Codeql
         - Codeql Cli
@@ -1748,11 +1758,9 @@
       * [Best Practices For Securing Your Build System](code-security/tutorials/implement-supply-chain-best-practices/securing-builds.md)
       * [Best Practices For Securing Code In Your Supply Chain](code-security/tutorials/implement-supply-chain-best-practices/securing-code.md)
     - Improve Code Quality
-      * [Fixing Code Quality Findings Before Merging Your Pull Request](code-security/tutorials/improve-code-quality/fix-findings-in-prs.md)
-      * [Improving The Quality Of Recently Merged Code With AI](code-security/tutorials/improve-code-quality/improve-recent-merges.md)
-      * [Improving The Quality Of Your Repository S Code](code-security/tutorials/improve-code-quality/improve-your-codebase.md)
+      * [Preventing Code Quality Issues From Reaching Your Default Branch](code-security/tutorials/improve-code-quality/catch-issues-before-merge.md)
       * [Improving The Quality Of Your Code](code-security/tutorials/improve-code-quality/index.md)
-      * [Quickstart For Git Hub Code Quality](code-security/tutorials/improve-code-quality/quickstart.md)
+      * [Raising Your Repository S Code Quality Score](code-security/tutorials/improve-code-quality/raise-your-quality-rating.md)
     - Manage Security Alerts
       * [Participating In A Code Security Campaign](code-security/tutorials/manage-security-alerts/best-practices-for-participating-in-a-security-campaign.md)
       * [Manage Security Alerts](code-security/tutorials/manage-security-alerts/index.md)
