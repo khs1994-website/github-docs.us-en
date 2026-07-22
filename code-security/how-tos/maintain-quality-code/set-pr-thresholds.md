@@ -31,7 +31,7 @@ You can enforce these thresholds at the **repository** level, or at the **organi
 * Code in a supported language. See [Supported languages](/code-security/concepts/code-quality/code-quality#supported-languages).
 
 > [!NOTE]
-> The threshold will have an impact only if the repository has code in one or more of the supported languages, see [AUTOTITLE](/code-security/code-quality/how-tos/enable-code-quality).
+> The threshold will have an impact only if the repository has code in one or more of the supported languages, see [AUTOTITLE](/code-security/how-tos/maintain-quality-code/enable-code-quality).
 
 ## Confirming {% data variables.product.prodname_code_quality_short %} runs successfully on pull requests
 
@@ -40,7 +40,7 @@ Before you add or update a ruleset to include a threshold for {% data variables.
 1. Open a recent pull request and scroll to the "Checks" summary at the bottom of the pull request.
 1. Confirm that the "{% data variables.code-quality.check_status_name %}" check ran successfully and reported its status.
 
-For more information, see [AUTOTITLE](/code-security/code-quality/reference/codeql-detection).
+For more information, see [AUTOTITLE](/code-security/reference/code-quality/codeql-detection).
 
 ## Adding or updating a ruleset to include {% data variables.product.prodname_code_quality_short %}
 
