@@ -557,7 +557,6 @@ copilot --deny-tool='write(secret.txt)'
 | `COPILOT_ALLOW_ALL` | Set to `true` to allow all permissions automatically (equivalent to `--allow-all`). |
 | `COPILOT_AUTO_UPDATE` | Set to `false` to disable automatic updates. |
 | `COPILOT_CACHE_HOME` | Override the cache directory (used for marketplace caches, auto-update packages, and other ephemeral data). See [AUTOTITLE](/copilot/reference/copilot-cli-reference/cli-config-dir-reference#changing-the-location-of-the-configuration-directory) for platform defaults. |
-| `COPILOT_COMPUTER_USE_LINUX` | Set to opt in to the `computer-use` MCP server on Linux distributions that support it. The `computer-use` server is not available on Alpine Linux (musl libc). |
 | `COPILOT_CUSTOM_INSTRUCTIONS_DIRS` | Comma-separated list of additional directories for custom instructions. |
 | `COPILOT_EDITOR` | Editor command for interactive editing (checked after `$VISUAL` and `$EDITOR`). Defaults to `vi` if none are set. |
 | `COPILOT_ENABLE_HTTP2` | Set to `1` or `true` to opt into HTTP/2 transport. HTTP/1.1 is the default. |
@@ -777,7 +776,6 @@ The CLI includes built-in MCP servers that are available without additional setu
 | `playwright` | Browser automation: navigate, click, type, screenshot, and form handling. |
 | `fetch` | HTTP requests via the `fetch` tool. |
 | `time` | Time utilities: `get_current_time` and `convert_time`. |
-| `computer-use` | Screen capture and mouse/keyboard automation. Not available on Alpine Linux (musl libc). Set `COPILOT_COMPUTER_USE_LINUX` to opt in on other Linux distributions where it is available. |
 
 Use `--disable-builtin-mcps` to disable all built-in servers, or `--disable-mcp-server SERVER-NAME` to disable a specific one.
 

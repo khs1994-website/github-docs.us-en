@@ -2011,6 +2011,7 @@
   - Concepts
     - Agents
       - Cloud Agent
+        * [About Rationale Confidence And Approvals For Issues](copilot/concepts/agents/cloud-agent/about-automation-rationale-and-approvals.md)
         * [About Copilot Automations](copilot/concepts/agents/cloud-agent/about-automations.md)
         * [About Git Hub Copilot Cloud Agent](copilot/concepts/agents/cloud-agent/about-cloud-agent.md)
         * [About Custom Agents](copilot/concepts/agents/cloud-agent/about-custom-agents.md)
@@ -2407,6 +2408,7 @@
         * [Integrating Copilot Cloud Agent With Linear](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-linear.md)
         * [Integrating Copilot Cloud Agent With Slack](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-slack.md)
         * [Integrating Copilot Cloud Agent With Teams](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-teams.md)
+        * [Managing Rationale Confidence And Approvals For Issues](copilot/how-tos/use-copilot-agents/cloud-agent/manage-rationale-confidence-approvals.md)
         * [Starting Git Hub Copilot Sessions](copilot/how-tos/use-copilot-agents/cloud-agent/start-copilot-sessions.md)
         * [Troubleshooting Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/troubleshoot-cloud-agent.md)
         * [Using Agent Apps](copilot/how-tos/use-copilot-agents/cloud-agent/use-agent-apps.md)
@@ -2783,7 +2785,6 @@
   * [Quickstart For Git Hub Educators](education/quickstart.md)
 - Enterprise Onboarding
   - Getting Started With Your Enterprise
-    * [About Enterprise Billing](enterprise-onboarding/getting-started-with-your-enterprise/about-enterprise-billing.md)
     * [About Migrating To Git Hub Enterprise Cloud](enterprise-onboarding/getting-started-with-your-enterprise/about-migrating-to-github-enterprise-cloud.md)
     * [Adding Users To Your Enterprise](enterprise-onboarding/getting-started-with-your-enterprise/adding-users-to-your-enterprise.md)
     * [Getting Started With Your Enterprise](enterprise-onboarding/getting-started-with-your-enterprise/index.md)
