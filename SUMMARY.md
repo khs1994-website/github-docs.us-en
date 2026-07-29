@@ -19,6 +19,7 @@
     - Account Management
       * [Changing Your Username](account-and-profile/how-tos/account-management/changing-your-username.md)
       * [Converting A User Into An Organization](account-and-profile/how-tos/account-management/converting-a-user-into-an-organization.md)
+      * [Creating An Account On Git Hub](account-and-profile/how-tos/account-management/creating-an-account-on-github.md)
       * [Deleting Your Personal Account](account-and-profile/how-tos/account-management/deleting-your-personal-account.md)
       * [Managing Your Personal Account](account-and-profile/how-tos/account-management/index.md)
       * [Managing Multiple Accounts](account-and-profile/how-tos/account-management/managing-multiple-accounts.md)
@@ -2810,6 +2811,7 @@
   - Exploring Projects On Github
     * [Contributing To A Project](get-started/exploring-projects-on-github/contributing-to-a-project.md)
     * [Contributing To Open Source](get-started/exploring-projects-on-github/contributing-to-open-source.md)
+    * [Discovering Projects On Git Hub](get-started/exploring-projects-on-github/discovering-projects-on-github.md)
     * [Finding Ways To Contribute To Open Source On Git Hub](get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github.md)
     * [Following Organizations](get-started/exploring-projects-on-github/following-organizations.md)
     * [Following People](get-started/exploring-projects-on-github/following-people.md)
@@ -2865,17 +2867,11 @@
   - Start Your Journey
     * [Connecting To Your Code Locally](get-started/start-your-journey/connecting-to-your-code-locally.md)
     * [Creating A Repository For Your Project On Git Hub](get-started/start-your-journey/creating-a-repository-for-your-project-on-github.md)
-    * [Creating An Account On Git Hub](get-started/start-your-journey/creating-an-account-on-github.md)
     * [Deploying Your Website Automatically](get-started/start-your-journey/deploying-your-website-automatically.md)
-    * [Downloading Files From Git Hub](get-started/start-your-journey/downloading-files-from-github.md)
-    * [Finding Inspiration On Git Hub](get-started/start-your-journey/finding-inspiration-on-github.md)
     * [Git And Git Hub Learning Resources](get-started/start-your-journey/git-and-github-learning-resources.md)
-    * [Hello World](get-started/start-your-journey/hello-world.md)
     * [Start Your Journey](get-started/start-your-journey/index.md)
     * [Planning Your Work](get-started/start-your-journey/planning-your-work.md)
     * [Reviewing Your Proposed Changes](get-started/start-your-journey/reviewing-your-proposed-changes.md)
-    * [Setting Up Your Profile](get-started/start-your-journey/setting-up-your-profile.md)
-    * [Uploading A Project To Git Hub](get-started/start-your-journey/uploading-a-project-to-github.md)
     * [What Is Git Hub](get-started/start-your-journey/what-is-github.md)
     * [Writing And Storing Your Code](get-started/start-your-journey/writing-and-storing-your-code.md)
   - Using Git
@@ -2898,6 +2894,7 @@
     * [Exploring Early Access Releases With Feature Preview](get-started/using-github/exploring-early-access-releases-with-feature-preview.md)
     * [Git Hub Flow](get-started/using-github/github-flow.md)
     * [Git Hub Mobile](get-started/using-github/github-mobile.md)
+    * [Hello World](get-started/using-github/hello-world.md)
     * [Using Git Hub](get-started/using-github/index.md)
     * [Supported Browsers](get-started/using-github/supported-browsers.md)
     * [Troubleshooting Connectivity Problems](get-started/using-github/troubleshooting-connectivity-problems.md)
@@ -3727,6 +3724,7 @@
       * [Removing Files From Git Large File Storage](repositories/working-with-files/managing-large-files/removing-files-from-git-large-file-storage.md)
       * [Resolving Git Large File Storage Upload Failures](repositories/working-with-files/managing-large-files/resolving-git-large-file-storage-upload-failures.md)
     - Using Files
+      * [Downloading Files From Git Hub](repositories/working-with-files/using-files/downloading-files-from-github.md)
       * [Downloading Source Code Archives](repositories/working-with-files/using-files/downloading-source-code-archives.md)
       * [Getting Permanent Links To Files](repositories/working-with-files/using-files/getting-permanent-links-to-files.md)
       * [Using Files](repositories/working-with-files/using-files/index.md)
