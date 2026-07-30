@@ -1065,7 +1065,7 @@
       * [Usage Based Billing For Enterprise Licenses](billing/concepts/enterprise-billing/usage-based-licenses.md)
       * [About Visual Studio Subscriptions With Git Hub Enterprise](billing/concepts/enterprise-billing/visual-studio-subs.md)
     - Product Billing
-      * [Billing for {% data variables.copilot.sandbox %}](billing/concepts/product-billing/cloud-and-local-sandboxes.md)
+      * [Billing for cloud and local sandboxes for {% data variables.product.prodname_copilot %}](billing/concepts/product-billing/cloud-and-local-sandboxes.md)
       * [Git Large File Storage Billing](billing/concepts/product-billing/git-lfs.md)
       * [Git Hub Actions Billing](billing/concepts/product-billing/github-actions.md)
       * [{% data variables.product.prodname_GHAS %} license billing](billing/concepts/product-billing/github-advanced-security.md)
@@ -2075,6 +2075,7 @@
     - Models
       * [About {% data variables.product.prodname_copilot_short %} {% data variables.copilot.copilot_auto_model_selection_short %}](copilot/concepts/models/auto-model-selection.md)
       * [Bring Your Own Key For Git Hub Copilot](copilot/concepts/models/bring-your-own-key.md)
+      * [About default availability of {% data variables.product.prodname_copilot_short %} models](copilot/concepts/models/default-availability.md)
       * [Base And Long Term Support LTS Models](copilot/concepts/models/fallback-and-lts-models.md)
       * [Fed RAMP Compliant Models For Git Hub Copilot](copilot/concepts/models/fedramp-models.md)
       * [Models For Git Hub Copilot](copilot/concepts/models/index.md)
@@ -2087,14 +2088,14 @@
       * [About Copilot Integrations](copilot/concepts/tools/about-copilot-integrations.md)
       * [Choosing The Right AI Tool For Your Task](copilot/concepts/tools/ai-tools.md)
       * [Concepts For AI Tools](copilot/concepts/tools/index.md)
-    * [About {% data variables.copilot.sandbox %}](copilot/concepts/about-cloud-and-local-sandboxes.md)
+    * [About cloud and local sandboxes for {% data variables.product.prodname_copilot %}](copilot/concepts/about-cloud-and-local-sandboxes.md)
     * [About Enterprise Accounts For Copilot Business](copilot/concepts/about-enterprise-accounts-for-copilot-business.md)
     * [About Git Hub Copilot Chat](copilot/concepts/chat.md)
     * [Concepts For Git Hub Copilot](copilot/concepts/index.md)
+    * [Learning About New Features And Models](copilot/concepts/learning-about-new-features-and-models.md)
     * [MCP Server Usage In Your Company](copilot/concepts/mcp-management.md)
     * [Network Settings For Git Hub Copilot](copilot/concepts/network-settings.md)
     * [Git Hub Copilot Policies For Enterprises And Organizations](copilot/concepts/policies.md)
-    * [Preparing For New Features And Models](copilot/concepts/preparing-for-new-features-and-models.md)
     * [About Git Hub Spark](copilot/concepts/spark.md)
     * [Usage Limits For Git Hub Copilot](copilot/concepts/usage-limits.md)
   - Get Started
@@ -2131,7 +2132,7 @@
           * [Upgrading Git Hub Copilot For Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-plan/upgrade-plan.md)
         * [Enabling Custom Models For Git Hub Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/enable-custom-models.md)
         * [Managing Git Hub Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/index.md)
-        * [Managing Availability Of Default Models](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-availability-of-default-models.md)
+        * [Managing Availability Of Models In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-availability-of-default-models.md)
         * [Managing Policies And Features For Git Hub Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-enterprise-policies.md)
         * [Managing Git Hub Spark In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-spark.md)
         * [Reviewing Audit Logs For Git Hub Copilot](copilot/how-tos/administer-copilot/manage-for-enterprise/review-audit-logs.md)
@@ -2152,7 +2153,7 @@
         * [Configuring Runners For Git Hub Copilot Cloud Agent In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/configure-runner-for-coding-agent.md)
         * [Enabling Custom Models For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/enable-custom-models.md)
         * [Managing Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/index.md)
-        * [Managing Default Models](copilot/how-tos/administer-copilot/manage-for-organization/manage-default-models.md)
+        * [Managing The Availability Of Models In An Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-default-models.md)
         * [Managing Policies And Features For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-policies.md)
         * [Preparing To Use Custom Agents In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/prepare-for-custom-agents.md)
       - Manage Mcp Usage
@@ -2171,8 +2172,9 @@
       * [Git Hub Copilot Chat](copilot/how-tos/chat-with-copilot/index.md)
     - Cloud And Local Sandboxes
       * [Configuring Local Sandbox Settings](copilot/how-tos/cloud-and-local-sandboxes/configuring-local-sandbox-settings.md)
-      * [Enabling Or Disabling Cloud Sandboxes For Your Organization](copilot/how-tos/cloud-and-local-sandboxes/enabling-or-disabling-cloud-sandboxes-for-your-organization.md)
-      * [{% data variables.copilot.sandbox_caps %}](copilot/how-tos/cloud-and-local-sandboxes/index.md)
+      * [Enabling Or Disabling Cloud Sandboxes For Your Organization Or Enterprise](copilot/how-tos/cloud-and-local-sandboxes/enabling-or-disabling-cloud-sandboxes-for-your-organization.md)
+      * [Cloud And Local Sandboxes For Git Hub Copilot](copilot/how-tos/cloud-and-local-sandboxes/index.md)
+      * [Using Local Sandboxing](copilot/how-tos/cloud-and-local-sandboxes/using-local-sandboxing.md)
     - Configure Content Exclusion
       * [Excluding Content From Git Hub Copilot](copilot/how-tos/configure-content-exclusion/exclude-content-from-copilot.md)
       * [Configure And Audit Content Exclusion](copilot/how-tos/configure-content-exclusion/index.md)
