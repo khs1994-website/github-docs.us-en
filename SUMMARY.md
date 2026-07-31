@@ -1073,7 +1073,6 @@
       * [Git Hub Codespaces Billing](billing/concepts/product-billing/github-codespaces.md)
       * [Git Hub Copilot Billing](billing/concepts/product-billing/github-copilot-billing.md)
       * [Git Hub Copilot Licenses](billing/concepts/product-billing/github-copilot-licenses.md)
-      * [Git Hub Models Billing](billing/concepts/product-billing/github-models.md)
       * [Git Hub Packages Billing](billing/concepts/product-billing/github-packages.md)
       * [Git Hub Spark Billing](billing/concepts/product-billing/github-spark.md)
       * [Product Billing](billing/concepts/product-billing/index.md)
@@ -1155,7 +1154,6 @@
     * [Billing Reports Reference](billing/reference/billing-reports.md)
     * [Roles For The Billing Platform](billing/reference/billing-roles.md)
     * [Cost Center Allocation For Different Products](billing/reference/cost-center-allocation.md)
-    * [Costs And Multipliers For Using Git Hub Models Directly](billing/reference/costs-for-github-models.md)
     * [License Troubleshooting Information For Git Hub Enterprise](billing/reference/enterprise-license-troubleshooting.md)
     * [People Who Consume A License In An Organization](billing/reference/github-license-users.md)
     * [Reference For Billing](billing/reference/index.md)
@@ -2635,6 +2633,7 @@
     * [Refactoring Code With Git Hub Copilot](copilot/tutorials/refactor-code.md)
     * [Review AI Generated Code](copilot/tutorials/review-ai-generated-code.md)
     * [Speeding Up Development Work With Git Hub Copilot Spaces](copilot/tutorials/speed-up-development-work.md)
+    * [Stack AI Generated Code In Pull Requests](copilot/tutorials/stack-ai-generated-code-in-pull-requests.md)
     * [Upgrading Projects With Git Hub Copilot](copilot/tutorials/upgrade-projects.md)
     * [Using Copilot CLI As Your AI SME](copilot/tutorials/use-an-ai-sme.md)
     * [Use Git Hub Copilot Code Review Across The Pull Request Lifecycle](copilot/tutorials/use-copilot-code-review-across-the-pull-request-lifecycle.md)
@@ -2950,21 +2949,7 @@
     * [Using The Git Hub CLI Across Git Hub Platforms](github-cli/github-cli/using-multiple-accounts.md)
   * [{% data variables.product.prodname_cli %} documentation](github-cli/index.md)
 - Github Models
-  - Github Models At Scale
-    * [Git Hub Models At Scale](github-models/github-models-at-scale/index.md)
-    * [Managing Your Team S Model Usage](github-models/github-models-at-scale/manage-models-at-scale.md)
-    * [Using {% data variables.product.prodname_github_models %} to develop AI-powered applications in your enterprise](github-models/github-models-at-scale/use-models-at-scale.md)
-    * [Using Your Own API Keys In Git Hub Models](github-models/github-models-at-scale/using-your-own-api-keys-in-github-models.md)
-  - Use Github Models
-    * [Evaluating AI Models](github-models/use-github-models/evaluating-ai-models.md)
-    * [Use Git Hub Models](github-models/use-github-models/index.md)
-    * [Optimizing Your AI Powered App With Models](github-models/use-github-models/optimizing-your-ai-powered-app-with-github-models.md)
-    * [Prototyping With AI Models](github-models/use-github-models/prototyping-with-ai-models.md)
-    * [Storing Prompts In Git Hub Repositories](github-models/use-github-models/storing-prompts-in-github-repositories.md)
-  * [About Git Hub Models](github-models/about-github-models.md)
   * [Git Hub Models](github-models/index.md)
-  * [Quickstart For Git Hub Models](github-models/quickstart.md)
-  * [Responsible Use Of Git Hub Models](github-models/responsible-use-of-github-models.md)
 - [Graphql](graphql/README.md)
   - Guides
     * [Forming Calls With Graph QL](graphql/guides/forming-calls-with-graphql.md)
@@ -3350,7 +3335,6 @@
     * [Managing Custom Properties For Repositories In Your Organization](organizations/managing-organization-settings/managing-custom-properties-for-repositories-in-your-organization.md)
     * [Managing Default Labels For Repositories In Your Organization](organizations/managing-organization-settings/managing-default-labels-for-repositories-in-your-organization.md)
     * [Managing Discussion Creation For Repositories In Your Organization](organizations/managing-organization-settings/managing-discussion-creation-for-repositories-in-your-organization.md)
-    * [Managing or restricting {% data variables.product.prodname_github_models %} in your organization](organizations/managing-organization-settings/managing-or-restricting-github-models-for-your-organization.md)
     * [Managing Pull Request Reviews In Your Organization](organizations/managing-organization-settings/managing-pull-request-reviews-in-your-organization.md)
     * [Managing Rulesets For Repositories In Your Organization](organizations/managing-organization-settings/managing-rulesets-for-repositories-in-your-organization.md)
     * [Managing Scheduled Reminders For Your Organization](organizations/managing-organization-settings/managing-scheduled-reminders-for-your-organization.md)
@@ -3523,9 +3507,11 @@
   - Get Started
     * [About Forks](pull-requests/get-started/about-forks.md)
     * [About Pull Requests](pull-requests/get-started/about-pull-requests.md)
+    * [About Stacked Pull Requests](pull-requests/get-started/about-stacked-prs.md)
     * [Get Started With Pull Requests](pull-requests/get-started/index.md)
     * [Quickstart For Pull Requests](pull-requests/get-started/pull-request-quickstart.md)
     * [Quickstart For Reviewing Pull Requests](pull-requests/get-started/reviewing-pull-requests-quickstart.md)
+    * [Quickstart For Stacked Pull Requests](pull-requests/get-started/stacked-prs-quickstart.md)
   - How Tos
     - Commit Changes
       * [Changing A Commit Message](pull-requests/how-tos/commit-changes/changing-a-commit-message.md)
@@ -3540,8 +3526,10 @@
       * [Changing The Stage Of A Pull Request](pull-requests/how-tos/create-pull-requests/changing-the-stage-of-a-pull-request.md)
       * [Creating A Pull Request From A Fork](pull-requests/how-tos/create-pull-requests/creating-a-pull-request-from-a-fork.md)
       * [Creating A Pull Request](pull-requests/how-tos/create-pull-requests/creating-a-pull-request.md)
+      * [Creating Stacked Pull Requests](pull-requests/how-tos/create-pull-requests/creating-stacked-pull-requests.md)
       * [Create Pull Requests](pull-requests/how-tos/create-pull-requests/index.md)
       * [Keeping Your Pull Request In Sync With The Base Branch](pull-requests/how-tos/create-pull-requests/keeping-your-pull-request-in-sync-with-the-base-branch.md)
+      * [Managing Stacked Pull Requests](pull-requests/how-tos/create-pull-requests/managing-stacked-pull-requests.md)
       * [Requesting A Pull Request Review](pull-requests/how-tos/create-pull-requests/requesting-a-pull-request-review.md)
     - Merge And Close Pull Requests
       * [Automatically Merging A Pull Request](pull-requests/how-tos/merge-and-close-pull-requests/automatically-merging-a-pull-request.md)
@@ -3549,10 +3537,13 @@
       * [Merge And Close Pull Requests](pull-requests/how-tos/merge-and-close-pull-requests/index.md)
       * [Merging A Pull Request With A Merge Queue](pull-requests/how-tos/merge-and-close-pull-requests/merging-a-pull-request-with-a-merge-queue.md)
       * [Merging A Pull Request](pull-requests/how-tos/merge-and-close-pull-requests/merging-a-pull-request.md)
+      * [Merging Stacked Pull Requests](pull-requests/how-tos/merge-and-close-pull-requests/merging-stacked-pull-requests.md)
+      * [Optimizing CI For Stacked Pull Requests](pull-requests/how-tos/merge-and-close-pull-requests/optimizing-ci-for-stacked-pull-requests.md)
       * [Resolving A Merge Conflict On Git Hub](pull-requests/how-tos/merge-and-close-pull-requests/resolving-a-merge-conflict-on-github.md)
       * [Resolving A Merge Conflict Using The Command Line](pull-requests/how-tos/merge-and-close-pull-requests/resolving-a-merge-conflict-using-the-command-line.md)
       * [Reverting A Pull Request](pull-requests/how-tos/merge-and-close-pull-requests/reverting-a-pull-request.md)
       * [Troubleshooting Required Status Checks](pull-requests/how-tos/merge-and-close-pull-requests/troubleshooting-required-status-checks.md)
+      * [Troubleshooting Stacked Pull Requests](pull-requests/how-tos/merge-and-close-pull-requests/troubleshooting-stacked-pull-requests.md)
     - Review Pull Requests
       * [Approving A Pull Request With Required Reviews](pull-requests/how-tos/review-pull-requests/approving-a-pull-request-with-required-reviews.md)
       * [Checking Out Pull Requests Locally](pull-requests/how-tos/review-pull-requests/checking-out-pull-requests-locally.md)
@@ -3562,7 +3553,10 @@
       * [Review Pull Requests](pull-requests/how-tos/review-pull-requests/index.md)
       * [Reviewing Dependency Changes In A Pull Request](pull-requests/how-tos/review-pull-requests/reviewing-dependency-changes-in-a-pull-request.md)
       * [Reviewing Proposed Changes In A Pull Request](pull-requests/how-tos/review-pull-requests/reviewing-proposed-changes-in-a-pull-request.md)
+      * [Reviewing Stacked Pull Requests](pull-requests/how-tos/review-pull-requests/reviewing-stacked-pull-requests.md)
       * [Viewing A Pull Request Review](pull-requests/how-tos/review-pull-requests/viewing-a-pull-request-review.md)
+    - Stacked Pull Requests
+      * [Stacked pull requests 🥞](pull-requests/how-tos/stacked-pull-requests/index.md)
     - Work With Forks
       * [Allowing Changes To A Pull Request Branch Created From A Fork](pull-requests/how-tos/work-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork.md)
       * [Configuring A Remote Repository For A Fork](pull-requests/how-tos/work-with-forks/configuring-a-remote-repository-for-a-fork.md)
@@ -3581,9 +3575,17 @@
     * [Pull Request Merges](pull-requests/reference/pull-request-merges.md)
     * [Pull Request Reviews](pull-requests/reference/pull-request-reviews.md)
     * [Pull Requests](pull-requests/reference/pull-requests.md)
+    * [Stacked Pull Requests CLI Commands](pull-requests/reference/stacked-prs-cli-commands.md)
+    * [Stacked Pull Requests In The REST And Graph QL AP Is](pull-requests/reference/stacked-pull-requests-rest-and-graphql-apis.md)
+    * [Stacked Pull Requests](pull-requests/reference/stacked-pull-requests.md)
     * [Status Checks](pull-requests/reference/status-checks.md)
+    * [Use Other Tools With Stacked Pull Requests](pull-requests/reference/use-other-tools-with-stacked-pull-requests.md)
     * [Using Query Parameters To Create A Pull Request](pull-requests/reference/using-query-parameters-to-create-a-pull-request.md)
     * [Working With Pre Receive Hooks](pull-requests/reference/working-with-pre-receive-hooks.md)
+  - Tutorials
+    * [Pull Request Tutorials](pull-requests/tutorials/index.md)
+    * [Roll Out Stacked Pull Requests To Your Organization](pull-requests/tutorials/roll-out-stacked-prs.md)
+    * [Stack Code Changes In Pull Requests](pull-requests/tutorials/stack-code-changes-in-pull-requests.md)
   * [Pull Requests Documentation](pull-requests/index.md)
 - Repositories
   - Archiving A Github Repository
@@ -3669,7 +3671,6 @@
       * [Managing Repository Settings](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/index.md)
       * [Managing The Automatic Closing Of Issues In Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-auto-closing-issues.md)
       * [Managing Git LFS Objects In Archives Of Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-git-lfs-objects-in-archives-of-your-repository.md)
-      * [Managing {% data variables.product.prodname_github_models %} in your repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-github-models-in-your-repository.md)
       * [Managing Pull Request Reviews In Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-pull-request-reviews-in-your-repository.md)
       * [Managing Teams And People With Access To Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository.md)
       * [Managing The Commit Signoff Policy For Your Repository](repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-the-commit-signoff-policy-for-your-repository.md)
@@ -3956,11 +3957,6 @@
     * [REST API Endpoints For Organization Migrations](rest/migrations/orgs.md)
     * [REST API Endpoints For Source Imports](rest/migrations/source-imports.md)
     * [REST API Endpoints For User Migrations](rest/migrations/users.md)
-  - Models
-    * [REST API Endpoints For Models Catalog](rest/models/catalog.md)
-    * [REST API Endpoints For Model Embeddings](rest/models/embeddings.md)
-    * [Models](rest/models/index.md)
-    * [REST API Endpoints For Models Inference](rest/models/inference.md)
   - Oauth Authorizations
     * [REST API Endpoints For O Auth App Authorizations](rest/oauth-authorizations/oauth-authorizations.md)
   - Orgs
@@ -4003,6 +3999,7 @@
     * [REST API Endpoints For Pull Requests](rest/pulls/pulls.md)
     * [REST API Endpoints For Review Requests](rest/pulls/review-requests.md)
     * [REST API Endpoints For Pull Request Reviews](rest/pulls/reviews.md)
+    * [REST API Endpoints For Stacked Pull Requests](rest/pulls/stacks.md)
   - Rate Limit
     * [REST API Endpoints For Rate Limits](rest/rate-limit/rate-limit.md)
   - Reactions
@@ -4093,7 +4090,6 @@
     * [Searching For Repositories](search-github/searching-on-github/searching-for-repositories.md)
     * [Searching Gists](search-github/searching-on-github/searching-gists.md)
     * [Searching Git Hub Marketplace](search-github/searching-on-github/searching-github-marketplace.md)
-    * [Searching Git Hub Models](search-github/searching-on-github/searching-github-models.md)
     * [Searching In Forks](search-github/searching-on-github/searching-in-forks.md)
     * [Searching Issues And Pull Requests](search-github/searching-on-github/searching-issues-and-pull-requests.md)
     * [Searching Topics](search-github/searching-on-github/searching-topics.md)
