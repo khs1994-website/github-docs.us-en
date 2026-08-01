@@ -1231,7 +1231,6 @@
       * [Supply Chain Security For Your Enterprise](code-security/concepts/security-at-scale/supply-chain-security.md)
     - Supply Chain Security
       * [About the dependabot.yml file](code-security/concepts/supply-chain-security/about-the-dependabot-yml-file.md)
-      * [Automatic Dependabot access to {% data variables.product.github %}-hosted registries](code-security/concepts/supply-chain-security/automatic-dependabot-access-to-github-registries.md)
       * [Best Practices For Maintaining Dependencies](code-security/concepts/supply-chain-security/best-practices-for-maintaining-dependencies.md)
       * [Metrics For Dependabot Alerts](code-security/concepts/supply-chain-security/dependabot-alert-metrics.md)
       * [Dependabot Alerts](code-security/concepts/supply-chain-security/dependabot-alerts.md)
@@ -3556,7 +3555,7 @@
       * [Reviewing Stacked Pull Requests](pull-requests/how-tos/review-pull-requests/reviewing-stacked-pull-requests.md)
       * [Viewing A Pull Request Review](pull-requests/how-tos/review-pull-requests/viewing-a-pull-request-review.md)
     - Stacked Pull Requests
-      * [Stacked pull requests 🥞](pull-requests/how-tos/stacked-pull-requests/index.md)
+      * [Stacked Pull Requests](pull-requests/how-tos/stacked-pull-requests/index.md)
     - Work With Forks
       * [Allowing Changes To A Pull Request Branch Created From A Fork](pull-requests/how-tos/work-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork.md)
       * [Configuring A Remote Repository For A Fork](pull-requests/how-tos/work-with-forks/configuring-a-remote-repository-for-a-fork.md)
