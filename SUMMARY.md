@@ -2292,6 +2292,7 @@
       - Auth
         * [Authentication](copilot/how-tos/copilot-sdk/auth/index.md)
         * [BYOK Bring Your Own Key](copilot/how-tos/copilot-sdk/auth/byok.md)
+        * [Server To Server Authentication](copilot/how-tos/copilot-sdk/auth/server-to-server-tokens.md)
       - Features
         * [The Agent Loop](copilot/how-tos/copilot-sdk/features/agent-loop.md)
         * [Cloud Sessions](copilot/how-tos/copilot-sdk/features/cloud-sessions.md)
@@ -2308,6 +2309,7 @@
         * [Custom Skills](copilot/how-tos/copilot-sdk/features/skills.md)
         * [Steering And Queueing](copilot/how-tos/copilot-sdk/features/steering-and-queueing.md)
         * [Streaming Session Events](copilot/how-tos/copilot-sdk/features/streaming-events.md)
+        * [Usage And Billing Metrics](copilot/how-tos/copilot-sdk/features/usage-and-billing.md)
       - Hooks
         * [Error Handling Hook](copilot/how-tos/copilot-sdk/hooks/error-handling.md)
         * [Session Hooks](copilot/how-tos/copilot-sdk/hooks/hooks-overview.md)
@@ -2466,6 +2468,10 @@
       * [Lines Of Code Metrics](copilot/reference/copilot-usage-metrics/lines-of-code-metrics.md)
       * [Reconciling Copilot Usage Metrics Across Dashboards AP Is And Reports](copilot/reference/copilot-usage-metrics/reconciling-usage-metrics.md)
       * [Team Level Copilot Usage Metrics](copilot/reference/copilot-usage-metrics/team-level-metrics.md)
+    - Github Copilot App Reference
+      * [Built In Skills For The Git Hub Copilot App](copilot/reference/github-copilot-app-reference/built-in-skills.md)
+      * [{% data variables.copilot.github_copilot_app %} reference](copilot/reference/github-copilot-app-reference/index.md)
+      * [Slash Commands For The Git Hub Copilot App](copilot/reference/github-copilot-app-reference/slash-commands.md)
     * [Available Filters For Agent Sessions](copilot/reference/agent-session-filters.md)
     * [Audit Log Events For Agents](copilot/reference/agentic-audit-log-events.md)
     * [Git Hub Copilot Chat Cheat Sheet](copilot/reference/chat-cheat-sheet.md)
@@ -2794,9 +2800,6 @@
     * [Defining Policies For Repositories In Your Enterprise](enterprise-onboarding/govern-people-and-repositories/create-repository-policies.md)
     * [Governing People And Repositories](enterprise-onboarding/govern-people-and-repositories/index.md)
     * [Protecting Branches In Your Enterprise With Rulesets](enterprise-onboarding/govern-people-and-repositories/protect-branches.md)
-  - Setting Up Organizations And Teams
-    * [Setting Up Organizations And Teams In Your Enterprise](enterprise-onboarding/setting-up-organizations-and-teams/index.md)
-    * [Setting Up An Organization](enterprise-onboarding/setting-up-organizations-and-teams/setting-up-an-organization.md)
   * [Enterprise Onboarding](enterprise-onboarding/index.md)
 - Get Started
   - Accessibility
@@ -3213,6 +3216,17 @@
       * [Accessing Your Migration Logs For Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/completing-your-migration-with-github-enterprise-importer/accessing-your-migration-logs-for-github-enterprise-importer.md)
       * [Completing Your Migration With Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/completing-your-migration-with-github-enterprise-importer/index.md)
       * [Reclaiming Mannequins For Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/completing-your-migration-with-github-enterprise-importer/reclaiming-mannequins-for-github-enterprise-importer.md)
+    - Migrate From Gitlab
+      * [Configure Blob Storage](migrations/using-github-enterprise-importer/migrate-from-gitlab/configure-storage.md)
+      * [Follow Up Tasks](migrations/using-github-enterprise-importer/migrate-from-gitlab/follow-up-tasks.md)
+      * [Granting The Migrator Role](migrations/using-github-enterprise-importer/migrate-from-gitlab/grant-the-migrator-role.md)
+      * [Migrating From Git Lab To Git Hub](migrations/using-github-enterprise-importer/migrate-from-gitlab/index.md)
+      * [Install And Configure Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/migrate-from-gitlab/install-and-configure-github-enterprise-importer.md)
+      * [Manage Access For A Migration From Git Lab To Git Hub](migrations/using-github-enterprise-importer/migrate-from-gitlab/manage-access.md)
+      * [Migrate Your Repositories From Git Lab To Git Hub](migrations/using-github-enterprise-importer/migrate-from-gitlab/migrate-your-repositories.md)
+      * [Plan Your Migration From Git Lab To Git Hub](migrations/using-github-enterprise-importer/migrate-from-gitlab/plan-your-migration.md)
+      * [Understand Migrations From Git Lab To Git Hub](migrations/using-github-enterprise-importer/migrate-from-gitlab/understand-migrations.md)
+      * [Use Graph QL To Migrate Repositories From Git Lab To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrate-from-gitlab/use-graphql.md)
     - Migrating Between Github Products
       * [About migrations between GitHub products with {% data variables.product.prodname_importer_proper_name %}](migrations/using-github-enterprise-importer/migrating-between-github-products/about-migrations-between-github-products.md)
       * [Migrating Between Git Hub Products](migrations/using-github-enterprise-importer/migrating-between-github-products/index.md)
