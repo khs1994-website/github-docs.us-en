@@ -552,6 +552,7 @@
       * [Restoring A Deleted Organization](admin/managing-accounts-and-repositories/managing-organizations-in-your-enterprise/restoring-a-deleted-organization.md)
     - Managing Repositories In Your Enterprise
       * [Accessing User Owned Repositories In Your Enterprise](admin/managing-accounts-and-repositories/managing-repositories-in-your-enterprise/accessing-user-owned-repositories-in-your-enterprise.md)
+      * [Managing Requests To Bypass Push Rules](admin/managing-accounts-and-repositories/managing-repositories-in-your-enterprise/bypass-push-rules-requests.md)
       * [Configuring Git Large File Storage For Your Enterprise](admin/managing-accounts-and-repositories/managing-repositories-in-your-enterprise/configuring-git-large-file-storage-for-your-enterprise.md)
       * [Disabling Git SSH Access On Your Enterprise](admin/managing-accounts-and-repositories/managing-repositories-in-your-enterprise/disabling-git-ssh-access-on-your-enterprise.md)
       * [Governing How People Use Repositories In Your Enterprise](admin/managing-accounts-and-repositories/managing-repositories-in-your-enterprise/governing-how-people-use-repositories-in-your-enterprise.md)
@@ -1172,6 +1173,7 @@
 - Code Security
   - Concepts
     - Code Quality
+      * [Automatic Code Coverage Setup](code-security/concepts/code-quality/automatic-code-coverage-setup.md)
       * [Git Hub Code Quality](code-security/concepts/code-quality/code-quality.md)
       * [Code Quality Enablement Across Organizations And Enterprises](code-security/concepts/code-quality/enablement-at-scale.md)
       * [Concepts For Code Quality](code-security/concepts/code-quality/index.md)
@@ -2468,25 +2470,27 @@
       * [Lines Of Code Metrics](copilot/reference/copilot-usage-metrics/lines-of-code-metrics.md)
       * [Reconciling Copilot Usage Metrics Across Dashboards AP Is And Reports](copilot/reference/copilot-usage-metrics/reconciling-usage-metrics.md)
       * [Team Level Copilot Usage Metrics](copilot/reference/copilot-usage-metrics/team-level-metrics.md)
+    - Enterprise Administrators
+      * [Available Filters For Agent Sessions](copilot/reference/enterprise-administrators/agent-session-filters.md)
+      * [Audit Log Events For Agents](copilot/reference/enterprise-administrators/agentic-audit-log-events.md)
+      * [Enterprise Managed Settings](copilot/reference/enterprise-administrators/enterprise-managed-settings.md)
+      * [Enterprise Administrators](copilot/reference/enterprise-administrators/index.md)
+      * [MCP Allowlist Enforcement](copilot/reference/enterprise-administrators/mcp-allowlist-enforcement.md)
+      * [Feature Availability When Git Hub Copilot Policies Conflict In Organizations](copilot/reference/enterprise-administrators/policy-conflicts.md)
     - Github Copilot App Reference
       * [Built In Skills For The Git Hub Copilot App](copilot/reference/github-copilot-app-reference/built-in-skills.md)
       * [{% data variables.copilot.github_copilot_app %} reference](copilot/reference/github-copilot-app-reference/index.md)
       * [Slash Commands For The Git Hub Copilot App](copilot/reference/github-copilot-app-reference/slash-commands.md)
-    * [Available Filters For Agent Sessions](copilot/reference/agent-session-filters.md)
-    * [Audit Log Events For Agents](copilot/reference/agentic-audit-log-events.md)
     * [Git Hub Copilot Chat Cheat Sheet](copilot/reference/chat-cheat-sheet.md)
     * [Copilot Allowlist Reference](copilot/reference/copilot-allowlist-reference.md)
     * [Copilot Feature Matrix](copilot/reference/copilot-feature-matrix.md)
     * [Custom Agents Configuration](copilot/reference/custom-agents-configuration.md)
     * [Support For Different Types Of Custom Instructions](copilot/reference/custom-instructions-support.md)
     * [Copilot Customization Cheat Sheet](copilot/reference/customization-cheat-sheet.md)
-    * [Enterprise Managed Settings Reference](copilot/reference/enterprise-managed-settings-reference.md)
     * [Git Hub Copilot Hooks Reference](copilot/reference/hooks-reference.md)
     * [Reference for {% data variables.product.prodname_copilot %}](copilot/reference/index.md)
     * [Keyboard Shortcuts For Git Hub Copilot In The IDE](copilot/reference/keyboard-shortcuts.md)
-    * [MCP Allowlist Enforcement](copilot/reference/mcp-allowlist-enforcement.md)
     * [Metrics Data Properties For Git Hub Copilot](copilot/reference/metrics-data.md)
-    * [Feature Availability When Git Hub Copilot Policies Conflict In Organizations](copilot/reference/policy-conflicts.md)
     * [Files excluded from {% data variables.copilot.copilot_code-review %}](copilot/reference/review-excluded-files.md)
     * [Supported Surfaces For Git Hub Copilot Policies](copilot/reference/supported-surfaces-for-policies.md)
   - Responsible Use
@@ -2797,7 +2801,6 @@
     * [Getting Started With Your Enterprise](enterprise-onboarding/getting-started-with-your-enterprise/index.md)
     * [Setting Up A Trial Of Git Hub Enterprise](enterprise-onboarding/getting-started-with-your-enterprise/setting-up-a-trial-of-github-enterprise.md)
   - Govern People And Repositories
-    * [Defining Policies For Repositories In Your Enterprise](enterprise-onboarding/govern-people-and-repositories/create-repository-policies.md)
     * [Governing People And Repositories](enterprise-onboarding/govern-people-and-repositories/index.md)
     * [Protecting Branches In Your Enterprise With Rulesets](enterprise-onboarding/govern-people-and-repositories/protect-branches.md)
   * [Enterprise Onboarding](enterprise-onboarding/index.md)
