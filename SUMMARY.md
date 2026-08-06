@@ -570,6 +570,7 @@
       * [Managing Roles In Your Enterprise](admin/managing-accounts-and-repositories/managing-roles-in-your-enterprise/index.md)
     - Managing Users In Your Enterprise
       * [About Reserved Usernames For Git Hub Enterprise Server](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/about-reserved-usernames-for-github-enterprise-server.md)
+      * [Adding Users To Your Enterprise](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/add-users.md)
       * [Auditing SSH Keys](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/auditing-ssh-keys.md)
       * [Auditing Users Across Your Enterprise](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/auditing-users-across-your-enterprise.md)
       * [Best Practices For User Security](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/best-practices-for-user-security.md)
@@ -579,7 +580,6 @@
       * [Exporting Membership Information For Your Enterprise](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/exporting-membership-information-for-your-enterprise.md)
       * [Impersonating A User](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/impersonating-a-user.md)
       * [Managing Users In Your Enterprise](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/index.md)
-      * [Inviting Users To Your Enterprise Directly](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/invite-users-directly.md)
       * [Inviting People To Manage Your Enterprise](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/inviting-people-to-manage-your-enterprise.md)
       * [Managing Dormant Users](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/managing-dormant-users.md)
       * [Managing Invitations To Organizations Within Your Enterprise](admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/managing-invitations-to-organizations-within-your-enterprise.md)
@@ -2480,6 +2480,7 @@
     - Github Copilot App Reference
       * [Built In Skills For The Git Hub Copilot App](copilot/reference/github-copilot-app-reference/built-in-skills.md)
       * [{% data variables.copilot.github_copilot_app %} reference](copilot/reference/github-copilot-app-reference/index.md)
+      * [Repository Configuration For The Git Hub Copilot App](copilot/reference/github-copilot-app-reference/repository-configuration.md)
       * [Slash Commands For The Git Hub Copilot App](copilot/reference/github-copilot-app-reference/slash-commands.md)
     * [Git Hub Copilot Chat Cheat Sheet](copilot/reference/chat-cheat-sheet.md)
     * [Copilot Allowlist Reference](copilot/reference/copilot-allowlist-reference.md)
@@ -2797,7 +2798,6 @@
 - Enterprise Onboarding
   - Getting Started With Your Enterprise
     * [About Migrating To Git Hub Enterprise Cloud](enterprise-onboarding/getting-started-with-your-enterprise/about-migrating-to-github-enterprise-cloud.md)
-    * [Adding Users To Your Enterprise](enterprise-onboarding/getting-started-with-your-enterprise/adding-users-to-your-enterprise.md)
     * [Getting Started With Your Enterprise](enterprise-onboarding/getting-started-with-your-enterprise/index.md)
     * [Setting Up A Trial Of Git Hub Enterprise](enterprise-onboarding/getting-started-with-your-enterprise/setting-up-a-trial-of-github-enterprise.md)
   - Govern People And Repositories
@@ -3592,7 +3592,7 @@
     * [Pull Request Reviews](pull-requests/reference/pull-request-reviews.md)
     * [Pull Requests](pull-requests/reference/pull-requests.md)
     * [Stacked Pull Requests CLI Commands](pull-requests/reference/stacked-prs-cli-commands.md)
-    * [Stacked Pull Requests In The REST And Graph QL AP Is](pull-requests/reference/stacked-pull-requests-rest-and-graphql-apis.md)
+    * [Stacked Pull Requests AP Is And Webhooks](pull-requests/reference/stacked-pull-requests-apis-and-webhooks.md)
     * [Stacked Pull Requests](pull-requests/reference/stacked-pull-requests.md)
     * [Status Checks](pull-requests/reference/status-checks.md)
     * [Use Other Tools With Stacked Pull Requests](pull-requests/reference/use-other-tools-with-stacked-pull-requests.md)
