@@ -363,6 +363,7 @@
       * [Communicating With Docker Service Containers](actions/tutorials/use-containerized-services/use-docker-service-containers.md)
     * [Use GITHUB TOKEN For Authentication In Workflows](actions/tutorials/authenticate-with-github_token.md)
     * [Creating An Example Workflow](actions/tutorials/create-an-example-workflow.md)
+    * [Develop Agentic Workflows In Git Hub Actions](actions/tutorials/develop-agentic-workflows-in-github-actions.md)
     * [Tutorials For Git Hub Actions](actions/tutorials/index.md)
     * [Migrating From Self Hosted Runners To Git Hub Hosted Runners](actions/tutorials/migrate-to-github-runners.md)
     * [Store And Share Data With Workflow Artifacts](actions/tutorials/store-and-share-data.md)
@@ -1135,7 +1136,7 @@
       * [Adding A Sales Tax Certificate](billing/how-tos/set-up-payment/add-sales-tax-certificate.md)
       * [Connecting An Azure Subscription](billing/how-tos/set-up-payment/connect-azure-sub.md)
       * [Setting Up And Managing Payment](billing/how-tos/set-up-payment/index.md)
-      * [One Time Payments For Customers In India](billing/how-tos/set-up-payment/india-one-time-payments.md)
+      * [Payments For Customers In India](billing/how-tos/set-up-payment/india-one-time-payments.md)
       * [Managing Invoices For Your Enterprise](billing/how-tos/set-up-payment/manage-enterprise-invoice.md)
       * [Managing Your Payment And Billing Information](billing/how-tos/set-up-payment/manage-payment-info.md)
       * [Redeeming A Coupon](billing/how-tos/set-up-payment/redeem-coupon.md)
@@ -2799,10 +2800,6 @@
   * [{% data variables.product.prodname_education %} documentation](education/index.md)
   * [Quickstart For Git Hub Educators](education/quickstart.md)
 - Enterprise Onboarding
-  - Getting Started With Your Enterprise
-    * [About Migrating To Git Hub Enterprise Cloud](enterprise-onboarding/getting-started-with-your-enterprise/about-migrating-to-github-enterprise-cloud.md)
-    * [Getting Started With Your Enterprise](enterprise-onboarding/getting-started-with-your-enterprise/index.md)
-    * [Setting Up A Trial Of Git Hub Enterprise](enterprise-onboarding/getting-started-with-your-enterprise/setting-up-a-trial-of-github-enterprise.md)
   - Govern People And Repositories
     * [Governing People And Repositories](enterprise-onboarding/govern-people-and-repositories/index.md)
     * [Protecting Branches In Your Enterprise With Rulesets](enterprise-onboarding/govern-people-and-repositories/protect-branches.md)
