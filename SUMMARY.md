@@ -1494,7 +1494,7 @@
         * [Configuring Automatic Dependency Submission For Your Repository](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/submit-dependencies-automatically.md)
         * [Using The Dependency Submission API](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/use-dependency-submission-api.md)
         * [Verifying The Integrity Of A Release](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/verify-release-integrity.md)
-      * [Index](code-security/how-tos/secure-your-supply-chain/index.md)
+      * [Securing Your Supply Chain](code-security/how-tos/secure-your-supply-chain/index.md)
     - Use Ghas With Ai Coding Agents
       * [Use Git Hub Advanced Security With AI Coding Agents](code-security/how-tos/use-ghas-with-ai-coding-agents/index.md)
       * [Scanning For Secrets With The Git Hub MCP Server](code-security/how-tos/use-ghas-with-ai-coding-agents/scan-for-secrets-with-github-mcp-server.md)
@@ -3634,6 +3634,7 @@
     - Managing Rulesets
       * [About Rulesets](repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets.md)
       * [Available Rules For Rulesets](repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets.md)
+      * [Converting Branch Protections To Rulesets](repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/converting-branch-protections-to-rulesets.md)
       * [Creating Rulesets For A Repository](repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/creating-rulesets-for-a-repository.md)
       * [Managing Rulesets For A Repository](repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/managing-rulesets-for-a-repository.md)
       * [Troubleshooting Rules](repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/troubleshooting-rules.md)
