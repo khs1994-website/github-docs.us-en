@@ -2800,9 +2800,6 @@
   * [{% data variables.product.prodname_education %} documentation](education/index.md)
   * [Quickstart For Git Hub Educators](education/quickstart.md)
 - Enterprise Onboarding
-  - Govern People And Repositories
-    * [Governing People And Repositories](enterprise-onboarding/govern-people-and-repositories/index.md)
-    * [Protecting Branches In Your Enterprise With Rulesets](enterprise-onboarding/govern-people-and-repositories/protect-branches.md)
   * [Enterprise Onboarding](enterprise-onboarding/index.md)
 - Get Started
   - Accessibility
