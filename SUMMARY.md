@@ -2039,6 +2039,7 @@
         * [Researching with {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/research.md)
         * [About The Rubber Duck Agent](copilot/concepts/agents/copilot-cli/rubber-duck.md)
         * [Loading Tools On Demand With Tool Search](copilot/concepts/agents/copilot-cli/tool-search.md)
+        * [Understanding filesystem policies for local sandboxing in {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/understanding-local-sandboxing.md)
       * [About Agent Skills](copilot/concepts/agents/about-agent-skills.md)
       * [About Enterprise Managed Plugin Standards](copilot/concepts/agents/about-enterprise-plugin-standards.md)
       * [About Git Hub Agentic Workflows](copilot/concepts/agents/about-github-agentic-workflows.md)
@@ -2619,6 +2620,7 @@
         * [Pilot A New Copilot Feature Or Model In Your Enterprise](copilot/tutorials/roll-out-at-scale/govern-at-scale/pilot-a-feature-or-model.md)
         * [Resources For Getting Approval Of Git Hub Copilot](copilot/tutorials/roll-out-at-scale/govern-at-scale/resources-for-approval.md)
       * [Rolling Out Git Hub Copilot At Scale](copilot/tutorials/roll-out-at-scale/index.md)
+      * [Measure And Demonstrate The Impact Of Git Hub Copilot](copilot/tutorials/roll-out-at-scale/measure-copilot-impact.md)
       * [Measuring The Success Of A Git Hub Copilot Trial](copilot/tutorials/roll-out-at-scale/measure-success.md)
     - Spark
       * [Building And Deploying AI Powered Apps With Git Hub Spark](copilot/tutorials/spark/build-apps-with-spark.md)
