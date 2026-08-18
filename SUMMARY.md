@@ -831,6 +831,7 @@
       * [Restoring From A Failed Upgrade](admin/upgrading-your-instance/troubleshooting-upgrades/restoring-from-a-failed-upgrade.md)
       * [Rotating The Signing Key For Upgrade Packages](admin/upgrading-your-instance/troubleshooting-upgrades/rotating-the-signing-key-for-upgrade-packages.md)
   * [Git Hub Enterprise Server Releases](admin/all-releases.md)
+  * [Enterprise Onboarding](admin/enterprise-onboarding.md)
   * [Enterprise Administrator Documentation](admin/index.md)
   * [Release Notes](admin/release-notes.md)
 - Apps
@@ -2239,6 +2240,13 @@
       * [Getting Started With Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-getting-started.md)
       * [{% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/index.md)
       * [Using Copilot CLI In Git Hub Actions With GITHUB TOKEN](copilot/how-tos/copilot-cli/use-copilot-cli-in-actions.md)
+    - Copilot Integrations
+      * [Git Hub Copilot Integrations](copilot/how-tos/copilot-integrations/index.md)
+      * [Integrating Copilot Cloud Agent With Azure Boards](copilot/how-tos/copilot-integrations/integrate-cloud-agent-with-azure-boards.md)
+      * [Integrating Copilot Cloud Agent With Jira](copilot/how-tos/copilot-integrations/integrate-cloud-agent-with-jira.md)
+      * [Integrating Copilot Cloud Agent With Linear](copilot/how-tos/copilot-integrations/integrate-cloud-agent-with-linear.md)
+      * [Integrating Copilot Cloud Agent With Slack](copilot/how-tos/copilot-integrations/integrate-cloud-agent-with-slack.md)
+      * [Integrating Copilot Cloud Agent With Teams](copilot/how-tos/copilot-integrations/integrate-cloud-agent-with-teams.md)
     - Copilot On Github
       - Chat With Copilot
         * [Asking Git Hub Copilot Questions In Git Hub](copilot/how-tos/copilot-on-github/chat-with-copilot/chat-in-github.md)
@@ -2275,7 +2283,7 @@
       - Set Up Copilot
         - Enable Copilot
           * [Enable {% data variables.product.prodname_copilot_short %}](copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/index.md)
-          * [Setting Up A Dedicated Enterprise For Git Hub Copilot Business](copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-a-dedicated-enterprise-for-copilot-business.md)
+          * [Setting Up An Enterprise For Git Hub Copilot Business Only](copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-a-dedicated-enterprise-for-copilot-business.md)
           * [Setting Up Git Hub Copilot For Your Enterprise](copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-enterprise.md)
           * [Setting Up Git Hub Copilot For Your Organization](copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-organization.md)
           * [Setting Up Git Hub Copilot For Yourself](copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-self.md)
@@ -2411,11 +2419,6 @@
         * [Creating Automations With Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/create-automations.md)
         * [Creating custom agents for {% data variables.copilot.copilot_cloud_agent %} in your IDE](copilot/how-tos/use-copilot-agents/cloud-agent/create-custom-agents-in-your-ide.md)
         * [Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/index.md)
-        * [Integrating Copilot Cloud Agent With Azure Boards](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-azure-boards.md)
-        * [Integrating Copilot Cloud Agent With Jira](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-jira.md)
-        * [Integrating Copilot Cloud Agent With Linear](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-linear.md)
-        * [Integrating Copilot Cloud Agent With Slack](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-slack.md)
-        * [Integrating Copilot Cloud Agent With Teams](copilot/how-tos/use-copilot-agents/cloud-agent/integrate-cloud-agent-with-teams.md)
         * [Managing Rationale Confidence And Approvals For Issues](copilot/how-tos/use-copilot-agents/cloud-agent/manage-rationale-confidence-approvals.md)
         * [Starting Git Hub Copilot Sessions](copilot/how-tos/use-copilot-agents/cloud-agent/start-copilot-sessions.md)
         * [Troubleshooting Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/troubleshoot-cloud-agent.md)
@@ -2801,8 +2804,6 @@
   * [Guides For Git Hub Education](education/guides.md)
   * [{% data variables.product.prodname_education %} documentation](education/index.md)
   * [Quickstart For Git Hub Educators](education/quickstart.md)
-- Enterprise Onboarding
-  * [Enterprise Onboarding](enterprise-onboarding/index.md)
 - Get Started
   - Accessibility
     * [Git Hub Command Palette](get-started/accessibility/github-command-palette.md)
