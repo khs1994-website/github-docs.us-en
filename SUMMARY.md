@@ -2056,10 +2056,10 @@
       * [About hooks for {% data variables.product.prodname_copilot %}](copilot/concepts/agents/hooks.md)
       * [Concepts For Git Hub Copilot Agents](copilot/concepts/agents/index.md)
       * [Open AI Codex](copilot/concepts/agents/openai-codex.md)
+      * [Open Telemetry For Agent Monitoring](copilot/concepts/agents/opentelemetry.md)
     - Billing
       * [Budgets For Usage Based Billing](copilot/concepts/billing/budgets-for-usage-based-billing.md)
       * [Git Hub Copilot Billing](copilot/concepts/billing/index.md)
-      * [About Individual Git Hub Copilot Plans And Benefits](copilot/concepts/billing/individual-plans.md)
       * [About Billing For Git Hub Copilot In Organizations And Enterprises](copilot/concepts/billing/organizations-and-enterprises.md)
       * [Usage Based Billing For Individuals](copilot/concepts/billing/usage-based-billing-for-individuals.md)
       * [Usage Based Billing For Organizations And Enterprises](copilot/concepts/billing/usage-based-billing-for-organizations-and-enterprises.md)
@@ -2309,7 +2309,9 @@
         * [Server To Server Authentication](copilot/how-tos/copilot-sdk/auth/server-to-server-tokens.md)
       - Features
         * [The Agent Loop](copilot/how-tos/copilot-sdk/features/agent-loop.md)
+        * [Citations](copilot/how-tos/copilot-sdk/features/citations.md)
         * [Cloud Sessions](copilot/how-tos/copilot-sdk/features/cloud-sessions.md)
+        * [Context Clearing And Terminal Tools](copilot/how-tos/copilot-sdk/features/context-management.md)
         * [Custom Agents And Sub Agent Orchestration](copilot/how-tos/copilot-sdk/features/custom-agents.md)
         * [Fleet Mode](copilot/how-tos/copilot-sdk/features/fleet-mode.md)
         * [Working With Hooks](copilot/how-tos/copilot-sdk/features/hooks.md)
@@ -2332,6 +2334,7 @@
         * [Pre Tool Use Hook](copilot/how-tos/copilot-sdk/hooks/pre-tool-use.md)
         * [Session Lifecycle Hooks](copilot/how-tos/copilot-sdk/hooks/session-lifecycle.md)
         * [User Prompt Submitted Hook](copilot/how-tos/copilot-sdk/hooks/user-prompt-submitted.md)
+        * [User Prompt Transformed Hook](copilot/how-tos/copilot-sdk/hooks/user-prompt-transformed.md)
       - Integrations
         * [Integrations](copilot/how-tos/copilot-sdk/integrations/index.md)
         * [Microsoft Agent Framework Integration](copilot/how-tos/copilot-sdk/integrations/microsoft-agent-framework.md)
