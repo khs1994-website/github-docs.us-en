@@ -2104,10 +2104,12 @@
     * [Usage Limits For Git Hub Copilot](copilot/concepts/usage-limits.md)
   - Get Started
     * [Best Practices For Using Git Hub Copilot](copilot/get-started/best-practices.md)
+    * [Getting Started With Git Hub Copilot CLI](copilot/get-started/cli-quickstart.md)
     * [Adopting Git Hub Copilot In Your Enterprise](copilot/get-started/enterprise-ai-governance.md)
     * [Git Hub Copilot Features](copilot/get-started/features.md)
     * [Get started with {% data variables.product.prodname_copilot %}](copilot/get-started/index.md)
     * [Plans For Git Hub Copilot](copilot/get-started/plans.md)
+    * [Getting Started With The Git Hub Copilot App](copilot/get-started/quickstart-copilot-app.md)
     * [Quickstart For Git Hub Copilot](copilot/get-started/quickstart.md)
     * [What Is Git Hub Copilot](copilot/get-started/what-is-github-copilot.md)
   - How Tos
@@ -2238,7 +2240,6 @@
         * [Use Voice Input With Copilot CLI](copilot/how-tos/copilot-cli/use-copilot-cli/voice-input.md)
       * [Administering Copilot CLI For Your Enterprise](copilot/how-tos/copilot-cli/administer-copilot-cli-for-your-enterprise.md)
       * [Best Practices For Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-best-practices.md)
-      * [Getting Started With Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-getting-started.md)
       * [{% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/index.md)
       * [Using Copilot CLI In Git Hub Actions With GITHUB TOKEN](copilot/how-tos/copilot-cli/use-copilot-cli-in-actions.md)
     - Copilot Integrations
@@ -2370,7 +2371,6 @@
     - Github Copilot App
       * [Working With Agent Sessions In The Git Hub Copilot App](copilot/how-tos/github-copilot-app/agent-sessions.md)
       * [Customizing The Git Hub Copilot App](copilot/how-tos/github-copilot-app/customize-github-copilot-app.md)
-      * [Getting Started With The Git Hub Copilot App](copilot/how-tos/github-copilot-app/getting-started.md)
       * [{% data variables.copilot.github_copilot_app %}](copilot/how-tos/github-copilot-app/index.md)
       * [Managing Issues And Pull Requests With The Git Hub Copilot App](copilot/how-tos/github-copilot-app/managing-issues-and-pull-requests.md)
       * [Using Deep Links To Open The Git Hub Copilot App](copilot/how-tos/github-copilot-app/open-with-deep-links.md)
