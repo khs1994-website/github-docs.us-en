@@ -522,6 +522,11 @@
       * [Enforcing Policy With Pre Receive Hooks](admin/enforcing-policies/enforcing-policy-with-pre-receive-hooks/index.md)
       * [Managing Pre Receive Hooks On Your Instance](admin/enforcing-policies/enforcing-policy-with-pre-receive-hooks/managing-pre-receive-hooks-on-your-instance.md)
     * [Setting Policies For Your Enterprise](admin/enforcing-policies/index.md)
+  - Github Copilot
+    - Copilot Cli
+      * [Git Hub Copilot CLI](admin/github-copilot/copilot-cli/index.md)
+      * [Set Up And Use Git Hub Copilot CLI](admin/github-copilot/copilot-cli/set-up-and-use-copilot-cli.md)
+    * [Git Hub Copilot](admin/github-copilot/index.md)
   - Installing Your Enterprise Server
     - Setting Up A Github Enterprise Server Instance
       * [Setting Up A Git Hub Enterprise Server Instance](admin/installing-your-enterprise-server/setting-up-a-github-enterprise-server-instance/index.md)
