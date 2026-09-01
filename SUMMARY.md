@@ -1082,7 +1082,6 @@
       * [Git Hub Copilot Billing](billing/concepts/product-billing/github-copilot-billing.md)
       * [Git Hub Copilot Licenses](billing/concepts/product-billing/github-copilot-licenses.md)
       * [Git Hub Packages Billing](billing/concepts/product-billing/github-packages.md)
-      * [Git Hub Spark Billing](billing/concepts/product-billing/github-spark.md)
       * [Product Billing](billing/concepts/product-billing/index.md)
     - Third Party Payments
       * [Git Hub Marketplace App Subscriptions](billing/concepts/third-party-payments/github-marketplace-apps.md)
@@ -2105,7 +2104,6 @@
     * [MCP Server Usage In Your Company](copilot/concepts/mcp-management.md)
     * [Network Settings For Git Hub Copilot](copilot/concepts/network-settings.md)
     * [Git Hub Copilot Policies For Enterprises And Organizations](copilot/concepts/policies.md)
-    * [About Git Hub Spark](copilot/concepts/spark.md)
     * [Usage Limits For Git Hub Copilot](copilot/concepts/usage-limits.md)
   - Get Started
     * [Best Practices For Using Git Hub Copilot](copilot/get-started/best-practices.md)
@@ -2145,7 +2143,6 @@
         * [Managing Git Hub Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/index.md)
         * [Managing Availability Of Models In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-availability-of-default-models.md)
         * [Managing Policies And Features For Git Hub Copilot In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-enterprise-policies.md)
-        * [Managing Git Hub Spark In Your Enterprise](copilot/how-tos/administer-copilot/manage-for-enterprise/manage-spark.md)
         * [Reviewing Audit Logs For Git Hub Copilot](copilot/how-tos/administer-copilot/manage-for-enterprise/review-audit-logs.md)
       - Manage For Organization
         - Manage Access
@@ -2415,7 +2412,6 @@
       * [Troubleshooting Slow Responses From Git Hub Copilot](copilot/how-tos/troubleshoot-copilot/troubleshoot-copilot-slowness.md)
       * [Troubleshooting Firewall Settings For Git Hub Copilot](copilot/how-tos/troubleshoot-copilot/troubleshoot-firewall-settings.md)
       * [Troubleshooting Network Errors For Git Hub Copilot](copilot/how-tos/troubleshoot-copilot/troubleshoot-network-errors.md)
-      * [Troubleshooting Common Issues With Git Hub Spark](copilot/how-tos/troubleshoot-copilot/troubleshoot-spark.md)
       * [Viewing Logs For Git Hub Copilot In Your Environment](copilot/how-tos/troubleshoot-copilot/view-logs.md)
     - Use Ai Models
       * [Changing The AI Model For Git Hub Copilot Chat](copilot/how-tos/use-ai-models/change-the-chat-model.md)
@@ -2634,12 +2630,6 @@
       * [Rolling Out Git Hub Copilot At Scale](copilot/tutorials/roll-out-at-scale/index.md)
       * [Measure And Demonstrate The Impact Of Git Hub Copilot](copilot/tutorials/roll-out-at-scale/measure-copilot-impact.md)
       * [Measuring The Success Of A Git Hub Copilot Trial](copilot/tutorials/roll-out-at-scale/measure-success.md)
-    - Spark
-      * [Building And Deploying AI Powered Apps With Git Hub Spark](copilot/tutorials/spark/build-apps-with-spark.md)
-      * [Deploy Your Spark App From The Command Line](copilot/tutorials/spark/deploy-from-cli.md)
-      * [Building Apps With Git Hub Spark](copilot/tutorials/spark/index.md)
-      * [Write Effective Prompts And Provide Useful Context For Spark](copilot/tutorials/spark/prompt-tips.md)
-      * [Your First Spark](copilot/tutorials/spark/your-first-spark.md)
     * [Comparing AI Models Using Different Tasks](copilot/tutorials/compare-ai-models.md)
     * [Using Hooks With Copilot CLI For Predictable Policy Compliant Execution](copilot/tutorials/copilot-cli-hooks.md)
     * [Creating extensions for {% data variables.copilot.copilot_cli %}](copilot/tutorials/create-an-extension.md)
