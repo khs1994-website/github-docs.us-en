@@ -2294,7 +2294,7 @@
           * [Access Git Hub Copilot For Free As A Student](copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-students.md)
           * [Access Copilot Pro For Free As A Teacher Or Open Source Maintainer](copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-teachers-and-os-maintainers.md)
         * [Configuring Access To AI Models In Git Hub Copilot](copilot/how-tos/copilot-on-github/set-up-copilot/configure-access-to-ai-models.md)
-        * [Configuring Automatic Code Review By Git Hub Copilot](copilot/how-tos/copilot-on-github/set-up-copilot/configure-automatic-review.md)
+        * [Configuring Code Review By Git Hub Copilot](copilot/how-tos/copilot-on-github/set-up-copilot/configure-code-review.md)
         * [Configuring Runners For Git Hub Copilot Code Review](copilot/how-tos/copilot-on-github/set-up-copilot/configure-runners.md)
         * [Set up {% data variables.product.prodname_copilot_short %}](copilot/how-tos/copilot-on-github/set-up-copilot/index.md)
       - Use Copilot Agents
@@ -2944,6 +2944,7 @@
 - Github Cli
   - Github Cli
     * [About Git Hub CLI](github-cli/github-cli/about-github-cli.md)
+    * [Attaching Files With Git Hub CLI](github-cli/github-cli/attaching-files-with-github-cli.md)
     * [Creating Git Hub CLI Extensions](github-cli/github-cli/creating-github-cli-extensions.md)
     * [Git Hub CLI Reference](github-cli/github-cli/github-cli-reference.md)
     * [Git Hub CLI Telemetry](github-cli/github-cli/github-cli-telemetry.md)
