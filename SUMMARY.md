@@ -2063,11 +2063,13 @@
       * [Open AI Codex](copilot/concepts/agents/openai-codex.md)
       * [Open Telemetry For Agent Monitoring](copilot/concepts/agents/opentelemetry.md)
     - Billing
+      - Organizations And Enterprises
+        * [About Billing For Git Hub Copilot In Organizations And Enterprises](copilot/concepts/billing/organizations-and-enterprises/fundamentals.md)
+        * [Git Hub Copilot Billing For Organizations And Enterprises](copilot/concepts/billing/organizations-and-enterprises/index.md)
+        * [Usage Based Billing For Organizations And Enterprises](copilot/concepts/billing/organizations-and-enterprises/usage-based-billing.md)
       * [Budgets For Usage Based Billing](copilot/concepts/billing/budgets-for-usage-based-billing.md)
       * [Git Hub Copilot Billing](copilot/concepts/billing/index.md)
-      * [About Billing For Git Hub Copilot In Organizations And Enterprises](copilot/concepts/billing/organizations-and-enterprises.md)
       * [Usage Based Billing For Individuals](copilot/concepts/billing/usage-based-billing-for-individuals.md)
-      * [Usage Based Billing For Organizations And Enterprises](copilot/concepts/billing/usage-based-billing-for-organizations-and-enterprises.md)
     - Completions
       * [Git Hub Copilot Code Referencing](copilot/concepts/completions/code-referencing.md)
       * [Git Hub Copilot Code Suggestions In Your IDE](copilot/concepts/completions/code-suggestions.md)
@@ -2154,6 +2156,7 @@
         - Manage Plan
           * [Canceling Git Hub Copilot For Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-plan/cancel.md)
           * [Managing The Git Hub Copilot Plan For Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-plan/index.md)
+          * [Subscribing To Git Hub Copilot For Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-plan/subscribe.md)
         - Review Activity
           * [Reviewing Activity Related To Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/review-activity/index.md)
           * [Reviewing User Activity Data For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/review-activity/review-user-activity-data.md)
@@ -2240,6 +2243,7 @@
         * [Steering agents in {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli/steer-agents.md)
         * [Steering a {% data variables.copilot.copilot_cli %} session from another device](copilot/how-tos/copilot-cli/use-copilot-cli/steer-remotely.md)
         * [Use Voice Input With Copilot CLI](copilot/how-tos/copilot-cli/use-copilot-cli/voice-input.md)
+        * [Working with multiple {% data variables.copilot.copilot_cli %} sessions](copilot/how-tos/copilot-cli/use-copilot-cli/work-with-multiple-sessions.md)
       * [Administering Copilot CLI For Your Enterprise](copilot/how-tos/copilot-cli/administer-copilot-cli-for-your-enterprise.md)
       * [Best Practices For Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-best-practices.md)
       * [{% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/index.md)
