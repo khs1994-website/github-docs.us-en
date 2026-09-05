@@ -819,6 +819,7 @@
     * [System Overview](admin/overview/system-overview.md)
   - Upgrading Your Instance
     - Performing An Upgrade
+      * [Automating An Upgrade](admin/upgrading-your-instance/performing-an-upgrade/automating-an-upgrade.md)
       * [Performing An Upgrade](admin/upgrading-your-instance/performing-an-upgrade/index.md)
       * [Migrating from GitHub Enterprise 11.10.x to 2.1.23](admin/upgrading-your-instance/performing-an-upgrade/migrating-from-github-enterprise-1110x-to-2123.md)
       * [Upgrading With A Hotpatch](admin/upgrading-your-instance/performing-an-upgrade/upgrading-with-a-hotpatch.md)
