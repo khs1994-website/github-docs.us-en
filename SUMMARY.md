@@ -2237,6 +2237,7 @@
       - Use Copilot Cli
         * [Requesting a code review with {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli/agentic-code-review.md)
         * [Allowing And Denying Tool Use](copilot/how-tos/copilot-cli/use-copilot-cli/allowing-tools.md)
+        * [Asking a side question in {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli/ask-a-side-question.md)
         * [Browsing issues, pull requests, and gists from {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli/browse-issues-prs-gists.md)
         * [Using {% data variables.copilot.copilot_cli %} session data](copilot/how-tos/copilot-cli/use-copilot-cli/chronicle.md)
         * [Connecting {% data variables.copilot.copilot_cli %} to {% data variables.product.prodname_vscode_shortname %}](copilot/how-tos/copilot-cli/use-copilot-cli/connecting-vs-code.md)
