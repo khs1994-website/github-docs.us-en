@@ -1453,6 +1453,7 @@
         * [Managing Requests To Bypass Push Protection](code-security/how-tos/secure-your-secrets/manage-bypass-requests/manage-bypass-requests.md)
         * [Reviewing Requests To Bypass Push Protection](code-security/how-tos/secure-your-secrets/manage-bypass-requests/review-bypass-requests.md)
       - Prevent Future Leaks
+        * [Blocking Pull Request Merges That Contain Secrets](code-security/how-tos/secure-your-secrets/prevent-future-leaks/block-merges-with-secrets.md)
         * [Enabling Push Protection For Your Repository](code-security/how-tos/secure-your-secrets/prevent-future-leaks/enable-push-protection.md)
         * [How Tos For Leak Prevention](code-security/how-tos/secure-your-secrets/prevent-future-leaks/index.md)
         * [Managing Push Protection For Users](code-security/how-tos/secure-your-secrets/prevent-future-leaks/manage-user-push-protection.md)
@@ -2119,6 +2120,7 @@
     * [Plans For Git Hub Copilot](copilot/get-started/plans.md)
     * [Getting Started With The Git Hub Copilot App](copilot/get-started/quickstart-copilot-app.md)
     * [Quickstart For Git Hub Copilot](copilot/get-started/quickstart.md)
+    * [Build Your First Copilot Powered App](copilot/get-started/sdk-quickstart.md)
     * [What Is Git Hub Copilot](copilot/get-started/what-is-github-copilot.md)
   - How Tos
     - Administer Copilot
@@ -2373,7 +2375,6 @@
         * [Debugging Guide](copilot/how-tos/copilot-sdk/troubleshooting/debugging.md)
         * [Troubleshooting](copilot/how-tos/copilot-sdk/troubleshooting/index.md)
         * [MCP Server Debugging Guide](copilot/how-tos/copilot-sdk/troubleshooting/mcp-debugging.md)
-      * [Build Your First Copilot Powered App](copilot/how-tos/copilot-sdk/getting-started.md)
       * [Copilot SDK](copilot/how-tos/copilot-sdk/index.md)
     - Get Code Suggestions
       * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/how-tos/get-code-suggestions/find-matching-code.md)
