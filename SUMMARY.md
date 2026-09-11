@@ -3842,6 +3842,7 @@
   - Code Quality
     * [REST API Endpoints For Code Quality](rest/code-quality/index.md)
   - Code Scanning
+    * [REST API Endpoints For AI Scan](rest/code-scanning/ai-scan.md)
     * [REST API endpoints for {% data variables.product.prodname_code_scanning %} alert dismissal requests](rest/code-scanning/alert-dismissal-requests.md)
     * [REST API Endpoints For Code Scanning](rest/code-scanning/index.md)
   - Code Security
