@@ -986,6 +986,7 @@
     * [Authorizing A Personal Access Token For Use With Single Sign On](authentication/authenticating-with-single-sign-on/authorizing-a-personal-access-token-for-use-with-single-sign-on.md)
     * [Authorizing An App For Single Sign On](authentication/authenticating-with-single-sign-on/authorizing-an-app-for-single-sign-on.md)
     * [Authorizing An SSH Key For Use With Single Sign On](authentication/authenticating-with-single-sign-on/authorizing-an-ssh-key-for-use-with-single-sign-on.md)
+    * [Authorizing Credentials For Single Sign On With A Git Hub App](authentication/authenticating-with-single-sign-on/authorizing-credentials-for-single-sign-on-with-a-github-app.md)
     * [Authenticating With Single Sign On](authentication/authenticating-with-single-sign-on/index.md)
     * [Viewing And Managing Your Active SSO Sessions](authentication/authenticating-with-single-sign-on/viewing-and-managing-your-active-sso-sessions.md)
   - Connecting To Github With Ssh
@@ -1240,6 +1241,7 @@
       * [Supply Chain Security For Your Enterprise](code-security/concepts/security-at-scale/supply-chain-security.md)
     - Supply Chain Security
       * [About the dependabot.yml file](code-security/concepts/supply-chain-security/about-the-dependabot-yml-file.md)
+      * [Automatic Dependabot access to {% data variables.product.github %}-hosted registries](code-security/concepts/supply-chain-security/automatic-dependabot-access-to-github-registries.md)
       * [Best Practices For Maintaining Dependencies](code-security/concepts/supply-chain-security/best-practices-for-maintaining-dependencies.md)
       * [Metrics For Dependabot Alerts](code-security/concepts/supply-chain-security/dependabot-alert-metrics.md)
       * [Dependabot Alerts](code-security/concepts/supply-chain-security/dependabot-alerts.md)
@@ -2060,14 +2062,19 @@
       * [About hooks for {% data variables.product.prodname_copilot %}](copilot/concepts/agents/hooks.md)
       * [Concepts For Git Hub Copilot Agents](copilot/concepts/agents/index.md)
       * [Open AI Codex](copilot/concepts/agents/openai-codex.md)
-    - Billing
+    - Billing And Usage
+      - Copilot Usage Metrics
+        * [Git Hub Copilot Usage Metrics](copilot/concepts/billing-and-usage/copilot-usage-metrics/index.md)
+      - Individuals
+        * [Usage Based Billing For Individuals](copilot/concepts/billing-and-usage/individuals/billing.md)
+        * [Billing And Usage For Individuals](copilot/concepts/billing-and-usage/individuals/index.md)
+        * [Usage Limits For Git Hub Copilot](copilot/concepts/billing-and-usage/individuals/usage-limits.md)
       - Organizations And Enterprises
-        * [About Billing For Git Hub Copilot In Organizations And Enterprises](copilot/concepts/billing/organizations-and-enterprises/fundamentals.md)
-        * [Git Hub Copilot Billing For Organizations And Enterprises](copilot/concepts/billing/organizations-and-enterprises/index.md)
-        * [Usage Based Billing For Organizations And Enterprises](copilot/concepts/billing/organizations-and-enterprises/usage-based-billing.md)
-      * [Budgets For Usage Based Billing](copilot/concepts/billing/budgets-for-usage-based-billing.md)
-      * [Git Hub Copilot Billing](copilot/concepts/billing/index.md)
-      * [Usage Based Billing For Individuals](copilot/concepts/billing/usage-based-billing-for-individuals.md)
+        * [Usage Based Billing For Organizations And Enterprises](copilot/concepts/billing-and-usage/organizations-and-enterprises/billing.md)
+        * [Budgets For Usage Based Billing](copilot/concepts/billing-and-usage/organizations-and-enterprises/budgets.md)
+        * [Billing And Usage For Organizations And Enterprises](copilot/concepts/billing-and-usage/organizations-and-enterprises/index.md)
+        * [Git Hub Copilot Seats And Billing Cycles For Organizations And Enterprises](copilot/concepts/billing-and-usage/organizations-and-enterprises/seats-and-billing-cycles.md)
+      * [Git Hub Copilot Billing And Usage](copilot/concepts/billing-and-usage/index.md)
     - Completions
       * [Git Hub Copilot Code Referencing](copilot/concepts/completions/code-referencing.md)
       * [Git Hub Copilot Code Suggestions In Your IDE](copilot/concepts/completions/code-suggestions.md)
@@ -2078,8 +2085,6 @@
       * [About Model Context Protocol MCP](copilot/concepts/context/mcp.md)
       * [Indexing Repositories For Git Hub Copilot](copilot/concepts/context/repository-indexing.md)
       * [About Git Hub Copilot Spaces](copilot/concepts/context/spaces.md)
-    - Copilot Usage Metrics
-      * [Git Hub Copilot Usage Metrics](copilot/concepts/copilot-usage-metrics/index.md)
     - Enterprise
       * [About Enterprise Accounts For Copilot Business](copilot/concepts/enterprise/about-enterprise-accounts-for-copilot-business.md)
       * [Agent Management For Enterprises](copilot/concepts/enterprise/agent-management.md)
@@ -2097,6 +2102,7 @@
       * [Bring Your Own Key For Git Hub Copilot](copilot/concepts/models/bring-your-own-key.md)
       * [Base And Long Term Support LTS Models](copilot/concepts/models/fallback-and-lts-models.md)
       * [Models For Git Hub Copilot](copilot/concepts/models/index.md)
+      * [Models In Git Hub Copilot](copilot/concepts/models/overview.md)
       * [Utility Models](copilot/concepts/models/utility-models.md)
     - Prompting
       * [Concepts For Prompting Git Hub Copilot](copilot/concepts/prompting/index.md)
@@ -2110,7 +2116,6 @@
     * [About Git Hub Copilot Chat](copilot/concepts/chat.md)
     * [Concepts For Git Hub Copilot](copilot/concepts/index.md)
     * [Network Settings For Git Hub Copilot](copilot/concepts/network-settings.md)
-    * [Usage Limits For Git Hub Copilot](copilot/concepts/usage-limits.md)
   - Get Started
     * [Best Practices For Using Git Hub Copilot](copilot/get-started/best-practices.md)
     * [Getting Started With Git Hub Copilot CLI](copilot/get-started/cli-quickstart.md)
@@ -3842,7 +3847,6 @@
   - Code Quality
     * [REST API Endpoints For Code Quality](rest/code-quality/index.md)
   - Code Scanning
-    * [REST API Endpoints For AI Scan](rest/code-scanning/ai-scan.md)
     * [REST API endpoints for {% data variables.product.prodname_code_scanning %} alert dismissal requests](rest/code-scanning/alert-dismissal-requests.md)
     * [REST API Endpoints For Code Scanning](rest/code-scanning/index.md)
   - Code Security
