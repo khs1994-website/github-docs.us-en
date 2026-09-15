@@ -986,7 +986,6 @@
     * [Authorizing A Personal Access Token For Use With Single Sign On](authentication/authenticating-with-single-sign-on/authorizing-a-personal-access-token-for-use-with-single-sign-on.md)
     * [Authorizing An App For Single Sign On](authentication/authenticating-with-single-sign-on/authorizing-an-app-for-single-sign-on.md)
     * [Authorizing An SSH Key For Use With Single Sign On](authentication/authenticating-with-single-sign-on/authorizing-an-ssh-key-for-use-with-single-sign-on.md)
-    * [Authorizing Credentials For Single Sign On With A Git Hub App](authentication/authenticating-with-single-sign-on/authorizing-credentials-for-single-sign-on-with-a-github-app.md)
     * [Authenticating With Single Sign On](authentication/authenticating-with-single-sign-on/index.md)
     * [Viewing And Managing Your Active SSO Sessions](authentication/authenticating-with-single-sign-on/viewing-and-managing-your-active-sso-sessions.md)
   - Connecting To Github With Ssh
