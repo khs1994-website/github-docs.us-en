@@ -2116,16 +2116,17 @@
     * [Concepts For Git Hub Copilot](copilot/concepts/index.md)
     * [Network Settings For Git Hub Copilot](copilot/concepts/network-settings.md)
   - Get Started
+    * [About Git Hub Copilot](copilot/get-started/about-github-copilot.md)
     * [Best Practices For Using Git Hub Copilot](copilot/get-started/best-practices.md)
     * [Getting Started With Git Hub Copilot CLI](copilot/get-started/cli-quickstart.md)
     * [Adopting Git Hub Copilot In Your Enterprise](copilot/get-started/enterprise-ai-governance.md)
-    * [Git Hub Copilot Features](copilot/get-started/features.md)
     * [Get started with {% data variables.product.prodname_copilot %}](copilot/get-started/index.md)
     * [Plans For Git Hub Copilot](copilot/get-started/plans.md)
     * [Getting Started With The Git Hub Copilot App](copilot/get-started/quickstart-copilot-app.md)
-    * [Quickstart For Git Hub Copilot](copilot/get-started/quickstart.md)
+    * [Quickstart For Using Git Hub Copilot In Your IDE](copilot/get-started/quickstart-for-using-github-copilot-in-your-ide.md)
+    * [Quickstart for using GitHub Copilot on GitHub.com](copilot/get-started/quickstart-for-using-github-copilot-on-github-com.md)
     * [Build Your First Copilot Powered App](copilot/get-started/sdk-quickstart.md)
-    * [What Is Git Hub Copilot](copilot/get-started/what-is-github-copilot.md)
+    * [Where To Use Git Hub Copilot](copilot/get-started/where-to-use-github-copilot.md)
   - How Tos
     - Administer Copilot
       - Manage For Enterprise
@@ -2188,6 +2189,7 @@
         * [Restrict MCP Server Access To A Custom Registry](copilot/how-tos/administer-copilot/manage-mcp-usage/restrict-based-on-registry.md)
       * [Downloading A Git Hub Copilot Activity Report For Your Organization Or Enterprise](copilot/how-tos/administer-copilot/download-activity-report.md)
       * [Administer Git Hub Copilot For Your Team](copilot/how-tos/administer-copilot/index.md)
+      * [Managing Requests For Additional Copilot Budget](copilot/how-tos/administer-copilot/manage-budget-requests.md)
       * [Viewing The Code Generation Dashboard](copilot/how-tos/administer-copilot/view-code-generation.md)
       * [Viewing The Copilot Impact Dashboard](copilot/how-tos/administer-copilot/view-impact-dashboard.md)
       * [Viewing The Copilot Usage Metrics Dashboard](copilot/how-tos/administer-copilot/view-usage-and-adoption.md)
@@ -3354,7 +3356,7 @@
     * [Archiving An Organization](organizations/managing-organization-settings/archiving-an-organization.md)
     * [Changing The Visibility Of Your Organization S Dependency Insights](organizations/managing-organization-settings/changing-the-visibility-of-your-organizations-dependency-insights.md)
     * [Configuring Private Networking For Git Hub Hosted Runners In Your Organization](organizations/managing-organization-settings/configuring-private-networking-for-github-hosted-runners-in-your-organization.md)
-    * [Configuring The Retention Period For Git Hub Actions Artifacts And Logs In Your Organization](organizations/managing-organization-settings/configuring-the-retention-period-for-github-actions-artifacts-and-logs-in-your-organization.md)
+    * [Configuring The Retention Period For Checks Workflow Runs Commit Statuses Artifacts And Logs In Your Organization](organizations/managing-organization-settings/configuring-the-retention-period-for-github-actions-artifacts-and-logs-in-your-organization.md)
     * [Converting An Organization Into A User](organizations/managing-organization-settings/converting-an-organization-into-a-user.md)
     * [Creating An Announcement Banner For Your Organization](organizations/managing-organization-settings/creating-an-announcement-banner-for-your-organization.md)
     * [Creating Rulesets For Repositories In Your Organization](organizations/managing-organization-settings/creating-rulesets-for-repositories-in-your-organization.md)
