@@ -392,6 +392,7 @@
     * [Backup In Clustering Mode](admin/backing-up-and-restoring-your-instance/backup-in-clustering-mode.md)
     * [Backup Service Settings Reference](admin/backing-up-and-restoring-your-instance/backup-service-settings-reference.md)
     * [Configuring Backups On Your Instance With Backup Utilities](admin/backing-up-and-restoring-your-instance/configuring-backups-on-your-instance.md)
+    * [Configuring Elasticsearch Snapshots](admin/backing-up-and-restoring-your-instance/configuring-elasticsearch-snapshots.md)
     * [Configuring Remote Archives For Backups](admin/backing-up-and-restoring-your-instance/configuring-remote-archives-for-backups.md)
     * [Configuring The Backup Service](admin/backing-up-and-restoring-your-instance/configuring-the-backup-service.md)
     * [Creating And Monitoring Backups](admin/backing-up-and-restoring-your-instance/creating-and-monitoring-backups.md)
@@ -986,6 +987,7 @@
     * [Authorizing A Personal Access Token For Use With Single Sign On](authentication/authenticating-with-single-sign-on/authorizing-a-personal-access-token-for-use-with-single-sign-on.md)
     * [Authorizing An App For Single Sign On](authentication/authenticating-with-single-sign-on/authorizing-an-app-for-single-sign-on.md)
     * [Authorizing An SSH Key For Use With Single Sign On](authentication/authenticating-with-single-sign-on/authorizing-an-ssh-key-for-use-with-single-sign-on.md)
+    * [Authorizing Credentials For Single Sign On With A Git Hub App](authentication/authenticating-with-single-sign-on/authorizing-credentials-for-single-sign-on-with-a-github-app.md)
     * [Authenticating With Single Sign On](authentication/authenticating-with-single-sign-on/index.md)
     * [Viewing And Managing Your Active SSO Sessions](authentication/authenticating-with-single-sign-on/viewing-and-managing-your-active-sso-sessions.md)
   - Connecting To Github With Ssh
@@ -1196,7 +1198,7 @@
         * [Concepts For Code QL](code-security/concepts/code-scanning/codeql/index.md)
         * [Code QL Query Packs](code-security/concepts/code-scanning/codeql/query-packs.md)
         * [Query Reference Files](code-security/concepts/code-scanning/codeql/query-reference-files.md)
-      * [AI Powered Security Detections In Pull Requests](code-security/concepts/code-scanning/ai-powered-security-detections.md)
+      * [AI Scan For Pull Requests](code-security/concepts/code-scanning/ai-powered-security-detections.md)
       * [Code Scanning Alert Tracking Using Issues](code-security/concepts/code-scanning/alert-tracking-with-issues.md)
       * [About Autofix For Code Scanning](code-security/concepts/code-scanning/autofix-for-code-scanning.md)
       * [Code Scanning Alerts](code-security/concepts/code-scanning/code-scanning-alerts.md)
@@ -3932,6 +3934,7 @@
     * [REST API Endpoints For Rules](rest/enterprise-admin/rules.md)
     * [REST API Endpoints For SCIM](rest/enterprise-admin/scim.md)
     * [REST API Endpoints For Security Advisories](rest/enterprise-admin/security-advisories.md)
+    * [REST API Endpoints For Enterprise Credential Inventory](rest/enterprise-admin/token-inventory.md)
     * [REST API Endpoints For Enterprise Users](rest/enterprise-admin/users.md)
   - Enterprise Teams
     * [REST API Endpoints For Enterprise Team Memberships](rest/enterprise-teams/enterprise-team-members.md)
