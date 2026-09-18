@@ -115,6 +115,7 @@
       * [Variables](actions/concepts/workflows-and-actions/variables.md)
       * [Workflow Artifacts](actions/concepts/workflows-and-actions/workflow-artifacts.md)
       * [Workflows](actions/concepts/workflows-and-actions/workflows.md)
+    * [About Actions Policies](actions/concepts/about-actions-policies.md)
     * [Billing And Usage](actions/concepts/billing-and-usage.md)
     * [Concepts For Git Hub Actions](actions/concepts/index.md)
     * [About Git Hub Actions Metrics](actions/concepts/metrics.md)
@@ -127,6 +128,7 @@
     * [Understanding Git Hub Actions](actions/get-started/understand-github-actions.md)
   - How Tos
     - Administer
+      * [Controlling who can execute {% data variables.product.prodname_actions %} workflows](actions/how-tos/administer/control-workflow-execution.md)
       * [Administering Git Hub Actions](actions/how-tos/administer/index.md)
       * [Making retired namespaces available on GHE.com](actions/how-tos/administer/reuse-namespaces-on-ghecom.md)
       * [Viewing Git Hub Actions Metrics](actions/how-tos/administer/view-metrics.md)
@@ -498,10 +500,6 @@
     * [Resolving issues with your enterprise on GHE.com](admin/data-residency/resolving-issues-with-your-enterprise-on-ghecom.md)
   - Enforcing Policies
     - Enforcing Policies For Your Enterprise
-      - Actions Policies
-        * [About Actions Policies](admin/enforcing-policies/enforcing-policies-for-your-enterprise/actions-policies/about-actions-policies.md)
-        * [Actions Policies](admin/enforcing-policies/enforcing-policies-for-your-enterprise/actions-policies/index.md)
-        * [Workflow Execution Protections](admin/enforcing-policies/enforcing-policies-for-your-enterprise/actions-policies/workflow-execution-protections.md)
       * [Controlling User Offboarding With The Unaffiliated Users Policy](admin/enforcing-policies/enforcing-policies-for-your-enterprise/control-offboarding.md)
       * [Enforcing Code Governance In Your Enterprise With Rulesets](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-code-governance.md)
       * [Enforcing Policies For Code Security And Analysis For Your Enterprise](admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-code-security-and-analysis-for-your-enterprise.md)
@@ -2639,6 +2637,7 @@
         * [Driving The Downstream Impact Of Git Hub Copilot](copilot/tutorials/roll-out-at-scale/drive-downstream-impact/index.md)
         * [Reducing Security Debt In Your Company With Git Hub Copilot](copilot/tutorials/roll-out-at-scale/drive-downstream-impact/reduce-security-debt.md)
       - Enable Developers
+        * [Rolling Out The Git Hub Copilot App To Your Team](copilot/tutorials/roll-out-at-scale/enable-developers/copilot-app-for-teams.md)
         * [Driving Git Hub Copilot Adoption In Your Company](copilot/tutorials/roll-out-at-scale/enable-developers/drive-adoption.md)
         * [Enabling Developers To Use Git Hub Copilot](copilot/tutorials/roll-out-at-scale/enable-developers/index.md)
         * [Integrating Agentic AI Into Your Enterprise S Software Development Lifecycle](copilot/tutorials/roll-out-at-scale/enable-developers/integrate-ai-agents.md)
@@ -3346,10 +3345,6 @@
     * [Enabling O Auth App Access Restrictions For Your Organization](organizations/managing-oauth-access-to-your-organizations-data/enabling-oauth-app-access-restrictions-for-your-organization.md)
     * [Managing O Auth Access To Your Organization S Data](organizations/managing-oauth-access-to-your-organizations-data/index.md)
   - Managing Organization Settings
-    - Actions Policies
-      * [About Actions Policies](organizations/managing-organization-settings/actions-policies/about-actions-policies.md)
-      * [Actions Policies](organizations/managing-organization-settings/actions-policies/index.md)
-      * [Workflow Execution Protections](organizations/managing-organization-settings/actions-policies/workflow-execution-protections.md)
     * [About Azure Private Networking For Git Hub Hosted Runners In Your Organization](organizations/managing-organization-settings/about-azure-private-networking-for-github-hosted-runners-in-your-organization.md)
     * [About Networking For Hosted Compute Products In Your Organization](organizations/managing-organization-settings/about-networking-for-hosted-compute-products-in-your-organization.md)
     * [Allowing People To Delete Issues In Your Organization](organizations/managing-organization-settings/allowing-people-to-delete-issues-in-your-organization.md)
@@ -3681,10 +3676,6 @@
     * [Troubleshooting Cloning Errors](repositories/creating-and-managing-repositories/troubleshooting-cloning-errors.md)
     * [Viewing All Repositories](repositories/creating-and-managing-repositories/viewing-all-your-repositories.md)
   - Managing Your Repositorys Settings And Features
-    - Actions Policies
-      * [About Actions Policies](repositories/managing-your-repositorys-settings-and-features/actions-policies/about-actions-policies.md)
-      * [Actions Policies](repositories/managing-your-repositorys-settings-and-features/actions-policies/index.md)
-      * [Workflow Execution Protections](repositories/managing-your-repositorys-settings-and-features/actions-policies/workflow-execution-protections.md)
     - Customizing Your Repository
       * [About CITATION Files](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files.md)
       * [About Code Owners](repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners.md)
@@ -3790,6 +3781,7 @@
     * [REST API Endpoints For Git Hub Actions](rest/actions/index.md)
     * [REST API Endpoints For Git Hub Actions OIDC](rest/actions/oidc.md)
     * [REST API Endpoints For Git Hub Actions Permissions](rest/actions/permissions.md)
+    * [REST API Endpoints For Git Hub Actions Policies](rest/actions/policies.md)
     * [REST API Endpoints For Git Hub Actions Secrets](rest/actions/secrets.md)
     * [REST API Endpoints For Self Hosted Runner Groups](rest/actions/self-hosted-runner-groups.md)
     * [REST API Endpoints For Self Hosted Runners](rest/actions/self-hosted-runners.md)
