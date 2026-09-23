@@ -521,11 +521,6 @@
       * [Enforcing Policy With Pre Receive Hooks](admin/enforcing-policies/enforcing-policy-with-pre-receive-hooks/index.md)
       * [Managing Pre Receive Hooks On Your Instance](admin/enforcing-policies/enforcing-policy-with-pre-receive-hooks/managing-pre-receive-hooks-on-your-instance.md)
     * [Setting Policies For Your Enterprise](admin/enforcing-policies/index.md)
-  - Github Copilot
-    - Copilot Cli
-      * [Git Hub Copilot CLI](admin/github-copilot/copilot-cli/index.md)
-      * [Set Up And Use Git Hub Copilot CLI](admin/github-copilot/copilot-cli/set-up-and-use-copilot-cli.md)
-    * [Git Hub Copilot](admin/github-copilot/index.md)
   - Installing Your Enterprise Server
     - Setting Up A Github Enterprise Server Instance
       * [Setting Up A Git Hub Enterprise Server Instance](admin/installing-your-enterprise-server/setting-up-a-github-enterprise-server-instance/index.md)
@@ -2116,6 +2111,10 @@
     * [About Git Hub Copilot Chat](copilot/concepts/chat.md)
     * [Concepts For Git Hub Copilot](copilot/concepts/index.md)
     * [Network Settings For Git Hub Copilot](copilot/concepts/network-settings.md)
+  - Copilot On Ghes
+    * [About Git Hub Copilot On Git Hub Enterprise Server](copilot/copilot-on-ghes/about-copilot-on-ghes.md)
+    * [{% data variables.product.prodname_copilot %} on GitHub Enterprise Server](copilot/copilot-on-ghes/index.md)
+    * [Set Up Git Hub Copilot CLI For Git Hub Enterprise Server](copilot/copilot-on-ghes/set-up-copilot-cli.md)
   - Get Started
     * [About Git Hub Copilot](copilot/get-started/about-github-copilot.md)
     * [Best Practices For Using Git Hub Copilot](copilot/get-started/best-practices.md)
@@ -2393,6 +2392,7 @@
       * [Your First Agentic Workflow](copilot/how-tos/github-agentic-workflows/quickstart.md)
     - Github Copilot App
       * [Working With Agent Sessions In The Git Hub Copilot App](copilot/how-tos/github-copilot-app/agent-sessions.md)
+      * [Configuring Local Sandboxing In The Git Hub Copilot App](copilot/how-tos/github-copilot-app/configure-local-sandboxing.md)
       * [Customizing The Git Hub Copilot App](copilot/how-tos/github-copilot-app/customize-github-copilot-app.md)
       * [{% data variables.copilot.github_copilot_app %}](copilot/how-tos/github-copilot-app/index.md)
       * [Managing Issues And Pull Requests With The Git Hub Copilot App](copilot/how-tos/github-copilot-app/managing-issues-and-pull-requests.md)
