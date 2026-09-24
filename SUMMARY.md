@@ -2025,7 +2025,6 @@
         * [About Agent Management](copilot/concepts/agents/cloud-agent/agent-management.md)
         * [Concepts For Git Hub Copilot Cloud Agent](copilot/concepts/agents/cloud-agent/index.md)
         * [Model Context Protocol MCP And Git Hub Copilot Cloud Agent](copilot/concepts/agents/cloud-agent/mcp-and-cloud-agent.md)
-        * [Risks And Mitigations For Git Hub Copilot Cloud Agent](copilot/concepts/agents/cloud-agent/risks-and-mitigations.md)
       - Copilot Cli
         * [About extensions for {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/about-cli-extensions.md)
         * [About Git Hub Copilot CLI](copilot/concepts/agents/copilot-cli/about-copilot-cli.md)
@@ -2033,7 +2032,6 @@
         * [About remote control of {% data variables.copilot.copilot_cli %} sessions](copilot/concepts/agents/copilot-cli/about-remote-control.md)
         * [Allowing Git Hub Copilot CLI To Work Autonomously](copilot/concepts/agents/copilot-cli/autopilot.md)
         * [Canceling a {% data variables.copilot.copilot_cli %} operation and rolling back changes](copilot/concepts/agents/copilot-cli/cancel-and-roll-back.md)
-        * [About {% data variables.copilot.copilot_cli %} session data](copilot/concepts/agents/copilot-cli/chronicle.md)
         * [Comparing Git Hub Copilot CLI Customization Features](copilot/concepts/agents/copilot-cli/comparing-cli-features.md)
         * [Managing context in {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/context-management.md)
         * [About Using Copilot CLI In Git Hub Actions](copilot/concepts/agents/copilot-cli/copilot-cli-in-github-actions.md)
@@ -2075,7 +2073,6 @@
       * [Git Hub Copilot Code Suggestions In Your IDE](copilot/concepts/completions/code-suggestions.md)
       * [Completions For Git Hub Copilot](copilot/concepts/completions/index.md)
     - Context
-      * [Content Exclusion For Git Hub Copilot](copilot/concepts/context/content-exclusion.md)
       * [Concepts For Providing Context To Git Hub Copilot](copilot/concepts/context/index.md)
       * [About Model Context Protocol MCP](copilot/concepts/context/mcp.md)
       * [Indexing Repositories For Git Hub Copilot](copilot/concepts/context/repository-indexing.md)
@@ -2103,14 +2100,19 @@
       * [Concepts For Prompting Git Hub Copilot](copilot/concepts/prompting/index.md)
       * [Prompt Engineering For Git Hub Copilot Chat](copilot/concepts/prompting/prompt-engineering.md)
       * [About Customizing Git Hub Copilot Responses](copilot/concepts/prompting/response-customization.md)
+    - Security Governance And Network Settings
+      * [About cloud and local sandboxes for {% data variables.product.prodname_copilot %}](copilot/concepts/security-governance-and-network-settings/about-cloud-and-local-sandboxes.md)
+      * [Content Exclusion For Git Hub Copilot](copilot/concepts/security-governance-and-network-settings/content-exclusion.md)
+      * [Security Governance And Network Settings For Git Hub Copilot](copilot/concepts/security-governance-and-network-settings/index.md)
+      * [Network Settings For Git Hub Copilot](copilot/concepts/security-governance-and-network-settings/network-settings.md)
+      * [Risks And Mitigations For Git Hub Copilot Cloud Agent](copilot/concepts/security-governance-and-network-settings/risks-and-mitigations.md)
+      * [About Git Hub Copilot Session Data](copilot/concepts/security-governance-and-network-settings/session-data.md)
     - Tools
       * [About Copilot Integrations](copilot/concepts/tools/about-copilot-integrations.md)
       * [Choosing The Right AI Tool For Your Task](copilot/concepts/tools/ai-tools.md)
       * [Concepts For AI Tools](copilot/concepts/tools/index.md)
-    * [About cloud and local sandboxes for {% data variables.product.prodname_copilot %}](copilot/concepts/about-cloud-and-local-sandboxes.md)
     * [About Git Hub Copilot Chat](copilot/concepts/chat.md)
     * [Concepts For Git Hub Copilot](copilot/concepts/index.md)
-    * [Network Settings For Git Hub Copilot](copilot/concepts/network-settings.md)
   - Copilot On Ghes
     * [About Git Hub Copilot On Git Hub Enterprise Server](copilot/copilot-on-ghes/about-copilot-on-ghes.md)
     * [{% data variables.product.prodname_copilot %} on GitHub Enterprise Server](copilot/copilot-on-ghes/index.md)
