@@ -478,6 +478,7 @@
       * [Verifying Or Approving A Domain For Your Enterprise](admin/configuring-settings/configuring-user-applications-for-your-enterprise/verifying-or-approving-a-domain-for-your-enterprise.md)
     - Hardening Security For Your Enterprise
       * [Configuring Host Keys For Your Instance](admin/configuring-settings/hardening-security-for-your-enterprise/configuring-host-keys-for-your-instance.md)
+      * [Configuring Proof Of Presence](admin/configuring-settings/hardening-security-for-your-enterprise/configuring-proof-of-presence.md)
       * [Configuring SSH Connections To Your Instance](admin/configuring-settings/hardening-security-for-your-enterprise/configuring-ssh-connections-to-your-instance.md)
       * [Configuring The Referrer Policy For Your Enterprise](admin/configuring-settings/hardening-security-for-your-enterprise/configuring-the-referrer-policy-for-your-enterprise.md)
       * [Configuring TLS And SSH Ciphers](admin/configuring-settings/hardening-security-for-your-enterprise/configuring-tls-and-ssh-ciphers.md)
@@ -2081,7 +2082,7 @@
       * [About Enterprise Accounts For Copilot Business](copilot/concepts/enterprise/about-enterprise-accounts-for-copilot-business.md)
       * [Agent Management For Enterprises](copilot/concepts/enterprise/agent-management.md)
       * [Managing Access To Git Hub Copilot Cloud Agent](copilot/concepts/enterprise/cloud-agent-access.md)
-      * [About default availability of {% data variables.product.prodname_copilot_short %} models](copilot/concepts/enterprise/default-model-availability.md)
+      * [About default availability of {% data variables.product.prodname_copilot_short %} features and models](copilot/concepts/enterprise/default-availability.md)
       * [Fed RAMP Compliant Models For Git Hub Copilot](copilot/concepts/enterprise/fedramp-models.md)
       * [Enterprise Concepts For Git Hub Copilot](copilot/concepts/enterprise/index.md)
       * [Learning About New Features And Models](copilot/concepts/enterprise/learning-about-new-features-and-models.md)
@@ -2337,6 +2338,7 @@
       - Features
         * [The Agent Loop](copilot/how-tos/copilot-sdk/features/agent-loop.md)
         * [Citations](copilot/how-tos/copilot-sdk/features/citations.md)
+        * [Client Info](copilot/how-tos/copilot-sdk/features/client-info.md)
         * [Cloud Sessions](copilot/how-tos/copilot-sdk/features/cloud-sessions.md)
         * [Context Clearing And Terminal Tools](copilot/how-tos/copilot-sdk/features/context-management.md)
         * [Custom Agents And Sub Agent Orchestration](copilot/how-tos/copilot-sdk/features/custom-agents.md)
@@ -2374,6 +2376,7 @@
         * [Default Setup Bundled CLI](copilot/how-tos/copilot-sdk/setup/bundled-cli.md)
         * [Setup Guides](copilot/how-tos/copilot-sdk/setup/choosing-a-setup-path.md)
         * [Git Hub O Auth Setup](copilot/how-tos/copilot-sdk/setup/github-oauth.md)
+        * [Run The Copilot Runtime In Process](copilot/how-tos/copilot-sdk/setup/in-process-runtime.md)
         * [Set Up Copilot SDK](copilot/how-tos/copilot-sdk/setup/index.md)
         * [Local CLI Setup](copilot/how-tos/copilot-sdk/setup/local-cli.md)
         * [Multi Tenancy And Server Deployments](copilot/how-tos/copilot-sdk/setup/multi-tenancy.md)
