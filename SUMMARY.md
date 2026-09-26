@@ -2632,6 +2632,7 @@
       - Enable Developers
         * [Rolling Out The Git Hub Copilot App To Your Team](copilot/tutorials/roll-out-at-scale/enable-developers/copilot-app-for-teams.md)
         * [Driving Git Hub Copilot Adoption In Your Company](copilot/tutorials/roll-out-at-scale/enable-developers/drive-adoption.md)
+        * [Driving Team Adoption Of Agentic Git Hub Copilot](copilot/tutorials/roll-out-at-scale/enable-developers/drive-team-agentic-adoption.md)
         * [Enabling Developers To Use Git Hub Copilot](copilot/tutorials/roll-out-at-scale/enable-developers/index.md)
         * [Integrating Agentic AI Into Your Enterprise S Software Development Lifecycle](copilot/tutorials/roll-out-at-scale/enable-developers/integrate-ai-agents.md)
       - Govern At Scale
