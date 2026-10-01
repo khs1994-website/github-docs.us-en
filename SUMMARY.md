@@ -1485,6 +1485,7 @@
         * [Using Git Hub Preset Rules To Prioritize Dependabot Alerts](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/prioritize-with-preset-rules.md)
         * [Re Running Dependabot Jobs On Git Hub Actions](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/re-run-dependabot-jobs.md)
         * [Removing Dependabot Access To Public Registries](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/remove-access-to-public-registries.md)
+        * [Resolving A Blocked Host In A Dependabot Update Job](code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/resolve-a-blocked-host.md)
       - Secure Your Dependencies
         * [Keeping Your Actions Up To Date With Dependabot](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/auto-update-actions.md)
         * [Configuring Dependabot Alerts](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/configure-dependabot-alerts.md)
@@ -1798,7 +1799,7 @@
       * [Protecting Against Security Threats](code-security/tutorials/secure-your-organization/protect-against-threats.md)
       * [Responding To A Security Incident](code-security/tutorials/secure-your-organization/respond-to-a-security-incident.md)
     - Trialing Github Advanced Security
-      * [Enabling Security Features In Your Trial Enterprise](code-security/tutorials/trialing-github-advanced-security/enable-security-features-trial.md)
+      * [Enabling Security Features In Your Trial](code-security/tutorials/trialing-github-advanced-security/enable-security-features-trial.md)
       * [Exploring your enterprise trial of {% data variables.product.prodname_GH_code_security_always %}](code-security/tutorials/trialing-github-advanced-security/explore-trial-code-scanning.md)
       * [Exploring your enterprise trial of {% data variables.product.prodname_GH_secret_protection_always %}](code-security/tutorials/trialing-github-advanced-security/explore-trial-secret-scanning.md)
       * [Trialing {% data variables.product.prodname_GHAS %}](code-security/tutorials/trialing-github-advanced-security/index.md)
@@ -2196,11 +2197,6 @@
       * [Viewing The Code Generation Dashboard](copilot/how-tos/administer-copilot/view-code-generation.md)
       * [Viewing The Copilot Impact Dashboard](copilot/how-tos/administer-copilot/view-impact-dashboard.md)
       * [Viewing The Copilot Usage Metrics Dashboard](copilot/how-tos/administer-copilot/view-usage-and-adoption.md)
-    - Chat With Copilot
-      * [Asking Git Hub Copilot Questions In Your IDE](copilot/how-tos/chat-with-copilot/chat-in-ide.md)
-      * [Asking Git Hub Copilot Questions In Windows Terminal](copilot/how-tos/chat-with-copilot/chat-in-windows-terminal.md)
-      * [Getting Started With Prompts For Git Hub Copilot Chat In Your IDE](copilot/how-tos/chat-with-copilot/get-started-with-chat-in-your-ide.md)
-      * [Git Hub Copilot Chat](copilot/how-tos/chat-with-copilot/index.md)
     - Cloud And Local Sandboxes
       * [Configuring Local Sandbox Settings](copilot/how-tos/cloud-and-local-sandboxes/configuring-local-sandbox-settings.md)
       * [Enabling Or Disabling Cloud Sandboxes For Your Organization Or Enterprise](copilot/how-tos/cloud-and-local-sandboxes/enabling-or-disabling-cloud-sandboxes-for-your-organization.md)
@@ -2210,14 +2206,6 @@
       * [Excluding Content From Git Hub Copilot](copilot/how-tos/configure-content-exclusion/exclude-content-from-copilot.md)
       * [Configure And Audit Content Exclusion](copilot/how-tos/configure-content-exclusion/index.md)
       * [Reviewing Changes To Content Exclusions For Git Hub Copilot](copilot/how-tos/configure-content-exclusion/review-changes.md)
-    - Configure Custom Instructions In Your Ide
-      * [Adding Repository Custom Instructions For Git Hub Copilot In Your IDE](copilot/how-tos/configure-custom-instructions-in-your-ide/add-repository-instructions-in-your-ide.md)
-      * [Configure Custom Instructions For Git Hub Copilot](copilot/how-tos/configure-custom-instructions-in-your-ide/index.md)
-    - Configure Personal Settings
-      * [Using GitHub Copilot with an account on GHE.com](copilot/how-tos/configure-personal-settings/authenticate-to-ghecom.md)
-      * [Configuring Git Hub Copilot In Your Environment](copilot/how-tos/configure-personal-settings/configure-in-ide.md)
-      * [Configuring Network Settings For Git Hub Copilot](copilot/how-tos/configure-personal-settings/configure-network-settings.md)
-      * [Configure Personal Settings](copilot/how-tos/configure-personal-settings/index.md)
     - Copilot Cli
       - Automate Copilot Cli
         * [Automating Tasks With Copilot CLI And Git Hub Actions](copilot/how-tos/copilot-cli/automate-copilot-cli/automate-with-actions.md)
@@ -2268,6 +2256,46 @@
       * [Best Practices For Git Hub Copilot CLI](copilot/how-tos/copilot-cli/cli-best-practices.md)
       * [{% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/index.md)
       * [Using Copilot CLI In Git Hub Actions With GITHUB TOKEN](copilot/how-tos/copilot-cli/use-copilot-cli-in-actions.md)
+    - Copilot In Your Ide
+      - Chat With Copilot
+        * [Changing The AI Model For Git Hub Copilot Chat](copilot/how-tos/copilot-in-your-ide/chat-with-copilot/change-the-chat-model.md)
+        * [Asking Git Hub Copilot Questions In Your IDE](copilot/how-tos/copilot-in-your-ide/chat-with-copilot/chat-in-ide.md)
+        * [Asking Git Hub Copilot Questions In Windows Terminal](copilot/how-tos/copilot-in-your-ide/chat-with-copilot/chat-in-windows-terminal.md)
+        * [Getting Started With Prompts For Git Hub Copilot Chat In Your IDE](copilot/how-tos/copilot-in-your-ide/chat-with-copilot/get-started-with-chat-in-your-ide.md)
+        * [Chat with {% data variables.product.prodname_copilot_short %}](copilot/how-tos/copilot-in-your-ide/chat-with-copilot/index.md)
+      - Copilot For Common Tasks
+        * [Changing The AI Model For Git Hub Copilot Inline Suggestions](copilot/how-tos/copilot-in-your-ide/copilot-for-common-tasks/change-the-completion-model.md)
+        * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/how-tos/copilot-in-your-ide/copilot-for-common-tasks/find-matching-code.md)
+        * [Getting Code Suggestions In Your IDE With Git Hub Copilot](copilot/how-tos/copilot-in-your-ide/copilot-for-common-tasks/get-ide-code-suggestions.md)
+        * [{% data variables.product.prodname_copilot_short %} for common tasks](copilot/how-tos/copilot-in-your-ide/copilot-for-common-tasks/index.md)
+        * [Using The Git Hub MCP Server In Your IDE](copilot/how-tos/copilot-in-your-ide/copilot-for-common-tasks/use-the-github-mcp-server.md)
+      - Customize Copilot
+        - Configure Custom Instructions
+          * [Adding Repository Custom Instructions For Git Hub Copilot In Your IDE](copilot/how-tos/copilot-in-your-ide/customize-copilot/configure-custom-instructions/add-repository-instructions-in-your-ide.md)
+          * [Configure Custom Instructions For Git Hub Copilot](copilot/how-tos/copilot-in-your-ide/customize-copilot/configure-custom-instructions/index.md)
+        - Extend Copilot With Tools And Context
+          * [Changing Your MCP Registry In Your IDE](copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/change-mcp-registry.md)
+          * [Configuring Toolsets For The Git Hub MCP Server](copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/configure-toolsets.md)
+          * [Configuring The Git Hub MCP Server For Git Hub Enterprise](copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/enterprise-configuration.md)
+          * [Extending Git Hub Copilot Chat With Model Context Protocol MCP Servers](copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/extend-copilot-chat-with-mcp.md)
+          * [Extend Git Hub Copilot With Tools And Context In Your IDE](copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/index.md)
+          * [Setting Up The Git Hub MCP Server](copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/set-up-the-github-mcp-server.md)
+          * [Using Git Hub Copilot Spaces In Your IDE](copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/use-copilot-spaces.md)
+        * [Customize {% data variables.product.prodname_copilot_short %}](copilot/how-tos/copilot-in-your-ide/customize-copilot/index.md)
+      - Set Up Copilot
+        * [Using GitHub Copilot with an account on GHE.com](copilot/how-tos/copilot-in-your-ide/set-up-copilot/authenticate-to-ghecom.md)
+        * [Configuring Git Hub Copilot In Your Environment](copilot/how-tos/copilot-in-your-ide/set-up-copilot/configure-in-ide.md)
+        * [Configuring Network Settings For Git Hub Copilot](copilot/how-tos/copilot-in-your-ide/set-up-copilot/configure-network-settings.md)
+        * [Set up {% data variables.product.prodname_copilot_short %}](copilot/how-tos/copilot-in-your-ide/set-up-copilot/index.md)
+        * [Installing The Git Hub Copilot Extension In Your Environment](copilot/how-tos/copilot-in-your-ide/set-up-copilot/install-copilot-extension.md)
+      - Use Copilot Agents
+        * [Use {% data variables.product.prodname_copilot_short %} agents](copilot/how-tos/copilot-in-your-ide/use-copilot-agents/index.md)
+        * [Using Agent Mode In Your IDE](copilot/how-tos/copilot-in-your-ide/use-copilot-agents/use-agent-mode.md)
+        * [Using Copilot Cloud Agent In Your IDE](copilot/how-tos/copilot-in-your-ide/use-copilot-agents/use-cloud-agent-in-your-ide.md)
+        * [Using Custom Agents In Your IDE](copilot/how-tos/copilot-in-your-ide/use-copilot-agents/use-custom-agents.md)
+        * [Using Plan Mode In Your IDE](copilot/how-tos/copilot-in-your-ide/use-copilot-agents/use-plan-mode.md)
+        * [Using {% data variables.copilot.subagents_short %} in your IDE](copilot/how-tos/copilot-in-your-ide/use-copilot-agents/use-subagents.md)
+      * [{% data variables.product.prodname_copilot %} in your IDE](copilot/how-tos/copilot-in-your-ide/index.md)
     - Copilot Integrations
       * [Git Hub Copilot Integrations](copilot/how-tos/copilot-integrations/index.md)
       * [Integrating Copilot Cloud Agent With Azure Boards](copilot/how-tos/copilot-integrations/integrate-cloud-agent-with-azure-boards.md)
@@ -2387,10 +2415,6 @@
         * [Troubleshooting](copilot/how-tos/copilot-sdk/troubleshooting/index.md)
         * [MCP Server Debugging Guide](copilot/how-tos/copilot-sdk/troubleshooting/mcp-debugging.md)
       * [Copilot SDK](copilot/how-tos/copilot-sdk/index.md)
-    - Get Code Suggestions
-      * [Finding Public Code That Matches Git Hub Copilot Suggestions](copilot/how-tos/get-code-suggestions/find-matching-code.md)
-      * [Getting Code Suggestions In Your IDE With Git Hub Copilot](copilot/how-tos/get-code-suggestions/get-ide-code-suggestions.md)
-      * [Get Suggestions From Git Hub Copilot](copilot/how-tos/get-code-suggestions/index.md)
     - Github Agentic Workflows
       * [Creating Git Hub Agentic Workflows](copilot/how-tos/github-agentic-workflows/creating-github-agentic-workflows.md)
       * [Git Hub Agentic Workflows](copilot/how-tos/github-agentic-workflows/index.md)
@@ -2415,23 +2439,6 @@
       * [Manage Your Git Hub Copilot Account](copilot/how-tos/manage-your-account/index.md)
       * [Managing Git Hub Copilot Policies As An Individual Subscriber](copilot/how-tos/manage-your-account/manage-policies.md)
       * [Viewing And Changing Your Git Hub Copilot Plan](copilot/how-tos/manage-your-account/view-and-change-your-copilot-plan.md)
-    - Provide Context
-      - Use Copilot Spaces
-        * [Git Hub Copilot Spaces](copilot/how-tos/provide-context/use-copilot-spaces/index.md)
-        * [Using Git Hub Copilot Spaces](copilot/how-tos/provide-context/use-copilot-spaces/use-copilot-spaces.md)
-      - Use Mcp In Your Ide
-        * [Changing Your MCP Registry In Your IDE](copilot/how-tos/provide-context/use-mcp-in-your-ide/change-mcp-registry.md)
-        * [Configuring Toolsets For The Git Hub MCP Server](copilot/how-tos/provide-context/use-mcp-in-your-ide/configure-toolsets.md)
-        * [Configuring The Git Hub MCP Server For Git Hub Enterprise](copilot/how-tos/provide-context/use-mcp-in-your-ide/enterprise-configuration.md)
-        * [Extending Git Hub Copilot Chat With Model Context Protocol MCP Servers](copilot/how-tos/provide-context/use-mcp-in-your-ide/extend-copilot-chat-with-mcp.md)
-        * [Using Model Context Protocol In Your IDE](copilot/how-tos/provide-context/use-mcp-in-your-ide/index.md)
-        * [Setting Up The Git Hub MCP Server](copilot/how-tos/provide-context/use-mcp-in-your-ide/set-up-the-github-mcp-server.md)
-        * [Using The Git Hub MCP Server In Your IDE](copilot/how-tos/provide-context/use-mcp-in-your-ide/use-the-github-mcp-server.md)
-      * [Provide Context To Git Hub Copilot](copilot/how-tos/provide-context/index.md)
-    - Set Up
-      * [Setting Up Git Hub Copilot](copilot/how-tos/set-up/index.md)
-      * [Installing The Git Hub Copilot Extension In Your Environment](copilot/how-tos/set-up/install-copilot-extension.md)
-      * [Setting Up Git Hub Copilot For Yourself](copilot/how-tos/set-up/set-up-for-self.md)
     - Troubleshoot Copilot
       * [Troubleshoot Git Hub Copilot](copilot/how-tos/troubleshoot-copilot/index.md)
       * [Troubleshooting Common Issues With Git Hub Copilot](copilot/how-tos/troubleshoot-copilot/troubleshoot-common-issues.md)
@@ -2439,16 +2446,11 @@
       * [Troubleshooting Firewall Settings For Git Hub Copilot](copilot/how-tos/troubleshoot-copilot/troubleshoot-firewall-settings.md)
       * [Troubleshooting Network Errors For Git Hub Copilot](copilot/how-tos/troubleshoot-copilot/troubleshoot-network-errors.md)
       * [Viewing Logs For Git Hub Copilot In Your Environment](copilot/how-tos/troubleshoot-copilot/view-logs.md)
-    - Use Ai Models
-      * [Changing The AI Model For Git Hub Copilot Chat](copilot/how-tos/use-ai-models/change-the-chat-model.md)
-      * [Changing The AI Model For Git Hub Copilot Inline Suggestions](copilot/how-tos/use-ai-models/change-the-completion-model.md)
-      * [AI Models For Git Hub Copilot](copilot/how-tos/use-ai-models/index.md)
     - Use Copilot Agents
       - Cloud Agent
         * [Changing The AI Model For Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/changing-the-ai-model.md)
         * [Configuring Settings For Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/configuring-agent-settings.md)
         * [Creating Automations With Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/create-automations.md)
-        * [Creating custom agents for {% data variables.copilot.copilot_cloud_agent %} in your IDE](copilot/how-tos/use-copilot-agents/cloud-agent/create-custom-agents-in-your-ide.md)
         * [Git Hub Copilot Cloud Agent](copilot/how-tos/use-copilot-agents/cloud-agent/index.md)
         * [Managing Rationale Confidence And Approvals For Issues](copilot/how-tos/use-copilot-agents/cloud-agent/manage-rationale-confidence-approvals.md)
         * [Starting Git Hub Copilot Sessions](copilot/how-tos/use-copilot-agents/cloud-agent/start-copilot-sessions.md)
@@ -2456,7 +2458,6 @@
         * [Using Agent Apps](copilot/how-tos/use-copilot-agents/cloud-agent/use-agent-apps.md)
         * [Using Copilot Cloud Agent From The Git Hub CLI](copilot/how-tos/use-copilot-agents/cloud-agent/use-cloud-agent-from-cli.md)
         * [Using Copilot Cloud Agent From Raycast](copilot/how-tos/use-copilot-agents/cloud-agent/use-cloud-agent-from-raycast.md)
-        * [Using Copilot Cloud Agent In Your IDE](copilot/how-tos/use-copilot-agents/cloud-agent/use-cloud-agent-in-your-ide.md)
         * [Using Copilot Cloud Agent On Git Hub](copilot/how-tos/use-copilot-agents/cloud-agent/use-cloud-agent-on-github.md)
         * [Using Copilot Cloud Agent On Git Hub Mobile](copilot/how-tos/use-copilot-agents/cloud-agent/use-cloud-agent-on-mobile.md)
         * [Using Copilot Cloud Agent Via The API](copilot/how-tos/use-copilot-agents/cloud-agent/use-cloud-agent-via-the-api.md)
@@ -2469,9 +2470,6 @@
         * [Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/index.md)
         * [Using Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review.md)
       * [Use Git Hub Copilot Agents](copilot/how-tos/use-copilot-agents/index.md)
-    - Use Copilot For Common Tasks
-      * [Use Git Hub Copilot For Common Tasks](copilot/how-tos/use-copilot-for-common-tasks/index.md)
-      * [Using The Git Hub CLI Copilot Extension](copilot/how-tos/use-copilot-for-common-tasks/use-copilot-in-the-cli.md)
     * [How Tos For Git Hub Copilot](copilot/how-tos/index.md)
   - Reference
     - Ai Models
@@ -3243,6 +3241,7 @@
       * [Migrating Between Git Hub Products](migrations/using-github-enterprise-importer/migrating-between-github-products/index.md)
       * [Managing Access For A Migration Between Git Hub Products](migrations/using-github-enterprise-importer/migrating-between-github-products/managing-access-for-a-migration-between-github-products.md)
       * [Migrating organizations from GitHub.com to GitHub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-between-github-products/migrating-organizations-from-githubcom-to-github-enterprise-cloud.md)
+      * [Migrating Repositories Between Two Data Resident Enterprises](migrations/using-github-enterprise-importer/migrating-between-github-products/migrating-repositories-between-two-data-resident-enterprises.md)
       * [Migrating Repositories From Git Hub Enterprise Server To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-between-github-products/migrating-repositories-from-github-enterprise-server-to-github-enterprise-cloud.md)
       * [Migrating repositories from GitHub.com to GitHub Enterprise Cloud](migrations/using-github-enterprise-importer/migrating-between-github-products/migrating-repositories-from-githubcom-to-github-enterprise-cloud.md)
       * [Overview Of A Migration Between Git Hub Products](migrations/using-github-enterprise-importer/migrating-between-github-products/overview-of-a-migration-between-github-products.md)
