@@ -1955,6 +1955,7 @@
     * [Accessing A Project S Community Profile](communities/setting-up-your-project-for-healthy-contributions/accessing-a-projects-community-profile.md)
     * [Adding A Code Of Conduct To Your Project](communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project.md)
     * [Adding A License To A Repository](communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository.md)
+    * [Adding An Accessibility Page To Your Repository](communities/setting-up-your-project-for-healthy-contributions/adding-an-accessibility-page-to-your-repository.md)
     * [Adding Support Resources To Your Project](communities/setting-up-your-project-for-healthy-contributions/adding-support-resources-to-your-project.md)
     * [Creating A Default Community Health File](communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file.md)
     * [Encouraging Helpful Contributions To Your Project With Labels](communities/setting-up-your-project-for-healthy-contributions/encouraging-helpful-contributions-to-your-project-with-labels.md)
@@ -2051,8 +2052,10 @@
       * [About Agent Apps](copilot/concepts/agents/agent-apps.md)
       * [Anthropic Claude](copilot/concepts/agents/anthropic-claude.md)
       * [About Git Hub Copilot Code Review](copilot/concepts/agents/code-review.md)
+      * [About Computer Use In Git Hub Copilot](copilot/concepts/agents/computer-use.md)
       * [Using Git Hub Copilot In Jet Brains ID Es](copilot/concepts/agents/copilot-in-jetbrains.md)
       * [About Git Hub Copilot Memory](copilot/concepts/agents/copilot-memory.md)
+      * [Dynamic Workflows](copilot/concepts/agents/dynamic-workflows.md)
       * [About The Git Hub Copilot App](copilot/concepts/agents/github-copilot-app.md)
       * [About hooks for {% data variables.product.prodname_copilot %}](copilot/concepts/agents/hooks.md)
       * [Concepts For Git Hub Copilot Agents](copilot/concepts/agents/index.md)
@@ -2239,6 +2242,7 @@
         * [Asking a side question in {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli/ask-a-side-question.md)
         * [Browsing issues, pull requests, and gists from {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli/browse-issues-prs-gists.md)
         * [Using {% data variables.copilot.copilot_cli %} session data](copilot/how-tos/copilot-cli/use-copilot-cli/chronicle.md)
+        * [Using Git Hub Copilot CLI To Interact With Desktop Applications](copilot/how-tos/copilot-cli/use-copilot-cli/computer-use.md)
         * [Connecting {% data variables.copilot.copilot_cli %} to {% data variables.product.prodname_vscode_shortname %}](copilot/how-tos/copilot-cli/use-copilot-cli/connecting-vs-code.md)
         * [Delegating tasks to {% data variables.product.prodname_copilot_short %}](copilot/how-tos/copilot-cli/use-copilot-cli/delegate-tasks-to-cca.md)
         * [Use {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli/index.md)
@@ -2421,6 +2425,7 @@
       * [Your First Agentic Workflow](copilot/how-tos/github-agentic-workflows/quickstart.md)
     - Github Copilot App
       * [Working With Agent Sessions In The Git Hub Copilot App](copilot/how-tos/github-copilot-app/agent-sessions.md)
+      * [Using The Git Hub Copilot App To Interact With Desktop Applications](copilot/how-tos/github-copilot-app/computer-use.md)
       * [Configuring Local Sandboxing In The Git Hub Copilot App](copilot/how-tos/github-copilot-app/configure-local-sandboxing.md)
       * [Customizing The Git Hub Copilot App](copilot/how-tos/github-copilot-app/customize-github-copilot-app.md)
       * [{% data variables.copilot.github_copilot_app %}](copilot/how-tos/github-copilot-app/index.md)
@@ -2466,10 +2471,9 @@
         * [Managing Copilot Memory](copilot/how-tos/use-copilot-agents/copilot-memory/index.md)
         * [Managing Copilot Memory For An Organization Or Enterprise](copilot/how-tos/use-copilot-agents/copilot-memory/manage-as-administrator.md)
         * [Managing Copilot Memory For Your Personal Account](copilot/how-tos/use-copilot-agents/copilot-memory/manage-for-yourself.md)
-      - Request A Code Review
-        * [Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/index.md)
-        * [Using Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review.md)
       * [Use Git Hub Copilot Agents](copilot/how-tos/use-copilot-agents/index.md)
+      * [Using Git Hub Copilot Code Review](copilot/how-tos/use-copilot-agents/use-code-review.md)
+      * [Using Dynamic Workflows](copilot/how-tos/use-copilot-agents/use-dynamic-workflows.md)
     * [How Tos For Git Hub Copilot](copilot/how-tos/index.md)
   - Reference
     - Ai Models
@@ -4283,6 +4287,7 @@
     * [About Ticket Priority](support/learning-about-github-support/about-ticket-priority.md)
     * [Git Hub Marketplace Support](support/learning-about-github-support/github-marketplace-support.md)
     * [Learning About Git Hub Support](support/learning-about-github-support/index.md)
+    * [Understanding How Git Hub Support Can Help During A Security Incident](support/learning-about-github-support/understanding-how-github-support-can-help-during-a-security-incident.md)
   * [Git Hub Support Documentation](support/index.md)
   * [Sharing Feedback With Git Hub](support/sharing-feedback-with-github.md)
 - Webhooks
