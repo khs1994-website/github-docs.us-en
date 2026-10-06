@@ -2023,14 +2023,12 @@
       - Cloud Agent
         * [About Rationale Confidence And Approvals For Issues](copilot/concepts/agents/cloud-agent/about-automation-rationale-and-approvals.md)
         * [About Copilot Automations](copilot/concepts/agents/cloud-agent/about-automations.md)
-        * [About Git Hub Copilot Cloud Agent](copilot/concepts/agents/cloud-agent/about-cloud-agent.md)
         * [About Custom Agents](copilot/concepts/agents/cloud-agent/about-custom-agents.md)
         * [About Agent Management](copilot/concepts/agents/cloud-agent/agent-management.md)
         * [Concepts For Git Hub Copilot Cloud Agent](copilot/concepts/agents/cloud-agent/index.md)
         * [Model Context Protocol MCP And Git Hub Copilot Cloud Agent](copilot/concepts/agents/cloud-agent/mcp-and-cloud-agent.md)
       - Copilot Cli
         * [About extensions for {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/about-cli-extensions.md)
-        * [About Git Hub Copilot CLI](copilot/concepts/agents/copilot-cli/about-copilot-cli.md)
         * [About Custom Agents](copilot/concepts/agents/copilot-cli/about-custom-agents.md)
         * [About remote control of {% data variables.copilot.copilot_cli %} sessions](copilot/concepts/agents/copilot-cli/about-remote-control.md)
         * [Allowing Git Hub Copilot CLI To Work Autonomously](copilot/concepts/agents/copilot-cli/autopilot.md)
@@ -2053,10 +2051,8 @@
       * [Anthropic Claude](copilot/concepts/agents/anthropic-claude.md)
       * [About Git Hub Copilot Code Review](copilot/concepts/agents/code-review.md)
       * [About Computer Use In Git Hub Copilot](copilot/concepts/agents/computer-use.md)
-      * [Using Git Hub Copilot In Jet Brains ID Es](copilot/concepts/agents/copilot-in-jetbrains.md)
       * [About Git Hub Copilot Memory](copilot/concepts/agents/copilot-memory.md)
       * [Dynamic Workflows](copilot/concepts/agents/dynamic-workflows.md)
-      * [About The Git Hub Copilot App](copilot/concepts/agents/github-copilot-app.md)
       * [About hooks for {% data variables.product.prodname_copilot %}](copilot/concepts/agents/hooks.md)
       * [Concepts For Git Hub Copilot Agents](copilot/concepts/agents/index.md)
       * [Open AI Codex](copilot/concepts/agents/openai-codex.md)
@@ -2073,15 +2069,17 @@
         * [Billing And Usage For Organizations And Enterprises](copilot/concepts/billing-and-usage/organizations-and-enterprises/index.md)
         * [Git Hub Copilot Seats And Billing Cycles For Organizations And Enterprises](copilot/concepts/billing-and-usage/organizations-and-enterprises/seats-and-billing-cycles.md)
       * [Git Hub Copilot Billing And Usage](copilot/concepts/billing-and-usage/index.md)
-    - Completions
-      * [Git Hub Copilot Code Referencing](copilot/concepts/completions/code-referencing.md)
-      * [Git Hub Copilot Code Suggestions In Your IDE](copilot/concepts/completions/code-suggestions.md)
-      * [Completions For Git Hub Copilot](copilot/concepts/completions/index.md)
     - Context
       * [Concepts For Providing Context To Git Hub Copilot](copilot/concepts/context/index.md)
       * [About Model Context Protocol MCP](copilot/concepts/context/mcp.md)
       * [Indexing Repositories For Git Hub Copilot](copilot/concepts/context/repository-indexing.md)
       * [About Git Hub Copilot Spaces](copilot/concepts/context/spaces.md)
+    - Copilot Surfaces
+      * [Git Hub Copilot CLI](copilot/concepts/copilot-surfaces/copilot-cli.md)
+      * [Git Hub Copilot In ID Es](copilot/concepts/copilot-surfaces/copilot-in-ides.md)
+      * [GitHub Copilot on GitHub.com](copilot/concepts/copilot-surfaces/copilot-on-github.md)
+      * [Git Hub Copilot App](copilot/concepts/copilot-surfaces/github-copilot-app.md)
+      * [Git Hub Copilot Surfaces](copilot/concepts/copilot-surfaces/index.md)
     - Enterprise
       * [About Enterprise Accounts For Copilot Business](copilot/concepts/enterprise/about-enterprise-accounts-for-copilot-business.md)
       * [Agent Management For Enterprises](copilot/concepts/enterprise/agent-management.md)
@@ -2116,7 +2114,6 @@
       * [About Copilot Integrations](copilot/concepts/tools/about-copilot-integrations.md)
       * [Choosing The Right AI Tool For Your Task](copilot/concepts/tools/ai-tools.md)
       * [Concepts For AI Tools](copilot/concepts/tools/index.md)
-    * [About Git Hub Copilot Chat](copilot/concepts/chat.md)
     * [Concepts For Git Hub Copilot](copilot/concepts/index.md)
   - Copilot On Ghes
     * [About Git Hub Copilot On Git Hub Enterprise Server](copilot/copilot-on-ghes/about-copilot-on-ghes.md)
