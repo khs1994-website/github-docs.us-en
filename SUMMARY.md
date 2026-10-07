@@ -2224,7 +2224,7 @@
         * [Creating a plugin for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/plugins-creating.md)
         * [Finding and installing plugins for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/plugins-finding-installing.md)
         * [Creating a plugin marketplace for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/plugins-marketplace.md)
-        * [Using Your Own LLM Models In Git Hub Copilot CLI](copilot/how-tos/copilot-cli/customize-copilot/use-byok-models.md)
+        * [Adding LLM Models To Git Hub Copilot CLI](copilot/how-tos/copilot-cli/customize-copilot/use-byok-models.md)
         * [Using hooks with {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/customize-copilot/use-hooks.md)
       - Set Up Copilot Cli
         * [Adding LSP servers for {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/set-up-copilot-cli/add-lsp-servers.md)
@@ -2428,7 +2428,7 @@
       * [{% data variables.copilot.github_copilot_app %}](copilot/how-tos/github-copilot-app/index.md)
       * [Managing Issues And Pull Requests With The Git Hub Copilot App](copilot/how-tos/github-copilot-app/managing-issues-and-pull-requests.md)
       * [Using Deep Links To Open The Git Hub Copilot App](copilot/how-tos/github-copilot-app/open-with-deep-links.md)
-      * [Using Your Own LLM Models In The Git Hub Copilot App](copilot/how-tos/github-copilot-app/use-byok-models.md)
+      * [Adding LLM Models To The Git Hub Copilot App](copilot/how-tos/github-copilot-app/use-byok-models.md)
       * [Using Automations In The Git Hub Copilot App](copilot/how-tos/github-copilot-app/using-automations.md)
       * [Working With Canvas Extensions In The Git Hub Copilot App](copilot/how-tos/github-copilot-app/working-with-canvas-extensions.md)
     - Manage And Track Spending
