@@ -2423,7 +2423,6 @@
     - Github Copilot App
       * [Working With Agent Sessions In The Git Hub Copilot App](copilot/how-tos/github-copilot-app/agent-sessions.md)
       * [Using The Git Hub Copilot App To Interact With Desktop Applications](copilot/how-tos/github-copilot-app/computer-use.md)
-      * [Configuring Local Sandboxing In The Git Hub Copilot App](copilot/how-tos/github-copilot-app/configure-local-sandboxing.md)
       * [Customizing The Git Hub Copilot App](copilot/how-tos/github-copilot-app/customize-github-copilot-app.md)
       * [{% data variables.copilot.github_copilot_app %}](copilot/how-tos/github-copilot-app/index.md)
       * [Managing Issues And Pull Requests With The Git Hub Copilot App](copilot/how-tos/github-copilot-app/managing-issues-and-pull-requests.md)
