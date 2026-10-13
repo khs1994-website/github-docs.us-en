@@ -102,6 +102,7 @@
       * [Open ID Connect](actions/concepts/security/openid-connect.md)
       * [Script Injections](actions/concepts/security/script-injections.md)
       * [Secrets](actions/concepts/security/secrets.md)
+      * [Workflow Dependency Lockfiles](actions/concepts/security/workflow-dependency-lockfiles.md)
     - Workflows And Actions
       * [Concurrency](actions/concepts/workflows-and-actions/concurrency.md)
       * [Contexts](actions/concepts/workflows-and-actions/contexts.md)
@@ -128,7 +129,8 @@
     * [Understanding Git Hub Actions](actions/get-started/understand-github-actions.md)
   - How Tos
     - Administer
-      * [Controlling who can execute {% data variables.product.prodname_actions %} workflows](actions/how-tos/administer/control-workflow-execution.md)
+      * [Governing execution of {% data variables.product.prodname_actions %} workflows](actions/how-tos/administer/control-workflow-execution.md)
+      * [Enforcing Lockfiles For Action Dependencies](actions/how-tos/administer/enforce-workflow-lockfiles.md)
       * [Administering Git Hub Actions](actions/how-tos/administer/index.md)
       * [Making retired namespaces available on GHE.com](actions/how-tos/administer/reuse-namespaces-on-ghecom.md)
       * [Viewing Git Hub Actions Metrics](actions/how-tos/administer/view-metrics.md)
@@ -230,6 +232,7 @@
         * [Configuring Open ID Connect In Amazon Web Services](actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-aws.md)
         * [Configuring Open ID Connect In Azure](actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-azure.md)
         * [Configuring Open ID Connect In Cloud Providers](actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-cloud-providers.md)
+        * [Configuring Open ID Connect In Docker](actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-docker.md)
         * [Configuring Open ID Connect In Google Cloud Platform](actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-google-cloud-platform.md)
         * [Configuring Open ID Connect In Hashi Corp Vault](actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-hashicorp-vault.md)
         * [Configuring Open ID Connect In J Frog](actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-jfrog.md)
@@ -244,6 +247,7 @@
         * [Using Artifact Attestations To Establish Provenance For Builds](actions/how-tos/secure-your-work/use-artifact-attestations/use-artifact-attestations.md)
         * [Verifying Attestations Offline](actions/how-tos/secure-your-work/use-artifact-attestations/verify-attestations-offline.md)
       * [Security For Git Hub Actions](actions/how-tos/secure-your-work/index.md)
+      * [Locking Action Dependencies In A Repository S Workflows](actions/how-tos/secure-your-work/lock-workflow-dependencies.md)
     - Write Workflows
       - Choose What Workflows Do
         * [Adding Scripts To Your Workflow](actions/how-tos/write-workflows/choose-what-workflows-do/add-scripts.md)
