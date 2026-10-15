@@ -1150,6 +1150,7 @@
       * [Redeeming A Coupon](billing/how-tos/set-up-payment/redeem-coupon.md)
       * [Setting Up Visual Studio Subscriptions With Git Hub Enterprise](billing/how-tos/set-up-payment/set-up-vs-subscription.md)
     - Troubleshooting
+      * [Troubleshooting Authorization Holds](billing/how-tos/troubleshooting/authorization-holds.md)
       * [Troubleshooting Azure Subscription Connection Problems](billing/how-tos/troubleshooting/azure-sub-connection.md)
       * [Troubleshooting A Declined Credit Card Charge](billing/how-tos/troubleshooting/declined-card.md)
       * [Troubleshooting License Usage For Git Hub Enterprise](billing/how-tos/troubleshooting/enterprise-license-usage.md)
@@ -3788,6 +3789,8 @@
     * [REST API Endpoints For Notifications](rest/activity/notifications.md)
     * [REST API Endpoints For Starring](rest/activity/starring.md)
     * [REST API Endpoints For Watching](rest/activity/watching.md)
+  - [Agent Automations](rest/agent-automations/index.md)
+    * [REST API Endpoints For Agent Automations](rest/agent-automations/agent-automations.md)
   - Agent Tasks
     * [REST API Endpoints For Agent Tasks](rest/agent-tasks/index.md)
   - Agents
