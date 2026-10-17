@@ -817,6 +817,14 @@
     * [Setting Up A Trial Of Git Hub Enterprise Cloud](admin/overview/setting-up-a-trial-of-github-enterprise-cloud.md)
     * [Setting Up A Trial Of Git Hub Enterprise Server](admin/overview/setting-up-a-trial-of-github-enterprise-server.md)
     * [System Overview](admin/overview/system-overview.md)
+  - Troubleshooting Your Instance
+    - Troubleshooting Github Actions Data And Database Health
+      * [Troubleshooting {% data variables.product.prodname_actions %} data and database health](admin/troubleshooting-your-instance/troubleshooting-github-actions-data-and-database-health/index.md)
+      * [Truncating MSSQL Transaction Logs](admin/troubleshooting-your-instance/troubleshooting-github-actions-data-and-database-health/truncating-mssql-transaction-logs.md)
+    - Troubleshooting Storage And Disks
+      * [Disk Usage At Or Near Capacity](admin/troubleshooting-your-instance/troubleshooting-storage-and-disks/disk-usage-at-or-near-capacity.md)
+      * [Troubleshooting Storage And Disks](admin/troubleshooting-your-instance/troubleshooting-storage-and-disks/index.md)
+    * [Troubleshooting Your Instance](admin/troubleshooting-your-instance/index.md)
   - Upgrading Your Instance
     - Performing An Upgrade
       * [Automating An Upgrade](admin/upgrading-your-instance/performing-an-upgrade/automating-an-upgrade.md)
@@ -3795,8 +3803,8 @@
     * [REST API Endpoints For Notifications](rest/activity/notifications.md)
     * [REST API Endpoints For Starring](rest/activity/starring.md)
     * [REST API Endpoints For Watching](rest/activity/watching.md)
-  - [Agent Automations](rest/agent-automations/index.md)
-    * [REST API Endpoints For Agent Automations](rest/agent-automations/agent-automations.md)
+  - Agent Automations
+    * [REST API Endpoints For Agent Automations](rest/agent-automations/index.md)
   - Agent Tasks
     * [REST API Endpoints For Agent Tasks](rest/agent-tasks/index.md)
   - Agents
@@ -3889,6 +3897,7 @@
     * [REST API Endpoints For Dependency Review](rest/dependency-graph/dependency-review.md)
     * [REST API Endpoints For Dependency Submission](rest/dependency-graph/dependency-submission.md)
     * [REST API Endpoints For The Dependency Graph](rest/dependency-graph/index.md)
+    * [REST API Endpoints For License Compliance](rest/dependency-graph/license-compliance.md)
     * [REST API Endpoints For Software Bill Of Materials SBOM](rest/dependency-graph/sboms.md)
   - Deploy Keys
     * [REST API Endpoints For Deploy Keys](rest/deploy-keys/index.md)
