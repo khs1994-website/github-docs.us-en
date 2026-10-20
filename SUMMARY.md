@@ -1512,6 +1512,7 @@
         * [Exploring The Dependencies Of A Repository](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/explore-dependencies.md)
         * [Securing Your Dependencies](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/index.md)
         * [Managing Innersource Advisories](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/manage-innersource-advisories.md)
+        * [Protecting Endpoints With Git Hub Package Firewall](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/protecting-endpoints-with-package-firewall.md)
         * [Configuring Automatic Dependency Submission For Your Repository](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/submit-dependencies-automatically.md)
         * [Using The Dependency Submission API](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/use-dependency-submission-api.md)
         * [Verifying The Integrity Of A Release](code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/verify-release-integrity.md)
@@ -2070,13 +2071,10 @@
         * [About extensions for {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/about-cli-extensions.md)
         * [About Custom Agents](copilot/concepts/agents/copilot-cli/about-custom-agents.md)
         * [Comparing Git Hub Copilot CLI Customization Features](copilot/concepts/agents/copilot-cli/comparing-cli-features.md)
-        * [Managing context in {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/context-management.md)
         * [Concepts For Git Hub Copilot CLI](copilot/concepts/agents/copilot-cli/index.md)
         * [Using LSP servers with {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/lsp-servers.md)
-        * [Understanding filesystem policies for local sandboxing in {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/understanding-local-sandboxing.md)
       * [About Agent Skills](copilot/concepts/agents/about-agent-skills.md)
       * [About {% data variables.product.prodname_copilot %} plugins](copilot/concepts/agents/about-plugins.md)
-      * [About Git Hub Copilot Memory](copilot/concepts/agents/copilot-memory.md)
       * [About hooks for {% data variables.product.prodname_copilot %}](copilot/concepts/agents/hooks.md)
       * [Concepts For Git Hub Copilot Agents](copilot/concepts/agents/index.md)
     - Billing And Usage
@@ -2095,8 +2093,6 @@
     - Context
       * [Concepts For Providing Context To Git Hub Copilot](copilot/concepts/context/index.md)
       * [About Model Context Protocol MCP](copilot/concepts/context/mcp.md)
-      * [Indexing Repositories For Git Hub Copilot](copilot/concepts/context/repository-indexing.md)
-      * [About Git Hub Copilot Spaces](copilot/concepts/context/spaces.md)
     - Copilot Surfaces
       * [Git Hub Copilot CLI](copilot/concepts/copilot-surfaces/copilot-cli.md)
       * [Git Hub Copilot In ID Es](copilot/concepts/copilot-surfaces/copilot-in-ides.md)
@@ -2122,10 +2118,15 @@
       * [Models For Git Hub Copilot](copilot/concepts/models/index.md)
       * [Models In Git Hub Copilot](copilot/concepts/models/overview.md)
       * [Utility Models](copilot/concepts/models/utility-models.md)
-    - Prompting
-      * [Concepts For Prompting Git Hub Copilot](copilot/concepts/prompting/index.md)
-      * [Prompt Engineering For Git Hub Copilot Chat](copilot/concepts/prompting/prompt-engineering.md)
-      * [About Customizing Git Hub Copilot Responses](copilot/concepts/prompting/response-customization.md)
+    - Prompting And Context
+      * [Managing Context For Git Hub Copilot](copilot/concepts/prompting-and-context/context-management.md)
+      * [About Git Hub Copilot Memory](copilot/concepts/prompting-and-context/copilot-memory.md)
+      * [Custom Instructions For Git Hub Copilot](copilot/concepts/prompting-and-context/custom-instructions.md)
+      * [Prompting And Context For Git Hub Copilot](copilot/concepts/prompting-and-context/index.md)
+      * [Prompt Engineering For Git Hub Copilot](copilot/concepts/prompting-and-context/prompt-engineering.md)
+      * [Prompt Files For Git Hub Copilot](copilot/concepts/prompting-and-context/prompt-files.md)
+      * [Indexing Repositories For Git Hub Copilot](copilot/concepts/prompting-and-context/repository-indexing.md)
+      * [About Git Hub Copilot Spaces](copilot/concepts/prompting-and-context/spaces.md)
     - Security Governance And Network Settings
       * [About cloud and local sandboxes for {% data variables.product.prodname_copilot %}](copilot/concepts/security-governance-and-network-settings/about-cloud-and-local-sandboxes.md)
       * [Content Exclusion For Git Hub Copilot](copilot/concepts/security-governance-and-network-settings/content-exclusion.md)
@@ -2133,6 +2134,7 @@
       * [Network Settings For Git Hub Copilot](copilot/concepts/security-governance-and-network-settings/network-settings.md)
       * [Risks And Mitigations For Git Hub Copilot Cloud Agent](copilot/concepts/security-governance-and-network-settings/risks-and-mitigations.md)
       * [About Git Hub Copilot Session Data](copilot/concepts/security-governance-and-network-settings/session-data.md)
+      * [Understanding filesystem policies for local sandboxing in {% data variables.copilot.copilot_cli %}](copilot/concepts/security-governance-and-network-settings/understanding-local-sandboxing.md)
     * [Concepts For Git Hub Copilot](copilot/concepts/index.md)
   - Copilot On Ghes
     * [About Git Hub Copilot On Git Hub Enterprise Server](copilot/copilot-on-ghes/about-copilot-on-ghes.md)
@@ -2283,7 +2285,6 @@
         * [Changing The AI Model For Git Hub Copilot Chat](copilot/how-tos/copilot-in-your-ide/chat-with-copilot/change-the-chat-model.md)
         * [Asking Git Hub Copilot Questions In Your IDE](copilot/how-tos/copilot-in-your-ide/chat-with-copilot/chat-in-ide.md)
         * [Asking Git Hub Copilot Questions In Windows Terminal](copilot/how-tos/copilot-in-your-ide/chat-with-copilot/chat-in-windows-terminal.md)
-        * [Getting Started With Prompts For Git Hub Copilot Chat In Your IDE](copilot/how-tos/copilot-in-your-ide/chat-with-copilot/get-started-with-chat-in-your-ide.md)
         * [Chat with {% data variables.product.prodname_copilot_short %}](copilot/how-tos/copilot-in-your-ide/chat-with-copilot/index.md)
       - Copilot For Common Tasks
         * [Changing The AI Model For Git Hub Copilot Inline Suggestions](copilot/how-tos/copilot-in-your-ide/copilot-for-common-tasks/change-the-completion-model.md)
@@ -3877,6 +3878,7 @@
     * [REST API Endpoints For Copilot Cloud Agent Management](rest/copilot/copilot-coding-agent-management.md)
     * [REST API Endpoints For Copilot Content Exclusion Management](rest/copilot/copilot-content-exclusion-management.md)
     * [REST API Endpoints For Copilot Custom Agents](rest/copilot/copilot-custom-agents.md)
+    * [REST API Endpoints For Copilot Model Policy Management](rest/copilot/copilot-model-policy-management.md)
     * [REST API Endpoints For Copilot Usage Metrics](rest/copilot/copilot-usage-metrics.md)
     * [REST API Endpoints For Copilot User Management](rest/copilot/copilot-user-management.md)
     * [REST API Endpoints For Copilot](rest/copilot/index.md)
@@ -3911,6 +3913,7 @@
     * [REST API Endpoints For Emojis](rest/emojis/index.md)
   - Enterprise Admin
     * [REST API Endpoints For Admin Stats](rest/enterprise-admin/admin-stats.md)
+    * [REST API Endpoints For Enterprise AI Controls](rest/enterprise-admin/ai-controls.md)
     * [REST API Endpoints For Global Announcements](rest/enterprise-admin/announcement.md)
     * [REST API Endpoints For Enterprise Audit Logs](rest/enterprise-admin/audit-log.md)
     * [REST API Endpoints For Bypass Requests](rest/enterprise-admin/bypass-requests.md)
