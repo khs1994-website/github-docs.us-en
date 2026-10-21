@@ -824,6 +824,9 @@
     - Troubleshooting Storage And Disks
       * [Disk Usage At Or Near Capacity](admin/troubleshooting-your-instance/troubleshooting-storage-and-disks/disk-usage-at-or-near-capacity.md)
       * [Troubleshooting Storage And Disks](admin/troubleshooting-your-instance/troubleshooting-storage-and-disks/index.md)
+    - Troubleshooting Upgrades And Migrations
+      * [Troubleshooting Upgrades And Migrations](admin/troubleshooting-your-instance/troubleshooting-upgrades-and-migrations/index.md)
+      * [Pending Reboot After A Hotpatch](admin/troubleshooting-your-instance/troubleshooting-upgrades-and-migrations/pending-reboot-after-a-hotpatch.md)
     * [Troubleshooting Your Instance](admin/troubleshooting-your-instance/index.md)
   - Upgrading Your Instance
     - Performing An Upgrade
@@ -2062,21 +2065,6 @@
         * [Choosing And Delegating Agent Work](copilot/concepts/agent-capabilities/choosing-and-delegating-agent-work/index.md)
         * [Researching With Agents](copilot/concepts/agent-capabilities/choosing-and-delegating-agent-work/researching-with-agents.md)
       * [Agent Capabilities](copilot/concepts/agent-capabilities/index.md)
-    - Agents
-      - Cloud Agent
-        * [About Custom Agents](copilot/concepts/agents/cloud-agent/about-custom-agents.md)
-        * [Concepts For Git Hub Copilot Cloud Agent](copilot/concepts/agents/cloud-agent/index.md)
-        * [Model Context Protocol MCP And Git Hub Copilot Cloud Agent](copilot/concepts/agents/cloud-agent/mcp-and-cloud-agent.md)
-      - Copilot Cli
-        * [About extensions for {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/about-cli-extensions.md)
-        * [About Custom Agents](copilot/concepts/agents/copilot-cli/about-custom-agents.md)
-        * [Comparing Git Hub Copilot CLI Customization Features](copilot/concepts/agents/copilot-cli/comparing-cli-features.md)
-        * [Concepts For Git Hub Copilot CLI](copilot/concepts/agents/copilot-cli/index.md)
-        * [Using LSP servers with {% data variables.copilot.copilot_cli %}](copilot/concepts/agents/copilot-cli/lsp-servers.md)
-      * [About Agent Skills](copilot/concepts/agents/about-agent-skills.md)
-      * [About {% data variables.product.prodname_copilot %} plugins](copilot/concepts/agents/about-plugins.md)
-      * [About hooks for {% data variables.product.prodname_copilot %}](copilot/concepts/agents/hooks.md)
-      * [Concepts For Git Hub Copilot Agents](copilot/concepts/agents/index.md)
     - Billing And Usage
       - Copilot Usage Metrics
         * [Git Hub Copilot Usage Metrics](copilot/concepts/billing-and-usage/copilot-usage-metrics/index.md)
@@ -2090,15 +2078,22 @@
         * [Billing And Usage For Organizations And Enterprises](copilot/concepts/billing-and-usage/organizations-and-enterprises/index.md)
         * [Git Hub Copilot Seats And Billing Cycles For Organizations And Enterprises](copilot/concepts/billing-and-usage/organizations-and-enterprises/seats-and-billing-cycles.md)
       * [Git Hub Copilot Billing And Usage](copilot/concepts/billing-and-usage/index.md)
-    - Context
-      * [Concepts For Providing Context To Git Hub Copilot](copilot/concepts/context/index.md)
-      * [About Model Context Protocol MCP](copilot/concepts/context/mcp.md)
     - Copilot Surfaces
       * [Git Hub Copilot CLI](copilot/concepts/copilot-surfaces/copilot-cli.md)
       * [Git Hub Copilot In ID Es](copilot/concepts/copilot-surfaces/copilot-in-ides.md)
       * [GitHub Copilot on GitHub.com](copilot/concepts/copilot-surfaces/copilot-on-github.md)
       * [Git Hub Copilot App](copilot/concepts/copilot-surfaces/github-copilot-app.md)
       * [Git Hub Copilot Surfaces](copilot/concepts/copilot-surfaces/index.md)
+    - Customizations
+      * [Agent Skills](copilot/concepts/customizations/agent-skills.md)
+      * [Comparing Copilot Customization Features](copilot/concepts/customizations/comparing-customizations.md)
+      * [Custom Agents](copilot/concepts/customizations/custom-agents.md)
+      * [Extensions For Git Hub Copilot](copilot/concepts/customizations/extensions.md)
+      * [Hooks for {% data variables.product.prodname_copilot %}](copilot/concepts/customizations/hooks.md)
+      * [Customizations For Git Hub Copilot](copilot/concepts/customizations/index.md)
+      * [Using LSP servers with {% data variables.copilot.copilot_cli %}](copilot/concepts/customizations/lsp-servers.md)
+      * [Model Context Protocol MCP](copilot/concepts/customizations/mcp.md)
+      * [Plugins for {% data variables.product.prodname_copilot %}](copilot/concepts/customizations/plugins.md)
     - Enterprise
       * [About Enterprise Accounts For Copilot Business](copilot/concepts/enterprise/about-enterprise-accounts-for-copilot-business.md)
       * [Agent Management For Enterprises](copilot/concepts/enterprise/agent-management.md)
@@ -2388,11 +2383,13 @@
         * [Server To Server Authentication](copilot/how-tos/copilot-sdk/auth/server-to-server-tokens.md)
       - Features
         * [The Agent Loop](copilot/how-tos/copilot-sdk/features/agent-loop.md)
+        * [Changing Tools During A Session](copilot/how-tos/copilot-sdk/features/changing-tools.md)
         * [Citations](copilot/how-tos/copilot-sdk/features/citations.md)
         * [Client Info](copilot/how-tos/copilot-sdk/features/client-info.md)
         * [Cloud Sessions](copilot/how-tos/copilot-sdk/features/cloud-sessions.md)
         * [Context Clearing And Terminal Tools](copilot/how-tos/copilot-sdk/features/context-management.md)
         * [Custom Agents And Sub Agent Orchestration](copilot/how-tos/copilot-sdk/features/custom-agents.md)
+        * [Customization Discovery Locations](copilot/how-tos/copilot-sdk/features/customization-locations.md)
         * [Fleet Mode](copilot/how-tos/copilot-sdk/features/fleet-mode.md)
         * [Working With Hooks](copilot/how-tos/copilot-sdk/features/hooks.md)
         * [Image Input](copilot/how-tos/copilot-sdk/features/image-input.md)
