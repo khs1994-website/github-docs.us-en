@@ -2199,6 +2199,7 @@
         * [Configuring Runners For Git Hub Copilot Cloud Agent In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/configure-runner-for-coding-agent.md)
         * [Enabling Custom Models For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/enable-custom-models.md)
         * [Managing Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/index.md)
+        * [Manage Git Hub Apps That Use Your Organization S Copilot](copilot/how-tos/administer-copilot/manage-for-organization/manage-app-copilot-access.md)
         * [Managing The Availability Of Models In An Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-default-models.md)
         * [Managing Policies And Features For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/manage-policies.md)
         * [Preparing To Use Custom Agents In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/prepare-for-custom-agents.md)
@@ -2969,6 +2970,7 @@
   - Github Cli
     * [About Git Hub CLI](github-cli/github-cli/about-github-cli.md)
     * [Attaching Files With Git Hub CLI](github-cli/github-cli/attaching-files-with-github-cli.md)
+    * [Authenticating With Git Hub CLI](github-cli/github-cli/authenticating-with-github-cli.md)
     * [Creating Git Hub CLI Extensions](github-cli/github-cli/creating-github-cli-extensions.md)
     * [Git Hub CLI Reference](github-cli/github-cli/github-cli-reference.md)
     * [Git Hub CLI Telemetry](github-cli/github-cli/github-cli-telemetry.md)
