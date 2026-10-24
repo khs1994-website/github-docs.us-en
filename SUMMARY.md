@@ -1534,7 +1534,7 @@
         * [Viewing Metrics For Dependabot Alerts](code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-metrics-for-dependabot-alerts.md)
         * [Viewing Code Scanning Metrics For Pull Requests](code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-metrics-for-pull-request-alerts.md)
         * [Viewing metrics for {% data variables.product.prodname_secret_scanning %} push protection](code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-metrics-for-secret-scanning-push-protection.md)
-        * [Viewing Public Monitoring Alerts](code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-public-monitoring-alerts.md)
+        * [Viewing And Managing Public Monitoring Alerts](code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-public-monitoring-alerts.md)
         * [Viewing Security Insights](code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-security-insights.md)
       * [Changing The Used By Data For A Repository](code-security/how-tos/view-and-interpret-data/change-used-by-data.md)
       * [How Tos For Viewing And Interpreting Security Results](code-security/how-tos/view-and-interpret-data/index.md)
