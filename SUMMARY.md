@@ -2561,7 +2561,7 @@
       * [Setting Up And Optimizing Budgets](copilot/tutorials/budgets/index.md)
       * [Optimizing Your Budget Configuration](copilot/tutorials/budgets/optimizing-your-budget-configuration.md)
     - Cloud Agent
-      * [Building Guardrails For Git Hub Copilot Cloud Agent](copilot/tutorials/cloud-agent/build-guardrails.md)
+      * [Building Guardrails For Git Hub Copilot Cloud Agent In Your Enterprise](copilot/tutorials/cloud-agent/build-guardrails.md)
       * [Best Practices For Using Git Hub Copilot To Work On Tasks](copilot/tutorials/cloud-agent/get-the-best-results.md)
       * [Giving Git Hub Copilot Cloud Agent Access To Resources In Your Organization](copilot/tutorials/cloud-agent/give-access-to-resources.md)
       * [Using Git Hub Copilot Cloud Agent To Improve A Project](copilot/tutorials/cloud-agent/improve-a-project.md)
@@ -2652,7 +2652,7 @@
         * [Driving Git Hub Copilot Adoption In Your Company](copilot/tutorials/roll-out-at-scale/enable-developers/drive-adoption.md)
         * [Driving Team Adoption Of Agentic Git Hub Copilot](copilot/tutorials/roll-out-at-scale/enable-developers/drive-team-agentic-adoption.md)
         * [Enabling Developers To Use Git Hub Copilot](copilot/tutorials/roll-out-at-scale/enable-developers/index.md)
-        * [Integrating Agentic AI Into Your Enterprise S Software Development Lifecycle](copilot/tutorials/roll-out-at-scale/enable-developers/integrate-ai-agents.md)
+        * [Planning An AI Agent Rollout In Your Enterprise](copilot/tutorials/roll-out-at-scale/enable-developers/integrate-ai-agents.md)
       - Govern At Scale
         * [Establishing AI Managers In Your Enterprise](copilot/tutorials/roll-out-at-scale/govern-at-scale/establish-ai-managers.md)
         * [Governing Copilot To Support Developer Productivity](copilot/tutorials/roll-out-at-scale/govern-at-scale/govern-for-adoption.md)
@@ -2663,7 +2663,7 @@
       * [Rolling Out Git Hub Copilot At Scale](copilot/tutorials/roll-out-at-scale/index.md)
       * [Measure And Demonstrate The Impact Of Git Hub Copilot](copilot/tutorials/roll-out-at-scale/measure-copilot-impact.md)
       * [Measuring The Success Of A Git Hub Copilot Trial](copilot/tutorials/roll-out-at-scale/measure-success.md)
-    * [Using Hooks With Copilot CLI For Predictable Policy Compliant Execution](copilot/tutorials/copilot-cli-hooks.md)
+    * [Rolling Out Copilot CLI Hooks For Your Teams](copilot/tutorials/copilot-cli-hooks.md)
     * [Creating extensions for {% data variables.copilot.copilot_cli %}](copilot/tutorials/create-an-extension.md)
     * [Using Custom Instructions To Unlock The Power Of Copilot Code Review](copilot/tutorials/customize-code-review.md)
     * [Enhancing Git Hub Copilot Agent Mode With MCP](copilot/tutorials/enhance-agent-mode-with-mcp.md)
@@ -3277,6 +3277,8 @@
       * [Understanding Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/understanding-github-enterprise-importer/index.md)
     * [Using Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/index.md)
   * [Migrations Documentation](migrations/index.md)
+- Mos Diner
+  * [Mo S Diner](mos-diner/index.md)
 - Nonprofit
   - Contributing To Open Source For Good
     * [Adding An Open Source Project](nonprofit/contributing-to-open-source-for-good/adding-an-open-source-project.md)
