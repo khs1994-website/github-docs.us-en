@@ -821,9 +821,15 @@
     - Troubleshooting Github Actions Data And Database Health
       * [Troubleshooting {% data variables.product.prodname_actions %} data and database health](admin/troubleshooting-your-instance/troubleshooting-github-actions-data-and-database-health/index.md)
       * [Truncating MSSQL Transaction Logs](admin/troubleshooting-your-instance/troubleshooting-github-actions-data-and-database-health/truncating-mssql-transaction-logs.md)
+    - Troubleshooting Instance Configuration
+      * [Clock Drift From Unreachable NTP Servers](admin/troubleshooting-your-instance/troubleshooting-instance-configuration/clock-drift-from-unreachable-ntp-servers.md)
+      * [Troubleshooting Instance Configuration](admin/troubleshooting-your-instance/troubleshooting-instance-configuration/index.md)
     - Troubleshooting Storage And Disks
       * [Disk Usage At Or Near Capacity](admin/troubleshooting-your-instance/troubleshooting-storage-and-disks/disk-usage-at-or-near-capacity.md)
       * [Troubleshooting Storage And Disks](admin/troubleshooting-your-instance/troubleshooting-storage-and-disks/index.md)
+    - Troubleshooting Tls And Certificates
+      * [Expired TLS Certificate](admin/troubleshooting-your-instance/troubleshooting-tls-and-certificates/expired-tls-certificate.md)
+      * [Troubleshooting TLS And Certificates](admin/troubleshooting-your-instance/troubleshooting-tls-and-certificates/index.md)
     - Troubleshooting Upgrades And Migrations
       * [Troubleshooting Upgrades And Migrations](admin/troubleshooting-your-instance/troubleshooting-upgrades-and-migrations/index.md)
       * [Pending Reboot After A Hotpatch](admin/troubleshooting-your-instance/troubleshooting-upgrades-and-migrations/pending-reboot-after-a-hotpatch.md)
@@ -2086,6 +2092,7 @@
       * [Git Hub Copilot Surfaces](copilot/concepts/copilot-surfaces/index.md)
     - Customizations
       * [Agent Skills](copilot/concepts/customizations/agent-skills.md)
+      * [Allowing Safe Commands To Run Without Manual Approval](copilot/concepts/customizations/allowing-safe-commands.md)
       * [Comparing Copilot Customization Features](copilot/concepts/customizations/comparing-customizations.md)
       * [Custom Agents](copilot/concepts/customizations/custom-agents.md)
       * [Extensions For Git Hub Copilot](copilot/concepts/customizations/extensions.md)
@@ -3879,6 +3886,7 @@
     * [REST API Endpoints For Copilot Cloud Agent Management](rest/copilot/copilot-coding-agent-management.md)
     * [REST API Endpoints For Copilot Content Exclusion Management](rest/copilot/copilot-content-exclusion-management.md)
     * [REST API Endpoints For Copilot Custom Agents](rest/copilot/copilot-custom-agents.md)
+    * [REST API Endpoints For Copilot Feature Policy Management](rest/copilot/copilot-feature-policy-management.md)
     * [REST API Endpoints For Copilot Model Policy Management](rest/copilot/copilot-model-policy-management.md)
     * [REST API Endpoints For Copilot Usage Metrics](rest/copilot/copilot-usage-metrics.md)
     * [REST API Endpoints For Copilot User Management](rest/copilot/copilot-user-management.md)
@@ -3978,6 +3986,7 @@
     * [REST API Endpoints For Repository Interactions](rest/interactions/repos.md)
     * [REST API Endpoints For User Interactions](rest/interactions/user.md)
   - Issues
+    * [REST API Endpoints For Issue Artifacts](rest/issues/artifacts.md)
     * [REST API Endpoints For Issue Assignees](rest/issues/assignees.md)
     * [REST API Endpoints For Issue Comments](rest/issues/comments.md)
     * [REST API Endpoints For Issue Events](rest/issues/events.md)
