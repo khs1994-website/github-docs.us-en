@@ -768,6 +768,7 @@
       * [Configuring Elasticsearch Cross Cluster Replication For High Availability](admin/monitoring-and-managing-your-instance/configuring-high-availability/elasticsearch-cross-cluster-replication.md)
       * [Configuring High Availability](admin/monitoring-and-managing-your-instance/configuring-high-availability/index.md)
       * [Initiating A Failover To Your Replica Appliance](admin/monitoring-and-managing-your-instance/configuring-high-availability/initiating-a-failover-to-your-replica-appliance.md)
+      * [Managing The Replication Controller](admin/monitoring-and-managing-your-instance/configuring-high-availability/managing-the-replication-controller.md)
       * [Monitoring A High Availability Configuration](admin/monitoring-and-managing-your-instance/configuring-high-availability/monitoring-a-high-availability-configuration.md)
       * [Recovering A High Availability Configuration](admin/monitoring-and-managing-your-instance/configuring-high-availability/recovering-a-high-availability-configuration.md)
       * [Removing A High Availability Replica](admin/monitoring-and-managing-your-instance/configuring-high-availability/removing-a-high-availability-replica.md)
@@ -2895,6 +2896,7 @@
     * [Why Is Git Always Asking For My Credentials](get-started/git-basics/why-is-git-always-asking-for-my-credentials.md)
   - Learning About Github
     * [About Git Hub Advanced Security](get-started/learning-about-github/about-github-advanced-security.md)
+    * [About Git Hub Code Quality](get-started/learning-about-github/about-github-code-quality.md)
     * [Access Permissions On Git Hub](get-started/learning-about-github/access-permissions-on-github.md)
     * [FAQ About Changes To Git Hub S Plans](get-started/learning-about-github/faq-about-changes-to-githubs-plans.md)
     * [Git Hub Glossary](get-started/learning-about-github/github-glossary.md)
