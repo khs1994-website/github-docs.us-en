@@ -3915,6 +3915,7 @@
     * [REST API Endpoints For Copilot Custom Agents](rest/copilot/copilot-custom-agents.md)
     * [REST API Endpoints For Copilot Feature Policy Management](rest/copilot/copilot-feature-policy-management.md)
     * [REST API Endpoints For Copilot Model Policy Management](rest/copilot/copilot-model-policy-management.md)
+    * [REST API Endpoints For Copilot Team Customizations](rest/copilot/copilot-team-customizations.md)
     * [REST API Endpoints For Copilot Usage Metrics](rest/copilot/copilot-usage-metrics.md)
     * [REST API Endpoints For Copilot User Management](rest/copilot/copilot-user-management.md)
     * [REST API Endpoints For Copilot](rest/copilot/index.md)
