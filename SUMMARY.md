@@ -2552,10 +2552,12 @@
       * [Data Available In Copilot Usage Metrics](copilot/reference/copilot-usage-metrics/copilot-usage-metrics.md)
       * [Example Schema For Copilot Usage Metrics](copilot/reference/copilot-usage-metrics/example-schema.md)
       * [Git Hub Copilot Usage Metrics](copilot/reference/copilot-usage-metrics/index.md)
+      * [Industry Comparisons For Copilot Usage Metrics](copilot/reference/copilot-usage-metrics/industry-comparisons.md)
       * [Interpreting Usage And Adoption Metrics For Git Hub Copilot](copilot/reference/copilot-usage-metrics/interpret-copilot-metrics.md)
       * [Lines Of Code Metrics](copilot/reference/copilot-usage-metrics/lines-of-code-metrics.md)
       * [Reconciling Copilot Usage Metrics Across Dashboards AP Is And Reports](copilot/reference/copilot-usage-metrics/reconciling-usage-metrics.md)
       * [Team Level Copilot Usage Metrics](copilot/reference/copilot-usage-metrics/team-level-metrics.md)
+      * [Coverage And Requirements For Copilot Usage Metrics](copilot/reference/copilot-usage-metrics/usage-metrics-coverage.md)
     - Enterprise Administrators
       * [Available Filters For Agent Sessions](copilot/reference/enterprise-administrators/agent-session-filters.md)
       * [Audit Log Events For Agents](copilot/reference/enterprise-administrators/agentic-audit-log-events.md)
