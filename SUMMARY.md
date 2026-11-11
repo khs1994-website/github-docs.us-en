@@ -2564,6 +2564,7 @@
       * [Enterprise Managed Settings](copilot/reference/enterprise-administrators/enterprise-managed-settings.md)
       * [Enterprise Administrators](copilot/reference/enterprise-administrators/index.md)
       * [MCP Private Registry Enforcement](copilot/reference/enterprise-administrators/mcp-private-registry-enforcement.md)
+      * [Open Telemetry Reference](copilot/reference/enterprise-administrators/opentelemetry-reference.md)
       * [Feature Availability When Git Hub Copilot Policies Conflict In Organizations](copilot/reference/enterprise-administrators/policy-conflicts.md)
     - Github Copilot App Reference
       * [Built In Skills For The Git Hub Copilot App](copilot/reference/github-copilot-app-reference/built-in-skills.md)
@@ -3912,6 +3913,7 @@
     * [REST API Endpoints For Commit Statuses](rest/commits/statuses.md)
   - Copilot
     * [REST API Endpoints For Copilot Cloud Agent Repository Management](rest/copilot/copilot-cloud-agent-management.md)
+    * [REST API Endpoints For Copilot Code Review](rest/copilot/copilot-code-review.md)
     * [REST API Endpoints For Copilot Cloud Agent Management](rest/copilot/copilot-coding-agent-management.md)
     * [REST API Endpoints For Copilot Content Exclusion Management](rest/copilot/copilot-content-exclusion-management.md)
     * [REST API Endpoints For Copilot Custom Agents](rest/copilot/copilot-custom-agents.md)
@@ -4084,6 +4086,7 @@
   - Pulls
     * [REST API Endpoints For Agent Merge](rest/pulls/agent-merge.md)
     * [REST API Endpoints For Pull Request Review Comments](rest/pulls/comments.md)
+    * [REST API Endpoints For Copilot Code Review](rest/pulls/copilot-code-review.md)
     * [REST API Endpoints For Pull Requests](rest/pulls/pulls.md)
     * [REST API Endpoints For Review Requests](rest/pulls/review-requests.md)
     * [REST API Endpoints For Pull Request Reviews](rest/pulls/reviews.md)
