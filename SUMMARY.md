@@ -1765,6 +1765,7 @@
       * [Java Package Metadata For Dependabot Updates](code-security/reference/supply-chain-security/java-package-metadata-dependabot.md)
       * [Supported Ecosystems And Manifests For Dependency Scope](code-security/reference/supply-chain-security/supported-ecosystems-and-manifests-for-dependency-scope.md)
       * [Dependabot Supported Ecosystems And Repositories](code-security/reference/supply-chain-security/supported-ecosystems-and-repositories.md)
+      * [Troubleshooting Git Hub Package Firewall](code-security/reference/supply-chain-security/troubleshooting-github-package-firewall.md)
     * [Reference For Security And Code Quality](code-security/reference/index.md)
   - Responsible Use
     * [Responsible use of {% data variables.product.github %}'s security and code quality features](code-security/responsible-use/index.md)
@@ -3552,6 +3553,7 @@
     * [Troubleshooting Custom Domains And Git Hub Pages](pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages.md)
     * [Verifying Your Custom Domain For Git Hub Pages](pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages.md)
   - Getting Started With Github Pages
+    * [About Privately Published Git Hub Pages Sites](pages/getting-started-with-github-pages/about-privately-published-github-pages-sites.md)
     * [Changing The Visibility Of Your Git Hub Pages Site](pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site.md)
     * [Configuring A Publishing Source For Your Git Hub Pages Site](pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site.md)
     * [Creating A Custom 404 Page For Your Git Hub Pages Site](pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site.md)
