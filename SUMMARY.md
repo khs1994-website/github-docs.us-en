@@ -636,6 +636,7 @@
     * [Managing Git Hub Apps For Your Enterprise](admin/managing-github-apps-for-your-enterprise/index.md)
   - Managing Iam
     - Configuring Authentication For Enterprise Managed Users
+      * [About Enterprise Managed Authorization For Apps](admin/managing-iam/configuring-authentication-for-enterprise-managed-users/about-enterprise-managed-authorization.md)
       * [About Support For Your Id P S Conditional Access Policy](admin/managing-iam/configuring-authentication-for-enterprise-managed-users/about-support-for-your-idps-conditional-access-policy.md)
       * [Configuring OIDC For Enterprise Managed Users](admin/managing-iam/configuring-authentication-for-enterprise-managed-users/configuring-oidc-for-enterprise-managed-users.md)
       * [Configuring SAML Single Sign On For Enterprise Managed Users](admin/managing-iam/configuring-authentication-for-enterprise-managed-users/configuring-saml-single-sign-on-for-enterprise-managed-users.md)
@@ -1844,6 +1845,7 @@
     * [Tutorials For Security And Code Quality](code-security/tutorials/index.md)
     * [Secure Your Secrets At Scale With Git Hub](code-security/tutorials/secret-protection-adoption-path.md)
     * [Secret Scanning Partner Program](code-security/tutorials/secret-scanning-partner-program.md)
+    * [Secure Code From An Agent S First Commit To Production](code-security/tutorials/secure-code-from-commit-to-production.md)
   * [Security And Code Quality Documentation](code-security/index.md)
 - Codespaces
   - About Codespaces
@@ -2066,6 +2068,7 @@
         * [Git Hub Agentic Workflows](copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-github-agentic-workflows.md)
         * [Remote control of {% data variables.copilot.copilot_cli %} sessions](copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-remote-control.md)
         * [Allowing Git Hub Copilot To Work Autonomously](copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/autopilot.md)
+        * [About Browser Use In Git Hub Copilot](copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/browser-use.md)
         * [Git Hub Copilot Code Review](copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/code-review.md)
         * [About Computer Use In Git Hub Copilot](copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/computer-use.md)
         * [Copilot CLI In Git Hub Actions](copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/copilot-cli-in-github-actions.md)
@@ -2237,6 +2240,7 @@
       * [Managing Requests For Additional Copilot Budget](copilot/how-tos/administer-copilot/manage-budget-requests.md)
       * [Viewing The Code Generation Dashboard](copilot/how-tos/administer-copilot/view-code-generation.md)
       * [Viewing The Copilot Impact Dashboard](copilot/how-tos/administer-copilot/view-impact-dashboard.md)
+      * [Viewing Repository Insights](copilot/how-tos/administer-copilot/view-repository-insights.md)
       * [Viewing The Copilot Usage Metrics Dashboard](copilot/how-tos/administer-copilot/view-usage-and-adoption.md)
     - Cloud And Local Sandboxes
       * [Configuring Local Sandbox Settings](copilot/how-tos/cloud-and-local-sandboxes/configuring-local-sandbox-settings.md)
@@ -2278,6 +2282,7 @@
         * [Allowing And Denying Tool Use](copilot/how-tos/copilot-cli/use-copilot-cli/allowing-tools.md)
         * [Asking a side question in {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli/ask-a-side-question.md)
         * [Browsing issues, pull requests, and gists from {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli/browse-issues-prs-gists.md)
+        * [Using Git Hub Copilot CLI To Interact With Your Browser](copilot/how-tos/copilot-cli/use-copilot-cli/browser-use.md)
         * [Choosing a model in {% data variables.copilot.copilot_cli %}](copilot/how-tos/copilot-cli/use-copilot-cli/choose-a-model.md)
         * [Using {% data variables.copilot.copilot_cli %} session data](copilot/how-tos/copilot-cli/use-copilot-cli/chronicle.md)
         * [Using Git Hub Copilot CLI To Interact With Desktop Applications](copilot/how-tos/copilot-cli/use-copilot-cli/computer-use.md)
@@ -2333,6 +2338,7 @@
         * [Set up {% data variables.product.prodname_copilot_short %}](copilot/how-tos/copilot-in-your-ide/set-up-copilot/index.md)
         * [Installing The Git Hub Copilot Extension In Your Environment](copilot/how-tos/copilot-in-your-ide/set-up-copilot/install-copilot-extension.md)
       - Use Copilot Agents
+        * [Using Git Hub Copilot In Your IDE To Interact With Your Browser](copilot/how-tos/copilot-in-your-ide/use-copilot-agents/browser-use.md)
         * [Use {% data variables.product.prodname_copilot_short %} agents](copilot/how-tos/copilot-in-your-ide/use-copilot-agents/index.md)
         * [Using Agent Mode In Your IDE](copilot/how-tos/copilot-in-your-ide/use-copilot-agents/use-agent-mode.md)
         * [Using Copilot Cloud Agent In Your IDE](copilot/how-tos/copilot-in-your-ide/use-copilot-agents/use-cloud-agent-in-your-ide.md)
@@ -2472,10 +2478,12 @@
     - Github Copilot App
       * [Adding LLM Models To The Git Hub Copilot App](copilot/how-tos/github-copilot-app/add-llm-models.md)
       * [Working With Agent Sessions In The Git Hub Copilot App](copilot/how-tos/github-copilot-app/agent-sessions.md)
+      * [Using The Git Hub Copilot App To Interact With Your Browser](copilot/how-tos/github-copilot-app/browser-use.md)
       * [Choosing a model in the {% data variables.copilot.github_copilot_app_short %}](copilot/how-tos/github-copilot-app/choose-a-model.md)
       * [Using The Git Hub Copilot App To Interact With Desktop Applications](copilot/how-tos/github-copilot-app/computer-use.md)
       * [Customizing The Git Hub Copilot App](copilot/how-tos/github-copilot-app/customize-github-copilot-app.md)
       * [{% data variables.copilot.github_copilot_app %}](copilot/how-tos/github-copilot-app/index.md)
+      * [Managing Azure Dev Ops Work With The Git Hub Copilot App](copilot/how-tos/github-copilot-app/manage-azure-devops-work.md)
       * [Managing Issues And Pull Requests With The Git Hub Copilot App](copilot/how-tos/github-copilot-app/managing-issues-and-pull-requests.md)
       * [Using Deep Links To Open The Git Hub Copilot App](copilot/how-tos/github-copilot-app/open-with-deep-links.md)
       * [Using Automations In The Git Hub Copilot App](copilot/how-tos/github-copilot-app/using-automations.md)
@@ -2559,6 +2567,7 @@
       * [Interpreting Usage And Adoption Metrics For Git Hub Copilot](copilot/reference/copilot-usage-metrics/interpret-copilot-metrics.md)
       * [Lines Of Code Metrics](copilot/reference/copilot-usage-metrics/lines-of-code-metrics.md)
       * [Reconciling Copilot Usage Metrics Across Dashboards AP Is And Reports](copilot/reference/copilot-usage-metrics/reconciling-usage-metrics.md)
+      * [Repository Insights Metrics](copilot/reference/copilot-usage-metrics/repository-insights-metrics.md)
       * [Team Level Copilot Usage Metrics](copilot/reference/copilot-usage-metrics/team-level-metrics.md)
       * [Coverage And Requirements For Copilot Usage Metrics](copilot/reference/copilot-usage-metrics/usage-metrics-coverage.md)
     - Enterprise Administrators
@@ -3087,6 +3096,8 @@
     * [Teams](graphql/reference/teams.md)
     * [Users](graphql/reference/users.md)
   * [Git Hub Graph QL API Documentation](graphql/index.md)
+- Ignite 26
+  * [Chez Mona](ignite26/index.md)
 - Integrations
   - Concepts
     * [About Building Integrations](integrations/concepts/about-building-integrations.md)
@@ -3107,6 +3118,7 @@
       * [Scheduling Pull Request Reminders In Teams](integrations/how-tos/teams/schedule-reminders.md)
       * [Using {% data variables.product.github %} in Teams](integrations/how-tos/teams/use-github-in-teams.md)
     * [How Tos For Git Hub Integrations](integrations/how-tos/index.md)
+    * [Using Git Hub Event Streams](integrations/how-tos/using-github-event-streams.md)
   - Reference
     * [Reference for {% data variables.product.github %} integrations](integrations/reference/index.md)
     * [Permissions For Git Hub In Slack](integrations/reference/slack-permissions.md)
@@ -4114,6 +4126,7 @@
     * [REST API Endpoints For Repositories](rest/repos/repos.md)
     * [REST API Endpoints For Issue Types](rest/repos/issue-types.md)
     * [REST API Endpoints For Git LFS](rest/repos/lfs.md)
+    * [REST API Endpoints For Planning Statuses](rest/repos/planning-statuses.md)
     * [REST API Endpoints For Rule Suites](rest/repos/rule-suites.md)
     * [REST API Endpoints For Rules](rest/repos/rules.md)
     * [REST API Endpoints For Repository Tags](rest/repos/tags.md)
