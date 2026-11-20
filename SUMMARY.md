@@ -758,6 +758,7 @@
       * [Initiating A Failover To Your Replica Cluster](admin/monitoring-and-managing-your-instance/configuring-clustering/initiating-a-failover-to-your-replica-cluster.md)
       * [Monitoring The Health Of Your Cluster Nodes With Node Eligibility Service](admin/monitoring-and-managing-your-instance/configuring-clustering/monitoring-the-health-of-your-cluster-nodes-with-node-eligibility-service.md)
       * [Monitoring The Health Of Your Cluster](admin/monitoring-and-managing-your-instance/configuring-clustering/monitoring-the-health-of-your-cluster.md)
+      * [Moving Redis To A Dedicated Cluster Node](admin/monitoring-and-managing-your-instance/configuring-clustering/moving-redis-to-a-dedicated-cluster-node.md)
       * [Rebalancing Cluster Workloads](admin/monitoring-and-managing-your-instance/configuring-clustering/rebalancing-cluster-workloads.md)
       * [Replacing A Cluster Node](admin/monitoring-and-managing-your-instance/configuring-clustering/replacing-a-cluster-node.md)
       * [Upgrading A Cluster](admin/monitoring-and-managing-your-instance/configuring-clustering/upgrading-a-cluster.md)
@@ -827,6 +828,9 @@
     - Troubleshooting Instance Configuration
       * [Clock Drift From Unreachable NTP Servers](admin/troubleshooting-your-instance/troubleshooting-instance-configuration/clock-drift-from-unreachable-ntp-servers.md)
       * [Troubleshooting Instance Configuration](admin/troubleshooting-your-instance/troubleshooting-instance-configuration/index.md)
+    - Troubleshooting Search Webhooks And Background Jobs
+      * [Troubleshooting Search Webhooks And Background Jobs](admin/troubleshooting-your-instance/troubleshooting-search-webhooks-and-background-jobs/index.md)
+      * [Webhook Deliveries Stuck In The Job Queue](admin/troubleshooting-your-instance/troubleshooting-search-webhooks-and-background-jobs/webhook-deliveries-stuck-in-the-job-queue.md)
     - Troubleshooting Storage And Disks
       * [Disk Usage At Or Near Capacity](admin/troubleshooting-your-instance/troubleshooting-storage-and-disks/disk-usage-at-or-near-capacity.md)
       * [Troubleshooting Storage And Disks](admin/troubleshooting-your-instance/troubleshooting-storage-and-disks/index.md)
@@ -2838,39 +2842,6 @@
     * [Managing Your Submissions To Git Hub Community Exchange](education/contribute-with-github-community-exchange/managing-your-submissions-to-github-community-exchange.md)
     * [Submitting Your Repository To Git Hub Community Exchange](education/contribute-with-github-community-exchange/submitting-your-repository-to-github-community-exchange.md)
   - Manage Coursework With Github Classroom
-    - Get Started With Github Classroom
-      * [About Git Hub Classroom](education/manage-coursework-with-github-classroom/get-started-with-github-classroom/about-github-classroom.md)
-      * [Export Or Migrate Git Hub Classroom Data](education/manage-coursework-with-github-classroom/get-started-with-github-classroom/export-or-migrate-github-classroom-data.md)
-      * [Glossary](education/manage-coursework-with-github-classroom/get-started-with-github-classroom/glossary.md)
-      * [Get Started With Git Hub Classroom](education/manage-coursework-with-github-classroom/get-started-with-github-classroom/index.md)
-    - Integrate Github Classroom With An Ide
-      * [About Using Make Code Arcade With Git Hub Classroom](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/about-using-makecode-arcade-with-github-classroom.md)
-      * [About Using Visual Studio Code With Git Hub Classroom](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/about-using-visual-studio-code-with-github-classroom.md)
-      * [Integrate Git Hub Classroom With An IDE](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/integrate-github-classroom-with-an-ide.md)
-      * [Repl.it with GitHub Classroom](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/replit-with-github-classroom.md)
-      * [Run Student Code In An IDE](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/run-student-code-in-an-ide.md)
-      * [Using Git Hub Codespaces With Git Hub Classroom](education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/using-github-codespaces-with-github-classroom.md)
-    - Learn With Github Classroom
-      * [Learn With Git Hub Classroom](education/manage-coursework-with-github-classroom/learn-with-github-classroom/index.md)
-      * [View Autograding Results](education/manage-coursework-with-github-classroom/learn-with-github-classroom/view-autograding-results.md)
-      * [Viewing Your Assignment S Deadline](education/manage-coursework-with-github-classroom/learn-with-github-classroom/viewing-your-assignments-deadline.md)
-    - Teach With Github Classroom
-      * [About Assignments](education/manage-coursework-with-github-classroom/teach-with-github-classroom/about-assignments.md)
-      * [Connect A Learning Management System Course To A Classroom](education/manage-coursework-with-github-classroom/teach-with-github-classroom/connect-a-learning-management-system-course-to-a-classroom.md)
-      * [Create A Group Assignment](education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-a-group-assignment.md)
-      * [Create An Assignment From A Template Repository](education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-assignment-from-a-template-repository.md)
-      * [Create An Individual Assignment](education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-individual-assignment.md)
-      * [Editing An Assignment](education/manage-coursework-with-github-classroom/teach-with-github-classroom/editing-an-assignment.md)
-      * [Extending An Assignment S Deadline For An Individual Or Group](education/manage-coursework-with-github-classroom/teach-with-github-classroom/extending-an-assignments-deadline-for-an-individual-or-group.md)
-      * [Teach With Git Hub Classroom](education/manage-coursework-with-github-classroom/teach-with-github-classroom/index.md)
-      * [Leave Feedback With Pull Requests](education/manage-coursework-with-github-classroom/teach-with-github-classroom/leave-feedback-with-pull-requests.md)
-      * [Manage Classrooms](education/manage-coursework-with-github-classroom/teach-with-github-classroom/manage-classrooms.md)
-      * [Monitor Students Progress With The Assignment Overview Page](education/manage-coursework-with-github-classroom/teach-with-github-classroom/monitor-students-progress-with-the-assignment-overview-page.md)
-      * [Register A Learning Management System With Git Hub Classroom](education/manage-coursework-with-github-classroom/teach-with-github-classroom/register-a-learning-management-system-with-github-classroom.md)
-      * [Reuse An Assignment](education/manage-coursework-with-github-classroom/teach-with-github-classroom/reuse-an-assignment.md)
-      * [Use Autograding](education/manage-coursework-with-github-classroom/teach-with-github-classroom/use-autograding.md)
-      * [Use The Git And Git Hub Starter Assignment](education/manage-coursework-with-github-classroom/teach-with-github-classroom/use-the-git-and-github-starter-assignment.md)
-      * [Using {% data variables.product.prodname_classroom %} with {% data variables.product.prodname_cli %}](education/manage-coursework-with-github-classroom/teach-with-github-classroom/using-github-classroom-with-github-cli.md)
     * [Manage Coursework With Git Hub Classroom](education/manage-coursework-with-github-classroom/index.md)
   * [Guides For Git Hub Education](education/guides.md)
   * [{% data variables.product.prodname_education %} documentation](education/index.md)
@@ -3240,26 +3211,17 @@
     * [Viewing Your Milestone S Progress](issues/using-labels-and-milestones-to-track-work/viewing-your-milestones-progress.md)
   * [{% data variables.product.prodname_github_issues %} documentation](issues/index.md)
 - Migrations
-  - Ado
-    * [Follow Up Tasks](migrations/ado/follow-up-tasks.md)
-    * [Granting The Migrator Role](migrations/ado/granting-the-migrator-role.md)
-    * [Migrating From Azure Dev Ops](migrations/ado/index.md)
-    * [Install And Configure Git Hub Enterprise Importer](migrations/ado/install-and-configure-github-enterprise-importer.md)
-    * [Key Differences Between Azure Dev Ops And Git Hub](migrations/ado/key-differences-between-azure-devops-and-github.md)
-    * [Manage Access](migrations/ado/manage-access.md)
-    * [Migrate Your Repositories From Azure Dev Ops To Git Hub](migrations/ado/migrate-your-repositories-from-azure-devops-to-github.md)
-    * [Prepare For Your Migration From Azure Dev Ops To Git Hub](migrations/ado/prepare-for-your-migration-from-azure-devops-to-github.md)
-    * [Understand Migrations From Azure Dev Ops To Git Hub](migrations/ado/understand-migrations-from-azure-devops-to-github.md)
-    * [Use Graph QL To Migrate Repositories From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/ado/use-graphql-to-migrate-repositories-from-azure-devops-to-github-enterprise-cloud.md)
   - Elm
-    * [About live migrations from GitHub Enterprise Server to GHE.com](migrations/elm/about-live-migrations.md)
-    * [Completing your live migration from GitHub Enterprise Server to GHE.com](migrations/elm/complete-your-migration.md)
-    * [Enterprise Live Migrations CLI Reference](migrations/elm/elm-cli-reference.md)
-    * [Live migrations from GitHub Enterprise Server to GHE.com](migrations/elm/index.md)
-    * [Migrating Your Repository With Enterprise Live Migrations](migrations/elm/migrate-your-repository.md)
-    * [Migrated data for live migrations from GitHub Enterprise Server to GHE.com](migrations/elm/migrated-data-reference.md)
-    * [Preparing for your live migration from GitHub Enterprise Server to GHE.com](migrations/elm/prepare-for-your-migration.md)
-    * [Troubleshooting live migrations from GitHub Enterprise Server to GHE.com](migrations/elm/troubleshooting.md)
+    - Ghes To Ghecom
+      * [Completing your live migration from GitHub Enterprise Server to GHE.com](migrations/elm/ghes-to-ghecom/complete-your-migration.md)
+      * [Enterprise Live Migrations CLI Reference](migrations/elm/ghes-to-ghecom/elm-cli-reference.md)
+      * [Live migrations from GitHub Enterprise Server to GHE.com](migrations/elm/ghes-to-ghecom/index.md)
+      * [Migrating Your Repository With Enterprise Live Migrations](migrations/elm/ghes-to-ghecom/migrate-your-repository.md)
+      * [Migrated data for live migrations from GitHub Enterprise Server to GHE.com](migrations/elm/ghes-to-ghecom/migrated-data-reference.md)
+      * [Preparing for your live migration from GitHub Enterprise Server to GHE.com](migrations/elm/ghes-to-ghecom/prepare-for-your-migration.md)
+      * [Troubleshooting live migrations from GitHub Enterprise Server to GHE.com](migrations/elm/ghes-to-ghecom/troubleshooting.md)
+    * [About Live Migrations](migrations/elm/about-live-migrations.md)
+    * [Live Migrations](migrations/elm/index.md)
   - Importing Source Code
     - Using Github Importer
       * [About Git Hub Importer](migrations/importing-source-code/using-github-importer/about-github-importer.md)
@@ -3295,6 +3257,17 @@
     * [Using Ghe Migrator](migrations/using-ghe-migrator/index.md)
     * [Migrating Data To Git Hub Enterprise Server](migrations/using-ghe-migrator/migrating-data-to-github-enterprise-server.md)
   - Using Github Enterprise Importer
+    - Ado
+      * [Follow Up Tasks](migrations/using-github-enterprise-importer/ado/follow-up-tasks.md)
+      * [Granting The Migrator Role](migrations/using-github-enterprise-importer/ado/granting-the-migrator-role.md)
+      * [Migrating From Azure Dev Ops](migrations/using-github-enterprise-importer/ado/index.md)
+      * [Install And Configure Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/ado/install-and-configure-github-enterprise-importer.md)
+      * [Key Differences Between Azure Dev Ops And Git Hub](migrations/using-github-enterprise-importer/ado/key-differences-between-azure-devops-and-github.md)
+      * [Manage Access](migrations/using-github-enterprise-importer/ado/manage-access.md)
+      * [Migrate Your Repositories From Azure Dev Ops To Git Hub](migrations/using-github-enterprise-importer/ado/migrate-your-repositories-from-azure-devops-to-github.md)
+      * [Prepare For Your Migration From Azure Dev Ops To Git Hub](migrations/using-github-enterprise-importer/ado/prepare-for-your-migration-from-azure-devops-to-github.md)
+      * [Understand Migrations From Azure Dev Ops To Git Hub](migrations/using-github-enterprise-importer/ado/understand-migrations-from-azure-devops-to-github.md)
+      * [Use Graph QL To Migrate Repositories From Azure Dev Ops To Git Hub Enterprise Cloud](migrations/using-github-enterprise-importer/ado/use-graphql-to-migrate-repositories-from-azure-devops-to-github-enterprise-cloud.md)
     - Completing Your Migration With Github Enterprise Importer
       * [Accessing Your Migration Logs For Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/completing-your-migration-with-github-enterprise-importer/accessing-your-migration-logs-for-github-enterprise-importer.md)
       * [Completing Your Migration With Git Hub Enterprise Importer](migrations/using-github-enterprise-importer/completing-your-migration-with-github-enterprise-importer/index.md)
