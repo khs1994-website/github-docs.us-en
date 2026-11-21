@@ -822,6 +822,9 @@
     * [Setting Up A Trial Of Git Hub Enterprise Server](admin/overview/setting-up-a-trial-of-github-enterprise-server.md)
     * [System Overview](admin/overview/system-overview.md)
   - Troubleshooting Your Instance
+    - Troubleshooting Github Actions Configuration And Services
+      * [Troubleshooting {% data variables.product.prodname_actions %} configuration and services](admin/troubleshooting-your-instance/troubleshooting-github-actions-configuration-and-services/index.md)
+      * [{% data variables.product.prodname_actions %} failures from a stalled notification task](admin/troubleshooting-your-instance/troubleshooting-github-actions-configuration-and-services/stalled-notification-task.md)
     - Troubleshooting Github Actions Data And Database Health
       * [Troubleshooting {% data variables.product.prodname_actions %} data and database health](admin/troubleshooting-your-instance/troubleshooting-github-actions-data-and-database-health/index.md)
       * [Truncating MSSQL Transaction Logs](admin/troubleshooting-your-instance/troubleshooting-github-actions-data-and-database-health/truncating-mssql-transaction-logs.md)
@@ -2757,6 +2760,7 @@
     * [Setting Up Git Hub Desktop](desktop/installing-and-authenticating-to-github-desktop/setting-up-github-desktop.md)
     * [Uninstalling Git Hub Desktop](desktop/installing-and-authenticating-to-github-desktop/uninstalling-github-desktop.md)
     * [Updating Git Hub Desktop](desktop/installing-and-authenticating-to-github-desktop/updating-github-desktop.md)
+    * [Using Multiple Accounts In Git Hub Desktop](desktop/installing-and-authenticating-to-github-desktop/using-multiple-accounts-in-github-desktop.md)
   - Making Changes In A Branch
     * [Committing And Reviewing Changes To Your Project In Git Hub Desktop](desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project-in-github-desktop.md)
     * [Making Changes In A Branch](desktop/making-changes-in-a-branch/index.md)
