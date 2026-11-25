@@ -2230,6 +2230,7 @@
           * [Reviewing Activity Related To Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/review-activity/index.md)
           * [Reviewing User Activity Data For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/review-activity/review-user-activity-data.md)
         * [Configuring Runners For Git Hub Copilot Cloud Agent In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/configure-runner-for-coding-agent.md)
+        * [Enabling Git Hub Copilot Code Review In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/enable-copilot-code-review.md)
         * [Enabling Custom Models For Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/enable-custom-models.md)
         * [Managing Git Hub Copilot In Your Organization](copilot/how-tos/administer-copilot/manage-for-organization/index.md)
         * [Manage Git Hub Apps That Use Your Organization S Copilot](copilot/how-tos/administer-copilot/manage-for-organization/manage-app-copilot-access.md)
