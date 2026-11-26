@@ -3183,6 +3183,7 @@
       * [Transferring An Issue To Another Repository](issues/tracking-your-work-with-issues/administering-issues/transferring-an-issue-to-another-repository.md)
       * [Triaging An Issue With AI](issues/tracking-your-work-with-issues/administering-issues/triaging-an-issue-with-ai.md)
     - Learning About Issues
+      * [About Issue Statuses](issues/tracking-your-work-with-issues/learning-about-issues/about-issue-statuses.md)
       * [About Issues](issues/tracking-your-work-with-issues/learning-about-issues/about-issues.md)
       * [Learning About Issues](issues/tracking-your-work-with-issues/learning-about-issues/index.md)
       * [Planning And Tracking Work For Your Team Or Project](issues/tracking-your-work-with-issues/learning-about-issues/planning-and-tracking-work-for-your-team-or-project.md)
