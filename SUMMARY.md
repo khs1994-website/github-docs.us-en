@@ -351,6 +351,7 @@
         * [Migrating From Jenkins To Git Hub Actions](actions/tutorials/migrate-to-github-actions/manual-migrations/migrate-from-jenkins.md)
         * [Migrating From Travis CI To Git Hub Actions](actions/tutorials/migrate-to-github-actions/manual-migrations/migrate-from-travis-ci.md)
       * [Migrating To Git Hub Actions](actions/tutorials/migrate-to-github-actions/index.md)
+      * [Migrating Your Enterprise To Git Hub Actions](actions/tutorials/migrate-to-github-actions/migrate-an-enterprise.md)
     - Publish Packages
       * [Publishing Packages](actions/tutorials/publish-packages/index.md)
       * [Publishing Docker Images](actions/tutorials/publish-packages/publish-docker-images.md)
@@ -620,7 +621,6 @@
       * [Getting Started With Self Hosted Runners For Your Enterprise](admin/managing-github-actions-for-your-enterprise/getting-started-with-github-actions-for-your-enterprise/getting-started-with-self-hosted-runners-for-your-enterprise.md)
       * [Getting Started With Git Hub Actions For Your Enterprise](admin/managing-github-actions-for-your-enterprise/getting-started-with-github-actions-for-your-enterprise/index.md)
       * [Introducing Git Hub Actions To Your Enterprise](admin/managing-github-actions-for-your-enterprise/getting-started-with-github-actions-for-your-enterprise/introducing-github-actions-to-your-enterprise.md)
-      * [Migrating Your Enterprise To Git Hub Actions](admin/managing-github-actions-for-your-enterprise/getting-started-with-github-actions-for-your-enterprise/migrating-your-enterprise-to-github-actions.md)
     - Managing Access To Actions From Githubcom
       * [About Using Actions In Your Enterprise](admin/managing-github-actions-for-your-enterprise/managing-access-to-actions-from-githubcom/about-using-actions-in-your-enterprise.md)
       * [Enabling automatic access to GitHub.com actions using GitHub Connect](admin/managing-github-actions-for-your-enterprise/managing-access-to-actions-from-githubcom/enabling-automatic-access-to-githubcom-actions-using-github-connect.md)
